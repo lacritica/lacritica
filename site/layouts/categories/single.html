@@ -1,0 +1,45 @@
+{{/* Show posts belonging to the current taxonomy term */}}
+{{ $pages := .Pages.ByDate.Reverse }}
+{{ $secondaryPosts := first 6 $pages }}
+
+<section class="secondary-grid">
+  {{ range $secondaryPosts }}
+    <article class="article">
+      {{ with .Params.thumbnail }}
+        <div class="featured-thumbnail">
+          <img src="{{ relURL . }}" alt="Featured Image"/>
+        </div>
+      {{ end }}
+
+      <div class="article-content">
+        <div class="categories">
+          {{ with .Params.categories }}
+            {{ range first 1 . }}
+              <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
+            {{ end }}
+          {{ else }}
+            <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
+          {{ end }}
+        </div>
+
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+
+        {{ if .Params.author }}
+          <div class="author">{{ partial "author_names.html" . }}</div>
+        {{ end }}
+
+        <div class="summary">
+          {{ with .Description }}{{ . | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+        </div>
+
+        <div class="date">
+          {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
+          {{ $day := .Date.Day }}
+          {{ $month := index $months (printf "%d" .Date.Month) }}
+          {{ $year := .Date.Year }}
+          {{ printf "%d de %s de %d" $day $month $year }}
+        </div>
+      </div>
+    </article>
+  {{ end }}
+</section>
