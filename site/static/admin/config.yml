@@ -47,10 +47,10 @@ collections:
           - "Roberto Gargarella"
       - label: "Thumbnail"
         name: "thumbnail"
-        widget: "thumbnail"
+        widget: "images"
         required: false
         media_folder: "site/static/img"
-        public_folder: "/img"
+        public_folder: "img"
       - label: "Highlight"
         name: "highlight"
         widget: "boolean"
