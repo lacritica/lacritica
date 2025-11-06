@@ -3,7 +3,7 @@ backend:
   branch: main
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "/img"
+public_folder: "img"
 
 collections:
   - name: "post"
@@ -17,7 +17,7 @@ collections:
 
     # Override image upload paths for this collection
     media_folder: "site/static/img"
-    public_folder: "/img"
+    public_folder: "img"
 
     fields:
       - {label: "Title", name: "title", widget: "string"}
@@ -45,9 +45,9 @@ collections:
           - "Sebastián Guidi"
           - "Gustavo Arballo"
           - "Roberto Gargarella"
-      - label: "Image"
-        name: "image"
-        widget: "image"
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "thumbnail"
         required: false
         media_folder: "site/static/img"
         public_folder: "/img"
