@@ -338,6 +338,14 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 1.5rem;
 }
 
+.footer-social a img {
+  width: 44px;    /* adjust as needed */
+  height: 44px;   /* keep square if logos are square */
+  margin-right: 50px;  /* space between icons */
+  padding: 2px;
+  vertical-align: middle; /* aligns with text if needed */
+}
+
 /* Responsive behavior */
 
 /* ---------- Fixed column breakpoints for .list ---------- */
@@ -527,8 +535,11 @@ main { margin-bottom: 15px; }
 .pagination li, .terms li { display: inline; }
 .pagination a { padding: 0 .2em; }
 .footer {
+  margin-top: 2.5rem;
   background: #666;
-  padding: 1em 0;
+  padding: 2em 0;
+  font-size: 1.2rem;
+}
 }
 .footer, .footer a { color: #fff; }
 .copyright, .copyright a { color: #ccc; }

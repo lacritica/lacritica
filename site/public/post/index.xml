@@ -6,14 +6,21 @@
     <description>Recent content in Posts on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Nov 2025 14:27:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 19:05:10 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Otra Prueba</title>
+      <link>//localhost:1313/post/otra-prueba/</link>
+      <pubDate>Thu, 06 Nov 2025 19:05:10 +0000</pubDate>
+      <guid>//localhost:1313/post/otra-prueba/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;CONSTITUCION DE LA NACION ARGENTINA&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PREÁMBULO&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h6 id=&#34;nos-los-representantes-del-pueblo-de-la-nación-argentina-reunidos-en-congreso-general-constituyente-por-voluntad-y-elección-de-las-provincias-que-la-componen-en-cumplimiento-de-pactos-preexistentes-con-el-objeto-de-constituir-la-unión-nacional-afianzar-la-justicia-consolidar-la-paz-interior-proveer-a-la-defensa-común-promover-el-bienestar-general-y-asegurar-los-beneficios-de-la-libertad-para-nosotros-para-nuestra-posteridad-y-para-todos-los-hombres-del-mundo-que-quieran-habitar-en-el-suelo-argentino-invocando-la-protección-de-dios-fuente-de-toda-razón-y-justicia-ordenamos-decretamos-y-establecemos-esta-constitución-para-la-nación-argentina&#34;&gt;Nos los representantes del pueblo de la Nación Argentina, reunidos en Congreso General Constituyente por voluntad y elección de las provincias que la componen, en cumplimiento de pactos preexistentes, con el objeto de constituir la unión nacional, afianzar la justicia, consolidar la paz interior, proveer a la defensa común, promover el bienestar general, y asegurar los beneficios de la libertad, para nosotros, para nuestra posteridad, y para todos los hombres del mundo que quieran habitar en el suelo argentino: invocando la protección de Dios, fuente de toda razón y justicia: ordenamos, decretamos y establecemos esta Constitución, para la Nación Argentina.&lt;/h6&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;primera-parte&#34;&gt;PRIMERA PARTE&lt;/h1&gt;&#xA;&lt;p&gt;Capítulo Primero&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Prueba destacado</title>
       <link>//localhost:1313/post/prueba-destacado/</link>
       <pubDate>Thu, 06 Nov 2025 14:27:22 +0000</pubDate>
       <guid>//localhost:1313/post/prueba-destacado/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/icon-dublin.png&#34; alt=&#34;&#34; title=&#34;convocatoria&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Yay, DCMS works</title>

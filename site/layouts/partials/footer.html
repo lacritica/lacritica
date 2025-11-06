@@ -8,6 +8,23 @@
     <li><a href="{{ .URL | relURL }}"><span data-hover="{{ .Name }}">{{ .Name }}</span></a></li>
     {{ end }}
   </ul>
+
+     <!-- Custom footer text -->
+    <div class="footer-text">
+      @ 2025 La Crítica del Derecho Colectivo Crítico
+    </div>
+    <br>
+
+    <!-- Social links -->
+    <div class="footer-social">
+      <a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter">
+        <img src="{{ "img/twitter.svg" | relURL }}" alt="Twitter logo">
+      </a>
+      <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+        <img src="{{ "img/instagram.svg" | relURL }}" alt="Instagram logo">
+      </a>
+    </div>
+
   {{ with .Site.Params.footer }}
   <div class="copyright">{{ . | markdownify }}</div>
   {{ end }}
