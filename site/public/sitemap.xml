@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/debates/</loc>
+    <loc>/categories/debates/</loc>
     <lastmod>2025-11-04T19:12:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/</loc>
     <lastmod>2025-11-04T19:12:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2025-11-04T19:12:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/yay-dcms-works/</loc>
+    <loc>/post/yay-dcms-works/</loc>
     <lastmod>2025-11-04T19:12:29+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/destacado/</loc>
+    <loc>/post/destacado/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ensayos/</loc>
+    <loc>/categories/ensayos/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test3/</loc>
+    <loc>/post/test3/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/new_post/</loc>
+    <loc>/post/new_post/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2/</loc>
+    <loc>/post/test2/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test1/</loc>
+    <loc>/post/test1/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test4/</loc>
+    <loc>/post/test4/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/rese%C3%B1as/</loc>
+    <loc>/categories/rese%C3%B1as/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/simposios/</loc>
+    <loc>/categories/simposios/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>/authors/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/sebastian-guidi/</loc>
+    <loc>/authors/sebastian-guidi/</loc>
   </url>
 </urlset>
