@@ -7,12 +7,13 @@ public_folder: "img"
 
 collections:
   - name: "post"
-    label: "Post"
+    label: "Posts"
     folder: "site/content/post"
     create: true
     format: "frontmatter"
     extension: "md"
     slug: "{{slug}}"
+    path: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
@@ -20,16 +21,22 @@ collections:
         name: "description"
         widget: "string"
         hint: "Short summary (max 124 characters)"
-        pattern: ['^.{0,124}$', "Description must be 124 characters or fewer"]
+        pattern:
+          - "^.{0,124}$"
+          - "Description must be 124 characters or fewer"
       - label: "Category"
         name: "categories"
         widget: "select"
-        multiple: false
         options:
           - { label: "Debates", value: "debates" }
           - { label: "Simposios", value: "simposios" }
           - { label: "Reseñas", value: "reseñas" }
           - { label: "Ensayos", value: "ensayos" }
-      - {label: "Image", name: "image", widget: "image", required: false}
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "authors"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
       - {label: "Body", name: "body", widget: "markdown"}
-
