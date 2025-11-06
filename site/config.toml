@@ -1,6 +1,6 @@
 baseURL = "https://www.lacritica.ar/"
 languageCode = "en-us"
-title = "My Hugo Site"
+title = "La Crítica del Derecho"
 theme = "hugo-xmag"
 
 # Enable syntax highlighting, RSS, etc.
@@ -11,17 +11,17 @@ enableRobotsTXT = true
   category = "categories"
   
 [params]
-  description = "A Hugo site using the XMag theme"
-  footer = "&copy; 2025 My Site"
+  description = "La Crítica del Derecho"
+  footer = "&copy; 2025 La Crítica del Derecho Colectivo Crítico"
 
 # Optional: social links
 [[params.social]]
   name = "GitHub"
-  url = "https://github.com/yourusername"
+  url = "https://github.com/lacritica"
 
 [[params.social]]
   name = "Twitter"
-  url = "https://twitter.com/yourhandle"
+  url = "https://twitter.com/lacritica"
 
 # Optional: main menu items
 [[menu.main]]
@@ -30,7 +30,7 @@ enableRobotsTXT = true
   weight = 1
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "Nosotros"
+  url = "/nosotros/"
   weight = 2
 

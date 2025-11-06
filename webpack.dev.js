@@ -19,10 +19,7 @@ module.exports = merge(common, {
       directory: path.join(process.cwd(), "./dist"),
       watch: true
     },
-    open: true,
-    historyApiFallback: {
-      rewrites: [{from: /./, to: "404.html"}]
-    }
+    open: true
   },
 
   plugins: [
