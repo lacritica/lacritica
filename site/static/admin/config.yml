@@ -49,8 +49,6 @@ collections:
         name: "thumbnail"
         widget: "image"
         required: false
-        media_folder: "site/static/img"
-        public_folder: "img"
       - label: "Highlight"
         name: "highlight"
         widget: "boolean"
