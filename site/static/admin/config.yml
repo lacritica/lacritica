@@ -2,13 +2,13 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "site/static/img" # Folder where user uploaded files should go
-public_folder: "img"
+media_folder: "/site/static/img" # Folder where user uploaded files should go
+public_folder: "/img"
 
 collections:
   - name: "post"
     label: "Posts"
-    folder: "site/content/post"
+    folder: "/site/content/post"
     create: true
     format: "frontmatter"
     extension: "md"
@@ -16,8 +16,8 @@ collections:
     path: "{{slug}}"
 
     # Override image upload paths for this collection
-    media_folder: "site/static/img"
-    public_folder: "img"
+    media_folder: "/site/static/img"
+    public_folder: "/img"
 
     fields:
       - {label: "Title", name: "title", widget: "string"}
