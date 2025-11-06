@@ -6,37 +6,36 @@ media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
 
 collections:
-  - name: "post"
+  - name: "posts"
     label: "Posts"
-    folder: "site/content/post"
+    folder: "content/posts"
     create: true
+    slug: "{{slug}}"
     format: "frontmatter"
     extension: "md"
-    slug: "{{slug}}"
-    path: "{{slug}}"
+    summary: "{{title}}"
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - label: "Description"
-        name: "description"
-        widget: "string"
-        hint: "Short summary (max 124 characters)"
-        pattern:
-          - "^.{0,124}$"
-          - "Description must be 124 characters or fewer"
-      - label: "Category"
-        name: "categories"
-        widget: "select"
-        options:
-          - { label: "Debates", value: "debates" }
-          - { label: "Simposios", value: "simposios" }
-          - { label: "Reseñas", value: "reseñas" }
-          - { label: "Ensayos", value: "ensayos" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string", maxLength: 124 }
       - label: "Author"
         name: "author"
         widget: "relation"
         collection: "authors"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-      - {label: "Body", name: "body", widget: "markdown"}
+        searchFields: ["title"]
+        valueField: "title"
+        displayFields: ["title"]
+        multiple: true
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "authors"
+    label: "Authors"
+    folder: "content/authors"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    extension: "md"
+    summary: "{{title}}"
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Bio", name: "bio", widget: "text" }

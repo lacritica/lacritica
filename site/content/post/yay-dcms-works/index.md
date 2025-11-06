@@ -1,7 +1,7 @@
 ---
 title: Yay, DCMS works
 date: 2025-11-04T19:12:29.137Z
-author: ["Sebastian Guidi"]
+author: ["Sebastián Guidi"]
 categories: ["debates"]
 description: "Yeay, the blurb may work. "
 ---
