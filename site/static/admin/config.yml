@@ -56,7 +56,6 @@ collections:
         hint: "Mark true to feature this post on the homepage"
       - {label: "Body", name: "body", widget: "markdown"}
   
-  collections:
   - name: "authors"
     label: "Autores"
     label_singular: "Autor"
