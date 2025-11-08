@@ -50,6 +50,14 @@ body {
   display: block;
   transform: translateY(-5%);
 }
+
+@media (max-width: 768px) {
+  .header .banner svg {
+    width: 200px;
+  }
+}
+
+
 /* Titles and headers */
 h1, h2, h3, h4, h5, h6,
 .banner, .article-list h1, .title {
