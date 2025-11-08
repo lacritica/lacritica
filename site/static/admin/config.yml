@@ -45,6 +45,7 @@ collections:
           - "Sebastián Guidi"
           - "Gustavo Arballo"
           - "Roberto Gargarella"
+          - "Gustavo Maurino"
       - label: "Thumbnail"
         name: "thumbnail"
         widget: "image"
