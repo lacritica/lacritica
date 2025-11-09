@@ -76,8 +76,6 @@ collections:
         name: "thumbnail"
         widget: "image"
         choose_url: true
-        media_folder: "site/static/img"
-        public_folder: "/img"
         hint: "Upload the author's photo (will be stored in static/img)"
       - label: "Short bio"
         name: "bio"
