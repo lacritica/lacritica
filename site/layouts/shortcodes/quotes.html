@@ -1,0 +1,11 @@
+<blockquote>
+  <p>{{ .Get "text" }}</p>
+  <a 
+    class="share-on-twitter"
+    href="https://x.com/intent/tweet?text={{ urlquery (.Get "text") }}&url={{ .Page.Permalink }}"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Compartir en X
+  </a>
+</blockquote>

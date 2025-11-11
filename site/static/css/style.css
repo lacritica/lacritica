@@ -7,9 +7,51 @@
 :root {
   --gutter: 1.5rem;
   --max-width: 1200px;
-  --side-padding-min: 1rem;
-  --side-padding-max: 10rem;
+  --base-bg: #F5F3EE; /* colors inspired by merve verlag berlin, este es cremita */ 
+  --text-dark: #2E2E2E;
+  --primary-dark: #0F2353;
+  --forest-green: #1F5342;
+  --accent-red: #C62828;
+  --accent-orange: #ab855c;
+  --accent-magenta: #B8165F;
+  --accent-lime: #8BC53F;
+  --complementary-cyan: #16B87E;
+  --highlight: #FAF9F6;
+  /* Variants */
+  --forest-green-light: #2F7A5E;
+  --forest-green-dark: #153C30;
+  --accent-magenta-light: #E54F8A;
+  --accent-magenta-dark: #7C0F44;
+  --primary-dark-light: #243C6E;
+  --primary-dark-dark: #08142C;
+
+  /* Supporting neutrals */
+  --neutral-100: #FAFAFA;
+  --neutral-200: #F0F0F0;
+  --neutral-300: #D6D6D6;
+  --neutral-600: #666666;
+  --neutral-800: #333333;
+  --neutral-900: #1A1A1A;
+
+  /* Backgrounds */
+  --background-light: #FFFFFF;
+  --background-tinted: #F9F7F9;   /* subtle magenta-grey tint */
+  --background-dark: #0D0D0D;
+
+  /* Accent complements */
+  --accent-olive: #7A864F;        /* contrast to magenta */
+  --accent-sand: #DCC7A1;         /* soft warmth for typography highlights */
+  --accent-cyan: #1FA9A2;         /* modern counterpoint to magenta */
+  --accent-cream: #FFF8E6;        /* delicate backdrop for editorial pages */
+
+  /* Semantic (optional) */
+  --success: #3B8C6E;
+  --warning: #F5B700;
+  --error: #D7263D;
 }
+}
+
+
 
 /* Better box-sizing everywhere */
 *, *::before, *::after { box-sizing: border-box; }
@@ -27,6 +69,7 @@ main.homepage {
 }
 
 body {
+  background-color: var(--base-bg);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   font-size: 1.2rem;
   line-height: 1.4;
@@ -35,6 +78,7 @@ body {
 }
 
 /* header logo */ 
+
 
 .header .banner {
   display: flex;
@@ -51,12 +95,20 @@ body {
   transform: translateY(-5%);
 }
 
+
+
 @media (max-width: 768px) {
   .header .banner svg {
     width: 200px;
   }
 }
 
+.twitter-handle a {
+  font-family: 'Jost';
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--neutral-600);
+}
 
 /* Titles and headers */
 h1, h2, h3, h4, h5, h6,
@@ -71,23 +123,24 @@ h1, h2, h3, h4, h5, h6,
 
 /* Use clamp to keep side padding reasonable across sizes */
 
-
 /* main container already uses var(--gutter) and max-width */
 
 .hero-grid {
+  background-color: var(--base-bg);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: var(--gutter);
-  /* responsive horizontal padding */
-  padding-inline: clamp(var(--side-padding-min), 6vw, 8rem);
-  box-sizing: border-box;
+  max-width: 1450px;     /* or any width you like */
+  margin-inline: auto;   /* centers it */
+  padding-inline: 2rem;  /* small padding for breathing room */
 }
 
 .secondary-grid {
+  background-color: var(--accent-magenta);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--gutter);
-  padding-inline: clamp(var(--side-padding-min), 6vw, 10rem);
+  padding-bottom: 3rem;
   box-sizing: border-box;
 }
 
@@ -124,12 +177,96 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 0.001em;
 }
 
+.secondary-grid article {
+  margin-bottom: -3rem;
+}
+
+/* articles new */ 
+
+.article-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 0rem;
+}
+
+.article-layout .article-sidebar {
+  width: 60%;
+  max-width: 430px;
+  padding-right: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  padding: .2rem;
+}
+
+.article-layout .article-sidebar h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.article-sidebar .post-author {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: inherit;
+  font-family: Jost;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.article-sidebar .post-author .author-bio {
+  font-size: 0.8em;
+  font-weight: normal;
+  font-family: 'Optima';
+  margin-top: 0.3rem;
+}
+
+.article-sidebar .post-author .author-link {
+  color: inherit;            /* same color as surrounding text */
+  text-decoration: none;     /* remove underline */
+  transition: all 0.2s ease;
+}
+
+.article-sidebar .post-author .author-link:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
+.article-content {
+  width: 50%;
+  max-width: 800px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #494746;
+}
+
+.containter-article {
+  padding-top: 2rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  }
+
 /* article and secondary row */
 
 .article {
-  background: #f2f2f2;
+  background: var(--base-bg);
   padding: 1rem;
   border-radius: 8px;
+}
+
+.secondary-grid .article {
+  background: var(--accent-magenta);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.secondary-grid .article h1,
+.secondary-grid .author-name,
+.secondary-grid .summary,
+.secondary-grid .categories a,
+.secondary-grid .date {
+  color: var(--base-bg);
 }
 
 .article h2,
@@ -149,12 +286,13 @@ h1, h2, h3, h4, h5, h6,
 
 /* author page */
 .author-page {
+  background-color: var(--base-bg);
   display: flex;
   flex-direction: column;
   gap: 2rem;
   padding-top: 2rem;
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding-left: 36rem;
+  padding-right: 36rem;
 }
 
 .author-header {
@@ -164,7 +302,20 @@ h1, h2, h3, h4, h5, h6,
   gap: 2rem;
 }
 
+.author-photo img {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.list-of-articles-by-authors {
+  margin-top: 1rem;
+  border-top: 2px solid;
+  padding-left: 9.5rem;
+  padding-right: 8rem;
+}
+
 .author-image img {
+  filter: grayscale(100%);
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -172,11 +323,15 @@ h1, h2, h3, h4, h5, h6,
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
+.author-card-link {
+  text-decoration: none;
+}
+
 .author-info h1 {
   font-family: 'Jost', Georgia, serif;
   font-size: 1.8em;
   font-weight: 800;
-  color: #800020;
+  color: var(--primary-dark);
   margin: 0 0 0.5em;
 }
 
@@ -187,9 +342,40 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .secondary-grid-author {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--gutter);
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;  /* spacing between list items */
+  align-items: flex-start;  /* left-align the content */
+  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+}
+
+.secondary-grid-author article {
+  padding: 0.5rem 0rem;
+
+}
+
+.secondary-grid-author h2 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0.1rem 0;
+}
+
+.secondary-grid-author a {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.secondary-grid-author a:hover {
+  text-decoration: underline;
+}
+
+.article-date {
+  font-size: 0.9rem;
+  color: var(--accent-cyan);
+  margin-left: 0.3rem;
+  white-space: nowrap;
 }
 
 .author-page a,
@@ -206,8 +392,42 @@ h1, h2, h3, h4, h5, h6,
 .author-page a:hover,
 .author a:hover,
 .article-list a[href*="/authors/"]:hover {
-  color: #d11534; /* softer burgundy */
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+/* share section in articles */
+
+.share-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color, #ddd);
+  text-align: left;
+}
+
+.share-title {
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted, #666);
+  margin-bottom: 1rem;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: left;
+  gap: 1.5rem;
+}
+
+.share-button img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+  opacity: 0.85;
+}
+
+.share-button img:hover {
+  transform: scale(1.15);
+  opacity: 1;
 }
 
 /* === SECOND ROW === */
@@ -219,14 +439,14 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 0.001em;
 }
 
-/* taxonomy bar */
+/* taxonomy bar + layout */
 
 .taxonomy-bar {
+  background-color: var(--base-bg);
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #ddd;
   padding: 0.75em 0;
-  background-color: #fafafa; /* optional */
 }
 
 .taxonomy-bar ul {
@@ -242,6 +462,7 @@ h1, h2, h3, h4, h5, h6,
 .taxonomy-bar li a {
   text-transform: uppercase;
   text-decoration: none;
+  padding: 0.5rem;
   color: #333;
   font-weight: 600;
   font-size: 0.95em;
@@ -249,8 +470,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .taxonomy-bar li a:hover {
-  color: #000;
-  border-bottom: 2px solid #000;
+  padding: 0.5rem;
+  background-color: var(--primary-dark); /* rectangle color */
+  color: var(--base-bg);         /* text color on hover */
 }
 /* Taxonomy grid layout */
 
@@ -274,7 +496,7 @@ h1, h2, h3, h4, h5, h6,
 
 .taxonomy-menu li a {
   text-decoration: none;
-  color: #333;
+  color: var(--base-bg);
   font-weight: bold;
 }
 
@@ -282,7 +504,6 @@ h1, h2, h3, h4, h5, h6,
   color: #000;
   border-bottom: 2px solid #000;
 }
-
 
 .taxonomy-layout {
   display: grid;
@@ -292,9 +513,12 @@ h1, h2, h3, h4, h5, h6,
   padding-right: 2rem;
 }
 
+.taxonomy-layout .article {
+  margin-bottom: -1.5rem;
+}
+
 .taxonomy-menu {
   padding: 1rem;
-  border-right: 2px solid #eee;
 }
 
 .taxonomy-menu ul {
@@ -326,8 +550,12 @@ h1, h2, h3, h4, h5, h6,
   color: white;
 }
 
-.taxonomy-content {
-  padding: 1rem;
+.taxonomy-layout {
+  background-color: var(--accent-magenta);
+}
+
+.taxonomy-layout .summary {
+  font-size: 1.2rem;
 }
 
 .taxonomy-title {
@@ -338,7 +566,71 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 1.5rem;
 }
 
+/* --- Taxonomy grid styling (non-magenta) --- */
+.taxonomy-grid {
+  /* choose a neutral background or inherit from taxonomy layout */
+  background-color: transparent; /* or var(--base-bg) if you prefer */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* or whatever your layout needs */
+  gap: var(--gutter);
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+}
+
+.taxonomy-grid .article-content {
+  width: 100%;
+  max-width: 800px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #494746;
+}
+
+/* If you used the additive class (taxonomy-grid secondary-grid), override the magenta */
+.taxonomy-grid.secondary-grid {
+  background-color: transparent !important; /* override the homepage magenta */
+}
+
+/* Responsive variants if needed */
+@media (max-width: 600px) {
+  .taxonomy-grid { grid-template-columns: 1fr; padding-inline: 1rem; }
+}
+
+/* Default taxonomy styles */
+.taxonomy-layout,
+.taxonomy-grid {
+  background-color: var(--accent-magenta);
+}
+
+/* Custom colors per taxonomy */
+.taxonomy-menu[data-term="rese%C3%B1as"],
+.taxonomy-layout[data-term="rese%C3%B1as"],
+.taxonomy-grid[data-term="rese%C3%B1as"] .article {
+  background-color: var(--accent-orange); /* soft pinkish tone */
+}
+
+.taxonomy-menu[data-term="debates"],
+.taxonomy-layout[data-term="debates"],
+.taxonomy-grid[data-term="debates"] .article {
+  background-color: var(--accent-magenta); /* light blue */
+}
+
+.taxonomy-menu[data-term="simposios"],
+.taxonomy-layout[data-term="simposios"],
+.taxonomy-grid[data-term="simposios"] .article {
+  background-color: var(--forest-green); 
+}
+
+.taxonomy-menu[data-term="ensayos"],
+.taxonomy-layout[data-term="ensayos"],
+.taxonomy-grid[data-term="ensayos"] .article {
+  background-color: var(--primary-dark); /* warm beige */
+}
+
+
+/* footer */
+
 .footer-social a img {
+  filter: invert(92%) sepia(6%) saturate(212%) hue-rotate(18deg) brightness(103%) contrast(94%);
   width: 44px;    /* adjust as needed */
   height: 44px;   /* keep square if logos are square */
   margin-right: 50px;  /* space between icons */
@@ -457,7 +749,7 @@ main { margin-bottom: 15px; }
   display: flex;
   justify-content: space-between;
 }
-.header, .list section, article { background: #fff; }
+.header, .list section, article { background-color: var(--base-bg); }
 .banner { font-size: 4em; }
 .banner .text {
   display: block;
@@ -492,6 +784,7 @@ main { margin-bottom: 15px; }
   text-transform: uppercase;
   color: #666;
 }
+
 /* --- Custom hover style for post titles --- */
 .article-list h1 a {
   font-size: 0.9em;
@@ -535,10 +828,12 @@ main { margin-bottom: 15px; }
 .pagination li, .terms li { display: inline; }
 .pagination a { padding: 0 .2em; }
 .footer {
-  margin-top: 2.5rem;
-  background: #666;
+  background: var(--primary-dark);
   padding: 2em 0;
   font-size: 1.2rem;
+}
+.footer-text {
+  color: var(--base-bg);
 }
 }
 .footer, .footer a { color: #fff; }
@@ -577,10 +872,12 @@ pre code {
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }
+
 blockquote {
-  background: #f9f9f9;
-  border-left: 5px solid #ccc;
-  padding: 3px 1em 3px;
+  color: var(--base-bg);
+  background: var(--primary-dark);
+  border-left: 6px solid #ccc;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
 table {

@@ -6,35 +6,6 @@ media_folder: "/site/static/img" # Folder where user uploaded files should go
 public_folder: "/img"
 
 collections:
-  - name: "authors"
-    label: "Autores"
-    label_singular: "Autor"
-    folder: "content/authors"
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    format: "frontmatter"
-    preview_path: "authors/{{slug}}"
-    fields:
-      - { label: "Title", name: "title", widget: "string", hint: "Full name of the author" }
-      - { label: "Slug", name: "slug", widget: "string", hint: "the-full-name-of-the-author (used in URL)" }
-      - { label: "Type", name: "type", widget: "hidden", default: "authors" }
-      - label: "Thumbnail"
-        name: "thumbnail"
-        widget: "image"
-        choose_url: true
-        media_folder: "static/img"
-        public_folder: "/img"
-        hint: "Upload the author's photo (will be stored in static/img)"
-      - label: "Short bio"
-        name: "bio"
-        widget: "text"
-        hint: "Short biography of the author (used in author cards and lists)"
-      - label: "Mid-size bio"
-        name: "body"
-        widget: "markdown"
-        hint: "Longer author bio (can include links, formatting, etc.)"
-
   - name: "post"
     label: "Posts"
     folder: "/site/content/post"
@@ -45,12 +16,9 @@ collections:
     path: "{{slug}}"
 
     # Override image upload paths for this collection
-    media_folder: "/site/static/img"
-    public_folder: "/img"
-
     fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
       - label: "Description"
         name: "description"
         widget: "string"
@@ -67,14 +35,13 @@ collections:
         default: ["ensayos"]
       - label: "Author"
         name: "author"
-        widget: "select"
+        widget: "relation"
+        collection: "authors"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
         multiple: true
-        options:
-          - "Ramiro Alvarez Ugarte"
-          - "Sebastián Guidi"
-          - "Gustavo Arballo"
-          - "Roberto Gargarella"
-          - "Gustavo Maurino"
+        hint: "Select one or more authors from the authors collection"
       - label: "Thumbnail"
         name: "thumbnail"
         widget: "image"
@@ -84,4 +51,41 @@ collections:
         widget: "boolean"
         default: false
         hint: "Mark true to feature this post on the homepage"
-      - {label: "Body", name: "body", widget: "markdown"}
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "authors"
+    label: "Autores"
+    label_singular: "Autor"
+    folder: "/site/content/authors"
+    create: true
+    slug: "{{slug}}" # filename pattern
+    extension: "md"
+    format: "frontmatter"
+    preview_path: "authors/{{slug}}"
+    identifier_field: "title"
+
+    fields:
+      - { label: "Title", name: "title", widget: "string", hint: "Full name of the author" }
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+        hint: "Nombre del autor entre guiones y minúscula, así: nombre-apellido1-apellido2"
+        pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers and hyphens allowed"]
+      - { label: "Type", name: "type", widget: "hidden", default: "authors" }
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        choose_url: true
+        hint: "Upload the author's photo (will be stored in static/img)"
+      - label: "Short bio"
+        name: "bio"
+        widget: "text"
+        hint: "Short biography of the author (used in author cards and lists)"
+      - label: "twitter_handle"
+        name: "twitter handle"
+        widget: "string"
+        hint: "Enter your twitter handle"
+      - label: "Mid-size bio (pero no muy larga, no es un CV)"
+        name: "body"
+        widget: "markdown"
+        hint: "Longer author bio (can include links, formatting, etc.)"

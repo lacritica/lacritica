@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-11-08T21:10:51+00:00</lastmod>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/debates/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/probando-notas-al-pie/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/ensayos/</loc>
     <lastmod>2025-11-08T21:10:51+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-11-08T21:10:51+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/no-me-falles-papetti/</loc>
-    <lastmod>2025-11-08T21:10:51+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/</loc>
     <lastmod>2025-11-08T21:10:51+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/maurino-prueba/</loc>
@@ -35,11 +41,8 @@
     <loc>//localhost:1313/post/prueba-destacado/</loc>
     <lastmod>2025-11-06T14:27:22+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/debates/</loc>
-    <lastmod>2025-11-04T19:12:29+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/yay-dcms-works/</loc>
-    <lastmod>2025-11-04T19:12:29+00:00</lastmod>
+    <lastmod>2025-11-04T22:04:57+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/destacado/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
@@ -62,19 +65,35 @@
     <loc>//localhost:1313/categories/simposios/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/cont%C3%A1ctenos/</loc>
+  </url><url>
+    <loc>//localhost:1313/authors/agustina-ramon-michel/</loc>
+  </url><url>
     <loc>//localhost:1313/authors/</loc>
   </url><url>
     <loc>//localhost:1313/authors/gustavo-arballo/</loc>
   </url><url>
     <loc>//localhost:1313/authors/gustavo-maurino/</loc>
   </url><url>
+    <loc>//localhost:1313/links/libro1/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/libro2-copy-2/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/libro2-copy-3/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/libro2-copy/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/libro2/</loc>
+  </url><url>
+    <loc>//localhost:1313/links/</loc>
+  </url><url>
     <loc>//localhost:1313/quienes_somos/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/ramiro-%C3%A1lvarez-ugarte/</loc>
+    <loc>//localhost:1313/authors/ramiro-alvarez-ugarte/</loc>
   </url><url>
     <loc>//localhost:1313/authors/roberto-gargarella/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/sebasti%C3%A1n-guidi/</loc>
+    <loc>//localhost:1313/authors/sebastian-guidi/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>

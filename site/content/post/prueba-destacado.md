@@ -1,7 +1,7 @@
 ---
 title: Prueba destacado
 date: 2025-11-06T14:27:22.333Z
-description: Algo breve, brevísimo
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 categories:
   - ensayos
 author:

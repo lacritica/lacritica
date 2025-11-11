@@ -1,7 +1,8 @@
 ---
 title: "Sebastián Guidi"
-slug: "sebastián-guidi"
+slug: "sebastian-guidi"
 type: "authors"
+twitter_handle: sguidi
 bio: "Profesor de derecho constitucional en la Universidad de Buenos Aires. Escribe sobre libertad de expresión y derecho público."
 thumbnail: "img/guidi.jpeg"
 ---

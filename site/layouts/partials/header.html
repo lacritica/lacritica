@@ -13,6 +13,7 @@
     </title>
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css">
     <!-- Your custom overrides should be last -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
@@ -36,7 +37,7 @@
       {{ end }}
     
         <li><a href="{{ "/quienes_somos/" | relURL }}">Quienes somos</a></li>  <!-- arbitrary page -->
-    
+        <li><a href="{{ "/contáctenos/" | relURL }}">Contáctenos</a></li>  <!-- arbitrary page -->
 
   {{ end }}
 </div>

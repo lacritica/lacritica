@@ -56,7 +56,7 @@ collections:
   - name: "authors"
     label: "Autores"
     label_singular: "Autor"
-    folder: "content/authors"
+    folder: "/site/content/authors"
     create: true
     slug: "{{slug}}" # filename pattern
     extension: "md"
@@ -69,7 +69,7 @@ collections:
       - label: "Slug"
         name: "slug"
         widget: "string"
-        hint: "Automatically generated from title, but you can edit it if needed"
+        hint: "Nombre del autor entre guiones y minúscula, así: nombre-apellido1-apellido2"
         pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers and hyphens allowed"]
       - { label: "Type", name: "type", widget: "hidden", default: "authors" }
       - label: "Thumbnail"
@@ -81,7 +81,11 @@ collections:
         name: "bio"
         widget: "text"
         hint: "Short biography of the author (used in author cards and lists)"
-      - label: "Mid-size bio"
+      - label: "twitter_handle"
+        name: "twitter handle"
+        widget: "string"
+        hint: "Enter your twitter handle"
+      - label: "Mid-size bio (pero no muy larga, no es un CV)"
         name: "body"
         widget: "markdown"
         hint: "Longer author bio (can include links, formatting, etc.)"

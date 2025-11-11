@@ -6,8 +6,15 @@
     <description>Recent content in Posts on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2025 21:10:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 22:04:57 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probando notas al pie</title>
+      <link>//localhost:1313/post/probando-notas-al-pie/</link>
+      <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
+      <guid>//localhost:1313/post/probando-notas-al-pie/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
+    </item>
     <item>
       <title>no me falles papetti</title>
       <link>//localhost:1313/post/no-me-falles-papetti/</link>
@@ -51,9 +58,9 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/icon-dublin.png&#34; alt=&#34;&#34; title=&#34;convocatoria&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Yay, DCMS works</title>
+      <title>Probando notas al pie</title>
       <link>//localhost:1313/post/yay-dcms-works/</link>
-      <pubDate>Tue, 04 Nov 2025 19:12:29 +0000</pubDate>
+      <pubDate>Tue, 04 Nov 2025 22:04:57 +0000</pubDate>
       <guid>//localhost:1313/post/yay-dcms-works/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>

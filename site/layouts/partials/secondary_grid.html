@@ -3,11 +3,12 @@
 <section class="secondary-grid">
   {{ range $secondaryPosts }}
     <article class="article">
-      {{ with .Params.thumbnail }}
+      {{/* Desactivamos las fotos para esta sección*/}}
+      {{/* with .Params.thumbnail }}
         <div class="featured-thumbnail">
           <img src="{{ relURL . }}" alt="Featured Image"/>
         </div>
-      {{ end }}
+      {{ end )*/}}
       <div class="article">
         <div class="categories">
   {{ with .Params.categories }}

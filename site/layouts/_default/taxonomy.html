@@ -1,9 +1,12 @@
 {{ partial "header.html" . }}
 
-<section class="taxonomy-layout">
+{{/* produce a safe class name from the term */}}
+{{ $termClass := .Title | urlize }}
+
+<section class="taxonomy-layout" data-term="{{ .Title | urlize }}">
 
   <!-- Left column: all taxonomy links -->
-  <aside class="taxonomy-menu">
+  <aside class="taxonomy-menu {{ $termClass }}">
     <ul>
       {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
         <li>

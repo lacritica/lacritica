@@ -1,8 +1,7 @@
 ---
 title: Probando otras cosas, desde Decap CMS
 date: 2025-11-08T17:41:02.524Z
-description: "Viendo si funciona y si dispara el deployment sin problemas, uno
-  tras otro (escenario poco realista). "
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 categories:
   - reseñas
 author:

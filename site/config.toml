@@ -37,3 +37,6 @@ enableRobotsTXT = true
 [permalinks]
   authors = "/authors/:slug/"
 
+[slug]
+remove_accents = true
+

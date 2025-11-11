@@ -1,11 +1,11 @@
 ---
 title: Probando notas al pie
 date: 2025-11-08T22:04:57.211Z
-description: Por pedido de Sebas, a ver si se puede...
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 categories:
   - debates
-author:
-  - Ramiro Alvarez Ugarte
+author: 
+  - Ramiro Álvarez Ugarte
 thumbnail: /img/home-about-section.jpg
 highlight: false
 ---

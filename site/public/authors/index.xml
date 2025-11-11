@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="//localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Agustina Ramon Michel</title>
+      <link>//localhost:1313/authors/agustina-ramon-michel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/authors/agustina-ramon-michel/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Gustavo Arballo</title>
       <link>//localhost:1313/authors/gustavo-arballo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -23,9 +30,9 @@
     </item>
     <item>
       <title>Ramiro Álvarez Ugarte</title>
-      <link>//localhost:1313/authors/ramiro-%C3%A1lvarez-ugarte/</link>
+      <link>//localhost:1313/authors/ramiro-alvarez-ugarte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/ramiro-%C3%A1lvarez-ugarte/</guid>
+      <guid>//localhost:1313/authors/ramiro-alvarez-ugarte/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
@@ -37,9 +44,9 @@
     </item>
     <item>
       <title>Sebastián Guidi</title>
-      <link>//localhost:1313/authors/sebasti%C3%A1n-guidi/</link>
+      <link>//localhost:1313/authors/sebastian-guidi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/sebasti%C3%A1n-guidi/</guid>
+      <guid>//localhost:1313/authors/sebastian-guidi/</guid>
       <description>&lt;p&gt;Sebastián Guidi es abogado y doctor en derecho por Yale Law School. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>

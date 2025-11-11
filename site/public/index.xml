@@ -6,8 +6,15 @@
     <description>Recent content in La Crítica del derecho on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2025 21:10:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Nov 2025 22:04:57 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probando notas al pie</title>
+      <link>//localhost:1313/post/probando-notas-al-pie/</link>
+      <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
+      <guid>//localhost:1313/post/probando-notas-al-pie/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
+    </item>
     <item>
       <title>no me falles papetti</title>
       <link>//localhost:1313/post/no-me-falles-papetti/</link>
@@ -51,9 +58,9 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/img/icon-dublin.png&#34; alt=&#34;&#34; title=&#34;convocatoria&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Yay, DCMS works</title>
+      <title>Probando notas al pie</title>
       <link>//localhost:1313/post/yay-dcms-works/</link>
-      <pubDate>Tue, 04 Nov 2025 19:12:29 +0000</pubDate>
+      <pubDate>Tue, 04 Nov 2025 22:04:57 +0000</pubDate>
       <guid>//localhost:1313/post/yay-dcms-works/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
@@ -100,6 +107,20 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
+      <title></title>
+      <link>//localhost:1313/cont%C3%A1ctenos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/cont%C3%A1ctenos/</guid>
+      <description>&lt;p&gt;Recibimos correos de lectores, quejas, ideas, propuestas y demás en &lt;a href=&#34;mailto:contacto@lacritica.ar&#34;&gt;contacto@lacritica.ar&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;(No respondemos, pero leemos. Si desea que su comentario no sea publicado en la sección &amp;ldquo;Correo de lectores&amp;rdquo;, hágannoslo saber).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Agustina Ramon Michel</title>
+      <link>//localhost:1313/authors/agustina-ramon-michel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/authors/agustina-ramon-michel/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Gustavo Arballo</title>
       <link>//localhost:1313/authors/gustavo-arballo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -114,6 +135,41 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Informe de ACIJ</title>
+      <link>//localhost:1313/links/libro1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/links/libro1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Informe de ACIJ</title>
+      <link>//localhost:1313/links/libro2-copy-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/links/libro2-copy-2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Informe de ACIJ</title>
+      <link>//localhost:1313/links/libro2-copy-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/links/libro2-copy-3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Informe de ACIJ</title>
+      <link>//localhost:1313/links/libro2-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/links/libro2-copy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Informe de ACIJ</title>
+      <link>//localhost:1313/links/libro2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/links/libro2/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Quiénes somos</title>
       <link>//localhost:1313/quienes_somos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -122,9 +178,9 @@
     </item>
     <item>
       <title>Ramiro Álvarez Ugarte</title>
-      <link>//localhost:1313/authors/ramiro-%C3%A1lvarez-ugarte/</link>
+      <link>//localhost:1313/authors/ramiro-alvarez-ugarte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/ramiro-%C3%A1lvarez-ugarte/</guid>
+      <guid>//localhost:1313/authors/ramiro-alvarez-ugarte/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
@@ -136,9 +192,9 @@
     </item>
     <item>
       <title>Sebastián Guidi</title>
-      <link>//localhost:1313/authors/sebasti%C3%A1n-guidi/</link>
+      <link>//localhost:1313/authors/sebastian-guidi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/sebasti%C3%A1n-guidi/</guid>
+      <guid>//localhost:1313/authors/sebastian-guidi/</guid>
       <description>&lt;p&gt;Sebastián Guidi es abogado y doctor en derecho por Yale Law School. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>

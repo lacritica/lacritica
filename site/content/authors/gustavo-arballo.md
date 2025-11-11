@@ -2,6 +2,7 @@
 title: "Gustavo Arballo"
 slug: "gustavo-arballo"
 type: "authors"
+twitter_handle: GustArballo
 bio: "Profesor de derecho constitucional en la Universidad Nacional de la Pampa. Escribe sobre libertad de expresión y derecho público."
 thumbnail: "img/g_arballo.png"
 ---

@@ -2,28 +2,36 @@
 
 <section class="author-page">
 
-  <div class="author-header">
-    {{ with .Params.thumbnail }}
-      <div class="author-image">
-        <img src="{{ . | relURL }}" alt="Author image">
-      </div>
-    {{ end }}
-
-    <div class="author-info">
-      <h1>{{ .Title }}</h1>
-      {{ with .Params.bio }}<p>{{ . }}</p>{{ end }}
+<div class="author-header">
+  {{ with .Params.thumbnail }}
+    <div class="author-image">
+      <img src="{{ . | relURL }}" alt="Author image">
     </div>
-  </div>
+  {{ end }}
 
-  <h2>Artículos</h2>
+  <div class="author-info">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </div>
+</div>
+
+  <div class = "list-of-articles-by-authors">
 
   <div class="secondary-grid-author">
-    {{ range where .Site.RegularPages "Params.author" "intersect" (slice .Title) }}
-      <article class="article">
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      </article>
-    {{ end }}
-  </div>
+  {{ range where .Site.RegularPages "Params.author" "intersect" (slice .Title) }}
+    <article class="article">
+      <h2>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Date }}
+          <span class="article-date"> | {{ .Format "02 de January de 2006" }}</span>
+        {{ end }}
+      </h2>
+    </article>
+  {{ end }}
+</div>
+
+
+  
 </section>
 
 {{ partial "footer.html" . }}

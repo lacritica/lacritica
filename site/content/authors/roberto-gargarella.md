@@ -1,6 +1,7 @@
 ---
 title: "Roberto Gargarella"
 slug: "roberto-gargarella"
+twitter-handle: rgargarella
 type: "authors"
 bio: "Profesor de derecho constitucional en la Universidad Di Tella."
 thumbnail: "img/rg_original.jpg"

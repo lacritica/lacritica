@@ -1,7 +1,7 @@
 ---
 title: Maurino Prueba
 date: 2025-11-08T19:36:15.950Z
-description: La crítica se la banca
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 categories:
   - ensayos
 author:

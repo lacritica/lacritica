@@ -1,0 +1,42 @@
+<section class="share-section">
+  <h3 class="share-title">Compartir</h3>
+  <div class="share-buttons">
+
+    <a class="share-button" 
+       href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" 
+       target="_blank" rel="noopener" title="Compartir en X (Twitter)">
+      <img src="{{ "img/twitter.svg" | relURL }}" alt="Compartir en X">
+    </a>
+
+    <a class="share-button" 
+       href="https://twitter.com/intent/tweet?url={{ .Permalink | urlquery }}&text={{ .Title | urlquery }}" 
+       target="_blank" rel="noopener" title="Compartir en X (Twitter)">
+      <img src="{{ "img/bluesky.svg" | relURL }}" alt="Compartir en X">
+    </a>
+
+    <a class="share-button" 
+       href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" 
+       target="_blank" rel="noopener" title="Compartir en Facebook">
+      <img src="{{ "img/facebook.svg" | relURL }}" alt="Compartir en Facebook">
+    </a>
+
+    <a class="share-button" 
+       href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" 
+       target="_blank" rel="noopener" title="Compartir en Facebook">
+      <img src="{{ "img/linkedin.svg" | relURL }}" alt="Compartir en Facebook">
+    </a>
+
+    <a class="share-button" 
+       href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" 
+       target="_blank" rel="noopener" title="Compartir en Facebook">
+      <img src="{{ "img/tiktok.svg" | relURL }}" alt="Compartir en Facebook">
+    </a>
+
+    <a class="share-button" 
+       href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}" 
+       target="_blank" rel="noopener" title="Compartir en Facebook">
+      <img src="{{ "img/instagram.svg" | relURL }}" alt="Compartir en Facebook">
+    </a>
+
+  </div>
+</section>
