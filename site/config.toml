@@ -40,3 +40,6 @@ enableRobotsTXT = true
 [slug]
 remove_accents = true
 
+[outputs]
+home = ["HTML", "JSON"]
+

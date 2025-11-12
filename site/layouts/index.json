@@ -1,0 +1,10 @@
+[
+{{- $pages := where .Site.Pages "Section" "post" -}}
+{{- range $index, $page := $pages -}}
+  {
+    "title": {{ $page.Title | jsonify }},
+    "content": {{ $page.Plain | jsonify }},
+    "url": {{ $page.RelPermalink | jsonify }}
+  }{{ if ne (add $index 1) (len $pages) }},{{ end }}
+{{- end -}}
+]

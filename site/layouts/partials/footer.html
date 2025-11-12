@@ -34,6 +34,16 @@
       </a>
     </div>
 
+    <br>
+
+    <!-- Social links -->
+    <div class="footer-social">
+      <a color = "white" > alojado en </a><a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter">
+        <img src="{{ "img/github.svg" | relURL }}" alt="GitHub">
+      </a> hosteado en 
+      <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+        <img src="{{ "img/netlify.svg" | relURL }}" alt="Instagram logo">
+
   {{ with .Site.Params.footer }}
   <div class="copyright">{{ . | markdownify }}</div>
   {{ end }}

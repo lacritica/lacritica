@@ -14,6 +14,8 @@
   --accent-red: #C62828;
   --accent-orange: #ab855c;
   --accent-magenta: #B8165F;
+  --accent-burgundy: #aa0000ff;
+  --accent-burgundy2: #800000ff;
   --accent-lime: #8BC53F;
   --complementary-cyan: #16B87E;
   --highlight: #FAF9F6;
@@ -126,6 +128,8 @@ h1, h2, h3, h4, h5, h6,
 /* main container already uses var(--gutter) and max-width */
 
 .hero-grid {
+/*  border-left: 4px solid;
+  border-color: var(--accent-burgundy2);*/
   background-color: var(--base-bg);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -136,7 +140,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .secondary-grid {
-  background-color: var(--accent-magenta);
+  background-color: var(--accent-burgundy);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: var(--gutter);
@@ -192,6 +196,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .article-layout .article-sidebar {
+  flex: 1;
   width: 60%;
   max-width: 430px;
   padding-right: 1rem;
@@ -234,6 +239,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .article-content {
+  flex: 2;
   width: 50%;
   max-width: 800px;
   font-size: 1.4rem;
@@ -247,6 +253,27 @@ h1, h2, h3, h4, h5, h6,
   padding-right: 6rem;
   }
 
+@media (max-width: 768px) {
+  .article-layout {
+    flex-direction: column;
+    align-items: center; /* centers children horizontally */
+  }
+
+  .article-sidebar {
+    width: 100%;
+    text-align: center; /* centers text inside sidebar */
+  }
+
+  .article-sidebar h1 {
+    text-align: center; /* centers the title */
+  }
+
+  .article-content {
+    width: 100%;
+    text-align: left; /* keeps content aligned left */
+  }
+}
+
 /* article and secondary row */
 
 .article {
@@ -256,7 +283,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .secondary-grid .article {
-  background: var(--accent-magenta);
+  background: var(--accent-burgundy);
   padding: 1rem;
   border-radius: 8px;
 }
@@ -440,40 +467,58 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* taxonomy bar + layout */
-
 .taxonomy-bar {
-  background-color: var(--base-bg);
+  background-color: var(--accent-burgundy);
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 5px solid #d35f5f;
+  border-top: 5px solid #d35f5f;
   padding: 0.75em 0;
+  overflow-x: auto; /* enable horizontal scroll */
+  -webkit-overflow-scrolling: touch;
 }
 
 .taxonomy-bar ul {
   display: flex;
-  font-size: 1em;
-  flex-wrap: wrap;
+  flex-wrap: nowrap; /* prevent wrapping on small screens */
   gap: 1.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
+  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+}
+
+.taxonomy-bar li {
+  scroll-snap-align: start;
+  flex: 0 0 auto; /* prevent shrinking */
 }
 
 .taxonomy-bar li a {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.5rem;
-  color: #333;
+  color: var(--base-bg);
   font-weight: 600;
   font-size: 0.95em;
   transition: color 0.2s ease, border-color 0.2s ease;
+  white-space: nowrap; /* prevent text wrapping */
 }
 
 .taxonomy-bar li a:hover {
-  padding: 0.5rem;
-  background-color: var(--primary-dark); /* rectangle color */
-  color: var(--base-bg);         /* text color on hover */
+  background-color: var(--primary-dark);
+  color: var(--base-bg);
 }
+
+/* Optional: Add media query for desktop to restore wrapping */
+@media (min-width: 768px) {
+  .taxonomy-bar ul {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    scroll-snap-type: none;
+  }
+}
+
 /* Taxonomy grid layout */
 
 .taxonomy-menu-header {
@@ -551,7 +596,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .taxonomy-layout {
-  background-color: var(--accent-magenta);
+  background-color: var(--accent-burgundy);
 }
 
 .taxonomy-layout .summary {
@@ -598,7 +643,7 @@ h1, h2, h3, h4, h5, h6,
 /* Default taxonomy styles */
 .taxonomy-layout,
 .taxonomy-grid {
-  background-color: var(--accent-magenta);
+  background-color: var(--accent-burgundy);
 }
 
 /* Custom colors per taxonomy */
@@ -611,7 +656,7 @@ h1, h2, h3, h4, h5, h6,
 .taxonomy-menu[data-term="debates"],
 .taxonomy-layout[data-term="debates"],
 .taxonomy-grid[data-term="debates"] .article {
-  background-color: var(--accent-magenta); /* light blue */
+  background-color: var(--accent-burgundy); /* light blue */
 }
 
 .taxonomy-menu[data-term="simposios"],
@@ -628,6 +673,17 @@ h1, h2, h3, h4, h5, h6,
 
 
 /* footer */
+
+.footer {
+  margin-top: 2rem;
+  background: var(--accent-burgundy2);
+  padding: 2em 0;
+  font-size: 1.2rem;
+}
+
+.footer-text {
+  color: var(--base-bg);
+}
 
 .footer-social a img {
   filter: invert(92%) sepia(6%) saturate(212%) hue-rotate(18deg) brightness(103%) contrast(94%);
@@ -670,30 +726,7 @@ h1, h2, h3, h4, h5, h6,
   .author-image img { margin: 0 auto; }
   .taxonomy-layout { grid-template-columns: 1fr; }
   .thumbnail { width: 100%; height: auto; float: none; }
-  .taxonomy-bar ul {
-    display: flex !important;        /* keep flex but change direction */
-    flex-direction: column !important;
-    align-items: stretch !important; /* make items fill available width */
-    gap: 0.5rem !important;
   }
-
-  .taxonomy-bar li {
-    width: 100% !important;
-    display: block !important;      /* ensure li isn't inline/float */
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
-  .taxonomy-bar li a,
-  .taxonomy-bar a {
-    display: block !important;      /* let the anchor fill the li */
-    width: 100% !important;
-    text-align: center;             /* or left, as you prefer */
-    padding: 0 0rem;        /* tappable area on mobile */
-    box-sizing: border-box;
-  }
-}
-}
 
 /* Tablets and small desktops */
 @media (min-width: 601px) and (max-width: 900px) {
@@ -785,6 +818,79 @@ main { margin-bottom: 15px; }
   color: #666;
 }
 
+/* hamburguer button */
+
+/* Collapsible menu styles */
+#menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 25vw; /* 25% of the viewport width */
+  height: 100vh;
+  background: var(--accent-burgundy);
+  border-left: 1px solid #ccc;
+  padding: 1rem;
+  z-index: 1000;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+}
+
+#menu.show {
+  transform: translateX(0);
+}
+
+/* Optional: style the menu items */
+#menu ul {
+  list-style: none; /* removes bullets */
+  padding: 0;
+  height: 100%;
+  margin-top: 3.5rem;
+  display: flex;
+  flex-direction: column; /* stacks items vertically */
+  gap: 1rem; /* optional spacing between items */
+}
+
+#menu li {
+  color: var(--base-bg); /* applies text color */
+  border-top: 2px solid;
+  padding: 1.35rem 1rem 0.35rem 1rem; /* top right bottom left */
+}
+
+.menu-icon {
+  width: 28px;
+  height: 28px;
+}
+
+/* Hamburger button */
+#menu-toggle {
+  color: var(--base-bg);
+  cursor: pointer;
+  position: relative;
+  z-index: 900;
+  padding: 0.01rem;
+  background: none;
+  border: none;
+}
+
+#menu-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: var(--base-bg);
+  cursor: pointer;
+  z-index: 1100;
+
+/* footer */ 
+
+}
+
+.footer, .footer a { color: #fff; }
+.copyright, .copyright a { color: #ccc; }
+
 /* --- Custom hover style for post titles --- */
 .article-list h1 a {
   font-size: 0.9em;
@@ -827,17 +933,7 @@ main { margin-bottom: 15px; }
 .pagination { text-align: center; }
 .pagination li, .terms li { display: inline; }
 .pagination a { padding: 0 .2em; }
-.footer {
-  background: var(--primary-dark);
-  padding: 2em 0;
-  font-size: 1.2rem;
-}
-.footer-text {
-  color: var(--base-bg);
-}
-}
-.footer, .footer a { color: #fff; }
-.copyright, .copyright a { color: #ccc; }
+
 .menu {
   margin-bottom: .5em;
   flex-wrap: wrap;
