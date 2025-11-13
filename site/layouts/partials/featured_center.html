@@ -8,10 +8,10 @@
         </div>
       {{ end }}
       <div class="featured-content">
-        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
         <div class="author">
           {{ if .Params.author }}<span class="author">{{ partial "author_names.html" . }}</span> {{ end }}
         </div>
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
         <div class="summary">
           {{ with .Description }}{{ . | markdownify }}{{ else }}{{ .Summary }}{{ end }}
         </div>

@@ -24,8 +24,8 @@ collections:
         widget: "string"
         hint: "Short summary (max 124 characters)"
         pattern:
-          - "^.{0,124}$"
-          - "Description must be 124 characters or fewer"
+          - "^.{0,148}$"
+          - "Description must be 148 characters or fewer"
       - label: "Category"
         name: "categories"
         widget: "select"

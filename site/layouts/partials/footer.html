@@ -17,19 +17,19 @@
 
     <!-- Social links -->
     <div class="footer-social">
-      <a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter">
+      <a href="https://twitter.com/YourProfile" target="blank" aria-label="Twitter">
         <img src="{{ "img/twitter.svg" | relURL }}" alt="Twitter logo">
       </a>
-      <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
+      <a href="https://instagram.com/YourProfile" target="blank" aria-label="Instagram">
         <img src="{{ "img/instagram.svg" | relURL }}" alt="Instagram logo">
       </a>
-      <a href="https://facebook.com/YourProfile" target="_blank" aria-label="Instagram">
+      <a href="https://facebook.com/YourProfile" target="blank" aria-label="Instagram">
         <img src="{{ "img/facebook.svg" | relURL }}" alt="Facebook logo">
       </a>
-      <a href="https://facebook.com/YourProfile" target="_blank" aria-label="Instagram">
+      <a href="https://facebook.com/YourProfile" target="blank" aria-label="Instagram">
         <img src="{{ "img/spotify.svg" | relURL }}" alt="Spotify logo">
       </a>
-      <a href="https://facebook.com/YourProfile" target="_blank" aria-label="Instagram">
+      <a href="https://facebook.com/YourProfile" target="blank" aria-label="Instagram">
         <img src="{{ "img/youtube.svg" | relURL }}" alt="YouTube logo">
       </a>
     </div>
@@ -37,17 +37,14 @@
     <br>
 
     <!-- Social links -->
-    <div class="footer-social">
-      <a color = "white" > alojado en </a><a href="https://twitter.com/YourProfile" target="_blank" aria-label="Twitter">
-        <img src="{{ "img/github.svg" | relURL }}" alt="GitHub">
-      </a> hosteado en 
-      <a href="https://instagram.com/YourProfile" target="_blank" aria-label="Instagram">
-        <img src="{{ "img/netlify.svg" | relURL }}" alt="Instagram logo">
-
-  {{ with .Site.Params.footer }}
-  <div class="copyright">{{ . | markdownify }}</div>
-  {{ end }}
-</div>
+    <div class="footer-social-bottom">
+      <span color = "#fff">hosted on</a><a href="https://twitter.com/YourProfile" target="blank" aria-label="Twitter">
+         <img src="{{ "img/github.svg" | relURL }}" alt="GitHub">
+      </a> 
+      <span color = "#fff">deployed by</a><a href="https://twitter.com/YourProfile" target="blank" aria-label="Twitter">
+         <img src="{{ "img/netlify.svg" | relURL }}" alt="GitHub">
+      </a> 
+  </div>
 </footer>
 
 {{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
