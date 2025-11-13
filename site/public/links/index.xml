@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links on La Crítica</title>
-    <link>//localhost:1313/links/</link>
+    <link>/links/</link>
     <description>Recent content in Links on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/links/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/links/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Informe de ACIJ</title>
-      <link>//localhost:1313/links/libro1/</link>
+      <link>/links/libro1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/libro1/</guid>
+      <guid>/links/libro1/</guid>
       <description></description>
     </item>
     <item>
       <title>Informe de ACIJ</title>
-      <link>//localhost:1313/links/libro2-copy-2/</link>
+      <link>/links/libro2-copy-2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/libro2-copy-2/</guid>
+      <guid>/links/libro2-copy-2/</guid>
       <description></description>
     </item>
     <item>
       <title>Informe de ACIJ</title>
-      <link>//localhost:1313/links/libro2-copy-3/</link>
+      <link>/links/libro2-copy-3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/libro2-copy-3/</guid>
+      <guid>/links/libro2-copy-3/</guid>
       <description></description>
     </item>
     <item>
       <title>Informe de ACIJ</title>
-      <link>//localhost:1313/links/libro2-copy/</link>
+      <link>/links/libro2-copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/libro2-copy/</guid>
+      <guid>/links/libro2-copy/</guid>
       <description></description>
     </item>
     <item>
       <title>Informe de ACIJ</title>
-      <link>//localhost:1313/links/libro2/</link>
+      <link>/links/libro2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/links/libro2/</guid>
+      <guid>/links/libro2/</guid>
       <description></description>
     </item>
   </channel>

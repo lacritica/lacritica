@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.152.2">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     
     <title>
       
         La Crítica del derecho | La Crítica
       
     </title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css">
-    
-    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="stylesheet" href="/css/custom.css">
     <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
 
   </head>
 
   <body>
-<nav class="header">
-  <div class="banner">
-    <a href="/" class="logo-link">
-      <svg
+    <header class="header">
+      <div class="banner">
+        <a href="/" class="logo-link">
+          <svg
    width="124.84947mm"
    height="45.207703mm"
    viewBox="0 0 124.84947 45.207703"
@@ -155,123 +156,139 @@
      y="23.555012" />
 </svg>
 
-    </a>
-  </div>
-</nav>
+        </a>
+      </div>
+    </header>
 
-<div class="taxonomy-bar">
-  
-    <ul>
+    <div class="taxonomy-bar">
       
-        <li>
-          <a href="/categories/debates">debates</a>
-        </li>
-      
-        <li>
-          <a href="/categories/ensayos">ensayos</a>
-        </li>
-      
-        <li>
-          <a href="/categories/rese%C3%B1as">reseñas</a>
-        </li>
-      
-        <li>
-          <a href="/categories/simposios">simposios</a>
-        </li>
-      
-    
-    
-    
-<button id="menu-toggle" aria-label="Toggle menu">
-  <img src="/img/three_lines.svg" alt="Menu toggle icon" class="menu-icon">
-</button>
+      <a href="/" class="taxonomy-logo">
+        <img src="/img/logo_small.svg" alt="Logo">
+      </a>
 
+      <div class="taxonomy-list">
+      
+        <ul>
+          
+            <li><a href="/categories/debates">debates</a></li>
+          
+            <li><a href="/categories/ensayos">ensayos</a></li>
+          
+            <li><a href="/categories/rese%C3%B1as">reseñas</a></li>
+          
+            <li><a href="/categories/simposios">simposios</a></li>
+          
+        </ul>
+      </div>
+      
 
-<nav id="menu" class="hidden">
-  <button id="menu-close" aria-label="Close menu">✕</button>
-  <ul>
-    <input type="text" id="search-box" placeholder="Search...">
-    <li><ul id="search-results"></ul></li>
-    <li><a href="/quienes_somos/">quienes somos</a></li>
-    <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a href="/page3">Page 3</a></li>
-  </ul>
-</nav>
-    
-    
-    
+      
+      <button id="menu-toggle" aria-label="Toggle menu">
+        <img src="/img/three_lines.svg" alt="Menu toggle icon" class="menu-icon">
+      </button>
+    </div>
 
-  
-</div>
-
+    
+    <nav id="menu" class="hidden">
+      <button id="menu-close" aria-label="Close menu">✕</button>
+      <ul>
+        <input type="text" id="search-box" placeholder="Search...">
+        <li><ul id="search-results"></ul></li>
+        <li><a href="/quienes_somos/">quienes somos</a></li>
+        <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a href="/page3">Page 3</a></li>
+      </ul>
     </nav>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/flexsearch@latest/dist/flexsearch.bundle.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flexsearch@latest/dist/flexsearch.bundle.js"></script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-  const btn = document.getElementById("menu-toggle");
-  const menu = document.getElementById("menu");
-  const closeBtn = document.getElementById("menu-close");
-  const searchBox = document.getElementById("search-box");
-  const searchResults = document.getElementById("search-results");
 
-  
-  btn.addEventListener("click", (e) => {
-    e.stopPropagation();
-    menu.classList.toggle("show");
-    btn.classList.toggle("hide");
-  });
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.getElementById("menu-toggle");
+      const menu = document.getElementById("menu");
+      const closeBtn = document.getElementById("menu-close");
+      const searchBox = document.getElementById("search-box");
+      const searchResults = document.getElementById("search-results");
 
-  menu.addEventListener("click", (e) => {
-    e.stopPropagation();
-  });
+      
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menu.classList.toggle("show");
+        btn.classList.toggle("hide");
+      });
 
-  document.addEventListener("click", () => {
-    if (menu.classList.contains("show")) {
-      menu.classList.remove("show");
-      btn.classList.remove("hide");
-    }
-  });
+      menu.addEventListener("click", (e) => e.stopPropagation());
 
-  closeBtn.addEventListener("click", () => {
-    menu.classList.remove("show");
-    btn.classList.remove("hide");
-  });
+      document.addEventListener("click", () => {
+        if (menu.classList.contains("show")) {
+          menu.classList.remove("show");
+          btn.classList.remove("hide");
+        }
+      });
 
-  
-  const index = new FlexSearch.Document({
-    document: {
-      id: "url",
-      index: ["title", "content"],
-      store: ["title", "url"]
-    }
-  });
+      closeBtn.addEventListener("click", () => {
+        menu.classList.remove("show");
+        btn.classList.remove("hide");
+      });
 
-  fetch("/index.json")
-    .then(res => res.json())
-    .then(data => {
-      data.forEach(page => index.add(page));
-    });
+      
+      const index = new FlexSearch.Document({
+        document: {
+          id: "url",
+          index: ["title", "content"],
+          store: ["title", "url"]
+        }
+      });
 
-  
-  searchBox.addEventListener("input", async (e) => {
-    const query = e.target.value;
-    const results = await index.searchAsync(query, { enrich: true });
+      fetch("/index.json")
+        .then(res => res.json())
+        .then(data => data.forEach(page => index.add(page)));
 
-    searchResults.innerHTML = "";
+      
+      searchBox.addEventListener("input", async (e) => {
+        const query = e.target.value;
+        const results = await index.searchAsync(query, { enrich: true });
 
-    results.forEach(group => {
-      group.result.forEach(item => {
-        const li = document.createElement("li");
-        li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-        searchResults.appendChild(li);
+        searchResults.innerHTML = "";
+        results.forEach(group => {
+          group.result.forEach(item => {
+            const li = document.createElement("li");
+            li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
+            searchResults.appendChild(li);
+          });
+        });
+      });
+
+      
+      const bar = document.querySelector(".taxonomy-bar");
+      const smallLogo = document.querySelector(".taxonomy-logo");
+      let lastScroll = 0;
+
+      window.addEventListener("scroll", () => {
+        const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (currentScroll <= 0) {
+          bar.classList.remove("hidden", "visible");
+          smallLogo.classList.remove("show");
+          return;
+        }
+
+        if (currentScroll > lastScroll && currentScroll > 100) {
+          
+          bar.classList.add("hidden");
+          bar.classList.remove("visible");
+          smallLogo.classList.remove("show");
+        } else {
+          
+          bar.classList.remove("hidden");
+          bar.classList.add("visible");
+          smallLogo.classList.add("show");
+        }
+
+        lastScroll = currentScroll;
       });
     });
-  });
-});
-</script>
-
+    </script>
   </body>
 </html>
 
@@ -1073,6 +1090,20 @@ document.addEventListener("DOMContentLoaded", function () {
       
       
         <div class="swiper-slide">
+          <a href="/authors/ramiro-alvarez-ugarte/" class="author-card-link">
+            <div class="author-card">
+              <div class="author-photo">
+                <img src="/img/rau.png" alt="Ramiro Álvarez Ugarte">
+              </div>
+              <div class="author-info">
+                <h3>Ramiro Álvarez Ugarte</h3>
+                <p>Profesor de derecho constitucional en la UBA</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <div class="swiper-slide">
           <a href="/authors/sebastian-guidi/" class="author-card-link">
             <div class="author-card">
               <div class="author-photo">
@@ -1087,14 +1118,42 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
       
         <div class="swiper-slide">
-          <a href="/authors/ramiro-alvarez-ugarte/" class="author-card-link">
+          <a href="/authors/patricio_nazareno/" class="author-card-link">
             <div class="author-card">
               <div class="author-photo">
-                <img src="/img/rau.png" alt="Ramiro Álvarez Ugarte">
+                <img src="/img/patricio_nazareno.jpg" alt="Patricio Nazareno">
               </div>
               <div class="author-info">
-                <h3>Ramiro Álvarez Ugarte</h3>
+                <h3>Patricio Nazareno</h3>
+                <p>Doctor en Derecho (Yale).</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <div class="swiper-slide">
+          <a href="/authors/gustavo-maurino/" class="author-card-link">
+            <div class="author-card">
+              <div class="author-photo">
+                <img src="/img/maurino.png" alt="Gustavo Maurino">
+              </div>
+              <div class="author-info">
+                <h3>Gustavo Maurino</h3>
                 <p>Profesor de derecho constitucional en la UBA</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+        <div class="swiper-slide">
+          <a href="/authors/agustina-ramon-michel/" class="author-card-link">
+            <div class="author-card">
+              <div class="author-photo">
+                <img src="/img/arm_original.png" alt="Agustina Ramon Michel">
+              </div>
+              <div class="author-info">
+                <h3>Agustina Ramon Michel</h3>
+                <p>Profesora de la Universidad de Palermo.</p>
               </div>
             </div>
           </a>
@@ -1123,34 +1182,6 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="author-info">
                 <h3>Gustavo Arballo</h3>
                 <p>Profesor de derecho constitucional en la Universidad Nacional de la Pampa. Escribe sobre libertad de expresión y derecho público.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
-        <div class="swiper-slide">
-          <a href="/authors/agustina-ramon-michel/" class="author-card-link">
-            <div class="author-card">
-              <div class="author-photo">
-                <img src="/img/arm_original.png" alt="Agustina Ramon Michel">
-              </div>
-              <div class="author-info">
-                <h3>Agustina Ramon Michel</h3>
-                <p>Profesora de la Universidad de Palermo.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
-        <div class="swiper-slide">
-          <a href="/authors/gustavo-maurino/" class="author-card-link">
-            <div class="author-card">
-              <div class="author-photo">
-                <img src="/img/maurino.png" alt="Gustavo Maurino">
-              </div>
-              <div class="author-info">
-                <h3>Gustavo Maurino</h3>
-                <p>Profesor de derecho constitucional en la UBA</p>
               </div>
             </div>
           </a>

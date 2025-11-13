@@ -436,9 +436,12 @@ h1, h2, h3, h4, h5, h6,
     height: 100px;
   }
 
+  .author-info {
+    text-align: left;
+  }
+
   .list-of-articles-by-authors {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0rem !important;
   }
 }
 
@@ -576,21 +579,64 @@ h1, h2, h3, h4, h5, h6,
 
 /* taxonomy bar + layout */
 .taxonomy-bar {
-  height: 4rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center; /* centers items vertically */
+  height: 4.5rem;
   background-color: var(--accent-blue);
   display: flex;
-  justify-content: center;
+/*  justify-content: center;*/
   border-bottom: 5px solid #d35f5f;
   border-top: 5px solid #d35f5f;
-  padding: 0.75em 0;
+  padding: 0.6rem 2rem; /* ⬅️ increased from 1rem to 2rem */
   overflow-x: auto; /* enable horizontal scroll */
   -webkit-overflow-scrolling: touch;
+  transition: transform 0.3s linear, box-shadow 0.3s linear;
+}
+
+/* When hidden, slide the bar up out of view */
+.taxonomy-bar.hidden {
+  transform: translateY(-100%);
+}
+
+/* Optional subtle shadow when visible */
+.taxonomy-bar.visible {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Small logo inside taxonomy bar */
+.taxonomy-logo {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(-10px);
+  left: 1rem; 
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  margin-right: 1rem;
+}
+
+.taxonomy-logo.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.taxonomy-logo img {
+  height: 30px;
+  width: auto;
+}
+
+
+.taxonomy-bar > * {
+  display: flex;
+  align-items: center;
 }
 
 .taxonomy-bar ul {
   display: flex;
   flex-wrap: nowrap; /* prevent wrapping on small screens */
   gap: 1.5rem;
+  align-items: center; /* ensure list items align with logo */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -620,11 +666,25 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* Optional: Add media query for desktop to restore wrapping */
+/* Desktop: keep existing behavior */
 @media (min-width: 768px) {
   .taxonomy-bar ul {
     flex-wrap: wrap;
     overflow-x: visible;
     scroll-snap-type: none;
+  }
+}
+
+/* Mobile: hide taxonomy list */
+@media (max-width: 767px) {
+  .taxonomy-list,
+  .taxonomy-list ul {
+    display: none !important; /* force hide */
+    visibility: hidden; /* extra safety */
+  }
+
+  .taxonomy-bar {
+    justify-content: flex-end; /* move remaining items (logo/hamburger) to the right) */
   }
 }
 
@@ -874,7 +934,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* Collapsible menu styles */
 #menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   width: 25vw; /* 25% of the viewport width */
@@ -901,9 +961,15 @@ h1, h2, h3, h4, h5, h6,
   display: flex;
   flex-direction: column; /* stacks items vertically */
   gap: 1rem; /* optional spacing between items */
+  color: var(--base-bg); /* applies text color */
 }
 
-#menu li {
+#menu li a {
+  display: block; /* makes the link take full width of parent <li> */
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.4rem;
   color: var(--base-bg); /* applies text color */
   border-top: 2px solid;
   padding: 1.35rem 1rem 0.35rem 1rem; /* top right bottom left */
@@ -916,9 +982,10 @@ h1, h2, h3, h4, h5, h6,
 
 /* Hamburger button */
 #menu-toggle {
+  position: absolute;
+  right: 3rem;
   color: var(--base-bg);
   cursor: pointer;
-  position: relative;
   z-index: 900;
   padding: 0.01rem;
   background: none;
