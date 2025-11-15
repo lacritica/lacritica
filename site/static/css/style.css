@@ -290,6 +290,9 @@ h1, h2, h3, h4, h5, h6,
 
 .article-sidebar .post-author {
   font-size: 1.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
   margin-bottom: 1rem;
   color: inherit;
   font-family: Jost;
@@ -315,6 +318,33 @@ h1, h2, h3, h4, h5, h6,
   text-decoration: underline; /* underline on hover */
 }
 
+/* for reseñas */ 
+
+
+.article-sidebar .obra_reseñada {
+  border-top: 1px solid var(--border-color, #ddd);
+  margin-top: 5rem;
+  flex: 1 1 50%; /* grow, shrink, base width */
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.book-cover img {
+  box-shadow: 8px 0 6px rgba(0, 0, 0, 0.3); /* rightward shadow */
+  border: 1px solid var(--neutral-200);
+  margin-top: 2rem;
+  max-width: 200px;
+  height: auto;
+}
+
+.obra-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--neutral-600);
+}
+
 .article-content {
   flex: 2;
   width: 50%;
@@ -337,23 +367,51 @@ h1, h2, h3, h4, h5, h6,
   }
 
 @media (max-width: 768px) {
+  .container-article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .article-layout {
     flex-direction: column;
-    align-items: center; /* centers children horizontally */
+    align-items: center;
+    width: 100%;
   }
 
   .article-sidebar {
     width: 100%;
-    text-align: center; /* centers text inside sidebar */
+    text-align: center;
   }
 
   .article-sidebar h1 {
-    text-align: center; /* centers the title */
+    text-align: center;
   }
 
   .article-content {
     width: 100%;
-    text-align: left; /* keeps content aligned left */
+    text-align: left;
+  }
+
+    .obra_reseñada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  .book-cover img {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3); /* right-side shadow */
+  }
+
+  .obra-text {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    max-width: 90%;
   }
 }
 
@@ -836,8 +894,16 @@ h1, h2, h3, h4, h5, h6,
 }
 
 @media screen and (max-width: 1170px) {
+
+  /* Hide menu */
+  .taxonomy-menu {
+    display: none;
+  }
+
+  /* Fix grid so it does NOT collapse to 1 column */
   .taxonomy-grid {
-    grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.2rem; /* optional: improves spacing on mobile */
   }
 }
 
@@ -932,20 +998,36 @@ h1, h2, h3, h4, h5, h6,
 
 /* hamburguer button */
 
+#menu.hidden {
+  transform: translateX(100%);
+}
+
 /* Collapsible menu styles */
 #menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
-  width: 25vw; /* 25% of the viewport width */
+  width: 33vw; /* 25% of the viewport width */
   height: 100vh;
   background: var(--accent-burgundy);
   border-left: 1px solid #ccc;
-  padding: 1rem;
+  padding: 1.5rem;
   z-index: 1000;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
   box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+}
+
+/* Show the menu */
+.#menu.open {
+  transform: translateX(0);
+}
+
+/* Mobile: full screen menu */
+@media (max-width: 768px) {
+  #menu {
+    width: 100vw;   /* full mobile width */
+  }
 }
 
 #menu.show {

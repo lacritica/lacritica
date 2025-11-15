@@ -22,9 +22,26 @@
     <article class="article">
       <h2>
         <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ with .Date }}
-          <span class="article-date"> | {{ .Format "02 de January de 2006" }}</span>
-        {{ end }}
+{{ with .Date }}
+  {{ $m := .Format "01" }}
+  {{ $month := dict
+      "01" "enero"
+      "02" "febrero"
+      "03" "marzo"
+      "04" "abril"
+      "05" "mayo"
+      "06" "junio"
+      "07" "julio"
+      "08" "agosto"
+      "09" "septiembre"
+      "10" "octubre"
+      "11" "noviembre"
+      "12" "diciembre"
+  }}
+  <span class="article-date">
+    | {{ .Format "2" }} de {{ index $month $m }} de {{ .Format "2006" }}
+  </span>
+{{ end }}
       </h2>
     </article>
   {{ end }}

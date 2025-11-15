@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reseñas on La Crítica</title>
-    <link>/categories/rese%C3%B1as/</link>
+    <link>//localhost:1313/categories/rese%C3%B1as/</link>
     <description>Recent content in Reseñas on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Nov 2025 12:10:21 +0000</lastBuildDate>
-    <atom:link href="/categories/rese%C3%B1as/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/categories/rese%C3%B1as/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La vida de HLA Hart</title>
+      <link>//localhost:1313/resenas/hla/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/resenas/hla/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>La Igualdad como un valor Liberal</title>
-      <link>/post/la-libertad-como-un-valor-igualitario/</link>
+      <link>//localhost:1313/post/la-libertad-como-un-valor-igualitario/</link>
       <pubDate>Wed, 12 Nov 2025 12:10:21 +0000</pubDate>
-      <guid>/post/la-libertad-como-un-valor-igualitario/</guid>
+      <guid>//localhost:1313/post/la-libertad-como-un-valor-igualitario/</guid>
       <description>&lt;p&gt;Fue 1953 una constitución de libertad?&lt;/p&gt;&#xA;&lt;p&gt;Fue 1994 una constitución de igualdad?&lt;/p&gt;&#xA;&lt;p&gt;Más derechos, más libertad y mejor igualdad.&lt;/p&gt;&#xA;&lt;p&gt;Las dimensiones igualitarias de la libertad.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Probando otras cosas, desde Decap CMS</title>
-      <link>/post/probando-otras-cosas-desde-decap-cms/</link>
+      <link>//localhost:1313/post/probando-otras-cosas-desde-decap-cms/</link>
       <pubDate>Sat, 08 Nov 2025 17:41:02 +0000</pubDate>
-      <guid>/post/probando-otras-cosas-desde-decap-cms/</guid>
+      <guid>//localhost:1313/post/probando-otras-cosas-desde-decap-cms/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;h1 id=&#34;título-1&#34;&gt;Título 1&lt;/h1&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prueba desde el CMS</title>
-      <link>/post/prueba-desde-el-cms/</link>
+      <link>//localhost:1313/post/prueba-desde-el-cms/</link>
       <pubDate>Sat, 08 Nov 2025 15:17:48 +0000</pubDate>
-      <guid>/post/prueba-desde-el-cms/</guid>
+      <guid>//localhost:1313/post/prueba-desde-el-cms/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ok, something (test 3)</title>
-      <link>/post/test1/</link>
+      <link>//localhost:1313/post/test1/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>/post/test1/</guid>
+      <guid>//localhost:1313/post/test1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>

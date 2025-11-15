@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -193,9 +193,12 @@
       <ul>
         <input type="text" id="search-box" placeholder="Search...">
         <li><ul id="search-results"></ul></li>
+        <li><a href="/categories/debates/">debates</a></li>
+        <li><a href="/categories/ensayos/">ensayos</a></li>
+        <li><a href="/categories/reseñas/">reseñas</a></li>
+        <li><a href="/categories/simposios/">simposios</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
-        <li><a href="/page3">Page 3</a></li>
       </ul>
     </nav>
 
@@ -210,25 +213,30 @@
       const searchResults = document.getElementById("search-results");
 
       
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        menu.classList.toggle("show");
-        btn.classList.toggle("hide");
-      });
+btn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  menu.classList.remove("hidden");           
+  requestAnimationFrame(() => {
+    menu.style.transform = "translateX(0)";  
+  });
+});
 
-      menu.addEventListener("click", (e) => e.stopPropagation());
 
-      document.addEventListener("click", () => {
-        if (menu.classList.contains("show")) {
-          menu.classList.remove("show");
-          btn.classList.remove("hide");
-        }
-      });
+menu.addEventListener("click", (e) => e.stopPropagation());
 
-      closeBtn.addEventListener("click", () => {
-        menu.classList.remove("show");
-        btn.classList.remove("hide");
-      });
+
+closeBtn.addEventListener("click", () => {
+  menu.style.transform = "translateX(100%)"; 
+  setTimeout(() => menu.classList.add("hidden"), 300);
+});
+
+
+document.addEventListener("click", () => {
+  if (!menu.classList.contains("hidden")) {
+    menu.style.transform = "translateX(100%)";
+    setTimeout(() => menu.classList.add("hidden"), 300);
+  }
+});
 
       
       const index = new FlexSearch.Document({
@@ -314,46 +322,79 @@
   
     <article class="article">
       <h2>
+        <a href="/resenas/hla/">La vida de HLA Hart</a>
+
+  
+  
+  <span class="article-date">
+    | 15 de noviembre de 2025
+  </span>
+
+      </h2>
+    </article>
+  
+    <article class="article">
+      <h2>
         <a href="/post/probando-notas-al-pie/">Probando notas al pie</a>
-        
-          <span class="article-date"> | 08 de November de 2025</span>
-        
+
+  
+  
+  <span class="article-date">
+    | 8 de noviembre de 2025
+  </span>
+
       </h2>
     </article>
   
     <article class="article">
       <h2>
         <a href="/post/prueba-desde-el-cms/">Prueba desde el CMS</a>
-        
-          <span class="article-date"> | 08 de November de 2025</span>
-        
+
+  
+  
+  <span class="article-date">
+    | 8 de noviembre de 2025
+  </span>
+
       </h2>
     </article>
   
     <article class="article">
       <h2>
         <a href="/post/destacado/">Destacado</a>
-        
-          <span class="article-date"> | 04 de November de 2025</span>
-        
+
+  
+  
+  <span class="article-date">
+    | 4 de noviembre de 2025
+  </span>
+
       </h2>
     </article>
   
     <article class="article">
       <h2>
         <a href="/post/new_post/">Ok, I am trying to try something</a>
-        
-          <span class="article-date"> | 04 de November de 2025</span>
-        
+
+  
+  
+  <span class="article-date">
+    | 4 de noviembre de 2025
+  </span>
+
       </h2>
     </article>
   
     <article class="article">
       <h2>
         <a href="/post/test4/">Prueba de producción</a>
-        
-          <span class="article-date"> | 04 de November de 2025</span>
-        
+
+  
+  
+  <span class="article-date">
+    | 4 de noviembre de 2025
+  </span>
+
       </h2>
     </article>
   
