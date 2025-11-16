@@ -1,13 +1,15 @@
 <div class="authors-row">
   <div class="authors-header">
     <div class="authors-prev"></div>
-    <h2 class="authors-title">autores</h2>
+    <h2 class="authors-title">
+      <a href="{{ "/autores/" | relURL }}">autores</a>
+    </h2>
     <div class="authors-next"></div>
   </div>
 
   <div class="swiper authors-swiper">
     <div class="swiper-wrapper">
-      {{ $authors := shuffle (where .Site.RegularPages "Section" "authors") }}
+      {{ $authors := shuffle (where .Site.RegularPages "Section" "autores") }}
       {{ range $authors }}
         <div class="swiper-slide">
           <a href="{{ .RelPermalink }}" class="author-card-link">

@@ -6,9 +6,11 @@ theme = "hugo-xmag"
 # Enable syntax highlighting, RSS, etc.
 paginate = 10
 enableRobotsTXT = true
+cleanDestinationDir = true
 
 [taxonomies]
   category = "categories"
+  autores = "autores"
   
 [params]
   description = "La Crítica del Derecho"
@@ -40,7 +42,7 @@ enableRobotsTXT = true
   weight = 2
 
 [permalinks]
-  authors = "/authors/:slug/"
+  autores = "/autores/:slug/"
 
 [slug]
 remove_accents = true

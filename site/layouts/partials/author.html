@@ -6,9 +6,9 @@
 {{ end }}
 
 {{ $.Scratch.Set "author_info" slice }}
-{{ if $.Site.Data.authors }}
+{{ if $.Site.Data.autores }}
 {{ range $.Scratch.Get "page_author" }}
-{{ with (index $.Site.Data.authors .) }}
+{{ with (index $.Site.Data.autores .) }}
 {{ $.Scratch.Add "author_info" . }}
 {{ end }}
 {{ end }}

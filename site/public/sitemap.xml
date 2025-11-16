@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/events/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/categories/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/events/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/resenas/hla/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event1/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event2/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event3/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event4/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event5/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event7/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event8/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event9/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/resenas/</loc>
@@ -79,13 +106,13 @@
   </url><url>
     <loc>//localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/agustina-ramon-michel/</loc>
+    <loc>//localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/</loc>
+    <loc>//localhost:1313/autores/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/gustavo-arballo/</loc>
+    <loc>//localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/gustavo-maurino/</loc>
+    <loc>//localhost:1313/autores/gustavo-maurino/</loc>
   </url><url>
     <loc>//localhost:1313/links/libro1/</loc>
   </url><url>
@@ -99,15 +126,15 @@
   </url><url>
     <loc>//localhost:1313/links/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/patricio_nazareno/</loc>
+    <loc>//localhost:1313/autores/patricio_nazareno/</loc>
   </url><url>
     <loc>//localhost:1313/quienes_somos/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/ramiro-alvarez-ugarte/</loc>
+    <loc>//localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/roberto-gargarella/</loc>
+    <loc>//localhost:1313/autores/roberto-gargarella/</loc>
   </url><url>
-    <loc>//localhost:1313/authors/sebastian-guidi/</loc>
+    <loc>//localhost:1313/autores/sebastian-guidi/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url>

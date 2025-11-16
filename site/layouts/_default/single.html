@@ -28,7 +28,7 @@
       {{ $authorSlug := urlize $norm }}
 
       {{/* Try multiple ways to find the author page */}}
-      {{ $authorPage := site.GetPage (printf "/authors/%s" $authorSlug) }}
+      {{ $authorPage := site.GetPage (printf "/autores/%s" $authorSlug) }}
 
       {{ if not $authorPage }}
         {{/* 1) Try pages whose .Params.slug equals this slug */}}
@@ -37,12 +37,12 @@
 
       {{ if not $authorPage }}
         {{/* 2) Try pages whose filename (RelPermalink) contains the slug */}}
-        {{ $authorPage = where site.RegularPages "RelPermalink" (print "/authors/" $authorSlug "/") | first 1 }}
+        {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
       {{ end }}
 
       {{ if not $authorPage }}
         {{/* 3) Last resort: search by normalized title in authors: normalize each author's name and compare */}}
-        {{ $cand := where site.RegularPages "Section" "authors" }}
+        {{ $cand := where site.RegularPages "Section" "autores" }}
         {{ range $cand }}
           {{ $candidateName := .Params.name | default .Title | lower }}
           {{ $candidateName = replaceRE "[áàâäãåā]" "a" $candidateName }}
@@ -61,7 +61,7 @@
       {{ end }}
           <div class="author-block">
             <h3 class="author-name">
-              <a class="author-link" href="{{ (print "/authors/" $authorSlug) | relURL }}">
+              <a class="author-link" href="{{ (print "/autores/" $authorSlug) | relURL }}">
                 {{ $authorClean }}
               </a>
             </h3>

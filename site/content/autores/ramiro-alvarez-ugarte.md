@@ -1,6 +1,5 @@
 ---
 title: "Ramiro Álvarez Ugarte"
-type: "authors"
 twitter_handle: ramiroau
 bio: "Profesor de derecho constitucional en la UBA"
 thumbnail: "img/rau.png"

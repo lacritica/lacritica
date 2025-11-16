@@ -192,23 +192,23 @@
     </item>
     <item>
       <title>Agustina Ramon Michel</title>
-      <link>//localhost:1313/authors/agustina-ramon-michel/</link>
+      <link>//localhost:1313/autores/agustina-ramon-michel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/agustina-ramon-michel/</guid>
+      <guid>//localhost:1313/autores/agustina-ramon-michel/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gustavo Arballo</title>
-      <link>//localhost:1313/authors/gustavo-arballo/</link>
+      <link>//localhost:1313/autores/gustavo-arballo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/gustavo-arballo/</guid>
+      <guid>//localhost:1313/autores/gustavo-arballo/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gustavo Maurino</title>
-      <link>//localhost:1313/authors/gustavo-maurino/</link>
+      <link>//localhost:1313/autores/gustavo-maurino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/gustavo-maurino/</guid>
+      <guid>//localhost:1313/autores/gustavo-maurino/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
@@ -248,9 +248,9 @@
     </item>
     <item>
       <title>Patricio Nazareno</title>
-      <link>//localhost:1313/authors/patricio_nazareno/</link>
+      <link>//localhost:1313/autores/patricio_nazareno/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/patricio_nazareno/</guid>
+      <guid>//localhost:1313/autores/patricio_nazareno/</guid>
       <description>&lt;p&gt;Doctor en Derecho (Yale). Profesor de derecho constitucional y teoría del derecho en la Universidad Nacional de Córdoba y la Universidad Panamericana (México).&lt;/p&gt;</description>
     </item>
     <item>
@@ -262,23 +262,23 @@
     </item>
     <item>
       <title>Ramiro Álvarez Ugarte</title>
-      <link>//localhost:1313/authors/ramiro-alvarez-ugarte/</link>
+      <link>//localhost:1313/autores/ramiro-alvarez-ugarte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/ramiro-alvarez-ugarte/</guid>
+      <guid>//localhost:1313/autores/ramiro-alvarez-ugarte/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roberto Gargarella</title>
-      <link>//localhost:1313/authors/roberto-gargarella/</link>
+      <link>//localhost:1313/autores/roberto-gargarella/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/roberto-gargarella/</guid>
+      <guid>//localhost:1313/autores/roberto-gargarella/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sebastián Guidi</title>
-      <link>//localhost:1313/authors/sebastian-guidi/</link>
+      <link>//localhost:1313/autores/sebastian-guidi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/authors/sebastian-guidi/</guid>
+      <guid>//localhost:1313/autores/sebastian-guidi/</guid>
       <description>&lt;p&gt;Sebastián Guidi es abogado y doctor en derecho por Yale Law School. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>

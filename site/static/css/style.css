@@ -223,7 +223,7 @@ h1, h2, h3, h4, h5, h6,
 
 @media screen and (max-width: 1070px) {
   /* Hero grid: stack feature on top, then 2 columns below */
-   .hero-feature { grid-area: feature; }
+  .hero-feature { grid-area: feature; }
   .hero-column { grid-area: column; }
   /* Hero: one column, stacked vertically */
   .hero-grid {
@@ -236,6 +236,8 @@ h1, h2, h3, h4, h5, h6,
   /* Secondary grid: reduce to 2 columns */
   .secondary-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
   }
 }
 
@@ -256,8 +258,7 @@ h1, h2, h3, h4, h5, h6,
   }
 
   /* Secondary + taxonomy grids: one column */
-  .secondary-grid,
-  .taxonomy-grid {
+  .secondary-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -894,42 +895,98 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* --- Mobile responsive --- */
-@media screen and (max-width: 768px) {
-  .taxonomy-grid {
-    grid-template-columns: 1fr; /* 1 column on mobile */
-    gap: 0.8rem; /* tighter spacing between items */
-    padding-left: 1rem;   /* optional: some padding */
-    padding-right: 1rem;  /* optional: some padding */
+@media screen and (max-width: 1070px) {
+
+    .taxonomy-layout {
+    grid-template-columns: 1fr; /* full width */
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-}
 
-
-
-@media screen and (max-width: 1170px) {
-
-  /* Hide menu */
+    /* Hide menu */
   .taxonomy-menu {
     display: none;
   }
 
-  /* Fix grid so it does NOT collapse to 1 column */
-  .taxonomy-grid {
-    grid-template-columns: repeat(2, 1fr); /* exactly 2 columns */
-    gap: 1.2rem; /* optional: improves spacing on mobile */
+  .taxonomy-grid.secondary-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
 /* --- Mobile responsive --- */
-@media screen and (max-width: 768px) {
-  .taxonomy-grid {
-    grid-template-columns: 1fr; /* 1 column on mobile */
-    gap: 0.8rem; /* tighter spacing between items */
-    padding-left: 1rem;   /* optional: some padding */
-    padding-right: 1rem;  /* optional: some padding */
+@media screen and (max-width: 500px) {
+
+    .taxonomy-layout {
+    grid-template-columns: 1fr; /* full width */
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+    /* Hide menu */
+  .taxonomy-menu {
+    display: none;
+  }
+
+  .taxonomy-grid.secondary-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .secondary-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
+/* página de autores */
 
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
 }
+
+.authors-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.author-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.author-card {
+  cursor: pointer;
+}
+
+.author-card {
+  background: var(--base-bg);
+  display: grid;
+  grid-template-columns: 120px 1fr;  /* image + text */
+}
+
+.author-bio {
+  margin-top: -1rem;
+}
+
+.author-bio-small {
+  margin-top: -1rem;
+  font-size: 1rem;
+}
+
+.author-thumb {
+  filter: grayscale(100%);
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+
 /* footer */
 
 .footer {

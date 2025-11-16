@@ -1,7 +1,6 @@
 ---
 title: Agustina Ramon Michel
 slug: agustina-ramon-michel
-type: "authors"
 thumbnail: /img/arm_original.png
 bio: "Profesora de la Universidad de Palermo."
 ---

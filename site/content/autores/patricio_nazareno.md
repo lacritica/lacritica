@@ -1,6 +1,5 @@
 ---
 title: Patricio Nazareno
-type: "authors"
 twitter_handle: NazarenoPato
 bio: Doctor en Derecho (Yale).
 thumbnail: "img/patricio_nazareno.jpg"

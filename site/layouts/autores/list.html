@@ -1,0 +1,37 @@
+
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<div class="authors-grid">
+
+  {{ range .Pages }}
+  <a href="{{ .RelPermalink }}" class="author-card-link">
+    <article class="author-card">
+
+      <div class="author-photo">
+
+        {{ with .Params.thumbnail }}
+          <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="author-thumb">
+        {{ end }}
+
+      </div>
+
+      <div class="author-bio">
+
+        <h4>{{ .Title }}</h4>
+        <div class="author-bio-small">
+        {{ with .Params.bio }}{{ . }}
+        {{ end }}
+        </div>
+      </div>
+
+    </article>
+  </a>
+  {{ end }}
+
+</div>
+
+
+{{ partial "footer.html" . }}
+
