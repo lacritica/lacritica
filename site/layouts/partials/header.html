@@ -35,15 +35,26 @@
         <img src="{{ "/img/logo_small.svg" | relURL }}" alt="Logo">
       </a>
 
-      <div class="taxonomy-list">
-      {{ with .Site.Taxonomies.categories }}
-        <ul>
-          {{ range $key, $value := . }}
-            <li><a href="{{ "/categories/" | relURL }}{{ $key | urlize }}">{{ $key }}</a></li>
-          {{ end }}
-        </ul>
-      </div>
+<div class="taxonomy-list">
+  {{ with .Site.Taxonomies.categories }}
+
+    {{/* Categories to hide */}}
+    {{ $exclude := slice "catastrophe" "internal" "hidden" }}
+
+    <ul>
+      {{ range $key, $value := . }}
+        {{ if not (in $exclude $key) }}
+          <li>
+            <a href="{{ "/categories/" | relURL }}{{ $key | urlize }}">
+              {{ $key }}
+            </a>
+          </li>
+        {{ end }}
       {{ end }}
+    </ul>
+
+  {{ end }}
+</div>
 
       <!-- Hamburger button -->
       <button id="menu-toggle" aria-label="Toggle menu">

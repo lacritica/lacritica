@@ -53,7 +53,19 @@
     <loc>//localhost:1313/post/</loc>
     <lastmod>2025-11-12T12:10:21+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/categories/catastrophe/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/catastrophe/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/categories/debates/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/catastrophe/probando-notas-al-pie-copy/</loc>
+    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/catastrophe/probando-notas-al-pie/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/probando-notas-al-pie/</loc>
@@ -71,6 +83,9 @@
     <loc>//localhost:1313/post/probando-otras-cosas-desde-decap-cms/</loc>
     <lastmod>2025-11-08T17:41:02+00:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/catastrophe/prueba-desde-el-cms/</loc>
+    <lastmod>2025-11-08T15:17:48+00:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/post/prueba-desde-el-cms/</loc>
     <lastmod>2025-11-08T15:17:48+00:00</lastmod>
   </url><url>
@@ -82,6 +97,9 @@
   </url><url>
     <loc>//localhost:1313/post/yay-dcms-works/</loc>
     <lastmod>2025-11-04T22:04:57+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/catastrophe/destacado/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/destacado/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>

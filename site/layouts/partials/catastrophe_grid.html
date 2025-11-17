@@ -1,0 +1,50 @@
+{{ $section := site.GetPage "section" "catastrophe" }}
+
+{{ if and $section $section.Params.show }}
+
+  {{ $catastrophePosts := first 6 ($section.Pages.ByDate.Reverse) }}
+
+  <div class="catastrophe">
+
+    <section class="cat_title">
+      <h1>{{ $section.Title }}</h1>
+    </section>
+
+  <section class="catastrophe-grid">
+
+  <div class="cat_picture">
+    {{ with $section.Params.image }}
+      <img src="{{ . }}" alt="">
+    {{ end }}
+  </div>
+
+  <div class="cat_articles">
+    {{ range $catastrophePosts }}
+      <article class="article">
+
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+
+        <div class="author">
+          {{ if .Params.author }}
+            <span class="author">{{ partial "author_names.html" . }}</span>
+          {{ end }}
+        </div>
+
+        <div class="summary">
+          {{ with .Description }}{{ . | markdownify }}{{ else }}{{ .Summary }}{{ end }}
+        </div>
+
+        <div class="date">
+          {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
+          {{ printf "%d de %s de %d" .Date.Day (index $months (printf "%d" .Date.Month)) .Date.Year }}
+        </div>
+
+      </article>
+    {{ end }}
+  </div>
+
+</section>
+
+
+</div>
+{{ end }}
