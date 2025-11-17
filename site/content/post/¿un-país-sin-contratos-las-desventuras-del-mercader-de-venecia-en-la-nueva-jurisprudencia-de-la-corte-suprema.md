@@ -1,7 +1,7 @@
 ---
 title: ¿Un país sin contratos? Las desventuras del mercader de Venecia en la
   nueva jurisprudencia de la Corte Suprema
-date: 2025-11-17T17:04:47.072Z
+date: 2025-11-17T23:27:39.297Z
 description: En un fallo reciente, la Corte Suprema podría marcar el inicio una
   nueva tendencia en su aproximación al sistema de contratos
 categories:
