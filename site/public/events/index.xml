@@ -6,8 +6,15 @@
     <description>Recent content in Events on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 17:19:06 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Super conferencia, ICON 2026</title>
+      <link>//localhost:1313/events/super-conferencia-icon-2026/</link>
+      <pubDate>Mon, 17 Nov 2025 17:19:06 +0000</pubDate>
+      <guid>//localhost:1313/events/super-conferencia-icon-2026/</guid>
+      <description>&lt;p&gt;El contenido en realidad no importa.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ACIJ. De la excepción a la regla</title>
       <link>//localhost:1313/events/event2/</link>

@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/events/event2/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/events/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2025-11-17T17:19:06+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/super-conferencia-icon-2026/</loc>
+    <lastmod>2025-11-17T17:19:06+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/resenas/gran-libro-de-ranciere/</loc>
+    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/resenas/</loc>
+    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/events/event2/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/resenas/hla/</loc>
@@ -41,12 +53,6 @@
     <loc>//localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/resenas/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/la-libertad-como-un-valor-igualitario/</loc>
     <lastmod>2025-11-12T12:10:21+00:00</lastmod>
   </url><url>
@@ -56,16 +62,16 @@
     <loc>//localhost:1313/categories/catastrophe/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/catastrophe/</loc>
+    <loc>//localhost:1313/catastrofe/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/debates/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/catastrophe/probando-notas-al-pie-copy/</loc>
+    <loc>//localhost:1313/catastrofe/probando-notas-al-pie-copy/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/catastrophe/probando-notas-al-pie/</loc>
+    <loc>//localhost:1313/catastrofe/probando-notas-al-pie/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/probando-notas-al-pie/</loc>
@@ -83,7 +89,7 @@
     <loc>//localhost:1313/post/probando-otras-cosas-desde-decap-cms/</loc>
     <lastmod>2025-11-08T17:41:02+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/catastrophe/prueba-desde-el-cms/</loc>
+    <loc>//localhost:1313/catastrofe/prueba-desde-el-cms/</loc>
     <lastmod>2025-11-08T15:17:48+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/prueba-desde-el-cms/</loc>
@@ -98,7 +104,7 @@
     <loc>//localhost:1313/post/yay-dcms-works/</loc>
     <lastmod>2025-11-04T22:04:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/catastrophe/destacado/</loc>
+    <loc>//localhost:1313/catastrofe/destacado/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/destacado/</loc>

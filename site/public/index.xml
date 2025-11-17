@@ -6,8 +6,22 @@
     <description>Recent content in La Crítica del derecho on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 17:19:06 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Super conferencia, ICON 2026</title>
+      <link>//localhost:1313/events/super-conferencia-icon-2026/</link>
+      <pubDate>Mon, 17 Nov 2025 17:19:06 +0000</pubDate>
+      <guid>//localhost:1313/events/super-conferencia-icon-2026/</guid>
+      <description>&lt;p&gt;El contenido en realidad no importa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gran libro de Ranciere</title>
+      <link>//localhost:1313/resenas/gran-libro-de-ranciere/</link>
+      <pubDate>Mon, 17 Nov 2025 16:59:12 +0000</pubDate>
+      <guid>//localhost:1313/resenas/gran-libro-de-ranciere/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>ACIJ. De la excepción a la regla</title>
       <link>//localhost:1313/events/event2/</link>
@@ -87,16 +101,16 @@
     </item>
     <item>
       <title>Probando notas al pie</title>
-      <link>//localhost:1313/catastrophe/probando-notas-al-pie-copy/</link>
+      <link>//localhost:1313/catastrofe/probando-notas-al-pie-copy/</link>
       <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
-      <guid>//localhost:1313/catastrophe/probando-notas-al-pie-copy/</guid>
+      <guid>//localhost:1313/catastrofe/probando-notas-al-pie-copy/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
     </item>
     <item>
       <title>Probando notas al pie</title>
-      <link>//localhost:1313/catastrophe/probando-notas-al-pie/</link>
+      <link>//localhost:1313/catastrofe/probando-notas-al-pie/</link>
       <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
-      <guid>//localhost:1313/catastrophe/probando-notas-al-pie/</guid>
+      <guid>//localhost:1313/catastrofe/probando-notas-al-pie/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
     </item>
     <item>
@@ -129,9 +143,9 @@
     </item>
     <item>
       <title>Prueba desde el CMS</title>
-      <link>//localhost:1313/catastrophe/prueba-desde-el-cms/</link>
+      <link>//localhost:1313/catastrofe/prueba-desde-el-cms/</link>
       <pubDate>Sat, 08 Nov 2025 15:17:48 +0000</pubDate>
-      <guid>//localhost:1313/catastrophe/prueba-desde-el-cms/</guid>
+      <guid>//localhost:1313/catastrofe/prueba-desde-el-cms/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
@@ -164,9 +178,9 @@
     </item>
     <item>
       <title>Destacado</title>
-      <link>//localhost:1313/catastrophe/destacado/</link>
+      <link>//localhost:1313/catastrofe/destacado/</link>
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/catastrophe/destacado/</guid>
+      <guid>//localhost:1313/catastrofe/destacado/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>

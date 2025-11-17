@@ -2,30 +2,35 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "/site/static/img" # Folder where user uploaded files should go
-public_folder: "/img"
+# Media settings
+media_folder: "site/static/img"   # Where uploaded files are stored in the repo
+public_folder: "/img"             # Public URL path used by Hugo
 
+# Collections
 collections:
+
+  # -------------------------
+  # POSTS
+  # -------------------------
   - name: "post"
     label: "Posts"
-    folder: "/site/content/post"
+    folder: "site/content/post"
     create: true
     format: "frontmatter"
     extension: "md"
     slug: "{{slug}}"
-    path: "{{slug}}"
 
-    # Override image upload paths for this collection
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - label: "Description"
         name: "description"
         widget: "string"
-        hint: "Super breve resúmen (max 124 caracterés)"
+        hint: "Super breve resúmen (max 148 caracteres)"
         pattern:
           - "^.{0,148}$"
-          - "De 148 caractéres o menos"
+          - "De 148 caracteres o menos"
+
       - label: "Category"
         name: "categories"
         widget: "select"
@@ -33,6 +38,7 @@ collections:
         multiple: true
         max: 1
         default: ["ensayos"]
+
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -42,23 +48,30 @@ collections:
         display_fields: ["title"]
         multiple: true
         hint: "Elije a les autores que correspondan"
+
       - label: "Thumbnail"
         name: "thumbnail"
         widget: "image"
         required: false
+
       - label: "Highlight"
         name: "highlight"
         widget: "boolean"
         default: false
-        hint: "Markar si va a la nota destacada de la home"
+        hint: "Marcar si va a la nota destacada de la home"
+
       - { label: "Body", name: "body", widget: "markdown" }
 
+
+  # -------------------------
+  # AUTORES
+  # -------------------------
   - name: "autores"
     label: "Autores"
     label_singular: "Autor"
-    folder: "/site/content/autores"
+    folder: "site/content/autores"
     create: true
-    slug: "{{slug}}" # filename pattern
+    slug: "{{slug}}"
     extension: "md"
     format: "frontmatter"
     preview_path: "autores/{{slug}}"
@@ -66,36 +79,46 @@ collections:
 
     fields:
       - { label: "Title", name: "title", widget: "string", hint: "Nombre completo del autor" }
+
       - label: "Slug"
         name: "slug"
         widget: "string"
-        hint: "Nombre del autor entre guiones y minúscula, así: nombre-apellido1-apellido2"
-        pattern: ['^[a-z0-9-]+$', "Only lowercase letters, numbers and hyphens allowed"]
+        hint: "nombre-apellido1-apellido2"
+        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
       - { label: "Type", name: "type", widget: "hidden", default: "authors" }
+
       - label: "Foto"
         name: "foto"
         widget: "image"
         choose_url: true
         hint: "Subir la foto del perfil del autor (se guarda en static/img)"
+
       - label: "Short bio"
         name: "bio"
         widget: "text"
-        hint: "(aparece en las notas, super breve)"
-      - label: "twitter_handle"
-        name: "twitter handle"
+        hint: "Aparece en notas (super breve)"
+
+      - label: "Twitter"
+        name: "twitter_handle"
         widget: "string"
-        hint: "Twitter, si tiene (sin arroba)"
+        hint: "Usuario de Twitter (sin arroba)"
+
       - label: "Bio más larga"
         name: "body"
         widget: "markdown"
-        hint: "Más larga, puede incluir links"
+        hint: "Puede incluir links"
 
-- name: "reseñas"
+
+  # -------------------------
+  # RESEÑAS
+  # -------------------------
+  - name: "reseñas"
     label: "Reseñas"
-    label_singular: "reseña"
-    folder: "/site/content/reseñas"
+    label_singular: "Reseña"
+    folder: "site/content/reseñas"
     create: true
-    slug: "{{slug}}" # filename pattern
+    slug: "{{slug}}"
     extension: "md"
     format: "frontmatter"
     preview_path: "reseñas/{{slug}}"
@@ -104,20 +127,21 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+
       - label: "Description"
         name: "description"
         widget: "string"
-        hint: "Super breve resúmen (max 124 caracterés)"
+        hint: "Super breve resúmen (max 148 caracteres)"
         pattern:
           - "^.{0,148}$"
-          - "De 148 caractéres o menos"
-      - label: "Category )"
+          - "De 148 caracteres o menos"
+
+      # FIXED CATEGORY (hidden)
+      - label: "Category"
         name: "categories"
-        widget: "select"
-        options: ["debates", "simposios", "reseñas", "ensayos"]
-        multiple: true
-        max: 1
+        widget: "hidden"
         default: ["reseñas"]
+
       - label: "Author"
         name: "author"
         widget: "relation"
@@ -126,14 +150,119 @@ collections:
         value_field: "title"
         display_fields: ["title"]
         multiple: true
-        hint: "Elije a les autores que correspondan"
+
       - label: "Thumbnail"
         name: "thumbnail"
         widget: "image"
         required: false
-        hint: "La foto de la tapa del libro"
-      - label: "Obra reseñada"  
+        hint: "Foto de la tapa del libro"
+
+      - label: "Obra reseñada"
         name: "obra_reseñada"
         widget: "string"
-        hint: "Cita completa a la obra reseñada, idealmente APA"
+        hint: "Cita completa, idealmente APA"
+
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # -------------------------
+  # EVENTOS y LINKS
+  # -------------------------
+  - name: "events"
+    label: "Eventos y links"
+    label_singular: "Evento"
+    folder: "site/content/events"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    preview_path: "events/{{slug}}"
+    identifier_field: "title"
+
+    fields:
+      - label: "Tipo de evento"
+        name: "type_of_event"
+        widget: "select"
+        options: ["Seminario", "Curso", "Conferencia", "Lanzamiento", "Otro"]
+        default: "Seminario"
+
+      - { label: "Título", name: "title", widget: "string" }
+
+      - { label: "Fecha de publicación", name: "date", widget: "datetime" }
+
+      - label: "Fecha del evento"
+        name: "date_of_event"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+
+      - label: "Lugar"
+        name: "place"
+        widget: "string"
+
+      - label: "Descripción"
+        name: "description"
+        widget: "string"
+        hint: "Resumen breve del evento (máx. 148 caracteres)"
+        pattern:
+          - "^.{0,148}$"
+          - "Máximo 148 caracteres"
+
+      - label: "Más información (URL)"
+        name: "more_info"
+        widget: "string"
+        hint: "Link a más información"
+
+      - { label: "Contenido", name: "body", widget: "markdown" }
+
+
+  # -------------------------
+  # CATÁSTROFE
+  # -------------------------
+  - name: "catastrofe"
+    label: "Catástrofe"
+    label_singular: "Catástrofe"
+    folder: "site/content/catastrofe"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    preview_path: "catastrofe/{{slug}}"
+    identifier_field: "title"
+
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        hint: "Super breve resúmen (max 148 caracteres)"
+        pattern:
+          - "^.{0,148}$"
+          - "De 148 caracteres o menos"
+
+      # FIXED CATEGORY (hidden)
+      - label: "Category"
+        name: "categories"
+        widget: "hidden"
+        default: ["catástrofe"]
+
+      - label: "Author"
+        name: "author"
+        widget: "relation"
+        collection: "autores"
+        search_fields: ["title"]
+        value_field: "title"
+        display_fields: ["title"]
+        multiple: true
+
+      - label: "Thumbnail"
+        name: "thumbnail"
+        widget: "image"
+        required: false
+
+      - label: "Obra reseñada"
+        name: "obra_reseñada"
+        widget: "string"
+        hint: "Cita completa"
+
       - { label: "Body", name: "body", widget: "markdown" }
