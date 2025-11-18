@@ -34,7 +34,7 @@ collections:
       - label: "Category"
         name: "categories"
         widget: "select"
-        options: ["debates", "simposios", "reseñas", "ensayos"]
+        options: ["debates", "simposios", "reseñas", "ensayos", "misceláneas"]
         multiple: true
         max: 1
         default: ["ensayos"]

@@ -24,7 +24,7 @@
 
         <div class="author">
           {{ if $post.Params.author }}
-            <span class="author">{{ partial "author_names.html" $post }}</span>
+            <span class="author">{{ partial "author_names.html" $post | safeHTML }}</span>
           {{ end }}
         </div>
 

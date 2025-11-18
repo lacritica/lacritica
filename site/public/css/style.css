@@ -16,7 +16,8 @@
   --accent-blue: #05334a;
   --neutral-pale-blue: #627890;
   --accent-beige: #d6b896;
-  --neutral-beige: #ebd9c7; 
+  --neutral-beige: #ebd9c7;
+  --blockquote-color: #E5DFD2; 
 
   /* Supporting neutrals */
   --neutral-100: #FAFAFA;
@@ -65,7 +66,7 @@ main.homepage {
 
 body {
   background-color: var(--base-bg);
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Mukta', system-ui, -apple-system, sans-serif;
   font-size: 1.2rem;
   line-height: 1.4;
   color: #111;
@@ -174,14 +175,33 @@ h1, h2, h3, h4, h5, h6,
   letter-spacing: 0.001em;
 }
 
+/* Container for author list */
 .hero-column .post-author .author-name {
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif;
-  font-weight: 400;
-  color: var(--neutral-600);
+  font-weight: 600;
+  color: var(--accent-burgundy);
   letter-spacing: 0.001em;
+
+  white-space: normal; /* allow wrapping of the whole author list */
+  line-height: 1.3;    /* improves multi-line readability */
 }
+
+/* Each author link / name */
+.hero-column .post-author .author-link {
+  white-space: nowrap;  /* keep individual names together */
+  display: inline-block; /* allows wrapping at commas / spaces between authors */
+  font-size: 1.1em;
+  font-family: 'Jost', Georgia, serif;
+  font-weight: 600;
+  color: var(--accent-burgundy);
+  letter-spacing: 0.001em;
+  margin-right: 0.2em; /* small space after each author */
+}
+
+
+
 
 .hero-column .article .summary {
   font-size: 1.1rem;
@@ -206,21 +226,58 @@ h1, h2, h3, h4, h5, h6,
 /* Callouts / destacados */ 
 
 .random-callout {
-  background-color: var(--accent-blue);
+  background-color: var(--neutral-pale-blue);
   color: var(--base-bg);
   font-family: 'Jost';
+  font-size: 1.8rem;
   border-left: 8px solid var(--accent);
   padding: 2rem 4rem;
 }
 
+.callout-author {
+  background-color: var(--neutral-pale-blue);
+  color: var(--base-bg);
+  font-family: 'Jost';
+  font-size: 1.3rem;
+}
+
+.callout-title {
+  background-color: var(--neutral-pale-blue);
+  color: var(--base-bg);
+  font-family: 'Jost';
+  font-size: 1.3rem;
+}
+
+.callout-date {
+  background-color: var(--neutral-pale-blue);
+  color: var(--base-bg);
+  font-family: 'Jost';
+  font-size: 1.3rem;
+}
+
+.left-logo-img {
+  height: 26px;
+  width: auto;
+
+  /* Make sure share-icon rules never override this */
+  fill: none !important;
+}
+
+
 .share-fixed {
+  border-top: 1px solid;
+  display: flex;
+  justify-content: space-between; /* left logo + right icons */
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.right-icons {
   display: flex;
   gap: 0.8rem;
-  align-items: right;
 }
 
 .share-icon {
-
   padding: 0.4rem;
   border-radius: 6px;
   color: #111;
@@ -230,7 +287,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .share-icon:hover {
-  background: #ddd;
+  background: var(--accent-blue);
 }
 
 
@@ -392,8 +449,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .article-layout .article-sidebar h1 {
-  font-size: 2.4rem;
-  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -410,11 +467,23 @@ h1, h2, h3, h4, h5, h6,
   cursor: pointer;
 }
 
+.article-sidebar .post-author .author-block {
+  margin: 0rem 0;  /* smaller vertical spacing */
+  line-height: 1.2;  /* adjust if needed */
+}
+
+.article-sidebar .post-author .author-block .author-name {
+  margin-bottom: 1rem;
+  line-height: 0rem;
+}
+
+
 .article-sidebar .post-author .author-bio {
   font-size: 0.8em;
   font-weight: normal;
   font-family: 'Optima';
-  margin-top: 0.3rem;
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
 }
 
 .article-sidebar .post-author .author-link {
@@ -474,6 +543,15 @@ h1, h2, h3, h4, h5, h6,
 .container-article {
   padding: 2rem 6rem 0;
   }
+/* llevar a media */
+
+.article-content .para-block {
+  font-family: 'Mukta', system-ui, -apple-system, sans-serif;
+  font-weight: 300;
+  margin: 0 0 1em 0;   /* bottom spacing only */
+  line-height: 1.5;    /* comfortable line spacing */
+  font-size: 1em;      /* base font size */
+}
 
 @media (max-width: 900px) {
 
@@ -986,6 +1064,12 @@ h1, h2, h3, h4, h5, h6,
   background-color: var(--neutral-pale-blue); /* light blue */
 }
 
+.taxonomy-menu[data-term="misceláneas"],
+.taxonomy-layout[data-term="misceláneas"],
+.taxonomy-grid[data-term="misceláneas"] .article {
+  background-color: var(--neutral-pale-blue); /* light blue */
+}
+
 .taxonomy-menu[data-term="simposios"],
 .taxonomy-layout[data-term="simposios"],
 .taxonomy-grid[data-term="simposios"] .article {
@@ -1328,9 +1412,22 @@ pre code {
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 
-blockquote {
-  color: var(--base-bg);
-  background: var(--primary-dark);
+blockquote * {
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: var(--neutral-600);
+  background: var(--base-bg);
+  border-left: 0px solid #ccc;
+  font-family: 'Mukta', system-ui, -apple-system, sans-serif;
+  font-size: 1.3rem;
+  
+}
+
+blockquote h5 {
+  
+  
+  color: var(--neutral-600);
+  text-decoration: none;
   border-left: 6px solid #ccc;
   padding: 1rem 1rem 1rem 1rem;
 }

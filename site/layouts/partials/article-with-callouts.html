@@ -5,6 +5,8 @@
 {{ $countCallouts := len $callouts }}
 {{ $positions := shuffle (seq (len $blocks)) | first $countCallouts }}
 
+{{ $page := . }}   <!-- store the page context -->
+
 {{ range $i, $b := $blocks }}
 
   <div class="para-block">
@@ -12,7 +14,33 @@
   </div>
 
   {{ if in $positions $i }}
-    {{ partial "callout.html" (index $callouts (mod $i $countCallouts)) }}
+    {{ $calloutText := index $callouts (mod $i $countCallouts) }}
+
+    {{/* Spanish month dictionary */}}
+    {{ $months := dict
+      "January" "enero"
+      "February" "febrero"
+      "March" "marzo"
+      "April" "abril"
+      "May" "mayo"
+      "June" "junio"
+      "July" "julio"
+      "August" "agosto"
+      "September" "septiembre"
+      "October" "octubre"
+      "November" "noviembre"
+      "December" "diciembre"
+    }}
+
+    {{ $month := index $months ($page.Date.Format "January") }}
+    {{ $date := printf "%d de %s de %d" $page.Date.Day $month $page.Date.Year }}
+
+    {{ partial "callout.html" (dict
+        "text"   $calloutText
+        "author" (delimit $page.Params.author ", ")
+        "title"  $page.Title
+        "date"   $date
+    ) }}
   {{ end }}
 
 {{ end }}

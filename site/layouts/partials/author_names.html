@@ -1,63 +1,83 @@
 {{ with .Params.author }}
-  <div class="post-author">
-    {{ range . }}
-      {{ $raw := . }}
-      {{ $authorClean := replaceRE "[\\[\\]]" "" $raw }}
+  {{/* Collect rendered author HTML (linked or not) into a slice */}}
+  {{- $authors := slice -}}
 
-      {{/* normalize: remove common accented chars and punctuation, then urlize */}}
-      {{ $norm := $authorClean | lower }}
-      {{ $norm = replaceRE "[áàâäãåā]" "a" $norm }}
-      {{ $norm = replaceRE "[éèêëē]" "e" $norm }}
-      {{ $norm = replaceRE "[íìîïī]" "i" $norm }}
-      {{ $norm = replaceRE "[óòôöõō]" "o" $norm }}
-      {{ $norm = replaceRE "[úùûüū]" "u" $norm }}
-      {{ $norm = replaceRE "[ñ]" "n" $norm }}
-      {{ $norm = replaceRE "[ç]" "c" $norm }}
-      {{ $norm = replaceRE "[^a-z0-9\\s-]" "" $norm }}    {{/* remove remaining punctuation */}}
-      {{ $authorSlug := urlize $norm }}
+  {{ range . }}
+    {{ $raw := . }}
+    {{ $authorClean := replaceRE "[\\[\\]]" "" $raw }}
 
-      {{/* Try multiple ways to find the author page */}}
-      {{ $authorPage := site.GetPage (printf "/autores/%s" $authorSlug) }}
+    {{/* -- normalization block unchanged -- */}}
+    {{ $norm := $authorClean | lower }}
+    {{ $norm = replaceRE "[áàâäãåā]" "a" $norm }}
+    {{ $norm = replaceRE "[éèêëē]" "e" $norm }}
+    {{ $norm = replaceRE "[íìîïī]" "i" $norm }}
+    {{ $norm = replaceRE "[óòôöõō]" "o" $norm }}
+    {{ $norm = replaceRE "[úùûüū]" "u" $norm }}
+    {{ $norm = replaceRE "[ñ]" "n" $norm }}
+    {{ $norm = replaceRE "[ç]" "c" $norm }}
+    {{ $norm = replaceRE "[^a-z0-9\\s-]" "" $norm }}
+    {{ $authorSlug := urlize $norm }}
 
-      {{ if not $authorPage }}
-        {{/* 1) Try pages whose .Params.slug equals this slug */}}
-        {{ $authorPage = where site.RegularPages "Params.slug" $authorSlug | first 1 }}
-      {{ end }}
-
-      {{ if not $authorPage }}
-        {{/* 2) Try pages whose filename (RelPermalink) contains the slug */}}
-        {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
-      {{ end }}
-
-      {{ if not $authorPage }}
-        {{/* 3) Last resort: search by normalized title in authors: normalize each author's name and compare */}}
-        {{ $cand := where site.RegularPages "Section" "autores" }}
-        {{ range $cand }}
-          {{ $candidateName := .Params.name | default .Title | lower }}
-          {{ $candidateName = replaceRE "[áàâäãåā]" "a" $candidateName }}
-          {{ $candidateName = replaceRE "[éèêëē]" "e" $candidateName }}
-          {{ $candidateName = replaceRE "[íìîïī]" "i" $candidateName }}
-          {{ $candidateName = replaceRE "[óòôöõō]" "o" $candidateName }}
-          {{ $candidateName = replaceRE "[úùûüū]" "u" $candidateName }}
-          {{ $candidateName = replaceRE "[ñ]" "n" $candidateName }}
-          {{ $candidateName = replaceRE "[ç]" "c" $candidateName }}
-          {{ $candidateName = replaceRE "[^a-z0-9\\s-]" "" $candidateName }}
-          {{ if eq (urlize $candidateName) $authorSlug }}
-            {{ $authorPage = . }}
-            {{ break }}
-          {{ end }}
+    {{/* -- page-finding block unchanged -- */}}
+    {{ $authorPage := site.GetPage (printf "/autores/%s" $authorSlug) }}
+    {{ if not $authorPage }}
+      {{ $authorPage = where site.RegularPages "Params.slug" $authorSlug | first 1 }}
+    {{ end }}
+    {{ if not $authorPage }}
+      {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
+    {{ end }}
+    {{ if not $authorPage }}
+      {{ $cand := where site.RegularPages "Section" "autores" }}
+      {{ range $cand }}
+        {{ $candidateName := .Params.name | default .Title | lower }}
+        {{ $candidateName = replaceRE "[áàâäãåā]" "a" $candidateName }}
+        {{ $candidateName = replaceRE "[éèêëē]" "e" $candidateName }}
+        {{ $candidateName = replaceRE "[íìîïī]" "i" $candidateName }}
+        {{ $candidateName = replaceRE "[óòôöõō]" "o" $candidateName }}
+        {{ $candidateName = replaceRE "[úùûüū]" "u" $candidateName }}
+        {{ $candidateName = replaceRE "[ñ]" "n" $candidateName }}
+        {{ $candidateName = replaceRE "[ç]" "c" $candidateName }}
+        {{ $candidateName = replaceRE "[^a-z0-9\\s-]" "" $candidateName }}
+        {{ if eq (urlize $candidateName) $authorSlug }}
+          {{ $authorPage = . }}
+          {{ break }}
         {{ end }}
       {{ end }}
-
-      <div class="author-block">
-        <h3 class="author-name">
-          {{ if $authorPage }}
-            <a class="author-link" href="{{ $authorPage.RelPermalink }}">{{ $authorClean }}</a>
-          {{ else }}
-            {{ $authorClean }}
-          {{ end }}
-        </h3>
-      </div>
     {{ end }}
+
+    {{/* Build the HTML for this author */}}
+    {{ if $authorPage }}
+      {{ $authors = $authors | append (printf "<a class=\"author-link\" href=\"%s\">%s</a>" $authorPage.RelPermalink $authorClean) }}
+    {{ else }}
+      {{ $authors = $authors | append $authorClean }}
+    {{ end }}
+
+  {{ end }}
+
+  {{/* --- Spanish formatting logic --- */}}
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+{{ $n := len $authors }}
+
+{{ if eq $n 1 }}
+  {{ index $authors 0 | safeHTML }}
+
+{{ else if eq $n 2 }}
+  {{ printf "%s y %s" (index $authors 0) (index $authors 1) | safeHTML }}
+
+{{ else if eq $n 3 }}
+  {{ printf "%s, %s y %s" (index $authors 0) (index $authors 1) (index $authors 2) | safeHTML }}
+
+{{ else if gt $n 3 }}
+  {{ printf "%s, %s, …, %s" (index $authors 0) (index $authors 1) (index $authors (sub $n 1)) | safeHTML }}
+
+{{ end }}
+
+
+      </h3>
+    </div>
   </div>
+
 {{ end }}
