@@ -146,9 +146,10 @@ h1, h2, h3, h4, h5, h6,
 
 .featured-content h1 {
   font-size: 2.2em;
+  line-height: 3.2rem;
   font-family: 'Jost', Georgia, serif;
   font-weight: 900;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.001em;
   color: #d11534;
 }
 

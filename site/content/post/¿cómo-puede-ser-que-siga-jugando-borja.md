@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo puede ser que siga jugando Borja? "
+title: "¿Cómo puede ser que siga jugando Borja en River Plate? "
 date: 2025-11-18T12:06:40.921Z
 description: "Realmente una de esas cosas que resultan inexplicables, que
   requiere un simposio para poder entender, sailr de la perplejidad. "

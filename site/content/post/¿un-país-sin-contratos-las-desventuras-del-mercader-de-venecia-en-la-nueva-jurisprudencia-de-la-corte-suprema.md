@@ -12,7 +12,7 @@ author:
 thumbnail: /img/mostro.png
 highlight: false
 ---
-### **Una Historia Tucumana, la de todos en Argentina**
+# Una Historia Tucumana, la de todos en Argentina
 
 Hace unos días -lo que queda de- la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años ("Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación" 11/11/25) 
 
@@ -28,9 +28,9 @@ Interesantemente, la Corte no explicitó en su fallo cuál era la magnitud de la
 
 Pues bien, doce años después de desencadenado el conflicto los jueces de la Corte Suprema consideraron oportuno ocuparse del caso. No sabemos por qué la Corte eligió tratarlo, entre los miles de casos que recibe cada año para revisar sentencias tachadas de arbitrarias, y de las cuales selecciona apenas algunos cientos. Indudablemente los jueces del Máximo Tribunal entendieron que tenían algo importante para decirle a la sociedad argentina, acerca de los contratos, para el futuro. Eso es precisamente lo que hacen las Altas Cortes de un país con el grupo selecto de casos que eligen discrecionalmente estudiar y fallar cada año: Resuelven un caso del pasado y envían señalas con las que intentan moldear el futuro. Ahí reside la clave del enorme poder social que le cofiere su autoridad constitucional.
 
-> ##### *Eso es precisamente lo que hacen las altas Cortes de un país con el grupo selecto de casos que eligen discrecionalmente para estudiar y fallar cada año: Resuelven un caso del pasado y envían señales con las que intenten moldear el futuro. Ahí reside la clave del enorme poder social que le confiere su alta autoridad constitucional.*
+> Eso es precisamente lo que hacen las altas Cortes de un país con el grupo selecto de casos que eligen discrecionalmente para estudiar y fallar cada año: Resuelven un caso del pasado y envían señales con las que intenten moldear el futuro. Ahí reside la clave del enorme poder social que le confiere su alta autoridad constitucional.*
 
-### **Un Fallo simple**
+# Un Fallo simple
 
 ¿Cómo se resolvió el caso de los desventurados contratantes tucumanos?: El, muy breve, fallo dijo simplemente: “la claridad de la cláusula \[del contrato] únicamente permite concluir en que los contratantes pactaron voluntariamente un parámetro determinado de equivalencia para el supuesto de pago en pesos, cual fue, indudablemente, la cotización del dólar del BNA correspondiente al día del efectivo pago”. 
 
@@ -40,9 +40,7 @@ Mas abajo vamos a considerar qué ha querido decirnos la Corte, a todos, en Arge
 
 Pero antes, detengámonos un momento en el derecho, pues el derecho importa (¿o no?).
 
-
-
-### **El nuevo derecho privado argentino: El derecho privado de la buena fe**
+# El nuevo derecho privado argentino: El derecho privado de la buena fe
 
 Hace ya una década, Argentina adoptó un nuevo Código Civil y Comercial (CCC) que introdujo una profunda reforma en la regulación del universo de las relaciones económicas entre particulares en el país.
 
@@ -50,9 +48,9 @@ Uno de sus aspectos más significativos fue la adopción definitiva del principi
 
 Uno de los grandes aciertos del nuevo CCC consistió en definir una estructura de principios consistente en lugar de fragmentada. Y en esa estructura consistente, el principio de buena fe es la clave fundamental. El breve artículo 9 del CCC (“los derechos deben ser ejercidos de buena fe”) expresa ahora el núcleo ideológico fundamental del derecho privado: un derecho privado relacional, social, orientado a facilitar la cooperación -no atomizado, individualista, orientado a encauzar el egoísmo. 
 
-> ##### *El breve artículo 9 del CCC expresa ahora el núcleo ideológico fundamental del derecho privado: un derecho privado relacional, social, orientado a facilitar la cooperación -no atomizado, individualista, orientado a encauzar el egoísmo.*
+> El breve artículo 9 del CCC expresa ahora el núcleo ideológico fundamental del derecho privado: un derecho privado relacional, social, orientado a facilitar la cooperación -no atomizado, individualista, orientado a encauzar el egoísmo.
 
-### **El dilema de la Corte. Un mensaje que porta algo de valor.**
+# El dilema de la Corte. Un mensaje que porta algo de valor.
 
 El conflicto del contrato tucumano nos pone -y habrá puesto a la Corte- frente a un angustioso dilema.
 
@@ -70,11 +68,11 @@ El mensaje de la Corte tiene una alta carga moral, sutil pero muy significativa,
 
 El mensaje social que enviá la Corte a los contratantes es algo así como: “háganse cargo de los contratos que firman, en este país de locos, pues la Corte sostendrá lo que acuerden”.
 
-### **Los límites de la racionalidad en un mercado desquiciado. Por qué la buena fe es más importante que nunca. La lamentable omisión de la Corte**
+# Los límites de la racionalidad en un mercado desquiciado. Por qué la buena fe es más importante que nunca. La lamentable omisión de la Corte
 
 El mensaje de la Corte es significativo: anuncia que se viene un tiempo de responsabilización individual e internalización de las decisiones y previsiones contractuales. El problema en este mensaje es la omisión de toda referencia a las prácticas institucionales y regulatorias que rompen continuamente los marcos de referencia y previsión de la ciudadanía, con trampas, abusos y traiciones institucionales. Acaso la Corte se está imaginando que viene un tiempo de mercado estable, sin distorsiones tramposas impuestas desde el estado. Acaso es su apuesta. Pero lo cierto es que no lo dijo. *Nos deja con la carga de hacernos cargo del juego, pero sin la garantía de reglas de juego estables ni de que se jugará con árbitros razonables.*
 
-> ##### El mensaje de la Corte es significativo: anuncia que se viene un tiempo de responsabilización individual e internalización de las decisiones y previsiones contractuales. El problema en este mensaje es la omisión de toda referencia a las prácticas institucionales y regulatorias que rompen continuamente los marcos de referencia y previsión de la ciudadanía, con trampas, abusos y traiciones institucionales.
+El mensaje de la Corte es significativo: anuncia que se viene un tiempo de responsabilización individual e internalización de las decisiones y previsiones contractuales. El problema en este mensaje es la omisión de toda referencia a las prácticas institucionales y regulatorias que rompen continuamente los marcos de referencia y previsión de la ciudadanía, con trampas, abusos y traiciones institucionales.
 
 Si los jueces de la Corte debieran fallar el caso del Mercader de Venecia, su doctrina interpretativa parecería conducir a que condenarían a Antonio a entregar a Shylock la libra de carne (con o sin sangre, es un detalle), basada en que las partes deben internalizar -no la letra del contrato sino- las implicancias de las previsiones y cálculos que hicieron al contratar y las consecuencias de su buena o mala suerte (Antonio en particular, deberá internalizar su cálculo fallido acerca de la llegada a puerto de sus barcos). 
 
@@ -88,6 +86,6 @@ Al omitir la consideración del descalabro regulatorio del “cepo” clandestin
 
 La referencia al BNA, a la que habían acudido las partes, presuponía una estructura económica en la que la gente puede comprarle/venderle dólares al precio que fija. No que no pueda hacerlo. La mirada de la Corte -enfocada en señalarnos la preponderancia de la autonomía regulatoria en el sistema de contratos paritarios- la llevó a tratar a las partes como autorregulándose de manera irracional y auto frustrante (cuando lo irracional y auto frustrante es el descalabro de la regulación estatal que tergiversa los marcos de referencia de los contratantes). 
 
-***Precisamente ese es el problema: que este estado desaforado, con regulaciones sorprendentes y traicioneras continuamente hace quedar como tontos y temerarios a los contratantes responsables. Es por eso es que la perspectiva de la buena fe resulta tan fundamental. Para acompañar, fortalecer y dotar de precondiciones equitativas al ejercicio de la autorresponsabilidad regulatoria de quienes contratan.***
+Precisamente ese es el problema: que este estado desaforado, con regulaciones sorprendentes y traicioneras continuamente hace quedar como tontos y temerarios a los contratantes responsables. Es por eso es que la perspectiva de la buena fe resulta tan fundamental. Para acompañar, fortalecer y dotar de precondiciones equitativas al ejercicio de la autorresponsabilidad regulatoria de quienes contratan.
 
 La Corte parece enviar el mensaje a la ciudadanía de que el barco de la libertad está zarpando. Lamentablemente parece que podría dejarnos a la deriva, entre leviatanes, krakens, escilias y caribdis regulatorios. Que la buena fe nos proteja.
