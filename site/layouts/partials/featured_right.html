@@ -11,7 +11,7 @@
         {{ end }}
       {{ end }}
 
-      <div class="article">
+      
         <div class="categories">
           {{ with $post.Params.categories }}
             {{ range first 1 . }}
@@ -21,6 +21,7 @@
             <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
           {{ end }}
         </div>
+        
 
         <div class="author">
           {{ if $post.Params.author }}

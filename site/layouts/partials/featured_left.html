@@ -11,7 +11,6 @@
         {{ end }}
       {{ end }}
 
-      <div class="article">
         <div class="categories">
           {{ with $post.Params.categories }}
             {{ range first 1 . }}
@@ -21,13 +20,13 @@
             <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
           {{ end }}
         </div>
-
+        
         <div class="author">
           {{ if $post.Params.author }}
             <span class="author">{{ partial "author_names.html" $post | safeHTML }}</span>
           {{ end }}
         </div>
-
+  
         <h1><a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a></h1>
 
         <div class="summary">

@@ -1,13 +1,16 @@
 ---
 title: "Diez artículos que marcaron mi vida académica"
-date: 2025-11-18T01:08:16.195Z
+date: 2025-11-19
 description: Textos centrales que definieron el modo en que hoy pienso
 categories:
   - ensayos
 author:
   - Roberto Gargarella
 thumbnail: /img/whatsapp-image-2025-11-12-at-22.56.06.jpeg
-highlight: false
+highlight: true
+callouts:
+  - John Rawls tardó 20 años en escribir la Teoría de la Justicia, y otros 20 años en completar su segundo gran libro, Liberalismo Político.
+  - El artículo incluye, casi al pasar, una crítica al liberalismo, que leí como situado en un ring, y recibiendo un cross directo a la mandíbula, cuando me encontraba mirando para otro lado.
 ---
 Presento, a continuación, 10 artículos que marcaron mi trayectoria como académico (en realidad, son 8 artículos, y 2 largos ensayos, devenidos en sendos libros). Con distancia advierto, como notas comunes a los escritos que destaco, que se trata de textos redactados de una manera sencilla y comprensible; referidos (más o menos directamente) a temas de primer interés público; y orientados a “intervenir” en la vida política. Los menciono y cuento un poco de mi relación con ellos.
 

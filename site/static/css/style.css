@@ -66,7 +66,7 @@ main.homepage {
 
 body {
   background-color: var(--base-bg);
-  font-family: 'Mukta', system-ui, -apple-system, sans-serif;
+  font-family: 'Averia Serif Libre', system-ui, -apple-system, sans-serif;
   font-size: 1.2rem;
   line-height: 1.4;
   color: #111;
@@ -124,6 +124,14 @@ h1, h2, h3, h4, h5, h6,
   width: min(100% - 2rem, 1600px);
   margin-inline: auto;
   background-color: var(--base-bg);
+  grid-template-areas:
+    "column1 feature column2";
+}
+
+.hero-column:nth-of-type(1) { grid-area: column1; }
+.hero-column:nth-of-type(2) { grid-area: column2; }
+.featured-center {
+  grid-area: feature;   /* ADD THIS so the middle child has a name */
 }
 
 .secondary-grid {
@@ -146,11 +154,23 @@ h1, h2, h3, h4, h5, h6,
 
 .featured-content h1 {
   font-size: 2.2em;
-  line-height: 3.2rem;
+  line-height: 3rem;
   font-family: 'Jost', Georgia, serif;
   font-weight: 900;
   letter-spacing: 0.001em;
   color: #d11534;
+  margin-top: -0.5rem;
+  margin-bottom: .7rem;
+}
+
+.featured-content .summary {
+  font-family: 'Averia Serif Libre', Georgia, serif;
+  font-size: 1.2em;
+  line-height: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 0.001em;
+  color: var(--neutral-600);
+  margin-bottom: 1rem;
 }
 
 .hero-column .featured-thumbnail img {
@@ -166,27 +186,29 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .article--tight {
-  margin-top: -3.5rem; /* move it up slightly */
-}
-
-.hero-column h1 {
-  font-size: 1.2em;
-  font-family: 'Jost', Georgia, serif;
-  font-weight: 700;
-  letter-spacing: 0.001em;
+  margin-top: -2rem; /* move it up slightly */
 }
 
 /* Container for author list */
 .hero-column .post-author .author-name {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif;
   font-weight: 600;
   color: var(--accent-burgundy);
   letter-spacing: 0.001em;
-
   white-space: normal; /* allow wrapping of the whole author list */
   line-height: 1.3;    /* improves multi-line readability */
+}
+
+.hero-column h1 {
+  margin-bottom: .5rem;
+  font-size: 1.1em;
+  font-family: 'Jost', Georgia, serif;
+  font-weight: 600;
+  color: var(--neutral-800);
+  letter-spacing: 0.001em;
+  line-height: 1.4;    /* improves multi-line readability */
 }
 
 /* Each author link / name */
@@ -199,15 +221,20 @@ h1, h2, h3, h4, h5, h6,
   color: var(--accent-burgundy);
   letter-spacing: 0.001em;
   margin-right: 0.2em; /* small space after each author */
+  text-transform: none;
 }
 
-.hero-column .article .summary {
+.hero-column .article-content .summary {
   font-size: 1.1rem;
   margin-bottom: 1rem;
-  font-family: 'Optima', Georgia, serif;
+  font-family: 'Averia Serif Libre', Georgia, serif;
   font-weight: 400;
   color: var(--neutral-600);
   letter-spacing: 0.001em;
+}
+
+.hero-column .date {
+  margin-top: 1rem;
 }
 
 .secondary-grid article h1 {
@@ -361,15 +388,12 @@ h1, h2, h3, h4, h5, h6,
 
 @media screen and (max-width: 1070px) {
   /* Hero grid: stack feature on top, then 2 columns below */
-  .hero-feature { grid-area: feature; }
-  .hero-column { grid-area: column; }
-  /* Hero: one column, stacked vertically */
   .hero-grid {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
       "feature"
-      "column";
-    gap: 1rem;
+      "column1" 
+      "column2";
   }
   /* Secondary grid: reduce to 2 columns */
   .secondary-grid {
@@ -387,45 +411,74 @@ h1, h2, h3, h4, h5, h6,
   .cat_articles {
     order: 2; /* articles after */
   }
-  
-.article-sidebar {
-  text-align: center; /* for titles or text inside */
-}
 
-.share-title {
-  text-align: center;
-}
+  .article-sidebar {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers flex children */
+    width: 100%;
+  }
 
-.share-buttons {
-  display: flex;
-  justify-content: center;  /* horizontal centering */
-  gap: 0.6rem;               /* spacing between icons */
-}
+  /* Center authors */
+
+  .author-bio,
+  .twitter-handle {
+    text-align: center;
+  }
+
+  /* Center date */
+  .post-date {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Center share section */
+  .share-section {
+    text-align: center;
+  }
+
+  .share-buttons {
+    display: flex;
+    justify-content: center; /* center icons */
+    gap: 0.8rem;
+    width: 100%;
+  }
 }
   }
 }
+
 
 /* ===========================
    MOBILE: Small screens (<=700px)
    Stack *everything* in one column
 =========================== */
-@media screen and (max-width: 700px) {
-  .hero-feature { grid-area: feature; }
-  .hero-column { grid-area: column; }
-  /* Hero: one column, stacked vertically */
+@media screen and (max-width: 700) {
+
   .hero-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "feature"
-      "column";
+    display: grid;
+    grid-template-columns: 1fr;  /* stack in one column */
     gap: 1rem;
   }
-  /* Secondary + taxonomy grids: one column */
-  .secondary-grid {
-    grid-template-columns: 1fr;
+
+  /* Explicitly map children to correct grid areas */
+  .hero-grid > *:nth-child(1) {
+    grid-area: feature;
+  }
+  .hero-grid > *:nth-child(2) {
+    grid-area: column1;
+  }
+  .hero-grid > *:nth-child(3) {
+    grid-area: column2;
+  }
+
+  .hero-grid {
+    grid-template-areas:
+      "feature"
+      "column1"
+      "column2";
   }
 }
-
 /* articles new */ 
 
 .article-layout {
@@ -450,6 +503,7 @@ h1, h2, h3, h4, h5, h6,
 .article-layout .article-sidebar h1 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
+  letter-spacing: -0.012em;
 }
 
 
@@ -479,8 +533,8 @@ h1, h2, h3, h4, h5, h6,
 
 .article-sidebar .post-author .author-bio {
   font-size: 0.8em;
-  font-weight: normal;
-  font-family: 'Optima';
+  font-weight: 300;
+  font-family: 'Averia Serif Libre';
   margin-top: 1.5rem;
   line-height: 1.5rem;
 }
@@ -526,10 +580,15 @@ h1, h2, h3, h4, h5, h6,
 .article-content {
   flex: 2;
   width: 50%;
-  max-width: 800px;
+  max-width: 650px;
   font-size: 1.4rem;
   line-height: 1.4;
   color: #494746;
+  margin-top: 2rem;
+}
+
+.article-content-tax {
+  margin-top: 0rem;
 }
 
 .article-content h1 {
@@ -541,16 +600,16 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .container-article {
-  padding: 2rem 6rem 0;
+  padding: 1rem 6rem 0;
   }
 /* llevar a media */
 
 .article-content .para-block {
-  font-family: 'Mukta', system-ui, -apple-system, sans-serif;
-  font-weight: 300;
+  font-family: 'Averia Serif Libre', system-ui, -apple-system, sans-serif;
+  font-weight: 200;
   margin: 0 0 1em 0;   /* bottom spacing only */
   line-height: 1.5;    /* comfortable line spacing */
-  font-size: 1em;      /* base font size */
+  font-size: .9em;      /* base font size */
 }
 
 @media (max-width: 900px) {
@@ -715,7 +774,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .author-info p {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #333;
   margin: 0;
 }
@@ -1125,22 +1184,45 @@ h1, h2, h3, h4, h5, h6,
 
 /* página de autores */
 
+/* --- Layout: sidebar + authors area --- */
+
+.article-layout-authors {
+  display: grid;
+  grid-template-columns: 1fr 4fr;  /* wider author grid */
+  gap: 2rem;
+  align-items: start;
+}
+
+/* --- Main authors grid --- */
 .authors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(2, minmax(320px, 2fr));
   gap: 2rem;
-  margin-right: 4rem;
-  margin-left: 4rem;
 }
 
-.author-bio h4 {
-  font-size: 1.4rem;
+/* ----------------------------------------- */
+/*  BREAKPOINT A: Medium screens (~MacBook)  */
+/*  Title goes ABOVE the authors grid        */
+/* ----------------------------------------- */
+
+@media (max-width: 1200px) {
+  .article-layout-authors {
+    grid-template-columns: 1fr;   /* stack title above authors */
+  }
 }
 
-.authors-title a {
-  text-decoration: none;
-  color: inherit;
+/* ----------------------------------------- */
+/*  BREAKPOINT B: Small screens (<700px)     */
+/*  Authors grid becomes ONE column          */
+/* ----------------------------------------- */
+
+@media (max-width: 700px) {
+  .authors-grid {
+    grid-template-columns: 1fr;  /* 1 column */
+  }
 }
+
+/* --- Author card components --- */
 
 .author-card-link {
   text-decoration: none;
@@ -1149,33 +1231,45 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .author-card {
-  cursor: pointer;
-}
-
-.author-card {
   background: var(--base-bg);
+  cursor: pointer;
   display: grid;
-  grid-template-columns: 120px 1fr;  /* image + text */
+  grid-template-columns: 140px 1fr; /* wider card interior */
+  gap: 1.2rem;
+  padding: 1rem;
+  border-radius: 8px;
 }
 
-.author-bio {
-  margin-top: -1rem;
-}
-
-.author-bio-small {
-  margin-top: -1rem;
-  font-size: 1rem;
-}
-
+/* Author image */
 .author-thumb {
   filter: grayscale(100%);
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   transition: filter 0.3s ease;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto;
+}
+
+/* Name */
+.author-bio h4 {
+  font-size: 1.4rem;
+  margin: 0 0 .5rem 0;
+}
+
+/* Bio text */
+.author-bio {
+  margin-top: 0; /* cleaner */
+}
+
+.author-bio-small {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.authors-title a {
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -1412,24 +1506,15 @@ pre code {
 /* misc elements */
 img, iframe, video { max-width: 100%; }
 
-blockquote * {
-  font-style: normal !important;
-  font-weight: normal !important;
+blockquote {
+  font-family: 'Averia Sans Libre', system-ui, -apple-system, sans-serif;
   color: var(--neutral-600);
   background: var(--base-bg);
-  border-left: 0px solid #ccc;
-  font-family: 'Mukta', system-ui, -apple-system, sans-serif;
+  border-left: 10px solid #ccc;
+  margin-left: 1rem;
   font-size: 1.3rem;
-  
-}
+  padding-left: 1rem; /* add this */
 
-blockquote h5 {
-  
-  
-  color: var(--neutral-600);
-  text-decoration: none;
-  border-left: 6px solid #ccc;
-  padding: 1rem 1rem 1rem 1rem;
 }
 
 table {

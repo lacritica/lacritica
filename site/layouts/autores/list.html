@@ -1,37 +1,44 @@
-
 {{ partial "header.html" . }}
 
-<h1>{{ .Title }}</h1>
+<div class="container-article">
+  <article>
 
-<div class="authors-grid">
+    <main class="article-layout-authors">
 
-  {{ range .Pages }}
-  <a href="{{ .RelPermalink }}" class="author-card-link">
-    <article class="author-card">
-
-      <div class="author-photo">
-
-        {{ with .Params.thumbnail }}
-          <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="author-thumb">
-        {{ end }}
-
+      <!-- LEFT COLUMN (Sidebar) -->
+      <div class="article-sidebar">
+        <h1 class="post-title">{{ .Title }}</h1>
       </div>
 
-      <div class="author-bio">
+      <!-- RIGHT COLUMN (Main Content) -->
+        <div class="authors-grid">
 
-        <h4>{{ .Title }}</h4>
-        <div class="author-bio-small">
-        {{ with .Params.bio }}{{ . }}
-        {{ end }}
+          {{ range .Pages }}
+            <a href="{{ .RelPermalink }}" class="author-card-link">
+              <article class="author-card">
+
+                <div class="author-photo">
+                  {{ with .Params.thumbnail }}
+                    <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="author-thumb">
+                  {{ end }}
+                </div>
+
+                <div class="author-bio">
+                  <h4>{{ .Title }}</h4>
+                  <div class="author-bio-small">
+                    {{ with .Params.bio }}{{ . }}{{ end }}
+                  </div>
+                </div>
+
+              </article>
+            </a>
+          {{ end }}
+
         </div>
-      </div>
 
-    </article>
-  </a>
-  {{ end }}
+    </main>
 
+  </article>
 </div>
 
-
 {{ partial "footer.html" . }}
-
