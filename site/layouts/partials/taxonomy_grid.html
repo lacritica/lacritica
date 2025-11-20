@@ -13,7 +13,7 @@
       {{ end */}}
 
       <div class="article-content-tax">
-        <div class="categories">
+        <!--<div class="categories">
           {{ with .Params.categories }}
 
             {{ range first 1 . }}
@@ -22,7 +22,7 @@
           {{ else }}
             <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
           {{ end }}
-        </div>
+        </div>-->
 
         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 

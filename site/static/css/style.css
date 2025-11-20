@@ -67,6 +67,7 @@ main.homepage {
 body {
   background-color: var(--base-bg);
   font-family: 'Averia Serif Libre', system-ui, -apple-system, sans-serif;
+  font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.4;
   color: #111;
@@ -156,11 +157,12 @@ h1, h2, h3, h4, h5, h6,
   font-size: 2.2em;
   line-height: 3rem;
   font-family: 'Jost', Georgia, serif;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.001em;
   color: #d11534;
   margin-top: -0.5rem;
   margin-bottom: .7rem;
+  text-transform: uppercase;
 }
 
 .featured-content .summary {
@@ -191,7 +193,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* Container for author list */
 .hero-column .post-author .author-name {
-  font-size: 1em;
+  font-size: .9em;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif;
   font-weight: 600;
@@ -203,7 +205,7 @@ h1, h2, h3, h4, h5, h6,
 
 .hero-column h1 {
   margin-bottom: .5rem;
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-family: 'Jost', Georgia, serif;
   font-weight: 600;
   color: var(--neutral-800);
@@ -537,7 +539,7 @@ h1, h2, h3, h4, h5, h6,
 .article-layout .article-sidebar h1 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
-  letter-spacing: -0.012em;
+  letter-spacing: -0.032em;
 }
 
 
@@ -558,12 +560,6 @@ h1, h2, h3, h4, h5, h6,
   margin: 0rem 0;  /* smaller vertical spacing */
   line-height: 1.2;  /* adjust if needed */
 }
-
-.article-sidebar .post-author .author-block .author-name {
-  margin-bottom: 1rem;
-  line-height: 0rem;
-}
-
 
 .article-sidebar .post-author .author-bio {
   font-size: 0.8em;
@@ -637,14 +633,6 @@ h1, h2, h3, h4, h5, h6,
   padding: 1rem 6rem 0;
   }
 /* llevar a media */
-
-.article-content .para-block {
-  font-family: 'Averia Serif Libre', system-ui, -apple-system, sans-serif;
-  font-weight: 200;
-  margin: 0 0 1em 0;   /* bottom spacing only */
-  line-height: 1.5;    /* comfortable line spacing */
-  font-size: .9em;      /* base font size */
-}
 
 @media (max-width: 900px) {
 
@@ -1144,6 +1132,10 @@ h1, h2, h3, h4, h5, h6,
   background-color: var(--accent-burgundy);
 }
 
+.taxonomy-menu {
+  margin-top: 1.2rem;
+}
+
 /* Custom colors per taxonomy */
 .taxonomy-menu[data-term="rese%C3%B1as"],
 .taxonomy-layout[data-term="rese%C3%B1as"],
@@ -1287,18 +1279,20 @@ h1, h2, h3, h4, h5, h6,
 
 /* Name */
 .author-bio h4 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   margin: 0 0 .5rem 0;
 }
 
 /* Bio text */
 .author-bio {
   margin-top: 0; /* cleaner */
+  font-size: ;
 }
+
 
 .author-bio-small {
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .authors-title a {
@@ -1377,13 +1371,6 @@ h1, h2, h3, h4, h5, h6,
   display: block;          /* ensures it’s on its own line */
 }
 
-.author {
-  font-size: 1rem;       /* smaller font size */
-  font-family: 'Optima', Georgia, serif;
-  margin-top: 0.25em;     /* spacing from author above */
-  margin-bottom: 0.65em;
-  display: block;          /* ensures it’s on its own line */
-}
 
 /* old stuff that sort of works. List creates a grid of three */
 /* section distributes more evenly */
