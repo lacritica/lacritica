@@ -1,18 +1,18 @@
 ---
-title: ¿Un país sin contratos? 
+title: ¿Un país sin contratos?
+slug: paissincontratos
 date: 2025-11-17T23:27:39.297Z
-description: Las desventuras del mercader de Venecia en la nueva jurisprudencia de la Corte Suprema
+description: El mercader de Venecia ante la nueva jurisprudencia de la CSJN
 categories:
   - debates
 author:
   - Gustavo Maurino
-  - Ramiro Álvarez Ugarte
 thumbnail: /img/mostro.png
 highlight: false
 ---
 # Una Historia Tucumana, la de todos en Argentina
 
-Hace unos días -lo que queda de- la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años ("Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación" 11/11/25) 
+Hace unos días ---lo que queda de--- la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años ("Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación" 11/11/25) 
 
 Los hechos son simples. En 2006, las partes del conflicto habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento. 
 
