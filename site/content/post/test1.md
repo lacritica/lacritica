@@ -3,6 +3,7 @@ title: "Ok, something (test 3)"
 date: 2025-11-04
 author: ["Sebastián Guidi"]
 highlight: false
+highlight2: false
 categories: 
   - reseñas
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

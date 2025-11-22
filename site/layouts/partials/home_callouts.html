@@ -1,0 +1,71 @@
+{{/* Select posts from the last 7 days */}}
+{{ $now := now }}
+{{ $weekAgo := $now.AddDate 0 0 -7 }}
+{{ $recentPosts := where .Site.RegularPages "Date" ">" $weekAgo }}
+
+{{/* Filter posts that have featured_callout: true */}}
+{{ $featuredPosts := where $recentPosts ".Params.featured_callout" "ge" 0 }}
+
+{{ if gt (len $featuredPosts) 0 }}
+<section class="home-callouts">
+
+  {{ range $featuredPosts }}
+
+    {{/* Ensure post has callouts */}}
+    {{ if .Params.callouts }}
+
+      {{/* Pick index from featured_callout: (defaults to 0) */}}
+      {{ $idx := .Params.featured_callout | default 0 }}
+
+      {{/* Select the appropriate callout safely */}}
+      {{ if lt $idx (len .Params.callouts) }}
+        {{ $callout := index .Params.callouts $idx }}
+      {{ else }}
+        {{ $callout := index .Params.callouts 0 }}
+      {{ end }}
+
+      {{/* Use the selected callout */}}
+      {{ $callout := cond (lt $idx (len .Params.callouts)) (index .Params.callouts $idx) (index .Params.callouts 0) }}
+
+      <div class="home-callout">
+
+      	<div class= "open-quote">
+      		<img src="{{ "img/open_quote.svg" | relURL }}" alt="Twitter logo">
+      	</div>
+
+        <div class="callout-text">
+          "{{ $callout | markdownify | safeHTML }}"
+        </div>
+
+        <div class="callout-meta">
+          {{ with .Params.author }}
+            <span class="callout-author">{{ delimit . ", " }}</span><span>, </span>
+          {{ end }}
+
+          <span class="callout-title">
+  			<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</span><span>, </span>
+          <span class="callout-lacritica">La Crítica del Derecho</span><span>, </span>
+
+          {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
+
+          {{ $day := .Date.Format "2" }}
+          {{ $month := index $months (.Date.Format "1") }}
+          {{ $year := .Date.Format "2006" }}
+
+          <span class="callout-date">{{ $day }} de {{ $month }} de {{ $year }}</span>
+        </div>
+
+        <div class= "close-quote">
+      		<img src="{{ "img/close_quote.svg" | relURL }}" alt="Twitter logo">
+      	</div>
+
+      </div>
+
+
+
+    {{ end }}
+  {{ end }}
+
+</section>
+{{ end }}

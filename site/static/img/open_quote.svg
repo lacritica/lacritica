@@ -1,0 +1,28 @@
+<svg
+   fill="#000000"
+   width="800px"
+   height="800px"
+   viewBox="0 0 52 52"
+   enable-background="new 0 0 52 52"
+   xml:space="preserve"
+   version="1.1"
+   id="svg3"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs3" />
+<g
+   id="g2"
+   style="fill:#0f2353;fill-opacity:1">
+	<path
+   d="m 44.3,6.5 c -9,0 -15.9,7 -15.9,16 V 44 c 0,0.8 0.7,1.5 1.5,1.5 h 17 c 0.8,0 1.5,-0.7 1.5,-1.5 V 27 c 0,-0.8 -0.7,-1.5 -1.5,-1.5 H 34.4 v -3 c 0,-5 4.9,-10 9.9,-10 h 2.6 c 0.8,0 1.5,-0.7 1.5,-1.5 V 8 c 0,-0.8 -0.7,-1.5 -1.5,-1.5 z"
+   id="path1"
+   style="fill:#0f2353;fill-opacity:1" />
+	<path
+   d="m 19.5,6.5 c -9,0 -15.9,7 -15.9,16 V 44 c 0,0.8 0.7,1.5 1.5,1.5 h 17 c 0.8,0 1.5,-0.7 1.5,-1.5 V 27 c 0,-0.8 -0.7,-1.5 -1.5,-1.5 H 9.6 v -3 c 0,-5 4.9,-10 9.9,-10 h 2.6 c 0.8,0 1.5,-0.7 1.5,-1.5 V 8 c 0,-0.8 -0.7,-1.5 -1.5,-1.5 z"
+   id="path2"
+   style="fill:#0f2353;fill-opacity:1" />
+</g>
+<path
+   d="M30.5,8"
+   id="path3" />
+</svg>

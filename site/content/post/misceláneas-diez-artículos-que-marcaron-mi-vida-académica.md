@@ -7,8 +7,13 @@ categories:
   - ensayos
 author:
   - Roberto Gargarella
-thumbnail: /img/whatsapp-image-2025-11-12-at-22.56.06.jpeg
+thumbnail: 
+  - src: "/img/whatsapp-image-2025-11-12-at-22.56.06.jpeg"
+    epigraph: "Pared de Marruecos, 2024"
+    copyright: "por Roberto Gargarella"
 highlight: false
+highlight2: false
+featured_callout: 1
 callouts:
   - John Rawls tardó 20 años en escribir la Teoría de la Justicia, y otros 20 años en completar su segundo gran libro, Liberalismo Político.
   - El artículo incluye, casi al pasar, una crítica al liberalismo, que leí como situado en un ring, y recibiendo un cross directo a la mandíbula, cuando me encontraba mirando para otro lado.

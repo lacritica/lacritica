@@ -6,8 +6,12 @@ categories:
   - debates
 author:
   - Ramiro Álvarez Ugarte
-thumbnail: /img/about-single-origin.jpg
+thumbnail:
+  - src: "/img/about-single-origin.jpg"
+    epigraph: "Carta de lectores, La Nación, 12 de septiembre de 1983"
+    copyright: "por Roberto Gargarella"
 highlight: false
+highlight2: false
 highlight_phrases:
   - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut

@@ -1,52 +1,65 @@
-{{ $rightPosts := first 2 (after 2 (where (where .Site.RegularPages.ByDate.Reverse "Section" "post") "Params.highlight" "ne" true)) }}
+{{/* Shared filtered posts */}}
+{{ $allPosts := .Site.RegularPages.ByDate.Reverse }}
+{{ $postSection := where $allPosts "Section" "post" }}
+
+{{/* Filter out posts with highlight or highlight2 */}}
+{{ $filtered := slice }}
+{{ range $postSection }}
+  {{ $highlight := or (eq .Params.highlight true) (eq .Params.highlight2 true) }}
+  {{ if not $highlight }}
+    {{ $filtered = $filtered | append . }}
+  {{ end }}
+{{ end }}
+
+
+{{ $rightPosts := first 2 (after 2 $filtered) }}
 
 <section class="hero-column hero-column--tight">
   {{ range $index, $post := $rightPosts }}
     <article class="article{{ if eq $index 1 }} article--tight{{ end }}">
+
       {{ if eq $index 0 }}
-        {{ with $post.Params.thumbnail }}
+        {{ with index $post.Params.thumbnail 0 }}
           <div class="featured-thumbnail">
-            <img src="{{ relURL . }}" alt="Featured Image"/>
+            <img src="{{ relURL .src }}" alt="Featured Image"/>
           </div>
         {{ end }}
       {{ end }}
 
-      
-        <div class="categories">
-          {{ with $post.Params.categories }}
-            {{ range first 1 . }}
-              <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
-            {{ end }}
-          {{ else }}
-            <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
+      <div class="categories">
+        {{ with $post.Params.categories }}
+          {{ range first 1 . }}
+            <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
           {{ end }}
-        </div>
-        
-
-        <div class="author">
-          {{ if $post.Params.author }}
-            <span class="author">{{ partial "author_names.html" $post }}</span>
-          {{ end }}
-        </div>
-
-        <h1><a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a></h1>
-
-        <div class="summary">
-          {{ with $post.Description }}
-            {{ . | markdownify }}
-          {{ else }}
-            {{ $post.Summary }}
-          {{ end }}
-        </div>
-
-        <div class="date">
-          {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
-          {{ $day := $post.Date.Day }}
-          {{ $month := index $months (printf "%d" $post.Date.Month) }}
-          {{ $year := $post.Date.Year }}
-          {{ printf "%d de %s de %d" $day $month $year }}
-        </div>
+        {{ else }}
+          <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>
+        {{ end }}
       </div>
+
+      <div class="author">
+        {{ if $post.Params.author }}
+          <span class="author">{{ partial "author_names.html" $post }}</span>
+        {{ end }}
+      </div>
+
+      <h1><a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a></h1>
+
+      <div class="summary">
+        {{ with $post.Description }}
+          {{ . | markdownify }}
+        {{ else }}
+          {{ $post.Summary }}
+        {{ end }}
+      </div>
+
+      <div class="date">
+        {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
+        {{ $day := $post.Date.Day }}
+        {{ $month := index $months (printf "%d" $post.Date.Month) }}
+        {{ $year := $post.Date.Year }}
+        {{ printf "%d de %s de %d" $day $month $year }}
+      </div>
+
     </article>
   {{ end }}
 </section>

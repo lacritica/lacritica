@@ -6,8 +6,22 @@
     <description>Recent content in La Crítica del derecho on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Nov 2025 13:33:14 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un testeo del nuevo coso</title>
+      <link>//localhost:1313/post/un-testeo-del-nuevo-coso/</link>
+      <pubDate>Sat, 22 Nov 2025 13:33:14 +0000</pubDate>
+      <guid>//localhost:1313/post/un-testeo-del-nuevo-coso/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La carta de lectores</title>
+      <link>//localhost:1313/post/la_carta_de_lectores/</link>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/post/la_carta_de_lectores/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Manual de uso</title>
       <link>//localhost:1313/post/manual_de_uso/</link>
@@ -31,10 +45,10 @@
     </item>
     <item>
       <title>¿Un país sin contratos?</title>
-      <link>//localhost:1313/post/un-pa%C3%ADs-sin-contratos-las-desventuras-del-mercader-de-venecia-en-la-nueva-jurisprudencia-de-la-corte-suprema/</link>
+      <link>//localhost:1313/post/paissincontratos/</link>
       <pubDate>Mon, 17 Nov 2025 23:27:39 +0000</pubDate>
-      <guid>//localhost:1313/post/un-pa%C3%ADs-sin-contratos-las-desventuras-del-mercader-de-venecia-en-la-nueva-jurisprudencia-de-la-corte-suprema/</guid>
-      <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días -lo que queda de- la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo; 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes del conflicto habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
+      <guid>//localhost:1313/post/paissincontratos/</guid>
+      <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días &amp;mdash;lo que queda de&amp;mdash; la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo; 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes del conflicto habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Probando</title>
@@ -128,13 +142,6 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>La Igualdad como un valor Liberal</title>
-      <link>//localhost:1313/post/la-libertad-como-un-valor-igualitario/</link>
-      <pubDate>Wed, 12 Nov 2025 12:10:21 +0000</pubDate>
-      <guid>//localhost:1313/post/la-libertad-como-un-valor-igualitario/</guid>
-      <description>&lt;p&gt;Fue 1953 una constitución de libertad?&lt;/p&gt;&#xA;&lt;p&gt;Fue 1994 una constitución de igualdad?&lt;/p&gt;&#xA;&lt;p&gt;Más derechos, más libertad y mejor igualdad.&lt;/p&gt;&#xA;&lt;p&gt;Las dimensiones igualitarias de la libertad.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Probando notas al pie</title>
       <link>//localhost:1313/catastrofe/probando-notas-al-pie-copy/</link>
       <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
@@ -147,20 +154,6 @@
       <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
       <guid>//localhost:1313/catastrofe/probando-notas-al-pie/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Probando notas al pie</title>
-      <link>//localhost:1313/post/probando-notas-al-pie/</link>
-      <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
-      <guid>//localhost:1313/post/probando-notas-al-pie/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Maurino Prueba</title>
-      <link>//localhost:1313/post/maurino-prueba/</link>
-      <pubDate>Sat, 08 Nov 2025 19:36:15 +0000</pubDate>
-      <guid>//localhost:1313/post/maurino-prueba/</guid>
-      <description>&lt;p&gt;Notable.&lt;/p&gt;&#xA;&lt;p&gt;Acaso esta vez, &lt;em&gt;&lt;strong&gt;La Crítica&lt;/strong&gt;&lt;/em&gt; construya. La construcción es crítica.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Probando otras cosas, desde Decap CMS</title>
@@ -184,13 +177,6 @@
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Otra Prueba</title>
-      <link>//localhost:1313/post/otra-prueba/</link>
-      <pubDate>Thu, 06 Nov 2025 19:05:10 +0000</pubDate>
-      <guid>//localhost:1313/post/otra-prueba/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;CONSTITUCION DE LA NACION ARGENTINA&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;PREÁMBULO&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h6 id=&#34;nos-los-representantes-del-pueblo-de-la-nación-argentina-reunidos-en-congreso-general-constituyente-por-voluntad-y-elección-de-las-provincias-que-la-componen-en-cumplimiento-de-pactos-preexistentes-con-el-objeto-de-constituir-la-unión-nacional-afianzar-la-justicia-consolidar-la-paz-interior-proveer-a-la-defensa-común-promover-el-bienestar-general-y-asegurar-los-beneficios-de-la-libertad-para-nosotros-para-nuestra-posteridad-y-para-todos-los-hombres-del-mundo-que-quieran-habitar-en-el-suelo-argentino-invocando-la-protección-de-dios-fuente-de-toda-razón-y-justicia-ordenamos-decretamos-y-establecemos-esta-constitución-para-la-nación-argentina&#34;&gt;Nos los representantes del pueblo de la Nación Argentina, reunidos en Congreso General Constituyente por voluntad y elección de las provincias que la componen, en cumplimiento de pactos preexistentes, con el objeto de constituir la unión nacional, afianzar la justicia, consolidar la paz interior, proveer a la defensa común, promover el bienestar general, y asegurar los beneficios de la libertad, para nosotros, para nuestra posteridad, y para todos los hombres del mundo que quieran habitar en el suelo argentino: invocando la protección de Dios, fuente de toda razón y justicia: ordenamos, decretamos y establecemos esta Constitución, para la Nación Argentina.&lt;/h6&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;primera-parte&#34;&gt;PRIMERA PARTE&lt;/h1&gt;&#xA;&lt;p&gt;Capítulo Primero&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Prueba destacado</title>
       <link>//localhost:1313/post/prueba-destacado/</link>
       <pubDate>Thu, 06 Nov 2025 14:27:22 +0000</pubDate>
@@ -203,20 +189,6 @@
       <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/catastrofe/destacado/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Destacado</title>
-      <link>//localhost:1313/post/destacado/</link>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/destacado/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ok, I am trying to try something</title>
-      <link>//localhost:1313/post/new_post/</link>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/new_post/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ok, I am trying to try something (test 2)</title>

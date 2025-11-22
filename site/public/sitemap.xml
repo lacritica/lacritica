@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/ensayos/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/manual_de_uso/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/</loc>
+    <lastmod>2025-11-22T13:33:14+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/un-testeo-del-nuevo-coso/</loc>
+    <lastmod>2025-11-22T13:33:14+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/la_carta_de_lectores/</loc>
+    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/post/manual_de_uso/</loc>
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/c%C3%B3mo-puede-ser-que-siga-jugando-borja/</loc>
@@ -23,7 +29,7 @@
     <loc>//localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/un-pa%C3%ADs-sin-contratos-las-desventuras-del-mercader-de-venecia-en-la-nueva-jurisprudencia-de-la-corte-suprema/</loc>
+    <loc>//localhost:1313/post/paissincontratos/</loc>
     <lastmod>2025-11-17T23:27:39+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/debates/</loc>
@@ -77,9 +83,6 @@
     <loc>//localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/la-libertad-como-un-valor-igualitario/</loc>
-    <lastmod>2025-11-12T12:10:21+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/categories/catastrophe/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
@@ -92,12 +95,6 @@
     <loc>//localhost:1313/catastrofe/probando-notas-al-pie/</loc>
     <lastmod>2025-11-08T22:04:57+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/probando-notas-al-pie/</loc>
-    <lastmod>2025-11-08T22:04:57+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/maurino-prueba/</loc>
-    <lastmod>2025-11-08T19:36:15+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/probando-otras-cosas-desde-decap-cms/</loc>
     <lastmod>2025-11-08T17:41:02+00:00</lastmod>
   </url><url>
@@ -107,19 +104,10 @@
     <loc>//localhost:1313/post/prueba-desde-el-cms/</loc>
     <lastmod>2025-11-08T15:17:48+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/otra-prueba/</loc>
-    <lastmod>2025-11-06T19:05:10+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/post/prueba-destacado/</loc>
     <lastmod>2025-11-06T14:27:22+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/catastrofe/destacado/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/destacado/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/post/new_post/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/post/test2/</loc>

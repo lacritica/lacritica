@@ -13,11 +13,24 @@
 {{ partial "featured_right.html" . }}
 </section>
 
+
+<section class="home-featured">
+  <div class="home-featured-left">
+    {{ partial "home_callouts.html" . }}
+  </div>
+
+  <div class="home-featured-right">
+    <div class="home-featured-inner">
+    {{ partial "featured_doc.html" . }}
+    </div>
+  </div>
+</section>
+
 {{ partial "secondary_grid.html" . }}
 
 <!-- Sólo activar si vale la pena 
 {{ partial "events.html" . }}-->
 
-{{ partial "authors_row.html" . }}
+<!--{{ partial "authors_row.html" . }}-->
 
 {{ partial "footer.html" . }}

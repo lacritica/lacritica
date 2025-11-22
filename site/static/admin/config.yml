@@ -2,6 +2,8 @@ backend:
   name: git-gateway
   branch: main
 
+local_backend: true
+
 # Media settings
 media_folder: "site/static/img"   # Where uploaded files are stored in the repo
 public_folder: "/img"             # Public URL path used by Hugo
@@ -58,14 +60,27 @@ collections:
 
       - label: "Thumbnail"
         name: "thumbnail"
-        widget: "image"
-        required: false
+        widget: "list"
+        allow_add: true     # MUST be true so the button appears
+        min: 0
+        max: 1              # Still only allows ONE item
+        hint: "Se puede poner epígrafe (recomendado) y copyright (si queremos dar crédito a la foto)"
+        fields:
+          - { label: "Image",    name: "src",       widget: "image" }
+          - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
+          - { label: "Copyright", name: "copyright", widget: "string", required: false }
 
       - label: "Highlight"
         name: "highlight"
         widget: "boolean"
         default: false
         hint: "Marcar si va a la nota destacada de la home"
+
+      - label: "Highlight 2"
+        name: "highlight2"
+        widget: "boolean"
+        default: false
+        hint: "Marcar si va a la nota destacada2 de la home"
 
       - label: "Frases destacadas"
         name: "highlight_phrases"
@@ -150,6 +165,12 @@ collections:
         widget: "string"
         hint: "lo-que-va-ser-la-url-sin-acentos-ni-letras-con-simbolos-tipo-la-que-se-parece-a-la-n-con-bigote"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Highlight 2"
+        name: "highlight2"
+        widget: "boolean"
+        default: false
+        hint: "Marcar si va a la nota destacada de la home"
 
       - label: "Description"
         name: "description"

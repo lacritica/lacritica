@@ -7,8 +7,12 @@ categories:
   - ensayos
 author:
   - Ramiro Álvarez Ugarte
-thumbnail: /img/screenshot-2025-11-18-at-9.11.03 am.png
+thumbnail:
+  - src: "/img/screenshot-2025-11-18-at-9.11.03 am.png"
+    epigraph: "Borja, insólito"
+    copyright: "foto de La Nación" 
 highlight: false
+highlight2: false
 callouts:
   - El derecho es una tecnología del poder.
   - La crítica requiere imaginación institucional.

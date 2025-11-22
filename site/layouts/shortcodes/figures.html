@@ -1,0 +1,15 @@
+<div class="figure">
+  <img src="{{ .Page.Resources.GetMatch (.Get "src") }}" alt="{{ .Get "caption" }}">
+  	
+  	<figcaption class="figure-caption">
+
+    {{ if .Get "epigraph" }}
+    <span class="epigraph">{{ .Get "epigraph" }} </span>
+    {{ end }}
+
+    {{ if .Get "copyright" }}
+    <span class="copyright">{{ .Get "copyright" }}</span>
+    {{ end }}
+    
+  
+</div>

@@ -7,8 +7,12 @@ categories:
   - debates
 author:
   - Gustavo Maurino
-thumbnail: /img/mostro.png
+thumbnail: 
+  - src: "/img/mostro.png"
+    epigraph: "Mostro"
+    copyright: "libro viejo"
 highlight: false
+highlight2: false
 ---
 # Una Historia Tucumana, la de todos en Argentina
 

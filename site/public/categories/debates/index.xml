@@ -10,10 +10,10 @@
     <atom:link href="//localhost:1313/categories/debates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>¿Un país sin contratos?</title>
-      <link>//localhost:1313/post/un-pa%C3%ADs-sin-contratos-las-desventuras-del-mercader-de-venecia-en-la-nueva-jurisprudencia-de-la-corte-suprema/</link>
+      <link>//localhost:1313/post/paissincontratos/</link>
       <pubDate>Mon, 17 Nov 2025 23:27:39 +0000</pubDate>
-      <guid>//localhost:1313/post/un-pa%C3%ADs-sin-contratos-las-desventuras-del-mercader-de-venecia-en-la-nueva-jurisprudencia-de-la-corte-suprema/</guid>
-      <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días -lo que queda de- la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo; 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes del conflicto habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
+      <guid>//localhost:1313/post/paissincontratos/</guid>
+      <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días &amp;mdash;lo que queda de&amp;mdash; la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo; 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes del conflicto habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Probando</title>
@@ -21,27 +21,6 @@
       <pubDate>Mon, 17 Nov 2025 18:07:11 +0000</pubDate>
       <guid>//localhost:1313/post/probando/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Probando notas al pie</title>
-      <link>//localhost:1313/post/probando-notas-al-pie/</link>
-      <pubDate>Sat, 08 Nov 2025 22:04:57 +0000</pubDate>
-      <guid>//localhost:1313/post/probando-notas-al-pie/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ^[This is a footnote].&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Destacado</title>
-      <link>//localhost:1313/post/destacado/</link>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/destacado/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Ok, I am trying to try something</title>
-      <link>//localhost:1313/post/new_post/</link>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/post/new_post/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ok, I am trying to try something (test 2)</title>

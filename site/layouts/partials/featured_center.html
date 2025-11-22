@@ -2,30 +2,39 @@
 {{ if gt (len $featured) 0 }}
   {{ range first 1 $featured }}
     <article class="hero-feature article">
-      {{ with .Params.thumbnail }}
-        <div class="featured-thumbnail">
-          <img src="{{ relURL . }}" alt="Featured Image"/>
-        </div>
+
+      {{/* Thumbnail */}}
+      {{ with index .Params.thumbnail 0 }}
+        <figure class="featured-thumbnail">
+          <img src="{{ relURL .src }}" alt="Featured Image"/>
+        </figure>
       {{ end }}
+
       <div class="featured-content">
         <div class="author">
-          {{ if .Params.author }}<span class="author">{{ partial "author_names.html" . }}</span> {{ end }}
+          {{ if .Params.author }}
+            <span class="author">{{ partial "author_names.html" . }}</span>
+          {{ end }}
         </div>
-        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
-        <div class="summary">
-          {{ with .Description }}{{ . | markdownify }}{{ else }}{{ .Summary }}{{ end }}
-        </div>
-          <div class="date">
-    {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
-    {{ $day := .Date.Day }}
-    {{ $month := index $months (printf "%d" .Date.Month) }}
-    {{ $year := .Date.Year }}
-    {{ printf "%d de %s de %d" $day $month $year }}
-  </div>
 
+        <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+
+        <div class="summary">
+          {{ with .Description }}
+            {{ . | markdownify }}
+          {{ else }}
+            {{ .Summary }}
+          {{ end }}
+        </div>
+
+        <div class="date">
+          {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
+          {{ $day := .Date.Day }}
+          {{ $month := index $months (printf "%d" .Date.Month) }}
+          {{ $year := .Date.Year }}
+          {{ printf "%d de %s de %d" $day $month $year }}
+        </div>
       </div>
     </article>
-
   {{ end }}
 {{ end }}
-
