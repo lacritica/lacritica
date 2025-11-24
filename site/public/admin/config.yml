@@ -319,9 +319,4 @@ collections:
         widget: "image"
         required: false
 
-      - label: "Obra reseñada"
-        name: "obra_reseñada"
-        widget: "string"
-        hint: "Cita completa"
-
       - { label: "Body", name: "body", widget: "markdown" }

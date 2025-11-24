@@ -2,155 +2,155 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/ensayos/</loc>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/un-testeo-del-nuevo-coso/</loc>
+    <loc>http://localhost:1313/post/un-testeo-del-nuevo-coso/</loc>
     <lastmod>2025-11-22T13:33:14+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/la_carta_de_lectores/</loc>
+    <loc>http://localhost:1313/post/la_carta_de_lectores/</loc>
     <lastmod>2025-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/manual_de_uso/</loc>
+    <loc>http://localhost:1313/post/manual_de_uso/</loc>
     <lastmod>2025-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/c%C3%B3mo-puede-ser-que-siga-jugando-borja/</loc>
+    <loc>http://localhost:1313/post/c%C3%B3mo-puede-ser-que-siga-jugando-borja/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
+    <loc>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/paissincontratos/</loc>
+    <loc>http://localhost:1313/post/paissincontratos/</loc>
     <lastmod>2025-11-17T23:27:39+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/debates/</loc>
+    <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2025-11-17T23:27:39+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/probando/</loc>
+    <loc>http://localhost:1313/post/probando/</loc>
     <lastmod>2025-11-17T18:07:11+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/</loc>
+    <loc>http://localhost:1313/events/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/super-conferencia-icon-2026/</loc>
+    <loc>http://localhost:1313/events/super-conferencia-icon-2026/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/resenas/gran-libro-de-ranciere/</loc>
+    <loc>http://localhost:1313/resenas/gran-libro-de-ranciere/</loc>
     <lastmod>2025-11-17T16:59:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/resenas/</loc>
+    <loc>http://localhost:1313/resenas/</loc>
     <lastmod>2025-11-17T16:59:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/rese%C3%B1as/</loc>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2025-11-17T16:59:12+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event2/</loc>
+    <loc>http://localhost:1313/events/event2/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/resenas/hla/</loc>
+    <loc>http://localhost:1313/resenas/hla/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event1/</loc>
+    <loc>http://localhost:1313/events/event1/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event3/</loc>
+    <loc>http://localhost:1313/events/event3/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event4/</loc>
+    <loc>http://localhost:1313/events/event4/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event5/</loc>
+    <loc>http://localhost:1313/events/event5/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event7/</loc>
+    <loc>http://localhost:1313/events/event7/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event8/</loc>
+    <loc>http://localhost:1313/events/event8/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/event9/</loc>
+    <loc>http://localhost:1313/events/event9/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/events/events6/</loc>
+    <loc>http://localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/probando-otras-cosas-desde-decap-cms/</loc>
+    <loc>http://localhost:1313/post/probando-otras-cosas-desde-decap-cms/</loc>
     <lastmod>2025-11-08T17:41:02+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/prueba-desde-el-cms/</loc>
+    <loc>http://localhost:1313/post/prueba-desde-el-cms/</loc>
     <lastmod>2025-11-08T15:17:48+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/prueba-destacado/</loc>
+    <loc>http://localhost:1313/post/prueba-destacado/</loc>
     <lastmod>2025-11-06T14:27:22+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-10/</loc>
+    <loc>http://localhost:1313/post/test2-copy-10/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-11/</loc>
+    <loc>http://localhost:1313/post/test2-copy-11/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-2/</loc>
+    <loc>http://localhost:1313/post/test2-copy-2/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-3/</loc>
+    <loc>http://localhost:1313/post/test2-copy-3/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-4/</loc>
+    <loc>http://localhost:1313/post/test2-copy-4/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-5/</loc>
+    <loc>http://localhost:1313/post/test2-copy-5/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-6/</loc>
+    <loc>http://localhost:1313/post/test2-copy-6/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-7/</loc>
+    <loc>http://localhost:1313/post/test2-copy-7/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-8/</loc>
+    <loc>http://localhost:1313/post/test2-copy-8/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy-9/</loc>
+    <loc>http://localhost:1313/post/test2-copy-9/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2-copy/</loc>
+    <loc>http://localhost:1313/post/test2-copy/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test2/</loc>
+    <loc>http://localhost:1313/post/test2/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/post/test1/</loc>
+    <loc>http://localhost:1313/post/test1/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/cont%C3%A1ctenos/</loc>
+    <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/agustina-ramon-michel/</loc>
+    <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/</loc>
+    <loc>http://localhost:1313/autores/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/gustavo-arballo/</loc>
+    <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/gustavo-maurino/</loc>
+    <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/patricio_nazareno/</loc>
+    <loc>http://localhost:1313/autores/patricio_nazareno/</loc>
   </url><url>
-    <loc>//localhost:1313/quienes_somos/</loc>
+    <loc>http://localhost:1313/quienes_somos/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
+    <loc>http://localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/roberto-gargarella/</loc>
+    <loc>http://localhost:1313/autores/roberto-gargarella/</loc>
   </url><url>
-    <loc>//localhost:1313/autores/sebastian-guidi/</loc>
+    <loc>http://localhost:1313/autores/sebastian-guidi/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
