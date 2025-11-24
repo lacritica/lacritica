@@ -1,7 +1,6 @@
 
 {{ partial "header.html" . }}
 
-<div class="container-article">
 <article>
 
 <main class="article-layout">
@@ -74,7 +73,6 @@
       <div class = twitter-handle> <a href="https://x.com/{{ . }}" target="_blank">@{{ . }}</a></div>
       {{ end }}   
 
-
       </div>
       {{ end }}
       </div>
@@ -98,11 +96,40 @@
       {{ $month := index $months (.Format "January") }}
       <p class="post-date">{{ .Day }} de {{ $month }} de {{ .Year }}</p>
     {{ end }}
-    
-    {{ if not .Params.skip_partial }}
-    {{ partial "share.html" . }}
-    {{ end }}
 
+    {{ partial "share.html" . }}
+
+
+
+
+{{ if and (isset .Params "thumbnail") (isset .Params "obra_reseñada") }}
+<div class="title-obra-resenada">
+  <h4>Obra reseñada</h4>
+</div>
+
+<div class="obra_reseñada">
+  {{ with index .Params.thumbnail 0 }}
+    <div class="book-cover">
+      <img src="{{ relURL .src }}" alt="Featured Image"/>
+    </div>
+  {{ end }}
+
+  <div class="obra-text">{{ .Params.obra_reseñada | markdownify }}</div>
+</div>
+{{ end }}
+
+
+  {{ with .Params.publicado_originalmente_en }}
+<div class="title-obra-resenada">
+  <h4>Publicado originalmente en</h4>
+</div>
+
+<div class="publicado-originalmente-en">
+  {{ . | markdownify }}
+</div>
+{{ end }}
+
+</div>
 
 
 
@@ -111,73 +138,23 @@
     {{ end }}
   </div>
 
-      <div class="article-content">
-      {{/* Load raw thumbnail param */}}
-      {{ $raw := .Params.thumbnail }}
-      {{ $thumb := dict }}
 
-      {{/* Case 1: it's a map */}}
-      {{ if reflect.IsMap $raw }}
-        {{ $thumb = $raw }}
-
-      {{/* Case 2: it's a slice → take the first element */}}
-      {{ else if reflect.IsSlice $raw }}
-        {{ $thumb = index $raw 0 }}
-
-      {{/* Case 3: it's a string */}}
-      {{ else if (or (eq (printf "%T" $raw) "string") (eq (printf "%T" $raw) "*string")) }}
-        {{ $thumb = dict "src" $raw }}
-      {{ end }}
-
-      {{/* If no src → render content normally */}}
-      {{ if not $thumb.src }}
-        {{ .Content | safeHTML }}
-      {{ else }}
-
-        {{/* Build HTML using Scratch */}}
-        {{- $.Scratch.Delete "thumbHTML" -}}
-        {{- $src := "" -}}
-
-        {{/* Resolve resource vs static path */}}
-        {{- with .Resources.GetMatch $thumb.src }}
-          {{- $src = .RelPermalink -}}
-        {{- else }}
-          {{- $src = ($thumb.src | relURL) -}}
-        {{- end }}
-
-        {{- $.Scratch.Set "thumbHTML" (printf "<figure class='thumbnail-insert'>") -}}
-        {{- $.Scratch.Add "thumbHTML" (printf "<img src='%s' alt=''>" $src) -}}
-
-        {{- if or $thumb.epigraph $thumb.copyright }}
-          {{- $.Scratch.Add "thumbHTML" "<figcaption>" -}}
-            {{- if $thumb.epigraph }}
-              {{- $.Scratch.Add "thumbHTML" (printf "<span class='epigraph'>%s</span>" $thumb.epigraph) -}}
-            {{- end }}
-            {{- if $thumb.copyright }}
-              {{- $.Scratch.Add "thumbHTML" (printf "<span class='copyright'>%s</span>" $thumb.copyright) -}}
-            {{- end }}
-          {{- $.Scratch.Add "thumbHTML" "</figcaption>" -}}
-        {{- end }}
-
-        {{- $.Scratch.Add "thumbHTML" "</figure>" -}}
-        {{ $thumbHTML := $.Scratch.Get "thumbHTML" }}
-
-        {{/* Insert after third </p> */}}
-        {{ $regex := `(?s)((?:.*?</p>){3})` }}
-        {{ $replacement := printf "${1}%s" $thumbHTML }}
-        {{ $content := .Content }}
-        {{ $new := replaceRE $regex $replacement $content 1 }}
-
-        {{ if ne $new $content }}
-          {{ $new | safeHTML }}
-        {{ else }}
-          {{ printf "%s\n%s" $content $thumbHTML | safeHTML }}
-        {{ end }}
-
-      {{ end }}
+</div>
 
 
-      </div>
+
+
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+
 </main>
+
+{{ partial "author.html" . }}
+{{ partial "info.html" . }}
+{{ partial "prev_next.html" . }}
+{{ partial "comments.html" . }}
+</article>
+
 
 {{ partial "footer.html" . }}

@@ -2,6 +2,7 @@
 title: Gran libro de Ranciere
 date: 2025-11-17T16:59:12.044Z
 description: Uf, tremendo librazo
+publicado_originalmente_en: Revista de Derecho Internacional, vol. X, [link](http://ramiroau.github.io)
 categories:
   - reseñas
 author:

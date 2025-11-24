@@ -91,6 +91,10 @@ collections:
           name: "phrase"
           widget: "string"
 
+      - label: "Publicado originalmente en"
+        name: "publicado_originalmente_en"
+        widget: "string"
+        hint: "Dónde fue publicado originalmente la pieza (admite markdown links internos)"
 
       - { label: "Body", name: "body", widget: "markdown" }
 
@@ -197,19 +201,30 @@ collections:
 
       - label: "Thumbnail"
         name: "thumbnail"
-        widget: "image"
-        required: false
-        hint: "Foto de la tapa del libro"
+        widget: "list"
+        allow_add: true     # MUST be true so the button appears
+        min: 0
+        max: 1              # Still only allows ONE item
+        hint: "Se puede poner epígrafe (recomendado) y copyright (si queremos dar crédito a la foto)"
+        fields:
+          - { label: "Image",    name: "src",       widget: "image" }
+          - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
+          - { label: "Copyright", name: "copyright", widget: "string", required: false }
 
       - label: "Obra reseñada"
         name: "obra_reseñada"
         widget: "string"
         hint: "Cita completa, idealmente APA"
 
+      - label: "Pulbicado originalmente en"
+        name: "publicado_originalmente_en"
+        widget: "string"
+        hint: "Dónde fue publicado originalmente la pieza (admite markdown links internos)"
+
       - { label: "Body", name: "body", widget: "markdown" }
 
   # -------------------------
-  # EVENTOS y LINKS
+  # EVENTOS y LINKS - No en uso por ahora
   # -------------------------
   - name: "events"
     label: "Eventos y links"
@@ -259,7 +274,7 @@ collections:
 
 
   # -------------------------
-  # CATÁSTROFE
+  # CATÁSTROFE - para casos especiales
   # -------------------------
   - name: "catastrofe"
     label: "Catástrofe"

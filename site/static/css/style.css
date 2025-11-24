@@ -138,37 +138,41 @@ h1, h2, h3, h4, h5, h6,
 .secondary-grid {
   background-color: var(--accent-burgundy);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--gutter);
-  box-sizing: border-box;
-  column-gap: 0.8rem;  /* wider spacing between columns */
-  margin-top: 2rem;
-  padding-bottom: 4rem;
-
-}
-
-.site-container, /* whatever parent wraps the page */ 
-.home-featured, 
-.secondary-grid {
   width: 100%;
-  max-width: 1200px;   /* site-wide max width */
+  max-width: 1300px;   /* site-wide max width */
   margin-left: auto;
   margin-right: auto;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--gap, 12px);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 4rem;
+  position: relative;
   box-sizing: border-box;
   padding-left: 1rem;  /* optional page padding */
   padding-right: 1rem; /* optional page padding */
+
 }
 
 /* 2) Secondary grid layout: use safe grid sizing */
-.secondary-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--gutter, 1rem);
-  column-gap: 0.8rem;
-  margin-top: 2rem;
-  padding-bottom: 4rem;
-  box-sizing: border-box;
+
+.secondary-grid::before,
+.secondary-grid::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  width: 1px;
+  background: #ccc;
+  pointer-events: none;        /* so they don't block clicks */
+  z-index: 0;                  /* keep behind grid children if needed */
 }
+
+.secondary-grid::before { left: calc(33.333%); transform: translateX(-0.5px);}
+.secondary-grid::after  { left: calc(66.666%); transform: translateX(-0.5px);}
+
+.secondary-grid > * { position: relative; z-index: 1; background: white; }
+
 
 /* 3) Ensure each article is a column and does not overflow */
 
@@ -974,7 +978,7 @@ span.sidenote small {
 
 /* for reseñas */ 
 
-.title-obra-resenada {
+.title-obra-resenada h1 {
   margin-top: 4rem;
 
   }
@@ -1001,6 +1005,15 @@ span.sidenote small {
   text-align: left;      /* left-align for readability */
   line-height: 1.4;
   max-width: calc(100% - 100px - 1rem);
+}
+
+.publicado-originalmente-en {
+  margin-top: -1rem;
+}
+
+.publicado-originalmente-en a {
+  text-decoration: underline;
+  color: black;
 }
 
 
@@ -1089,7 +1102,6 @@ span.sidenote small {
   margin-top: 1rem;
   background: var(--accent-burgundy);
   padding: 1rem;
-  border-right: 1px solid var(--neutral-300);
 }
 
 @media (max-width: 768px) {
@@ -1104,10 +1116,7 @@ span.sidenote small {
   }
 }
 
-/* Remove last column borders */
-.secondary-grid .article:nth-child(3n) {
-  border-right: none;
-}
+
 
 .secondary-grid .article h1,
 .secondary-grid .author-name,
@@ -1563,16 +1572,6 @@ span.sidenote small {
   font-size: 1.4rem;
   line-height: 1.4;
   color: #494746;
-}
-
-.taxonomy-grid .article {
-  border-right: 1px solid var(--neutral-300);
-  padding: 1rem;
-}
-
-/* Remove last column borders */
-.taxonomy-grid .article:nth-child(3n) {
-  border-right: none;
 }
 
 /* If you used the additive class (taxonomy-grid secondary-grid), override the magenta */
