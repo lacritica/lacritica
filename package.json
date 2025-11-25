@@ -14,11 +14,9 @@
   "build:hugo": "hugo -s site -d ../dist",
   "build:hugo:preview": "npm run build:hugo -- -D -F",
   "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
-
   "pagefind:index": "pagefind --site dist",
-  "pagefind:copy": "cp -r .pagefind dist/pagefind",
 
-  "build:search": "run-s build pagefind:index pagefind:copy"
+  "build:search": "run-s build pagefind:index"
 },
   "author": "",
   "license": "MIT",

@@ -70,15 +70,16 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <input type="text" id="search-box" placeholder="Search...">
-        <li><ul id="search-results"></ul></li>
+        <li>{{ partial "search-menu.html" . }}</li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+
       </ul>
+
     </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/flexsearch@latest/dist/flexsearch.bundle.js"></script>

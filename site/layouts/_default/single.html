@@ -127,9 +127,7 @@
     class="article-content"
     data-pagefind-body
     data-pagefind-filter-category="{{ with .Params.category }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
-
     data-pagefind-filter-author="{{ with .Params.author }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
-
   >
 
     {{/* Load raw thumbnail param */}}

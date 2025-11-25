@@ -3,7 +3,7 @@
 
 <section class="taxonomy-grid secondary-grid" data-term="{{ .Title | urlize }}">
   {{ range $index, $post := $paginator.Pages }}
-    <article class="article">
+    <article class="article-taxonomy">
     <!--{{/* Desactivamos las fotos para esta sección*/}}
       {{/* with .Params.thumbnail }}
         <div class="featured-thumbnail">

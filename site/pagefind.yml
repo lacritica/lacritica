@@ -1,0 +1,4 @@
+exclude_selectors:
+  - ".share-buttons"
+  - ".footer-social"
+  - ".share-icon"

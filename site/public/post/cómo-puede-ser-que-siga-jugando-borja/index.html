@@ -204,15 +204,25 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <input type="text" id="search-box" placeholder="Search...">
-        <li><ul id="search-results"></ul></li>
+        <li><div id="search-container">
+  <div id="search"></div>
+</div>
+<script src="/pagefind/pagefind-ui.js"></script>
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    new PagefindUI({ element: "#search" });
+  });
+</script></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+
       </ul>
+
     </nav>
 
     <script src="https://cdn.jsdelivr.net/npm/flexsearch@latest/dist/flexsearch.bundle.js"></script>
@@ -422,34 +432,34 @@ document.addEventListener("click", () => {
   <h3 class="share-title">Compartir</h3>
   <div class="share-buttons" data-pagefind-ignore>
 
-    <a class="share-button"
+    <a class="share-button" 
        href="https://twitter.com/intent/tweet?text=%C2%BFC%C3%B3mo&#43;puede&#43;ser&#43;que&#43;siga&#43;jugando&#43;Borja&#43;en&#43;River&#43;Plate%3F%0Apor&#43;Ramiro&#43;%C3%81lvarez&#43;Ugarte%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fc%25C3%25B3mo-puede-ser-que-siga-jugando-borja%2F"
        target="_blank" rel="noopener noreferrer">
-      <img src="/img/twitter.svg" alt="Compartir en Twitter">
+      <img src="/img/twitter.svg" alt="Compartir en Twitter" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://bsky.app/intent/compose?text=%C2%BFC%C3%B3mo&#43;puede&#43;ser&#43;que&#43;siga&#43;jugando&#43;Borja&#43;en&#43;River&#43;Plate%3F%0Apor&#43;Ramiro&#43;%C3%81lvarez&#43;Ugarte%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fc%25C3%25B3mo-puede-ser-que-siga-jugando-borja%2F"
        target="_blank" rel="noopener noreferrer">
-      <img src="/img/bluesky.svg" alt="Compartir en Bluesky">
+      <img src="/img/bluesky.svg" alt="Compartir en Bluesky" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fc%25C3%25B3mo-puede-ser-que-siga-jugando-borja%2F"
        target="_blank" rel="noopener noreferrer">
-      <img src="/img/facebook.svg" alt="Compartir en Facebook">
+      <img src="/img/facebook.svg" alt="Compartir en Facebook" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fc%25C3%25B3mo-puede-ser-que-siga-jugando-borja%2F"
        target="_blank" rel="noopener noreferrer">
-      <img src="/img/linkedin.svg" alt="Compartir en LinkedIn">
+      <img src="/img/linkedin.svg" alt="Compartir en LinkedIn" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://api.whatsapp.com/send?text=%C2%BFC%C3%B3mo&#43;puede&#43;ser&#43;que&#43;siga&#43;jugando&#43;Borja&#43;en&#43;River&#43;Plate%3F%0Apor&#43;Ramiro&#43;%C3%81lvarez&#43;Ugarte%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fc%25C3%25B3mo-puede-ser-que-siga-jugando-borja%2F"
        target="_blank" rel="noopener noreferrer">
-      <img src="/img/whatsapp.svg" alt="Compartir en WhatsApp">
+      <img src="/img/whatsapp.svg" alt="Compartir en WhatsApp" data-pagefind-ignore>
     </a>
 
   </div>
@@ -467,9 +477,7 @@ document.addEventListener("click", () => {
     class="article-content"
     data-pagefind-body
     data-pagefind-filter-category=""
-
     data-pagefind-filter-author="Ramiro Álvarez Ugarte"
-
   >
 
     
@@ -627,26 +635,22 @@ document.addEventListener("click", () => {
 
      
     <div class="footer-text">
-      @ 2025 La Crítica del Derecho Colectivo Crítico
+    @ 2025 La Crítica del Derecho
     </div>
     <br>
 
     
     <div class="footer-social">
-      <a href="https://twitter.com/YourProfile" target="blank" aria-label="Twitter">
+      <a href="https://twitter.com/lacriticadd" target="blank" aria-label="Twitter">
         <img src="/img/twitter.svg" alt="Twitter logo">
       </a>
-      <a href="https://instagram.com/YourProfile" target="blank" aria-label="Instagram">
-        <img src="/img/instagram.svg" alt="Instagram logo">
+      <a href="https://bsky.app/profile/lacriticadd.bsky.social" target="blank" aria-label="Bluesky">
+        <img src="/img/bluesky.svg" alt="Bluesky logo">
       </a>
-      <a href="https://facebook.com/YourProfile" target="blank" aria-label="Instagram">
-        <img src="/img/facebook.svg" alt="Facebook logo">
+      <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
+        <img src="/img/linkedin.svg" alt="Linkedin logo">
       </a>
-      <a href="https://facebook.com/YourProfile" target="blank" aria-label="Instagram">
-        <img src="/img/spotify.svg" alt="Spotify logo">
-      </a>
-      <a href="https://facebook.com/YourProfile" target="blank" aria-label="Instagram">
-        <img src="/img/youtube.svg" alt="YouTube logo">
+      
       </a>
     </div>
 
@@ -654,11 +658,11 @@ document.addEventListener("click", () => {
 
     
     <div class="footer-social-bottom">
-      <span color = "#fff">hosted on</a><a href="https://twitter.com/YourProfile" target="blank" aria-label="Twitter">
+      <span color = "#fff">hosted on</a><a href="https://github.com/ramiroau/lacritica2" target="blank" aria-label="GitHub">
          <img src="/img/github.svg" alt="GitHub">
       </a> 
-      <span color = "#fff">deployed by</a><a href="https://twitter.com/YourProfile" target="blank" aria-label="Twitter">
-         <img src="/img/netlify.svg" alt="GitHub">
+      <span color = "#fff">deployed by</a><a href="https://www.netlify.com/" target="blank" aria-label="Netlify">
+         <img src="/img/netlify.svg" alt="Netlify">
       </a> 
   </div>
 </footer>

@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6,
 .secondary-grid::after {
   content: "";
   position: absolute;
-  top: 1rem;
+  top: 0rem;
   bottom: 1rem;
   width: 1px;
   background: #ccc;
@@ -214,6 +214,24 @@ h1, h2, h3, h4, h5, h6,
 }
 @media (max-width: 768px) {
   .secondary-grid { grid-template-columns: 1fr; }
+  .secondary-grid .article-taxonomy {margin-top: 2rem}
+  .secondary-grid .article-taxonomy .author {margin-top: -1rem}
+  .secondary-grid::before,
+  .secondary-grid::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  bottom: 1rem;
+  width: 0px;
+  background: #ccc;
+  pointer-events: none;        /* so they don't block clicks */
+  z-index: 0;                  /* keep behind grid children if needed */
+}
+
+.secondary-grid::before { left: calc(33.333%); transform: translateX(-0.5px);}
+.secondary-grid::after  { left: calc(66.666%); transform: translateX(-0.5px);}
+
+.secondary-grid > * { position: relative; z-index: 1}
 }
 
 
@@ -238,6 +256,12 @@ h1, h2, h3, h4, h5, h6,
   text-transform: uppercase;
 }
 
+.featured-thumbnail img {
+  width: 100%;
+  aspect-ratio: 4 / 3;   /* or 1/1 for square, 4/3, etc. */
+  object-fit: cover;      /* fills the box and crops excess */
+}
+
 .featured-content .summary {
   font-family: 'Averia Serif Libre', serif !important;
   font-size: 1.2em;
@@ -260,8 +284,9 @@ h1, h2, h3, h4, h5, h6,
   gap: var(--gutter);
 }
 
+
 .article--tight {
-  margin-top: -2rem; /* move it up slightly */
+  margin-top: -0rem }/* move it up slightly 
 }
 
 /* home callouts */ 
@@ -271,7 +296,6 @@ h1, h2, h3, h4, h5, h6,
   display: flex;
   justify-content: center;
   align-items: center;
-
   max-width: 1200px;
   width: 100%;
   gap: 6rem;
@@ -619,6 +643,10 @@ span.sidenote small {
 
 #content .article-content {
   min-width: 0;
+}
+
+#content .article-content img {
+  max-width: 100%;
 }
 
 #content .article-content a {
@@ -1034,7 +1062,7 @@ span.sidenote small {
 }
 
 #content .article-content-tax {
-  margin-top: 0rem;
+  margin-top: 2rem;
 }
 
 #content .article-content h1 {
@@ -1047,6 +1075,12 @@ span.sidenote small {
 
 #content .container-article {
   padding: 1rem 6rem 0;
+}
+
+.thumbnail-insert img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .thumbnail-insert figcaption {
@@ -1081,6 +1115,68 @@ span.sidenote small {
   color: var(--main-color);
 }
 
+/* pagefind */ 
+
+.pagefind-input {
+  width: 100% !important;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+/* Style search results container */
+.pagefind-results {
+  background-color: var(--base-bg);
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style individual results */
+.pagefind-result {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.pagefind-result:hover {
+  background-color: var(--base-bg);
+}
+
+/* share section in articles */
+
+.share-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color, #ddd);
+  text-align: left;
+}
+
+.share-title {
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted, #666);
+  margin-bottom: 1rem;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: left;
+  gap: 1.5rem;
+}
+
+.share-button img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+  opacity: 0.85;
+}
+
+.share-button img:hover {
+  transform: scale(1.15);
+  opacity: 1;
+}
 
 /* llevar a media */
 
@@ -1097,8 +1193,123 @@ span.sidenote small {
     width: 100%;
   }
 
-  #content .article-sidebar h1 {
+  #content .article-layout .article-sidebar h1 {
     text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .share-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color, #ddd);
+    text-align: left;
+  }
+
+  .share-title {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted, #666);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .share-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 1.5rem;
+  }
+
+  .share-button img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+    opacity: 0.85;
+  }
+
+  .share-button img:hover {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+
+  #content .article-content {
+    width: 100%;
+    text-align: left;
+  }
+
+  #content .obra_reseñada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  #content .book-cover img {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3); /* right-side shadow */
+  }
+
+  #content .obra-text {
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #content .container-article {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  #content .article-layout {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  #content .article-layout .article-sidebar h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .share-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color, #ddd);
+    text-align: left;
+  }
+
+  .share-title {
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted, #666);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .share-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 1.5rem;
+  }
+
+  .share-button img {
+    width: 28px;
+    height: 28px;
+    transition: transform 0.2s ease;
+    opacity: 0.85;
+  }
+
+  .share-button img:hover {
+    transform: scale(1.15);
+    opacity: 1;
   }
 
   #content .article-content {
@@ -1150,11 +1361,24 @@ span.sidenote small {
 }
 
 @media (max-width: 768px) {
-  .taxonomy-grid.secondary-grid .article {
+  .taxonomy-grid.secondary-grid .article-taxonomy {
     border-right: none;
   }
 }
 
+
+.taxonomy-content .article-taxonomy h1 a,
+.secondary-grid .author-name,
+.secondary-grid .summary,
+.secondary-grid .categories a,
+.secondary-grid .date {
+  color: var(--base-bg);
+  text-decoration: none
+}
+
+.taxonomy-content .article-taxonomy h1:hover {
+  color: var(--base-bg);
+}
 
 
 .secondary-grid .article h1,
@@ -1184,6 +1408,7 @@ span.sidenote small {
 .article a:hover {
   text-decoration: none;
 }
+
 
 /* author page */
 .author-page {
@@ -1322,41 +1547,6 @@ span.sidenote small {
 .author a:hover,
 .article-list a[href*="/authors/"]:hover {
   text-decoration: underline;
-}
-
-/* share section in articles */
-
-.share-section {
-  margin-top: 3rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color, #ddd);
-  text-align: left;
-}
-
-.share-title {
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--text-muted, #666);
-  margin-bottom: 1rem;
-}
-
-.share-buttons {
-  display: flex;
-  justify-content: left;
-  gap: 1.5rem;
-}
-
-.share-button img {
-  width: 28px;
-  height: 28px;
-  transition: transform 0.2s ease;
-  opacity: 0.85;
-}
-
-.share-button img:hover {
-  transform: scale(1.15);
-  opacity: 1;
 }
 
 /* === SECOND ROW === */
@@ -1518,7 +1708,7 @@ span.sidenote small {
   padding-right: 2rem;
 }
 
-.taxonomy-layout .article {
+.taxonomy-layout .article-taxonomy {
   margin-bottom: -1.5rem;
 }
 
@@ -1572,7 +1762,7 @@ span.sidenote small {
 }
 
 /* --- Taxonomy grid styling (non-magenta) --- */
-.taxonomy-grid {
+.taxonomy-content .taxonomy-grid {
   /* choose a neutral background or inherit from taxonomy layout */
   background-color: transparent; /* or var(--base-bg) if you prefer */
   display: grid;
@@ -1605,7 +1795,7 @@ span.sidenote small {
   max-width: 100%;       /* safety */
 }
 
-.taxonomy-grid .article-content {
+.taxonomy-grid .article-taxonomy {
   width: 100%;
   max-width: 800px;
   font-size: 1.4rem;
@@ -1614,48 +1804,49 @@ span.sidenote small {
 }
 
 /* If you used the additive class (taxonomy-grid secondary-grid), override the magenta */
-.taxonomy-grid.secondary-grid {
+.taxonomy-content .taxonomy-grid.secondary-grid {
   background-color: transparent !important; /* override the homepage magenta */
 }
 
 /* Default taxonomy styles */
+.taxonomy-content,
 .taxonomy-layout,
 .taxonomy-grid {
-  background-color: var(--accent-burgundy);
+  background-color: transparent; /* override the homepage magenta */
 }
 
 .taxonomy-menu {
   margin-top: 1.2rem;
 }
 
-/* Custom colors per taxonomy */
+/* Custom colors per taxonomy */ 
 .taxonomy-menu[data-term="rese%C3%B1as"],
 .taxonomy-layout[data-term="rese%C3%B1as"],
-.taxonomy-grid[data-term="rese%C3%B1as"] .article {
+.taxonomy-grid[data-term="rese%C3%B1as"] .article-taxonomy {
   background-color: var(--accent-blue); /* soft pinkish tone */
 }
 
 .taxonomy-menu[data-term="debates"],
 .taxonomy-layout[data-term="debates"],
-.taxonomy-grid[data-term="debates"] .article {
+.taxonomy-grid[data-term="debates"] .article-taxonomy {
   background-color: var(--neutral-pale-blue); /* light blue */
 }
 
 .taxonomy-menu[data-term="misceláneas"],
 .taxonomy-layout[data-term="misceláneas"],
-.taxonomy-grid[data-term="misceláneas"] .article {
+.taxonomy-grid[data-term="misceláneas"] .article-taxonomy {
   background-color: var(--neutral-pale-blue); /* light blue */
 }
 
 .taxonomy-menu[data-term="simposios"],
 .taxonomy-layout[data-term="simposios"],
-.taxonomy-grid[data-term="simposios"] .article {
+.taxonomy-grid[data-term="simposios"] .article-taxonomy {
   background-color: var(--accent-beige); 
 }
 
 .taxonomy-menu[data-term="ensayos"],
 .taxonomy-layout[data-term="ensayos"],
-.taxonomy-grid[data-term="ensayos"] .article {
+.taxonomy-grid[data-term="ensayos"] .article-taxonomy {
   background-color: var(--accent-burgundy); /* warm beige */
 }
 
@@ -1866,6 +2057,7 @@ span.sidenote small {
 }
 
 .footer-text {
+  text-align: center;
   color: var(--base-bg);
 }
 
@@ -1879,10 +2071,21 @@ span.sidenote small {
 
 /* Stack on mobile */
 @media (max-width: 600px) {
-  .footer-social  {
+  .footer-social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+    grid-auto-rows: auto;                   /* rows grow naturally */
     width: 100%;
-    flex-direction: column;   /* stack vertically */
-    gap: 1rem;                /* more comfortable spacing */
+    gap: 2rem;                               /* spacing between icons */
+    justify-items: center;                  /* center each icon */
+  };
+  .footer-social-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+    grid-auto-rows: auto;                   /* rows grow naturally */
+    width: 100%;
+    gap: 2rem;                               /* spacing between icons */
+    justify-items: center;                  /* center each icon */
   }
 }
 
@@ -1901,6 +2104,10 @@ span.sidenote small {
 .thumbnail-insert figcaption .copyright {
   text-align: right;
   white-space: nowrap; /* Prevent wrapping */
+}
+
+.footer {
+  align-items: center;
 }
 
 .footer-social a img {
@@ -2055,8 +2262,6 @@ span.sidenote small {
 
 /* footer */ 
 
-}
-
 
 
 /* --- Custom hover style for post titles --- */
@@ -2119,7 +2324,6 @@ code {
   padding: 0.2em 0.4em;
   border-radius: 3px;
 }
-
 
 /* misc elements */
 img, iframe, video { max-width: 100%; }

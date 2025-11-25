@@ -68,34 +68,34 @@
   <h3 class="share-title">Compartir</h3>
   <div class="share-buttons" data-pagefind-ignore>
 
-    <a class="share-button"
+    <a class="share-button" 
        href="https://twitter.com/intent/tweet?text={{ $tweet | urlquery }}"
        target="_blank" rel="noopener noreferrer">
-      <img src="{{ "img/twitter.svg" | relURL }}" alt="Compartir en Twitter">
+      <img src="{{ "img/twitter.svg" | relURL }}" alt="Compartir en Twitter" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://bsky.app/intent/compose?text={{ $bluesky | urlquery }}"
        target="_blank" rel="noopener noreferrer">
-      <img src="{{ "img/bluesky.svg" | relURL }}" alt="Compartir en Bluesky">
+      <img src="{{ "img/bluesky.svg" | relURL }}" alt="Compartir en Bluesky" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://www.facebook.com/sharer/sharer.php?u={{ $url | urlquery }}"
        target="_blank" rel="noopener noreferrer">
-      <img src="{{ "img/facebook.svg" | relURL }}" alt="Compartir en Facebook">
+      <img src="{{ "img/facebook.svg" | relURL }}" alt="Compartir en Facebook" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}"
        target="_blank" rel="noopener noreferrer">
-      <img src="{{ "img/linkedin.svg" | relURL }}" alt="Compartir en LinkedIn">
+      <img src="{{ "img/linkedin.svg" | relURL }}" alt="Compartir en LinkedIn" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
        href="https://api.whatsapp.com/send?text={{ $tweet | urlquery }}"
        target="_blank" rel="noopener noreferrer">
-      <img src="{{ "img/whatsapp.svg" | relURL }}" alt="Compartir en WhatsApp">
+      <img src="{{ "img/whatsapp.svg" | relURL }}" alt="Compartir en WhatsApp" data-pagefind-ignore>
     </a>
 
   </div>
