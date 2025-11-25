@@ -2,8 +2,8 @@
 title: Mariela Puga
 slug: marielapuga
 type: authors
-foto: /img/foto-png.png
-bio: "Investigadora de CONICET, Profesora de Derecho Constitucional UNC. "
+foto: /img/foto-.jpg
+bio: "Investigadora de CONICET, Profesora de Derecho Constitucional en la UNC. "
 twitter_handle: MarielaPug33758
 ---
 Mariela es Doctora en Derecho de la UBA, Master en Derecho de la Universidad de Columbia (USA), Especialista en Derecho de Daños la Universidad de Palermo, y Abogada de la UNC.
