@@ -14,7 +14,7 @@
     
     <title>
       
-         | La Crítica
+        Search | La Crítica
       
     </title>
 
@@ -26,7 +26,7 @@
 
   </head>
 
-  <body class="page">
+  <body>
     <header class="header">
       <div class="banner">
         <a href="/" class="logo-link">
@@ -320,123 +320,29 @@ document.addEventListener("click", () => {
 
   <main id="content" class="content">
     
+<div class="search-page">
 
-<article>
+  <h1>Buscar</h1>
 
-<main class="article-layout">
+  
+  <div id="search"></div>
 
-  <aside class="article-sidebar" data-pagefind-ignore>
-    <h1 class="post-title"></h1>
+  
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
 
-    
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        
+        filters: ["category", "author"],
+      });
+    });
+  </script>
 
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="share-section">
-  <h3 class="share-title">Compartir</h3>
-  <div class="share-buttons" data-pagefind-ignore>
-
-    <a class="share-button"
-       href="https://twitter.com/intent/tweet?text=%0Apor&#43;%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fcont%25C3%25A1ctenos%2F"
-       target="_blank" rel="noopener noreferrer">
-      <img src="/img/twitter.svg" alt="Compartir en Twitter">
-    </a>
-
-    <a class="share-button"
-       href="https://bsky.app/intent/compose?text=%0Apor&#43;%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fcont%25C3%25A1ctenos%2F"
-       target="_blank" rel="noopener noreferrer">
-      <img src="/img/bluesky.svg" alt="Compartir en Bluesky">
-    </a>
-
-    <a class="share-button"
-       href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fcont%25C3%25A1ctenos%2F"
-       target="_blank" rel="noopener noreferrer">
-      <img src="/img/facebook.svg" alt="Compartir en Facebook">
-    </a>
-
-    <a class="share-button"
-       href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A1313%2Fcont%25C3%25A1ctenos%2F"
-       target="_blank" rel="noopener noreferrer">
-      <img src="/img/linkedin.svg" alt="Compartir en LinkedIn">
-    </a>
-
-    <a class="share-button"
-       href="https://api.whatsapp.com/send?text=%0Apor&#43;%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fcont%25C3%25A1ctenos%2F"
-       target="_blank" rel="noopener noreferrer">
-      <img src="/img/whatsapp.svg" alt="Compartir en WhatsApp">
-    </a>
-
-  </div>
-</section>
-
-
-    
-
-    
-
-    
-  </aside> 
-
-  <div
-    class="article-content"
-    data-pagefind-body
-    data-pagefind-filter-category=""
-
-    data-pagefind-filter-author=""
-
-  >
-
-    
-      
-      
-
-      
-      
-
-      
-      
-        <p><img src="/img/email.svg" alt="Contacto"></p>
-<p>Recibimos correos de lectores, quejas, ideas, propuestas y demás en <a href="mailto:contacto@lacritica.ar">contacto@lacritica.ar</a>. Si desea que su comentario no sea publicado en la sección &ldquo;Correo de lectores&rdquo;, hágannoslo saber. Si tiene eventos, documentos, o reportes que crea relevante anunciar en la sección &ldquo;Cosas que pasan&rdquo;, pueden enviarnos un correo con la información necesaria a <a href="mailto:cosasquepasan@lacritica.ar">cosasquepasan@lacritica.ar</a>.</p>
-
-      
-  </div>
-
-</main>
-
-
-
-
-
-
-
-
-</article>
-
+</div>
 
   </main>
 

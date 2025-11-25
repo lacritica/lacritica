@@ -171,7 +171,7 @@ h1, h2, h3, h4, h5, h6,
 .secondary-grid::before { left: calc(33.333%); transform: translateX(-0.5px);}
 .secondary-grid::after  { left: calc(66.666%); transform: translateX(-0.5px);}
 
-.secondary-grid > * { position: relative; z-index: 1; background: white; }
+.secondary-grid > * { position: relative; z-index: 1}
 
 
 /* 3) Ensure each article is a column and does not overflow */
@@ -185,6 +185,14 @@ h1, h2, h3, h4, h5, h6,
   margin: 0;             /* remove extra space that enlarges layout */
   padding: 0;
   box-sizing: border-box;
+}
+
+.secondary-grid .article-cont {
+  background-color: var(--accent-burgundy) !important;
+}
+
+.secondary-grid .article {
+  background-color: var(--accent-burgundy) !important;;
 }
 
 /* 5) Image: fill the container but obey max-width, preserve cropping */
@@ -1057,6 +1065,23 @@ span.sidenote small {
   text-align: right;
   white-space: nowrap; /* Prevent wrapping */
 }
+
+/* search box */ 
+
+#search .pagefind-ui__search-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#search .pagefind-ui__result-title {
+  font-size: 1.1rem;
+  color: var(--main-color);
+}
+
+
 /* llevar a media */
 
 @media (max-width: 900px) {
