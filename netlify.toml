@@ -5,7 +5,7 @@
 
 
 [build]
-  command = "yarn build"
+  command = "yarn build:search"
   publish = "dist"
 
 [[plugins]]
