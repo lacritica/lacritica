@@ -96,7 +96,7 @@ body {
   }
 }
 
-.twitter-handle a {
+#content .twitter-handle a {
   font-family: 'Jost';
   font-size: .9rem;
   text-decoration: none;
@@ -575,7 +575,7 @@ span.sidenote small {
 }
 
 /* Don't show sidenotes on the home page. */
-.home.posts .content .sidenote {
+.home.posts #content .sidenote {
     display: none;
 }
 
@@ -601,7 +601,7 @@ span.sidenote small {
   line-height: 1.4;    /* improves multi-line readability */
 }
 
-.article-wrapper {
+#content .article-wrapper {
   display: grid;
   grid-template-columns: 3fr 1fr; /* main content / footnotes */
   gap: 2rem;
@@ -609,22 +609,22 @@ span.sidenote small {
   margin: 0 auto;
 }
 
-.article-content {
+#content .article-content {
   min-width: 0;
 }
 
-.article-content a {
+#content .article-content a {
     text-decoration: underline;
     color: black;
 }
 
 /* Footnotes sidebar */
-.article-footnotes {
+#content .article-footnotes {
   position: sticky;
   top: 2rem;
 }
 
-.side-footnotes {
+#content .side-footnotes {
   background: var(--base-bg);
   border-left: 3px solid var(--neutral-300);
   padding-left: 1rem;
@@ -913,7 +913,7 @@ span.sidenote small {
 }
 /* articles new */ 
 
-.article-layout {
+#content .article-layout {
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -921,9 +921,8 @@ span.sidenote small {
   margin-top: 0rem;
 }
 
-.article-layout .article-sidebar {
+#content .article-layout .article-sidebar {
   flex: 0 0 22%;
-  width: 60%;
   max-width: 260px;
   padding-right: 1rem;
   font-size: 0.95rem;
@@ -932,14 +931,14 @@ span.sidenote small {
   padding: .2rem;
 }
 
-.article-layout .article-sidebar h1 {
+#content .article-layout .article-sidebar h1 {
   font-size: 2.2rem;
   margin-bottom: 3rem;
   letter-spacing: -0.032em;
 }
 
 
-.article-sidebar .post-author {
+#content .article-sidebar .post-author {
   font-size: 1.2rem;
   display: flex;
   flex-wrap: wrap;
@@ -952,12 +951,12 @@ span.sidenote small {
   cursor: pointer;
 }
 
-.article-sidebar .post-author .author-block {
+#content .article-sidebar .post-author .author-block {
   margin: 0rem 0;  /* smaller vertical spacing */
   line-height: 1.2;  /* adjust if needed */
 }
 
-.article-sidebar .post-author .author-bio {
+#content .article-sidebar .post-author .author-bio {
   font-size: 0.8em;
   font-weight: 300;
   font-family: 'Averia Serif Libre';
@@ -965,24 +964,24 @@ span.sidenote small {
   line-height: 1.5rem;
 }
 
-.article-sidebar .post-author .author-link {
+#content .article-sidebar .post-author .author-link {
   color: inherit;            /* same color as surrounding text */
   text-decoration: none;     /* remove underline */
   transition: all 0.2s ease;
 
 }
 
-.article-sidebar .post-author .author-link:hover {
+#content .article-sidebar .post-author .author-link:hover {
   color: var(--neutral-800); /* underline on hover */
 }
 
 /* for reseñas */ 
 
-.title-obra-resenada h1 {
+#content .title-obra-resenada h1 {
   margin-top: 4rem;
-
   }
-.obra_reseñada {
+
+#content .obra_reseñada {
   display: flex;
   flex-direction: row;   /* horizontal layout */
   align-items: flex-start;
@@ -992,14 +991,14 @@ span.sidenote small {
 }
 
 /* cover stays on the left */
-.book-cover img {
+#content .book-cover img {
   max-width: 100px;      /* fixed size keeps layout stable */
   height: auto;
   box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3);
 }
 
 /* text on the right */
-.obra-text {
+#content .obra-text {
   font-size: 1rem;
   color: #333;
   text-align: left;      /* left-align for readability */
@@ -1007,18 +1006,16 @@ span.sidenote small {
   max-width: calc(100% - 100px - 1rem);
 }
 
-.publicado-originalmente-en {
+#content .publicado-originalmente-en {
   margin-top: -1rem;
 }
 
-.publicado-originalmente-en a {
+#content .publicado-originalmente-en a {
   text-decoration: underline;
   color: black;
 }
 
-
-
-.article-content {
+#content .article-content {
   flex: 2;
   width: 50%;
   max-width: 675px;
@@ -1028,46 +1025,80 @@ span.sidenote small {
   margin-top: 1rem;
 }
 
-.article-content-tax {
+#content .article-content-tax {
   margin-top: 0rem;
 }
 
-.article-content h1 {
+#content .article-content h1 {
   font-size: 1.8rem;
 }
 
-.article-content h2 {
+#content .article-content h2 {
   font-size: 1.6rem;
 }
 
-.container-article {
+#content .container-article {
   padding: 1rem 6rem 0;
 }
+
+.thumbnail-insert figcaption {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.thumbnail-insert figcaption .epigraph {
+  text-align: left;
+}
+
+.thumbnail-insert figcaption .copyright {
+  text-align: right;
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+/* search box */ 
+
+#search .pagefind-ui__search-input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#search .pagefind-ui__result-title {
+  font-size: 1.1rem;
+  color: var(--main-color);
+}
+
+
 /* llevar a media */
 
 @media (max-width: 900px) {
 
-  .container-article {
+  #content .container-article {
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-  .article-layout {
+  #content .article-layout {
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
 
-  .article-sidebar h1 {
+  #content .article-sidebar h1 {
     text-align: center;
   }
 
-  .article-content {
+  #content .article-content {
     width: 100%;
     text-align: left;
   }
 
-  .obra_reseñada {
+  #content .obra_reseñada {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1076,13 +1107,13 @@ span.sidenote small {
     gap: 0.5rem;
   }
 
-  .book-cover img {
+  #content .book-cover img {
     max-width: 80%;
     height: auto;
     box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3); /* right-side shadow */
   }
 
-  .obra-text {
+  #content .obra-text {
     font-size: 1rem;
     color: #333;
     text-align: center;
@@ -1092,7 +1123,7 @@ span.sidenote small {
 
 /* article and secondary row */
 
-.article {
+#content .article {
   background: var(--base-bg);
   padding: 1rem;
   border-radius: 0px;

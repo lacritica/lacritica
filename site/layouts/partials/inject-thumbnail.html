@@ -1,0 +1,42 @@
+{{/* Get the HTML content */}}
+{{ $content := .Content }}
+
+{{/* Build the thumbnail HTML */}}
+{{ $thumb := "" }}
+{{ with .Params.thumbnail }}
+  {{ $img := index . 0 }}
+  {{ $thumb = printf `
+<figure class="thumbnail-insert">
+  <img src="%s" alt="%s" />
+  <figcaption>
+    <span class="epigraph">%s</span>
+    <span class="copyright">%s</span>
+  </figcaption>
+</figure>
+` (relURL $img.src) ($img.alt | default "" ) (.Params.epigraph | default "") (.Params.copyright | default "") }}
+{{ end }}
+
+{{ if not $thumb }}
+  {{/* No thumbnail → just return content */}}
+  {{ $content | safeHTML }}
+{{ else }}
+  {{/* Inject thumbnail after the 3rd paragraph */}}
+  {{ $pattern := "(?s)(<p>.*?</p>)" }}
+  {{ $paras := findRE $pattern $content }}
+
+  {{ if lt (len $paras) 3 }}
+    {{/* fewer than 3 paragraphs → append at the end */}}
+    {{ printf "%s%s" $content $thumb | safeHTML }}
+  {{ else }}
+    {{ $out := "" }}
+    {{ range $i, $p := $paras }}
+      {{ $out = printf "%s%s" $out $p }}
+      {{ if eq $i 2 }}
+        {{ $out = printf "%s%s" $out $thumb }}
+      {{ end }}
+    {{ end }}
+    {{/* Add any remaining content after the matched <p> blocks */}}
+    {{ $rest := replaceRE (printf "%s" (delimit $paras "")) "" $content }}
+    {{ printf "%s%s" $out $rest | safeHTML }}
+  {{ end }}
+{{ end }}

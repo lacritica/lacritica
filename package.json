@@ -5,15 +5,21 @@
   "repository": "decaporg/one-click-hugo-cms",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src cypress",
-    "start": "run-p start:hugo start:webpack",
-    "start:hugo": "hugo -s site -d ../dist -D",
-    "start:webpack": "webpack-dev-server --config webpack.dev.js --hot --static dist",
-    "build": "run-s build:webpack build:hugo",
-    "build:hugo": "hugo -s site -d ../dist",
-    "build:hugo:preview": "npm run build:hugo -- -D -F",
-    "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
-  },
+  "lint": "eslint src cypress",
+  "start": "run-p start:hugo start:webpack",
+  "start:hugo": "hugo -s site -d ../dist -D",
+  "start:webpack": "webpack-dev-server --config webpack.dev.js --hot --static dist",
+
+  "build": "run-s build:webpack build:hugo",
+  "build:hugo": "hugo -s site -d ../dist",
+  "build:hugo:preview": "npm run build:hugo -- -D -F",
+  "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js",
+
+  "pagefind:index": "pagefind --site dist",
+  "pagefind:copy": "cp -r .pagefind dist/pagefind",
+
+  "build:search": "run-s build pagefind:index pagefind:copy"
+},
   "author": "",
   "license": "MIT",
   "devDependencies": {
@@ -62,6 +68,7 @@
     "decap-cms-app": "^3.0.2",
     "immutable": "^4.1.0",
     "netlify-plugin-cypress": "^2.2.1",
+    "pagefind": "^1.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "to-string-loader": "^1.2.0"

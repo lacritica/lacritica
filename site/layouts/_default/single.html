@@ -1,21 +1,20 @@
-
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <article>
 
 <main class="article-layout">
 
-  <div class="article-sidebar">
+  <aside class="article-sidebar" data-pagefind-ignore>
     <h1 class="post-title">{{ .Title }}</h1>
 
     {{ with .Params.author }}
       <div class="post-author">
     {{ range . }}
       {{ $raw := . }}
-      {{ $authorClean := replaceRE "[\\[\\]]" "" $raw }}
+      {{ $authorClean := replaceRE "[\\[\\]]" "" $raw   }}
 
-      {{/* normalize: remove common accented chars and punctuation, then urlize */}}
-      {{ $norm := $authorClean | lower }}
+      {{/* normalize: remove accented chars and punctuation, then urlize */}}
+      {{ $norm := lower $authorClean }}
       {{ $norm = replaceRE "[áàâäãåā]" "a" $norm }}
       {{ $norm = replaceRE "[éèêëē]" "e" $norm }}
       {{ $norm = replaceRE "[íìîïī]" "i" $norm }}
@@ -23,27 +22,21 @@
       {{ $norm = replaceRE "[úùûüū]" "u" $norm }}
       {{ $norm = replaceRE "[ñ]" "n" $norm }}
       {{ $norm = replaceRE "[ç]" "c" $norm }}
-      {{ $norm = replaceRE "[^a-z0-9\\s-]" "" $norm }}    {{/* remove remaining punctuation */}}
+      {{ $norm = replaceRE "[^a-z0-9\\s-]" "" $norm }}
       {{ $authorSlug := urlize $norm }}
 
-      {{/* Try multiple ways to find the author page */}}
+      {{/* Find author page */}}
       {{ $authorPage := site.GetPage (printf "/autores/%s" $authorSlug) }}
-
       {{ if not $authorPage }}
-        {{/* 1) Try pages whose .Params.slug equals this slug */}}
         {{ $authorPage = where site.RegularPages "Params.slug" $authorSlug | first 1 }}
       {{ end }}
-
       {{ if not $authorPage }}
-        {{/* 2) Try pages whose filename (RelPermalink) contains the slug */}}
         {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
       {{ end }}
-
       {{ if not $authorPage }}
-        {{/* 3) Last resort: search by normalized title in authors: normalize each author's name and compare */}}
         {{ $cand := where site.RegularPages "Section" "autores" }}
         {{ range $cand }}
-          {{ $candidateName := .Params.name | default .Title | lower }}
+          {{ $candidateName := lower (.Params.name | default .Title) }}
           {{ $candidateName = replaceRE "[áàâäãåā]" "a" $candidateName }}
           {{ $candidateName = replaceRE "[éèêëē]" "e" $candidateName }}
           {{ $candidateName = replaceRE "[íìîïī]" "i" $candidateName }}
@@ -58,23 +51,26 @@
           {{ end }}
         {{ end }}
       {{ end }}
-          <div class="author-block">
-            <h3 class="author-name">
-              <a class="author-link" href="{{ (print "/autores/" $authorSlug) | relURL }}">
-                {{ $authorClean }}
-              </a>
-            </h3>
-          
-      {{ with $authorPage.Params.bio }}
-        <p class="author-bio">{{ . }}</p>
-      {{ end }}
 
-      {{ with $authorPage.Params.twitter_handle }}
-      <div class = twitter-handle> <a href="https://x.com/{{ . }}" target="_blank">@{{ . }}</a></div>
-      {{ end }}   
+      <div class="author-block">
+        <h3 class="author-name">
+          <a class="author-link" href="{{ (print "/autores/" $authorSlug) | relURL }}">
+            {{ $authorClean }}
+          </a>
+        </h3>
 
+        {{ with $authorPage.Params.bio }}
+          <p class="author-bio">{{ . }}</p>
+        {{ end }}
+
+        {{ with $authorPage.Params.twitter_handle }}
+          <div class="twitter-handle" data-pagefind-ignore>
+            <a href="https://x.com/{{ . }}" target="_blank">@{{ . }}</a>
+          </div>
+        {{ end }}
       </div>
-      {{ end }}
+
+    {{ end }}
       </div>
     {{ end }}
 
@@ -99,53 +95,106 @@
 
     {{ partial "share.html" . }}
 
+    {{ if and (isset .Params "thumbnail") (isset .Params "obra_reseñada") }}
+      <div class="title-obra-resenada" data-pagefind-ignore>
+        <h4>Obra reseñada</h4>
+      </div>
+      <div class="obra_reseñada" data-pagefind-ignore>
+        {{ with index .Params.thumbnail 0 }}
+          <div class="book-cover">
+            <img src="{{ relURL .src }}" alt="Featured Image"/>
+          </div>
+        {{ end }}
+        <div class="obra-text">{{ .Params.obra_reseñada | markdownify }}</div>
+      </div>
+    {{ end }}
 
-
-
-{{ if and (isset .Params "thumbnail") (isset .Params "obra_reseñada") }}
-<div class="title-obra-resenada">
-  <h4>Obra reseñada</h4>
-</div>
-
-<div class="obra_reseñada">
-  {{ with index .Params.thumbnail 0 }}
-    <div class="book-cover">
-      <img src="{{ relURL .src }}" alt="Featured Image"/>
-    </div>
-  {{ end }}
-
-  <div class="obra-text">{{ .Params.obra_reseñada | markdownify }}</div>
-</div>
-{{ end }}
-
-
-  {{ with .Params.publicado_originalmente_en }}
-<div class="title-obra-resenada">
-  <h4>Publicado originalmente en</h4>
-</div>
-
-<div class="publicado-originalmente-en">
-  {{ . | markdownify }}
-</div>
-{{ end }}
-
-</div>
-
-
+    {{ with .Params.publicado_originalmente_en }}
+      <div class="title-obra-resenada" data-pagefind-ignore>
+        <h4>Publicado originalmente en</h4>
+      </div>
+      <div class="publicado-originalmente-en" data-pagefind-ignore>
+        {{ . | markdownify }}
+      </div>
+    {{ end }}
 
     {{ with .Params.category }}
-      <p class="post-category">{{ . }}</p>
+      <p class="post-category" data-pagefind-ignore>{{ . }}</p>
     {{ end }}
-  </div>
+  </aside> <!-- /.article-sidebar -->
 
+  <div
+    class="article-content"
+    data-pagefind-body
+    data-pagefind-filter-category="{{ with .Params.category }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
 
-</div>
+    data-pagefind-filter-author="{{ with .Params.author }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
 
+  >
 
+    {{/* Load raw thumbnail param */}}
+      {{ $raw := .Params.thumbnail }}
+      {{ $thumb := dict }}
 
+      {{/* Case 1: it's a map */}}
+      {{ if reflect.IsMap $raw }}
+        {{ $thumb = $raw }}
 
-  <div class="article-content">
-    {{ .Content }}
+      {{/* Case 2: it's a slice → take the first element */}}
+      {{ else if reflect.IsSlice $raw }}
+        {{ $thumb = index $raw 0 }}
+
+      {{/* Case 3: it's a string */}}
+      {{ else if (or (eq (printf "%T" $raw) "string") (eq (printf "%T" $raw) "*string")) }}
+        {{ $thumb = dict "src" $raw }}
+      {{ end }}
+
+      {{/* If no src → render content normally */}}
+      {{ if not $thumb.src }}
+        {{ .Content | safeHTML }}
+      {{ else }}
+
+        {{/* Build HTML using Scratch */}}
+        {{- $.Scratch.Delete "thumbHTML" -}}
+        {{- $src := "" -}}
+
+        {{/* Resolve resource vs static path */}}
+        {{- with .Resources.GetMatch $thumb.src }}
+          {{- $src = .RelPermalink -}}
+        {{- else }}
+          {{- $src = ($thumb.src | relURL) -}}
+        {{- end }}
+
+        {{- $.Scratch.Set "thumbHTML" (printf "<figure class='thumbnail-insert'>") -}}
+        {{- $.Scratch.Add "thumbHTML" (printf "<img src='%s' alt=''>" $src) -}}
+
+        {{- if or $thumb.epigraph $thumb.copyright }}
+          {{- $.Scratch.Add "thumbHTML" "<figcaption>" -}}
+            {{- if $thumb.epigraph }}
+              {{- $.Scratch.Add "thumbHTML" (printf "<span class='epigraph'>%s</span>" $thumb.epigraph) -}}
+            {{- end }}
+            {{- if $thumb.copyright }}
+              {{- $.Scratch.Add "thumbHTML" (printf "<span class='copyright'>%s</span>" $thumb.copyright) -}}
+            {{- end }}
+          {{- $.Scratch.Add "thumbHTML" "</figcaption>" -}}
+        {{- end }}
+
+        {{- $.Scratch.Add "thumbHTML" "</figure>" -}}
+        {{ $thumbHTML := $.Scratch.Get "thumbHTML" }}
+
+        {{/* Insert after third </p> */}}
+        {{ $regex := `(?s)((?:.*?</p>){3})` }}
+        {{ $replacement := printf "${1}%s" $thumbHTML }}
+        {{ $content := .Content }}
+        {{ $new := replaceRE $regex $replacement $content 1 }}
+
+        {{ if ne $new $content }}
+          {{ $new | safeHTML }}
+        {{ else }}
+          {{ printf "%s\n%s" $content $thumbHTML | safeHTML }}
+        {{ end }}
+
+      {{ end }}
   </div>
 
 </main>
@@ -154,7 +203,7 @@
 {{ partial "info.html" . }}
 {{ partial "prev_next.html" . }}
 {{ partial "comments.html" . }}
+
 </article>
 
-
-{{ partial "footer.html" . }}
+{{ end }}

@@ -49,7 +49,9 @@ cleanDestinationDir = true
   remove_accents = true
 
 [outputs]
-  home = ["HTML", "JSON"]
+  home    = ["HTML", "JSON"]
+  page    = ["HTML", "JSON"]
+  section = ["HTML", "JSON"]
 
 [markup]
   [markup.goldmark]

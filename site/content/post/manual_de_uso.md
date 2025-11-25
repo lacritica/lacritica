@@ -40,6 +40,8 @@ Eso para la primera frase. Si se quiere poner la segunda hay que poner `1`, la t
 
 Sigue al espíritu de [Edward Tufte](https://en.wikipedia.org/wiki/Edward_Tufte). Básicamente, hace lo que dice: permite agregar notas al margen, un recurso que puede ser interesante de usar en el marco de una argumentación pero está pensado para visualización en pantallas grandes --- en teléfonos, lo que queremos es un gran flujo de texto que no sea interrumpido. En esos casos, la "buena práctica" para textos pensados para leerse en un teléfono es usar las tradicionales notas al pie [^1].
 
+Yo creo, que si es así, por qué no funciona. Debería meter a Hart, Dworkin, Fuller. ¿No? No debería, ¿acaso?
+
 [^1]: Así.  
 
 Pero habilitar la *marginalia* no está mal, y también resulta fácil de usar. {{< sidenote >}} Por ejemplo, precisamente aquí. Se pueden poner también [links](https://lacritica.ar/). {{< /sidenote >}} Simplemente es necesario usar ese `shortcode` justo después del lugar donde se quiere hacer la anotación. 

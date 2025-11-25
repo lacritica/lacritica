@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="search-page">
+
+  <h1>Buscar</h1>
+
+  <!-- Search box container -->
+  <div id="search"></div>
+
+  <!-- Pagefind UI script -->
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        // To add filters later:
+        filters: ["category", "author"],
+      });
+    });
+  </script>
+
+</div>
+{{ end }}
