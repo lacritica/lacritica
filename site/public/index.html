@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.152.2">
   <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -205,16 +205,6 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <li><div id="search-container">
-  <div id="search"></div>
-</div>
-<script src="/pagefind/pagefind-ui.js"></script>
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    new PagefindUI({ element: "#search" });
-  });
-</script></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
@@ -262,33 +252,7 @@ document.addEventListener("click", () => {
   }
 });
 
-      
-      const index = new FlexSearch.Document({
-        document: {
-          id: "url",
-          index: ["title", "content"],
-          store: ["title", "url"]
-        }
-      });
 
-      fetch("/index.json")
-        .then(res => res.json())
-        .then(data => data.forEach(page => index.add(page)));
-
-      
-      searchBox.addEventListener("input", async (e) => {
-        const query = e.target.value;
-        const results = await index.searchAsync(query, { enrich: true });
-
-        searchResults.innerHTML = "";
-        results.forEach(group => {
-          group.result.forEach(item => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-            searchResults.appendChild(li);
-          });
-        });
-      });
 
       
       const bar = document.querySelector(".taxonomy-bar");
@@ -1070,7 +1034,7 @@ document.addEventListener("click", () => {
     <span class="callout-author">Roberto Gargarella</span>
   
 
-  <span class="callout-title"><a href="http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/">Diez artículos que marcaron mi vida académica</a></span>
+  <span class="callout-title"><a href="https://www.lacritica.ar/post/diez-articulos-que-marcaron-mi-vida-academica/">Diez artículos que marcaron mi vida académica</a></span>
   <span class="callout-lacritica">La Crítica del Derecho</span>
 
   
@@ -1123,13 +1087,13 @@ document.addEventListener("click", () => {
 
       
       <h3 class="misc-title">
-        <a href="http://localhost:1313/post/la_carta_de_lectores/" class="misc-link">La carta de lectores</a>
+        <a href="https://www.lacritica.ar/post/la_carta_de_lectores/" class="misc-link">La carta de lectores</a>
       </h3>
 
       
       <div class="misc-author">
         
-          <a href="http://localhost:1313/post/la_carta_de_lectores/" class="misc-link">
+          <a href="https://www.lacritica.ar/post/la_carta_de_lectores/" class="misc-link">
             
   
     

@@ -1,0 +1,12 @@
+[
+{{- range $index, $page := .Pages -}}
+  {{- if $index }},{{ end -}}
+  {
+    "title": "{{ $page.Title }}",
+    "url": "{{ $page.Permalink }}",
+    "categories": {{ $page.Params.categories | jsonify }},
+    "author": {{ $page.Params.author | jsonify }},
+    "date": "{{ $page.Date }}"
+  }
+{{- end -}}
+]

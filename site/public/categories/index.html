@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -204,16 +204,6 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <li><div id="search-container">
-  <div id="search"></div>
-</div>
-<script src="/pagefind/pagefind-ui.js"></script>
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    new PagefindUI({ element: "#search" });
-  });
-</script></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
@@ -261,33 +251,7 @@ document.addEventListener("click", () => {
   }
 });
 
-      
-      const index = new FlexSearch.Document({
-        document: {
-          id: "url",
-          index: ["title", "content"],
-          store: ["title", "url"]
-        }
-      });
 
-      fetch("/index.json")
-        .then(res => res.json())
-        .then(data => data.forEach(page => index.add(page)));
-
-      
-      searchBox.addEventListener("input", async (e) => {
-        const query = e.target.value;
-        const results = await index.searchAsync(query, { enrich: true });
-
-        searchResults.innerHTML = "";
-        results.forEach(group => {
-          group.result.forEach(item => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-            searchResults.appendChild(li);
-          });
-        });
-      });
 
       
       const bar = document.querySelector(".taxonomy-bar");
@@ -333,11 +297,11 @@ document.addEventListener("click", () => {
 <h1>Categories</h1>
 <ul>
   
-  <li><a href="http://localhost:1313/categories/debates/">Debates (14)</a></li>
+  <li><a href="https://www.lacritica.ar/categories/debates/">Debates (14)</a></li>
   
-  <li><a href="http://localhost:1313/categories/ensayos/">Ensayos (6)</a></li>
+  <li><a href="https://www.lacritica.ar/categories/ensayos/">Ensayos (6)</a></li>
   
-  <li><a href="http://localhost:1313/categories/rese%C3%B1as/">Reseñas (5)</a></li>
+  <li><a href="https://www.lacritica.ar/categories/rese%C3%B1as/">Reseñas (5)</a></li>
   
 </ul>
 

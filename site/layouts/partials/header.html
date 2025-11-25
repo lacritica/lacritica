@@ -70,7 +70,7 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <li>{{ partial "search-menu.html" . }}</li>
+        <li><a href="/search/">buscar</a></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
@@ -118,33 +118,7 @@ document.addEventListener("click", () => {
   }
 });
 
-      // FlexSearch setup
-      const index = new FlexSearch.Document({
-        document: {
-          id: "url",
-          index: ["title", "content"],
-          store: ["title", "url"]
-        }
-      });
 
-      fetch("/index.json")
-        .then(res => res.json())
-        .then(data => data.forEach(page => index.add(page)));
-
-      // Search input listener
-      searchBox.addEventListener("input", async (e) => {
-        const query = e.target.value;
-        const results = await index.searchAsync(query, { enrich: true });
-
-        searchResults.innerHTML = "";
-        results.forEach(group => {
-          group.result.forEach(item => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-            searchResults.appendChild(li);
-          });
-        });
-      });
 
       // Scroll behavior for taxonomy bar
       const bar = document.querySelector(".taxonomy-bar");

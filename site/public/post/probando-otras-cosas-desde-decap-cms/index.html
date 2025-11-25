@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -204,16 +204,6 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <li><div id="search-container">
-  <div id="search"></div>
-</div>
-<script src="/pagefind/pagefind-ui.js"></script>
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    new PagefindUI({ element: "#search" });
-  });
-</script></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
@@ -261,33 +251,7 @@ document.addEventListener("click", () => {
   }
 });
 
-      
-      const index = new FlexSearch.Document({
-        document: {
-          id: "url",
-          index: ["title", "content"],
-          store: ["title", "url"]
-        }
-      });
 
-      fetch("/index.json")
-        .then(res => res.json())
-        .then(data => data.forEach(page => index.add(page)));
-
-      
-      searchBox.addEventListener("input", async (e) => {
-        const query = e.target.value;
-        const results = await index.searchAsync(query, { enrich: true });
-
-        searchResults.innerHTML = "";
-        results.forEach(group => {
-          group.result.forEach(item => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-            searchResults.appendChild(li);
-          });
-        });
-      });
 
       
       const bar = document.querySelector(".taxonomy-bar");
@@ -447,31 +411,31 @@ document.addEventListener("click", () => {
   <div class="share-buttons" data-pagefind-ignore>
 
     <a class="share-button" 
-       href="https://twitter.com/intent/tweet?text=Probando&#43;otras&#43;cosas%2C&#43;desde&#43;Decap&#43;CMS%0Apor&#43;Ramiro&#43;Alvarez&#43;Ugarte&#43;%28%40ramiroau%29%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
+       href="https://twitter.com/intent/tweet?text=Probando&#43;otras&#43;cosas%2C&#43;desde&#43;Decap&#43;CMS%0Apor&#43;Ramiro&#43;Alvarez&#43;Ugarte&#43;%28%40ramiroau%29%0Aen&#43;%40LaCriticaDD%0A%0Ahttps%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/twitter.svg" alt="Compartir en Twitter" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://bsky.app/intent/compose?text=Probando&#43;otras&#43;cosas%2C&#43;desde&#43;Decap&#43;CMS%0Apor&#43;Ramiro&#43;Alvarez&#43;Ugarte&#43;%28ramiroau.bsky.social%29%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
+       href="https://bsky.app/intent/compose?text=Probando&#43;otras&#43;cosas%2C&#43;desde&#43;Decap&#43;CMS%0Apor&#43;Ramiro&#43;Alvarez&#43;Ugarte&#43;%28ramiroau.bsky.social%29%0A%0Ahttps%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/bluesky.svg" alt="Compartir en Bluesky" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
+       href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/facebook.svg" alt="Compartir en Facebook" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
+       href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/linkedin.svg" alt="Compartir en LinkedIn" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://api.whatsapp.com/send?text=Probando&#43;otras&#43;cosas%2C&#43;desde&#43;Decap&#43;CMS%0Apor&#43;Ramiro&#43;Alvarez&#43;Ugarte&#43;%28%40ramiroau%29%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
+       href="https://api.whatsapp.com/send?text=Probando&#43;otras&#43;cosas%2C&#43;desde&#43;Decap&#43;CMS%0Apor&#43;Ramiro&#43;Alvarez&#43;Ugarte&#43;%28%40ramiroau%29%0Aen&#43;%40LaCriticaDD%0A%0Ahttps%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fprobando-otras-cosas-desde-decap-cms%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/whatsapp.svg" alt="Compartir en WhatsApp" data-pagefind-ignore>
     </a>

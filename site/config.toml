@@ -45,13 +45,19 @@ cleanDestinationDir = true
   post = "/:slug/"
   autores = "/autores/:slug/"
 
+[pagefind]
+filters = ["categories", "author"]
+
+
 [slug]
   remove_accents = true
 
 [outputs]
-  home    = ["HTML", "JSON"]
-  page    = ["HTML", "JSON"]
-  section = ["HTML", "JSON"]
+page = ["HTML", "JSON"]
+home = ["HTML", "JSON"]
+section = ["HTML", "JSON"]
+taxonomy = ["HTML", "JSON"]
+term = ["HTML", "JSON"]
 
 [markup]
   [markup.goldmark]

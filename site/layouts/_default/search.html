@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<h1>Búsqueda</h1>
+
+<div class="search-layout">
+
+  <!-- Sidebar for filters -->
+  <aside class="search-sidebar">
+    <h2>Filtros</h2>
+    <div id="search-filters"></div>
+  </aside>
+
+  <!-- Pagefind results and search box -->
+  <div class="search-main">
+    <div id="search"></div>
+  </div>
+
+</div>
+
+<!-- Pagefind assets -->
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<script>
+  new PagefindUI({
+    element: "#search",
+    filters: {
+      // Tell Pagefind where to render the filters UI
+      container: "#search-filters"
+    },
+    showSubResults: true,
+    autofocus: true
+  });
+</script>
+
+{{ end }}

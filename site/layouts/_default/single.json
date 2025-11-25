@@ -1,0 +1,10 @@
+
+{
+  "title": "{{ .Title | plainify }}",
+  "url": "{{ .Permalink }}",
+  "categories": {{ .Params.categories | jsonify }},
+  "author": {{ .Params.author | jsonify }},
+  "content": {{ .Summary | plainify | jsonify }}
+}
+
+

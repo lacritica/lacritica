@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -26,7 +26,7 @@
 
   </head>
 
-  <body>
+  <body class="page">
     <header class="header">
       <div class="banner">
         <a href="/" class="logo-link">
@@ -204,16 +204,6 @@
     <nav id="menu" class="hidden">
       <button id="menu-close" aria-label="Close menu">✕</button>
       <ul>
-        <li><div id="search-container">
-  <div id="search"></div>
-</div>
-<script src="/pagefind/pagefind-ui.js"></script>
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    new PagefindUI({ element: "#search" });
-  });
-</script></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
@@ -261,33 +251,7 @@ document.addEventListener("click", () => {
   }
 });
 
-      
-      const index = new FlexSearch.Document({
-        document: {
-          id: "url",
-          index: ["title", "content"],
-          store: ["title", "url"]
-        }
-      });
 
-      fetch("/index.json")
-        .then(res => res.json())
-        .then(data => data.forEach(page => index.add(page)));
-
-      
-      searchBox.addEventListener("input", async (e) => {
-        const query = e.target.value;
-        const results = await index.searchAsync(query, { enrich: true });
-
-        searchResults.innerHTML = "";
-        results.forEach(group => {
-          group.result.forEach(item => {
-            const li = document.createElement("li");
-            li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
-            searchResults.appendChild(li);
-          });
-        });
-      });
 
       
       const bar = document.querySelector(".taxonomy-bar");
@@ -330,29 +294,40 @@ document.addEventListener("click", () => {
 
   <main id="content" class="content">
     
-<div class="search-page">
 
-  <h1>Buscar</h1>
+<h1>Búsqueda</h1>
 
-  
-  <div id="search"></div>
+<div class="search-layout">
 
   
-  <script src="/pagefind/pagefind-ui.js"></script>
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <aside class="search-sidebar">
+    <h2>Filtros</h2>
+    <div id="search-filters"></div>
+  </aside>
 
-  <script>
-    window.addEventListener('DOMContentLoaded', () => {
-      new PagefindUI({
-        element: "#search",
-        showSubResults: true,
-        
-        filters: ["category", "author"],
-      });
-    });
-  </script>
+  
+  <div class="search-main">
+    <div id="search"></div>
+  </div>
 
 </div>
+
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<script>
+  new PagefindUI({
+    element: "#search",
+    filters: {
+      
+      container: "#search-filters"
+    },
+    showSubResults: true,
+    autofocus: true
+  });
+</script>
+
 
   </main>
 
