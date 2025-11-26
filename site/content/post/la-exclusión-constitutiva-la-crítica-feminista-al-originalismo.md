@@ -19,7 +19,7 @@ En este breve ensayo intentaré hacer inteligible una intuición a la que llamo 
 
 El feminismo rechaza la devoción por un pasado en el que de forma explícita y motivada se proscribió a las mujeres (e indígenas) del mundo público, tal, el pasado constituyente de mediados del siglo XIX. ¿Qué parte de este rechazo no es asequible? 
 
-El feminismo no encuentra motivo para aplaudir a Alberdi, cuando éste niega la necesidad de educar a las mujeres, porque ellas están para “hermosear la soledad fecunda del hogar”[^1]; ni tampoco ve razones para venerar a los constituyentes, disimulando que ellos decidieron excluir a más de la mitad de la población de la ciudadanía pública, iniciando así casi un siglo de construcción institucional signada por la proscripción sexual. En fin, ¿qué es tan difícil de entender de este no querer reconocer autoridad normativa a una perspectivas misógina y racista de “lo” constitucional? 
+El feminismo no encuentra motivo para aplaudir a Alberdi, cuando éste niega la necesidad de educar a las mujeres, porque ellas están para “hermosear la soledad fecunda del hogar”[^1]; ni tampoco ve razones para venerar a los constituyentes, disimulando que ellos decidieron excluir a más de la mitad de la población de la ciudadanía pública, iniciando así casi un siglo de construcción institucional signada por la proscripción sexual y racial. En fin, ¿qué es tan difícil de entender de este no querer reconocer autoridad normativa a una perspectivas misógina y racista de “lo” constitucional? 
 
 **El planteo originalista**
 
