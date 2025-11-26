@@ -11,6 +11,7 @@ thumbnail:
     epigraph: "Edward Tufte"
     copyright: 
 highlight: true
+featured_callout: 0
 callouts:
   - Los destacados se arman rápidamente, sirven para que nos vean, para compartir. No abusaría de ellos, con uno ---creo--- alcanza. 
 ---

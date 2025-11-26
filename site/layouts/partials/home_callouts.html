@@ -50,9 +50,14 @@
   {{ $month := index $months (.Date.Format "1") }}
   {{ $year := .Date.Format "2006" }}
 
-  <span class="callout-date">{{ $day }} de {{ $month }} de {{ $year }}</span>
+  <span class="c
+
+  allout-date">{{ $day }} de {{ $month }} de {{ $year }}</span>
 </div>
 
+  <div class= "close-quote">
+          <img src="{{ "img/close_quote.svg" | relURL }}" alt="Twitter logo">
+        </div>
 
 
 
