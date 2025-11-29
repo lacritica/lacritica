@@ -8,6 +8,8 @@ categories:
   - ensayos
 author:
   - Mariela Puga
+thumbnail:
+  - src: /img/4-4-18-3-.jpeg
 highlight: false
 highlight2: false
 ---
