@@ -104,13 +104,6 @@ body {
 }
 
 /* Titles and headers */
-h1, h2, h3, h4, h5, h6,
-.banner, .article-list h1, .title {
-  font-family: 'Jost', Georgia, serif !important;
-  font-weight: 700;
-  letter-spacing: 0.01em;
-  color: #000;
-}
 
 /* === FIRST ROW === */
 
@@ -1028,7 +1021,7 @@ span.sidenote small {
 
 /* cover stays on the left */
 #content .book-cover img {
-  max-width: 100px;      /* fixed size keeps layout stable */
+  max-width: 125px;      /* fixed size keeps layout stable */
   height: auto;
   box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3);
 }
@@ -1601,7 +1594,13 @@ span.sidenote small {
   white-space: nowrap;
 }
 
-.author-page a,
+.author-page a {
+  font-weight: 400;
+  text-decoration: underline;
+  color: var(--neutral-600);
+}
+
+
 .author a,
 .article-list a[href*="/authors/"] {
   color: inherit;
@@ -1831,7 +1830,7 @@ span.sidenote small {
 }
 
 /* --- Taxonomy grid styling (non-magenta) --- */
-.taxonomy-content .taxonomy-grid {
+.taxonomy-grid {
   /* choose a neutral background or inherit from taxonomy layout */
   background-color: transparent; /* or var(--base-bg) if you prefer */
   display: grid;
@@ -1854,7 +1853,6 @@ span.sidenote small {
 
 }
 
-
 .taxonomy-grid .grid-thumbnail img {
   display: block;
   object-fit: cover;      /* crop the excess */
@@ -1871,6 +1869,101 @@ span.sidenote small {
   line-height: 1.4;
   color: #494746;
 }
+
+/* --- For reseñas --- */
+/* --- For reseñas --- */
+
+/* Outer grid: 3 columns */
+.taxonomy-grid-rese {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gutter);
+  margin-top: 1rem;
+  padding-bottom: 3rem;
+  box-sizing: border-box;
+}
+
+/* Each article becomes a flexbox: text left, image right */
+.article-taxonomy-rese {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+
+/* Right column: the image */
+.grid-thumbnail-rese {
+  flex: 0 0 30%;          /* image takes 45% of the article width */
+  aspect-ratio: 2 / 3;    /* vertical book cover */
+  overflow: hidden;
+  margin-left: auto;
+  display: block;
+}
+
+.grid-thumbnail-rese img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Left side: text column */
+.article-taxonomy-rese h1,
+.article-taxonomy-rese .author,
+.article-taxonomy-rese .summary,
+.article-taxonomy-rese .date {
+  flex: 1 1 auto;
+}
+
+
+.taxonomy-grid-rese .article-taxonomy-rese a {
+  text-decoration: none;
+  font-family: 'Jost';
+  hover: none;
+  color: var(--base-bg);
+}
+
+.taxonomy-grid-rese .article-taxonomy-rese h1 {
+  font-family: 'Jost';
+  width: 100%;
+  max-width: 400px;
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.taxonomy-grid-rese .article-taxonomy-rese h1:hover {
+  color: var(--base-bg); /* pick the color you want */
+  cursor: pointer;
+}
+
+.taxonomy-grid-rese .article-taxonomy-rese .author {
+  width: 100%;
+  max-width: 400px;
+  line-height: 1.4;
+}
+
+.taxonomy-grid-rese .article-taxonomy-rese .summary  {
+  width: 100%;
+  max-width: 400px;
+  line-height: 1.4;
+  color: var(--base-bg);
+}
+
+.taxonomy-grid-rese .article-taxonomy-rese .date  {
+ color: var(--base-bg);
+}
+
+/* reseñas*/
+
+.taxonomy-content .taxonomy-grid-rese.secondary-grid-rese {
+  background-color: transparent !important; /* override the homepage magenta */
+}
+
+/* --- For reseñas --- */
+/* --- For reseñas --- */
 
 /* If you used the additive class (taxonomy-grid secondary-grid), override the magenta */
 .taxonomy-content .taxonomy-grid.secondary-grid {
@@ -1949,6 +2042,13 @@ span.sidenote small {
     padding-right: 1rem;
   }
 
+  .taxonomy-layout[data-term="rese%C3%B1as"] {
+    grid-template-columns: 1fr; /* full width */
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
     /* Hide menu */
   .taxonomy-menu {
     display: none;
@@ -1957,6 +2057,16 @@ span.sidenote small {
   .taxonomy-grid.secondary-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .taxonomy-grid-rese.secondary-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+  .taxonomy-grid-rese h1 {
+  margin-top: 0rem;
+}
+
   .taxonomy-grid h1 {
   margin-top: 0rem;
 }
@@ -1974,12 +2084,23 @@ span.sidenote small {
   width: 100%;
   height: auto;
 }
+
+.taxonomy-grid-rese .grid-thumbnail-rese {
+  display: none !important;
+
+}
+
+.taxonomy-grid-rese .grid-thumbnail-rese img {
+  width: 100%;
+  height: auto;
+
+}
 }
 
 /* --- Mobile responsive --- */
 @media screen and (max-width: 500px) {
 
-    .taxonomy-layout {
+    .taxonomy-layout .taxonomy-content {
     grid-template-columns: 1fr; /* full width */
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1989,6 +2110,16 @@ span.sidenote small {
   .taxonomy-menu {
     display: none;
   }
+
+.taxonomy-grid-rese.secondary-grid-rese {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.taxonomy-grid-rese .article-taxonomy-rese {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  gap: 1rem;              /* space between thumbnail and text */
+}
 
   .taxonomy-grid.secondary-grid {
     grid-template-columns: repeat(1, 1fr);
@@ -2227,7 +2358,6 @@ span.sidenote small {
 
 /* dathe, author */
 
-
 .date {
   font-size: 0.8rem;       /* smaller font size */
   font-family: 'Jost', Georgia, serif;
@@ -2339,8 +2469,6 @@ span.sidenote small {
 
 /* footer */ 
 
-
-
 /* --- Custom hover style for post titles --- */
 .article-list h1 a {
   font-size: 0.9em;
@@ -2369,8 +2497,6 @@ span.sidenote small {
     color: #999;
     margin-top: 0.3rem;
 }
-
-
 
 .menu, .article-meta, footer, .post-nav { text-align: center; }
 

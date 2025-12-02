@@ -3,40 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-11-26T02:09:10+00:00</lastmod>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2025-11-26T02:09:10+00:00</lastmod>
+    <loc>http://localhost:1313/post/una-ley/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-11-26T02:09:10+00:00</lastmod>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-11-26T02:09:10+00:00</lastmod>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/prueba-de-produccion/</loc>
-    <lastmod>2025-11-26T02:09:10+00:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2025-11-25T20:50:22+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</loc>
     <lastmod>2025-11-25T20:50:22+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/un-testeo-del-nuevo-coso/</loc>
-    <lastmod>2025-11-22T13:33:14+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/la_carta_de_lectores/</loc>
     <lastmod>2025-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/manual_de_uso/</loc>
-    <lastmod>2025-11-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/c%C3%B3mo-puede-ser-que-siga-jugando-borja/</loc>
-    <lastmod>2025-11-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
@@ -44,31 +41,13 @@
     <loc>http://localhost:1313/post/paissincontratos/</loc>
     <lastmod>2025-11-17T23:27:39+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2025-11-17T23:27:39+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/probando/</loc>
-    <lastmod>2025-11-17T18:07:11+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/events/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/super-conferencia-icon-2026/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resenas/gran-libro-de-ranciere/</loc>
-    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/resenas/</loc>
-    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-11-17T16:59:12+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/events/event2/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/resenas/hla/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/event1/</loc>
@@ -95,53 +74,11 @@
     <loc>http://localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/probando-otras-cosas-desde-decap-cms/</loc>
-    <lastmod>2025-11-08T17:41:02+00:00</lastmod>
+    <loc>http://localhost:1313/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/prueba-desde-el-cms/</loc>
-    <lastmod>2025-11-08T15:17:48+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/prueba-destacado/</loc>
-    <lastmod>2025-11-06T14:27:22+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-10/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-11/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-2/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-3/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-4/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-5/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-6/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-7/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-8/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy-9/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2-copy/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test2/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/test1/</loc>
-    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
@@ -154,8 +91,6 @@
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/patricio_nazareno/</loc>
   </url><url>
     <loc>http://localhost:1313/quienes_somos/</loc>
   </url><url>

@@ -1,4 +1,4 @@
-{{ $secondaryPosts := first 3 (after 4 (where (where .Site.RegularPages.ByDate.Reverse "Section" "post") "Params.highlight" "ne" true)) }}
+{{ $secondaryPosts := first 3 (after 5 (where (where .Site.RegularPages.ByDate.Reverse "Section" "post") "Params.highlight" "ne" true)) }}
 
 <section class="secondary-grid">
   {{ range $index, $post := $secondaryPosts }}

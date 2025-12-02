@@ -1,8 +1,8 @@
 ---
 title: Gustavo Arballo
-twitter_handle: GustArballo
-bio: Profesor de derecho constitucional en la Universidad Nacional de la Pampa. Escribe sobre libertad de expresión y derecho público.
-thumbnail: img/g_arballo.png
+twitter_handle: gustarballo
+bio: Doctor en Derecho (UN Cordoba). Profesor Derecho Público Provincial y Municipal (UNLPam)
+thumbnail: /img/gustavo_arballo.jpg
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Abogado (UN La Plata), Doctor en Derecho (UN Córdoba), ejerzo el derecho "en función judicial". NyCyR en Santa Rosa, La Pampa. Autor y partícipe de publicaciones técnicas y de divulgación en temas de federalismo, magistratura y derecho público, escribí varios años "Saber Leyes no es Saber Derecho" ([blog](http://www.saberderecho.com/)) y el libro "Brevísimo Curso de Derecho para no Abogados" (Siglo XXI, 2022). *Expressio unius non est exclusio alterius*.

@@ -1,0 +1,323 @@
+<div class="pirulo-row">
+
+  <div class="pirulo-header">
+    <div class="pirulo-prev"></div>
+    <h2 class="pirulo-title">cosas que pasan</h2>
+    <div class="pirulo-next"></div>
+  </div>
+
+  {{ $all := where .Site.Pages "File" "ne" nil }}
+  {{ $pirulo := shuffle (where $all "File.Dir" "==" "pirulo/") }}
+
+  {{ if gt (len $pirulo) 0 }}
+    <div class="swiper pirulo-swiper">
+      <div class="swiper-wrapper">
+        {{ range $pirulo }}
+
+          <div class="swiper-slide">
+              <div class="pirulo-card">
+                <div class="pirulo-info">
+                  
+                  {{ with .Params.type_of_pirulo }}
+                    <p class="pirulo-type">{{ . }}</p>
+                  {{ end }}
+
+                  <h5>{{ .Title }}</h5>
+
+                  {{ with .Params.description }}
+                    <p class="pirulo-description">{{ . }}</p>
+                  {{ end }}
+
+                  {{ with .Params.date_of_pirulo }}
+                    {{ $months := dict
+                      "January" "enero" "February" "febrero" "March" "marzo"
+                      "April" "abril" "May" "mayo" "June" "junio"
+                      "July" "julio" "August" "agosto" "September" "septiembre"
+                      "October" "octubre" "November" "noviembre" "December" "diciembre"
+                    }}
+
+                    {{ $d := time . }}
+                    {{ $month := index $months ($d.Format "January") }}
+
+                    <p class="pirulo-date">
+                    <img src="{{ "img/calendar.svg" | relURL }}" alt="Lugar" width="16" height="16" style="margin-right:4px;">
+                    {{ $d.Day }} de {{ $month }} de {{ $d.Year }}</p>
+                  {{ end }}
+
+                  {{ with .Params.date_of_doc }}
+                    <p class="date-of-doc">
+                    {{ . }}</p>
+                  {{ end }}
+
+                  {{ with .Params.pdf }}
+                    <p class="pdf">
+                      <img src="{{ "img/file-text.svg" | relURL }}" alt="Archivo" width="16" height="16" style="margin-right:4px;">
+                      <a href="{{ . | relURL }}" target="_blank">Documento (pdf)</a>
+                    </p>
+                  {{ end }}
+
+                  {{ with .Params.place }}
+                    <p class="pirulo-place">
+                    <img src="{{ "img/map-pin.svg" | relURL }}" alt="Lugar" width="16" height="16" style="margin-right:4px;">
+                    {{ . }}</p>
+                  {{ end }}
+
+                  {{ with .Params.more_info }}
+                    <p class="pirulo-more-info">
+                      <a href="{{ . }}" target="_blank" rel="noopener">+ información</a>
+                    </p>
+                  {{ end }}
+                </div>
+              </div>
+          </div>
+
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+</div>
+
+
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script>
+document.addpiruloListener("DOMContentLoaded", function () {
+  new Swiper(".pirulo-swiper", {
+    loop: true,
+    spaceBetween: 24,
+    navigation: {
+      // PASS SELECTOR STRINGS, NOT ELEMENTS
+      nextEl: ".pirulo-next",
+      prevEl: ".pirulo-prev",
+    },
+    grabCursor: true,
+    autoplay: false,
+    breakpoints: {
+      0:    { slidesPerView: 1 },
+      480:  { slidesPerView: 1.2 },
+      640:  { slidesPerView: 2 },
+      768:  { slidesPerView: 2.5 },
+      1024: { slidesPerView: 5 },
+      1280: { slidesPerView: 6 },
+      1536: { slidesPerView: 7 },
+    },
+  });
+});
+
+</script>
+
+<style>
+.pirulo-row {
+  margin-top: 2rem;
+  background-color: var(--accent-blue);
+  padding: 2rem 1rem 4rem;
+  overflow: hidden;
+}
+
+/* ---- HEADER IDENTICAL TO AUTHORS HEADER ---- */
+.pirulo-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers title */
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pirulo-title {
+  color: var(--base-bg);
+  font-size: clamp(1.4rem, 2vw, 1.8rem);
+  font-weight: 600;
+  margin: 0;
+}
+
+/* ---- ARROWS ---- */
+.pirulo-prev,
+.pirulo-next {
+  width: 36px;
+  height: 36px;
+  color: var(--base-bg);
+  border: 2px solid var(--base-bg);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pirulo-prev:hover,
+.pirulo-next:hover {
+  background-color: var(--base-bg);
+  color: var(--forest-green);
+}
+
+/* arrow icons */
+.pirulo-prev::after {
+  content: "‹";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pirulo-next::after {
+  content: "›";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* pirulo CARDS */
+.pirulo-card {
+  background: var(--base-bg);
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: left;
+  transition: transform .2s ease;
+}
+
+.pirulo-card h4 {
+  margin-bottom: 0rem;
+  font-size: 1rem;
+  line-height: 0;
+}
+
+.pirulo-card h5 {
+  font-family: 'Jost';
+  font-weight: 700;
+  font-size: 0.83rem;
+  letter-spacing: 0.01rem;
+  margin-bottom: 0;
+  line-height: 1;
+}
+
+.pirulo-type {
+    margin: 0 0 0.25rem 0;
+
+  font-family: 'Jost';
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.pirulo-description {
+  margin-bottom: 1rem;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+
+.pirulo-date {
+  display: flex;
+  align-items: center;   /* baseline also works */
+  gap: 0.25rem;
+
+  margin: 0 0 0.25rem 0;
+  font-family: 'Jost';
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  /* remove these — they cause misalignment */
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.date-of-doc {
+  margin: 0 0 0.25rem 0;
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: var(--neutral-500);
+  gap: 0.25rem; /* if you include an SVG icon */
+
+}
+
+.pdf {
+  display: flex;
+  align-items: center;   /* baseline also works */
+  gap: 0.25rem;
+
+  margin: 0 0 0.25rem 0;
+  font-family: 'Jost';
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  /* remove these — they cause misalignment */
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.pdf a {
+  color: inherit;        /* Uses parent color → not blue */
+  font-size: 0.8rem;
+  text-decoration: none; /* Removes underline */
+  font-weight: 500;      /* Optional: nicer weight */
+}
+
+.pdf a:hover {
+  text-decoration: underline; /* Optional hover effect */
+}
+
+.pirulo-place {
+  display: flex;
+  align-items: center;   /* baseline also works */
+  gap: 0.25rem;
+
+  margin: 0 0 0.25rem 0;
+  font-family: 'Jost';
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  /* remove these — they cause misalignment */
+  padding-left: 0;
+  text-indent: 0;
+}
+
+.pirulo-more-info a {
+  letter-spacing: 0.01rem;
+  margin-bottom: 0;
+  line-height: 1;
+  letter-spacing: 0.01rem;
+  text-decoration: none;
+  color: var(--neutral-800);
+  font-size: 0.8rem;
+  padding-left: 1.5rem;
+  text-indent: -1.5em;
+}
+
+.pirulo-card:hover {
+  transform: translateY(-4px);
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .pirulo-row {
+    padding: 1.5rem 0.5rem 3rem;
+  }
+
+  .pirulo-card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .pirulo-title {
+    font-size: 1.2rem;
+  }
+
+  .pirulo-prev,
+  .pirulo-next {
+    width: 28px;
+    height: 28px;
+  }
+}
+</style>
