@@ -128,9 +128,14 @@
     data-pagefind-body
     data-pagefind-filter-category="{{ with .Params.category }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
     data-pagefind-filter-author="{{ with .Params.author }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
-  >
+      >
+    {{/* If exclude_thumbnail_from_body is TRUE → do not insert thumbnail */}}
+    {{ if .Params.exclude_thumbnail_from_body }}
+      {{ .Content | safeHTML }}
 
-    {{/* Load raw thumbnail param */}}
+    {{ else }}
+
+      {{/* Load raw thumbnail param */}}
       {{ $raw := .Params.thumbnail }}
       {{ $thumb := dict }}
 
@@ -193,14 +198,20 @@
         {{ end }}
 
       {{ end }}
+
+    {{ end }}
+
   </div>
+
 
 </main>
 
+<!--
 {{ partial "author.html" . }}
 {{ partial "info.html" . }}
 {{ partial "prev_next.html" . }}
 {{ partial "comments.html" . }}
+-->
 
 </article>
 

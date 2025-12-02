@@ -18,6 +18,7 @@
   --accent-beige: #d6b896;
   --neutral-beige: #ebd9c7;
   --blockquote-color: #E5DFD2; 
+  --mustard: #a1a63f;
 
   /* Supporting neutrals */
   --neutral-100: #FAFAFA;
@@ -112,6 +113,7 @@ body {
 /* main container already uses var(--gutter) and max-width */
 
 .hero-grid {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   gap: var(--gutter);
@@ -227,14 +229,13 @@ body {
 .secondary-grid > * { position: relative; z-index: 1}
 }
 
-
 .hero-feature {
   background: #f9f9f9;
   padding: var(--gutter);
   margin-left: -1rem;
   border-right: 1px solid var(--divider-color, #ccc);
   border-left: 1px solid var(--divider-color, #ccc);
-  line-height: 30px;
+  line-height: 80px;
 }
 
 .featured-content h1 {
@@ -247,6 +248,13 @@ body {
   margin-top: -0.5rem;
   margin-bottom: .7rem;
   text-transform: uppercase;
+}
+
+.featured-thumbnail {
+  margin-top: -0.5rem;
+  width: 100%;
+  margin-left: 0rem;
+  max-width: none;
 }
 
 .featured-thumbnail img {
@@ -289,21 +297,24 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1000px;
   width: 100%;
-  gap: 6rem;
+  gap: 2rem;
 }
 
 
 .home-featured-left {
-  flex: 0 0 70%; /* width: 60% */
+  flex: 0 0 10%; /* width: 60% */
+}
+
+.home-featured-center {
+  flex: 0 0 50%; /* width: 60% */
 }
 
 /* --- RIGHT COLUMN WRAPPER --- */
 .home-featured-right {
   flex: 0 0 30%;
-
-    background: linear-gradient(
+  background: linear-gradient(
     to bottom,
     transparent 50%,
     transparent 50%,
@@ -312,12 +323,15 @@ body {
   );
   /* compact but comfortable padding */
   padding: 1.2rem;
-
   display: flex;
   flex-direction: column;
   gap: 1rem;              /* spacing between posts */
   align-items: flex-start;
   box-sizing: border-box;
+}
+
+.home-featured-right h3 {
+ font-family: 'Jost';
 }
 
 /* --- POST LIST --- */
@@ -382,7 +396,7 @@ body {
 
 /* Stack on mobile */
 
-.home-featured-left .home-callouts {
+.home-featured-center .home-callouts {
   position: relative;
   padding: 1rem;
   width: 100%;
@@ -391,15 +405,15 @@ body {
 
 .home-callout {
   background: var(--neutral-pale-blue);
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
   margin-bottom: 2rem;
   color: white;
 }
 
 .home-callout .callout-text {
-  margin-top: 1rem;
-  font-size: 2rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
   line-height: 1.1;
   text-align: left !important;
 }
@@ -414,27 +428,41 @@ body {
 }
 
 .home-callout .callout-title a:hover {
-  background-color: var(--forest-green); 
+  background-color: var(--forest-green);
 }
 
+/* Callout meta: inline flow */
 .home-callout .callout-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: .3rem;
+  display: block;        /* flow naturally */
+  font-size: 0.9rem;
+  margin-left: 4rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
   opacity: 0.8;
+  padding: 0;             /* remove inherited padding */
+  text-align: left !important;
 }
 
-.home-callout span {
-  display: inline-block;
-}
 
-.callout-meta {
-  margin-top: 0rem;
-}
-
-.callout-meta span:not(:last-child)::after {
+.home-callout .callout-meta span::after {
   content: ", ";
 }
+
+.home-callout .callout-meta span:last-child::after {
+  content: ""; /* remove comma for last item */
+}
+
+.pirulo-card {
+    text-decoration: none; /* remove underline from the link */
+    color: inherit;        /* optional: make link text inherit color */
+    cursor: pointer;       /* normal cursor instead of pointer, if desired */
+}
+
+.pirulo-card:hover {
+    text-decoration: none; /* prevent underline on hover */
+    color: inherit;        /* optional */
+}
+
 
 .open-quote,
 .close-quote {
@@ -461,10 +489,30 @@ body {
   align-items: right;
 }
 
+
+
 /* Stack on mobile */
 /* -------------------------------------------- */
 /* MOBILE RESPONSIVE BREAKPOINT */
 /* -------------------------------------------- */
+@media (max-width: 1070px) {
+  .home-featured-container { /* parent container */
+    display: flex;
+    flex-direction: column; /* stack children vertically */
+    align-items: center;    /* center children horizontally */
+    gap: 1rem;              /* optional spacing between items */
+  }
+
+  .home-featured-center,
+  .home-featured-left,
+  .home-featured-right {
+    flex: 0 0 100%; /* full width */
+    width: 100%;
+    max-width: 600px; /* optional: limit width on mobile */
+    text-align: center; /* center text inside each box */
+  }
+}
+
 
 @media (max-width: 768px) {
 
@@ -476,6 +524,7 @@ body {
   }
 
   .home-featured-left,
+  .home-featured-center,
   .home-featured-right {
     flex: 0 0 100%;
     width: 100%;
@@ -618,7 +667,7 @@ span.sidenote small {
 
 .hero-column h1 {
   margin-bottom: .5rem;
-  font-size: 1.2rem; /* era 1.3 */
+  font-size: 1.4rem; /* era 1.3 */
   font-family: 'Jost', Georgia, serif !important;
   font-weight: 600;
   color: var(--neutral-800);
@@ -961,9 +1010,11 @@ span.sidenote small {
 }
 
 #content .article-layout .article-sidebar h1 {
+  font-family: 'Jost';
   font-size: 2.2rem;
   margin-bottom: 3rem;
   letter-spacing: -0.032em;
+  line-height: 3.2rem;
 }
 
 
@@ -1059,6 +1110,7 @@ span.sidenote small {
 }
 
 #content .article-content h1 {
+  font-family: 'Jost';
   font-size: 1.8rem;
 }
 
@@ -1429,6 +1481,10 @@ span.sidenote small {
 }
 
 
+.secondary-grid .categories {
+  margin-top: 1rem;
+}
+
 .taxonomy-content .article-taxonomy h1 a,
 .secondary-grid .author-name,
 .secondary-grid .summary,
@@ -1552,7 +1608,7 @@ span.sidenote small {
 }
 
 .author-info p {
-  font-size: 1em;
+  font-size: 1.2rem;
   color: #333;
   margin: 0;
 }
@@ -1870,94 +1926,6 @@ span.sidenote small {
   color: #494746;
 }
 
-/* --- For reseñas --- */
-/* --- For reseñas --- */
-
-/* Outer grid: 3 columns */
-.taxonomy-grid-rese {
-  background-color: transparent;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--gutter);
-  margin-top: 1rem;
-  padding-bottom: 3rem;
-  box-sizing: border-box;
-}
-
-/* Each article becomes a flexbox: text left, image right */
-.article-taxonomy-rese {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-
-/* Right column: the image */
-.grid-thumbnail-rese {
-  flex: 0 0 30%;          /* image takes 45% of the article width */
-  aspect-ratio: 2 / 3;    /* vertical book cover */
-  overflow: hidden;
-  margin-left: auto;
-  display: block;
-}
-
-.grid-thumbnail-rese img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-
-/* Left side: text column */
-.article-taxonomy-rese h1,
-.article-taxonomy-rese .author,
-.article-taxonomy-rese .summary,
-.article-taxonomy-rese .date {
-  flex: 1 1 auto;
-}
-
-
-.taxonomy-grid-rese .article-taxonomy-rese a {
-  text-decoration: none;
-  font-family: 'Jost';
-  hover: none;
-  color: var(--base-bg);
-}
-
-.taxonomy-grid-rese .article-taxonomy-rese h1 {
-  font-family: 'Jost';
-  width: 100%;
-  max-width: 400px;
-  font-size: 1.6rem;
-  line-height: 1.4;
-}
-
-.taxonomy-grid-rese .article-taxonomy-rese h1:hover {
-  color: var(--base-bg); /* pick the color you want */
-  cursor: pointer;
-}
-
-.taxonomy-grid-rese .article-taxonomy-rese .author {
-  width: 100%;
-  max-width: 400px;
-  line-height: 1.4;
-}
-
-.taxonomy-grid-rese .article-taxonomy-rese .summary  {
-  width: 100%;
-  max-width: 400px;
-  line-height: 1.4;
-  color: var(--base-bg);
-}
-
-.taxonomy-grid-rese .article-taxonomy-rese .date  {
- color: var(--base-bg);
-}
-
-/* reseñas*/
-
 .taxonomy-content .taxonomy-grid-rese.secondary-grid-rese {
   background-color: transparent !important; /* override the homepage magenta */
 }
@@ -2204,12 +2172,19 @@ span.sidenote small {
 
 /* --- Author card components --- */
 
+.article-layout-authors .article-sidebar h1 {
+  font-family: 'Jost';
+}
+
 .author-card-link {
   text-decoration: none;
   color: inherit;
   display: block;
 }
+.author-card h4 {
+  font-family: 'Jost';
 
+} 
 .author-card {
   background: var(--base-bg);
   cursor: pointer;
@@ -2265,6 +2240,7 @@ span.sidenote small {
 }
 
 .footer-text {
+  margin-left: -3rem;
   text-align: center;
   color: var(--base-bg);
 }
@@ -2281,7 +2257,7 @@ span.sidenote small {
 @media (max-width: 600px) {
   .footer-social {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  /* 2 columns */
+    grid-template-columns: repeat(1, 1fr);  /* 2 columns */
     grid-auto-rows: auto;                   /* rows grow naturally */
     width: 100%;
     gap: 2rem;                               /* spacing between icons */

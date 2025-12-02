@@ -5,13 +5,7 @@ description: Alguien tenía que hacerlo. Algunas razones para alzar la voz y com
 categories:
   - debates
 author:
-  - Sebastián Guidi
-  - Roberto Gargarella
-  - Gustavo Maurino
-  - Mariela Puga
-  - Gustavo Arballo
-  - Agustina Ramon Michel
-  - Ramiro Álvarez Ugarte
+exclude_thumbnail_from_body: true
 thumbnail:
   - src: "/img/system_failure.png"
     epigraph: "Kerala, 2013"

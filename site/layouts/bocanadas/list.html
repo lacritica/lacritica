@@ -1,0 +1,154 @@
+{{ partial "header.html" . }}
+
+<div class="list-of-pirulos">
+  <article>
+
+    <main class="article-layout-pirulos">
+
+      <!-- LEFT COLUMN (Sidebar) -->
+      <div class="article-sidebar-pirulos">
+        <h1 class="pirulos-title">{{ .Title }}</h1>
+      </div>
+
+      <!-- RIGHT COLUMN (Main Content) -->
+
+        {{ range .Pages }}
+<article class="pirulos-item">
+
+  <a href="{{ .RelPermalink }}" class="pirulos-link">
+
+    <div class="pirulos-row">
+
+      <!-- LEFT: Thumbnail -->
+      <div class="pirulos-thumbnail">
+        {{ with .Params.thumbnail }}
+          {{ $thumb := index . 0 }}
+          <img src="{{ $thumb.src | relURL }}" alt="{{ $.Title }}">
+        {{ end }}
+      </div>
+
+      <!-- RIGHT: Text -->
+      <div class="pirulos-text">
+        <h2>{{ .Title }}</h2>
+        <div class="pirulos-text-content">
+          {{ .Summary }}
+        </div>
+        {{ with .Params.author }}
+          <p class="pirulos-author">{{ delimit . ", " }}</p>
+        {{ end }}
+      </div>
+
+    </div>
+
+  </a>
+
+</article>
+{{ end }}
+
+
+
+
+    </main>
+
+  </article>
+</div>
+
+{{ partial "footer.html" . }}
+
+<style>
+
+.list-of-pirulos {
+  padding-left: clamp(1rem, 18vw, 18rem);
+  padding-right: clamp(1rem, 18vw, 18rem);
+}
+
+.pirulos-item {
+  margin-bottom: 2rem;
+}
+
+.pirulos-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.pirulos-author {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+/* Default: image left, text right */
+.pirulos-row {
+  display: grid;
+  grid-template-columns: minmax(200px, 50%) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+}
+
+/* ⬅️➡️ For EVEN items, reverse columns */
+.pirulos-item:nth-child(even) .pirulos-row {
+  grid-template-columns: 1fr minmax(200px, 50%);
+}
+
+/* Move image to the right column for even items */
+.pirulos-item:nth-child(even) .pirulos-thumbnail {
+  order: 2;
+  padding-right: 0;
+  padding-left: 2rem;
+  border-right: none;
+  border-left: 1px solid var(--divider-color, #ccc);
+}
+
+/* Move text to the left column */
+.pirulos-item:nth-child(even) .pirulos-text {
+  order: 1;
+}
+
+.pirulos-text-content {
+  font-size: 1.2rem;
+}
+
+.pirulos-title {
+  font-family: 'Jost', sans-serif;   /* or any font you prefer */
+  font-weight: 700;                  /* bold or whatever you want */
+  font-size: 2.2rem;                 /* adjust to your taste */
+  letter-spacing: 0.02em;            /* optional */
+  padding: 0rem;
+}
+
+.pirulos-thumbnail {
+  padding-right: 2rem;
+  border-right: 1px solid var(--divider-color, #ccc);
+}
+
+.pirulos-thumbnail img {
+  width: 100%;        /* fill the container width by default */
+  height: auto;       /* maintain aspect ratio */
+  border-radius: 6px;
+  object-fit: cover;  /* crops if necessary */
+  display: block;
+}
+
+
+
+.pirulos-text h2 {
+  margin-top: 0;
+  font-family: 'Jost';
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .pirulos-row {
+    grid-template-columns: 1fr; /* one column */
+  }
+
+  .pirulos-thumbnail {
+    border-right: none;
+    padding-right: 0;
+  }
+}
+
+
+
+</style>
