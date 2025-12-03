@@ -7,10 +7,9 @@
 [build]
   command = "yarn build:search"
   publish = "dist"
-
-[build.ignore]
-  command = "bash -c '[[ $BRANCH == cms/* ]] && exit 0 || exit 1'"
+  ignore = """bash -c '[[ $BRANCH == cms/* ]] && exit 0 || exit 1'"""
   
+
 [[plugins]]
   package = "netlify-plugin-cypress"
 
