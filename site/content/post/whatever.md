@@ -2,8 +2,8 @@
 title: Diez películas de 2025
 slug: diez-peliculas-de-2025
 date: 2025-12-03T16:25:12.932Z
-description: "Nos gustan los números redondos. Aquí, diez recomendaciones para
-  cerrar el año. "
+description: Nos gustan los números redondos. Aquí, diez recomendaciones para
+  cerrar el año de películas que seguro no viste.
 categories:
   - ensayos
 author:
