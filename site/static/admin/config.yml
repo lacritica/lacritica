@@ -4,6 +4,8 @@ backend:
 
 local_backend: true
 
+publish_mode: editorial_workflow
+
 # Media settings
 media_folder: "site/static/img"   # Where uploaded files are stored in the repo
 public_folder: "/img"             # Public URL path used by Hugo

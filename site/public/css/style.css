@@ -825,68 +825,94 @@ span.sidenote small {
 
 
 /* Catastrophe specific grid */
-
-.catastrophe-grid {
-  background-color: var(--accent-burgundy);
-  display: grid;
-  grid-template-columns: 1fr 2fr; 
-  gap: var(--gutter);
-  padding-bottom: 3rem;
-  box-sizing: border-box;
-  width: min(100% - 2rem, 1600px);
-  margin-inline: auto;
-  margin-bottom: 2rem;
-}
-
-.cat_articles {
-  margin-top: -2rem;
-  display: flex;
-  flex-direction: column;
-  gap: var(--gutter);
-}
+/* OUTER WRAPPER */
 
 .catastrophe {
+  width: 1570px;
   background-color: var(--accent-burgundy);
+  padding-bottom: 2rem;
 }
 
+/* SECTION TITLE */
 .cat_title h1 {
+  font-family: 'Jost';
   font-size: 3rem;
   padding: 1rem;
   text-align: center;
-  color: var(--base-bg);
+  color: white;
   background-color: var(--accent-burgundy);
   border-bottom: 1px solid var(--base-bg);
-} 
+  margin: 0;
+}
 
-.catastrophe-grid .article {
-  background: var(--accent-burgundy);
-  padding: 1rem;
+/* GRID LAYOUT */
+.catastrophe-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--gutter);
+  width: min(100% - 2rem, 1570px);
+  margin: 2rem auto;
+  padding: 0;
+}
+
+/* LEFT COLUMN: IMAGE */
+.cat_picture img {
+  width: 100%;
+  height: auto;
+  display: block;
   border-radius: 8px;
 }
 
-.catastrophe-grid .article h1 {
-  font-size: 1.8rem;
+/* RIGHT COLUMN: ARTICLES */
+.cat_articles {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
 }
 
-.catastrophe-grid .article h1,
-.catastrophe-grid .author-name,
+/* ARTICLE BOXES */
+.catastrophe-grid .article-cat {
+  background: var(--accent-burgundy);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+/* ARTICLE TITLE */
+.catastrophe-grid .article-cat h1 a {
+  font-size: 1.6rem;
+  font-family: 'Jost', serif;
+  font-weight: 700;
+  color: var(--base-bg);
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.catastrophe-grid .article-cat h1 a:hover {
+  background-color: var(--neutral-beige);
+}
+
+.catastrophe-grid .author {
+  font-style: italic;
+}
+
+.catastrophe-grid .author a:hover {
+  text-decoration: none;
+}
+
+/* ARTICLE CONTENT */
 .catastrophe-grid .summary,
-.catastrophe-grid .categories a,
+.catastrophe-grid .author,  
 .catastrophe-grid .date {
+  background: none;
   color: var(--base-bg);
 }
 
-
-.catastrophe-grid article h1 {
-  font-size: 1.2em;
-  font-family: 'Jost', Georgia, serif;
-  font-weight: 700;
-  letter-spacing: 0.001em;
+.catastrophe-grid .date {
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
 
-.catastrophe-grid article {
-  margin-bottom: -2rem;
-}
 
 /* ===========================
    Small desktops: screens at half size (<=1170px)

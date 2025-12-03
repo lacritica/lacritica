@@ -29,10 +29,25 @@
     <loc>http://localhost:1313/bocanadas/foto-copy-2/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/catastrofe/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/una-ley-copy-2/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/una-ley-copy/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/una-ley/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/una-ley/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/installation/</loc>
@@ -98,6 +113,10 @@
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/catastrophe/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/catastrphope/</loc>
   </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
