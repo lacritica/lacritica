@@ -1,5 +1,5 @@
 ---
-title: Whatever
+title: Whateverzcz
 slug: whatever
 date: 2025-12-03T16:25:12.932Z
 description: wjatever
