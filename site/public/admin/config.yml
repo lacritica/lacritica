@@ -104,6 +104,7 @@ collections:
         min: 0         # optional: minimum value allowed
         max: 5       # optional: maximum value allowed
         step: 1        # optional: increment step
+        required: false
 
       - label: "Publicado originalmente en"
         name: "publicado_originalmente_en"
@@ -236,7 +237,7 @@ collections:
         widget: "boolean"
         default: false
         hint: "Marcar si queremos que la foto que ilustra no vaya intercalada en el cuerpo del texto"
-        
+
       - label: "Obra reseñada"
         name: "obra_reseñada"
         widget: "string"

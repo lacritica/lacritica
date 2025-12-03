@@ -47,12 +47,36 @@
 </div>
 
 <style>
+
 .pirulo-img {
   max-width: 500px;
 }
+
 .pirulo-title-item {
   font-family: 'Jost';
   font-weight: 700;
   font-size: 1.2rem;
 }
+
+.pirulo-title-item:hover {
+  background-color: var(--neutral-beige);
+}
+
+@media (max-width: 1070px) {
+
+  .pirulo-row {
+  
+  margin-bottom: 2rem;
+
+  }
+  .pirulo-img {
+    width: 100%;       /* shrink on mobile */
+    max-width: 500px;  /* but never grow wider than 500px */
+    height: auto;      /* keep proportions */
+    display: block;    /* remove baseline weird spacing */
+    margin: 0 auto;    /* center it */
+}
+}
+
+
 </style>
