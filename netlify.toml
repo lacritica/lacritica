@@ -9,8 +9,6 @@
   publish = "dist"
   ignore = "bash -c '[[ \"$BRANCH\" == cms/* ]] && echo \"Skipping CMS branch $BRANCH\" && exit 0 || exit 1'"
 
-  
-
 [[plugins]]
   package = "netlify-plugin-cypress"
 
