@@ -6,8 +6,22 @@
     <description>Recent content in Installation on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La carta de lectores</title>
+      <link>http://localhost:1313/post/la_carta_de_lectores/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/la_carta_de_lectores/</guid>
+      <description>&lt;p&gt;Si bien el hecho fundante de nuestra democracia es el Juicio a las Juntas, el antecedente que convirtió en probable lo que era considerado imposible, fue la nulificación de la ley de autoamnistía &amp;mdash; primera ley de nuestra democracia restaurada. En esta histórica carta de lectores a La Nación del 12 de septiembre de 1983, mientras la dictadura aún gobernaba, Genaro Carrió, Jaime Malamud Goti y Carlos Nino &amp;mdash;tres de los grandes arquitectos del Juicio, junto con Martín Farrell&amp;mdash; anticipan, de modo brevísimo, las dos líneas de argumentos centrales que se utilizarán para anular esa norma &amp;ldquo;de facto&amp;rdquo;: (i) la auto-aministía viola la Constitución, que no permite privilegios arbitrarios (art.18), y determina una nulidad insalvable para los actos que impliquen &amp;ldquo;la suma del poder público&amp;rdquo; (art. 29); y (ii) las normas promulgadas por la dictadura no gozan de una presunción de validez, como sí lo hacen las que tienen origen democrático.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Racismo liberal</title>
+      <link>http://localhost:1313/post/racismo-liberal/</link>
+      <pubDate>Sat, 06 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/racismo-liberal/</guid>
+      <description>&lt;p&gt;La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias. Haber inventado el fraude patriótico y la ley trampa fue una ocurrencia política de una creatividad asombrosa. Halperín Donghi habla de &amp;ldquo;perplejidad&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Con el gobierno de Yrigoyen comienza el proceso democrático en nuestro país. Todos los varones adultos sin distinción de origen, raza o religión, tenían derecho al voto secreto. Duró catorce años. Más allá de las explicaciones y conjeturas del Golpe de Uriburu, si fue por la Standard Oil o por la senilidad del presidente, el consenso mayoritario que abarcaba en sus manifestaciones explícitas a la principal prensa, a importantes sectores reformistas de la población universitaria, a los partidos políticos, sostenía que el régimen no daba para más. ¿Por qué? Porque el pueblo no estaba preparado para vivir en democracia. No sabía elegir. No tenía razón, pero no porque estuviera equivocado, sino por carecer de la facultad de raciocinio que es la que supone diferenciarnos de los animales. La racionalidad política ni es intuitiva ni espontánea. Debe ser tutoreada y tutelada.&#xA;Desde Kant no se concibe la libertad ni como idea ni como práctica sin la razón.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
       <link>http://localhost:1313/catastrofe/una-ley-copy-2/</link>
@@ -42,13 +56,6 @@
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</guid>
       <description>&lt;p&gt;El derecho habita nuestra vida pública en dos presentaciones contradictorias.&lt;/p&gt;&#xA;&lt;p&gt;Por una parte, durante mucho tiempo imperó en nuestro país la teoría de las dos bibliotecas: ante cualquier conflicto &amp;mdash;se nos dice&amp;mdash; habrá escribas con las credenciales suficientes dispuestos a justificar cualquier posición. En esta visión, la argumentación encuentra siempre su destino sudamericano: lo que importa, en definitiva, no es la solidez del argumento, sino que exista algún tomo en algún estante que lo avale. En esta cultura jurídica &amp;mdash;en la que las publicaciones se miden por peso&amp;mdash; siempre puede hablarse con deferencia de la posición contraria, aclarando simplemente que no se la comparte, como si los motivos para adoptar una u otra fueran tan inescrutables como los que llevan a elegir un equipo de fútbol. El resultado es desolador: si siempre habrá una biblioteca dispuesta a proveer refugio, no se impone la fuerza de los argumentos, sino los argumentos del que tiene la fuerza.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>La carta de lectores</title>
-      <link>http://localhost:1313/post/la_carta_de_lectores/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/la_carta_de_lectores/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
