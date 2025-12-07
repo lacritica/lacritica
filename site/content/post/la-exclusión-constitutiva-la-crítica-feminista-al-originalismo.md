@@ -46,7 +46,7 @@ El feminismo no contrapone las aspiraciones de los votados, con las de los desig
 
 # ¿Qué intención, y la intención de quién?
 
-Cuando hablamos del constituyente originario, hablamos de una élite de individuos varones, varios de ellos curas y militares, que asentaba parte de su autonomía material en la subordinación legal y doméstica de mujeres, y que subalternaban a indígenas, como uno de los ejes de su autonomía política. de modo que, aunque cierto anacronismo parce útil para enraizar los ideales constitucionales de la disciplina, no veo la utilidad de disimular el racismo y la misoginia del ideario liberal republicano de nuestra constitución.
+Cuando hablamos del constituyente originario, hablamos de una élite de individuos varones, varios de ellos curas y militares, que asentaba parte de su autonomía material en la subordinación legal y doméstica de mujeres, y que subalternaban a indígenas, como uno de los ejes de su autonomía política. Ahora bien, aunque cierto anacronismo parce útil para enraizar los ideales de la disciplina, no esta claro de qué sirve disimular el racismo y la misoginia del las raíces liberales republicanas de nuestra constitución.
 
 Si al anacronismo disciplinar le sumamos esta grosera impostación, estamos metiendo un elefante bajo la alfombra. Evitamos la pregunta del porque los constituyentes sólo le reconocieron derechos al individuo varón no subalternado (como ellos). Y así cerramos la puerta a la indagación sobre las ideas misóginas y racistas que movieron a la proscripción sexual y racial de nuestra constitución. Se la trata como una anécdota de la historia constitucional, no como parte de la "ideología" del constitucionalismo.
 
