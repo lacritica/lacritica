@@ -1,9 +1,9 @@
 ---
 title: "Nota sin título: una lección sobre el derecho desde la AFA"
 slug: una-leccion-sobre-el-derecho-desde-la-afa
-date: 2025-12-07T06:34:23.226Z
-description: Sobre la moral interna de Lon Fuller, a próposito del campeonato de
-  Rosario Central
+date: 2025-12-07T14:25:46.532Z
+description: Sobre Fuller y la moral interna del derecho, a próposito del
+  campeonato de Rosario Central
 categories:
   - ensayos
 author:
