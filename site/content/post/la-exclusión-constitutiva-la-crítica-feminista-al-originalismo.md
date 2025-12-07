@@ -80,7 +80,7 @@ Déjenme, sin embargo, llamar su atención sobre otras evidencias. Las evidencia
 
 # En fin...
 
-La filosofía que llevó a la proscripción de las mujeres y de los individuos subalternados de la constitución es mucho más estructurante del sentido común de “lo” constitucional, y de “lo” público, que lo que usualmente advertimos. Si queremos empezar a notarlo en serio, hay que dejar de naturalizarlo en nuestros anacronismos disciplinares, y sobre todo, empezar a tratarlo como parte del sistema de creencias y aspiraciones constitucionales originarias. Cuando no entendemos la crítica feminista a ese sistema de creencias, es porque su estructura de sentido no nos deja entender. 
+La filosofía que llevó a la proscripción de las mujeres y de los individuos subalternados es mucho más estructurante del sentido común de “lo” constitucional, y de “lo” público, que lo que usualmente advertimos. Si queremos empezar a notarlo en serio, hay que dejar de naturalizarlo en nuestros anacronismos disciplinares, y sobre todo, empezar a tratarlo como parte del sistema de creencias y aspiraciones constitucionales originarias. Cuando no entendemos la crítica feminista a ese sistema de creencias, es porque su estructura de sentido no nos deja entender. 
 
 Hay un largo camino por recorrer en la deconstrucción del sentido misógino de “lo” constitucional. Un buen comienzo, es hacer el esfuerzo de entender en serio, la crítica feminista al originalismo.
 
