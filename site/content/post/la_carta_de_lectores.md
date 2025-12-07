@@ -1,13 +1,13 @@
 ---
 title: La carta de lectores
-date: 2025-12-06
+date: 1983-09-12
 description: Un documento histórico recuperado
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
 author:
 thumbnail:
-  - src: "/img/carta_lectores.png"
+  - src: "/img/carta_la_nacion.jpg"
     epigraph: "Carta de lectores, La Nación"
     copyright: "12 de septiembre de 1983"
 highlight: false

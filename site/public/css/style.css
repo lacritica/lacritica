@@ -303,16 +303,19 @@ body {
 
 
 .home-featured-left {
-  flex: 0 0 10%; /* width: 60% */
+  flex: 0 0 35%; /* width: 60% */
 }
 
 .home-featured-center {
-  flex: 0 0 50%; /* width: 60% */
+  flex: 0 0 60%; /* width: 60% */
+    transform: translateY(40px); /* adjust value */
+
+
 }
 
 /* --- RIGHT COLUMN WRAPPER --- */
 .home-featured-right {
-  flex: 0 0 30%;
+  flex: 0 0 32%;
   background: linear-gradient(
     to bottom,
     transparent 50%,
@@ -365,6 +368,7 @@ body {
 .home-featured-right .misc-date {
   margin: 0;
   font-size: 0.9rem;
+  font-family: 'Jost';
 }
 
 .home-featured-right .misc-author a {
@@ -404,7 +408,7 @@ body {
 
 .home-callout {
   background: var(--neutral-pale-blue);
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 12px;
   margin-bottom: 2rem;
   color: white;
@@ -433,7 +437,7 @@ body {
 /* Callout meta: inline flow */
 .home-callout .callout-meta {
   display: block;        /* flow naturally */
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-left: 4rem;
   margin-right: 3rem;
   margin-bottom: 3rem;
@@ -457,11 +461,54 @@ body {
     cursor: pointer;       /* normal cursor instead of pointer, if desired */
 }
 
+.pirulo-title-item:hover {
+  background-color: var(--accent-beige) !important;
+}
+
+.pirulo-card img {
+  max-width: 240px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  display: block;
+  margin-bottom: 0.6rem; 
+}
+
+.pirulo-row {
+  margin-top: .5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: normal;
+  overflow-wrap: anywhere;
+
+  /* Increase the space INSIDE the box */
+  padding: 3rem;  /* adjust this as needed */
+
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent 60%,
+    var(--neutral-300) 50%,
+    var(--neutral-300) 100%
+  );
+}
+
 .pirulo-card:hover {
     text-decoration: none; /* prevent underline on hover */
     color: inherit;        /* optional */
 }
 
+.pirulo-card {
+  font-family: 'Jost';
+  font-size: 1.4rem;
+}
+
+.pirulo-author {
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 0.9rem;
+}
 
 .open-quote,
 .close-quote {
@@ -558,9 +605,9 @@ body {
 
 .home-callout .callout-meta {
   white-space: normal;       /* allow wrapping when necessary */
-  font-size: .9rem;
+  font-size: 1rem;
   line-height: 1.1;
-  padding: 1rem 2rem;
+  padding: .5rem 2rem;
 }
 
 /* keep specific tokens together */
@@ -596,9 +643,10 @@ body {
   }
 
   /* AUTHOR + DATE */
+
   .home-featured-right .misc-author,
   .home-featured-right .misc-date {
-    font-size: 0.8rem;
+    font-size: 1rem;
 
   }
 }
@@ -1541,6 +1589,10 @@ span.sidenote small {
 .article h3,
 .article h4 {
   margin-top: 0;
+}
+
+.article-content h3 {
+  font-family: 'Jost';
 }
 
 .article a {

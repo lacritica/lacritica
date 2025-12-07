@@ -8,9 +8,9 @@ exclude_thumbnail_from_body: true
 author:
   - Tomás Abraham
 thumbnail:
-  - src: "/img/IMG_9923.JPG"
-    epigraph: "Flores"
-    copyright: "Roberto Gargarella"
+  - src: "/img/joseph_raz.png"
+    epigraph: "de 'The Roots of Normativity'"
+    copyright: "por Joseph Raz"
 highlight: false
 highlight2: false
 callouts:
