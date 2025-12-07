@@ -56,8 +56,6 @@ Hay que dejar de pensar “tan frescamente” que la misoginia era sólo una for
 
 La mirada misógina de los modernos determinó lo que entendemos por “libertad”, por “autonomía”, y sobre todo, lo que entendemos por “lo” constitucional. Déjenme intentar probarlo, al menos en parte, en el corto espacio que me queda.
 
-
-
 # Para ejemplo, un botón
 
 Hace un año atrás discutíamos los peligros de las posiciones originalistas promovidas por el entonces candidato a la Corte Suprema de Justicia de la Nación, Manuel García Mansilla. Varias criticamos su mirada sobre los derechos de las mujeres en una audiencia pública que tuvo lugar en la Cámara de Diputados. En mi caso, argumenté que sus fallas interpretativas, devenían de su método, el originalismo, al que califiqué de “reaccionario”. 
@@ -82,11 +80,13 @@ Un punto crítico es que la creencia en la inferioridad de las mujeres en aquel 
 
 Déjenme, sin embargo, llamar su atención sobre otras evidencias. Las evidencias de lo que creo, es una proximidad sugestiva entre las metáforas humanistas de la misoginia, y las del constitucionalismo moderno. Cuando los y las constitucionalistas pensamos en términos de "atarnos" a las determinaciones axiológicas de los “padres fundadores”, como Ulises se ató al mástil para escapar del canto de las sirenas, la analogía con la estructura metafórica de la misoginia medieval es inocultable. Las sirenas representaban, por supuesto, la  malicia seductora de las mujeres imaginadas por los misóginos. Desde esa estructura de sentido resultaban una amenaza (moral) al mundo público (la constitución), que pertenecía a los hombres. Atarse a la constitución (de los varones) frente a la amenaza de las seducciones contextuales (representada por lo femenino y lo salvaje, a lo que había que subordinar), es la metáfora fundante de nuestra inteligibilidad de lo constitucional. 
 
-En fin....
+#  
 
-La proscripción de las mujeres y de los individuos subalternados al momento de la sanción constitucional es mucho más estructurante del sentido común de “lo” constitucional, y de “lo” público, que lo que usualmente advertimos. Si queremos empezar a notarlo en serio, hay que hablar de ello, hay que dejar de naturalizarlo en nuestros anacronismos disciplinares, y sobre todo, empezar a tratarlo como parte del sistema de creencias y aspiraciones constitucionales originarias. Cuando no entendemos la crítica feminista a ese sistema de creencias, es porque esa estructura de sentido no nos dejan entender. 
+# En fin... 
 
-Hay un largo camino por recorrer en la deconstrucción del sentido misógino de “lo” constitucional, asentado en la exclusión originaria. Un buen comienzo, es intentar entender mejor la crítica feminista al originalismo, como método intrínsecamente reaccionario.
+La filosofía que llevó a la proscripción de las mujeres y de los individuos subalternados de la constitución es mucho más estructurante del sentido común de “lo” constitucional, y de “lo” público, que lo que usualmente advertimos. Si queremos empezar a notarlo en serio, hay que dejar de naturalizarlo en nuestros anacronismos disciplinares, y sobre todo, empezar a tratarlo como parte del sistema de creencias y aspiraciones constitucionales originarias. Cuando no entendemos la crítica feminista a ese sistema de creencias, es porque su estructura de sentido no nos deja entender. 
+
+Hay un largo camino por recorrer en la deconstrucción del sentido misógino de “lo” constitucional. Un buen comienzo, es hacer el esfuerzo de entender en serio, la crítica feminista al originalismo.
 
 [^1]: Bases y Puntos de Partida para la Organización Política de la República Argentina” (1853-1994) (Buenos Aires. Plus Ultra) Cap. XIII, pag.79
 
