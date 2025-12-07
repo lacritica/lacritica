@@ -2,18 +2,20 @@
 title: "Nota sin título: una lección sobre el derecho desde la AFA"
 slug: una-leccion-sobre-el-derecho-desde-la-afa
 date: 2025-12-07T06:34:23.226Z
-description: Sobre la moral interna de Lon Fuller a próposito de Rosario Central
+description: Sobre la moral interna de Lon Fuller, a próposito del campeonato de
+  Rosario Central
 categories:
   - ensayos
 author:
   - Gustavo Arballo
+thumbnail:
+  - src: /img/mateo-calderon.jpeg
+    epigraph: platea fila uno al medio
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
 *Los hechos son conocidos, aunque no todos se conocieron a la vez, y sobre algunos tenemos más suspicacias o intuiciones que certezas. El punto central es que [Rosario Central fue declarado campeón retroactivo](https://www.tiempoar.com.ar/ta_article/sorpresa-central-campeon-de-un-torneo-que-nadie-sabia-que-daba-un-titulo/) y de esa singular consagración -y la secuela de juicio del “pasillo”  de Estudiantes de La Plata - se derivan varias ideas que nos sirven para ir más allá del caso, y que nos sirven específicamente para pensar el derecho, así que aprovechemos a hacer de esto una minima pedagogía institucional, al paso que ajustamos cuentas de todo lo que nos hace ruido con ese título.*
-
-
 
 ### Querido Rex:  Fuller y la moral interna del derecho.
 
@@ -65,11 +67,11 @@ Pero este episodio muestra que las condiciones deliberativas importan. Aparentem
 
 ![El momento de la consagración](/img/consagracion.png "El momento de la consagración")
 
-### La subtrama del pasillo.
+### La subtrama del pasillo
 
-Es fascinante porque es un inception dentro de este sinsentido. No se por dónde empezar, pero empecemos por algún lado. En un episodio (más) de “abusive constitutional borrowing” diría Rosalind  Dixon, se ha querido implantar una costumbre totalmente alejada de nuestras tradiciones, importada de países de cuño monárquico que a cada rato se fascinan con rituales escenificados de sumisión, totalmente ajenos a nuestra tradición (genuinamente) libertaria, igualitaria (naides es menos que naides), casquivana, y por eso todo la escena se siente ajena, impostada, irreal, fría como el viento.
+Es fascinante porque es un *inception* dentro de este sinsentido. No se por dónde empezar, pero empecemos por algún lado. En un episodio (más) de “abusive constitutional borrowing” diría Rosalind  Dixon, se ha querido implantar una costumbre totalmente alejada de nuestras tradiciones, importada de países de cuño monárquico que a cada rato se fascinan con rituales escenificados de sumisión, totalmente ajenos a nuestra tradición (genuinamente) libertaria, igualitaria (naides es menos que naides), casquivana, y por eso todo la escena se siente ajena, impostada, irreal, fría como el viento.
 
-Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni siquiera hubo mucha demanda de ser pasilleado de parte de los equipos homenajeados. Dicho de un modo brutal: un campeón genuino no necesita de pasillos PERO un campeón sospechado sí los requiere par certificar su campeonidad. Resuena la frase de Game of Thrones aquí:  "no true king has to say i am the king". 
+Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni siquiera hubo mucha demanda de ser pasilleado de parte de los equipos homenajeados. Dicho de un modo brutal: un campeón genuino no necesita de pasillos PERO un campeón sospechado sí los requiere par certificar su campeonidad. Resuena la frase de Game of Thrones aquí:  *no true king has to say "i am the king"*. 
 
 Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
 
@@ -84,11 +86,11 @@ El fallo va a explicar que esa conducta en efecto no se encuentra expresamente t
 Pero aquí quiero detenerme en lo primero que se lee al inicio de la decisión, una fórmula que —como adelanta la cita de autoridad de la Corte Suprema— resulta habitual en la práctica de los tribunales argentinos. Es esta:
 
 > cabe recordar inicialmente que los miembros de este tribunal no se encuentran obligados a considerar todas las cuestiones y argumentaciones que se proponen a su consideración sino tan solo aquellas que resultan conducentes para decidir el caso y basten para dar sustento a un pronunciamiento válido (doctrina Corte Suprema de Justicia de la Nación, Fallos: 258:304; 262:222; 265:301; 272:225; 278:271; 297:140; 301:970, entre muchos otros).
->
->
 
 Esto tiene muchos problemas. Con el pretexto de la economía argumental, se la utiliza como salvoconducto para no enfrentar argumentos que podían desarticular el fallo o eran de incómodo tratamiento. Las defensas estudiantiles omitidas eran estructurales, no accesorias, eran procesalmente relevantes y relevantes en el fondo, incluyendo el elefante en la habitación sobre el cuestionamiento de cuando habría sido publicado la obligación de hacer pasillo mirando a los ojos del rival. 
 
 Cuando los tribunales -no solo este “de disciplina”- juegan esta carta como comodín argumental se desnaturaliza el derecho de defensa, el debido proceso “adjetivo”, y el que decide se habilita un permitido que queda a su arbitrio para no resolver cuestiones planteadas.
 
-El ideal de integridad, y que se deber exigir más y no menos a medida que escalamos en la trascedencia de las cuestiones, debe ser el inverso: aunque sea en una línea, aunque no sea en el mismo orden, aunque hayan sido un delirio inconducente lo planteado (lo que en verdad les facilitará la refutación) los tribunales están obligados a tratar todas las argumentaciones que les presentan las partes. Es, de paso, el peligro que sienta la Corte (y no se la achaquemos al trío actual, viene una “consolidada jurisprudencia”) cuando sienta doctrinas autocomplacientes que luego inevitablemente seran replicadas en estratos inferiores. Otros polvos que trajeron estos lodos: aquí estamos, pues, chapoteando en el barro.
+El ideal de integridad, y que se deber exigir más y no menos a medida que escalamos en la trascedencia de las cuestiones, debe ser el inverso: aunque sea en una línea, aunque no sea en el mismo orden, aunque hayan sido un delirio inconducente lo planteado (lo que en verdad les facilitará la refutación) los tribunales están obligados a tratar todas las argumentaciones que les presentan las partes. Es, de paso, el peligro que sienta la Corte (y no se la achaquemos al trío actual, viene una “consolidada jurisprudencia”) cuando sienta doctrinas autocomplacientes que luego inevitablemente seran replicadas en estratos inferiores. 
+
+Otros polvos que trajeron estos lodos: aquí estamos, pues, chapoteando en el barro.
