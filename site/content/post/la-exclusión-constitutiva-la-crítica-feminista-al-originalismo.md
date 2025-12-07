@@ -18,7 +18,7 @@ exclude_thumbnail_from_body: false
 ---
 Me resulta particularmente extraña la incomprensión de un argumento tan simple y directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué parte de lo obvio no se entiende?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se opone a la conversación entre el  constitucionalismo y el punto de vista feminista?
 
-En este breve ensayo intentaré hacer sentido de una intuición a la que llamo “la exclusión constitutiva”. Esto es, la simple intuición de que hay un sentido dominante sobre “lo” constitucional, y desde él, se hace ininteligible a la crítica feminista. Lo más importante es que ese sentido dominante deviene de la circunstancia fundante, esto es, de la  exclusión originaria de las mujeres del sistema constitucional. 
+En este breve ensayo intentaré hacer desarrollar una intuición a la que llamo “la exclusión constitutiva”. Esto es, la simple intuición de que hay un sentido dominante sobre “lo” constitucional, y desde él, se hace ininteligible a la crítica feminista. Lo más importante es que ese sentido dominante deviene de la circunstancia fundante, esto es, de la  exclusión originaria de las mujeres del sistema constitucional. 
 
 # El planteo de lo obvio
 
@@ -80,9 +80,7 @@ Un punto crítico es que la creencia en la inferioridad de las mujeres en aquel 
 
 Déjenme, sin embargo, llamar su atención sobre otras evidencias. Las evidencias de lo que creo, es una proximidad sugestiva entre las metáforas humanistas de la misoginia, y las del constitucionalismo moderno. Cuando los y las constitucionalistas pensamos en términos de "atarnos" a las determinaciones axiológicas de los “padres fundadores”, como Ulises se ató al mástil para escapar del canto de las sirenas, la analogía con la estructura metafórica de la misoginia medieval es inocultable. Las sirenas representaban, por supuesto, la  malicia seductora de las mujeres imaginadas por los misóginos. Desde esa estructura de sentido resultaban una amenaza (moral) al mundo público (la constitución), que pertenecía a los hombres. Atarse a la constitución (de los varones) frente a la amenaza de las seducciones contextuales (representada por lo femenino y lo salvaje, a lo que había que subordinar), es la metáfora fundante de nuestra inteligibilidad de lo constitucional. 
 
-#  
-
-# En fin... 
+# En fin...
 
 La filosofía que llevó a la proscripción de las mujeres y de los individuos subalternados de la constitución es mucho más estructurante del sentido común de “lo” constitucional, y de “lo” público, que lo que usualmente advertimos. Si queremos empezar a notarlo en serio, hay que dejar de naturalizarlo en nuestros anacronismos disciplinares, y sobre todo, empezar a tratarlo como parte del sistema de creencias y aspiraciones constitucionales originarias. Cuando no entendemos la crítica feminista a ese sistema de creencias, es porque su estructura de sentido no nos deja entender. 
 
