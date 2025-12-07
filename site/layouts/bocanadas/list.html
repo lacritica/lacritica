@@ -32,7 +32,8 @@
         <h2>{{ .Title }}</h2>
         <div class="pirulos-text-content">
           {{ .Summary }}
-        </div>
+          <a href="{{ .RelPermalink }}">Leer más →</a>
+        </div>        
         {{ with .Params.author }}
           <p class="pirulos-author">{{ delimit . ", " }}</p>
         {{ end }}

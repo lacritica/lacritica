@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/post/aida-kemelmajer/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/dos-fiscales/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/entrevistas/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2025-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
@@ -14,28 +35,13 @@
     <loc>http://localhost:1313/post/la_carta_de_lectores/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/racismo-liberal/</loc>
-    <lastmod>2025-12-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-06T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</loc>
+    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/aportes-de-la-halaja-reales/</loc>
-    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/foto/</loc>
-    <lastmod>2025-12-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/foto-copy-2/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/catastrofe/</loc>
@@ -59,14 +65,11 @@
     <loc>http://localhost:1313/catastrofe/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</loc>
-    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bocanadas/foto-copy/</loc>
-    <lastmod>2025-11-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/racismo-liberal/</loc>
+    <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
     <lastmod>2025-11-19T00:00:00+00:00</lastmod>
@@ -110,9 +113,6 @@
     <loc>http://localhost:1313/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-11-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
@@ -122,6 +122,8 @@
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/maria-luisa-pique/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
   </url><url>

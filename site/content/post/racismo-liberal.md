@@ -1,6 +1,6 @@
 ---
 title: Racismo liberal
-date: 2025-12-06
+date: 2025-12-01
 description: La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias.
 categories:
   - ensayos

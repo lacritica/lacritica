@@ -68,7 +68,6 @@ main.homepage {
 body {
   background-color: var(--base-bg);
   font-family: 'Averia Serif Libre', system-ui, -apple-system, sans-serif !important;
-  font-weight: 300;
   font-size: 1.1rem;
   line-height: 1.4;
   color: #111;
@@ -1123,8 +1122,8 @@ span.sidenote small {
 
 #content .article-content {
   flex: 2;
-  width: 50%;
-  max-width: 675px;
+  width:  50%;
+  max-width: 685px;
   font-size: 1.4rem;
   line-height: 1.4;
   color: #494746;
@@ -1987,6 +1986,12 @@ span.sidenote small {
 .taxonomy-menu[data-term="debates"],
 .taxonomy-layout[data-term="debates"],
 .taxonomy-grid[data-term="debates"] .article-taxonomy {
+  background-color: var(--neutral-pale-blue); /* light blue */
+}
+
+.taxonomy-menu[data-term="entrevistas"],
+.taxonomy-layout[data-term="entrevistas"],
+.taxonomy-grid[data-term="entrevistas"] .article-taxonomy {
   background-color: var(--neutral-pale-blue); /* light blue */
 }
 
