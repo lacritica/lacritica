@@ -11,15 +11,11 @@ highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-Los hechos son conocidos, aunque no todos se conocieron a la vez, y sobre algunos tenemos más suspicacias o intuiciones que certezas. El punto central es que Rosario Central fue declarado campeón retroactivo 
-
-https://www.tiempoar.com.ar/ta_article/sorpresa-central-campeon-de-un-torneo-que-nadie-sabia-que-daba-un-titulo/ 
-
-y de esa singular consagración -y la secuela de juicio del “pasillo”  de Estudiantes de La Plata - se derivan varias ideas que nos sirven para ir más allá del caso, y que nos sirven específicamente para pensar el derecho, así que aprovechemos a hacer de esto una minima pedagogía institucional, al paso que ajustamos cuentas de todo lo que nos hace ruido con ese título.
+*Los hechos son conocidos, aunque no todos se conocieron a la vez, y sobre algunos tenemos más suspicacias o intuiciones que certezas. El punto central es que [Rosario Central fue declarado campeón retroactivo](https://www.tiempoar.com.ar/ta_article/sorpresa-central-campeon-de-un-torneo-que-nadie-sabia-que-daba-un-titulo/) y de esa singular consagración -y la secuela de juicio del “pasillo”  de Estudiantes de La Plata - se derivan varias ideas que nos sirven para ir más allá del caso, y que nos sirven específicamente para pensar el derecho, así que aprovechemos a hacer de esto una minima pedagogía institucional, al paso que ajustamos cuentas de todo lo que nos hace ruido con ese título.*
 
 
 
-### 1. Querido Rex:  Fuller y la moral interna del derecho.
+### Querido Rex:  Fuller y la moral interna del derecho.
 
 A medida que las críticas se apilaban sobre el postitulo canalla -ver, por todas, [esta nota de Andrés Burgo](https://www.tiempoar.com.ar/ta_article/los-clubes-son-de-los-socios-los-torneos-de-los-jugadores/)-, se me ocurría maridarlas con esa historia de Lon Fuller de las peripecias jurídicas de Rex, su ilustrado déspota, un minicuento que iba relatando ocho disfunciones o formas de fracasar en la creación del derecho. Y que, contrario sensu, nos moralejaban correlativas exigencias de una “moral interna” del derecho, reglas que se ubican a un nivel aparentemente preideológico, para que podamos identificar un “derecho” que pueda reputarse como tal. 
 
@@ -37,7 +33,7 @@ La idea de Fuller es así una curiosa e improbable “tercera vía” que busca 
 
 Fuller nos dice que hay “reglas de carpintería” del buen derecho. Así como un mueble no tiene reglas axiológicas, sino constructivas, esas reglas son las que permiten que haya muebles usables, ergonómicos, estables, y no un jenga  de maderas clavadas o encajadas, el derecho es un comosea propio de sistemas de legalidad vidriosa.
 
-2. El futbol argentino es muy fullero
+### El futbol argentino es muy fullero
 
 Fijado el marco teórico, queda claro que esta controversia no es factual sobre un offside decisivo, sino una infracción que tilda casi todos los defectos fullerianos a la vez.  
 
@@ -49,21 +45,15 @@ Esa lógica es un problema.  Porque incluso si nadie “pierde” algo de manera
 
 El problema afecta incluso a su aparente beneficiario. Central termina este año no solo eliminado sino con la imagen de un título desangelado, cuyo poster no es el gol épico ni una romántica vuelta olímpica con invasión de campo, sino una entrega que tiene por escenografía una sala de reunión de junta directiva. Canchereadas positivistas del tipo “que la cuenten como quieran” no mejorarán esa circunstancia.
 
- 
-
 Más vicios: aún si asumieramos que este campeonato no estuvo afectado por el de la retroactividad, el hub de campeonatos de la AFA y sus multiples ligas y copas ha quedado abiertamente en Zona Rex, donde  necesitamos [un dibujo con rayitas](https://www.instagram.com/p/DRXnCfekXgm/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==) para entender qué cosas se están jugando.
 
- 
-
 ![Plano de copas del fútbol argentino](/img/copas.png "Las copas del fútbol argentino")
-
- 
 
 Esta compleja tabla de correlatividades incluso está simplificando la cuestión. Detalles como “qué pasa si el campéon de la tabla anual es además el campeón del trofeo de campeones, -y en ese caso se le da el título sin jugar, o juega contra el segundo de la tabla anual, o bien contra el perdedor de la final del torneo de campeones- quedan al margen de la infografía y muy probablemente de la reglamentación y se resuelverán ex post como ha ocurrido en el pasado cercano, como hacía el Rex de Fuller, a los ponchazos.
 
 El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega como se vive”, pero señalo la correlación- es muy fullero: adhocrático, hecho a propósito inestable, enroscado y complejo, potencialmente retroactivo, disociado del cumplimiento real, selectivamente aplicado. 
 
-### 3. El debido proceso sustantivo 
+### El debido proceso sustantivo
 
 Había con todo un problema que Rex no tenía, porque era un déspota y no estaba vinculado por ñoños requisitos procedimentales, esa tecnología institucional de dividir poderes por las dudas y por los méritos que pensamos que eso nos traerá, y de establecer requisitos, procedimientos, cuerpos legislativos. De hecho, la AFA funciona con representantes, comités, tribunales de disciplina, asambleas, y un lema: “la AFA es de los clubes”. 
 
@@ -71,13 +61,11 @@ Eso nos lleva a hacer zoom en un punt en donde encontramos más problemas en ese
 
 Sabemos las pullas que recibe toda construcción “deliberativa” con bravuconadas del tipo de si sus postulantes son tarados que quieren que haya un idílico simposio habermasiano que sea un dispenser de soluciones superadoras en conflictos públicos y morales. El decisionismo “basado” cuenta manos, el que sumo más levantadas gana y a otra cosa (salvo que empaten 68 a 68 y ya tuvimos esta conversación).
 
-Pero este episodio muestra que las condiciones deliberativas importan. Aparentemente -leemos en esta nota de Alejandro Casar Gonzalez
+Pero este episodio muestra que las condiciones deliberativas importan. Aparentemente -leemos en [esta nota de Alejandro Casar Gonzalez](https://www.lanacion.com.ar/deportes/futbol/el-centralgate-todo-lo-que-paso-en-la-reunion-de-la-liga-profesional-que-corono-al-canalla-nid21112025/)- la decisión no fue explícitamente incorporada en un orden del día, que se presentó ambiguamente como un “homenaje” al equipo que más puntos obtuvo, al que nadie se opuso (dicho a medias, no sabían que estaba en juego UN CAMPEONATO) y que acto seguido de que concluye el hecho salen desde una puerta trampa capitán y subcapitán del club para recibir una copa (que ya se había comprado ad hoc), y con ello el título que bordarán como estrella legítima en su escudo. 
 
-https://www.lanacion.com.ar/deportes/futbol/el-centralgate-todo-lo-que-paso-en-la-reunion-de-la-liga-profesional-que-corono-al-canalla-nid21112025/ 
+![El momento de la consagración](/img/consagracion.png "El momento de la consagración")
 
-\- la decisión no fue explícitamente incorporada en un orden del día, que se presentó ambiguamente como un “homenaje” al equipo que más puntos obtuvo, al que nadie se opuso (dicho a medias, no sabían que estaba en juego UN CAMPEONATO) y que acto seguido de que concluye el hecho salen desde una puerta trampa capitán y subcapitán del club para recibir una copa (que ya se había comprado ad hoc), y con ello el título que bordarán como estrella legítima en su escudo. 
-
-### 4. La subtrama del pasillo.
+### La subtrama del pasillo.
 
 Es fascinante porque es un inception dentro de este sinsentido. No se por dónde empezar, pero empecemos por algún lado. En un episodio (más) de “abusive constitutional borrowing” diría Rosalind  Dixon, se ha querido implantar una costumbre totalmente alejada de nuestras tradiciones, importada de países de cuño monárquico que a cada rato se fascinan con rituales escenificados de sumisión, totalmente ajenos a nuestra tradición (genuinamente) libertaria, igualitaria (naides es menos que naides), casquivana, y por eso todo la escena se siente ajena, impostada, irreal, fría como el viento.
 
@@ -87,7 +75,7 @@ Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacer
 
 Allí aparece otra vez un problema del derecho: las normas se presumen conocidas desde su publicacion. Nunca quedó claro entre datos y metadatos de cuando era el PDF que reglamentaba el “pasillo”, lo cual muestra una clara presciencia del boletín en lo que habría suceder varios meses después, o tal vez nos hace sospechar otra cosa.
 
-### 5. Epílogo para abogados: nota a fallo (y crítica del “no trataremos todas las argumentaciones”)
+### Epílogo para abogados: nota a fallo (y crítica del “no trataremos todas las argumentaciones”)
 
 Como sabrán, el Tribunal de Disciplina de la AFA (un cuerpo compuesto por cinco abogados y un escribano) se pronuncia en un “Fallo fundado” que se puede ver aquí, y que tiene muchos puntos vidriosos
 
@@ -95,7 +83,9 @@ El fallo va a explicar que esa conducta en efecto no se encuentra expresamente t
 
 Pero aquí quiero detenerme en lo primero que se lee al inicio de la decisión, una fórmula que —como adelanta la cita de autoridad de la Corte Suprema— resulta habitual en la práctica de los tribunales argentinos. Es esta:
 
-cabe recordar inicialmente que los miembros de este tribunal no se encuentran obligados a considerar todas las cuestiones y argumentaciones que se proponen a su consideración sino tan solo aquellas que resultan conducentes para decidir el caso y basten para dar sustento a un pronunciamiento válido (doctrina Corte Suprema de Justicia de la Nación, Fallos: 258:304; 262:222; 265:301; 272:225; 278:271; 297:140; 301:970, entre muchos otros).
+> cabe recordar inicialmente que los miembros de este tribunal no se encuentran obligados a considerar todas las cuestiones y argumentaciones que se proponen a su consideración sino tan solo aquellas que resultan conducentes para decidir el caso y basten para dar sustento a un pronunciamiento válido (doctrina Corte Suprema de Justicia de la Nación, Fallos: 258:304; 262:222; 265:301; 272:225; 278:271; 297:140; 301:970, entre muchos otros).
+>
+>
 
 Esto tiene muchos problemas. Con el pretexto de la economía argumental, se la utiliza como salvoconducto para no enfrentar argumentos que podían desarticular el fallo o eran de incómodo tratamiento. Las defensas estudiantiles omitidas eran estructurales, no accesorias, eran procesalmente relevantes y relevantes en el fondo, incluyendo el elefante en la habitación sobre el cuestionamiento de cuando habría sido publicado la obligación de hacer pasillo mirando a los ojos del rival. 
 
