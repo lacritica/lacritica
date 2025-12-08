@@ -73,7 +73,13 @@ Es fascinante porque es un *inception* dentro de este sinsentido. No se por dón
 
 Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni siquiera hubo mucha demanda de ser pasilleado de parte de los equipos homenajeados. Dicho de un modo brutal: un campeón genuino no necesita de pasillos PERO un campeón sospechado sí los requiere par certificar su campeonidad. Resuena la frase de Game of Thrones aquí:  *no true king has to say "i am the king"*. 
 
-Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
+Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. 
+
+```
+{{< youtube id="YslQ2625TR4" title="iPhone Resolution by Edward Tufte" >}}
+```
+
+No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
 
 Allí aparece otra vez un problema del derecho: las normas se presumen conocidas desde su publicacion. Nunca quedó claro entre datos y metadatos de cuando era el PDF que reglamentaba el “pasillo”, lo cual muestra una clara presciencia del boletín en lo que habría suceder varios meses después, o tal vez nos hace sospechar otra cosa.
 
