@@ -76,7 +76,7 @@ Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni si
 Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. 
 
 ```
-{{< youtube id="YslQ2625TR4" title="iPhone Resolution by Edward Tufte" >}}
+{{< youtube id="DL_X4jSCXAY" title="ESTUDIANTES le hizo un PASILLO DE ESPALDAS a un ROSARIO CENTRAL que CELEBRÓ EL TÍTULO" >}}
 ```
 
 No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
