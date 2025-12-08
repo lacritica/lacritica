@@ -472,8 +472,11 @@ body {
   border-radius: 4px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.15);
   display: block;
-  margin-bottom: 0.6rem; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.6rem;
 }
+
 
 .pirulo-row {
   margin-top: .5rem;

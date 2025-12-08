@@ -24,7 +24,7 @@
         </div>-->
 
         {{/* Only show thumbnail for the FIRST 3 posts */}}
-        {{ if lt $index 4 }}
+        {{ if lt $index 6 }}
           {{ with index $post.Params.thumbnail 0 }}
             <figure class="grid-thumbnail">
               <img src="{{ relURL .src }}" alt="Featured Image"/>

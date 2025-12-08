@@ -8,7 +8,7 @@
 <!-- Left column: all taxonomy links -->
 <aside class="taxonomy-menu {{ $termClass }}">
   <ul>
-    {{ $exclude := slice "catastrophe" "internal" "hidden" }}
+    {{ $exclude := slice "catastrophe" "catastrofe" "internal" "hidden" }}
     {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
       {{ if not (in $exclude $name) }}
         <li>
