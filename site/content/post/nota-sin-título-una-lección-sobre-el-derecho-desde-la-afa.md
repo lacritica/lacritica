@@ -55,7 +55,7 @@ Esta compleja tabla de correlatividades incluso está simplificando la cuestión
 
 El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega como se vive”, pero señalo la correlación- es muy fullero: adhocrático, hecho a propósito inestable, enroscado y complejo, potencialmente retroactivo, disociado del cumplimiento real, selectivamente aplicado. 
 
-### El debido proceso sustantivo
+# El debido proceso sustantivo
 
 Había con todo un problema que Rex no tenía, porque era un déspota y no estaba vinculado por ñoños requisitos procedimentales, esa tecnología institucional de dividir poderes por las dudas y por los méritos que pensamos que eso nos traerá, y de establecer requisitos, procedimientos, cuerpos legislativos. De hecho, la AFA funciona con representantes, comités, tribunales de disciplina, asambleas, y un lema: “la AFA es de los clubes”. 
 
@@ -69,13 +69,23 @@ Pero este episodio muestra que las condiciones deliberativas importan. Aparentem
 
 ### La subtrama del pasillo
 
-Es fascinante porque es un *inception* dentro de este sinsentido. No se por dónde empezar, pero empecemos por algún lado. En un episodio (más) de “abusive constitutional borrowing” diría Rosalind  Dixon, se ha querido implantar una costumbre totalmente alejada de nuestras tradiciones, importada de países de cuño monárquico que a cada rato se fascinan con rituales escenificados de sumisión, totalmente ajenos a nuestra tradición (genuinamente) libertaria, igualitaria (naides es menos que naides), casquivana, y por eso todo la escena se siente ajena, impostada, irreal, fría como el viento.
+Es fascinante porque es un *inception* dentro de este sinsentido. No se por dónde empezar, pero empecemos por algún lado. En un episodio (más) de “[abusive constitutional borrowing](https://academic.oup.com/book/42100)” de Dixon y Landau, se ha querido implantar una costumbre totalmente alejada de nuestras tradiciones, importada de países de cuño monárquico que a cada rato se fascinan con rituales escenificados de sumisión, totalmente ajenos a nuestra tradición (genuinamente) libertaria, igualitaria (el libro reciente de JC Torre: [naides es más que naides](https://prismas.unq.edu.ar/OJS/index.php/Prismas/article/view/1574/2364)), casquivana, y por eso todo la escena se siente ajena, impostada, irreal, fría como el viento.
 
 Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni siquiera hubo mucha demanda de ser pasilleado de parte de los equipos homenajeados. Dicho de un modo brutal: un campeón genuino no necesita de pasillos PERO un campeón sospechado sí los requiere par certificar su campeonidad. Resuena la frase de Game of Thrones aquí:  *no true king has to say "i am the king"*. 
 
-Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
+Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. 
+
+```
+{{< youtube id="DL_X4jSCXAY" title="ESTUDIANTES le hizo un PASILLO DE ESPALDAS a un ROSARIO CENTRAL que CELEBRÓ EL TÍTULO" >}}
+```
+
+No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
+
+![Extracto del reglamento del pasillo (Boletín 6625, fechado en febrero, creado digitalmente en noviembre)](/img/reglamento-de-pasillo.png)
 
 Allí aparece otra vez un problema del derecho: las normas se presumen conocidas desde su publicacion. Nunca quedó claro entre datos y metadatos de cuando era el PDF que reglamentaba el “pasillo”, lo cual muestra una clara presciencia del boletín en lo que habría suceder varios meses después, o tal vez nos hace sospechar otra cosa.
+
+![Metadatos del boletín](/img/metadatos-del-boletín.png "Metadatos del documento, de fecha y hora posterior al pasillogate")
 
 ### Epílogo para abogados: nota a fallo (y crítica del “no trataremos todas las argumentaciones”)
 
