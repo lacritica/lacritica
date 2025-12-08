@@ -81,7 +81,11 @@ Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacer
 
 No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
 
+![Extracto del reglamento del pasillo (Boletín 6625, fechado en febrero, creado digitalmente en noviembre)](/img/reglamento-de-pasillo.png)
+
 Allí aparece otra vez un problema del derecho: las normas se presumen conocidas desde su publicacion. Nunca quedó claro entre datos y metadatos de cuando era el PDF que reglamentaba el “pasillo”, lo cual muestra una clara presciencia del boletín en lo que habría suceder varios meses después, o tal vez nos hace sospechar otra cosa.
+
+![Metadatos del boletín](/img/metadatos-del-boletín.png "Metadatos del documento, de fecha y hora posterior al pasillogate")
 
 ### Epílogo para abogados: nota a fallo (y crítica del “no trataremos todas las argumentaciones”)
 
