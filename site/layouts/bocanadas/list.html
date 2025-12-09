@@ -30,14 +30,21 @@
       <!-- RIGHT: Text -->
       <div class="pirulos-text">
         <h2>{{ .Title }}</h2>
+
+        {{ with .Params.obra_reseñada }}
+          <div class="pirulos-obra-reseñada">{{ . | markdownify }}</div>
+        {{ end }}
+
         <div class="pirulos-text-content">
           {{ .Summary }}
           <a href="{{ .RelPermalink }}">Leer más →</a>
-        </div>        
+        </div>
+
         {{ with .Params.author }}
           <p class="pirulos-author">{{ delimit . ", " }}</p>
         {{ end }}
       </div>
+
 
     </div>
 

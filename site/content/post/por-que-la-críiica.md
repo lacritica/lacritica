@@ -1,15 +1,15 @@
 ---
 title: Por qué la crítica del derecho
-date: 2025-12-01
+date: 2025-12-08
 description: Alguien tenía que hacerlo. Algunas razones para alzar la voz y combatir el pobre estado de la discusión jurídica en la Argentina. 
 categories:
   - debates
 author:
-exclude_thumbnail_from_body: true
+exclude_thumbnail_from_body: false
 thumbnail:
-  - src: "/img/system_failure.png"
-    epigraph: "Kerala, 2013"
-    copyright: "por Ramiro Álvarez Ugarte"
+  - src: "/img/rapto_suiza.png"
+    epigraph: "Rapto Suiza 2008"
+    copyright: "por [Florencia Garduño](https://florgarduno.com/)"
 highlight: true
 highlight2: false
 callouts:

@@ -46,16 +46,24 @@
     {{ $exclude := slice "catastrophe" "catastrofe" "internal" "hidden" }}
 
     <ul>
-      {{ range $key, $value := . }}
-        {{ if not (in $exclude $key) }}
-          <li>
-            <a href="{{ "/categories/" | relURL }}{{ $key | urlize }}">
-              {{ $key }}
-            </a>
-          </li>
-        {{ end }}
-      {{ end }}
-    </ul>
+  {{ range $key, $value := . }}
+    {{ if not (in $exclude $key) }}
+      <li>
+        <a href="{{ "/categories/" | relURL }}{{ $key | urlize }}">
+          {{ $key }}
+        </a>
+      </li>
+    {{ end }}
+  {{ end }}
+
+  <!-- Extra link inside the UL -->
+  <li>
+    <a href="/bocanadas/">bocanadas</a>
+  </li>
+</ul>
+
+
+
 
   {{ end }}
 </div>

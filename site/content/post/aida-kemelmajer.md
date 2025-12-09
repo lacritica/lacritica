@@ -1,10 +1,9 @@
 ---
 title: Aída Kemelmajer
 slug: aida-kemelmajer
-date: 2025-12-07
+date: 2025-12-09T10:00:10Z
 description: Un repaso por la vida y obra de una de las juristas más importantes de la Argentina. 
 author: 
-  - Gustavo Maurino
 categories:
   - entrevistas
 thumbnail:
@@ -19,7 +18,7 @@ callouts:
   - Durante veintiséis años traté de escribir claro, sobre todo, para que me entendiera quien pierde. Me enseñaron que para esto es necesario hacer lo que siempre indica la maestra de primer grado, o sea, escribir sujeto, verbo y predicado, en ese orden.
 ---
 
-**Quisiéramos comenzar con algún recorrido por su biografía jurídica: ¿Cómo fue su inicio en el camino del derecho?, ¿por qué estudió abogacía?, ¿qué recuerdos podría compartirnos de sus épocas de estudiante?, ¿qué clase de estudiante era?**
+**Gustavo Maurino --- Quisiéramos comenzar con algún recorrido por su biografía jurídica: ¿Cómo fue su inicio en el camino del derecho?, ¿por qué estudió abogacía?, ¿qué recuerdos podría compartirnos de sus épocas de estudiante?, ¿qué clase de estudiante era?**
 
 *Aída Kemelmajer* --- Yo nací en una familia en la que no había abogados. Mi decisión de seguir esta carrera comenzó en el colegio secundario; vivía en San Martín, una ciudad que se encuentra a 40 Km de la capital de Mendoza. Cursaba el bachillerato en un establecimiento educativo que se había creado gracias a la gestión de Felipe Llaver , quien posteriormente fue gobernador de la provincia, cuando era diputado nacional. Por entonces, había una materia que se llamada "Educación Democrática"; la tenía a su cargo un abogado joven de San Martín, que se había recibido en la universidad de Córdoba, como era usual en esa época. Además de los buenos profesores "locales", teníamos excelentes profesores que, con gran vocación, se trasladaban diariamente en ómnibus desde Mendoza. No había autopista que uniera las dos ciudades y el transporte público se detenía en cada localidad por lo que demoraba cerca de una hora y media para ir y otra para volver. Ellos generaron en mí la obligación de responder a semejante pasión y esfuerzo por la enseñanza; creo que era una buena alumna, no porque fuese muy inteligente (mi hermana mayor era mucho más inteligente que yo) sino porque ponía toda la voluntad del mundo; reflexionando a la distancia, quizás inconscientemente, mi voluntad iba dirigida a mostrarles que el sacrificio de venir diariamente hasta nosotros valía la pena. Llegamos al  "quinto año del Nacional" un grupo muy unido, con un importante sentido de la colaboración entre nosotros. Un número significativo siguió carreras universitarias.
 

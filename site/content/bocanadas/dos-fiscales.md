@@ -1,11 +1,13 @@
 ---
-title: "Dos fiscales"
-date: 2025-12-07
+title: "Una fiscal sobre 'Dos fiscales'"
+date: 2025-12-09
 description: Una fiscal habla sobre Dos fiscales
 categories: 
   - reseñas
 author: 
   - María Luisa Piqué
+obra_reseñada: Dos Fiscales, Sergei Loznitsa (2025)
+exclude_thumbnail_from_body: true
 thumbnail:
   - src: "/img/dosfiscales.png"
     epigraph: "Dos Fiscales, Sergei Loznitsa (2025)"

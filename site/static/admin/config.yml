@@ -155,12 +155,14 @@ collections:
 
       - label: "Twitter"
         name: "twitter_handle"
+        required: false
         widget: "string"
         hint: "Usuario de Twitter (sin arroba)"
 
       - label: "ORCID"
         name: "orcid"
         widget: "string"
+        required: false
         hint: "Número de ORCID (si se quiere)"
 
       - label: "Bio más larga"

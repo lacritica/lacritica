@@ -1,7 +1,8 @@
 ---
-title: "Aportes de la Halajá en la interpretación jurídica (pero sin IA)"
+title: "Aportes de la Halajá a la interpretación jurídica (sin IA)"
 slug: aportes-de-la-halaja-reales
-date: 2025-12-01
+date: 2025-12-09T10:00:01Z
+draft: true
 description: Nos subimos a la polémica, no para leer a la obra acusada sino para rescatar a Robert Cover, quién nos enseñó que la tradición religiosa tiene mucho para ofrecer
 categories:
   - ensayos

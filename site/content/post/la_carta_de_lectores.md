@@ -1,11 +1,12 @@
 ---
-title: La carta de lectores
+title: La carta contra la autoamnistía 
 date: 1983-09-12
 description: Un documento histórico recuperado
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
 author:
+autores_grouped: por Jaime Malamud Goti, Genaro Carrió & Carlos Nino
 thumbnail:
   - src: "/img/carta_la_nacion.jpg"
     epigraph: "Carta de lectores, La Nación"

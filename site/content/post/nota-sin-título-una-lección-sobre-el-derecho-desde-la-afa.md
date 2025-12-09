@@ -1,7 +1,7 @@
 ---
 title: "Nota sin título: una lección sobre el derecho desde la AFA"
 slug: una-leccion-sobre-el-derecho-desde-la-afa
-date: 2025-12-05T14:25:46.532Z
+date: 2025-12-09T10:00:09Z
 description: Sobre Fuller y la moral interna del derecho, a próposito del
   campeonato de Rosario Central
 categories:

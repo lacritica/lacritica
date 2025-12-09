@@ -1,6 +1,6 @@
 ---
 title: Como una ley, pero no más que una ley. Un límite olvidado de los DNU
-date: 2025-12-01
+date: 2025-12-09T10:00:01Z
 description: Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy los DNU forman parte del paisaje de la gobernanza diaria.
 categories:
   - debates

@@ -3,6 +3,10 @@
 
 <div class="pirulo-row">
 
+{{ $section := site.GetPage "section" "bocanadas" }}
+<!--<h3 class="pirulo-section-title">{{ $section.Title }}</h3>-->
+    <h4 class="pirulo-section-title">{{ "bocanadas" }}</h4>
+
   {{/* Get latest pirulo by .Date */}}
   {{ $list := where .Site.RegularPages "Section" "bocanadas" }}
   {{ $latest := first 1 (sort $list ".Date" "desc") }}
@@ -10,34 +14,41 @@
   {{ if $latest }}
     {{ $item := index $latest 0 }}
 
-    <!-- Link to section -->
     <a class="pirulo-card" href="{{ (site.GetPage "section" "bocanadas").RelPermalink }}">
 
-      {{ with $item.Params.thumbnail }}
-        {{ $raw := . }}
-        {{ $thumb := dict }}
+      <!-- WRAPPER for thumbnail + obra reseñada -->
+      <div class="pirulo-thumb-wrapper">
 
-        {{ if reflect.IsMap $raw }}
-          {{ $thumb = $raw }}
-        {{ else if reflect.IsSlice $raw }}
-          {{ $thumb = index $raw 0 }}
-        {{ else if (eq (printf "%T" $raw) "string") }}
-          {{ $thumb = dict "src" $raw }}
-        {{ end }}
+        {{ with $item.Params.thumbnail }}
+          {{ $raw := . }}
+          {{ $thumb := dict }}
 
-        {{ with $thumb.src }}
-          {{ $src := "" }}
-
-          {{ with $item.Resources.GetMatch . }}
-            {{ $src = .RelPermalink }}
-          {{ else }}
-            {{ $src = (. | relURL) }}
+          {{ if reflect.IsMap $raw }}
+            {{ $thumb = $raw }}
+          {{ else if reflect.IsSlice $raw }}
+            {{ $thumb = index $raw 0 }}
+          {{ else if (eq (printf "%T" $raw) "string") }}
+            {{ $thumb = dict "src" $raw }}
           {{ end }}
 
-          <img class="pirulo-img" src="{{ $src }}" alt="{{ $item.Title }}">
+          {{ with $thumb.src }}
+            {{ $src := "" }}
+
+            {{ with $item.Resources.GetMatch . }}
+              {{ $src = .RelPermalink }}
+            {{ else }}
+              {{ $src = (. | relURL) }}
+            {{ end }}
+
+            <img class="pirulo-img" src="{{ $src }}" alt="{{ $item.Title }}">
+          {{ end }}
         {{ end }}
 
-      {{ end }}
+        {{ with $item.Params.obra_reseñada }}
+          <div class="pirulo-obra-reseñada">{{ . }}</div>
+        {{ end }}
+
+      </div> <!-- end wrapper -->
 
       <div class="pirulo-title-item">{{ $item.Title }}</div>
 
@@ -45,14 +56,11 @@
         <div class="pirulo-author">por {{ delimit . ", " }}</div>
       {{ end }}
 
-
     </a>
   {{ end }}
 
 </div>
 
 <style>
-
-
 
 </style>

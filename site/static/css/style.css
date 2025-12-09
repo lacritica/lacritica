@@ -19,6 +19,7 @@
   --neutral-beige: #ebd9c7;
   --blockquote-color: #E5DFD2; 
   --mustard: #a1a63f;
+  --orange: #f5a142;
 
   /* Supporting neutrals */
   --neutral-100: #FAFAFA;
@@ -299,6 +300,7 @@ body {
   max-width: 1000px;
   width: 100%;
   gap: 2rem;
+  margin-top: -2rem;  /* remove top margin */
 }
 
 
@@ -320,8 +322,8 @@ body {
     to bottom,
     transparent 50%,
     transparent 50%,
-    var(--neutral-300) 50%,
-    var(--neutral-300) 100%
+    var(--neutral-beige) 50%,
+    var(--neutral-beige) 100%
   );
   /* compact but comfortable padding */
   padding: 1.2rem;
@@ -363,6 +365,13 @@ body {
   background-color: var(--accent-beige);
 }
 
+.misc-autores-grouped {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Jost';
+  font-size: .9rem;
+}
+
 /* --- AUTHOR + DATE --- */
 .home-featured-right .misc-author,
 .home-featured-right .misc-date {
@@ -401,23 +410,27 @@ body {
 
 .home-featured-center .home-callouts {
   position: relative;
-  padding: 1rem;
+  padding: 0rem;
   width: 100%;
   margin-right: auto;  /* pushes it left */
 }
 
 .home-callout {
-  background: var(--neutral-pale-blue);
-  padding: 1rem;
-  border-radius: 12px;
+  background: var(--base-bg);
+  padding: 0rem;
+  border: 0px solid var(--primary-dark);
+  border-radius: 2px;
   margin-bottom: 2rem;
   color: white;
 }
 
 .home-callout .callout-text {
+  color: var(--neutral-800);
+  text-transform: uppercase;
   margin-top: 2rem;
   font-size: 1.5rem;
-  line-height: 1.1;
+  font-weight: 700;
+  line-height: 1.4;
   text-align: left !important;
 }
 
@@ -431,11 +444,13 @@ body {
 }
 
 .home-callout .callout-title a:hover {
-  background-color: var(--forest-green);
+  background-color: var(--neutral-beige);
 }
 
 /* Callout meta: inline flow */
 .home-callout .callout-meta {
+  background-color: var(--base-bg);
+  color: var(--neutral-800);
   display: block;        /* flow naturally */
   font-size: 1rem;
   margin-left: 4rem;
@@ -446,6 +461,10 @@ body {
   text-align: left !important;
 }
 
+
+.home-callout .callout-meta span {
+  display: inline-flex;
+}
 
 .home-callout .callout-meta span::after {
   content: ", ";
@@ -461,6 +480,20 @@ body {
     cursor: pointer;       /* normal cursor instead of pointer, if desired */
 }
 
+.pirulos-obra-reseñada {
+  font-family: 'Jost';
+  font-size: .8rem;
+  margin-top: -1.5rem;
+  margin-left: .1rem;
+  font-style: italic;
+}
+
+.pirulos-obra-reseñada a:link,
+.pirulos-obra-reseñada a:visited {
+  color: black;
+  text-decoration: none;
+}
+
 .pirulo-title-item:hover {
   background-color: var(--accent-beige) !important;
 }
@@ -472,8 +505,8 @@ body {
   border-radius: 4px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.15);
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 0.6rem;
 }
 
@@ -486,14 +519,14 @@ body {
   overflow-wrap: anywhere;
 
   /* Increase the space INSIDE the box */
-  padding: 3rem;  /* adjust this as needed */
+  padding: 1rem 3rem 3rem 3rem;  /* adjust this as needed */
 
   background: linear-gradient(
     to bottom,
     transparent 0%,
     transparent 60%,
-    var(--neutral-300) 50%,
-    var(--neutral-300) 100%
+    var(--neutral-beige) 50%,
+    var(--neutral-beige) 100%
   );
 }
 
@@ -506,6 +539,81 @@ body {
   font-family: 'Jost';
   font-size: 1.4rem;
 }
+
+
+.pirulo-thumb-wrapper {
+  display: flex;
+  flex-direction: column; /* obra_reseñada below the image */
+  align-items: flex-start; /* align left with image */
+  gap: 4px;
+}
+
+.pirulo-img {
+  max-width: 100%;
+}
+
+.pirulo-section-title {
+  display: block;
+  width: 100%;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: 'Jost';
+  font-weight: 500;
+  margin-bottom: .2rem;
+  color: var(--accent-burgundy);
+}
+
+.pirulo-obra-reseñada {
+  font-family: 'Jost';
+  font-weight: 300;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  margin-top: -0.5rem;
+
+}
+
+.pirulos-text-content h3 {
+  font-family: 'Jost';
+}
+
+.pirulos-text-content a {
+  color: black;
+}
+
+.pirulos-thumbnail,
+.pirulos-thumbnail picture,
+.pirulos-thumbnail .post-thumbnail,
+.pirulos-thumbnail .entry-thumb {
+  height: auto !important;
+  overflow: visible !important;
+  object-fit: contain !important;
+}
+
+.pirulos-thumbnail {
+  justify-self: end;
+  align-self: start;          /* keep top alignment */
+  padding-right: 1.5rem;      /* space toward the text */
+  border-right: 1px solid var(--divider-color, #ccc);
+}
+
+/* Image on the RIGHT column → align to the LEFT (toward the gap) */
+.pirulos-item:nth-child(even) .pirulos-thumbnail {
+  justify-self: start;
+  padding-right: 0;
+  padding-left: 1.5rem;
+  border-right: none;
+  border-left: 1px solid var(--divider-color, #ccc);
+}
+
+.pirulos-thumbnail img {
+  width: 100%;        /* landscapes fill width */
+  height: auto;       /* keep aspect ratio */
+  max-height: 450px;  /* portrait images shrink */
+  object-fit: contain !important;
+}
+
+
 
 .pirulo-author {
   font-family: 'Jost';
@@ -584,7 +692,7 @@ body {
     background: linear-gradient(
       to bottom,
       transparent 30%,
-      var(--neutral-300) 30%
+      var(--neutral-beige) 30%
     );
 
     padding: 1rem;
@@ -649,7 +757,7 @@ body {
 
   .home-featured-right .misc-author,
   .home-featured-right .misc-date {
-    font-size: 1rem;
+    font-size: 0.9rem;
 
   }
 }
@@ -1160,6 +1268,10 @@ span.sidenote small {
   text-align: left;      /* left-align for readability */
   line-height: 1.4;
   max-width: calc(100% - 100px - 1rem);
+}
+
+#content .obra-text a {
+  color: black;
 }
 
 #content .publicado-originalmente-en {
@@ -1848,6 +1960,12 @@ span.sidenote small {
 .taxonomy-bar li a:hover {
   background-color: var(--primary-dark);
   color: var(--base-bg);
+}
+
+.taxonomy-list {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 /* Optional: Add media query for desktop to restore wrapping */

@@ -1,8 +1,8 @@
 ---
 title: La exclusión constitutiva
 slug: la-exclusion-constitutiva-la-critica-feminista-al-originalismo
-date: 2025-12-02
-description: Este ensayo es sobre la crítica feminista al método originalista de
+date: 2025-12-09T10:00:06Z
+description: Un crítica feminista al método originalista de
   interpretación constitucional.
 categories:
   - ensayos

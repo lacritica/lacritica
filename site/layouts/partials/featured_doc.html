@@ -43,6 +43,13 @@
           </a>
         {{ end }}
       </div>
+      
+      {{/* Autores Grouped */}}
+      {{ with .Params.autores_grouped }}
+        <div class="misc-autores-grouped">
+          {{ . }}
+        </div>
+      {{ end }}
 
       {{/* Date */}}
       <div class="misc-date">

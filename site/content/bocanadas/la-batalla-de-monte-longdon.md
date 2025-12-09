@@ -2,6 +2,11 @@
 title: La batalla de Monte Longdon
 date: 2025-12-07T15:04:00.291Z
 slug: la-batalla-de-monte-longdon
+thumbnail:
+  - src: "/img/malvinas_dia_por_dia.png"
+    epigraph: "Malvinas, Día x Día"
+    copyright: 
+obra_reseñada: "Malvinas, Día x Día, [YouTube](https://www.youtube.com/@malvinasdiaxdia), 2025."
 author:
   - Gustavo Arballo
 ---
