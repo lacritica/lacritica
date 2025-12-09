@@ -5,8 +5,15 @@
 
     <main class="article-layout-authors">
 
+
+
       <!-- LEFT COLUMN (Sidebar) -->
       <div class="article-sidebar">
+                    {{ with .Content }}
+        <div class="authors-intro">
+          {{ . }}
+        </div>
+        {{ end }}
         <h1 class="post-title">{{ .Title }}</h1>
       </div>
 

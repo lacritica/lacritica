@@ -2,7 +2,7 @@
 title: ¿Un país sin contratos?
 slug: paissincontratos
 date: 2025-12-09T10:00:01Z
-description: El mercader de Venecia ante la nueva jurisprudencia de la CSJN
+description: El mercader de Venecia ante la nueva jurisprudencia de la Corte Suprema
 categories:
   - debates
 author:

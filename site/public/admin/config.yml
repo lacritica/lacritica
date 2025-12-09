@@ -140,8 +140,6 @@ collections:
         hint: "nombre-apellido1-apellido2"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
-      - { label: "Type", name: "type", widget: "hidden", default: "authors" }
-
       - label: "thumbnail"
         name: "thumbnail"
         widget: "image"

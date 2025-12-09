@@ -1,7 +1,7 @@
 ---
 title: Por qué la crítica del derecho
-date: 2025-12-08
-description: Alguien tenía que hacerlo. Algunas razones para alzar la voz y combatir el pobre estado de la discusión jurídica en la Argentina. 
+date: 2025-12-09
+description: Algunas razones para alzar la voz y combatir el pobre estado de la discusión jurídica en la Argentina. 
 categories:
   - debates
 author:
@@ -26,3 +26,4 @@ Tal vez como reacción a este cinismo descorazonador, aparece una versión opues
 La crítica del derecho nace para combatir este insatisfactorio estado del debate jurídico argentino. Creemos que el derecho tiene un rol importante que cumplir en nuestra vida pública: en definitiva, y con todas sus limitaciones, el derecho expresa nuestras aspiraciones como comunidad y nos da una tecnología para poner en práctica el ideal del autogobierno colectivo.
 
 La crítica del derecho busca ser un espacio plural para pensar el derecho con rigurosidad, pero también con frescura. Nos maravilla y apasiona la conversación y el intercambio de perspectivas en busca de los mejores argumentos, precisamente aquellos que mejor se sostienen y resisten el ejercicio de la crítica reflexiva. Nos anima la convicción de que no hay verdadera vida en comunidad si las normas que nos damos, quienes las hacen en nuestro nombre, y quienes las aplican con la autoridad que les da el derecho, no son objeto de una crítica persistente y de un diálogo constante destinado a perdurar y sobrevivirnos. La crítica del derecho busca recuperar la tradición del debate abierto para quienes crean que convencer a sus conciudadanos es el mejor modo para crear nuestras reglas y autogobernarnos. Es la práctica de La Crítica lo que construye y cimenta las mejores razones para el mejor derecho en una comunidad democrática.
+

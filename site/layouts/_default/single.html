@@ -172,17 +172,23 @@
 
         {{- $.Scratch.Set "thumbHTML" (printf "<figure class='thumbnail-insert'>") -}}
         {{- $.Scratch.Add "thumbHTML" (printf "<img src='%s' alt=''>" $src) -}}
-
+        
         {{- if or $thumb.epigraph $thumb.copyright }}
           {{- $.Scratch.Add "thumbHTML" "<figcaption>" -}}
+
             {{- if $thumb.epigraph }}
-              {{- $.Scratch.Add "thumbHTML" (printf "<span class='epigraph'>%s</span>" $thumb.epigraph) -}}
+              {{- $epi := $thumb.epigraph | markdownify }}
+              {{- $.Scratch.Add "thumbHTML" (printf "<span class='epigraph'>%s</span>" $epi) -}}
             {{- end }}
+
             {{- if $thumb.copyright }}
-              {{- $.Scratch.Add "thumbHTML" (printf "<span class='copyright'>%s</span>" $thumb.copyright) -}}
+              {{- $copy := $thumb.copyright | markdownify }}
+              {{- $.Scratch.Add "thumbHTML" (printf "<span class='copyright'>%s</span>" $copy) -}}
             {{- end }}
+
           {{- $.Scratch.Add "thumbHTML" "</figcaption>" -}}
         {{- end }}
+
 
         {{- $.Scratch.Add "thumbHTML" "</figure>" -}}
         {{ $thumbHTML := $.Scratch.Get "thumbHTML" }}

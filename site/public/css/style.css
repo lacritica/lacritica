@@ -19,7 +19,7 @@
   --neutral-beige: #ebd9c7;
   --blockquote-color: #E5DFD2; 
   --mustard: #a1a63f;
-  --orange: #f5a142;
+  --orange: #ffa94c;
 
   /* Supporting neutrals */
   --neutral-100: #FAFAFA;
@@ -104,6 +104,13 @@ body {
   color: var(--neutral-600);
 }
 
+.authors-intro {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
 /* Titles and headers */
 
 /* === FIRST ROW === */
@@ -128,6 +135,11 @@ body {
 .hero-column:nth-of-type(2) { grid-area: column2; }
 .featured-center {
   grid-area: feature;   /* ADD THIS so the middle child has a name */
+}
+
+.secondary-background {
+  width: 100%;
+  background-color: var(--accent-burgundy);
 }
 
 .secondary-grid {
@@ -310,7 +322,7 @@ body {
 
 .home-featured-center {
   flex: 0 0 60%; /* width: 60% */
-    transform: translateY(40px); /* adjust value */
+  /*transform: translateY(40px); /* adjust value */
 
 
 }
@@ -843,6 +855,7 @@ span.sidenote small {
 
 #content .article-content {
   min-width: 0;
+
 }
 
 #content .article-content img {
@@ -2335,15 +2348,17 @@ span.sidenote small {
 .article-layout-authors {
   margin-top: 2rem;
   margin-right: 2rem;
-  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
   grid-template-columns: 1fr 6fr;  /* wider author grid */
   gap: 2rem;
   padding-left: 2rem;
   align-items: start;
 }
 
-.article-layout-authors. .article-sidebar .post-title {
-  max-width: 200px;
+.article-layout-authors .article-sidebar .post-title {
+  text-align: center;
 }
 
 

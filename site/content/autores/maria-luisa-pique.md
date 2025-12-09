@@ -1,7 +1,7 @@
 ---
 title: María Luisa Piqué
 twitter_handle: marialpique
-bio: María Luisa Piqué es Fiscal de la Procuración General de la Nación y profesora de Garantías Constitucionales del Derecho Penal en la UBA y Género y Drrecho Penal en la maestría de la UDESA
+bio: María Luisa Piqué es Fiscal de la Procuración General de la Nación y profesora de Garantías Constitucionales del Derecho Penal en la UBA y Género y Derecho Penal en la maestría de la UDESA
 thumbnail: /img/maria-luisa-piqué.png
 ---
 
