@@ -1,0 +1,64 @@
+<svg
+   width="776.59412"
+   height="406.78738"
+   viewBox="0 0 69.89347 36.610865"
+   id="emoji"
+   version="1.1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <g
+     id="color"
+     transform="translate(-1.164845,-17.753018)" />
+  <g
+     id="hair"
+     transform="translate(-1.164845,-17.753018)" />
+  <g
+     id="skin"
+     transform="translate(-1.164845,-17.753018)" />
+  <g
+     id="skin-shadow"
+     transform="translate(-1.164845,-17.753018)" />
+  <g
+     id="line"
+     transform="matrix(1.6641302,0,0,1.6641302,-24.961953,-41.603255)">
+    <line
+       x1="16"
+       x2="56"
+       y1="26"
+       y2="26"
+       fill="none"
+       stroke="#F5F3EE"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       id="line1" />
+    <line
+       x1="16"
+       x2="56"
+       y1="36"
+       y2="36"
+       fill="none"
+       stroke="#F5F3EE"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       id="line2" />
+    <line
+       x1="16"
+       x2="56"
+       y1="46"
+       y2="46"
+       fill="none"
+       stroke="#F5F3EE"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       stroke-miterlimit="10"
+       stroke-width="2"
+       id="line3" />
+  </g>
+
+</svg>
