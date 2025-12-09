@@ -773,10 +773,7 @@ body {
 
   }
 
-  .list-of-pirulos {
-    padding-left: 0;
-    padding-right: 0;
-}
+
 
 }
 }
@@ -943,20 +940,22 @@ span.sidenote small {
 /* Callouts / destacados */ 
 
 .callout-wrapper {
-  background-color: var(--neutral-pale-blue);
+  background-color: var(--base-bg);
 }
 
 .callout-text {
-  color: var(--base-bg);
+  color: var(--neutral-800);
+  font-weight: 700;
   font-family: 'Jost';
-  font-size: 1.8rem;
-  border-left: 8px solid var(--accent);
+  font-size: 2rem;
+  text-transform: uppercase;
+  border-left: 8px solid var(--accent-burgundy);
   padding: 2rem 4rem;
 }
 
 .callout-meta {
-  background-color: var(--neutral-pale-blue);
-  color: var(--base-bg);
+  background-color: var(--base-bg);
+  color: var(--neutral-800);
   font-family: 'Jost';
   font-size: 1.1rem;
   padding: 0rem 4rem 2rem;
@@ -975,7 +974,7 @@ span.sidenote small {
 }
 
 .share-fixed {
-  border-top: 1px solid var(--base-bg);
+  border-top: 1px solid var(--neutral-800);
   display: flex;
   justify-content: space-between; /* left logo + right icons */
   align-items: center;

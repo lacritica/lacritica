@@ -2,6 +2,7 @@
 title: Leandro Dias
 twitter_handle: ldiasjura
 bluesky_handle: ldiasjura.bsky.social
+draft: true
 bio: Investigador postdoctoral (Habilitand) en la Julius-Maximilians-Universität Würzburg
   (JMU); profesor invitado en la Universidad Torcuato Di Tella (UTDT)
 thumbnail: img/leandro_dias.jpg

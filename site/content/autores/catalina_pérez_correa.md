@@ -2,6 +2,7 @@
 title: Catalina Pérez Correa
 twitter_handle: Cataperezcorrea
 bluesky_handle: cperezcorrea.bsky.social
+draft: true
 bio: Maestra y doctora de la escuela de derecho de Stanford, Investigadora de APEPD
 thumbnail: img/catalina_pérez_correa.jpg
 ---

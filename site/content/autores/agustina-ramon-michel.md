@@ -1,7 +1,6 @@
 ---
 title: Agustina Ramón Michel
 twitter_handle: agustinabless
-draft: true
 bio: Investigadora asociada del CEDES y profesora de derecho en la Universidad de
   Palermo.
 thumbnail: img/agustina_ramón_michel.jpg

@@ -15,6 +15,8 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
+callouts: 
+  - La idea, como todos lo sabemos, era que las mujeres e indígenas no tenían dignidad suficiente para ser ciudadanas. 
 ---
 
 Me resulta particularmente extraña la incomprensión de un argumento tan simple, tan directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué no se entiende de lo obvio?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se opone a la conversación del constitucionalismo con el punto de vista feminista?
@@ -52,6 +54,8 @@ Cuando hablamos del constituyente originario, hablamos de una élite de individu
 Si al anacronismo disciplinar le sumamos esta grosera impostación, estamos metiendo un elefante bajo la alfombra. Evitamos la pregunta del porque los constituyentes sólo le reconocieron derechos al individuo varón no subalternado (como ellos). Y así cerramos la puerta a la indagación sobre las ideas misóginas y racistas que movieron a la proscripción sexual y racial de nuestra constitución. Tratamos como una anécdota de la historia constitucional, lo que es una parte substantiva de la "ideología" del constitucionalismo.
 
 La idea, como todos lo sabemos, era que las mujeres e indígenas no tenían dignidad suficiente para ser ciudadanas. En el caso de las mujeres ello devenía de su inferioridad biológica (sic), la que acaso tenía que ver con el pecado original (en la narrativa de las sagradas escrituras), o bien, con su falta de autocontrol y malicia seductora congénita, de acuerdo a la "filosofía" de época. La creencia en esta “malicia seductora” fue desarrollada en detalle por la escolástica en la Edad Media,[^4] en el debate conocido como “la querella de las mujeres,” antesala del genocidio femenino, parafraseado como "quema de brujas."  En esa "malicia seductora" esta la fuente de la construcción moral y política de la misoginia. Y ella muestra sus huellas en el ahincó de la crítica de Alberdi hacia la actriz Lola Montés, en sus Bases (Ver 1853-1994:80). Estamos hablando de una doctrina moral y política “misógina”, compartida y/o avalada por nuestros ilustrados constituyentes. No fue un hábito de época, o una mera tecnología cruel, como la de ensillar al caballo con espuelas. Fue una doctrina, como la del liberalismo y el republicanismo. ¿Cómo es posible seguir sosteniendo que la propuesta más democrática que tenemos para interpretar la constitución es atarnos al sentido axiológico-político que le dieron aquellos señores?
+
+{{< callout 0 >}}
 
 Hay que dejar de pensar “tan frescamente” que la misoginia era sólo una forma de ver a las mujeres en “esa época.” La misoginia es una forma de ver el mundo público, de entender al estado, de pensar la democracia, de razonar el liberalismo, y de construir la república. La mirada misógina de los modernos determinó lo que entendemos por “libertad”, por “autonomía”, y sobre todo, lo que entendemos por “lo” constitucional. Déjenme intentar probarlo, al menos en parte, en el corto espacio que me queda.
 
