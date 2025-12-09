@@ -8,6 +8,7 @@ obra_reseñada: Malvinas, Día x Día, [YouTube](https://www.youtube.com/@malvin
 author:
   - Gustavo Arballo
 ---
+
 [“La batalla de Monte Longdon”](https://youtu.be/_Ve7yq1qRG4?si=aDcWy2vHYF4r5ITi) es el capítulo 31 y la -hasta ahora- última entrega de [“Malvinas Día por Día”](https://www.youtube.com/@malvinasdiaxdia), un folletín audiovisual documental que estoy viendo desde hace tres años: el realizador Gabriel Concatti arma capítulos de duración variable y los va subiendo a YouTube a intervalos también variables (recomendamos [empezar desde el principio)](https://www.youtube.com/watch?v=eQPQO7fYimQ).
 
 El solo efecto de poner los acontecimientos en mapa, día y hora, a través de una voz en off omnisciente del episodio y del contexto, con un minucioso y obsesivo nivel de detalle de las acciones, da lugar a una experiencia inmersiva y devastadora. El recurso de la infografía animada, dominante, se combina con perlas de archivo bien dosificadas, escenas de cómo operaba la disfuncional cadena de decisiones, y una decisión editorial respetuosa de darle a cada víctima su rostro, en una puesta que rehúye el subrayado y confía en la acumulación de los hechos.

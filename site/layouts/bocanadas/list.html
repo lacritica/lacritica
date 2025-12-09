@@ -36,9 +36,14 @@
         {{ end }}
 
         <div class="pirulos-text-content">
-          {{ .Summary }}
-          <a href="{{ .RelPermalink }}">Leer más →</a>
-        </div>
+  {{ if in .RawContent "<!--more-->" }}
+    {{ .Summary }}
+    <a href="{{ .RelPermalink }}">Leer más →</a>
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+</div>
+
 
         {{ with .Params.author }}
           <p class="pirulos-author">{{ delimit . ", " }}</p>
@@ -192,6 +197,13 @@
 
 }
 
+@media (max-width: 768px) {
+
+  .list-of-pirulos {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+}
 
 
 </style>

@@ -772,6 +772,13 @@ body {
     font-size: 0.9rem;
 
   }
+
+  .list-of-pirulos {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+}
 }
 
 
