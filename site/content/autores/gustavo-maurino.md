@@ -1,8 +1,8 @@
 ---
-title: "Gustavo Maurino"
-slug: "gustavo-maurino"
-bio: "Profesor de derecho constitucional en la UBA"
-thumbnail: "img/maurino.png"
+title: Gustavo Maurino
+slug: gustavo-maurino
+thumbnail: img/maurino.png
+bio: Abogado y Profesor de Derecho. Director Académico de ELAC
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Aprendiendo y enseñando sobre Derecho y Abogacía. Entre la teoría constitucional, los derechos humanos, el acceso a la justicia y la abogacía comunitaria. En viaje por la sociedad civil, las políticas públicas y las aulas.
