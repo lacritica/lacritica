@@ -52,7 +52,7 @@ Más vicios: aún si asumieramos que este campeonato no estuvo afectado por el d
 
 ![Plano de copas del fútbol argentino](/img/copas.png "Las copas del fútbol argentino")
 
-Esta compleja tabla de correlatividades incluso está simplificando la cuestión. Detalles como “qué pasa si el campéon de la tabla anual es además el campeón del trofeo de campeones, -y en ese caso se le da el título sin jugar, o juega contra el segundo de la tabla anual, o bien contra el perdedor de la final del torneo de campeones- quedan al margen de la infografía y muy probablemente de la reglamentación y se resuelverán ex post como ha ocurrido en el pasado cercano, como hacía el Rex de Fuller, a los ponchazos.
+Esta compleja tabla de correlatividades incluso está simplificando la cuestión. Detalles como “qué pasa si el campéon de la tabla anual es además el campeón del trofeo de campeones, -y en ese caso se le da el título sin jugar, o juega contra el segundo de la tabla anual, o bien contra el perdedor de la final del torneo de campeones- quedan al margen de la infografía y muy probablemente de la reglamentación y se resuelverán ex post como ha ocurrido en el pasado cercano, como hacía el Rex de Fuller, a los ponchazos, o [finales que se dejan sin resolver y sin jugar](https://lapaginamillonaria.com/river-plate/mientras-la-afa-le-regala-un-titulo-a-rosario-central-las-dos-finales-que-todavia-le-deben-a-river), dando lugar a campeonatos schubiertianos, eternamente inconclusos.
 
 El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega como se vive”, pero señalo la correlación- es muy fullero: adhocrático, hecho a propósito inestable, enroscado y complejo, potencialmente retroactivo, disociado del cumplimiento real, selectivamente aplicado. 
 
@@ -60,9 +60,9 @@ El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega com
 
 Había con todo un problema que Rex no tenía, porque era un déspota y no estaba vinculado por ñoños requisitos procedimentales, esa tecnología institucional de dividir poderes por las dudas y por los méritos que pensamos que eso nos traerá, y de establecer requisitos, procedimientos, cuerpos legislativos. De hecho, la AFA funciona con representantes, comités, tribunales de disciplina, asambleas, y un lema: “la AFA es de los clubes”. 
 
-Eso nos lleva a hacer zoom en un punt en donde encontramos más problemas en ese episodio donde se forjó la decisión del campeonato, adjudicado entre gallos y mediasiesta.
+Eso nos lleva a hacer zoom en un punto en donde encontramos más problemas en ese episodio donde se forjó la decisión del campeonato, adjudicado entre gallos y mediasiesta.
 
-Sabemos las pullas que recibe toda construcción “deliberativa” con bravuconadas del tipo de si sus postulantes son tarados que quieren que haya un idílico simposio habermasiano que sea un dispenser de soluciones superadoras en conflictos públicos y morales. El decisionismo “basado” cuenta manos, el que sumo más levantadas gana y a otra cosa (salvo que empaten 68 a 68 y ya tuvimos esta conversación).
+Sabemos las pullas que recibe toda construcción “deliberativa” con bravuconadas del tipo de si sus postulantes son tarados que quieren que haya un idílico simposio habermasiano que sea un dispenser de soluciones superadoras en conflictos públicos y morales. El decisionismo “basado” cuenta manos, el que sumo más levantadas gana y a otra cosa (salvo que votando en una asamblea de 75 miembros empaten 38 a 38 y [ya tuvimos esta conversación](https://tn.com.ar/deportes/futbol/2022/12/03/el-mayor-escandalo-en-la-historia-de-la-afa-el-dia-que-una-votacion-de-75-asambleistas-salio-38-a-38/?gad_source=1&gad_campaignid=14585373759&gbraid=0AAAAADLqQAOg2iVIFXErcv7h88zSX4ca-&gclid=CjwKCAiA0eTJBhBaEiwA-Pa-hRD-orGg2HPZpVT6Pwd-RQxS5hu3-mjtCVxGV42SYDQRiGUO8BTk7hoCjRkQAvD_BwE)).
 
 Pero este episodio muestra que las condiciones deliberativas importan. Aparentemente -leemos en [esta nota de Alejandro Casar Gonzalez](https://www.lanacion.com.ar/deportes/futbol/el-centralgate-todo-lo-que-paso-en-la-reunion-de-la-liga-profesional-que-corono-al-canalla-nid21112025/)- la decisión no fue explícitamente incorporada en un orden del día, que se presentó ambiguamente como un “homenaje” al equipo que más puntos obtuvo, al que nadie se opuso (dicho a medias, no sabían que estaba en juego UN CAMPEONATO) y que acto seguido de que concluye el hecho salen desde una puerta trampa capitán y subcapitán del club para recibir una copa (que ya se había comprado ad hoc), y con ello el título que bordarán como estrella legítima en su escudo. 
 
@@ -80,7 +80,7 @@ Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacer
 {{< youtube id="DL_X4jSCXAY" title="ESTUDIANTES le hizo un PASILLO DE ESPALDAS a un ROSARIO CENTRAL que CELEBRÓ EL TÍTULO" >}}
 ```
 
-No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
+No obstante, resulta que [un boletín de febrero](https://www.lanacion.com.ar/deportes/futbol/el-misterio-del-boletin-6625-sospechas-de-una-modificacion-en-una-resolucion-de-la-afa-nid24112025/) -que nadie llegó a ver sino solo después del hecho- establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
 
 ![Extracto del reglamento del pasillo (Boletín 6625, fechado en febrero, creado digitalmente en noviembre)](/img/reglamento-de-pasillo.png)
 
@@ -90,7 +90,7 @@ Allí aparece otra vez un problema del derecho: las normas se presumen conocidas
 
 ### Epílogo para abogados: nota a fallo (y crítica del “no trataremos todas las argumentaciones”)
 
-Como sabrán, el Tribunal de Disciplina de la AFA (un cuerpo compuesto por cinco abogados y un escribano) se pronuncia en un “Fallo fundado” que se puede ver en su boletín [del 4 de diciembre](https://assets1.afa.com.ar/2025/GAIOLI---septoct/Bol.-6800-04_12.pdf) (PDF, ultimas diez páginas), y que tiene muchos puntos vidriosos
+Como sabrán, el Tribunal de Disciplina de la AFA (un cuerpo compuesto por cinco abogados y un escribano) se pronuncia en un “Fallo fundado” que se puede ver en su boletín [del 27 de noviembre ](https://assets1.afa.com.ar/2025/Boletines/Bol.--6797-27_11.pdf)(PDF, ultimas diez páginas), y que tiene muchos puntos vidriosos.
 
 El fallo va a explicar que esa conducta en efecto no se encuentra expresamente tipificada como infracción en el Código Disciplinario, que el “pasillo de homenaje” deriva de un boletín protocolar y no de una norma disciplinaria con sanción prevista,  y salva esa carencia recurriendo al a una cláusula abierta y residual de sanción; sobre esa base imprecisa introduce la noción de “violencia simbólica” y termina presentando la pena a aplicar —en función de la instancia del torneo, la visibilidad mediática y la necesidad de “sentar precedente”— como un mensaje ejemplificador de carácter político a la vez que, como gesto magnánimo y contradictorio, difiere su cumplimiento para otro torneo, dando a entender que ni el propio Tribunal se muestra plenamente convencido de la dureza aplicada.
 
