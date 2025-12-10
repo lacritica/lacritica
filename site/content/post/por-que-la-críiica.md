@@ -5,11 +5,11 @@ description: Algunas razones para alzar la voz y combatir el pobre estado de la 
 categories:
   - debates
 author:
-exclude_thumbnail_from_body: false
+exclude_thumbnail_from_body: true
 thumbnail:
   - src: "/img/system_failure2.png"
-    epigraph: "Rapto Suiza 2008"
-    copyright: "por [Florencia Garduño](https://florgarduno.com/)"
+    epigraph: "India, 2013"
+    copyright: "Ramiro Álvarez Ugarte"
 highlight: true
 highlight2: false
 callouts:
