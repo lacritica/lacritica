@@ -1,7 +1,7 @@
 ---
 title: "Diez artículos que marcaron mi vida académica"
 slug: diez-articulos-que-marcaron-mi-vida-academica
-date: 2025-12-09T10:00:04Z
+date: 2025-12-10T10:00:04Z
 description: Textos centrales que definieron el modo en que hoy pienso
 categories:
   - ensayos

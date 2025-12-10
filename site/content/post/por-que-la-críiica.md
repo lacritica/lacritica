@@ -1,6 +1,6 @@
 ---
 title: Por qué la crítica del derecho
-date: 2025-12-09
+date: 2025-12-10
 description: Algunas razones para alzar la voz y combatir el pobre estado de la discusión jurídica en la Argentina. 
 categories:
   - debates

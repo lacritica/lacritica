@@ -1,7 +1,7 @@
 ---
 title: Aída Kemelmajer
 slug: aida-kemelmajer
-date: 2025-12-09T10:00:10Z
+date: 2025-12-10T10:00:10Z
 description: Un repaso por la vida y obra de una de las juristas más importantes de la Argentina. 
 author: 
 categories:

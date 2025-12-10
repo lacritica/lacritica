@@ -1,7 +1,7 @@
 ---
 title: Esperanza y desilusión en el momento constitucional chileno
 slug: esperanza-y-desilusion-en-el-momento-constitucional-chileno
-date: 2025-11-12
+date: 2025-12-09
 exclude_thumbnail_from_body: true
 description: Pistas iniciales de por qué fracasó la reforma constitucional
 author: 
