@@ -1,7 +1,7 @@
 ---
 title: "Nota sin título: una lección sobre el derecho desde la AFA"
 slug: una-leccion-sobre-el-derecho-desde-la-afa
-date: 2025-12-09T10:00:09Z
+date: 2025-12-09T10:00:09.000Z
 description: Sobre Fuller y la moral interna del derecho, a próposito del
   campeonato de Rosario Central
 categories:
@@ -10,7 +10,8 @@ author:
   - Gustavo Arballo
 thumbnail:
   - src: /img/mateo-calderon.jpeg
-    epigraph: platea fila uno al medio
+    epigraph: Platea fila uno al medio
+    copyright: Estadio Mateo Calderón, noviembre 2025
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
