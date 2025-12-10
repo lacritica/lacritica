@@ -1,7 +1,7 @@
 ---
 title: "Nota sin título: una lección sobre el derecho desde la AFA"
 slug: una-leccion-sobre-el-derecho-desde-la-afa
-date: 2025-12-09T10:00:09Z
+date: 2025-12-09T10:00:09.000Z
 description: Sobre Fuller y la moral interna del derecho, a próposito del
   campeonato de Rosario Central
 categories:
@@ -21,11 +21,11 @@ exclude_thumbnail_from_body: false
 
 A medida que las críticas se apilaban sobre el postitulo canalla -ver, por todas, [esta nota de Andrés Burgo](https://www.tiempoar.com.ar/ta_article/los-clubes-son-de-los-socios-los-torneos-de-los-jugadores/)-, se me ocurría maridarlas con esa historia de Lon Fuller de las peripecias jurídicas de Rex, su ilustrado déspota, un minicuento que iba relatando ocho disfunciones o formas de fracasar en la creación del derecho. Y que, contrario sensu, nos moralejaban correlativas exigencias de una “moral interna” del derecho, reglas que se ubican a un nivel aparentemente preideológico, para que podamos identificar un “derecho” que pueda reputarse como tal. 
 
-[Lon Luvois Fuller](https://es.wikipedia.org/wiki/Lon_Fuller) (1902-1978) era un profesor de Harvard y un fino escritor, autor de otra fábula jurídica en forma de fallo coral, acaso más conocida, [“El caso de los exploradores de cavernas”](https://es.wikipedia.org/wiki/Caso_de_los_exploradores_de_cavernas), que resiste absolutamente la lectura de lectores legos y se usa mucho en cursos introductorios. Aquí, emplatado en un libro de teoría titulado *“The morality of law”* (1964), nos cuenta el cuento de un rey absoluto (tautológicamente llamdo Rex) dedicado a mejorar el derecho, con buenas intenciones pero poco criterio, y de cómo va incurriendo en distintos errores encadenados entre sí a medida que avanza la trama. 
+[Lon Luvois Fuller](https://es.wikipedia.org/wiki/Lon_Fuller) (1902-1978) era un profesor de Harvard y un fino escritor, autor de otra fábula jurídica en forma de fallo coral, acaso más conocida, [“El caso de los exploradores de cavernas”](https://es.wikipedia.org/wiki/Caso_de_los_exploradores_de_cavernas), que resiste absolutamente la lectura de lectores legos y se usa mucho en cursos introductorios. Aquí, emplatado en un libro de teoría titulado *“The morality of law”* (1964), nos cuenta el cuento de un rey absoluto (tautológicamente llamado Rex) dedicado a mejorar el derecho, con buenas intenciones pero poco criterio, y de cómo va incurriendo en distintos errores encadenados entre sí a medida que avanza la trama. 
 
 En su afán de dar justicia Rex comienza desde una adhocracia: decide caso por caso, según su intuición moral. Pronto advierte que así no puede sostener un sistema, pero en lugar de publicitar las reglas que va creando, opta por mantenerlas en reserva para evitar que se las discutan. Luego, intentando refinar su obra, dicta normas cada vez más sofisticadas y técnicas, hasta volverlas incomprensibles. Para corregir ese defecto introduce aclaraciones posteriores, que se aplican retroactivamente, lo que provoca un nuevo desorden. Descorazonado, pasa entonces a regularlo todo con extremo detalle: proliferan las contradicciones, se vuelve irascible, impone exigencias draconianas de cumplimiento imposible y empieza a corregir su propio código en tiempo real. El resultado final es un derecho inestable y disociado, donde las normas se proclaman pero ya no se observan ni se hacen cumplir.
 
-Pueden leer una concisa y útil reseña de "La modal del derecho" en su edición española, y la lista de las ocho exigencais de Fuller, en [esta reseña de Agustín Perez Carrillo](https://revistas-colaboracion.juridicas.unam.mx/index.php/rev-facultad-derecho-mx/article/download/26513/23885) (PDF).
+Pueden leer una concisa y útil reseña de "La modal del derecho" en su edición española, y la lista de las ocho exigencias de Fuller, en [esta reseña de Agustín Perez Carrillo](https://revistas-colaboracion.juridicas.unam.mx/index.php/rev-facultad-derecho-mx/article/download/26513/23885) (PDF).
 
 Con ello Fuller astutamente nos baitea: su libro incluye el etiquetado frontal de “moral” pero no nos ofrece una teoría moralista de lo que “debería ser” el derecho, sino una taxonomía de los fracasos estructurales que desnaturalizan su operación. Su idea humilde se transforma en un reclamo ontológico muy potente: no cualquier cosa es derecho, y las instituciones importan.
 
@@ -41,7 +41,7 @@ Fijado el marco teórico, queda claro que esta controversia no es factual sobre 
 
 Uno obvio ya fue adelantado, aunque debe ser precisado. No solo es que hubo un criterio nuevo, sino que Central ganó un “titulo” que nadie sabía que se estaba jugando. Criterios similares podrían entronizar al campeon bienal, quinquenal, cualquier magnitud discreta, incluso avalar retroactivamente aquel reclamo ridículo nuestro (de River) de autoproclamarse “campeón del siglo” en el 2000 por acumulación irreversible de campeonatos, una broma que debió empezar como ocurrencia estadística y el mismo club se lo tomó en serio.
 
-La prospectividad de las leyes es una regla básica de esa carpintería legal. Es enloquceder, convierte el juego en un sinsentido, que no se sepa cuál es el criterio de victoria, tanto como que aparezca otro nuevo más adelante. Esta cuestión no se diluye por el hecho de que no hay aparentes “agraviados” (ningún club fue privado de un campeonato para que Central pudiera tener el suyo) lo que disuelve todo derecho al pataleo. De la misma forma que nadie puede quejarse si meten otro club en primera división, porque el resto que estaba sigue estando, y así -una cosa llevó a la otra- quedamos con 30 equipos en primera y 48 naciones en el mundial. 
+La prospectividad de las leyes es una regla básica de esa carpintería legal. Es enloquecedor, convierte el juego en un sinsentido, que no se sepa cuál es el criterio de victoria, tanto como que aparezca otro nuevo más adelante. Esta cuestión no se diluye por el hecho de que no hay aparentes “agraviados” (ningún club fue privado de un campeonato para que Central pudiera tener el suyo) lo que disuelve todo derecho al pataleo. De la misma forma que nadie puede quejarse si meten otro club en primera división, porque el resto que estaba sigue estando, y así -una cosa llevó a la otra- quedamos con 30 equipos en primera y 48 naciones en el mundial. 
 
 Esa lógica es un problema.  Porque incluso si nadie “pierde” algo de manera explícita, se afecta el sentido mismo de la competencia. El derecho no funciona solo por distribuir premios y castigos, sino porque todos aceptamos un marco común de reglas que nos permite entender qué significa ganar y perder. Cuando ese marco se desbarata lo que se erosiona es la confianza colectiva en la arquitectura que hace posible y le da sentido jugar, competir y adjudicar victorias y títulos: con la misma ley hemos roto los juguetes del derecho. 
 
@@ -59,7 +59,7 @@ El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega com
 
 Había con todo un problema que Rex no tenía, porque era un déspota y no estaba vinculado por ñoños requisitos procedimentales, esa tecnología institucional de dividir poderes por las dudas y por los méritos que pensamos que eso nos traerá, y de establecer requisitos, procedimientos, cuerpos legislativos. De hecho, la AFA funciona con representantes, comités, tribunales de disciplina, asambleas, y un lema: “la AFA es de los clubes”. 
 
-Eso nos lleva a hacer zoom en un punt en donde encontramos más problemas en ese episodio donde se forjó la decisión del campeonato, adjudicado entre gallos y mediasiesta.
+Eso nos lleva a hacer zoom en un punto en donde encontramos más problemas en ese episodio donde se forjó la decisión del campeonato, adjudicado entre gallos y mediasiesta.
 
 Sabemos las pullas que recibe toda construcción “deliberativa” con bravuconadas del tipo de si sus postulantes son tarados que quieren que haya un idílico simposio habermasiano que sea un dispenser de soluciones superadoras en conflictos públicos y morales. El decisionismo “basado” cuenta manos, el que sumo más levantadas gana y a otra cosa (salvo que empaten 68 a 68 y ya tuvimos esta conversación).
 
@@ -71,7 +71,7 @@ Pero este episodio muestra que las condiciones deliberativas importan. Aparentem
 
 Es fascinante porque es un *inception* dentro de este sinsentido. No se por dónde empezar, pero empecemos por algún lado. En un episodio (más) de “[abusive constitutional borrowing](https://academic.oup.com/book/42100)” de Dixon y Landau, se ha querido implantar una costumbre totalmente alejada de nuestras tradiciones, importada de países de cuño monárquico que a cada rato se fascinan con rituales escenificados de sumisión, totalmente ajenos a nuestra tradición (genuinamente) libertaria, igualitaria (el libro reciente de JC Torre: [naides es más que naides](https://prismas.unq.edu.ar/OJS/index.php/Prismas/article/view/1574/2364)), casquivana, y por eso todo la escena se siente ajena, impostada, irreal, fría como el viento.
 
-Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni siquiera hubo mucha demanda de ser pasilleado de parte de los equipos homenajeados. Dicho de un modo brutal: un campeón genuino no necesita de pasillos PERO un campeón sospechado sí los requiere par certificar su campeonidad. Resuena la frase de Game of Thrones aquí:  *no true king has to say "i am the king"*. 
+Precisamente por esto es que nunca hubo mucha consistencia en el pasillo y ni siquiera hubo mucha demanda de ser pasilleado de parte de los equipos homenajeados. Dicho de un modo brutal: un campeón genuino no necesita de pasillos PERO un campeón sospechado sí los requiere para certificar su campeonidad. Resuena la frase de *Game of Thrones* aquí:  *no true king has to say "i am the king"*. 
 
 Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacerlo de espaldas](https://youtube.com/shorts/8MYVr-pyTbw?si=iD64gv7-eqytBPNL), un gesto que dobla la apuesta del ritual y lo muta de aprecio a desprecio, pero seguía siendo un “pasillo”. 
 
@@ -79,11 +79,11 @@ Estudiantes pudo negarse a hacer el pasillo, pero hizo algo performativo: [hacer
 {{< youtube id="DL_X4jSCXAY" title="ESTUDIANTES le hizo un PASILLO DE ESPALDAS a un ROSARIO CENTRAL que CELEBRÓ EL TÍTULO" >}}
 ```
 
-No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hehco establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
+No obstante, resulta que un boletín del Comité Ejecutivo que nadie llegó a ver sino solo después del hecho establecía reglas muy especificas: el pasillo se tenía que hacer de frente.
 
 ![Extracto del reglamento del pasillo (Boletín 6625, fechado en febrero, creado digitalmente en noviembre)](/img/reglamento-de-pasillo.png)
 
-Allí aparece otra vez un problema del derecho: las normas se presumen conocidas desde su publicacion. Nunca quedó claro entre datos y metadatos de cuando era el PDF que reglamentaba el “pasillo”, lo cual muestra una clara presciencia del boletín en lo que habría suceder varios meses después, o tal vez nos hace sospechar otra cosa. Los metadatos de nuestro gráfico luego aparecerían fechados a febrero, pero -the plot thickens- [el archivo se generó con un software de septiembre de 2025.](https://x.com/maxifirtman/status/1993149693333811590?s=20)
+Allí aparece otra vez un problema del derecho: las normas se presumen conocidas desde su publicacion. Nunca quedó claro entre datos y metadatos de cuándo era el PDF que reglamentaba el “pasillo”, lo cual muestra una clara presciencia del boletín en lo que habría suceder varios meses después, o tal vez nos hace sospechar otra cosa. Los metadatos de nuestro gráfico luego aparecerían fechados a febrero, pero -the plot thickens- [el archivo se generó con un software de septiembre de 2025.](https://x.com/maxifirtman/status/1993149693333811590?s=20)
 
 ![Metadatos del boletín](/img/metadatos-del-boletín.png "Metadatos del documento, de fecha y hora posterior al pasillogate")
 
@@ -97,10 +97,10 @@ Pero aquí quiero detenerme en lo primero que se lee al inicio de la decisión, 
 
 > cabe recordar inicialmente que los miembros de este tribunal no se encuentran obligados a considerar todas las cuestiones y argumentaciones que se proponen a su consideración sino tan solo aquellas que resultan conducentes para decidir el caso y basten para dar sustento a un pronunciamiento válido (doctrina Corte Suprema de Justicia de la Nación, Fallos: 258:304; 262:222; 265:301; 272:225; 278:271; 297:140; 301:970, entre muchos otros).
 
-Esto tiene muchos problemas. Con el pretexto de la economía argumental, se la utiliza como salvoconducto para no enfrentar argumentos que podían desarticular el fallo o eran de incómodo tratamiento. Las defensas estudiantiles omitidas eran estructurales, no accesorias, eran procesalmente relevantes y relevantes en el fondo, incluyendo el elefante en la habitación sobre el cuestionamiento de cuando habría sido publicado la obligación de hacer pasillo mirando a los ojos del rival. 
+Esto tiene muchos problemas. Con el pretexto de la economía argumental, se la utiliza como salvoconducto para no enfrentar argumentos que podían desarticular el fallo o eran de incómodo tratamiento. Las defensas estudiantiles omitidas eran estructurales, no accesorias, eran procesalmente relevantes y relevantes en el fondo, incluyendo el elefante en la habitación sobre el cuestionamiento de cuándo habría sido publicado la obligación de hacer pasillo mirando a los ojos del rival. 
 
 Cuando los tribunales -no solo este “de disciplina”- juegan esta carta como comodín argumental se desnaturaliza el derecho de defensa, el debido proceso “adjetivo”, y el que decide se habilita un permitido que queda a su arbitrio para no resolver cuestiones planteadas.
 
-El ideal de integridad, y que se deber exigir más y no menos a medida que escalamos en la trascedencia de las cuestiones, debe ser el inverso: aunque sea en una línea, aunque no sea en el mismo orden, aunque hayan sido un delirio inconducente lo planteado (lo que en verdad les facilitará la refutación) los tribunales están obligados a tratar todas las argumentaciones que les presentan las partes. Es, de paso, el peligro que sienta la Corte (y no se la achaquemos al trío actual, viene de una “consolidada jurisprudencia”) cuando sienta doctrinas autocomplacientes que luego inevitablemente seran replicadas en estratos inferiores. 
+El ideal de integridad, y que se deber exigir más y no menos a medida que escalamos en la trascendencia de las cuestiones, debe ser el inverso: aunque sea en una línea, aunque no sea en el mismo orden, aunque hayan sido un delirio inconducente lo planteado (lo que en verdad les facilitará la refutación) los tribunales están obligados a tratar todas las argumentaciones que les presentan las partes. Es, de paso, el peligro que sienta la Corte (y no se la achaquemos al trío actual, viene de una “consolidada jurisprudencia”) cuando sienta doctrinas autocomplacientes que luego inevitablemente serán replicadas en estratos inferiores. 
 
 Otros polvos que trajeron estos lodos: aquí estamos, pues, chapoteando en el barro.
