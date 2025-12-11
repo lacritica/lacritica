@@ -65,3 +65,4 @@ term = ["HTML", "JSON"]
       unsafe = true
     [markup.goldmark.extensions]
       footnote = true
+

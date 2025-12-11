@@ -66,6 +66,8 @@ Napoleón decía que un código es un acto de poder. Esta vez hubo un gobierno q
 
 Durante el año 2025 se han realizado a lo largo y ancho del país numerosas reuniones en las que se ha analizado la implementación del código en estos diez años. En casi todas ellas se ha marcado la importancia del título preliminar del código y, en especial, los artículos 1, 2 y 3. Como ha señalado, a diferencia de la concepción decimonónica, no todo el derecho civil está en el código; recuerde la famosa frase de los exégetas franceses: "No enseño derecho civil; enseño el código de Napoleón". Por el contrario, este código del nuevo milenio es "abierto"; es decir, acepta expresamente la descodificación; los artículos que remiten a las leyes especiales son numerosos; mas aún, algunas de esas leyes no se han dictado aún. Lo importante es que el código sirve como estructura que contiene los principios generales, de modo que las leyes especiales operan como satélites que deben responder al sistema contenido en esa estructura, dominada, a su vez, por el derecho constitucional y el derecho convencional de los derechos humanos. Digo con gran satisfacción que en todas las ciudades en las que las reuniones se han celebrado, la frase más repetida  por jueces y abogados es: "el código me sirve"
 
+![Biblioteca Aída, 1](/img/biblioteca_aida1.jpg "Biblioteca Aída, #1")
+
 **¿Cómo ve el desarrollo y la evolución de la práctica de lo que se ha llamado "la constitucionalización del derecho civil" --- que en mi opinión el CCC ha integrado de manera ejemplar- y que también ha generado incomodidad y crítica en alguna doctrina?**
 
 Creo que la respuesta está en la dada a la anterior pregunta. 
@@ -93,3 +95,5 @@ La sentencia dictada en el caso FAL el 13 de marzo de 2012 es una decisión exce
 **¿Uno o dos momentos de su vida en el derecho que recuerda como momentos de felicidad y amor por el derecho?**
 
 Recuerdo el 5 de diciembre de 2023 como uno de esos hermosos momentos, cuando la Universidad de Buenos Aires me otorgó el título de Doctora Honoris causa.
+
+![Biblioteca Aída, 2](/img/biblioteca_aida2.jpg "Biblioteca Aída, #2")

@@ -2581,6 +2581,26 @@ span.sidenote small {
   color: #666;
 }
 
+/* image captions */ 
+
+.md-figure {
+  display: block;
+  text-align: center;
+  margin: 1.2em 0;
+}
+
+.md-figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+.md-figure figcaption {
+  font-size: 0.8rem;
+  color: #555;
+  margin-top: 0em;
+}
+
+
 /* hamburguer button */
 
 #menu.hidden {

@@ -1,0 +1,8 @@
+{{ $alt := .Text | safeHTML }}
+{{ $title := .Title | safeHTML }}
+<figure class="md-figure">
+  <img src="{{ .Destination | relURL }}" alt="{{ $alt }}">
+  {{ if $title }}
+    <figcaption>{{ $title }}</figcaption>
+  {{ end }}
+</figure>
