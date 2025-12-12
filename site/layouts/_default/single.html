@@ -33,9 +33,13 @@
         {{ $authorPage = index $match 0 }}
         {{ end }}
       {{ end }}
-      {{ if not $authorPage }}
-        {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
-      {{ end }}
+{{ if not $authorPage }}
+  {{ $candidates := where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") }}
+  {{ if gt (len $candidates) 0 }}
+    {{ $authorPage = index $candidates 0 }}
+  {{ end }}
+{{ end }}
+
       {{ if not $authorPage }}
         {{ $cand := where site.RegularPages "Section" "autores" }}
         {{ range $cand }}
