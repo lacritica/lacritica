@@ -28,7 +28,10 @@
       {{/* Find author page */}}
       {{ $authorPage := site.GetPage (printf "/autores/%s" $authorSlug) }}
       {{ if not $authorPage }}
-        {{ $authorPage = where site.RegularPages "Params.slug" $authorSlug | first 1 }}
+        {{ $match := first 1 (where site.RegularPages "Params.slug" $authorSlug) }}
+      {{ if gt (len $match) 0 }}
+        {{ $authorPage = index $match 0 }}
+        {{ end }}
       {{ end }}
       {{ if not $authorPage }}
         {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
