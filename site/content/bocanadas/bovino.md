@@ -5,6 +5,7 @@ description: Un saludo a un jurista
 categories: 
   - reseñas
 author: 
+  - Sebastián Guidi
 obra_reseñada: 
 exclude_thumbnail_from_body: true
 thumbnail:
