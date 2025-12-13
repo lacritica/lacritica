@@ -26,7 +26,7 @@ highlight_phrases:
 
 Me resulta particularmente extraña la incomprensión de un argumento tan simple y directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué no se entiende de lo obvio?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se interpone en la conversación entre el constitucionalismo y el punto de vista feminista?
 
-En este breve ensayo desarrollo una intuición a la que llamo “la exclusión constitutiva”. La simple idead de que hay un sentido dominante sobre “lo” constitucional, y desde él, se hace ininteligible a la crítica feminista. Lo importante de la intuición es que ese sentido dominante deviene de la circunstancia fundante, esto es, de la  exclusión originaria de las mujeres del sistema constitucional. 
+En este breve ensayo desarrollo una intuición a la que llamo “la exclusión constitutiva”. La simple idea de que hay un sentido dominante sobre “lo” constitucional, y desde él, se hace ininteligible a la crítica feminista. Lo importante de la intuición es que ese sentido dominante deviene de la circunstancia fundante, esto es, de la  exclusión originaria de las mujeres del sistema constitucional. 
 
 # El planteo de lo obvio
 
