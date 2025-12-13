@@ -26,7 +26,7 @@ highlight_phrases:
 
 Me resulta particularmente extraña la incomprensión de un argumento tan simple y directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué no se entiende de lo obvio?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se interpone en la conversación entre el constitucionalismo y el punto de vista feminista?
 
-En este breve ensayo desarrollo una intuición a la que llamo “la exclusión constitutiva”. La simple idead de que hay un sentido dominante sobre “lo” constitucional, y desde él, se hace ininteligible a la crítica feminista. Lo importante de la intuición es que ese sentido dominante deviene de la circunstancia fundante, esto es, de la  exclusión originaria de las mujeres del sistema constitucional. 
+En este breve ensayo desarrollo una intuición a la que llamo “la exclusión constitutiva”. La simple idea de que hay un sentido dominante sobre “lo” constitucional, y desde él, se hace ininteligible a la crítica feminista. Lo importante de la intuición es que ese sentido dominante deviene de la circunstancia fundante, esto es, de la  exclusión originaria de las mujeres del sistema constitucional. 
 
 # El planteo de lo obvio
 
@@ -60,7 +60,7 @@ Si al anacronismo disciplinar le sumamos esta grosera impostación, ya estamos e
 
 La idea, como todos lo sabemos, era que las mujeres e indígenas no tenían dignidad suficiente para ser ciudadanas. En el caso de las mujeres ello devenía de su inferioridad biológica (sic), la que acaso tenía que ver con el pecado original (en la narrativa de las sagradas escrituras), o bien, con su falta de autocontrol y malicia seductora congénita, de acuerdo a la "creencia" de época. La creencia en esta “malicia seductora” fue desarrollada en detalle por la escolástica en la Edad Media,[^4] en el debate conocido como “la querella de las mujeres,” antesala del genocidio femenino, parafraseado como "quema de brujas".  En esa "malicia seductora" esta la clave lógica de la construcción moral y política de la misoginia. Ella aparece en las Bases de Alberdí, cuando toma como prototipo de crítica a la actriz Lola Montés (Ver 1853-1994:80). Estamos hablando de una doctrina moral y política “misógina”, compartida y/o avalada por nuestros ilustrados constituyentes. No fue un hábito de época, o una mera tecnología cruel, como la de ensillar al caballo con espuelas. Fue una doctrina, como la del liberalismo y el republicanismo. ¿Cómo es posible seguir sosteniendo que la propuesta más democrática que tenemos para interpretar la constitución es atarnos al sentido axiológico-político que le dieron aquellos señores?
 
-{{< callout 1 >}}
+{{< callout 0 >}}
 
 Hay que dejar de pensar “tan frescamente” que la misoginia era sólo una forma de ver a las mujeres en “esa época.” La misoginia es una forma de ver el mundo público, de entender al estado, de pensar la democracia, de razonar el liberalismo, y de construir la república. La mirada misógina de los modernos determinó lo que entendemos por “libertad”, por “autonomía”, y sobre todo, lo que entendemos por “lo” constitucional. Déjenme intentar probarlo, al menos en parte, en el corto espacio que me queda.
 
