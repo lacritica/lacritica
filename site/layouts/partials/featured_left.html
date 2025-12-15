@@ -11,9 +11,12 @@
   {{ end }}
 {{ end }}
 
-{{/* Take the first 2 posts */}}
-{{ $leftPosts := first 2 $filtered }}
+{{ $p0 := index $filtered 0 }}
+{{ $p1 := index $filtered 1 }}
+{{ $p2 := index $filtered 2 }}
+{{ $p3 := index $filtered 3 }}
 
+{{ $leftPosts := slice $p0 $p2 }}
 
 <section class="hero-column hero-column--tight">
   {{ range $index, $post := $leftPosts }}

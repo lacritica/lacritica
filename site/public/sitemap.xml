@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-12-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -18,12 +24,6 @@
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
@@ -51,9 +51,6 @@
     <lastmod>2025-12-10T10:00:04+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/paissincontratos/</loc>
-    <lastmod>2025-12-10T10:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/aportes-de-la-halaja-reales/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/una-ley/</loc>
@@ -129,15 +126,11 @@
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
-  </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-luisa-pique/</loc>
   </url><url>
