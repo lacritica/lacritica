@@ -1,0 +1,98 @@
+<form
+  name="newsletter"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+/* Subscribe form container */
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  
+  margin-left: 1rem;
+  z-index: 1001;
+}
+
+/* Email input */
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+/* Focus state */
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+/* Button */
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover */
+.subscribe-button:hover {
+  background: #222;
+}
+
+/* Mobile stacking */
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+/* Honeypot */
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>

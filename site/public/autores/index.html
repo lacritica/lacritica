@@ -226,6 +226,105 @@
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a href="/contáctenos/"><form
+  name="newsletter"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+ 
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  margin: 1.5rem 0;
+  z-index: 10;
+}
+
+ 
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+ 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+ 
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ 
+.subscribe-button:hover {
+  background: #222;
+}
+
+ 
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+ 
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+</a></li>
+        
 
       </ul>
 
@@ -353,6 +452,25 @@ diciembre de 2025
               </article>
             </a>
           
+            <a href="/autores/catalina_p%C3%A9rez_correa/" class="author-card-link">
+              <article class="author-card">
+
+                <div class="author-photo">
+                  
+                    <img src="/img/catalina_p%c3%a9rez_correa.jpg" alt="Autores" class="author-thumb">
+                  
+                </div>
+
+                <div class="author-bio">
+                  <h4>Catalina Pérez Correa</h4>
+                  <div class="author-bio-small">
+                    Maestra y doctora de la escuela de derecho de Stanford, Investigadora de APEPD
+                  </div>
+                </div>
+
+              </article>
+            </a>
+          
             <a href="/autores/gustavo-arballo/" class="author-card-link">
               <article class="author-card">
 
@@ -385,6 +503,25 @@ diciembre de 2025
                   <h4>Gustavo Maurino</h4>
                   <div class="author-bio-small">
                     Abogado y Profesor de Derecho. Director Académico de ELAC
+                  </div>
+                </div>
+
+              </article>
+            </a>
+          
+            <a href="/autores/leandro_dias/" class="author-card-link">
+              <article class="author-card">
+
+                <div class="author-photo">
+                  
+                    <img src="/img/leandro_dias.jpg" alt="Autores" class="author-thumb">
+                  
+                </div>
+
+                <div class="author-bio">
+                  <h4>Leandro Dias</h4>
+                  <div class="author-bio-small">
+                    Investigador postdoctoral (Habilitand) en la Julius-Maximilians-Universität Würzburg (JMU); profesor invitado en la Universidad Torcuato Di Tella (UTDT)
                   </div>
                 </div>
 
@@ -538,6 +675,12 @@ diciembre de 2025
       </a>
       <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
         <img src="/img/linkedin.svg" alt="Linkedin logo">
+      </a>
+      <a href="https://www.instagram.com/lacriticadd/" target="blank" aria-label="Instagram">
+        <img src="/img/instagram.svg" alt="Instagram logo">
+      </a>
+      <a href="https://www.facebook.com/LaCriticaDD/" target="blank" aria-label="Facebook">
+        <img src="/img/facebook.svg" alt="Facebook logo">
       </a>
       
       </a>

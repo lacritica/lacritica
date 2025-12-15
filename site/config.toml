@@ -8,6 +8,8 @@ paginate = 10
 enableRobotsTXT = true
 cleanDestinationDir = true
 
+googleAnalytics = "G-2QZ6PPKCSR"
+
 [taxonomies]
   category = "categories"
   autores = "autores"
