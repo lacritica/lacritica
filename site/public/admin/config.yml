@@ -91,9 +91,9 @@ collections:
         hint: "Marcar si queremos que la foto que ilustra no vaya intercalada en el cuerpo del texto"
 
       - label: "Frases destacadas"
-        name: "highlight_phrases"
+        name: "callouts"
         widget: "list"
-        hint: "Frases destacadas, breves que aparecerán dispersas en el artículo"
+        hint: "Son drases destacadas que aparecerán en el artículo (se llaman callouts)"
         field:
           label: "Frase"
           name: "phrase"

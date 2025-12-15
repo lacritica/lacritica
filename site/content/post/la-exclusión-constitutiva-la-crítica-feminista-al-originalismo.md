@@ -1,7 +1,9 @@
 ---
 callouts:
-  - La idea, como todos lo sabemos, era que las mujeres e indígenas no tenían
-    dignidad suficiente para ser ciudadanas.
+  - Estamos hablando de una doctrina moral y política “misógina”, compartida y/o
+    avalada por nuestros ilustrados constituyentes. No fue un hábito de época, o
+    una mera tecnología cruel, como la de ensillar al caballo con espuelas. Fue
+    una doctrina, como la del liberalismo y el republicanismo.
 title: La exclusión constitutiva
 slug: la-exclusion-constitutiva-la-critica-feminista-al-originalismo
 date: 2025-12-10T10:00:06.000Z
@@ -17,11 +19,6 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
-highlight_phrases:
-  - Estamos hablando de una doctrina moral y política “misógina”, compartida y/o
-    avalada por nuestros ilustrados constituyentes. No fue un hábito de época, o
-    una mera tecnología cruel, como la de ensillar al caballo con espuelas. Fue
-    una doctrina, como la del liberalismo y el republicanismo.
 ---
 
 Me resulta particularmente extraña la incomprensión de un argumento tan simple y directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué no se entiende de lo obvio?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se interpone en la conversación entre el constitucionalismo y el punto de vista feminista?
