@@ -1,8 +1,7 @@
 ---
 title: La toma del poder judicial en México
-date: 2025-12-16
+date: 2025-12-15
 description: La reforma impulsada por Morena quiso imponer la lógica electoral sobre el poder judicial, pero el pueblo casi no votó. 
-draft: true
 categories:
   - debates
 exclude_thumbnail_from_body: true

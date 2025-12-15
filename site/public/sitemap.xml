@@ -8,28 +8,37 @@
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-12-16T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-12-15T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</loc>
+    <lastmod>2025-12-15T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2025-12-15T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
+    <lastmod>2025-12-15T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-15T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</loc>
+    <lastmod>2025-12-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/bovino/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/dos-conceptos-de-inflacion-penal/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/aida-kemelmajer/</loc>
@@ -57,9 +66,6 @@
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/una-ley/</loc>
-    <lastmod>2025-12-10T10:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</loc>
@@ -125,6 +131,8 @@
     <loc>http://localhost:1313/post/la_carta_de_lectores/</loc>
     <lastmod>1983-09-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/gracias/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
@@ -136,6 +144,8 @@
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/javier-couso/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
