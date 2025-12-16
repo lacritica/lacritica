@@ -8,7 +8,7 @@ exclude_thumbnail_from_body: true
 author:
   - Javier Couso Salas
 thumbnail:
-  - src: "/img/chile2024.png"
+  - src: "/img/webp/chile2024.webp"
     epigraph: "Santiago de Chile, 2024"
     copyright: "por RAU"
 highlight: false

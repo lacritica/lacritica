@@ -8,7 +8,7 @@ exclude_thumbnail_from_body: false
 author:
   - Tomás Abraham
 thumbnail:
-  - src: "/img/joseph_raz.png"
+  - src: "/img/webp/joseph_raz.webp"
     epigraph: "de 'The Roots of Normativity'"
     copyright: "por Joseph Raz"
 highlight: false
