@@ -8,7 +8,7 @@ exclude_thumbnail_from_body: true
 author:
   - Catalina Pérez Correa
 thumbnail:
-  - src: "/img/cpc.jpg"
+  - src: "/img/cpc.jpeg"
     epigraph: "Grabado"
     copyright: "por Catalina Pérez Correa"
 highlight: false
