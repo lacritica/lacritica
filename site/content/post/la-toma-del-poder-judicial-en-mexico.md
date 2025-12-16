@@ -8,9 +8,9 @@ exclude_thumbnail_from_body: true
 author:
   - Catalina Pérez Correa
 thumbnail:
-  - src: "/img/rau_cdmx_2022.jpg"
-    epigraph: "CDMX"
-    copyright: "por RAU"
+  - src: "/img/cpc.jpg"
+    epigraph: "Grabado"
+    copyright: "por Catalina Pérez Correa"
 highlight: false
 highlight2: false
 callouts:
