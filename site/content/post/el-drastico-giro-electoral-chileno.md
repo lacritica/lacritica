@@ -6,7 +6,7 @@ categories:
   - ensayos
 exclude_thumbnail_from_body: true
 author:
-  - Javier Couso
+  - Javier Couso Salas
 thumbnail:
   - src: "/img/chile2024.png"
     epigraph: "Santiago de Chile, 2024"

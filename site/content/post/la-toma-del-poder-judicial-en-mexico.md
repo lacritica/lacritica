@@ -14,6 +14,7 @@ thumbnail:
 highlight: false
 highlight2: false
 callouts:
+- Las personas ganadoras reflejaron los acordeones repartidos y el Poder Judicial Federal quedó controlado por el partido en el gobierno
 tags: 
   - installation 
 ---
