@@ -1,7 +1,7 @@
 ---
 title: Racismo liberal (II)
-date: 2025-12-16
-description: ¿Por qué resulta complejo comprender la historia argentina? ¿Podemos sumarnos a tantos que hablan de nuestra "excepcionalidad"? Creo que sí.
+date: 2025-12-17
+description: ¿Por qué es complejo comprender la historia argentina? ¿Podemos sumarnos a tantos que hablan de nuestra "excepcionalidad"? El autor cree que sí.
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
@@ -9,9 +9,9 @@ draft: true
 author:
   - Tomás Abraham
 thumbnail:
-  - src: "/img/harlem_volmer.jpg"
-    epigraph: "Harlem"
-    copyright: "por [Phillip Volmer](https://www.flickr.com/photos/philipp-volmer/3468376652/in/photolist-6hukxs-pSpphP-2rogEvh-MrY5U-2YYub-2o9xCMj-g97L-2o1Rof8-2TXCiy-4svLta-2o9XbSG-2o9SFt8-2o9Xbjh-5RZPc-2o9VfPm-2oaXH7h-2obcSft-4kobxe-2o9XReJ-2ob1TKE-2o9AcAW-2oc4QaX-2o1zp2c-2qfV7EE-KiyypV-2o1DceZ-8VvK4o-2o9MzhB-2o9MczF-53nqj-2o9Gs7i-6AoB3h-4CFvGw-5ZxTuy-2o1EC5c-2ob3M4g-2o8o97V-2o9YdsZ-RZJndg-9nnh3a-eVRGD-2o9Vftw-2o8oZHQ-2o9Cmso-2mLvcU7-2o9WPc9-9ncc5P-2oc5LBx-2nUu94Q-53nqk)"
+  - src: "/img/raz2.webp"
+    epigraph: "Puente en Manhattan"
+    copyright: "por Joseph Raz"
 highlight: false
 highlight2: false
 callouts:

@@ -778,49 +778,43 @@ body {
 }
 }
 
-
 /* super sidenotes */
 
 span.sidenote {
-    /* hide sidenotes in mobile are hidden for now.*/
+    /* hidden by default (mobile) */
     display: none;
+}
 
-    /* sidenotes in desktop */
-    @media (min-width: 960px) {
+@media (min-width: 960px) {
+    span.sidenote {
         display: block;
         position: relative;
-        float: right; 
+        float: right;
         clear: right;
-        transform: translateY(-50%);  /* center the sidenote around the sidenote reference.*/
+        transform: translateY(-50%);
 
-        width: 30%;  /* season to taste */
+        width: 30%;
         margin: 0;
         margin-bottom: 1.1rem;
         margin-top: 1.1rem;
         margin-right: -35%;
-        padding: 0.5rem;
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 0.5rem 0;
         box-sizing: border-box;
         text-align: left;
         background-color: initial;
 
-        /* Use a slighly smaller font and the secondary text color.*/
         font-size: 80%;
         line-height: 150%;
-        color: $global-font-secondary-color;
-
-        /* Add a vertical bar on the left side of the comment.*/
-        border: none;
-        border-left-color: #888;
-        border-left-style: solid;
-        border-left-width: 1px;
+        color: var(--global-font-secondary-color);
+        padding-left: 0.75rem;   /* ← this is the key line */
+        border-left: 1px solid #888;
     }
 }
 
 span.sidenote small {
     font-size: 100%;
 }
+
 
 /* Don't show sidenotes on the home page. */
 .home.posts #content .sidenote {
