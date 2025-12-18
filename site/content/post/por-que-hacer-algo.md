@@ -1,6 +1,6 @@
 ---
 title: Por qué hacer algo
-date: 2025-12-17T00:00:01Z
+date: 2025-12-19T00:00:01Z
 description: Algunas palabras dirigidas a una red de abogados en EEUU preocupados por la situación del Estado de derecho en ese país. 
 categories:
   - ensayos

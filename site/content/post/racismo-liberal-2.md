@@ -1,6 +1,6 @@
 ---
 title: Racismo liberal (II)
-date: 2025-12-17
+date: 2025-12-19
 description: ¿Por qué es complejo comprender la historia argentina? ¿Podemos sumarnos a tantos que hablan de nuestra "excepcionalidad"? El autor cree que sí.
 categories:
   - ensayos
