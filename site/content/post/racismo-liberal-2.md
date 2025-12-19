@@ -5,7 +5,6 @@ description: ¿Por qué es complejo comprender la historia argentina? ¿Podemos 
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
-draft: true
 author:
   - Tomás Abraham
 thumbnail:

@@ -5,7 +5,6 @@ description: Algunas palabras dirigidas a una red de abogados en EEUU preocupado
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
-draft: true
 author:
   - Owen Fiss
 thumbnail:
