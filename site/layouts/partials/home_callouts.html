@@ -31,14 +31,8 @@
 
     <div class="callout-meta">
       {{ with $post.Params.author }}
-        <span class="callout-author">{{ delimit . ", " }}</span>
-      {{ end }}
-
-      <span class="callout-title">
-        <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
-      </span>
-
-      <span class="callout-lacritica">La Crítica del Derecho</span>
+        <span class="callout-author">{{ delimit . "," }}</span>
+      {{ end }}<span class="callout-title"><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></span><span class="callout-lacritica">La Crítica del Derecho</span>
 
       {{ $months := dict "1" "enero" "2" "febrero" "3" "marzo" "4" "abril" "5" "mayo" "6" "junio" "7" "julio" "8" "agosto" "9" "septiembre" "10" "octubre" "11" "noviembre" "12" "diciembre" }}
       {{ $day := $post.Date.Format "2" }}

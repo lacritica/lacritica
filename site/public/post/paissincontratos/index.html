@@ -229,6 +229,107 @@
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a><form
+  name="newsletter"
+  action = "/gracias/"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+ 
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  
+  margin-left: 1rem;
+  z-index: 1001;
+}
+
+ 
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+ 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+ 
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ 
+.subscribe-button:hover {
+  background: #222;
+}
+
+ 
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+ 
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+</a></li>
+        
 
       </ul>
 
@@ -500,7 +601,7 @@ document.addEventListener("click", () => {
           <h1 id="una-historia-tucumana-la-de-todos-en-argentina">Una Historia Tucumana, la de todos en Argentina</h1>
 <p>Hace unos días &mdash;lo que queda de&mdash; la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&rdquo;, fallado el 11/11/25)</p>
 <p>Los hechos son simples. En 2006, las partes habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.</p>
-<p>Unos años después (a partir de 2011), mientras el contrato se ejecutaba, las autoridades argentinas crearon el laberinto conocido como “cepo”, en el que una serie de manipulaciones regulatorias e informáticas perpetradas por la AFIP impedía masivamente a las personas el acceso a operaciones cambiarias en los bancos. Prácticamente nadie podía adquirir dólares al precio “oficial” fijado en los bancos. El cepo tenía como correlato el hecho de mantener un valor del dólar &mdash;inaccesible&mdash; artificialmente bajo, irreal, que lo distorsionaba como parámetro de conversión o de valor de la moneda para la ciudadanía, por fuera de las operaciones de comercio internacional. El valor del dólar oficial era significativamente menor que aquél al que la gente podía realmente adquirirlo, tanto en el mercado negro (blue) como a través de la compraventa de bonos (contado con liqui, etc.).</p><figure class='thumbnail-insert'><img src='/img/mostro.png' alt=''><figcaption><span class='epigraph'>Mostro</span><span class='copyright'>libro viejo</span></figcaption></figure>
+<p>Unos años después (a partir de 2011), mientras el contrato se ejecutaba, las autoridades argentinas crearon el laberinto conocido como “cepo”, en el que una serie de manipulaciones regulatorias e informáticas perpetradas por la AFIP impedía masivamente a las personas el acceso a operaciones cambiarias en los bancos. Prácticamente nadie podía adquirir dólares al precio “oficial” fijado en los bancos. El cepo tenía como correlato el hecho de mantener un valor del dólar &mdash;inaccesible&mdash; artificialmente bajo, irreal, que lo distorsionaba como parámetro de conversión o de valor de la moneda para la ciudadanía, por fuera de las operaciones de comercio internacional. El valor del dólar oficial era significativamente menor que aquél al que la gente podía realmente adquirirlo, tanto en el mercado negro (blue) como a través de la compraventa de bonos (contado con liqui, etc.).</p><figure class='thumbnail-insert'><img src='/img/webp/mostro.webp' alt=''><figcaption><span class='epigraph'>Mostro</span><span class='copyright'>libro viejo</span></figcaption></figure>
 <p>En ese contexto, para 2013, las desventuradas partes del contrato se encontraron en una tensión que no pudieron resolver: quien debía pagar eligió hacerlo en pesos al valor del &ldquo;oficial&rdquo; y quien debía cobrar se negó a recibir los pagos, dado que esos pesos eran manifiestamente insuficientes para adquirir la cantidad de dólares acordada, por cualquier medio disponible para la ciudadanía.</p>
 <p>El caso tiene algo de dramático, es casi trágico: ambas partes tenían razones morales y legales para defender su posición; las dos podían sostener que el entendimiento original que habían tenido en 2006 justificaba su pretensión acerca de cómo cumplirlo en 2013. Y también podía entenderse que ambas partes estaban tratando de obtener una ventaja a costa de la otra, aprovechando la absurda realidad económica argentina y usando el contrato firmado varios años atrás en su beneficio egoísta.</p>
 <p>La Corte no explicitó en su fallo cuál era la magnitud de la brecha entre el dólar oficial (inaccesible) y los otros en esa época. Un silencio elocuente. Pero la Cámara Federal de Tucumán que había intervenido relató que la brecha era del 50 %. Lo que es indudable es que ambas estaban tratando de defender su patrimonio en el marco de un contrato afectado por decisiones regulatorias y vías de hecho que distorsionaban todos los parámetros de referencia (por aquellas épocas las autoridades también falsificaban los índices de inflación, de pobreza, etc.) ¿Qué sentido podían tener las previsiones compartidas y acordadas en el pasado, frente a tal escenario?</p>
@@ -579,6 +680,12 @@ document.addEventListener("click", () => {
       </a>
       <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
         <img src="/img/linkedin.svg" alt="Linkedin logo">
+      </a>
+      <a href="https://www.instagram.com/lacriticadd/" target="blank" aria-label="Instagram">
+        <img src="/img/instagram.svg" alt="Instagram logo">
+      </a>
+      <a href="https://www.facebook.com/LaCriticaDD/" target="blank" aria-label="Facebook">
+        <img src="/img/facebook.svg" alt="Facebook logo">
       </a>
       
       </a>

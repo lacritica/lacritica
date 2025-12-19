@@ -7,7 +7,7 @@ categories:
 author:
 exclude_thumbnail_from_body: true
 thumbnail:
-  - src: "/img/system_failure2.png"
+  - src: "/img/webp/system_failure2.webp"
     epigraph: "India, 2013"
     copyright: "Ramiro Álvarez Ugarte"
 highlight: true

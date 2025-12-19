@@ -8,7 +8,7 @@ exclude_thumbnail_from_body: false
 author:
   - Leandro Dias
 thumbnail:
-  - src: "/img/ushuaia2019.png"
+  - src: "/img/webp/ushuaia2019.webp"
     epigraph: "Ushuaia, 2019"
     copyright: "por RAU"
 highlight: false

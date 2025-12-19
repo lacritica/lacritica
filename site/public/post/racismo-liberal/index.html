@@ -14,7 +14,7 @@
     
     <title>
       
-        Racismo liberal | La Crítica
+        Racismo liberal (I) | La Crítica
       
     </title>
 
@@ -229,6 +229,107 @@
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a><form
+  name="newsletter"
+  action = "/gracias/"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+ 
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  
+  margin-left: 1rem;
+  z-index: 1001;
+}
+
+ 
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+ 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+ 
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ 
+.subscribe-button:hover {
+  background: #222;
+}
+
+ 
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+ 
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+</a></li>
+        
 
       </ul>
 
@@ -318,7 +419,7 @@ document.addEventListener("click", () => {
 <main class="article-layout">
 
   <aside class="article-sidebar">
-    <h1 class="post-title">Racismo liberal</h1>
+    <h1 class="post-title">Racismo liberal (I)</h1>
 
     
       <div class="post-author">
@@ -413,13 +514,13 @@ document.addEventListener("click", () => {
   <div class="share-buttons" data-pagefind-ignore>
 
     <a class="share-button" 
-       href="https://twitter.com/intent/tweet?text=Racismo&#43;liberal%0Apor&#43;Tom%C3%A1s&#43;Abraham%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fracismo-liberal%2F"
+       href="https://twitter.com/intent/tweet?text=Racismo&#43;liberal&#43;%28I%29%0Apor&#43;Tom%C3%A1s&#43;Abraham%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fracismo-liberal%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/twitter.svg" alt="Compartir en Twitter" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://bsky.app/intent/compose?text=Racismo&#43;liberal%0Apor&#43;Tom%C3%A1s&#43;Abraham%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fracismo-liberal%2F"
+       href="https://bsky.app/intent/compose?text=Racismo&#43;liberal&#43;%28I%29%0Apor&#43;Tom%C3%A1s&#43;Abraham%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fracismo-liberal%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/bluesky.svg" alt="Compartir en Bluesky" data-pagefind-ignore>
     </a>
@@ -437,7 +538,7 @@ document.addEventListener("click", () => {
     </a>
 
     <a class="share-button"
-       href="https://api.whatsapp.com/send?text=Racismo&#43;liberal%0Apor&#43;Tom%C3%A1s&#43;Abraham%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fracismo-liberal%2F"
+       href="https://api.whatsapp.com/send?text=Racismo&#43;liberal&#43;%28I%29%0Apor&#43;Tom%C3%A1s&#43;Abraham%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fracismo-liberal%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/whatsapp.svg" alt="Compartir en WhatsApp" data-pagefind-ignore>
     </a>
@@ -489,7 +590,7 @@ document.addEventListener("click", () => {
           <p>La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias. Haber inventado el fraude patriótico y la ley trampa fue una ocurrencia política de una creatividad asombrosa. Halperín Donghi habla de &ldquo;perplejidad&rdquo;.</p>
 <p>Con el gobierno de Yrigoyen comienza el proceso democrático en nuestro país. Todos los varones adultos sin distinción de origen, raza o religión, tenían derecho al voto secreto. Duró catorce años. Más allá de las explicaciones y conjeturas del Golpe de Uriburu, si fue por la Standard Oil o por la senilidad del presidente, el consenso mayoritario que abarcaba en sus manifestaciones explícitas a la principal prensa, a importantes sectores reformistas de la población universitaria, a los partidos políticos, sostenía que el régimen no daba para más. ¿Por qué? Porque el pueblo no estaba preparado para vivir en democracia. No sabía elegir. No tenía razón, pero no porque estuviera equivocado, sino por carecer de la facultad de raciocinio que es la que supone diferenciarnos de los animales. La racionalidad política ni es intuitiva ni espontánea. Debe ser tutoreada y tutelada.
 Desde Kant no se concibe la libertad ni como idea ni como práctica sin la razón.</p>
-<p>Las expresiones de la dirigencia política subrayaban que no se puede delegar en la chusma la elección de los representantes del pueblo, menos aún ungir a un presidente que no es más que un demagogo, tomando en cuenta las tasas de analfabetismo &mdash; por lo general magnificadas &mdash;, la falta de raigambre de los habitantes que con frecuencia eran una primera generación de nativos, el desprecio de las elites hacia mestizos de toda índole, desde los hijos de la ruralidad gauchesca a los embarcados en Génova, pero como eran liberales y republicanos, mantuvieron la libertad de prensa y asociación, un gran estímulo a las artes, y un ojo puesto en la subversión anarco-comunista-forjista para que no se desmadre.</p><figure class='thumbnail-insert'><img src='/img/joseph_raz.png' alt=''><figcaption><span class='epigraph'>de &lsquo;The Roots of Normativity&rsquo;</span><span class='copyright'>por Joseph Raz</span></figcaption></figure>
+<p>Las expresiones de la dirigencia política subrayaban que no se puede delegar en la chusma la elección de los representantes del pueblo, menos aún ungir a un presidente que no es más que un demagogo, tomando en cuenta las tasas de analfabetismo &mdash; por lo general magnificadas &mdash;, la falta de raigambre de los habitantes que con frecuencia eran una primera generación de nativos, el desprecio de las elites hacia mestizos de toda índole, desde los hijos de la ruralidad gauchesca a los embarcados en Génova, pero como eran liberales y republicanos, mantuvieron la libertad de prensa y asociación, un gran estímulo a las artes, y un ojo puesto en la subversión anarco-comunista-forjista para que no se desmadre.</p><figure class='thumbnail-insert'><img src='/img/webp/joseph_raz.webp' alt=''><figcaption><span class='epigraph'>de &lsquo;The Roots of Normativity&rsquo;</span><span class='copyright'>por Joseph Raz</span></figcaption></figure>
 <p>La Argentina no era de todos, mejor dicho, no todos los que habitaban el suelo argentino eran argentinos aun siendo naturales. Pocos podían decir como Victoria Ocampo que la historia de su familia se confundía con la historia de la patria.</p>
 <p>El país no estaba consolidado debido a ese aluvión de inmigrantes que recién se detuvo en la década del veinte. Años más tarde, en la que ya se apreciaba una población estable, para aprovechar esa pausa, irrumpe con premura la pregunta por el Ser Nacional.</p>
 <p>Una vez que somos los que estamos&hellip; ¿quiénes somos?
@@ -545,6 +646,12 @@ Por eso la educación libera a la vez que justifica la dominación en nombre del
       </a>
       <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
         <img src="/img/linkedin.svg" alt="Linkedin logo">
+      </a>
+      <a href="https://www.instagram.com/lacriticadd/" target="blank" aria-label="Instagram">
+        <img src="/img/instagram.svg" alt="Instagram logo">
+      </a>
+      <a href="https://www.facebook.com/LaCriticaDD/" target="blank" aria-label="Facebook">
+        <img src="/img/facebook.svg" alt="Facebook logo">
       </a>
       
       </a>

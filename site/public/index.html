@@ -230,6 +230,107 @@
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a><form
+  name="newsletter"
+  action = "/gracias/"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+ 
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  
+  margin-left: 1rem;
+  z-index: 1001;
+}
+
+ 
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+ 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+ 
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ 
+.subscribe-button:hover {
+  background: #222;
+}
+
+ 
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+ 
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+</a></li>
+        
 
       </ul>
 
@@ -320,6 +421,7 @@ document.addEventListener("click", () => {
 
 
 
+
 <section class="hero-grid">
   
 
@@ -375,6 +477,11 @@ document.addEventListener("click", () => {
 
   
   
+    
+  
+
+  
+  
 
   
   
@@ -389,16 +496,102 @@ document.addEventListener("click", () => {
 
 
 
+
+
+
 <section class="hero-column hero-column--tight">
   
     <article class="article">
       
         
   <div class="featured-thumbnail">
-    <img src="/img/ushuaia2019.png" alt="Featured Image"/>
+    <img src="/img/webp/chile2024.webp" alt="Featured Image"/>
   </div>
 
 
+      
+
+        <div class="categories">
+          
+            
+              <a href="/categories/ensayos">ensayos</a>
+            
+          
+        </div>
+        
+        <div class="author">
+          
+            <span class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/javier-couso-salas/">Javier Couso Salas</a>
+
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</span>
+          
+        </div>
+  
+        <h1><a href="/post/el-drastico-giro-electoral-chileno/">El drástico giro electoral chileno (y las incertezas que suscita la llegada de Kast a La Moneda)</a></h1>
+
+        <div class="summary">
+          
+            Desde el estallido social de 2019, las preocupaciones sociales viraron de la justicia social a la seguridad personal.
+          
+        </div>
+
+        <div class="date">
+          
+          
+          
+          
+          15 de diciembre de 2025
+        </div>
+      </div>
+    </article>
+  
+    <article class="article article--tight">
       
 
         <div class="categories">
@@ -493,8 +686,84 @@ document.addEventListener("click", () => {
         
         
         
-          
-          
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
     
 
     
@@ -512,7 +781,7 @@ document.addEventListener("click", () => {
 
 
 
-  <a class="author-link" href="/autores/leandro_dias/">Leandro Dias</a>
+  Leandro Dias
 
 
 
@@ -544,39 +813,6 @@ document.addEventListener("click", () => {
       </div>
     </article>
   
-    <article class="article article--tight">
-      
-
-        <div class="categories">
-          
-            
-              <a href="/categories/entrevistas">entrevistas</a>
-            
-          
-        </div>
-        
-        <div class="author">
-          
-        </div>
-  
-        <h1><a href="/post/aida-kemelmajer/">Aída Kemelmajer</a></h1>
-
-        <div class="summary">
-          
-            Un repaso por la vida y obra de una de las juristas más importantes de la Argentina.
-          
-        </div>
-
-        <div class="date">
-          
-          
-          
-          
-          10 de diciembre de 2025
-        </div>
-      </div>
-    </article>
-  
 </section>
 
   
@@ -587,7 +823,7 @@ document.addEventListener("click", () => {
       
       
         <figure class="featured-thumbnail">
-          <img src="/img/system_failure2.png" alt="Featured Image"/>
+          <img src="/img/webp/system_failure2.webp" alt="Featured Image"/>
         </figure>
       
 
@@ -670,6 +906,11 @@ document.addEventListener("click", () => {
 
   
   
+    
+  
+
+  
+  
 
   
   
@@ -678,6 +919,10 @@ document.addEventListener("click", () => {
 
   
   
+
+
+
+
 
 
 
@@ -690,7 +935,7 @@ document.addEventListener("click", () => {
       
         
           <div class="featured-thumbnail">
-            <img src="/img/mateo-calderon.jpeg" alt="Featured Image"/>
+            <img src="/img/cpc.jpeg" alt="Featured Image"/>
           </div>
         
       
@@ -698,7 +943,7 @@ document.addEventListener("click", () => {
       <div class="categories">
         
           
-            <a href="/categories/ensayos">ensayos</a>
+            <a href="/categories/debates">debates</a>
           
         
       </div>
@@ -725,7 +970,37 @@ document.addEventListener("click", () => {
     
     
     
+      
     
+    
+      
+    
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
     
 
     
@@ -743,7 +1018,7 @@ document.addEventListener("click", () => {
 
 
 
-  <a class="author-link" href="/autores/gustavo-arballo/">Gustavo Arballo</a>
+  <a class="author-link" href="/autores/catalina_p%C3%A9rez_correa/">Catalina Pérez Correa</a>
 
 
 
@@ -757,11 +1032,11 @@ document.addEventListener("click", () => {
         
       </div>
 
-      <h1><a href="/post/una-leccion-sobre-el-derecho-desde-la-afa/">Nota sin título: una lección sobre el derecho desde la AFA</a></h1>
+      <h1><a href="/post/la-toma-del-poder-judicial-en-mexico/">La toma del poder judicial en México</a></h1>
 
       <div class="summary">
         
-          Sobre Fuller y la moral interna del derecho, a próposito del campeonato de Rosario Central
+          La reforma impulsada por Morena quiso imponer la lógica electoral sobre el poder judicial, pero el pueblo casi no votó.
         
       </div>
 
@@ -770,7 +1045,7 @@ document.addEventListener("click", () => {
         
         
         
-        10 de diciembre de 2025
+        15 de diciembre de 2025
       </div>
 
     </article>
@@ -782,70 +1057,20 @@ document.addEventListener("click", () => {
       <div class="categories">
         
           
-            <a href="/categories/ensayos">ensayos</a>
+            <a href="/categories/entrevistas">entrevistas</a>
           
         
       </div>
 
       <div class="author">
         
-          <span class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/tomas-abraham/">Tomás Abraham</a>
-
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</span>
-        
       </div>
 
-      <h1><a href="/post/racismo-liberal/">Racismo liberal</a></h1>
+      <h1><a href="/post/aida-kemelmajer/">Aída Kemelmajer</a></h1>
 
       <div class="summary">
         
-          La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias.
+          Un repaso por la vida y obra de una de las juristas más importantes de la Argentina.
         
       </div>
 
@@ -946,24 +1171,20 @@ document.addEventListener("click", () => {
     
 
     <div class="callout-text">
-      "Durante veintiséis años traté de escribir claro, sobre todo, para que me entendiera quien pierde. Me enseñaron que para esto es necesario hacer lo que siempre indica la maestra de primer grado, o sea, escribir sujeto, verbo y predicado, en ese orden."
+      "Considerando que el estallido social no generó las transformaciones sociales que millones de chilenos demandaban, el cambio de foco desde la inseguridad económica a la inseguridad personal es intrigante."
     </div>
 
     <div class="callout-meta">
       
-
-      <span class="callout-title">
-        <a href="http://localhost:1313/post/aida-kemelmajer/">Aída Kemelmajer</a>
-      </span>
-
-      <span class="callout-lacritica">La Crítica del Derecho</span>
+        <span class="callout-author">Javier Couso Salas</span>
+      <span class="callout-title"><a href="http://localhost:1313/post/el-drastico-giro-electoral-chileno/">El drástico giro electoral chileno (y las incertezas que suscita la llegada de Kast a La Moneda)</a></span><span class="callout-lacritica">La Crítica del Derecho</span>
 
       
       
       
       
 
-      <span class="callout-date">10 de diciembre de 2025</span>
+      <span class="callout-date">15 de diciembre de 2025</span>
     </div>
     
 
@@ -1042,6 +1263,204 @@ document.addEventListener("click", () => {
 
 
 <section class="secondary-grid">
+  
+    <article class="article">
+
+      
+      
+        
+          <figure class="featured-thumbnail">
+            <img src="/img/mateo-calderon.jpeg" alt="Featured Image"/>
+          </figure>
+        
+      
+
+      <div class="article-cont">
+        
+        
+        <div class="categories">
+          
+            
+              <a href="/categories/ensayos">ensayos</a>
+            
+          
+        </div>
+
+        
+        <h1><a href="/post/una-leccion-sobre-el-derecho-desde-la-afa/">Nota sin título: una lección sobre el derecho desde la AFA</a></h1>
+
+        
+        <div class="author">
+          
+            <span class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/gustavo-arballo/">Gustavo Arballo</a>
+
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</span>
+          
+        </div>
+
+        
+        <div class="summary">
+          
+            Sobre Fuller y la moral interna del derecho, a próposito del campeonato de Rosario Central
+          
+        </div>
+
+        
+        <div class="date">
+          
+          
+          
+          
+          10 de diciembre de 2025
+        </div>
+
+      </div>
+    </article>
+  
+    <article class="article">
+
+      
+      
+        
+          <figure class="featured-thumbnail">
+            <img src="/img/webp/joseph_raz.webp" alt="Featured Image"/>
+          </figure>
+        
+      
+
+      <div class="article-cont">
+        
+        
+        <div class="categories">
+          
+            
+              <a href="/categories/ensayos">ensayos</a>
+            
+          
+        </div>
+
+        
+        <h1><a href="/post/racismo-liberal/">Racismo liberal (I)</a></h1>
+
+        
+        <div class="author">
+          
+            <span class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/tomas-abraham/">Tomás Abraham</a>
+
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</span>
+          
+        </div>
+
+        
+        <div class="summary">
+          
+            La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias.
+          
+        </div>
+
+        
+        <div class="date">
+          
+          
+          
+          
+          10 de diciembre de 2025
+        </div>
+
+      </div>
+    </article>
   
     <article class="article">
 
@@ -1142,207 +1561,14 @@ document.addEventListener("click", () => {
       </div>
     </article>
   
-    <article class="article">
-
-      
-      
-        
-          <figure class="featured-thumbnail">
-            <img src="/img/whatsapp-image-2025-11-12-at-22.56.06.jpeg" alt="Featured Image"/>
-          </figure>
-        
-      
-
-      <div class="article-cont">
-        
-        
-        <div class="categories">
-          
-            
-              <a href="/categories/ensayos">ensayos</a>
-            
-          
-        </div>
-
-        
-        <h1><a href="/post/diez-articulos-que-marcaron-mi-vida-academica/">Diez artículos que marcaron mi vida académica</a></h1>
-
-        
-        <div class="author">
-          
-            <span class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/roberto-gargarella/">Roberto Gargarella</a>
-
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</span>
-          
-        </div>
-
-        
-        <div class="summary">
-          
-            Textos centrales que definieron el modo en que hoy pienso
-          
-        </div>
-
-        
-        <div class="date">
-          
-          
-          
-          
-          10 de diciembre de 2025
-        </div>
-
-      </div>
-    </article>
-  
-    <article class="article">
-
-      
-      
-        
-          <figure class="featured-thumbnail">
-            <img src="/img/julio-2025.jpeg" alt="Featured Image"/>
-          </figure>
-        
-      
-
-      <div class="article-cont">
-        
-        
-        <div class="categories">
-          
-            
-              <a href="/categories/debates">debates</a>
-            
-          
-        </div>
-
-        
-        <h1><a href="/post/una-ley/">Como una ley, pero no más que una ley. Un límite olvidado de los DNU</a></h1>
-
-        
-        <div class="author">
-          
-            <span class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/sebastian-guidi/">Sebastián Guidi</a>
-
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</span>
-          
-        </div>
-
-        
-        <div class="summary">
-          
-            Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy los DNU forman parte del paisaje de la gobernanza diaria.
-          
-        </div>
-
-        
-        <div class="date">
-          
-          
-          
-          
-          10 de diciembre de 2025
-        </div>
-
-      </div>
-    </article>
-  
 </section>
 
   </div>
+
+
+
+
+
 
   </main>
 
@@ -1371,6 +1597,12 @@ document.addEventListener("click", () => {
       </a>
       <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
         <img src="/img/linkedin.svg" alt="Linkedin logo">
+      </a>
+      <a href="https://www.instagram.com/lacriticadd/" target="blank" aria-label="Instagram">
+        <img src="/img/instagram.svg" alt="Instagram logo">
+      </a>
+      <a href="https://www.facebook.com/LaCriticaDD/" target="blank" aria-label="Facebook">
+        <img src="/img/facebook.svg" alt="Facebook logo">
       </a>
       
       </a>

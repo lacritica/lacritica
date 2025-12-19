@@ -229,6 +229,107 @@
         <li><a href="/autores/">autores</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a><form
+  name="newsletter"
+  action = "/gracias/"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+ 
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  
+  margin-left: 1rem;
+  z-index: 1001;
+}
+
+ 
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+ 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+ 
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ 
+.subscribe-button:hover {
+  background: #222;
+}
+
+ 
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+ 
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+</a></li>
+        
 
       </ul>
 
@@ -550,6 +651,12 @@ document.addEventListener("click", () => {
       </a>
       <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
         <img src="/img/linkedin.svg" alt="Linkedin logo">
+      </a>
+      <a href="https://www.instagram.com/lacriticadd/" target="blank" aria-label="Instagram">
+        <img src="/img/instagram.svg" alt="Instagram logo">
+      </a>
+      <a href="https://www.facebook.com/LaCriticaDD/" target="blank" aria-label="Facebook">
+        <img src="/img/facebook.svg" alt="Facebook logo">
       </a>
       
       </a>

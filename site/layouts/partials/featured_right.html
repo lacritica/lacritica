@@ -11,8 +11,12 @@
   {{ end }}
 {{ end }}
 
+{{ $p0 := index $filtered 0 }}
+{{ $p1 := index $filtered 1 }}
+{{ $p2 := index $filtered 2 }}
+{{ $p3 := index $filtered 3 }}
 
-{{ $rightPosts := first 2 (after 2 $filtered) }}
+{{ $rightPosts := slice $p1 $p3 }}
 
 <section class="hero-column hero-column--tight">
   {{ range $index, $post := $rightPosts }}

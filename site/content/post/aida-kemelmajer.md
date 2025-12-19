@@ -7,7 +7,7 @@ author:
 categories:
   - entrevistas
 thumbnail:
-  - src: /img/aida-kemelmajer.png
+  - src: /img/webp/aida-kemelmajer.webp
     epigraph: Aída
     copyright: Universidad Nacional de Cuyo
 highlight: false

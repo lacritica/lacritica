@@ -1,0 +1,9 @@
+{{/* Inline-only author renderer */}}
+
+{{ with .Params.author }}
+  {{ if reflect.IsSlice . }}
+    {{ delimit . ", " }}
+  {{ else }}
+    {{ . }}
+  {{ end }}
+{{ end }}

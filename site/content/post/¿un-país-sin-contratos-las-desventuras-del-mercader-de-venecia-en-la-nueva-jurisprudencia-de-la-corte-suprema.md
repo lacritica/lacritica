@@ -8,7 +8,7 @@ categories:
 author:
   - Gustavo Maurino
 thumbnail:
-  - src: /img/mostro.png
+  - src: /img/webp/mostro.webp
     epigraph: Mostro
     copyright: libro viejo
 highlight: false
