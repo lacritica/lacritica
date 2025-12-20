@@ -2,170 +2,185 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.lacritica.ar/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/categories/ensayos/</loc>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/tags/installation/</loc>
+    <loc>http://localhost:1313/tags/installation/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/por-que-hacer-algo/</loc>
+    <loc>http://localhost:1313/post/por-que-hacer-algo/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/</loc>
+    <loc>http://localhost:1313/post/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/racismo-liberal-2/</loc>
+    <loc>http://localhost:1313/bocanadas/a-few-good-men/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/el-drastico-giro-electoral-chileno/</loc>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/maravilla/</loc>
+    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/racismo-liberal-2/</loc>
+    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</loc>
     <lastmod>2025-12-15T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/categories/debates/</loc>
+    <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2025-12-15T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/la-toma-del-poder-judicial-en-mexico/</loc>
+    <loc>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</loc>
     <lastmod>2025-12-15T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/bocanadas/</loc>
+    <loc>http://localhost:1313/bocanadas/bovino/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/bocanadas/bovino/</loc>
+    <loc>http://localhost:1313/post/dos-conceptos-de-inflacion-penal/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/dos-conceptos-de-inflacion-penal/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.lacritica.ar/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-12-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.lacritica.ar/post/aida-kemelmajer/</loc>
+    <loc>http://localhost:1313/post/aida-kemelmajer/</loc>
     <lastmod>2025-12-10T10:00:10+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/categories/entrevistas/</loc>
+    <loc>http://localhost:1313/categories/entrevistas/</loc>
     <lastmod>2025-12-10T10:00:10+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/una-leccion-sobre-el-derecho-desde-la-afa/</loc>
+    <loc>http://localhost:1313/post/una-leccion-sobre-el-derecho-desde-la-afa/</loc>
     <lastmod>2025-12-10T10:00:09+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/racismo-liberal/</loc>
+    <loc>http://localhost:1313/post/racismo-liberal/</loc>
     <lastmod>2025-12-10T10:00:07+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</loc>
+    <loc>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</loc>
     <lastmod>2025-12-10T10:00:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
+    <loc>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</loc>
     <lastmod>2025-12-10T10:00:04+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/paissincontratos/</loc>
+    <loc>http://localhost:1313/post/paissincontratos/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/una-ley/</loc>
+    <loc>http://localhost:1313/post/aportes-de-la-halaja-reales/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/por-que-la-cr%C3%ADiica/</loc>
+    <loc>http://localhost:1313/post/una-ley/</loc>
+    <lastmod>2025-12-10T10:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</loc>
     <lastmod>2025-12-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</loc>
+    <loc>http://localhost:1313/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</loc>
     <lastmod>2025-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/bocanadas/dos-fiscales/</loc>
+    <loc>http://localhost:1313/bocanadas/dos-fiscales/</loc>
     <lastmod>2025-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/bocanadas/la-batalla-de-monte-longdon/</loc>
+    <loc>http://localhost:1313/bocanadas/la-batalla-de-monte-longdon/</loc>
     <lastmod>2025-12-07T15:04:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/categories/catastrofe/</loc>
+    <loc>http://localhost:1313/categories/catastrofe/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/catastrofe/una-ley-copy-2/</loc>
+    <loc>http://localhost:1313/catastrofe/una-ley-copy-2/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/catastrofe/una-ley-copy/</loc>
+    <loc>http://localhost:1313/catastrofe/una-ley-copy/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/catastrofe/una-ley/</loc>
+    <loc>http://localhost:1313/catastrofe/una-ley/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/catastrofe/</loc>
+    <loc>http://localhost:1313/catastrofe/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/</loc>
+    <loc>http://localhost:1313/events/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/super-conferencia-icon-2026/</loc>
+    <loc>http://localhost:1313/events/super-conferencia-icon-2026/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event2/</loc>
+    <loc>http://localhost:1313/events/event2/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event1/</loc>
+    <loc>http://localhost:1313/events/event1/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event3/</loc>
+    <loc>http://localhost:1313/events/event3/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event4/</loc>
+    <loc>http://localhost:1313/events/event4/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event5/</loc>
+    <loc>http://localhost:1313/events/event5/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event7/</loc>
+    <loc>http://localhost:1313/events/event7/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event8/</loc>
+    <loc>http://localhost:1313/events/event8/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/event9/</loc>
+    <loc>http://localhost:1313/events/event9/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/events/events6/</loc>
+    <loc>http://localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/post/la_carta_de_lectores/</loc>
+    <loc>http://localhost:1313/post/la_carta_de_lectores/</loc>
     <lastmod>1983-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.lacritica.ar/gracias/</loc>
+    <loc>http://localhost:1313/gracias/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/agustina-ramon-michel/</loc>
+    <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/</loc>
+    <loc>http://localhost:1313/autores/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/catalina_p%C3%A9rez_correa/</loc>
+    <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/cont%C3%A1ctenos/</loc>
+    <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/gustavo-arballo/</loc>
+    <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/gustavo-maurino/</loc>
+    <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/javier-couso-salas/</loc>
+    <loc>http://localhost:1313/autores/javier-couso-salas/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/maria-luisa-pique/</loc>
+    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/mariela-puga/</loc>
+    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/owen-fiss/</loc>
+    <loc>http://localhost:1313/autores/maria-luisa-pique/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/quienes_somos/</loc>
+    <loc>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/ramiro-alvarez-ugarte/</loc>
+    <loc>http://localhost:1313/autores/mariela-puga/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/roberto-gargarella/</loc>
+    <loc>http://localhost:1313/autores/owen-fiss/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/search/</loc>
+    <loc>http://localhost:1313/quienes_somos/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/sebastian-guidi/</loc>
+    <loc>http://localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
   </url><url>
-    <loc>https://www.lacritica.ar/autores/tomas-abraham/</loc>
+    <loc>http://localhost:1313/autores/roberto-gargarella/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/sebastian-guidi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/tomas-abraham/</loc>
   </url>
 </urlset>

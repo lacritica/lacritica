@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Debates on La Crítica</title>
-    <link>https://www.lacritica.ar/categories/debates/</link>
+    <link>http://localhost:1313/categories/debates/</link>
     <description>Recent content in Debates on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Dec 2025 00:00:01 +0000</lastBuildDate>
-    <atom:link href="https://www.lacritica.ar/categories/debates/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/debates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>La toma del poder judicial en México</title>
-      <link>https://www.lacritica.ar/post/la-toma-del-poder-judicial-en-mexico/</link>
+      <link>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la-toma-del-poder-judicial-en-mexico/</guid>
+      <guid>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</guid>
       <description>&lt;p&gt;El 1 de junio de 2025 fueron las primeras elecciones del Poder Judicial en México. La jornada electoral estuvo marcada por la abstinencia, la desconfianza hacia el proceso electoral y la franca trampa para lograr que personas cercanas al partido en el poder fueran electos a los cargos que se competían. A pesar de elegirse &lt;a href=&#34;https://www.nytimes.com/es/2025/06/03/espanol/america-latina/elecciones-judiciales-resultados-morena.html&#34;&gt;2600 cargos judiciales locales y federales&lt;/a&gt;, 90% del electorado no se presentó a votar. Según una encuesta de &lt;a href=&#34;https://x.com/MassiveCaller/status/1929330350372643144&#34;&gt;Massive Caller&lt;/a&gt;, 48% de las personas que no votó afirmó que la principal razón por la que no acudió a las urnas fue la falta de confianza en la elección (20% dijo no tener interés en el proceso judicial y 10% que no sabía que había elecciones). Además, aproximadamente 20% de quienes votaron anularon su voto, lo que significa que el voto efectivo fue, en algunos casos, menor del 10%.&lt;/p&gt;</description>
     </item>
     <item>
       <title>¿Un país sin contratos?</title>
-      <link>https://www.lacritica.ar/post/paissincontratos/</link>
+      <link>http://localhost:1313/post/paissincontratos/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/paissincontratos/</guid>
+      <guid>http://localhost:1313/post/paissincontratos/</guid>
       <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días &amp;mdash;lo que queda de&amp;mdash; la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo;, fallado el 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
-      <link>https://www.lacritica.ar/post/una-ley/</link>
+      <link>http://localhost:1313/post/una-ley/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/una-ley/</guid>
+      <guid>http://localhost:1313/post/una-ley/</guid>
       <description>&lt;p&gt;Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los &lt;a href=&#34;https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/&#34;&gt;ha reivindicado&lt;/a&gt; no ya frente a la inacción del Congreso sino incluso frente a su rechazo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Por qué la crítica del derecho</title>
-      <link>https://www.lacritica.ar/post/por-que-la-cr%C3%ADiica/</link>
+      <link>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/por-que-la-cr%C3%ADiica/</guid>
+      <guid>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</guid>
       <description>&lt;p&gt;El derecho habita nuestra vida pública en dos presentaciones contradictorias.&lt;/p&gt;&#xA;&lt;p&gt;Por una parte, durante mucho tiempo imperó en nuestro país la tristemente célebre teoría de las dos bibliotecas: ante cualquier conflicto &amp;mdash;se nos dice&amp;mdash; habrá escribas con las credenciales suficientes dispuestos a justificar cualquier posición. En esta visión, la solidez del argumento es opcional: los tomos impresos convierten opiniones y caprichos en posiciones respetables. En esta cultura jurídica &amp;mdash;en la que las publicaciones se miden por peso&amp;mdash; siempre puede hablarse con deferencia de la posición contraria, aclarando simplemente que no se la comparte, como si los motivos para adoptar una u otra fueran tan inescrutables como los que llevan a elegir un equipo de fútbol. En la teoría de las dos bibliotecas, la argumentación encuentra siempre su destino sudamericano: si siempre habrá una biblioteca dispuesta a proveer refugio, no se impone la fuerza de los argumentos, sino los argumentos del que tiene la fuerza.&lt;/p&gt;</description>
     </item>
   </channel>

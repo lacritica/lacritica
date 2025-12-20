@@ -2,339 +2,381 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>La Crítica del derecho on La Crítica</title>
-    <link>https://www.lacritica.ar/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in La Crítica del derecho on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Dec 2025 00:00:01 +0000</lastBuildDate>
-    <atom:link href="https://www.lacritica.ar/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Por qué hacer algo</title>
-      <link>https://www.lacritica.ar/post/por-que-hacer-algo/</link>
+      <link>http://localhost:1313/post/por-que-hacer-algo/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/por-que-hacer-algo/</guid>
+      <guid>http://localhost:1313/post/por-que-hacer-algo/</guid>
       <description>&lt;p&gt;Aunque no soy graduado de la Facultad de Derecho de Yale, he enseñado aquí durante más de cincuenta años. Algunos de ustedes han tomado mis clases. Algunos trabajaron conmigo como asistentes de investigación o de docencia. Otros me han conocido a través de las actividades de esta red.&lt;/p&gt;&#xA;&lt;p&gt;Pueden imaginar mi estado de ánimo en los últimos diez meses, cada vez que termino de leer el periódico de la mañana. Sorprendido, incluso alarmado, he tenido que enfrentarme al hecho de que casi todo lo que he enseñado está en peligro o, peor aún, abandonado.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Racismo liberal (II)</title>
-      <link>https://www.lacritica.ar/post/racismo-liberal-2/</link>
+      <title>¿Ordenó usted el &#34;código rojo&#34;?</title>
+      <link>http://localhost:1313/bocanadas/a-few-good-men/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/racismo-liberal-2/</guid>
+      <guid>http://localhost:1313/bocanadas/a-few-good-men/</guid>
+      <description>&lt;p&gt;Rob Reiner decía que no era bueno en nada, pero que era bueno en muchas cosas. Director, guionista y productor, falleció esta semana. Para los abogados &amp;mdash;o, al menos, para algunos&amp;mdash; será siempre el director de &lt;em&gt;A Few Good Men&lt;/em&gt;, probablemente la mejor &lt;em&gt;trial movie&lt;/em&gt; que dio Hollywood.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;You want answers? / I want the truth! / You can’t handle the truth!&lt;/em&gt; El coronel Nathan Jessup responde desde el estrado, seguro de sí mismo, convencido de que la verdad le pertenece. Aparece solo en cuatro escenas, suficientes para condensar una forma de entender la autoridad: aquella que no discute, sino que afirma. Escena para la memoria colectiva.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Maravilla</title>
+      <link>http://localhost:1313/bocanadas/maravilla/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/bocanadas/maravilla/</guid>
+      <description>&lt;p&gt;LA MAYOR DE LAS INJUSTICIAS&lt;/p&gt;&#xA;&lt;p&gt;(por )&#xA;*dedicado a Adrián Emmanuel Martínez&lt;/p&gt;&#xA;&lt;p&gt;Entre las sinrazones de la infernal noche del sábado, hay una injusticia mayor. Luego de pasar estos días por distintos estadíos de tribulación, siento ahora una melancolía atemporal. Una pena singular, por alguien.&#xA;Adrián Maravilla Martínez merecía ser campeón del fútbol argentino. A los 36 del segundo tiempo hizo un gol cinematográfico, de todos los tiempos,&#xA;de esos que se cuentan de generación en generación hasta transformarse en una leyenda mágica.&#xA;El evento sintetiza al personaje, a la perfección: fue a buscar el pelotazo con la convicción irredenta de siempre, cuerpeó y dejó tendido a su marcador de turno y encaró hacia el arco como la bestia hambrienta que es. Enfrentó la adversidad (una más) cuando el arquero lo dejó sin ángulo, y ahí llegó su inspiración divina: giró 180 grados con su pierna derecha (sí, esa) y la picó al segundo palo por encima de los zagueros centrales, sus principales antagonistas.&lt;br&gt;&#xA;Minuto 81 de un partido alambicado, durísimo. Era Maravilla eterno en el póster de tu cuarto. Era el triunfo épico sobre un rival de cuentas pendientes. Era Racing campeón nuevamente. Era reeditar el sueño de la Libertadores. Era todo.&#xA;Pero el fútbol -tan hermoso como despiadado- nos dio un masazo en la nuca. Una falta tonta, un empate (muy) evitable y la trampa venenosa de los penales. Por voluntad de tu Dios -Maravilla-, y por razones que solo él sabe, la gloria se desvaneció cuando la teníamos abrazada.&#xA;Vos, que sos hombre de Fe por tu mismísimo milagro, debés haberlo aceptado con abnegación cristiana. El plan de Dios es perfecto.&#xA;Los más terrenales, en cambio, tememos que tu corajeada de hace 10 días contra Boca -ese salto atípico impulsado por tu instinto depredador-, y tu golazo crucial en esta final caigan en el inexorable olvido de los hechos ordinarios, pues la memoria completa, como advierte Borges, no es humana, pues sería un tormento. Sólo los hitos pasan a la inmortalidad, y salir segundo en el fútbol -lo sabemos todos-, no es un hito inmortal.&#xA;¿Cómo no te vamos a querer? ¿Cómo no te vamos a amar, Maravilla? ¿Cómo no habríamos de penar -el sábado y ahora- por no verte levantar esa copa que tanto merecías?Por tantos goles con nuestra camiseta, por tus goles decisivos acá y en las copas, por tu historia de vida, por los huevos que ponés en cada pelota .. Por eso duele tanto Maravilla: por nosotros, pero más por vos, hermano mío.&#xA;Sos ídolo, sos grande entre los grandes, sos leyenda racinguista. Me importa un carajo todo lo demás. Gracias Maravilla, eternamente agradecido por ponernos un rato en el paraíso. Y no te vayas nunca, te imploramos, porque sos una ganador, en la cancha y en la vida.&#xA;Te pedimos sólo algo más: que le pidas al buen Dios, que cuando seamos espíritu, volvamos todos juntos a ese minuto 81, para así abrazarnos de nuevo con nuestros viejos y hermanos, con los racinguistas desconocidos de la butaca de al lado, con vos y con Gustavo … todos juntos. Porque en ese momento y en ese extraño lugar, fuimos felices&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Racismo liberal (II)</title>
+      <link>http://localhost:1313/post/racismo-liberal-2/</link>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/racismo-liberal-2/</guid>
       <description>&lt;p&gt;Hay una característica diferencial que distingue a la historia argentina. El pasado siempre es actual. Nada de lo que sucedió deja de suceder, hablamos de un devenir permanente de lo que fue. El tiempo cronológico está subsumido a un tiempo problemático siempre inconcluso. Hay un panteón de personalidades históricas que no duermen en paz por ser objeto de la codicia de todos nosotros. Hemos condensado esta inquietud hiperanalizada, sobresaturada de argumentaciones, en el fenómeno peronista. Enarbolamos un blasón que presentamos en todo el mundo en el que figura una leyenda que dice que el peronismo no tiene explicación, que nadie de &amp;ldquo;afuera&amp;rdquo; puede entenderlo, o que se trata de un sentir inefable si no es un brote del sentido común de los argentinos o el sinónimo del ejercicio del poder tal como se da en la Argentina. Pero quizá no sea solo el peronismo lo que es inexplicable vía raciocinio sino toda la historia nacional.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El drástico giro electoral chileno (y las incertezas que suscita la llegada de Kast a La Moneda)</title>
-      <link>https://www.lacritica.ar/post/el-drastico-giro-electoral-chileno/</link>
+      <link>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:02 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/el-drastico-giro-electoral-chileno/</guid>
+      <guid>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</guid>
       <description>&lt;p&gt;I. Si bien la escena puede parecer trivial (la visita de la candidata derrotada en el balotaje presidencial al ganador, para felicitarlo), cuando se tiene en mente que la primera, Jeannette Jara, pertenece a un partido político que fue diezmado por una dictadura criminal, respecto de la cual el segundo (José Antonio Kast) se declara admirador, se aquilata lo peculiar de lo vivido en Chile esta semana.&lt;/p&gt;&#xA;&lt;p&gt;Para algunos, el gesto es reflejo de la proverbial hipocresía chilena (un país en que el término &amp;ldquo;cínico&amp;rdquo; se usa con frecuencia como sinónimo de su opuesto). Para otros, es simplemente expresión de protocolos ineludibles en la tradición política nacional. Como sea, el episodio no debe desviar la atención acerca del verdadero &amp;ldquo;terremoto político&amp;rdquo; que representa el que, por primera vez desde el fin del régimen de Pinochet (en 1990), un confesado partidario de mismo acceda al poder.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La toma del poder judicial en México</title>
-      <link>https://www.lacritica.ar/post/la-toma-del-poder-judicial-en-mexico/</link>
+      <link>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la-toma-del-poder-judicial-en-mexico/</guid>
+      <guid>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</guid>
       <description>&lt;p&gt;El 1 de junio de 2025 fueron las primeras elecciones del Poder Judicial en México. La jornada electoral estuvo marcada por la abstinencia, la desconfianza hacia el proceso electoral y la franca trampa para lograr que personas cercanas al partido en el poder fueran electos a los cargos que se competían. A pesar de elegirse &lt;a href=&#34;https://www.nytimes.com/es/2025/06/03/espanol/america-latina/elecciones-judiciales-resultados-morena.html&#34;&gt;2600 cargos judiciales locales y federales&lt;/a&gt;, 90% del electorado no se presentó a votar. Según una encuesta de &lt;a href=&#34;https://x.com/MassiveCaller/status/1929330350372643144&#34;&gt;Massive Caller&lt;/a&gt;, 48% de las personas que no votó afirmó que la principal razón por la que no acudió a las urnas fue la falta de confianza en la elección (20% dijo no tener interés en el proceso judicial y 10% que no sabía que había elecciones). Además, aproximadamente 20% de quienes votaron anularon su voto, lo que significa que el voto efectivo fue, en algunos casos, menor del 10%.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bovino</title>
-      <link>https://www.lacritica.ar/bocanadas/bovino/</link>
+      <link>http://localhost:1313/bocanadas/bovino/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/bocanadas/bovino/</guid>
+      <guid>http://localhost:1313/bocanadas/bovino/</guid>
       <description>&lt;p&gt;Alberto Bovino, jurista de mil vidas: empresario, activista, editor, penalista, polemista. Como con Charly García, cada generación tiene su propio Bovino: algunos recuerdan la disrupción ética y estética de &amp;ldquo;No hay derecho&amp;rdquo; en la rígida Facultad de Derecho de la UBA; otros recuerdan el vanguardismo poético de &amp;ldquo;No hubo derecho&amp;rdquo;, en la era dorada de los blogs; todos atesoramos algún ejemplar de las míticas ediciones de Del Puerto, que jamás dudó en publicar lo que debía ser publicado. Vaya nuestro homenaje y saludos a un verdadero pirata fundador.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dos conceptos de inflación penal</title>
-      <link>https://www.lacritica.ar/post/dos-conceptos-de-inflacion-penal/</link>
+      <link>http://localhost:1313/post/dos-conceptos-de-inflacion-penal/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/dos-conceptos-de-inflacion-penal/</guid>
+      <guid>http://localhost:1313/post/dos-conceptos-de-inflacion-penal/</guid>
       <description>&lt;p&gt;En los últimos días se ha instalado en la discusión pública el concepto de &amp;ldquo;inflación penal&amp;rdquo;. Al parecer, y según ciertas declaraciones de funcionarios del actual gobierno argentino, se está pensando en sancionar un nuevo código penal con más delitos y penas más graves. Esa clase de inflación penal sería la única clase de inflación que el gobierno actual querría tener. Creo que es necesario tomarse en serio esta cuestión, no en última instancia porque seguramente en los próximos meses se discutirá el ansiado proyecto de código penal del gobierno. Surge la pregunta, entonces, de si realmente sería algo bueno que haya inflación penal en Argentina.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aída Kemelmajer</title>
-      <link>https://www.lacritica.ar/post/aida-kemelmajer/</link>
+      <link>http://localhost:1313/post/aida-kemelmajer/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:10 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/aida-kemelmajer/</guid>
+      <guid>http://localhost:1313/post/aida-kemelmajer/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Gustavo Maurino &amp;mdash; Quisiéramos comenzar con algún recorrido por su biografía jurídica: ¿Cómo fue su inicio en el camino del derecho?, ¿por qué estudió abogacía?, ¿qué recuerdos podría compartirnos de sus épocas de estudiante?, ¿qué clase de estudiante era?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Aída Kemelmajer&lt;/em&gt; &amp;mdash; Yo nací en una familia en la que no había abogados. Mi decisión de seguir esta carrera comenzó en el colegio secundario; vivía en San Martín, una ciudad que se encuentra a 40 Km de la capital de Mendoza. Cursaba el bachillerato en un establecimiento educativo que se había creado gracias a la gestión de Felipe Llaver , quien posteriormente fue gobernador de la provincia, cuando era diputado nacional. Por entonces, había una materia que se llamada &amp;ldquo;Educación Democrática&amp;rdquo;; la tenía a su cargo un abogado joven de San Martín, que se había recibido en la universidad de Córdoba, como era usual en esa época. Además de los buenos profesores &amp;ldquo;locales&amp;rdquo;, teníamos excelentes profesores que, con gran vocación, se trasladaban diariamente en ómnibus desde Mendoza. No había autopista que uniera las dos ciudades y el transporte público se detenía en cada localidad por lo que demoraba cerca de una hora y media para ir y otra para volver. Ellos generaron en mí la obligación de responder a semejante pasión y esfuerzo por la enseñanza; creo que era una buena alumna, no porque fuese muy inteligente (mi hermana mayor era mucho más inteligente que yo) sino porque ponía toda la voluntad del mundo; reflexionando a la distancia, quizás inconscientemente, mi voluntad iba dirigida a mostrarles que el sacrificio de venir diariamente hasta nosotros valía la pena. Llegamos al  &amp;ldquo;quinto año del Nacional&amp;rdquo; un grupo muy unido, con un importante sentido de la colaboración entre nosotros. Un número significativo siguió carreras universitarias.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nota sin título: una lección sobre el derecho desde la AFA</title>
-      <link>https://www.lacritica.ar/post/una-leccion-sobre-el-derecho-desde-la-afa/</link>
+      <link>http://localhost:1313/post/una-leccion-sobre-el-derecho-desde-la-afa/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:09 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/una-leccion-sobre-el-derecho-desde-la-afa/</guid>
+      <guid>http://localhost:1313/post/una-leccion-sobre-el-derecho-desde-la-afa/</guid>
       <description>&lt;p&gt;&lt;em&gt;Los hechos son conocidos, aunque no todos se conocieron a la vez, y sobre algunos tenemos más suspicacias o intuiciones que certezas. El punto central es que &lt;a href=&#34;https://www.tiempoar.com.ar/ta_article/sorpresa-central-campeon-de-un-torneo-que-nadie-sabia-que-daba-un-titulo/&#34;&gt;Rosario Central fue declarado campeón retroactivo&lt;/a&gt; y de esa singular consagración -y la secuela de juicio del “pasillo”  de Estudiantes de La Plata - se derivan varias ideas que nos sirven para ir más allá del caso, y que nos sirven específicamente para pensar el derecho, así que aprovechemos a hacer de esto una minima pedagogía institucional, al paso que ajustamos cuentas de todo lo que nos hace ruido con ese título.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Racismo liberal (I)</title>
-      <link>https://www.lacritica.ar/post/racismo-liberal/</link>
+      <link>http://localhost:1313/post/racismo-liberal/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:07 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/racismo-liberal/</guid>
+      <guid>http://localhost:1313/post/racismo-liberal/</guid>
       <description>&lt;p&gt;La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias. Haber inventado el fraude patriótico y la ley trampa fue una ocurrencia política de una creatividad asombrosa. Halperín Donghi habla de &amp;ldquo;perplejidad&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Con el gobierno de Yrigoyen comienza el proceso democrático en nuestro país. Todos los varones adultos sin distinción de origen, raza o religión, tenían derecho al voto secreto. Duró catorce años. Más allá de las explicaciones y conjeturas del Golpe de Uriburu, si fue por la Standard Oil o por la senilidad del presidente, el consenso mayoritario que abarcaba en sus manifestaciones explícitas a la principal prensa, a importantes sectores reformistas de la población universitaria, a los partidos políticos, sostenía que el régimen no daba para más. ¿Por qué? Porque el pueblo no estaba preparado para vivir en democracia. No sabía elegir. No tenía razón, pero no porque estuviera equivocado, sino por carecer de la facultad de raciocinio que es la que supone diferenciarnos de los animales. La racionalidad política ni es intuitiva ni espontánea. Debe ser tutoreada y tutelada.&#xA;Desde Kant no se concibe la libertad ni como idea ni como práctica sin la razón.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La exclusión constitutiva</title>
-      <link>https://www.lacritica.ar/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</link>
+      <link>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:06 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</guid>
+      <guid>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</guid>
       <description>&lt;p&gt;Me resulta particularmente extraña la incomprensión de un argumento tan simple y directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué no se entiende de lo obvio?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se interpone en la conversación entre el constitucionalismo y el punto de vista feminista?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Diez artículos que marcaron mi vida académica</title>
-      <link>https://www.lacritica.ar/post/diez-articulos-que-marcaron-mi-vida-academica/</link>
+      <link>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:04 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/diez-articulos-que-marcaron-mi-vida-academica/</guid>
+      <guid>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</guid>
       <description>&lt;p&gt;Presento, a continuación, 10 artículos que marcaron mi trayectoria como académico (en realidad, son 8 artículos, y 2 largos ensayos, devenidos en sendos libros). Con distancia advierto, como notas comunes a los escritos que destaco, que se trata de textos redactados de una manera sencilla y comprensible; referidos (más o menos directamente) a temas de primer interés público; y orientados a “intervenir” en la vida política. Los menciono y cuento un poco de mi relación con ellos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>¿Un país sin contratos?</title>
-      <link>https://www.lacritica.ar/post/paissincontratos/</link>
+      <link>http://localhost:1313/post/paissincontratos/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/paissincontratos/</guid>
+      <guid>http://localhost:1313/post/paissincontratos/</guid>
       <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días &amp;mdash;lo que queda de&amp;mdash; la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo;, fallado el 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
-      <link>https://www.lacritica.ar/post/una-ley/</link>
+      <title>Aportes de la Halajá a la interpretación jurídica (sin IA)</title>
+      <link>http://localhost:1313/post/aportes-de-la-halaja-reales/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/una-ley/</guid>
+      <guid>http://localhost:1313/post/aportes-de-la-halaja-reales/</guid>
+      <description>&lt;p&gt;La polémica de hace algunos días &amp;mdash;cuando este proyecto editorial estaba afilando su pluma virtual&amp;mdash; me hizo acordar a la magnífica obra de Robert Cover, en particular el texto &lt;em&gt;Nomos and Narrative&lt;/em&gt; que &lt;a href=&#34;https://archivos.juridicas.unam.mx/www/site/BiBlDrJC/boletin/2025/bibliografico//08.septiembre/assets/pdf/5.pdf&#34;&gt;tradujera al español hace algunos años Cristian Courtis&lt;/a&gt;. Cruzarse con este texto puede ser una experiencia que cambia el destino de una vida. Ciertamente cambió la mía. Desde que me encontré con el texto en la bibliografía de un seminario que finalmente &lt;em&gt;no&lt;/em&gt; tomé, puedo decir que diecisiete años después son pocos los artículos que escribo o en los que pienso en dónde no emerja, con naturalidad, la necesidad o el impulso de citarlo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
+      <link>http://localhost:1313/post/una-ley/</link>
+      <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/post/una-ley/</guid>
       <description>&lt;p&gt;Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los &lt;a href=&#34;https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/&#34;&gt;ha reivindicado&lt;/a&gt; no ya frente a la inacción del Congreso sino incluso frente a su rechazo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Por qué la crítica del derecho</title>
-      <link>https://www.lacritica.ar/post/por-que-la-cr%C3%ADiica/</link>
+      <link>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</link>
       <pubDate>Wed, 10 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/por-que-la-cr%C3%ADiica/</guid>
+      <guid>http://localhost:1313/post/por-que-la-cr%C3%ADiica/</guid>
       <description>&lt;p&gt;El derecho habita nuestra vida pública en dos presentaciones contradictorias.&lt;/p&gt;&#xA;&lt;p&gt;Por una parte, durante mucho tiempo imperó en nuestro país la tristemente célebre teoría de las dos bibliotecas: ante cualquier conflicto &amp;mdash;se nos dice&amp;mdash; habrá escribas con las credenciales suficientes dispuestos a justificar cualquier posición. En esta visión, la solidez del argumento es opcional: los tomos impresos convierten opiniones y caprichos en posiciones respetables. En esta cultura jurídica &amp;mdash;en la que las publicaciones se miden por peso&amp;mdash; siempre puede hablarse con deferencia de la posición contraria, aclarando simplemente que no se la comparte, como si los motivos para adoptar una u otra fueran tan inescrutables como los que llevan a elegir un equipo de fútbol. En la teoría de las dos bibliotecas, la argumentación encuentra siempre su destino sudamericano: si siempre habrá una biblioteca dispuesta a proveer refugio, no se impone la fuerza de los argumentos, sino los argumentos del que tiene la fuerza.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Esperanza y desilusión en el momento constitucional chileno</title>
-      <link>https://www.lacritica.ar/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</link>
+      <link>http://localhost:1313/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</link>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</guid>
+      <guid>http://localhost:1313/post/esperanza-y-desilusion-en-el-momento-constitucional-chileno/</guid>
       <description>&lt;p&gt;Llegó a mis manos la copia de &lt;em&gt;Social Rights and the Constitutional Moment. Learning from Chile and International Experiences&lt;/em&gt; el domingo 4 de septiembre de 2022, el mismo día en el que el pueblo chileno decía que no a la propuesta de Constitución a la que el volumen quiso aportar. La circunstancia, por demás anticlimática, marca en cierto sentido el tono de esta reseña, pero no quita mérito a los trabajos allí editados por Koldo Casla, Magdalena Sepúlveda, Vicente Silva y Valentina Contreras. Por el contrario, la intención de la compilación&amp;mdash;aprender de Chile y otras experiencias comparadas&amp;mdash;parece ser un objetivo especialmente urgente ante el resultado electoral. El dictamen de las urnas, sin embargo, es relevante y permite juzgar la contribución del libro a la luz de esa desilusión.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Una fiscal sobre &#39;Dos fiscales&#39;</title>
-      <link>https://www.lacritica.ar/bocanadas/dos-fiscales/</link>
+      <link>http://localhost:1313/bocanadas/dos-fiscales/</link>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/bocanadas/dos-fiscales/</guid>
+      <guid>http://localhost:1313/bocanadas/dos-fiscales/</guid>
       <description>&lt;h3 id=&#34;una-película-sobre-el-terror-estalinista-y-la-impotencia-de-la-justicia-frente-al-totalitarismo&#34;&gt;Una película sobre el terror estalinista y la impotencia de la justicia frente al totalitarismo&lt;/h3&gt;&#xA;&lt;p&gt;En medio de situaciones kafkianas, escenarios oscuros, personajes típicamente soviéticos y escenas lentas y opresivas que pretenden &amp;mdash;y logran&amp;mdash; transmitir el clima de las purgas estalinistas, la película &amp;ldquo;Dos fiscales&amp;rdquo;, dirigida por el cineasta ucraniano Sergei Loznitsa y basada en la novela del mismo nombre de Georgy Demidov, retrata las dificultades que enfrenta un fiscal que quiere cumplir con su trabajo en un régimen totalitario. A pesar de lo que muchas veces pretende mostrar el cine norteamericano, el fiscal quizás no sea &amp;mdash;o no debería ser&amp;mdash; el personaje más atractivo para relatar las grandes historias judiciales. Ni en Estados Unidos, ni en Argentina, ni en la Unión Soviética de 1937. Es un empleado estatal que litiga y eventualmente acusa &amp;mdash;y para poder hacerlo, tiene que investigar&amp;mdash; pero nada de lo que hace es a título personal. Actúa representando intereses difusos, cuyos alcance y definición varían a través de los sistemas procesales, países y épocas, pero que no se identifican &amp;mdash;o no deberían hacerlo&amp;mdash; ni con los del gobierno de turno, ni con los de las fuerzas de seguridad, ni con los de las víctimas de delitos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La batalla de Monte Longdon</title>
-      <link>https://www.lacritica.ar/bocanadas/la-batalla-de-monte-longdon/</link>
+      <link>http://localhost:1313/bocanadas/la-batalla-de-monte-longdon/</link>
       <pubDate>Sun, 07 Dec 2025 15:04:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/bocanadas/la-batalla-de-monte-longdon/</guid>
+      <guid>http://localhost:1313/bocanadas/la-batalla-de-monte-longdon/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/_Ve7yq1qRG4?si=aDcWy2vHYF4r5ITi&#34;&gt;“La batalla de Monte Longdon”&lt;/a&gt; es el capítulo 31 y la -hasta ahora- última entrega de &lt;a href=&#34;https://www.youtube.com/@malvinasdiaxdia&#34;&gt;“Malvinas Día por Día”&lt;/a&gt;, un folletín audiovisual documental que estoy viendo desde hace tres años: el realizador Gabriel Concatti arma capítulos de duración variable y los va subiendo a YouTube a intervalos también variables (recomendamos &lt;a href=&#34;https://www.youtube.com/watch?v=eQPQO7fYimQ&#34;&gt;empezar desde el principio)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El solo efecto de poner los acontecimientos en mapa, día y hora, a través de una voz en off omnisciente del episodio y del contexto, con un minucioso y obsesivo nivel de detalle de las acciones, da lugar a una experiencia inmersiva y devastadora. El recurso de la infografía animada, dominante, se combina con perlas de archivo bien dosificadas, escenas de cómo operaba la disfuncional cadena de decisiones, y una decisión editorial respetuosa de darle a cada víctima su rostro, en una puesta que rehúye el subrayado y confía en la acumulación de los hechos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
-      <link>https://www.lacritica.ar/catastrofe/una-ley-copy-2/</link>
+      <link>http://localhost:1313/catastrofe/una-ley-copy-2/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/catastrofe/una-ley-copy-2/</guid>
+      <guid>http://localhost:1313/catastrofe/una-ley-copy-2/</guid>
       <description>&lt;p&gt;Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los &lt;a href=&#34;https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/&#34;&gt;ha reivindicado&lt;/a&gt; no ya frente a la inacción del Congreso sino incluso frente a su rechazo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
-      <link>https://www.lacritica.ar/catastrofe/una-ley-copy/</link>
+      <link>http://localhost:1313/catastrofe/una-ley-copy/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/catastrofe/una-ley-copy/</guid>
+      <guid>http://localhost:1313/catastrofe/una-ley-copy/</guid>
       <description>&lt;p&gt;Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los &lt;a href=&#34;https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/&#34;&gt;ha reivindicado&lt;/a&gt; no ya frente a la inacción del Congreso sino incluso frente a su rechazo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
-      <link>https://www.lacritica.ar/catastrofe/una-ley/</link>
+      <link>http://localhost:1313/catastrofe/una-ley/</link>
       <pubDate>Mon, 01 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/catastrofe/una-ley/</guid>
+      <guid>http://localhost:1313/catastrofe/una-ley/</guid>
       <description>&lt;p&gt;Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los &lt;a href=&#34;https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/&#34;&gt;ha reivindicado&lt;/a&gt; no ya frente a la inacción del Congreso sino incluso frente a su rechazo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Super conferencia, ICON 2026</title>
-      <link>https://www.lacritica.ar/events/super-conferencia-icon-2026/</link>
+      <link>http://localhost:1313/events/super-conferencia-icon-2026/</link>
       <pubDate>Mon, 17 Nov 2025 17:19:06 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/super-conferencia-icon-2026/</guid>
+      <guid>http://localhost:1313/events/super-conferencia-icon-2026/</guid>
       <description>&lt;p&gt;El contenido en realidad no importa.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ACIJ. De la excepción a la regla</title>
-      <link>https://www.lacritica.ar/events/event2/</link>
+      <link>http://localhost:1313/events/event2/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event2/</guid>
+      <guid>http://localhost:1313/events/event2/</guid>
       <description></description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event1/</link>
+      <link>http://localhost:1313/events/event1/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event1/</guid>
+      <guid>http://localhost:1313/events/event1/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event3/</link>
+      <link>http://localhost:1313/events/event3/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event3/</guid>
+      <guid>http://localhost:1313/events/event3/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event4/</link>
+      <link>http://localhost:1313/events/event4/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event4/</guid>
+      <guid>http://localhost:1313/events/event4/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event5/</link>
+      <link>http://localhost:1313/events/event5/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event5/</guid>
+      <guid>http://localhost:1313/events/event5/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event7/</link>
+      <link>http://localhost:1313/events/event7/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event7/</guid>
+      <guid>http://localhost:1313/events/event7/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event8/</link>
+      <link>http://localhost:1313/events/event8/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event8/</guid>
+      <guid>http://localhost:1313/events/event8/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/event9/</link>
+      <link>http://localhost:1313/events/event9/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/event9/</guid>
+      <guid>http://localhost:1313/events/event9/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Red de Estudios Empíricos en Derecho</title>
-      <link>https://www.lacritica.ar/events/events6/</link>
+      <link>http://localhost:1313/events/events6/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/events/events6/</guid>
+      <guid>http://localhost:1313/events/events6/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La carta contra la autoamnistía</title>
-      <link>https://www.lacritica.ar/post/la_carta_de_lectores/</link>
+      <link>http://localhost:1313/post/la_carta_de_lectores/</link>
       <pubDate>Mon, 12 Sep 1983 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la_carta_de_lectores/</guid>
+      <guid>http://localhost:1313/post/la_carta_de_lectores/</guid>
       <description>&lt;p&gt;Si bien el hecho fundante de nuestra democracia es el Juicio a las Juntas, el antecedente que convirtió en probable lo que era considerado imposible, fue la nulificación de la ley de autoamnistía &amp;mdash; primera ley de nuestra democracia restaurada. En esta histórica carta de lectores a La Nación del 12 de septiembre de 1983, mientras la dictadura aún gobernaba, Genaro Carrió, Jaime Malamud Goti y Carlos Nino &amp;mdash;tres de los grandes arquitectos del Juicio, junto con Martín Farrell&amp;mdash; anticipan, de modo brevísimo, las dos líneas de argumentos centrales que se utilizarán para anular esa norma &amp;ldquo;de facto&amp;rdquo;: (i) la auto-aministía viola la Constitución, que no permite privilegios arbitrarios (art.18), y determina una nulidad insalvable para los actos que impliquen &amp;ldquo;la suma del poder público&amp;rdquo; (art. 29); y (ii) las normas promulgadas por la dictadura no gozan de una presunción de validez, como sí lo hacen las que tienen origen democrático.&lt;/p&gt;</description>
     </item>
     <item>
       <title>¡Gracias!</title>
-      <link>https://www.lacritica.ar/gracias/</link>
+      <link>http://localhost:1313/gracias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/gracias/</guid>
+      <guid>http://localhost:1313/gracias/</guid>
       <description>&lt;p&gt;Gracias por suscribirse. Más novedades, dentro de un tiempo, por correo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Agustina Ramón Michel</title>
-      <link>https://www.lacritica.ar/autores/agustina-ramon-michel/</link>
+      <link>http://localhost:1313/autores/agustina-ramon-michel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/agustina-ramon-michel/</guid>
+      <guid>http://localhost:1313/autores/agustina-ramon-michel/</guid>
       <description>&lt;p&gt;Investigo temas de derecho, género y salud ante todo, pero no solamente. Me gusta hacerlo de manera empírica y teórica. Es probable que conozca más profesionales de la salud que abogados. Fui aprendiendo de América Latina. Trabajo en el CEDES y en la Universidad de Palermo, también doy clases en la UBA. Me gradué de abogada en la UNT, Tucumán, hace casi 20 años pero todavía me aspiro las S.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Catalina Pérez Correa</title>
-      <link>https://www.lacritica.ar/autores/catalina_p%C3%A9rez_correa/</link>
+      <link>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/catalina_p%C3%A9rez_correa/</guid>
+      <guid>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</guid>
       <description>&lt;p&gt;Licenciada en Derecho por el Instituto Tecnológico Autónomo de México (ITAM). Maestra y Doctora en derecho por la Escuela de Derecho de la Universidad de Stanford en California. Ha sido profesora en la Facultad de Derecho de la UNAM, investigadora en el Instituto de Investigaciones Jurídicas de la UNAM, profesora-investigadora del Centro de Investigación y Docencia Económicas (CIDE) e investigadora visitante en el Schell Center for International Human Rights de la Escuela de Derecho de la Universidad de Yale, en Estados Unidos. Actualmente es investigadora de la Asociación para el Estudio de la Política de Drogas (APEPD). Ha publicado varios libros y artículos académicos sobre el sistema penal mexicano, la política de drogas en América Latina, el castigo penal y la militarización en México. Ha llevado a cabo varias encuestas en el sistema penitenciario mexicano con personas privadas de la libertad, familiares que visitan las prisiones y personal penitenciario. Asimismo ha investigado l regulación de la cannabis en México y la opinion y conocimiento sobre el Poder Judicial y las personas juzgadoras. Es articulista del periódico: El Universal y ha colaborado con diversos medios impresos como la Revista Nexos, el New York Times, el Wall Street Journal, entre otros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contáctenos</title>
-      <link>https://www.lacritica.ar/cont%C3%A1ctenos/</link>
+      <link>http://localhost:1313/cont%C3%A1ctenos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/cont%C3%A1ctenos/</guid>
+      <guid>http://localhost:1313/cont%C3%A1ctenos/</guid>
       <description>&lt;p&gt;Recibimos correos de lectores, quejas, ideas, propuestas y demás en &lt;a href=&#34;mailto:contacto@lacritica.ar&#34;&gt;contacto@lacritica.ar&lt;/a&gt;. Si desea que su comentario no sea publicado en la sección &amp;ldquo;Correo de lectores&amp;rdquo;, hágannoslo saber.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gustavo Arballo</title>
-      <link>https://www.lacritica.ar/autores/gustavo-arballo/</link>
+      <link>http://localhost:1313/autores/gustavo-arballo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/gustavo-arballo/</guid>
+      <guid>http://localhost:1313/autores/gustavo-arballo/</guid>
       <description>&lt;p&gt;Abogado (UN La Plata), Doctor en Derecho (UN Córdoba), ejerzo el derecho &amp;ldquo;en función judicial&amp;rdquo;. NyCyR en Santa Rosa, La Pampa. Autor y partícipe de publicaciones técnicas y de divulgación en temas de federalismo, magistratura y derecho público, escribí varios años &amp;ldquo;Saber Leyes no es Saber Derecho&amp;rdquo; (&lt;a href=&#34;http://www.saberderecho.com/&#34;&gt;blog&lt;/a&gt;) y el libro &amp;ldquo;Brevísimo Curso de Derecho para no Abogados&amp;rdquo; (Siglo XXI, 2022). &lt;em&gt;Expressio unius non est exclusio alterius&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gustavo Maurino</title>
-      <link>https://www.lacritica.ar/autores/gustavo-maurino/</link>
+      <link>http://localhost:1313/autores/gustavo-maurino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/gustavo-maurino/</guid>
+      <guid>http://localhost:1313/autores/gustavo-maurino/</guid>
       <description>&lt;p&gt;Aprendiendo y enseñando sobre Derecho y Abogacía. Entre la teoría constitucional, los derechos humanos, el acceso a la justicia y la abogacía comunitaria. En viaje por la sociedad civil, las políticas públicas y las aulas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Javier Couso Salas</title>
-      <link>https://www.lacritica.ar/autores/javier-couso-salas/</link>
+      <link>http://localhost:1313/autores/javier-couso-salas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/javier-couso-salas/</guid>
+      <guid>http://localhost:1313/autores/javier-couso-salas/</guid>
       <description>&lt;p&gt;Profesor titular de Derecho Público en la Universidad Diego Portales (Chile) y catedrático en Tendencias Globales del Constitucionalismo en la Universidad de Utrecht (Países Bajos). Su trabajo se centra en la interacción entre el constitucionalismo, estado de derecho y culturas jurídicas en nuevas democracias y, en los últimos años, en procesos constituyentes. Couso es autor de decenas de artículos académicos y libros, entre los que se incluyen Constitutional Law in Chile (Wolters Kluwer) y Cultures of Legality (Cambridge University Press). Ha sido titular de la Cátedra Prins Claus en Desarrollo y Equidad de la Universidad de Utrecht, y profesor visitante en la universidades de Melbourne; Wisconsin-Madison; Leiden y California-Berkeley (entre otras). Además de su labor académica, fue asesor constitucional de la presidenta Michelle Bachelet, de Chile (en el período 2014-2018) y es colaborador habitual del programa de construcción constitucional y estado de derecho de International IDEA.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>María Luisa Piqué</title>
-      <link>https://www.lacritica.ar/autores/maria-luisa-pique/</link>
+      <title>Juan Ignacio Saenz</title>
+      <link>http://localhost:1313/autores/juan_ignacio_saenz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/maria-luisa-pique/</guid>
+      <guid>http://localhost:1313/autores/juan_ignacio_saenz/</guid>
+      <description>&lt;p&gt;Profesor Regular de Derecho Constitucional (UBA). Ex funcionario del Poder Judicial de la Nación y ex Director de Asuntos Jurídicos de la Cámara de Diputados. Abogado especialista en Derecho Administrativo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leandro Dias</title>
+      <link>http://localhost:1313/autores/leandro_dias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/leandro_dias/</guid>
+      <description>&lt;p&gt;Investigador postdoctoral en la Julius-Maximilians-Universität Würzburg (JMU) y profesor invitado en la Universidad Torcuato Di Tella (UTDT). Dias estudió Derecho en la Universidad de Buenos Aires (2013). Luego realizó una especialización (2015) y una maestría en derecho penal (2018) en la UTDT. Con el apoyo de una beca DAAD pudo realizar su primer doctorado en derecho penal en la UBA (2023) y luego su segundo doctorado en ciencias jurídicas en la JMU-Würzburg (2024). El foco de su investigación es la teoría del derecho penal y la filosofía del derecho.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>María Luisa Piqué</title>
+      <link>http://localhost:1313/autores/maria-luisa-pique/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/maria-luisa-pique/</guid>
       <description>&lt;p&gt;María Luisa Piqué es fiscal de la Procuración General de la Nación Argentina, abogada por la UBA, especialista en derecho penal por la UTDT y master en derecho por la Universidad Georgetown. Fue becaria de la Fundación Fulbright y perita de la Corte Interamericana de Derechos Humanos. Es profesora de Garantías Constitucionales del Derecho Penal en la UBA y de Género y Derecho Penal en la Maestría en Derecho Penal de la Universidad de San Andrés y profesora invitada en otras universidades nacionales. Es autora de diversos artículos sobre derecho penal, garantías constitucionales en el proceso penal y violencia de género.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Mariela Puga</title>
-      <link>https://www.lacritica.ar/autores/mariela-puga/</link>
+      <title>María Victoria Ricciardi</title>
+      <link>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/mariela-puga/</guid>
+      <guid>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</guid>
+      <description>&lt;p&gt;Abogada de la Universidad de Buenos Aires. Diploma de Honor. Fulbright Scholar. LLM de la Universidad de Texas at Austin en Derecho Constitucional Comprada. Dedicada a temas de DESC, vivienda y género.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mariela Puga</title>
+      <link>http://localhost:1313/autores/mariela-puga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/mariela-puga/</guid>
       <description>&lt;p&gt;Doctora en Derecho de la UBA, Master en Derecho de la Universidad de Columbia (USA), Especialista en Derecho de Daños la Universidad de Palermo, y Abogada de la UNC. Es Investigadora de Conicet desde 2020 en el área de tecnología jurídica para el litigio y la remediación estructural en conflictos de justicia territorial. Actualmente profundizo el estudio del derecho constitucional feminista. Es profesora titular de Derecho Constitucional en la UNC.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Owen Fiss</title>
-      <link>https://www.lacritica.ar/autores/owen-fiss/</link>
+      <link>http://localhost:1313/autores/owen-fiss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/owen-fiss/</guid>
+      <guid>http://localhost:1313/autores/owen-fiss/</guid>
       <description>&lt;p&gt;Profesor emérito de Derecho Sterling y profesor titular de Derecho de la Universidad de Yale. Fue educado en Dartmouth, Oxford y Harvard. Trabajó como secretario de Thurgood Marshall (cuando Marshall era juez de la Corte de Apelaciones del Segundo Circuito de los Estados Unidos) y más tarde del juez William J. Brennan en la Suprema Corte de los Estados Unidos. También trabajó en la División de Derechos Civiles del Departamento de Justicia de 1966 a 1968. Enseña procedimientos, teoría jurídica y derecho constitucional.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quiénes somos</title>
-      <link>https://www.lacritica.ar/quienes_somos/</link>
+      <link>http://localhost:1313/quienes_somos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/quienes_somos/</guid>
+      <guid>http://localhost:1313/quienes_somos/</guid>
       <description>&lt;p&gt;El derecho habita nuestra vida pública en dos presentaciones contradictorias.&lt;/p&gt;&#xA;&lt;p&gt;Por una parte, durante mucho tiempo imperó en nuestro país la tristemente célebre teoría de las dos bibliotecas: ante cualquier conflicto &amp;mdash;se nos dice&amp;mdash; habrá escribas con las credenciales suficientes dispuestos a justificar cualquier posición. En esta visión, la solidez del argumento es opcional: los tomos impresos convierten opiniones y caprichos en posiciones respetables. En esta cultura jurídica &amp;mdash;en la que las publicaciones se miden por peso&amp;mdash; siempre puede hablarse con deferencia de la posición contraria, aclarando simplemente que no se la comparte, como si los motivos para adoptar una u otra fueran tan inescrutables como los que llevan a elegir un equipo de fútbol. En la teoría de las dos bibliotecas, la argumentación encuentra siempre su destino sudamericano: si siempre habrá una biblioteca dispuesta a proveer refugio, no se impone la fuerza de los argumentos, sino los argumentos del que tiene la fuerza.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ramiro Álvarez Ugarte</title>
-      <link>https://www.lacritica.ar/autores/ramiro-alvarez-ugarte/</link>
+      <link>http://localhost:1313/autores/ramiro-alvarez-ugarte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/ramiro-alvarez-ugarte/</guid>
+      <guid>http://localhost:1313/autores/ramiro-alvarez-ugarte/</guid>
       <description>&lt;p&gt;Ramiro Álvarez Ugarte es investigador senior del Centro de Estudios en Libertad de Expresión (CELE) de la Universidad de Palermo e investigador post-doctoral del CONICET en el Instituto de Investigaciones Políticas (IIP) de la Universidad Nacional de San Martín. Trabaja temas de derecho y tecnología y gobernanza de Internet y en el IIP procesos de movilización legal en América Latina. Fue abogado de la Relatoría Especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (2009-2011) y director de área (2011-2014) y abogado (2006-2008) en la Asociación por los Derechos Civiles. Es doctor en derecho por la Universidad de Columbia (Nueva York) y docente de derecho constitucional en la Universidad de Buenos Aires. Es coordinador del capítulo argentino de la International Society of Public Law (ICON•S).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roberto Gargarella</title>
-      <link>https://www.lacritica.ar/autores/roberto-gargarella/</link>
+      <link>http://localhost:1313/autores/roberto-gargarella/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/roberto-gargarella/</guid>
+      <guid>http://localhost:1313/autores/roberto-gargarella/</guid>
       <description>&lt;p&gt;Hijo de campesinos italianos. Académico a tiempo completo. Doctor en derecho x 2. Sociólogo. Escribir, sacar fotos y mirar cine, todo el tiempo. Racing. Helados. Y ya que estamos, socialismo para superar la fase predatoria de la humanidad.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Search</title>
-      <link>https://www.lacritica.ar/search/</link>
+      <link>http://localhost:1313/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/search/</guid>
+      <guid>http://localhost:1313/search/</guid>
       <description></description>
     </item>
     <item>
       <title>Sebastián Guidi</title>
-      <link>https://www.lacritica.ar/autores/sebastian-guidi/</link>
+      <link>http://localhost:1313/autores/sebastian-guidi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/sebastian-guidi/</guid>
+      <guid>http://localhost:1313/autores/sebastian-guidi/</guid>
       <description>&lt;p&gt;Sebastián Guidi es abogado por la Universidad de Buenos Aires y doctor en Derecho por Yale Law School. Escribe sobre derecho público, libertad de expresión y redes sociales.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tomás Abraham</title>
-      <link>https://www.lacritica.ar/autores/tomas-abraham/</link>
+      <link>http://localhost:1313/autores/tomas-abraham/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/tomas-abraham/</guid>
+      <guid>http://localhost:1313/autores/tomas-abraham/</guid>
       <description>&lt;p&gt;Escritor argentino y profesor de filosofía, naciod en Rumania. Es licenciado y Magister de filosofía y sociología de las universidades de la Sorbonne y Vincennes. Su primer libro, &lt;em&gt;Pensadores Bajos&lt;/em&gt;, se editó en 1987. Desde entonces ha publicado veinticinco libros, entre ellos &lt;em&gt;Los senderos de Foucault&lt;/em&gt; (1980), &lt;em&gt;Historias de la Argentina deseada&lt;/em&gt; (1994), &lt;em&gt;La empresa de vivir&lt;/em&gt; (2000), &lt;em&gt;Ficciones&lt;/em&gt; (2004), &lt;em&gt;Historia de una Biblioteca&lt;/em&gt; (2010) y su novela &lt;em&gt;La dificultad&lt;/em&gt; (2015).&lt;/p&gt;</description>
     </item>
   </channel>

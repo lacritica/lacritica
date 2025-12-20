@@ -2,8 +2,6 @@
 title: "Bovino"
 date: 2025-12-12
 description: Un saludo a un jurista 
-categories: 
-  - reseñas
 author: 
 obra_reseñada: 
 exclude_thumbnail_from_body: true

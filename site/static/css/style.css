@@ -619,11 +619,16 @@ body {
 }
 
 .pirulos-thumbnail img {
-  width: 100%;        /* landscapes fill width */
-  height: auto;       /* keep aspect ratio */
-  max-height: 450px;  /* portrait images shrink */
-  object-fit: contain !important;
+  width: 100%;
+  max-width: 480px;   /* controls visual size */
+  height: auto;
+  padding: 1rem;
+  padding-top: 0rem;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
 }
+
 
 
 
