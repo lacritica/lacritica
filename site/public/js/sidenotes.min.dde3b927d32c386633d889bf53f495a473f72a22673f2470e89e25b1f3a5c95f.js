@@ -1,0 +1,4 @@
+document.addEventListener("DOMContentLoaded",function(){if(!window.matchMedia("(min-width: 769px)").matches)return;document.querySelectorAll("sup[id^='fnref']").forEach(e=>{if(e.nextElementSibling?.classList.contains("sidenote"))return;const t=e.querySelector("a");if(!t)return;const s=t.textContent.trim();if(!s)return;const i=t.getAttribute("href").substring(1),o=document.getElementById(i);if(!o)return;const n=document.createElement("aside");n.className="sidenote",n.innerHTML=`
+      <span class="sidenote-number">${s}</span>
+      ${o.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/,"")}
+    `,e.after(n)})})

@@ -211,6 +211,66 @@ body {
   object-fit: cover;
 }
 
+/*sidenotes*/
+
+@media (min-width: 769px) {
+
+  .sidenote {
+    float: right;
+    clear: right;
+    width: 30%;
+    margin-right: -35%;
+    font-size: 0.7em;
+    line-height: 1.4;
+    color: #555;  
+  }
+
+.sidenote .sidenote-number {
+  font-size: 0.9em;          /* reset size */
+  vertical-align: super;
+  margin-right: 0.4em;
+  color: #555;
+}
+
+  sup a {
+  color: transparent;
+  position: relative;
+}
+
+}
+
+@media (max-width: 768px) {
+  .sidenote {
+    display: none;
+  }
+}
+
+/* Hide default footnotes list at the end */
+.footnotes {
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .inline-footnote {
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
+    border-left: 3px solid #ccc;
+    font-size: 0.8em;
+    color: #444;
+  }
+
+  sup + .inline-footnote {
+    clear: both;
+  }
+}
+
+
+
 /* 6) If you want smaller thumbnails visually, reduce the column width on large screens */
 @media (min-width: 1201px) {
   .secondary-grid { grid-template-columns: repeat(3, 1fr); } /* unchanged */
@@ -783,48 +843,6 @@ body {
 }
 }
 
-/* super sidenotes */
-
-span.sidenote {
-    /* hidden by default (mobile) */
-    display: none;
-}
-
-@media (min-width: 960px) {
-    span.sidenote {
-        display: block;
-        position: relative;
-        float: right;
-        clear: right;
-        transform: translateY(-50%);
-
-        width: 30%;
-        margin: 0;
-        margin-bottom: 1.1rem;
-        margin-top: 1.1rem;
-        margin-right: -35%;
-        padding: 0.5rem 0;
-        box-sizing: border-box;
-        text-align: left;
-        background-color: initial;
-
-        font-size: 80%;
-        line-height: 150%;
-        color: var(--global-font-secondary-color);
-        padding-left: 0.75rem;   /* ← this is the key line */
-        border-left: 1px solid #888;
-    }
-}
-
-span.sidenote small {
-    font-size: 100%;
-}
-
-
-/* Don't show sidenotes on the home page. */
-.home.posts #content .sidenote {
-    display: none;
-}
 
 /* Container for author list */
 .hero-column .post-author .author-name {

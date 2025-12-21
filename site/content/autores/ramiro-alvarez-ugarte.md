@@ -2,7 +2,7 @@
 title: Ramiro Álvarez Ugarte
 twitter_handle: ramiroau
 bluesky_handle: ramiroau.bsky.social
-bio: Profesor de derecho constitucional en la Universidad de Buenos Aires e investigador
+bio: Profesor de derecho constitucional en la Universidad de Buenos Aires. Investigador. 
 thumbnail: /img/rau.png
 ---
 
