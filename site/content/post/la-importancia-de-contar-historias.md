@@ -10,11 +10,11 @@ author:
   - Natalia Saralegui
 thumbnail:
   - src: "/img/gargarella_WhatsApp Image 2025-11-13 at 00.19.21.jpeg"
-featured_callout: 1
+featured_callout: 0
 highlight: false
 highlight2: false
 callouts:
-- Escribir, y que se entienda, para quienes trabajan con el derecho y para quienes no.
+- Escribir, y que se entienda, para quienes trabajan con el derecho y para quienes no ... Por el contrario, es la búsqueda consciente ... de desnudar esas maniobras elitistas del derecho que hacen que parezca que si hay muchas locuciones en latín, el trabajo es más serio. 
 tags: 
   - installation 
 ---
