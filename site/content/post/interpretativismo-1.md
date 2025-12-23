@@ -1,5 +1,5 @@
 ---
-title: Hay que dejar de decir "interpretativismo" por lo menos por dos años
+title: Hay que dejar de decir "interpretativismo" por lo menos por dos años (I)
 date: 2025-12-23T00:00:02Z
 description: Algunas palabras dirigidas a una red de abogados en EEUU preocupados por la situación del Estado de derecho en ese país. 
 categories:
@@ -9,8 +9,6 @@ author:
   - Pedro Caminos
 thumbnail:
   - src: "/img/gargarella_WhatsApp Image 2025-11-13 at 00.00.16 (1).jpeg"
-    epigraph: "San Francisco, 2018"
-    copyright: "por RAU"
 highlight: false
 highlight2: false
 callouts:
