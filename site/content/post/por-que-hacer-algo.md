@@ -11,7 +11,6 @@ thumbnail:
   - src: "/img/sanfrancisco2018.jpeg"
     epigraph: "San Francisco, 2018"
     copyright: "por RAU"
-featured_callout: 0
 highlight: false
 highlight2: false
 callouts:

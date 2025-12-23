@@ -1,10 +1,9 @@
 ---
 title: "Maravilla"
-date: 2025-12-25
+date: 2025-12-23
 description: La mayor de las injusticias
 author: 
   - Juan Ignacio Sáenz
-draft: true 
 exclude_thumbnail_from_body: true
 thumbnail:
   - src: "/img/maravilla.jpeg"

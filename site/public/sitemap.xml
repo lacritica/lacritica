@@ -3,36 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-20T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/interpretativismo-1/</loc>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-20T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-12-20T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-12-23T00:00:02+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2025-12-23T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-importancia-de-contar-historias/</loc>
+    <lastmod>2025-12-23T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
-    <lastmod>2025-12-20T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-23T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-12-20T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-23T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2025-12-20T00:00:00+00:00</lastmod>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/maravilla/</loc>
+    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/el-juicio/</loc>
     <lastmod>2025-12-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2025-12-19T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2025-12-19T00:00:01+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/por-que-hacer-algo/</loc>
-    <lastmod>2025-12-19T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-19T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/a-few-good-men/</loc>
@@ -43,9 +55,6 @@
   </url><url>
     <loc>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</loc>
     <lastmod>2025-12-15T00:00:02+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2025-12-15T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-toma-del-poder-judicial-en-mexico/</loc>
     <lastmod>2025-12-15T00:00:01+00:00</lastmod>
@@ -163,13 +172,19 @@
   </url><url>
     <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/maria-luisa-pique/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/natalia-saralegui/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/owen-fiss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/pedro-caminos/</loc>
   </url><url>
     <loc>http://localhost:1313/quienes_somos/</loc>
   </url><url>

@@ -844,9 +844,10 @@ body {
 }
 
 
+
 /* Container for author list */
 .hero-column .post-author .author-name {
-  font-size: 1rem;
+  font-size: .8rem;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif !important;
   font-weight: 600;
@@ -855,6 +856,12 @@ body {
   white-space: normal; /* allow wrapping of the whole author list */
   line-height: 1.3;    /* improves multi-line readability */
 }
+
+.author-separator {
+  font-family: "Jost", serif;
+  color: var(--accent-burgundy);
+}
+
 
 .hero-column h1 {
   margin-bottom: .5rem;
@@ -921,7 +928,7 @@ body {
 .hero-column .post-author .author-link {
   white-space: nowrap;  /* keep individual names together */
   display: inline-block; /* allows wrapping at commas / spaces between authors */
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: 'Jost', serif !important;
   font-weight: 600;
   color: var(--accent-burgundy);

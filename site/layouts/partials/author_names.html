@@ -54,7 +54,7 @@
 
   {{ end }}
 
-  {{/* --- Spanish formatting logic --- */}}
+  {{/* --- Spanish formatting logic (UPDATED) --- */}}
   <div class="post-author">
     <div class="author-block">
       <h3 class="author-name">
@@ -65,16 +65,15 @@
   {{ index $authors 0 | safeHTML }}
 
 {{ else if eq $n 2 }}
-  {{ printf "%s y %s" (index $authors 0) (index $authors 1) | safeHTML }}
+  {{ printf "%s <span class=\"author-separator\">y</span> %s" (index $authors 0) (index $authors 1) | safeHTML }}
 
 {{ else if eq $n 3 }}
-  {{ printf "%s, %s y %s" (index $authors 0) (index $authors 1) (index $authors 2) | safeHTML }}
+  {{ printf "%s, %s <span class=\"author-separator\">y</span> %s" (index $authors 0) (index $authors 1) (index $authors 2) | safeHTML }}
 
 {{ else if gt $n 3 }}
-  {{ printf "%s, %s, …, %s" (index $authors 0) (index $authors 1) (index $authors (sub $n 1)) | safeHTML }}
+  {{ printf "%s, %s, …, <span class=\"author-separator\">y</span> %s" (index $authors 0) (index $authors 1) (index $authors (sub $n 1)) | safeHTML }}
 
 {{ end }}
-
 
       </h3>
     </div>
