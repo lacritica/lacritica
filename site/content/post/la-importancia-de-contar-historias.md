@@ -1,6 +1,6 @@
 ---
 title: La importancia de contar historias 
-date: 2025-12-23
+date: 2025-12-24
 description: Pensar al derecho desde la narrativa, como una forma fundamental de práctica transformadora.
 categories:
   - ensayos
@@ -14,7 +14,7 @@ featured_callout: 0
 highlight: false
 highlight2: false
 callouts:
-- Escribir, y que se entienda, para quienes trabajan con el derecho y para quienes no ... Por el contrario, es la búsqueda consciente ... de desnudar esas maniobras elitistas del derecho que hacen que parezca que si hay muchas locuciones en latín, el trabajo es más serio. 
+- Escribir, y que se entienda, para quienes trabajan con el derecho y para quienes no ... Es la búsqueda consciente ... de desnudar esas maniobras elitistas del derecho que hacen que parezca que si hay muchas locuciones en latín, el trabajo es más serio. 
 tags: 
   - installation 
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hay que dejar de decir "interpretativismo" por lo menos por dos años (I)
+date: 2025-12-24
 slug: interpretativismo-1
-date: 2025-12-23T00:00:02.000Z
 description: Qué es lo que está mal con la oposición "positivismo - interpretativismo", y tres tesis al respecto.
 categories:
   - debates
@@ -11,7 +11,8 @@ thumbnail:
   - src: /img/gargarella_WhatsApp Image 2025-11-13 at 00.00.16 (1).jpeg
 highlight: false
 highlight2: false
-callouts: null
+callouts: 
+  - 
 tags:
   - installation
 exclude_thumbnail_from_body: true
@@ -19,7 +20,7 @@ exclude_thumbnail_from_body: true
 
 # Primera parte: Cuando la retórica reemplaza a la teoría
 
-El debate sobre la interpretación constitucional en la Argentina cobró un nuevo vigor en los últimos años. Si bien siempre hubo discusiones de primer orden, es decir, discrepancias con respecto a los alcances de tal o cual cláusula de la Constitución, desde hace un tiempo también se desarrolló -o pareció desarrollarse- una polémica de segundo orden relacionada al modo en que debemos indagar por el significado de las disposiciones constitucionales. O, al menos, esa sensación tendría un lector ocasional sobre estos temas.
+El debate sobre la interpretación constitucional en la Argentina cobró un nuevo vigor en los últimos años. Si bien siempre hubo discusiones de primer orden, es decir, discrepancias con respecto a los alcances de tal o cual cláusula de la Constitución, desde hace un tiempo también se desarrolló ---o pareció desarrollarse--- una polémica de segundo orden relacionada al modo en que debemos indagar por el significado de las disposiciones constitucionales. O, al menos, esa sensación tendría un lector ocasional sobre estos temas.
 
 En gran medida, el parteaguas fue la publicación del Rosler (2019), una obra de divulgación de la sofisticada teoría elaborada por Andrei Marmor. A partir de ese momento los términos de la discusión, empleados sobre todo por un sector, pasaron a reproducir, con algunos agregados vernáculos, los que el propio Marmor (1992) utilizó en las páginas iniciales del capítulo 7 de su libro *Interpretation and Legal Theory*. Los términos en cuestión pueden resumirse en el par "positivismo jurídico-interpretativismo". A continuación, explicaré el sentido de tales términos en la obra de ambos autores (acápites i y ii).
 
@@ -37,7 +38,7 @@ De ese modo, en un campo, estarían los partidarios del positivismo jurídico qu
 
 Rosler (2019) adoptó aproximadamente estos mismos términos para presentar al positivismo, pero también ofreció una caracterización del "otro campo". El otro grupo sería el del "interpretativismo". Rosler nunca fue muy claro con respecto a quiénes estarían en ese campo. En su libro de divulgación de la obra de Marmor, Rosler sostuvo que Dworkin era el principal interpretativista, siguiendo la estela de Marmor que, como se dijo, estaba teóricamente interesado en refutar a Dworkin. Luego, [Adrian Vermeule fue agregado a la lista](https://lacausadecaton.blogspot.com/search?q=dworkin). Pero en otras ocasiones Rosler dice que en realidad los interpretativistas serían ["más los dworkinianos que Dworkin"](https://endisidencia.com/2019/07/la-donut-de-dworkin/), sin aclarar tampoco quiénes serían estos misteriosos seguidores vernáculos de Dworkin.
 
-Más allá de la falta de referentes concretos, el interpretativismo se caracterizaría por sostener que todo caso es difícil -en el sentido de que el derecho nunca determina una solución que pueda ser identificada a través de la comprensión y aplicación de sus normas-, lo cual conduce a que todo caso exija interpretación para ser resuelto y, por ello, a que el intérprete apele a consideraciones sobre cómo debe ser el derecho, consideraciones que el propio intérprete presentaría como parte del derecho, de manera tal que la solución propuesta por él sería también derecho.
+Más allá de la falta de referentes concretos, el interpretativismo se caracterizaría por sostener que todo caso es difícil ---en el sentido de que el derecho nunca determina una solución que pueda ser identificada a través de la comprensión y aplicación de sus normas---, lo cual conduce a que todo caso exija interpretación para ser resuelto y, por ello, a que el intérprete apele a consideraciones sobre cómo debe ser el derecho, consideraciones que el propio intérprete presentaría como parte del derecho, de manera tal que la solución propuesta por él sería también derecho.
 
 ## (iii) El uso retórico del par "positivismo-interpretativismo" en los debates actuales
 
@@ -55,7 +56,7 @@ Por otra parte, el término "interpretativista" carece de todo contenido porque 
 
 Veamos un ejemplo. En un posteo destinado a despejar las confusiones que las tretas de los interpretativistas podrían provocar en un "observador desprevenido", Ricardo Ramírez Calvo dijo: ["*El observador desprevenido corre el riesgo de ser confundido por quienes quieren hacerle decir a la Constitución lo que les gustaría que dijera, pero que lamentablemente no dice. Esto no es nuevo: el interpretativismo siempre exhibe un notable voluntarismo. Nada se interpone entre un interpretativista y el resultado que quiere que le dé, mucho menos el texto de la Constitución o de la ley*"](https://endisidencia.com/2025/04/jueces-en-comision-e-interpretativismo-desenfrenado/).
 
-De ese modo, el uso que se viene dando al par "positivismo -- interpretativismo" en los debates recientes es puramente retórico y responde a un esquema similar al que Homero Simpson utilizaba en sus clases de catecismo en la escuela católica. "Positivismo jurídico = Derecho (determinado con honesta objetividad) = Bueno = Yo (y todo el que opine como yo)". "Interpretativismo = Preferencia política puramente subjetiva (que aviesamente se quiere presentar como derecho) = Malo = Todo el que esté en desacuerdo conmigo". El auto-calificado positivista viene a decir algo así como "Yo hago derecho mientras que usted, interpretativista, hace política y encima pretende engañarnos diciéndonos que sus opiniones políticas son derecho".
+De ese modo, el uso que se viene dando al par "positivismo --- interpretativismo" en los debates recientes es puramente retórico y responde a un esquema similar al que Homero Simpson utilizaba en sus clases de catecismo en la escuela católica. "Positivismo jurídico = Derecho (determinado con honesta objetividad) = Bueno = Yo (y todo el que opine como yo)". "Interpretativismo = Preferencia política puramente subjetiva (que aviesamente se quiere presentar como derecho) = Malo = Todo el que esté en desacuerdo conmigo". El auto-calificado positivista viene a decir algo así como "Yo hago derecho mientras que usted, interpretativista, hace política y encima pretende engañarnos diciéndonos que sus opiniones políticas son derecho".
 
 ## (iv) El próximo posteo
 
