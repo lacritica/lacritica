@@ -1,19 +1,20 @@
 ---
 title: Hay que dejar de decir "interpretativismo" por lo menos por dos años (I)
-date: 2025-12-23
-description: Algunas palabras dirigidas a una red de abogados en EEUU preocupados por la situación del Estado de derecho en ese país. 
+slug: interpretativismo-1
+date: 2025-12-23T00:00:02.000Z
+description: Qué es lo que está mal con la oposición "positivismo - interpretativismo", y tres tesis al respecto.
 categories:
   - debates
-exclude_thumbnail_from_body: true
 author:
   - Pedro Caminos
 thumbnail:
-  - src: "/img/gargarella_WhatsApp Image 2025-11-13 at 00.00.16 (1).jpeg"
+  - src: /img/gargarella_WhatsApp Image 2025-11-13 at 00.00.16 (1).jpeg
 highlight: false
 highlight2: false
-callouts:
-tags: 
-  - installation 
+callouts: null
+tags:
+  - installation
+exclude_thumbnail_from_body: true
 ---
 
 # Primera parte: Cuando la retórica reemplaza a la teoría
