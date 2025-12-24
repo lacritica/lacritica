@@ -1,6 +1,6 @@
 ---
 title: Hay que dejar de decir "interpretativismo" por lo menos por dos años (I)
-date: 2025-12-23T00:00:02Z
+date: 2025-12-23
 description: Algunas palabras dirigidas a una red de abogados en EEUU preocupados por la situación del Estado de derecho en ese país. 
 categories:
   - debates
