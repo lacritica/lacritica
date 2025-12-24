@@ -1,6 +1,6 @@
 ---
 title: Hay que dejar de decir "interpretativismo" por lo menos por dos años (I)
-date: 2025-12-24
+date: 2025-12-23T00:00:02Z
 slug: interpretativismo-1
 description: Qué es lo que está mal con la oposición "positivismo - interpretativismo", y tres tesis al respecto.
 categories:

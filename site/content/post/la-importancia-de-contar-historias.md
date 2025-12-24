@@ -1,6 +1,6 @@
 ---
 title: La importancia de contar historias 
-date: 2025-12-24
+date: 2025-12-23T00:00:01Z
 description: Pensar al derecho desde la narrativa, como una forma fundamental de práctica transformadora.
 categories:
   - ensayos
