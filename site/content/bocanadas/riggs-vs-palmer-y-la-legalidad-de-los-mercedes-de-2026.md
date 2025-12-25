@@ -8,8 +8,6 @@ thumbnail:
   - src: /img/naz_194093712b68465c8a31fd52c3481d3e.jpg
     epigraph: "Fecha de Plata: el Mercedes F1 de Fangio de 1954"
 ---
-
-
 ¿Es esto un nuevo *[Riggs vs. Palmer](https://en.wikipedia.org/wiki/Riggs_v._Palmer)*? Mercedes desarrolló un motor para la F1 de 2026 con el reglamento abajo del brazo, y [los otros equipos no los quieren dejar correr](https://lat.motorsport.com/f1/news/mercedes-red-bull-motores-2026-reciente-alboroto-f1/10786366/).
 
 Imaginemos que un equipo de la NBA (digamos, por decir uno que marida con el tema, Detroit Pistons) consigue implementar un ingenioso dispositivo de calor, elaborando el borde del aro con metales rígidos pero expandibles, y puede aplicarlo de forma tal que cuando ataca el diámetro del aro al que tira sea un 5% más grande.
@@ -38,7 +36,7 @@ Trabajar motores lleva tiempo y no hay margen de adaptación: ni los otros puede
 
 Cualquier decisión que se tome va a dejar a media parrilla no solo disconforme sino también sin chances de competencia real.
 
-¿Qué hacer? Nadie ignora que como esos Pistons estarán tirando a un aro más grande, corriendo con motores de 1:18, violando "el espóritu" del reglamento (una palabra odiosa, de mala prensa, que algun día quiero reivindicar). Pero por otro lado, ancló la determinación de legalidad a lo que resulta de una medición que se hace en frío, condiciones en que los motores son 1:16. 
+¿Qué hacer? Nadie ignora que esos Pistons estarán tirando a un aro más grande, corriendo con motores de 1:18, violando "el espóritu" del reglamento (una palabra odiosa, de mala prensa, que algun día quiero reivindicar). Pero por otro lado, ancló la determinación de legalidad a lo que resulta de una medición que se hace en frío, condiciones en que los motores son 1:16. 
 
 Si Martín Farrell dijo [“dejen heredar a Palmer”](https://revistas-colaboracion.juridicas.unam.mx/index.php/lecciones-ensayos/article/download/13936/12433) no tengo dudas que al pensar en este caso diría “dejen correr a los Mercedes”. Alguien podrá decir, también: si Mercedes encontró ese hack, que se lleve el premio, de eso se trata el desarrollo técnico en categorías reguladas (y la innovación misma). A medida que tipeo, más claro me va pareciendo que Mercedes puede tener razón: uno a veces cambia de idea mientras escribe, tal vez no todo es tan claro desde el principio.
 
