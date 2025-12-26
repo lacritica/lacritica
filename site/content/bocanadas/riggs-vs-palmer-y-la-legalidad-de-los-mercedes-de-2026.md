@@ -36,7 +36,7 @@ Trabajar motores lleva tiempo y no hay margen de adaptación: ni los otros puede
 
 Cualquier decisión que se tome va a dejar a media parrilla no solo disconforme sino también sin chances de competencia real.
 
-¿Qué hacer? Nadie ignora que esos Pistons estarán tirando a un aro más grande, corriendo con motores de 1:18, violando "el espóritu" del reglamento (una palabra odiosa, de mala prensa, que algun día quiero reivindicar). Pero por otro lado, ancló la determinación de legalidad a lo que resulta de una medición que se hace en frío, condiciones en que los motores son 1:16. 
+¿Qué hacer? Nadie ignora que esos Pistons estarán tirando a un aro más grande, corriendo con motores de 1:18, violando "*el espíritu*" del reglamento (una palabra odiosa, de mala prensa, que algun día quiero reivindicar). Pero por otro lado, ancló la determinación de legalidad a lo que resulta de una medición que se hace en frío, condiciones en que los motores son 1:16. 
 
 Si Martín Farrell dijo [“dejen heredar a Palmer”](https://revistas-colaboracion.juridicas.unam.mx/index.php/lecciones-ensayos/article/download/13936/12433) no tengo dudas que al pensar en este caso diría “dejen correr a los Mercedes”. Alguien podrá decir, también: si Mercedes encontró ese hack, que se lleve el premio, de eso se trata el desarrollo técnico en categorías reguladas (y la innovación misma). A medida que tipeo, más claro me va pareciendo que Mercedes puede tener razón: uno a veces cambia de idea mientras escribe, tal vez no todo es tan claro desde el principio.
 
