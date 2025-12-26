@@ -5,7 +5,7 @@ slug: tribulaciones-y-ocaso-de-un-tonto-rey-no-imaginario
 highlight2: false
 description: "Los hechos que dieron lugar a una sentencia que declara violencia
   institucional y violación de derechos reproductivos de mujeres pobres en
-  Córdoba "
+  Córdoba. "
 categories:
   - reseñas
 author:
