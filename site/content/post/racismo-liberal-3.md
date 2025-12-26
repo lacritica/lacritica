@@ -15,7 +15,7 @@ highlight: false
 highlight2: false
 featured_callout: 0
 callouts:
-  - Pensar que hoy los ricos se refugian en countries y barrios cerrados, disimulan sus monedas, se alejan del pueblo. Los ricos de antes estaban junto al pueblo, no le temían, lo tenían bien del cogote y les metían la casa del ángel ahí donde duele&colon; en los ojos.
+  - "Pensar que hoy los ricos se refugian en countries y barrios cerrados, disimulan sus monedas, se alejan del pueblo. Los ricos de antes estaban junto al pueblo, no les temían, lo tenían bien del cogote y les metían la casa del ángel ahí donde duele: en los ojos."
   - Yo, que de Alberdi no leí nada, pero que conozco casi todo, defendía su vida y su obra, su constitución y sus bases. 
 tags: 
   - installation 
