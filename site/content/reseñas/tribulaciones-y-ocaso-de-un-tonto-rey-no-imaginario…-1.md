@@ -10,7 +10,8 @@ categories:
   - reseñas
 author:
   - Mariela Puga
-thumbnail: []
+thumbnail:
+  - src: /img/puga_brasilia 2019.jpeg
 exclude_thumbnail_from_body: false
 obra_reseñada: "Sentencia: ELA – Equipo Latinoamericano de Justicia y Género y
   otro c/ Hospital Materno Neonatal – Dr. Ramón Carrillo y otro s/ Acción
