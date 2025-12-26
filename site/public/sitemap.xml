@@ -2,26 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/post/racismo-liberal-3/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/racismo-liberal-3/</loc>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-12-25T00:00:01+00:00</lastmod>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/aportes-de-la-halaja-reales/</loc>
+    <lastmod>2025-12-26T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2025-12-25T20:20:10+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/riggs-palmer-mercedes/</loc>
+    <lastmod>2025-12-25T20:20:10+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2025-12-23T00:00:02+00:00</lastmod>
@@ -31,15 +40,6 @@
   </url><url>
     <loc>http://localhost:1313/post/la-importancia-de-contar-historias/</loc>
     <lastmod>2025-12-23T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
-    <lastmod>2025-12-23T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2025-12-23T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2025-12-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/maravilla/</loc>
     <lastmod>2025-12-23T00:00:00+00:00</lastmod>
@@ -54,6 +54,9 @@
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/racismo-liberal-2/</loc>
+    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</loc>
