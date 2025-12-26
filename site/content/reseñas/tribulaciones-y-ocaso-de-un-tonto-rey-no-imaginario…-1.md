@@ -3,8 +3,9 @@ title: Tribulaciones y ocaso de un tonto Rey (no) imaginario…[^1]
 date: 2025-12-26T11:36:54.590Z
 slug: tribulaciones-y-ocaso-de-un-tonto-rey-no-imaginario
 highlight2: false
-description: "Se narran los hechos que dieron lugar a una sentencia que declara
-  violencia institucional contra mujeres pobres en Córdoba "
+description: "Los hechos que dieron lugar a una sentencia que declara violencia
+  institucional y violación de derechos reproductivos de mujeres pobres en
+  Córdoba "
 categories:
   - reseñas
 author:
