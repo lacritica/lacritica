@@ -12,13 +12,15 @@ thumbnail:
 
 Imaginemos que un equipo de la NBA (digamos, por decir uno que marida con el tema, Detroit Pistons) consigue implementar un ingenioso dispositivo de calor, elaborando el borde del aro con metales rígidos pero expandibles, y puede aplicarlo de forma tal que cuando ataca el diámetro del aro al que tira sea un 5% más grande.
 
+<!--more-->
+
 Imaginemos que cuando el truco se detecta, el equipo dice que no incumple la norma pues toda vez que midan el aro en frío el diámetro será el reglamentario.
 
 **Eso es lo que está pasando en la F1, donde la cuestión es “la relación de compresión” (a mayor compresión, mayor explosión: un globo muy inflado revienta más fuerte) de los nuevos motores de 2026.** 
 
 Los motores de 2025 tenían relación de compresión de 18:1, y en un contexto de muchísimos cambios reglamentarios (el cambio más importante en la historia de la categoría) se la redujo a 16:1 para el reglamento 2026 (se supone que esta “formula” de reglamento estará vigente por varios años).
 
-El reglamento dice que la relación de compresión se mide en frío, pero –he ahí el hack que encontró Mercedes- los metales pueden dilatarse de modo diferencial bajo el calor y si se lo hace calculadamente, el tamaño del pistón puede aumentar y entregar una relación de compresión de 18:1 (se presiona más, hay mas “explosión”, se libera más energía, imaginemos el esfuerzo del último tramo de un inflador de mano).
+El reglamento dice que la relación de compresión se mide en frío, pero --–he ahí el hack que encontró Mercedes--- los metales pueden dilatarse de modo diferencial bajo el calor y si se lo hace calculadamente, el tamaño del pistón puede aumentar y entregar una relación de compresión de 18:1 (se presiona más, hay mas “explosión”, se libera más energía, imaginemos el esfuerzo del último tramo de un inflador de mano).
 
 En la práctica  son tres décimas más por vuelta, lo que sería un mínimo de 20 segundos en total en la carrera. Una ventaja ENORME en la F1 actual.
 
@@ -42,4 +44,4 @@ Si Martín Farrell dijo [“dejen heredar a Palmer”](https://revistas-colabora
 
 La FIA según entendemos, está pensando aplicar una solución salomónica: dejarlos usar estos motores que ya no puede cambiar (reconociendo implícitamente que como legislador se les escapó la tortuga al poner esa forma de medición “en frío” y tener en cuenta lo que los administrativistas alemanes llaman “confianza legítima”), obligarlos a adaptarse en 2027, acaso en el interín compensar de algún modo a los equipos que quedan en desventaja este año si se revela que hay enorme distancia entre unos y otros. 
 
-*Cerramos esta bocanada recomendando -porque da contexto y una miniserie documental hermosa, muy amigable con quien no está en el mundo motor: [“Brawn GP](https://www.youtube.com/watch?v=f6-DkliC8UY)” (Disney +), no googlen nada de lo que pasó asi no se espoilean los hechos de la trama, la “historia imposible” de la temporada 2009 en la que un equipo desahuciado por sus propietarios y sin un peso encuentra un hack para pelear con los grandes. Hay acción, economía, política, drama, derecho y agridulces lecciones de vida, y conduce Keanu Reeves (!).*
+*Cerramos esta bocanada recomendando ---porque da contexto--- una miniserie documental hermosa, muy amigable con quien no está en el mundo motor: [“Brawn GP](https://www.youtube.com/watch?v=f6-DkliC8UY)” (Disney +), no googlen nada de lo que pasó asi no se espoilean los hechos de la trama, la “historia imposible” de la temporada 2009 en la que un equipo desahuciado por sus propietarios y sin un peso encuentra un hack para pelear con los grandes. Hay acción, economía, política, drama, derecho y agridulces lecciones de vida, y conduce Keanu Reeves (!).*
