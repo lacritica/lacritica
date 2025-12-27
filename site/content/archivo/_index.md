@@ -1,4 +1,3 @@
 ---
 title: "Archivo"
-slug: "archivo"
 ---
