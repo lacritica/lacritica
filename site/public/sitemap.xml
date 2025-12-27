@@ -2,12 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/racismo-liberal-3/</loc>
     <lastmod>2025-12-26T00:00:03+00:00</lastmod>
   </url><url>
@@ -20,11 +14,23 @@
     <loc>http://localhost:1313/tags/installation/</loc>
     <lastmod>2025-12-26T00:00:03+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-12-26T00:00:03+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-12-26T00:00:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/aportes-de-la-halaja-reales/</loc>
     <lastmod>2025-12-26T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/events/event1/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/events/</loc>
+    <lastmod>2025-12-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2025-12-25T20:20:10+00:00</lastmod>
@@ -122,37 +128,13 @@
     <loc>http://localhost:1313/catastrofe/</loc>
     <lastmod>2025-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/</loc>
-    <lastmod>2025-11-17T17:19:06+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/events/super-conferencia-icon-2026/</loc>
     <lastmod>2025-11-17T17:19:06+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/event2/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/event1/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/events/event3/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/events/event4/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/events/event5/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/events/event7/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/events/event8/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/events/event9/</loc>
-    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/events/events6/</loc>
     <lastmod>2025-11-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la_carta_de_lectores/</loc>
@@ -162,11 +144,17 @@
   </url><url>
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
+    <loc>http://localhost:1313/archivo/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
   </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/2025-12/</loc>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
@@ -185,6 +173,8 @@
     <loc>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/martin-farrell/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/natalia-saralegui/</loc>
   </url><url>

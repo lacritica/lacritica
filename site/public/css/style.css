@@ -2495,7 +2495,7 @@ body {
 /* footer */
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 0rem;
   background: var(--accent-blue);
   padding: 2em 0;
   font-size: 1.2rem;
@@ -2860,4 +2860,93 @@ tr:nth-child(even) { background: #eee }
 p, ul, ol, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
+
+.monthly-layout {
+  background-color: var(--accent-blue);  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.monthly-left img {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  height: auto;
+  display: block;
+}
+
+.monthly-right {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.monthly-right h1 {
+  color: var(--base-bg);
+  margin-top: -.5rem;
+  font-family: 'Jost';
+  font-size: 1.8rem;
+}
+
+.monthly-right h2 {
+  color: var(--base-bg)!important;
+  font-family: 'Jost';
+  font-size: 1.4rem;
+}
+
+.monthly-right h3 {
+  color: var(--base-bg);
+  margin-top: -.5rem;
+  font-family: 'Jost';
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.monthly-right a,
+.monthly-right li, 
+.monthly-right span {
+  color: var(--base-bg)!important; 
+  color: inherit;
+  text-decoration: none;
+}
+
+.monthly-right a:hover {
+  background-color: var(--accent-beige);
+}
+
+.previous-issues {
+  background-color: var(--accent-blue);
+}
+
+.previous-issues h2 {
+color: var(--base-bg);
+margin-top: 0rem;
+margin-bottom: 0rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .monthly-layout {
+    padding-left: 0rem;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .monthly-left {
+    padding-left: 2rem;
+  }
+  .monthly-left img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.monthly-right h1 {
+  margin-top: 0;
+}
+}
+
 
