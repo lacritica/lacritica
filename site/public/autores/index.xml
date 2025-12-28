@@ -2,121 +2,142 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Autores on La Crítica</title>
-    <link>https://www.lacritica.ar/autores/</link>
+    <link>http://localhost:1313/autores/</link>
     <description>Recent content in Autores on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://www.lacritica.ar/autores/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/autores/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agustina Ramón Michel</title>
-      <link>https://www.lacritica.ar/autores/agustina-ramon-michel/</link>
+      <link>http://localhost:1313/autores/agustina-ramon-michel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/agustina-ramon-michel/</guid>
+      <guid>http://localhost:1313/autores/agustina-ramon-michel/</guid>
       <description>&lt;p&gt;Investigo temas de derecho, género y salud ante todo, pero no solamente. Me gusta hacerlo de manera empírica y teórica. Es probable que conozca más profesionales de la salud que abogados. Fui aprendiendo de América Latina. Trabajo en el CEDES y en la Universidad de Palermo, también doy clases en la UBA. Me gradué de abogada en la UNT, Tucumán, hace casi 20 años pero todavía me aspiro las S.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Catalina Pérez Correa</title>
-      <link>https://www.lacritica.ar/autores/catalina_p%C3%A9rez_correa/</link>
+      <link>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/catalina_p%C3%A9rez_correa/</guid>
+      <guid>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</guid>
       <description>&lt;p&gt;Licenciada en Derecho por el Instituto Tecnológico Autónomo de México (ITAM). Maestra y Doctora en derecho por la Escuela de Derecho de la Universidad de Stanford en California. Ha sido profesora en la Facultad de Derecho de la UNAM, investigadora en el Instituto de Investigaciones Jurídicas de la UNAM, profesora-investigadora del Centro de Investigación y Docencia Económicas (CIDE) e investigadora visitante en el Schell Center for International Human Rights de la Escuela de Derecho de la Universidad de Yale, en Estados Unidos. Actualmente es investigadora de la Asociación para el Estudio de la Política de Drogas (APEPD). Ha publicado varios libros y artículos académicos sobre el sistema penal mexicano, la política de drogas en América Latina, el castigo penal y la militarización en México. Ha llevado a cabo varias encuestas en el sistema penitenciario mexicano con personas privadas de la libertad, familiares que visitan las prisiones y personal penitenciario. Asimismo ha investigado l regulación de la cannabis en México y la opinion y conocimiento sobre el Poder Judicial y las personas juzgadoras. Es articulista del periódico: El Universal y ha colaborado con diversos medios impresos como la Revista Nexos, el New York Times, el Wall Street Journal, entre otros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gustavo Arballo</title>
-      <link>https://www.lacritica.ar/autores/gustavo-arballo/</link>
+      <link>http://localhost:1313/autores/gustavo-arballo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/gustavo-arballo/</guid>
+      <guid>http://localhost:1313/autores/gustavo-arballo/</guid>
       <description>&lt;p&gt;Abogado (UN La Plata), Doctor en Derecho (UN Córdoba), ejerzo el derecho &amp;ldquo;en función judicial&amp;rdquo;. NyCyR en Santa Rosa, La Pampa. Autor y partícipe de publicaciones técnicas y de divulgación en temas de federalismo, magistratura y derecho público, escribí varios años &amp;ldquo;Saber Leyes no es Saber Derecho&amp;rdquo; (&lt;a href=&#34;http://www.saberderecho.com/&#34;&gt;blog&lt;/a&gt;) y el libro &amp;ldquo;Brevísimo Curso de Derecho para no Abogados&amp;rdquo; (Siglo XXI, 2022). &lt;em&gt;Expressio unius non est exclusio alterius&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gustavo Maurino</title>
-      <link>https://www.lacritica.ar/autores/gustavo-maurino/</link>
+      <link>http://localhost:1313/autores/gustavo-maurino/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/gustavo-maurino/</guid>
+      <guid>http://localhost:1313/autores/gustavo-maurino/</guid>
       <description>&lt;p&gt;Aprendiendo y enseñando sobre Derecho y Abogacía. Entre la teoría constitucional, los derechos humanos, el acceso a la justicia y la abogacía comunitaria. En viaje por la sociedad civil, las políticas públicas y las aulas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Javier Couso Salas</title>
-      <link>https://www.lacritica.ar/autores/javier-couso-salas/</link>
+      <link>http://localhost:1313/autores/javier-couso-salas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/javier-couso-salas/</guid>
+      <guid>http://localhost:1313/autores/javier-couso-salas/</guid>
       <description>&lt;p&gt;Profesor titular de Derecho Público en la Universidad Diego Portales (Chile) y catedrático en Tendencias Globales del Constitucionalismo en la Universidad de Utrecht (Países Bajos). Su trabajo se centra en la interacción entre el constitucionalismo, estado de derecho y culturas jurídicas en nuevas democracias y, en los últimos años, en procesos constituyentes. Couso es autor de decenas de artículos académicos y libros, entre los que se incluyen Constitutional Law in Chile (Wolters Kluwer) y Cultures of Legality (Cambridge University Press). Ha sido titular de la Cátedra Prins Claus en Desarrollo y Equidad de la Universidad de Utrecht, y profesor visitante en la universidades de Melbourne; Wisconsin-Madison; Leiden y California-Berkeley (entre otras). Además de su labor académica, fue asesor constitucional de la presidenta Michelle Bachelet, de Chile (en el período 2014-2018) y es colaborador habitual del programa de construcción constitucional y estado de derecho de International IDEA.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>María Lina Carrera</title>
-      <link>https://www.lacritica.ar/autores/maria-lina-carrera/</link>
+      <title>Juan Ignacio Saenz</title>
+      <link>http://localhost:1313/autores/juan_ignacio_saenz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/maria-lina-carrera/</guid>
+      <guid>http://localhost:1313/autores/juan_ignacio_saenz/</guid>
+      <description>&lt;p&gt;Profesor Regular de Derecho Constitucional (UBA). Ex funcionario del Poder Judicial de la Nación y ex Director de Asuntos Jurídicos de la Cámara de Diputados. Abogado especialista en Derecho Administrativo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Leandro Dias</title>
+      <link>http://localhost:1313/autores/leandro_dias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/leandro_dias/</guid>
+      <description>&lt;p&gt;Investigador postdoctoral en la Julius-Maximilians-Universität Würzburg (JMU) y profesor invitado en la Universidad Torcuato Di Tella (UTDT). Dias estudió Derecho en la Universidad de Buenos Aires (2013). Luego realizó una especialización (2015) y una maestría en derecho penal (2018) en la UTDT. Con el apoyo de una beca DAAD pudo realizar su primer doctorado en derecho penal en la UBA (2023) y luego su segundo doctorado en ciencias jurídicas en la JMU-Würzburg (2024). El foco de su investigación es la teoría del derecho penal y la filosofía del derecho.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>María Lina Carrera</title>
+      <link>http://localhost:1313/autores/maria-lina-carrera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/maria-lina-carrera/</guid>
       <description>&lt;p&gt;Abogada especialista en Derecho Penal (UBA), Máster en Derecho Constitucional y Derechos Humanos (UP). Investigadora (Universidad de Georgetown/UBA), profesora y coautora de Dicen que tuve un bebé y Entra una paciente, sale una denuncia (Siglo XXI).&lt;/p&gt;</description>
     </item>
     <item>
       <title>María Luisa Piqué</title>
-      <link>https://www.lacritica.ar/autores/maria-luisa-pique/</link>
+      <link>http://localhost:1313/autores/maria-luisa-pique/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/maria-luisa-pique/</guid>
+      <guid>http://localhost:1313/autores/maria-luisa-pique/</guid>
       <description>&lt;p&gt;María Luisa Piqué es fiscal de la Procuración General de la Nación Argentina, abogada por la UBA, especialista en derecho penal por la UTDT y master en derecho por la Universidad Georgetown. Fue becaria de la Fundación Fulbright y perita de la Corte Interamericana de Derechos Humanos. Es profesora de Garantías Constitucionales del Derecho Penal en la UBA y de Género y Derecho Penal en la Maestría en Derecho Penal de la Universidad de San Andrés y profesora invitada en otras universidades nacionales. Es autora de diversos artículos sobre derecho penal, garantías constitucionales en el proceso penal y violencia de género.&lt;/p&gt;</description>
     </item>
     <item>
       <title>María Victoria Ricciardi</title>
-      <link>https://www.lacritica.ar/autores/mar%C3%ADa-victoria-ricciardi/</link>
+      <link>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/mar%C3%ADa-victoria-ricciardi/</guid>
+      <guid>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</guid>
       <description>&lt;p&gt;Abogada de la Universidad de Buenos Aires. Diploma de Honor. Fulbright Scholar. LLM de la Universidad de Texas at Austin en Derecho Constitucional Comprada. Dedicada a temas de DESC, vivienda y género.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mariela Puga</title>
-      <link>https://www.lacritica.ar/autores/mariela-puga/</link>
+      <link>http://localhost:1313/autores/mariela-puga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/mariela-puga/</guid>
+      <guid>http://localhost:1313/autores/mariela-puga/</guid>
       <description>&lt;p&gt;Doctora en Derecho de la UBA, Master en Derecho de la Universidad de Columbia (USA), Especialista en Derecho de Daños la Universidad de Palermo, y Abogada de la UNC. Es Investigadora de Conicet desde 2020 en el área de tecnología jurídica para el litigio y la remediación estructural en conflictos de justicia territorial. Actualmente profundizo el estudio del derecho constitucional feminista. Es profesora titular de Derecho Constitucional en la UNC.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Natalia Saralegui</title>
-      <link>https://www.lacritica.ar/autores/natalia-saralegui/</link>
+      <title>Martín Farrell</title>
+      <link>http://localhost:1313/autores/martin-farrell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/natalia-saralegui/</guid>
+      <guid>http://localhost:1313/autores/martin-farrell/</guid>
+      <description>&lt;p&gt;Es Abogado, egresado de la Universidad de Buenos Aires. Se doctoró en Derecho en la misma institución. Fue designado profesor emérito de la Universidad de Buenos Aires. Es Director del Centro de Estudios Hans Kelsen (UBA). Director de la Revista de Teoría del Derecho de la Universidad de Palermo. En 1996 obtuvo el premio Konex de Platino en Ética. Ex-Presidente de la Cámara Nacional de Apelaciones en lo Civil y Comercial Federal. Desde el año 1986 es Investigador Permanente del Instituto de Investigaciones Jurídicas y Sociales Ambrosio L. Gioja. Anteriormente fue Vicepresidente de la Sociedad Iberoamericana de Estudios Utilitaristas. Y ha sido Tesorero y Secretario de la Sociedad Argentina de Análisis Filosófico.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Natalia Saralegui</title>
+      <link>http://localhost:1313/autores/natalia-saralegui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/natalia-saralegui/</guid>
       <description>&lt;p&gt;Natalia Saralegui Ferrante. Abogada (UBA). Máster en Criminología (UNQ). Realizó el Posgrado en Género y Derecho (UBA) y la Maestría en Criminología y Seguridad Ciudadana (UNTREF). Trabaja en la Defensoría General de la Nación. Es profesora de Garantías Constitucionales del Derecho Penal y Procesal Penal (Facultad de Derecho, UBA). Integra el proyecto DeCyT Doctrina Penal Feminista (UBA) y la Red Jurídica del Consorcio Latinoamericano contra el Aborto Inseguro (CLACAI). Consultora externa de Ríos/Rivers. Coautora de los libros &amp;ldquo;Dicen que tuve un bebé. Siete historias en las que el sistema judicial encarcela mujeres y a casi nadie le importa&amp;rdquo; (SXXI Editores, 2020) y &amp;ldquo;Entra una paciente, sale una denuncia. El engranaje médico, jurídico y religioso que permite los procesos penales contra pacientes&amp;rdquo; (SXXI Editores, 2022).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Owen Fiss</title>
-      <link>https://www.lacritica.ar/autores/owen-fiss/</link>
+      <link>http://localhost:1313/autores/owen-fiss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/owen-fiss/</guid>
+      <guid>http://localhost:1313/autores/owen-fiss/</guid>
       <description>&lt;p&gt;Profesor emérito de Derecho Sterling y profesor titular de Derecho de la Universidad de Yale. Fue educado en Dartmouth, Oxford y Harvard. Trabajó como secretario de Thurgood Marshall (cuando Marshall era juez de la Corte de Apelaciones del Segundo Circuito de los Estados Unidos) y más tarde del juez William J. Brennan en la Suprema Corte de los Estados Unidos. También trabajó en la División de Derechos Civiles del Departamento de Justicia de 1966 a 1968. Enseña procedimientos, teoría jurídica y derecho constitucional.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pedro Caminos</title>
-      <link>https://www.lacritica.ar/autores/pedro-caminos/</link>
+      <link>http://localhost:1313/autores/pedro-caminos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/pedro-caminos/</guid>
+      <guid>http://localhost:1313/autores/pedro-caminos/</guid>
       <description>&lt;p&gt;Abogado por la Universidad de Buenos Aires. Cursó estudios de postgrado en ciencia política y sociología en FLACSO (Argentina) y en teoría constitucional y filosofía del derecho en la Universidad de Génova (Italia). Da clases en la UBA y en otras universidades.  Se dedica al ejercicio liberal de la profesión, especializándose en recursos ante la Corte Suprema de Justicia de la Nación. Participó como amigo del tribunal en audiencias públicas ante la Corte Suprema y la Corte Interamericana de Derechos Humanos. Autor de &amp;ldquo;Republicanismo e Interrupción Voluntaria del Embarazo&amp;rdquo; (2020) y de &amp;ldquo;Teoría e Ideología Constitucional&amp;rdquo; (2025).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ramiro Álvarez Ugarte</title>
-      <link>https://www.lacritica.ar/autores/ramiro-alvarez-ugarte/</link>
+      <link>http://localhost:1313/autores/ramiro-alvarez-ugarte/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/ramiro-alvarez-ugarte/</guid>
+      <guid>http://localhost:1313/autores/ramiro-alvarez-ugarte/</guid>
       <description>&lt;p&gt;Ramiro Álvarez Ugarte es investigador senior del Centro de Estudios en Libertad de Expresión (CELE) de la Universidad de Palermo e investigador post-doctoral del CONICET en el Instituto de Investigaciones Políticas (IIP) de la Universidad Nacional de San Martín. Trabaja temas de derecho y tecnología y gobernanza de Internet y en el IIP procesos de movilización legal en América Latina. Fue abogado de la Relatoría Especial para la Libertad de Expresión de la Comisión Interamericana de Derechos Humanos (2009-2011) y director de área (2011-2014) y abogado (2006-2008) en la Asociación por los Derechos Civiles. Es doctor en derecho por la Universidad de Columbia (Nueva York) y docente de derecho constitucional en la Universidad de Buenos Aires. Es coordinador del capítulo argentino de la International Society of Public Law (ICON•S).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Roberto Gargarella</title>
-      <link>https://www.lacritica.ar/autores/roberto-gargarella/</link>
+      <link>http://localhost:1313/autores/roberto-gargarella/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/roberto-gargarella/</guid>
+      <guid>http://localhost:1313/autores/roberto-gargarella/</guid>
       <description>&lt;p&gt;Hijo de campesinos italianos. Académico a tiempo completo. Doctor en derecho x 2. Sociólogo. Escribir, sacar fotos y mirar cine, todo el tiempo. Racing. Helados. Y ya que estamos, socialismo para superar la fase predatoria de la humanidad.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sebastián Guidi</title>
-      <link>https://www.lacritica.ar/autores/sebastian-guidi/</link>
+      <link>http://localhost:1313/autores/sebastian-guidi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/sebastian-guidi/</guid>
+      <guid>http://localhost:1313/autores/sebastian-guidi/</guid>
       <description>&lt;p&gt;Sebastián Guidi es abogado por la Universidad de Buenos Aires y doctor en Derecho por Yale Law School. Escribe sobre derecho público, libertad de expresión y redes sociales.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tomás Abraham</title>
-      <link>https://www.lacritica.ar/autores/tomas-abraham/</link>
+      <link>http://localhost:1313/autores/tomas-abraham/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/autores/tomas-abraham/</guid>
+      <guid>http://localhost:1313/autores/tomas-abraham/</guid>
       <description>&lt;p&gt;Escritor argentino y profesor de filosofía, naciod en Rumania. Es licenciado y Magister de filosofía y sociología de las universidades de la Sorbonne y Vincennes. Su primer libro, &lt;em&gt;Pensadores Bajos&lt;/em&gt;, se editó en 1987. Desde entonces ha publicado veinticinco libros, entre ellos &lt;em&gt;Los senderos de Foucault&lt;/em&gt; (1980), &lt;em&gt;Historias de la Argentina deseada&lt;/em&gt; (1994), &lt;em&gt;La empresa de vivir&lt;/em&gt; (2000), &lt;em&gt;Ficciones&lt;/em&gt; (2004), &lt;em&gt;Historia de una Biblioteca&lt;/em&gt; (2010) y su novela &lt;em&gt;La dificultad&lt;/em&gt; (2015).&lt;/p&gt;</description>
     </item>
   </channel>

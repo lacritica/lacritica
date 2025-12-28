@@ -1,7 +1,7 @@
 ---
 title: "Aportes de la Halajá a la interpretación jurídica"
 slug: aportes-de-la-halaja-reales
-date: 2025-12-26T00:00:01Z
+date: 2025-12-28T00:00:01Z
 description: Pero sin IA. Una excusa para releer a Robert Cover y *Nomos and Narrative*
 categories:
   - ensayos
