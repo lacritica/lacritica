@@ -1,3 +1,4 @@
 ---
 title: "Archivo"
+layout: archivo
 ---
