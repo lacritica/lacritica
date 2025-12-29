@@ -1,4 +1,4 @@
 ---
-title: "Archivo"
-layout: archivo
+title: "Archivos"
+type: archivo
 ---
