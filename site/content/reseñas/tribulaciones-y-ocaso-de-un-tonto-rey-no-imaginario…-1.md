@@ -1,6 +1,6 @@
 ---
 title: Tribulaciones y ocaso de un tonto Rey (no) imaginario…[^1]
-date: 2025-12-26T11:36:54.590Z
+date: 2025-12-30T11:36:00.000Z
 slug: tribulaciones-y-ocaso-de-un-tonto-rey-no-imaginario
 highlight2: false
 description: "Los hechos que dieron lugar a una sentencia que declaró la
