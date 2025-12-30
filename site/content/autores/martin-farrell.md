@@ -1,6 +1,5 @@
 ---
 title: Martín Farrell
-draft: true
 twitter_handle: 
 bio: Doctor en Derecho, Universidad de Buenos Aires
 thumbnail: /img/martin-farrell.webp

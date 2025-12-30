@@ -2,101 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ensayos on La Crítica</title>
-    <link>https://www.lacritica.ar/categories/ensayos/</link>
+    <link>http://localhost:1313/categories/ensayos/</link>
     <description>Recent content in Ensayos on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Dec 2025 00:00:01 +0000</lastBuildDate>
-    <atom:link href="https://www.lacritica.ar/categories/ensayos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/ensayos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Aportes de la Halajá a la interpretación jurídica</title>
-      <link>https://www.lacritica.ar/post/aportes-de-la-halaja-reales/</link>
-      <pubDate>Sun, 28 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/aportes-de-la-halaja-reales/</guid>
-      <description>&lt;p&gt;La polémica de hace &lt;a href=&#34;https://www.perfil.com/noticias/modo-fontevecchia/escandalo-entre-juristas-por-un-libro-del-presidente-del-tribunal-fiscal-modof.phtml&#34;&gt;algunas semanas&lt;/a&gt; &amp;mdash;cuando este proyecto editorial estaba afilando su pluma virtual&amp;mdash; me hizo recordar la magnífica obra de Robert Cover, en particular el texto &lt;em&gt;Nomos and Narrative&lt;/em&gt; que &lt;a href=&#34;https://archivos.juridicas.unam.mx/www/site/BiBlDrJC/boletin/2025/bibliografico//08.septiembre/assets/pdf/5.pdf&#34;&gt;tradujera al español hace algunos años Cristian Courtis&lt;/a&gt;. Cruzarse con este texto puede ser una experiencia que cambia el destino de una vida. Ciertamente cambió la mía. Desde que me encontré con el texto en la bibliografía de un seminario que finalmente &lt;em&gt;no&lt;/em&gt; tomé, puedo decir que diecisiete años después son pocos los artículos que escribo o que imagino en los no emerja, con naturalidad, la necesidad o el impulso de citarlo.&lt;/p&gt;</description>
+      <title>Cuatro libros que marcaron mi vida académica</title>
+      <link>http://localhost:1313/post/cuatro-libros-que-marcaron/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/cuatro-libros-que-marcaron/</guid>
+      <description>&lt;p&gt;Encontré muy atractiva la idea de Roberto Gargarella de contar cuáles libros, o artículos, influyeron en sui formación y en sus convicciones, y se me ocurrió copiarla y contar mi propia experiencia sobre el tema.&lt;/p&gt;&#xA;&lt;p&gt;Ella comienza a los 19 años, cuando cursé Filosofía del Derecho en la cátedra de Ambrosio Gioja, con la &lt;em&gt;Teoría General del Derecho y del Estado&lt;/em&gt; de Hans Kelsen como texto único. Lo leí por obligación, y quedé fascinado desde el prólogo. Es el más claro de los libros de Kelsen, porque es el menos kantiano, ya que se trata de un libro pensado para una audiencia anglosajona. El libro constituyó la base de mi conocimiento de la teoría general del derecho, y nunca he podido alejarme mucho de él. Modificó todas las creencias que había adquirido hasta ese momento en la facultad sobre la naturaleza del derecho, creencias que provenían del estudio de las materias dogmáticas, especialmente el derecho civil.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aquel día que me hice peronista (III)</title>
-      <link>https://www.lacritica.ar/post/racismo-liberal-3/</link>
+      <link>http://localhost:1313/post/racismo-liberal-3/</link>
       <pubDate>Fri, 26 Dec 2025 00:00:03 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/racismo-liberal-3/</guid>
+      <guid>http://localhost:1313/post/racismo-liberal-3/</guid>
       <description>&lt;p&gt;Acababa de llegar a Tucumán. Me invitó el Centro de Altos Estudios de la Universidad San Pablo, institución laica y privada, que recibe su nombre del ex Ingenio a unos 20 kilómetros de la capital San Miguel. Mis anfitriones fueron mis amigos el poeta Manuel Serrano Pérez y el profesor de filosofía de la Universidad Nacional de Tucumán Lalo Ruiz Pesce. Allí todo se dice con dos apellidos. Yo me llamo Tomás Abraham Spitzer (Sacapuntas en alemán, apellido que me suena casi aborigen). Fueron ellos los que me llevaron a conocer el ex ingenio.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Aportes de la Halajá a la interpretación jurídica</title>
+      <link>http://localhost:1313/post/aportes-de-la-halaja-reales/</link>
+      <pubDate>Fri, 26 Dec 2025 00:00:01 +0000</pubDate>
+      <guid>http://localhost:1313/post/aportes-de-la-halaja-reales/</guid>
+      <description>&lt;p&gt;La polémica de hace &lt;a href=&#34;https://www.perfil.com/noticias/modo-fontevecchia/escandalo-entre-juristas-por-un-libro-del-presidente-del-tribunal-fiscal-modof.phtml&#34;&gt;algunas semanas&lt;/a&gt; &amp;mdash;cuando este proyecto editorial estaba afilando su pluma virtual&amp;mdash; me hizo recordar la magnífica obra de Robert Cover, en particular el texto &lt;em&gt;Nomos and Narrative&lt;/em&gt; que &lt;a href=&#34;https://archivos.juridicas.unam.mx/www/site/BiBlDrJC/boletin/2025/bibliografico//08.septiembre/assets/pdf/5.pdf&#34;&gt;tradujera al español hace algunos años Cristian Courtis&lt;/a&gt;. Cruzarse con este texto puede ser una experiencia que cambia el destino de una vida. Ciertamente cambió la mía. Desde que me encontré con el texto en la bibliografía de un seminario que finalmente &lt;em&gt;no&lt;/em&gt; tomé, puedo decir que diecisiete años después son pocos los artículos que escribo o que imagino en los no emerja, con naturalidad, la necesidad o el impulso de citarlo.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>La importancia de contar historias</title>
-      <link>https://www.lacritica.ar/post/la-importancia-de-contar-historias/</link>
+      <link>http://localhost:1313/post/la-importancia-de-contar-historias/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la-importancia-de-contar-historias/</guid>
+      <guid>http://localhost:1313/post/la-importancia-de-contar-historias/</guid>
       <description>&lt;p&gt;Dice Fabián Casas que la burocracia es ese lugar donde ya no hay una pizca de amor: un largo corredor de los años, brillando, envasado al vacío. Quienes trabajamos desde y con el derecho, tratando de permear con palabras a burócratas profesionales, sabemos lo que significa caminar por ese corredor. Sabemos las teclas que antes prendían la luz y ahora hace tiempo que entraron en corto. Sabemos también algunas maniobras para ir por escaleras y atajos más inaccesibles a los ojos de los demás mortales. Sabemos también &amp;mdash;y a veces desconfiamos de este saber primario, primitivo&amp;mdash; que una de las maneras más eficaces de hacer entender la realidad detrás del reclamo legal es contar historias. Estas historias pueden ser grandes anécdotas, claro, o bien mínimas. Pequeñas artesanías que cambiaron el rumbo de una historia vital. Historias que rompen el envase al vacío y hacen que entren ráfagas de aire a esos escritorios, del sistema judicial, los parlamentos o las mesas de entrada que correspondan.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Por qué hacer algo</title>
-      <link>https://www.lacritica.ar/post/por-que-hacer-algo/</link>
+      <link>http://localhost:1313/post/por-que-hacer-algo/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/por-que-hacer-algo/</guid>
+      <guid>http://localhost:1313/post/por-que-hacer-algo/</guid>
       <description>&lt;p&gt;Aunque no soy graduado de la Facultad de Derecho de Yale, he enseñado aquí durante más de cincuenta años. Algunos de ustedes han tomado mis clases. Algunos trabajaron conmigo como asistentes de investigación o de docencia. Otros me han conocido a través de las actividades de esta red.&lt;/p&gt;&#xA;&lt;p&gt;Pueden imaginar mi estado de ánimo en los últimos diez meses, cada vez que termino de leer el periódico de la mañana. Sorprendido, incluso alarmado, he tenido que enfrentarme al hecho de que casi todo lo que he enseñado está en peligro o, peor aún, abandonado.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Racismo liberal (II)</title>
-      <link>https://www.lacritica.ar/post/racismo-liberal-2/</link>
+      <link>http://localhost:1313/post/racismo-liberal-2/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/racismo-liberal-2/</guid>
+      <guid>http://localhost:1313/post/racismo-liberal-2/</guid>
       <description>&lt;p&gt;Hay una característica diferencial que distingue a la historia argentina. El pasado siempre es actual. Nada de lo que sucedió deja de suceder, hablamos de un devenir permanente de lo que fue. El tiempo cronológico está subsumido a un tiempo problemático siempre inconcluso. Hay un panteón de personalidades históricas que no duermen en paz por ser objeto de la codicia de todos nosotros. Hemos condensado esta inquietud hiperanalizada, sobresaturada de argumentaciones, en el fenómeno peronista. Enarbolamos un blasón que presentamos en todo el mundo en el que figura una leyenda que dice que el peronismo no tiene explicación, que nadie de &amp;ldquo;afuera&amp;rdquo; puede entenderlo, o que se trata de un sentir inefable si no es un brote del sentido común de los argentinos o el sinónimo del ejercicio del poder tal como se da en la Argentina. Pero quizá no sea solo el peronismo lo que es inexplicable vía raciocinio sino toda la historia nacional.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El drástico giro electoral chileno (y las incertezas que suscita la llegada de Kast a La Moneda)</title>
-      <link>https://www.lacritica.ar/post/el-drastico-giro-electoral-chileno/</link>
+      <link>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:02 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/el-drastico-giro-electoral-chileno/</guid>
+      <guid>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</guid>
       <description>&lt;p&gt;I. Si bien la escena puede parecer trivial (la visita de la candidata derrotada en el balotaje presidencial al ganador, para felicitarlo), cuando se tiene en mente que la primera, Jeannette Jara, pertenece a un partido político que fue diezmado por una dictadura criminal, respecto de la cual el segundo (José Antonio Kast) se declara admirador, se aquilata lo peculiar de lo vivido en Chile esta semana.&lt;/p&gt;&#xA;&lt;p&gt;Para algunos, el gesto es reflejo de la proverbial hipocresía chilena (un país en que el término &amp;ldquo;cínico&amp;rdquo; se usa con frecuencia como sinónimo de su opuesto). Para otros, es simplemente expresión de protocolos ineludibles en la tradición política nacional. Como sea, el episodio no debe desviar la atención acerca del verdadero &amp;ldquo;terremoto político&amp;rdquo; que representa el que, por primera vez desde el fin del régimen de Pinochet (en 1990), un confesado partidario de mismo acceda al poder.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dos conceptos de inflación penal</title>
-      <link>https://www.lacritica.ar/post/dos-conceptos-de-inflacion-penal/</link>
+      <link>http://localhost:1313/post/dos-conceptos-de-inflacion-penal/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/dos-conceptos-de-inflacion-penal/</guid>
+      <guid>http://localhost:1313/post/dos-conceptos-de-inflacion-penal/</guid>
       <description>&lt;p&gt;En los últimos días se ha instalado en la discusión pública el concepto de &amp;ldquo;inflación penal&amp;rdquo;. Al parecer, y según ciertas declaraciones de funcionarios del actual gobierno argentino, se está pensando en sancionar un nuevo código penal con más delitos y penas más graves. Esa clase de inflación penal sería la única clase de inflación que el gobierno actual querría tener. Creo que es necesario tomarse en serio esta cuestión, no en última instancia porque seguramente en los próximos meses se discutirá el ansiado proyecto de código penal del gobierno. Surge la pregunta, entonces, de si realmente sería algo bueno que haya inflación penal en Argentina.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nota sin título: una lección sobre el derecho desde la AFA</title>
-      <link>https://www.lacritica.ar/post/una-leccion-sobre-el-derecho-desde-la-afa/</link>
+      <link>http://localhost:1313/post/una-leccion-sobre-el-derecho-desde-la-afa/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:09 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/una-leccion-sobre-el-derecho-desde-la-afa/</guid>
+      <guid>http://localhost:1313/post/una-leccion-sobre-el-derecho-desde-la-afa/</guid>
       <description>&lt;p&gt;&lt;em&gt;Los hechos son conocidos, aunque no todos se conocieron a la vez, y sobre algunos tenemos más suspicacias o intuiciones que certezas. El punto central es que &lt;a href=&#34;https://www.tiempoar.com.ar/ta_article/sorpresa-central-campeon-de-un-torneo-que-nadie-sabia-que-daba-un-titulo/&#34;&gt;Rosario Central fue declarado campeón retroactivo&lt;/a&gt; y de esa singular consagración -y la secuela de juicio del “pasillo”  de Estudiantes de La Plata - se derivan varias ideas que nos sirven para ir más allá del caso, y que nos sirven específicamente para pensar el derecho, así que aprovechemos a hacer de esto una minima pedagogía institucional, al paso que ajustamos cuentas de todo lo que nos hace ruido con ese título.&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Racismo liberal (I)</title>
-      <link>https://www.lacritica.ar/post/racismo-liberal/</link>
+      <link>http://localhost:1313/post/racismo-liberal/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:07 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/racismo-liberal/</guid>
+      <guid>http://localhost:1313/post/racismo-liberal/</guid>
       <description>&lt;p&gt;La república y la democracia no siempre se llevan bien, muchas veces bastante mal. El golpe del 30 es un ejemplo de sus desavenencias. Haber inventado el fraude patriótico y la ley trampa fue una ocurrencia política de una creatividad asombrosa. Halperín Donghi habla de &amp;ldquo;perplejidad&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Con el gobierno de Yrigoyen comienza el proceso democrático en nuestro país. Todos los varones adultos sin distinción de origen, raza o religión, tenían derecho al voto secreto. Duró catorce años. Más allá de las explicaciones y conjeturas del Golpe de Uriburu, si fue por la Standard Oil o por la senilidad del presidente, el consenso mayoritario que abarcaba en sus manifestaciones explícitas a la principal prensa, a importantes sectores reformistas de la población universitaria, a los partidos políticos, sostenía que el régimen no daba para más. ¿Por qué? Porque el pueblo no estaba preparado para vivir en democracia. No sabía elegir. No tenía razón, pero no porque estuviera equivocado, sino por carecer de la facultad de raciocinio que es la que supone diferenciarnos de los animales. La racionalidad política ni es intuitiva ni espontánea. Debe ser tutoreada y tutelada.&#xA;Desde Kant no se concibe la libertad ni como idea ni como práctica sin la razón.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La exclusión constitutiva</title>
-      <link>https://www.lacritica.ar/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</link>
+      <link>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:06 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</guid>
+      <guid>http://localhost:1313/post/la-exclusion-constitutiva-la-critica-feminista-al-originalismo/</guid>
       <description>&lt;p&gt;Me resulta particularmente extraña la incomprensión de un argumento tan simple y directo, como el argumento que el feminismo opone a la interpretación originalista de la constitución. Cuando una se pregunta varias veces ¿qué no se entiende de lo obvio?, quizás es tiempo de hacerse la pregunta de otra manera. Por ejemplo, ¿qué barrera de sentido se interpone en la conversación entre el constitucionalismo y el punto de vista feminista?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Diez artículos que marcaron mi vida académica</title>
-      <link>https://www.lacritica.ar/post/diez-articulos-que-marcaron-mi-vida-academica/</link>
+      <link>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:04 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/diez-articulos-que-marcaron-mi-vida-academica/</guid>
+      <guid>http://localhost:1313/post/diez-articulos-que-marcaron-mi-vida-academica/</guid>
       <description>&lt;p&gt;Presento, a continuación, 10 artículos que marcaron mi trayectoria como académico (en realidad, son 8 artículos, y 2 largos ensayos, devenidos en sendos libros). Con distancia advierto, como notas comunes a los escritos que destaco, que se trata de textos redactados de una manera sencilla y comprensible; referidos (más o menos directamente) a temas de primer interés público; y orientados a “intervenir” en la vida política. Los menciono y cuento un poco de mi relación con ellos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El insoportable costo de la libertad</title>
-      <link>https://www.lacritica.ar/post/el-insoportable-costo-de-la-libertad/</link>
+      <link>http://localhost:1313/post/el-insoportable-costo-de-la-libertad/</link>
       <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/el-insoportable-costo-de-la-libertad/</guid>
+      <guid>http://localhost:1313/post/el-insoportable-costo-de-la-libertad/</guid>
       <description>&lt;p&gt;Ronald Dworkin, uno de los filósofos del derecho más influyentes del último siglo, siempre sostuvo, contra las convenciones de la época, una defensa incondicional del derecho de libertad de expresión: proteger aún o sobre todo a la idea que odiamos. Desde La Crítica presentamos, por primera vez en castellano, este texto que publicó luego de una visita a Alemania, en polémica contra las leyes que sancionaban la negación del Holocausto. Es, también, nuestro homenaje a Dworkin, uno de los filósofos que viajó a la Argentina, invitado por Carlos Nino (junto con Owen Fiss, Thomas Scanlon, y Thomas Nagel), para conversar con el Presidente Alfonsín sobre el Juicio a las Juntas. Dworkin escribiría después un largo y reflexivo prólogo para la edición inglesa del Nunca Más.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La carta contra la autoamnistía</title>
-      <link>https://www.lacritica.ar/post/la_carta_de_lectores/</link>
+      <link>http://localhost:1313/post/la_carta_de_lectores/</link>
       <pubDate>Mon, 12 Sep 1983 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/post/la_carta_de_lectores/</guid>
+      <guid>http://localhost:1313/post/la_carta_de_lectores/</guid>
       <description>&lt;p&gt;Si bien el hecho fundante de nuestra democracia es el Juicio a las Juntas, el antecedente que convirtió en probable lo que era considerado imposible, fue la nulificación de la ley de autoamnistía &amp;mdash; primera ley de nuestra democracia restaurada. En esta histórica carta de lectores a La Nación del 12 de septiembre de 1983, mientras la dictadura aún gobernaba, Genaro Carrió, Jaime Malamud Goti y Carlos Nino &amp;mdash;tres de los grandes arquitectos del Juicio, junto con Martín Farrell&amp;mdash; anticipan, de modo brevísimo, las dos líneas de argumentos centrales que se utilizarán para anular esa norma &amp;ldquo;de facto&amp;rdquo;: (i) la auto-aministía viola la Constitución, que no permite privilegios arbitrarios (art.18), y determina una nulidad insalvable para los actos que impliquen &amp;ldquo;la suma del poder público&amp;rdquo; (art. 29); y (ii) las normas promulgadas por la dictadura no gozan de una presunción de validez, como sí lo hacen las que tienen origen democrático.&lt;/p&gt;</description>
     </item>
   </channel>
