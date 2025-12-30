@@ -478,6 +478,85 @@ document.addEventListener("click", () => {
         
           
             <figure class="grid-thumbnail">
+              <img src="/img/puga_6-7-19...jpeg" alt="Featured Image"/>
+            </figure>
+          
+        
+
+        <h1><a href="/post/tribulaciones-y-ocaso-de-un-tonto-rey-no-imaginario/">Tribulaciones y ocaso de un tonto Rey (no) imaginario...</a></h1>
+
+        
+          <div class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/mariela-puga/">Mariela Puga</a>
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</div>
+        
+
+        <div class="summary">
+          Los hechos detrás de una sentencia que declaró la violación sistémica de los derechos reproductivos de mujeres pobres en Córdoba.
+        </div>
+
+        <div class="date">
+          
+          
+          
+          
+          30 de diciembre de 2025
+        </div>
+      </div>
+    </article>
+  
+    <article class="article-taxonomy">
+    
+
+        
+        
+          
+            <figure class="grid-thumbnail">
               <img src="/img/a_few_good_men.jpg" alt="Featured Image"/>
             </figure>
           
@@ -899,10 +978,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const isMobile = window.matchMedia("(max-width: 768px)").matches;
-  if (!isMobile) return;
+  if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup a[href^='#fn:']").forEach(ref => {
+  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
@@ -911,7 +989,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const note = document.getElementById(id);
       if (!note) return;
 
-      let existing = sup.nextElementSibling;
+      
+      const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
         existing.remove();
         return;
@@ -919,13 +998,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const inline = document.createElement("span");
       inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/↩︎?/, "");
+      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
 
       sup.after(inline);
     });
   });
 });
 </script>
+
 
 
 

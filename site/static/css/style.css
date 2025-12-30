@@ -219,25 +219,28 @@ body {
     float: right;
     clear: right;
     width: 30%;
-    margin-right: -35%;
+    margin-right: -30%;
     font-size: 0.7em;
     line-height: 1.4;
-    color: #555;  
+    color: var(--neutral-600);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0rem;
   }
 
-.sidenote .sidenote-number {
-  font-size: 0.9em;          /* reset size */
-  vertical-align: super;
-  margin-right: 0.4em;
-  color: #555;
+  .sidenote .sidenote-number {
+    font-size: 0.9em;
+    color: var(--accent-burgundy);
+    margin: 1rem;
+  }
+
+  #content .article-content sup a {
+  color: var(--accent-burgundy);
+  font-weight: 600;
+  text-decoration: none;
+  }
 }
 
-  sup a {
-  color: transparent;
-  position: relative;
-}
-
-}
 
 @media (max-width: 768px) {
   .sidenote {
@@ -255,6 +258,11 @@ body {
 
 
 @media (max-width: 768px) {
+
+#content .article-content sup[id^="fnref"] a {
+  color: var(--accent-burgundy);
+}
+
   .inline-footnote {
     display: block;
     margin-top: 0.5rem;

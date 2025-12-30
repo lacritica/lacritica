@@ -524,10 +524,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const isMobile = window.matchMedia("(max-width: 768px)").matches;
-  if (!isMobile) return;
+  if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup a[href^='#fn:']").forEach(ref => {
+  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
@@ -536,7 +535,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const note = document.getElementById(id);
       if (!note) return;
 
-      let existing = sup.nextElementSibling;
+      
+      const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
         existing.remove();
         return;
@@ -544,13 +544,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const inline = document.createElement("span");
       inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/↩︎?/, "");
+      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
 
       sup.after(inline);
     });
   });
 });
 </script>
+
 
 
 

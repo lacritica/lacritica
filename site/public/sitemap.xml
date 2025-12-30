@@ -3,10 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-12-30T11:36:00+00:00</lastmod>
+    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2025-12-30T11:36:00+00:00</lastmod>
+    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
@@ -15,6 +15,12 @@
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2025-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/tribulaciones-y-ocaso-de-un-tonto-rey-no-imaginario/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/alpe/</loc>
@@ -69,9 +75,6 @@
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/racismo-liberal-2/</loc>
-    <lastmod>2025-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2025-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-drastico-giro-electoral-chileno/</loc>
