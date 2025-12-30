@@ -16,11 +16,14 @@ obra_reseñada: "Sentencia: ELA – Equipo Latinoamericano de Justicia y Género
   otro c/ Hospital Materno Neonatal – Dr. Ramón Carrillo y otro s/ Acción
   colectiva – abreviado» (Expte. SAC 9.427.458)."
 ---
-Hacía varios años que la ley autorizaba ligarse las trompas. No a escondidas, ni con vergüenza, sino en el hospital como servicio de salud.[^2] Era la conquista de “un derecho (no) reproductivo” para las mujeres coreaba el feminismo; “que vil razón”, cantaba el Rey, de este lugar...\
+Hacía varios años que la ley autorizaba ligarse las trompas. No a escondidas, ni con vergüenza, sino en el hospital como servicio de salud.[^2] Era la conquista de “un derecho (no) reproductivo” para las mujeres coreaba el feminismo; “que vil razón”, cantaba el Rey, de este lugar...
+
+\
 En este hospital, el Neonatal de la ciudad de Córdoba, él era el Rey. Era el jefe del Servicio de Toco Ginecología y de Obstetricia (todo a la vez), del Hospital Maternal más grande, de la segunda ciudad más grande del país. De hecho, él era tan grande, que instauro su propio procedimiento para autorizar las ligaduras de trompas que la ley habilitaba.\
 Les requería una carta, de puño y letra, dirigida a él. En ella había que explicarle “porque se quería ligar las trompas”. La “cartita de amor”, la llamaban con sorna en el hospital.\
-No cualquier mujer llegaba a escribir la “cartita de amor” al Doctor. Primero tenía que atravesar una *vía crucis.* Cuatro visitas previas al hospital, una para los turnos, y otras tres con tres profesionales distintos. Cada profesional le repetía solemne, la misma advertencia: “irreversible”. Y a ellas, les tocaba responder cada vez, después de largas esperas en pasillos y paradas de colectivos, que igual, que se querían ligar las trompas.\
-{{<https://www.youtube.com/watch?v=K58oEmrSRGQ&list=RDK58oEmrSRGQ&start_radio=1>}}
+No cualquier mujer llegaba a escribir la “cartita de amor” al Doctor. Primero tenía que atravesar una *vía crucis.* Cuatro visitas previas al hospital, una para los turnos, y otras tres con tres profesionales distintos. Cada profesional le repetía solemne, la misma advertencia: “irreversible”. Y a ellas, les tocaba responder cada vez, después de largas esperas en pasillos y paradas de colectivos, que igual, que se querían ligar las trompas.
+
+{{< youtube id=K58oEmrSRGQ >}}
 
 Estas mujeres ya habían hablado largamente del asunto en sus centros de salud, rodeadas de profesionales con escucha activa, a quienes le pidieron lo que querían, a sabiendas. Pero, aun así, solo lo podían hacer en el hospital, y aquí se les imponía la *vía crucis*, esa travesía que “quiso Dios”.\
 Entonces, tripa corazón, y ha conseguir con quien dejar a los chicos, cada vez (las cuatro veces). Encontrar la forma de pagar el pasaje ida y vuelta en colectivo, cada vez. Y si el turno se lo daban demasiado temprano, o demasiado tarde, ahí sí que había que ser valiente. Es que, sin iluminación en las calles de tierra, y andando a través de baldíos infinitos, la aventura ya era a oscura y peligrosa; barrosa en los días de lluvia, aciaga en los días de temperatura extrema. Pero esto al Rey no le importaba. Y así pasaban los días, las semanas y los meses …\
@@ -29,7 +32,6 @@ Y al final, el Rey muchas veces les negaba la ligadura. A veces se tomaba el tra
 **Las “furiosas bestias”**\
 Si una de ellas se revelaba, él les decía que: “ahora menos se lo iba a firmar \[la autorización para la ligadura], por maleducada”. Después de acusarlas de “tener hijos por un plan”, y de humillarlas de todas las formas posibles, conseguía que muchas se resignaran, que se hicieran cargo de más hijos no planificados, o que afrontaran embarazos riesgosos. Sus compañeros aceptaban acompañarlas a la ligadura, pero nunca aceptarían un aborto, ni un preservativo.\
 Algunas consiguieron escapar de la “jurisdicción real”, pudieron ir a otro hospital lejano, y en el camino se convirtieron en las “furiosas bestias.” Lloraban durante días su humillación, pero todavía tenían fuerzas para salir a buscar su liberación. El marido de Dani perdió el día, y el trabajo, para acompañarla. Toda la familia colaboró para que Yani pudiera pagar un hospital privado. Las dos, trabajadoras de casa particular, lo consiguieron, y entonces se plantaron frente a el como sus “furiosas” demandantes. “Por mis hijas, por mis hermanas, por mis vecinas”, explica Dani.
-
 
 **Cien capas de seda fina**\
 El rey no sólo disciplinaba a las mujeres que buscaban ligaduras. Desde su inmensa concentración de poder creaba el sentido “médico”, y el de la organización del servicio. “Las cien capas de seda fina” que cubrían su sadismo ante la pretensión de autonomía reproductiva de mujeres pobres.\
