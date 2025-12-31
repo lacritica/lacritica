@@ -10,7 +10,7 @@ author:
   - Gustavo Arballo
 thumbnail:
   - src: /img/sun-set.jpeg
-    epigraph: Santa Rosa, calle Juan Azurduy, 2025
+    epigraph: Santa Rosa, calle Juana Azurduy, 2025
     copyright: Gustavo Arballo
 highlight: true
 highlight2: false
