@@ -12,7 +12,7 @@ thumbnail:
   - src: /img/sun-set.jpeg
     epigraph: Santa Rosa, calle Altolaguirre, 2025
     copyright: Gustavo Arballo
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
