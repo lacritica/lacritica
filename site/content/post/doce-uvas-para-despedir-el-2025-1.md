@@ -16,7 +16,7 @@ highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-**No tenemos aquí la tradición de las doce uvas, pero un tocayo en la redacción me desafió y alguien tenía que hacerlo. En plan recreativo, aunque no tanto, van doce cápsulas de cosas que pasaron en 2025, a modo de un arbitrario resumen del año jurídico, el año en que nació La Crítica. Hay pequeñas anécdotas sobre las instituciones, y cosas de mayor trascendencia.**
+***No tenemos aquí la tradición de las doce uvas, pero un tocayo en la redacción me desafió y alguien tenía que hacerlo. En plan recreativo, aunque no tanto, van doce cápsulas de cosas que pasaron en 2025, a modo de un arbitrario resumen del año jurídico, el año en que [nació La Crítica](https://lacritica.ar/post/por-que-la-cr%C3%ADiica/). Hay pequeñas anécdotas sobre las instituciones, y cosas de mayor trascendencia.***
 
 🍇 **1. Los jueces que no fueron.** Aunque en verdad MGM si lo fue, tuvo [un desangelado y apresurado juramento de lunes por la mañana](https://www.lanacion.com.ar/politica/la-jura-de-garcia-mansilla-una-ceremonia-sorpresiva-sin-invitados-ni-periodistas-nid27022025/), y quedará en la historia como un cameo que se zanjó con el rechazo de su pliego en el Senado. En el interin tuvimos muchas discusiones (la viabilidad de la suplencia de Lijo, la validez de la designación de los jueces en comisión, quién de los dos nominados reemplazaba a cuál vacante), la de si podía o tenía que quedarse incluso con pliego rechazado, que hoy devienen abstractas y muchos seguirán porfiando en que tenían razón. Cuando descorchemos la sidra Rama Caída, el dinosaurio estará ahí: una Corte desmembrada, funcionando en tres cilindros, sin perspectivas de volver a cierta normalidad.
 
