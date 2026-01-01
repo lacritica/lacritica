@@ -1,6 +1,6 @@
 {{/* Get all posts in reverse date order */}}
 {{ $allPosts := .Site.RegularPages.ByDate.Reverse }}
-{{ $postSection := where $allPosts "Section" "in" (slice "post" "resenas") }}
+{{ $postSection := where $allPosts "Section" "in" (slice "post" "ediciones") }}
 
 {{/* Select the first post where highlight2 is true */}}
 {{ $highlightPost := first 1 (where $postSection "Params.highlight2" true) }}

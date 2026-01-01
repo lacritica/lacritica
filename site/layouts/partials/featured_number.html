@@ -1,0 +1,51 @@
+{{/* Get all posts in reverse date order */}}
+{{ $allPosts := .Site.RegularPages.ByDate.Reverse }}
+{{ $postSection := where $allPosts "Section" "in" (slice "post" "ediciones") }}
+
+{{/* Select the first post where highlight2 is true */}}
+{{ $highlightPost := first 1 (where $postSection "Params.highlight2" true) }}
+
+{{ if gt (len $highlightPost) 0 }}
+<div class="misc-posts">
+  {{ range $highlightPost }}
+    <article class="misc-post">
+      
+{{ with .Params.thumbnail }}
+    {{ $thumb := . }}
+
+    {{/* Detect if thumbnail is a slice (array format) */}}
+    {{ if reflect.IsSlice $thumb }}
+        {{ $thumb = index $thumb 0 }}
+
+        <div class="misc-thumbnail">
+            <img src="{{ $thumb.src | relURL }}" alt="">
+        </div>
+
+    {{/* Detect if thumbnail is a string (old simple format) */}}
+    {{ else }}
+        <div class="misc-thumbnail">
+            <img src="{{ $thumb | relURL }}" alt="">
+        </div>
+    {{ end }}
+{{ end }}
+
+
+      {{/* Title linking to article */}}
+      <h3 class="misc-title">
+        {{ .Title }}
+      </h3>
+      <h3 class="misc-number">
+        {{ .Params.number }}
+      </h3>
+
+      {{/* último número */}}
+      <h5 class="link-a-archivo">
+  		<a href="/archivo/" class="misc-link">último número</a>
+	  </h5>
+
+
+
+    </article>
+  {{ end }}
+</div>
+{{ end }}
