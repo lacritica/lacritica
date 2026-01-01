@@ -2,10 +2,9 @@
 title: Critical Legal Theory
 date: 2026-01-01
 description: Los locos años 80
-draft: true
 author: 
   - Ramiro Álvarez Ugarte
-draft: false
+draft: true
 categories: 
   - reseñas
 obra_reseñada: "Podcast en Spotify."
