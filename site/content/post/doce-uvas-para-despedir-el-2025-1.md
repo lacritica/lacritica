@@ -5,7 +5,7 @@ date: 2025-12-31T17:24:43.821Z
 description: Anécdotas sobre las instituciones, efemérides, anomalías, luces y
   sombras del año que nos deja.
 categories:
-  - misceláneas
+  - ensayos
 author:
   - Gustavo Arballo
 thumbnail:

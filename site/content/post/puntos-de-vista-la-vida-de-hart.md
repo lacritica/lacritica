@@ -1,6 +1,6 @@
 ---
 title: Puntos de vista 
-date: 2025-12-30T00:00:01Z
+date: 2026-01-10
 description: La increíble vida---interna y externa---del filósofo del derecho más influyente del siglo veinte. 
 categories:
   - reseñas

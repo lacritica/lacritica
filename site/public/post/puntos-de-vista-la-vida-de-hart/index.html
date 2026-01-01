@@ -227,6 +227,7 @@
         <li><a href="/categories/reseñas/">reseñas</a></li>
         <li><a href="/bocanadas/">bocanadas</a></li>
         <li><a href="/autores/">autores</a></li>
+        <li><a href="/archivo/">archivo</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
         <li><a><form
@@ -471,7 +472,7 @@ document.addEventListener("click", () => {
     
       
       
-      <p class="post-date">30 de diciembre de 2025</p>
+      <p class="post-date">1 de enero de 2026</p>
     
     
     
@@ -688,10 +689,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const isMobile = window.matchMedia("(max-width: 768px)").matches;
-  if (!isMobile) return;
+  if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup a[href^='#fn:']").forEach(ref => {
+  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
@@ -700,7 +700,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const note = document.getElementById(id);
       if (!note) return;
 
-      let existing = sup.nextElementSibling;
+      
+      const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
         existing.remove();
         return;
@@ -708,13 +709,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const inline = document.createElement("span");
       inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/↩︎?/, "");
+      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
 
       sup.after(inline);
     });
   });
 });
 </script>
+
 
 
 
