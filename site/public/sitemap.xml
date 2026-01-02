@@ -3,25 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/cls/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bocanadas/la-filosof%C3%ADa-de-la-constituci%C3%B3n/</loc>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2026-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/havel/</loc>
     <lastmod>2025-12-31T18:23:03+00:00</lastmod>
@@ -32,14 +26,14 @@
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2025-12-31T17:24:43+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-12-31T17:24:43+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ediciones/2025-12/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
-    <lastmod>2025-12-30T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/cuatro-libros-que-marcaron/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
@@ -184,6 +178,8 @@
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/javier-couso-salas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
   </url><url>
