@@ -11,7 +11,7 @@ author:
 thumbnail:
   - src: /img/img_20260102_212111978_hdr.jpg
     copyright: AlbaPro777
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 callouts:
