@@ -1,7 +1,6 @@
 ---
 title: Critical Legal Theory
-date: 2026-01-04
-draft: true 
+date: 2026-01-03
 description: Los locos años 80
 author: 
   - Ramiro Álvarez Ugarte
