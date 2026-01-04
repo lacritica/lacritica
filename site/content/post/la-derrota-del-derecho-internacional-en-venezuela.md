@@ -14,6 +14,11 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
+callouts:
+  - La lección es incómoda, pero necesaria. Si quienes dicen creer en el derecho
+    internacional y en la democracia no logran ofrecer respuestas eficaces
+    frente a sus violaciones más flagrantes, le dejan servida la mesa a líderes
+    que vienen con sus motosierras a romperlo todo
 ---
 No sorprendo a nadie si digo que lo ocurrido en estos días en Venezuela constituye una derrota profunda del derecho internacional en el continente americano. Esa derrota tiene una dimensión evidente, reflejada en la absoluta intrascendencia de las obligaciones internacionales en el proceso de toma de decisiones del gobierno de los Estados Unidos para capturar al dictador venezolano Nicolás Maduro. No solo se violaron abiertamente las normas; ni siquiera hubo un mínimo intento de justificar ese accionar conforme al derecho. El gobierno del presidente Trump invocó simplemente su seguridad nacional, los intereses de sus empresas petroleras y la necesidad de restablecer el orden en la región, sin molestarse siquiera en articular un argumento jurídico mínimamente plausible.
 
