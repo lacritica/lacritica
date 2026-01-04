@@ -1,7 +1,7 @@
 ---
 title: "La derrota del derecho internacional en Venezuela "
 slug: la-derrota-del-derecho-internacional-en-venezuela
-date: 2026-01-04T17:54:03.315Z
+date: 2026-01-04T18:33:41.540Z
 description: Cuando el derecho y la acción política regional se paralizan, el
   vacío se ocupa con el unilateralismo y la lógica de la fuerza,
 categories:
