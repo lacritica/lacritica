@@ -1,7 +1,7 @@
 ---
 title: Nahuel Maisley
 slug: nahuel-maisley
-thumbnail: /img/maisley.jfif
+thumbnail: /img/nahuel-maisley.jpg
 bio: Profesor de Derecho Internacional (UBA), Global Associate Professor of Law
   (NYU), Investigador Adjunto (Instituto Gioja – CONICET)
 twitter_handle: nahuelmaisley
