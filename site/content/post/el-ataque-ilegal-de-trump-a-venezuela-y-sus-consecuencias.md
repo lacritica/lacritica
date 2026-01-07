@@ -8,6 +8,9 @@ categories:
 author:
   - Justina Uriburu
   - Julian Arato
+thumbnail:
+  - src: "/img/puga_12-2-18 (2).jpeg"
+    copyright: Mariela Puga
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false

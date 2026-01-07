@@ -413,7 +413,7 @@ body {
     var(--neutral-beige) 60%
   );
 
-  padding: 2rem;
+  padding: 2.5rem;
   box-sizing: border-box;
 
   /* 👇 THIS is the key */
@@ -434,7 +434,6 @@ body {
   width: 100%;
   max-width: 360px;
   height: auto;
-
   border: 2px solid #ccc;
   border-radius: 4px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.15);
@@ -494,10 +493,11 @@ body {
 /* --- BUTTON / LINK --- */
 .home-featured-right .link-a-archivo a {
   background-color: var(--accent-blue);
-  padding: 1rem;
+  padding: .6rem;
   text-transform: uppercase;
   text-decoration: none;
   font-family: 'Jost';
+  margin-bottom: -3rem;
   display: inline-block;
   color: var(--base-bg);
   width: 100%;
@@ -2985,4 +2985,13 @@ padding-bottom: 2rem;
 }
 }
 
+.shortcode-fencing {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.shortcode-fencing img {
+  width: 30px;   /* adjust as needed */
+  height: auto;
+}
 

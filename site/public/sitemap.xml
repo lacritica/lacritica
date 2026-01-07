@@ -8,17 +8,29 @@
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-01-06T23:26:39+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/llinas/</loc>
+    <lastmod>2026-01-06T23:26:39+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-04T18:33:41+00:00</lastmod>
+    <lastmod>2026-01-06T23:18:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/ataque-ilegal/</loc>
+    <lastmod>2026-01-06T23:18:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-01-04T18:33:41+00:00</lastmod>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-inacabada-transicion-democratica-en-venezuela/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/cls/</loc>
     <lastmod>2026-01-03T00:00:00+00:00</lastmod>
@@ -33,9 +45,6 @@
     <lastmod>2025-12-31T18:23:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/doce-uvas-para-despedir-el-2025/</loc>
-    <lastmod>2025-12-31T17:24:43+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2025-12-31T17:24:43+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/2025-12/</loc>
@@ -185,7 +194,13 @@
   </url><url>
     <loc>http://localhost:1313/autores/javier-couso-salas/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/jose-ignacio-hernandez/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/julian-arato/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/justina-uriburu/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
   </url><url>
