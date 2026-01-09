@@ -1,18 +1,21 @@
 ---
 title: Hay que dejar de decir "interpretativismo" por lo menos por dos años (II)
-date: 2026-01-06
+date: 2026-01-09T00:00:02Z
 slug: interpretativismo-2
-description: Nadie se auto-califica como positivista para perder
+description: Nadie se auto-califica como positivista para perder.
 categories:
   - debates
 author:
   - Pedro Caminos
 thumbnail:
   - src: /img/gargarella_WhatsApp Image 2025-11-12 at 23.37.14.jpeg
-highlight: false
+highlight: true
 highlight2: false
-draft: true
+featured_callout: 2
 callouts: 
+  - ¿Qué significaría comprenderse a uno mismo de un modo positivista? Bueno, si uno cree que el positivismo jurídico es verdadero, entonces incorporará sus conceptos en el modo en que participa en el derecho.
+  - Los auto-calificados positivistas siempre actúan como si todos los casos fueran fáciles.
+  - Auto-calificarse positivista, negando la existencia de casos difíciles, es una herramienta para ganar discusiones a través de un atajo.
 tags:
   - installation
 exclude_thumbnail_from_body: true
@@ -44,9 +47,11 @@ Curiosamente, los auto-calificados positivistas de los debates recientes nunca s
 
 Los auto-calificados positivistas siempre actúan como si todos los casos fueran fáciles. O, al menos, nunca ocurrió que alguno de ellos en el transcurso de un debate concreto dijera: "Este caso es difícil". Claro está, si alguno lo hiciera, entonces no sería un positivista meramente auto-calificado como tal. Esto es interesante porque la distinción entre casos fáciles y difíciles puede ser utilizada para explicar la posibilidad de desacuerdos entre los abogados. En un caso difícil, cuya solución no está determinada por el derecho, los abogados pueden estar en desacuerdo con respecto a cómo resolverlo. Pero si todos los casos son fáciles, no existe ni siquiera ese espacio para explicar por qué los abogados tendrían desacuerdos salvo, por supuesto, el tener que apelar al analfabetismo o mala fe de una de las partes. Negar que el caso objeto de discusión sea difícil es el presupuesto para poder tachar de interpretativista a quien opina diferente.
 
+{{< callout 0 >}}
+
 La reducción retórica "positivismo-interpretativismo" solamente se da cuando uno, en lugar de quedarse con la idea original de Marmor según la cual "necesariamente existen casos fáciles", agrega en su actuación cotidiana una premisa nunca afirmada por él: "necesariamente no existen los casos difíciles". Esta posición termina socavando la que el propio Marmor se propuso defender. Marmor no quería negar que la interpretación ocupara un lugar en el derecho. Tan solo quería indicar que su papel era incidental. Pero si necesariamente todos los casos son fáciles, la interpretación no tendría ningún lugar en el derecho. Se trata de una actitud teóricamente desmesurada de parte del auto-calificado positivista.
 
-# (iii) La traición al proyecto intelectual: La pérdida de poder explicativo.
+# (iii) La traición al proyecto intelectual: La pérdida de poder explicativo
 
 El hecho de que los auto-calificados positivistas actúen en los debates concretos como si todos los casos fueran fáciles conduce a otro resultado interesante. Si, según Marmor, en los casos difíciles se requiere interpretación, entonces la solución que se proponga en tal caso se basará en cierta dosis de creación precisamente porque se trata de un supuesto en el que el derecho no puede ser comprendido y aplicado para solucionarlo. Por lo tanto, cuando el auto-calificado positivista actúa frente a un caso difícil como si se tratara de un caso fácil, está proponiendo una solución para ese caso que no viene determinada por el derecho, *pero dice que ello es el caso*. En otras palabras, está escondiendo un acto de creación normativa, haciéndolo pasar como si se tratara del derecho que él se limitó a comprender y aplicar. El auto-calificado positivista termina haciendo lo que, según él, hace el interpretativista.
 
@@ -54,25 +59,29 @@ Este punto es importante porque indica que el auto-calificado positivista de los
 
 En otros términos, Marmor argumentó que la afirmación de que el derecho siempre requiere interpretación para ser aplicado vuelve ininteligible (o menos inteligible) al derecho. Para hacerlo inteligible, Marmor procuró explicar cuál era el lugar de la interpretación dentro del derecho. Si ese lugar es incidental ello es porque necesariamente existen casos fáciles. De ese modo, Marmor (1992, p. 91) entendió que podía superar a Dworkin en el sentido de que podía dar cuenta del fenómeno de una enorme cantidad de supuestos en los que no se plantean desacuerdos entre los abogados (los casos fáciles) y las situaciones en las que sí (los casos difíciles).
 
-Marmor también consideró que podía explicar mejor que Dworkin qué ocurría en los casos difíciles. Dado que el derecho no determina en ellos una solución, entonces las que surgen de la interpretación siempre son creativas en el sentido de que implican una modificación del derecho -que no preveía una-. Dowrkin oscurecería este hecho afirmando que las consideraciones valorativas que suelen aplicarse en la interpretación serían ellas mismas parte del derecho, de modo tal que una solución interpretativa vendría dada por el derecho. Claramente, Marmor piensa que este oscurecimiento es una desventaja de la teoría de Dworkin.
+Marmor también consideró que podía explicar mejor que Dworkin qué ocurría en los casos difíciles. Dado que el derecho no determina en ellos una solución, entonces las que surgen de la interpretación siempre son creativas en el sentido de que implican una modificación del derecho ---que no preveía una. Dworkin oscurecería este hecho afirmando que las consideraciones valorativas que suelen aplicarse en la interpretación serían ellas mismas parte del derecho, de modo tal que una solución interpretativa vendría dada por el derecho. Claramente, Marmor piensa que este oscurecimiento es una desventaja de la teoría de Dworkin.
 
-Por lo tanto, la desmesura teórica del auto-calificado positivista traiciona el proyecto intelectual de Marmor porque, al final del día, no contribuye a esclarecer: (i) la distinción entre casos fáciles y difíciles ya que actúa como si éstos no existieran, (ii) el rol de la interpretación en el derecho que es negado de plano por él al asumir que no existen casos difíciles y, por lo tanto, (iii) que al menos algunas de las soluciones que proponen los abogados para cierta clase de casos -los difíciles- no vienen determinadas por el derecho. En otras palabras, la imagen del derecho de la que se valen los auto-calificados positivistas es una que, lejos de contribuir a una mejor comprensión del derecho, tal el objetivo de Marmor, tiende a hacerlo menos inteligible, más oscuro. Exactamente lo que Marmor pensaba que Dworkin había hecho.
+Por lo tanto, la desmesura teórica del auto-calificado positivista traiciona el proyecto intelectual de Marmor porque, al final del día, no contribuye a esclarecer: (i) la distinción entre casos fáciles y difíciles ya que actúa como si éstos no existieran, (ii) el rol de la interpretación en el derecho que es negado de plano por él al asumir que no existen casos difíciles y, por lo tanto, (iii) que al menos algunas de las soluciones que proponen los abogados para cierta clase de casos ---los difíciles--- no vienen determinadas por el derecho. En otras palabras, la imagen del derecho de la que se valen los auto-calificados positivistas es una que, lejos de contribuir a una mejor comprensión del derecho, tal el objetivo de Marmor, tiende a hacerlo menos inteligible, más oscuro. Exactamente lo que Marmor pensaba que Dworkin había hecho.
 
-# (iv) Nadie se auto-califica como positivista para perder.**
+# (iv) Nadie se auto-califica como positivista para perder
 
 Pero ¿por qué el auto-calificado positivista actúa de esa manera? En una ciudad tan psicoanalizada como Buenos Aires, y teniendo en cuenta que casi todos los usuarios de esta terminología son porteños, es difícil no hacer alguna reflexión sobre esta obvia proyección del auto-calificado positivista respecto de la conducta de los contendientes a los que califica como interpretativistas. Pero, por difícil que sea, me abstendré de hacerla.
+
+{{< callout 1 >}}
 
 Sí quiero destacar este detalle. Como expliqué, la existencia de casos difíciles es lo que le permitiría al positivismo jurídico abrir el espacio para los desacuerdos. Dado que, en tales casos, el derecho no determina una solución que pueda ser comprendida sin interpretación, entonces allí pueden razonablemente existir diversas propuestas de solución. El auto-calificado positivista no quiere aceptar esto, ni siquiera del modo incidental que el propio Marmor admitía.
 
 Aquí opera sin dudas la actitud teóricamente desmesurada de pasar de la afirmación de que necesariamente hay casos fáciles a la otra según la cual necesariamente todos los casos son fáciles. Pero, sobre todo, entra en acción una necesidad retórica de descalificar rápidamente a la posición del oponente. Si comienzo el argumento sugiriendo que el caso es difícil -y que, por lo tanto, la solución que voy a proponer será inevitablemente una interpretación- entonces estoy implícitamente aceptando la posibilidad de que otro pueda proponer una interpretación diferente que, en algún sentido, podría ser mejor que la mía.
 
-Para alejarse de esa situación y ganar rápidamente la discusión sin tener que darla, el auto-calificado positivista recurre al sencillo expediente de afirmar que el caso es fácil -o negarse a reconocer que no lo es-, proponer una solución -como si no fuera el resultado de una interpretación- y señalar a cualquier otra sugerencia como interpretativista. Entonces, auto-calificarse positivista, negando la existencia de casos difíciles, es una herramienta para ganar discusiones a través de un atajo.
+Para alejarse de esa situación y ganar rápidamente la discusión sin tener que darla, el auto-calificado positivista recurre al sencillo expediente de afirmar que el caso es fácil ---o negarse a reconocer que no lo es---, proponer una solución ---como si no fuera el resultado de una interpretación--- y señalar a cualquier otra sugerencia como interpretativista. Entonces, auto-calificarse positivista, negando la existencia de casos difíciles, es una herramienta para ganar discusiones a través de un atajo.
 
 Esta es ciertamente otra traición al proyecto de Marmor. El uso del par "positivismo-interpretativismo" no persigue un fin de esclarecimiento sobre la naturaleza del derecho, sino que es una manera de huir del debate sobre cómo resolver casos constitucionales concretos, mostrándose al mismo tiempo como "ganador" sin haber dado ningún argumento sustancial. En fin, nadie se auto-califica como positivista para perder.
 
-# (v) Dejar atrás el uso retórico del par "positivismo-interpretativismo"**
+# (v) Dejar atrás el uso retórico del par "positivismo-interpretativismo"
 
-En fin, el auto-calificado positivista termina haciendo aquello de lo que acusa al interpretativista. Y además utiliza el par "positivismo jurídico-interpretativismo" con un sentido asimétrico como el que señaló Koselleck (2004; vid, también, Oklopcic, 2018, p. 62). En efecto, el auto-calificado positivista procura colocarse en el terreno moralmente elevado -afirmando paradójicamente que él "hace derecho"- y descalificar al otro -afirmando paradójicamente que hace moral o política, pero disfrazada de derecho-. Los conceptos asimétricos, tal como ocurría con el par "cristianos-paganos", presuponen una clasificación exhaustiva y excluyente en la cual quien asume el lugar de superioridad moral también pretende la supresión del otro.
+En fin, el auto-calificado positivista termina haciendo aquello de lo que acusa al interpretativista. Y además utiliza el par "positivismo jurídico-interpretativismo" con un sentido asimétrico como el que señaló Koselleck (2004; vid, también, Oklopcic, 2018, p. 62). En efecto, el auto-calificado positivista procura colocarse en el terreno moralmente elevado ---afirmando paradójicamente que él "hace derecho"--- y descalificar al otro ---afirmando paradójicamente que hace moral o política, pero disfrazada de derecho. Los conceptos asimétricos, tal como ocurría con el par "cristianos-paganos", presuponen una clasificación exhaustiva y excluyente en la cual quien asume el lugar de superioridad moral también pretende la supresión del otro.
+
+{{< callout 2 >}}
 
 Así las cosas, tenemos muy buenas razones para dejar atrás el uso retórico actual del par "positivismo jurídico-interpretativismo". Quienes se auto-califican positivistas no honran de ninguna manera en su práctica los compromisos conceptuales del positivismo al que afirman adherir. La etiqueta "interpretativismo" es utilizada por los auto-calificados positivistas para descalificar a todo aquel que propone una solución diferente para un caso con independencia de la teoría del derecho a la que adhiera. Por lo tanto, el par "positivismo jurídico-interpretativismo" solo cumple en los debates actuales una función retórica sin ningún valor teórico. Todavía más, parecería que su rendimiento teórico es negativo pues no solo oscurece nuestro entendimiento del derecho, sino que además es usada para eludir la argumentación seria y rigurosa.
 

@@ -2,7 +2,7 @@
 type_of_event: "Conferencia"
 title: "VI Conferencia Anual, ICON-S Argentina"
 date: 2025-12-28
-date_of_event: 2025-08-06
+date_of_event: 2026-08-06
 place: Facultad de Derecho, Universidad Nacional de Cuyo, Mendoza
 description: "Se trata de la sexta conferencia del capítulo argentino de ICON-S"
 more_info: https://iconsar.github.io/blog/mendoza_2026/
