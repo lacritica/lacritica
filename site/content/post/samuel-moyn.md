@@ -8,7 +8,9 @@ categories:
   - misceláneas
 author:
   - Sebastián Guidi
-highlight: false
+thumbnail:
+  - src: /img/moyn-samuel_preferred.jpeg
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 callouts:
