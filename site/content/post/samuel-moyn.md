@@ -10,9 +10,9 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/moyn-samuel_preferred.jpeg
-highlight: true
+highlight: false
 highlight2: false
-exclude_thumbnail_from_body: false
+exclude_thumbnail_from_body: true
 callouts:
   - "Lo que creo que está sucediendo en Venezuela es una extensión del enfoque
     mafioso o “racketeer” de Trump hacia la política y la guerra: es útil
@@ -22,11 +22,9 @@ callouts:
   - "Creo que los estadounidenses están mucho más dispuestos —en parte porque
     Trump los fuerza a ello— a ver a su país como menos fiel a sus principios de
     lo que alguna vez se creyó. "
-featured_callout: 2
+featured_callout: 1
 ---
-
-
-*Samuel Moyn es profesor de derecho e historia en la Universidad de Yale, y uno de los intelectuales públicos más lúcidos que el derecho le ha dado a su país en el último tiempo. Sus últimos libros recorren la historia intelectual del derecho internacional de los derechos humanos y del derecho internacional humanitario. En Humane: How the United States Abandoned Peace and Reinvented War, publicado en 2023, Moyn estudia la política estadounidense en relación a la guerra: paradójicamente, al volverla más “humana”, con menos muertos y daños (estadounidenses, al menos) que lamentar, se volvió también, más tolerable para el público estadounidense. Moyn, además, ha sido un estudioso del pensamiento conservador estadounidense y crítico del establishment político del país: su último libro, Gerontocracy in America, no ahorra críticas a ningún sector de la dirigencia norteamericana al denunciar la concentración de poder y riqueza en las personas de mayor edad.*
+*Samuel Moyn es profesor de derecho e historia en la Universidad de Yale, y uno de los intelectuales públicos más lúcidos que el derecho le ha dado a su país en el último tiempo. Sus últimos libros recorren la historia intelectual del derecho internacional de los derechos humanos y del derecho internacional humanitario. En* Humane: How the United States Abandoned Peace and Reinvented War*, publicado en 2023, Moyn estudia la política estadounidense en relación a la guerra: paradójicamente, al volverla más “humana”, con menos muertos y daños (estadounidenses, al menos) que lamentar, se volvió también, más tolerable para el público estadounidense. Moyn, además, ha sido un estudioso del pensamiento conservador estadounidense y crítico del establishment político del país: su último libro,* Gerontocracy in America*, no ahorra críticas a ningún sector de la dirigencia norteamericana al denunciar la concentración de poder y riqueza en las personas de mayor edad.*
 
 *Cuando el sábado 3 de enero las fuerzas armadas de los Estados Unidos irrumpieron en territorio venezolano para secuestrar al dictador Nicolás Maduro con la excusa de ponerlo a disposición de la justicia federal, anunciando que no había bajas (estadounidenses) que lamentar, La Crítica inmediatamente consideró que Moyn era la persona más adecuada para entender qué estaba pasando.*
 
