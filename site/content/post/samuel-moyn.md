@@ -5,7 +5,7 @@ date: 2026-01-10T10:24:34.203Z
 description: Una entrevista urgente al historiador y jurista de Yale sobre la
   intervención militar en Venezuela.
 categories:
-  - misceláneas
+  - entrevistas
 author:
   - Sebastián Guidi
 thumbnail:
