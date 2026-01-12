@@ -9,7 +9,7 @@ author:
   - Pedro Caminos
 thumbnail:
   - src: /img/gargarella_WhatsApp Image 2025-11-12 at 23.37.14.jpeg
-highlight: true
+highlight: false
 highlight2: false
 featured_callout: 2
 callouts: 
