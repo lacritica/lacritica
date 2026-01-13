@@ -9,7 +9,8 @@ categories:
 author:
   - Alberto Binder
 thumbnail:
-  - src: /img/gargarella_IMG_9572.JPG
+  - src: /img/binder-by-arcimboldo.png
+    epigraph: Binder by Giuseppe Arcimboldo
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
