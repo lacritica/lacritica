@@ -3,19 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-10T10:24:34+00:00</lastmod>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-10T10:24:34+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/miscel%C3%A1neas/</loc>
-    <lastmod>2026-01-10T10:24:34+00:00</lastmod>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-01-10T10:24:34+00:00</lastmod>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-01-13T16:10:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-lista-de-binder/</loc>
+    <lastmod>2026-01-13T16:10:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/entrevistas/</loc>
+    <lastmod>2026-01-11T10:24:34+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/samuel-moyn/</loc>
-    <lastmod>2026-01-10T10:24:34+00:00</lastmod>
+    <lastmod>2026-01-11T10:24:34+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-01-09T00:00:02+00:00</lastmod>
@@ -38,8 +50,8 @@
     <loc>http://localhost:1313/bocanadas/el-traje-chico/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/belen/</loc>
+    <lastmod>2026-01-08T23:13:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/llinas/</loc>
     <lastmod>2026-01-06T23:26:39+00:00</lastmod>
@@ -48,9 +60,6 @@
     <lastmod>2026-01-06T23:18:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
-    <lastmod>2026-01-06T23:18:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
@@ -137,9 +146,6 @@
     <loc>http://localhost:1313/post/aida-kemelmajer/</loc>
     <lastmod>2025-12-10T10:00:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/entrevistas/</loc>
-    <lastmod>2025-12-10T10:00:10+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/una-leccion-sobre-el-derecho-desde-la-afa/</loc>
     <lastmod>2025-12-10T10:00:09+00:00</lastmod>
   </url><url>
@@ -194,6 +200,8 @@
     <loc>http://localhost:1313/gracias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/alberto-binder/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/ana-correa/</loc>
   </url><url>
