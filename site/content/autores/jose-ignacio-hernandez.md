@@ -1,7 +1,7 @@
 ---
 title: José Ignacio Hernández
 slug: jose-ignacio-hernandez
-thumbnail: /img/jose_ignacio_hernándesz.jpg
+thumbnail: /img/jose_ignacio_hernándesz.jpg
 bio: Profesor de Derecho Constitucional, Universidad Católica Andrés Bello en Venezuela. Profesor invitado, Boston College.
 twitter_handle: ignandez
 ---
