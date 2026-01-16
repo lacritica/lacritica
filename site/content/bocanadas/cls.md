@@ -4,8 +4,6 @@ date: 2026-01-03
 description: Los locos años 80
 author: 
   - Ramiro Álvarez Ugarte
-categories: 
-  - reseñas
 obra_reseñada: "Podcast en Spotify."
 exclude_thumbnail_from_body: true
 thumbnail:

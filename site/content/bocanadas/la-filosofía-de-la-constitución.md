@@ -5,8 +5,6 @@ description: En recuerdo a Rob Reiner
 author: 
   - Roberto Gargarella y Marcelo Alegre 
 draft: false
-categories: 
-  - reseñas
 obra_reseñada: 
 exclude_thumbnail_from_body: true
 thumbnail:

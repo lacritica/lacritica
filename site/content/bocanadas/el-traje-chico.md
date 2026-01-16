@@ -5,8 +5,6 @@ description:
 author: 
   - Roberto Gargarella 
 draft: false
-categories: 
-  - reseñas
 obra_reseñada: 
 exclude_thumbnail_from_body: true
 thumbnail:
