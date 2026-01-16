@@ -193,6 +193,14 @@
   
     
       <li>
+        <a href="/categories/miscel%C3%A1neas">
+          misceláneas
+        </a>
+      </li>
+    
+  
+    
+      <li>
         <a href="/categories/rese%C3%B1as">
           reseñas
         </a>
@@ -227,6 +235,7 @@
         <li><a href="/categories/reseñas/">reseñas</a></li>
         <li><a href="/bocanadas/">bocanadas</a></li>
         <li><a href="/autores/">autores</a></li>
+        <li><a href="/archivo/">archivo</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
         <li><a><form
@@ -271,7 +280,7 @@
   align-items: center;
   max-width: 420px;
   
-  margin-left: 1rem;
+  margin-left: 0rem;
   z-index: 1001;
 }
 
@@ -617,15 +626,6 @@ document.addEventListener("click", () => {
 <p>Esa lógica es un problema.  Porque incluso si nadie “pierde” algo de manera explícita, se afecta el sentido mismo de la competencia. El derecho no funciona solo por distribuir premios y castigos, sino porque todos aceptamos un marco común de reglas que nos permite entender qué significa ganar y perder. Cuando ese marco se desbarata lo que se erosiona es la confianza colectiva en la arquitectura que hace posible y le da sentido jugar, competir y adjudicar victorias y títulos: con la misma ley hemos roto los juguetes del derecho.</p>
 <p>El problema afecta incluso a su aparente beneficiario. Central termina este año no solo eliminado sino con la imagen de un título desangelado, cuyo poster no es el gol épico ni una romántica vuelta olímpica con invasión de campo, sino una entrega que tiene por escenografía una sala de reunión de junta directiva. Canchereadas positivistas del tipo “que la cuenten como quieran” no mejorarán esa circunstancia.</p>
 <p>Más vicios: aún si asumieramos que este campeonato no estuvo afectado por el de la retroactividad, el hub de campeonatos de la AFA y sus multiples ligas y copas ha quedado abiertamente en Zona Rex, donde  necesitamos <a href="https://www.instagram.com/p/DRXnCfekXgm/?utm_source=ig_web_copy_link&amp;igsh=NTc4MTIwNjQ2YQ==">un dibujo con rayitas</a> para entender qué cosas se están jugando.</p>
-<p>
-
-<figure class="md-figure">
-  <img src="/img/copas.png" alt="Plano de copas del fútbol argentino">
-  
-    <figcaption>Las copas del fútbol argentino</figcaption>
-  
-</figure>
-</p>
 <p>Esta compleja tabla de correlatividades incluso está simplificando la cuestión. Detalles como “qué pasa si el campéon de la tabla anual es además el campeón del trofeo de campeones, -y en ese caso se le da el título sin jugar, o juega contra el segundo de la tabla anual, o bien contra el perdedor de la final del torneo de campeones- quedan al margen de la infografía y muy probablemente de la reglamentación y se resuelverán ex post como ha ocurrido en el pasado cercano, como hacía el Rex de Fuller, a los ponchazos, o <a href="https://lapaginamillonaria.com/river-plate/mientras-la-afa-le-regala-un-titulo-a-rosario-central-las-dos-finales-que-todavia-le-deben-a-river">finales que se dejan sin resolver y sin jugar</a>, dando lugar a campeonatos schubiertianos, eternamente inconclusos.</p>
 <p>El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega como se vive”, pero señalo la correlación- es muy fullero: adhocrático, hecho a propósito inestable, enroscado y complejo, potencialmente retroactivo, disociado del cumplimiento real, selectivamente aplicado.</p>
 <h1 id="el-debido-proceso-sustantivo">El debido proceso sustantivo</h1>
@@ -748,6 +748,72 @@ document.addEventListener("click", () => {
   </a> 
 </div>
 </footer>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.matchMedia("(min-width: 769px)").matches) return;
+
+  document.querySelectorAll("sup[id^='fnref']").forEach(ref => {
+    
+    if (ref.nextElementSibling?.classList.contains("sidenote")) return;
+
+    const link = ref.querySelector("a");
+    if (!link) return;
+
+    
+    const number = link.textContent.trim();
+    if (!number) return;
+
+    const id = link.getAttribute("href").substring(1);
+    const footnote = document.getElementById(id);
+    if (!footnote) return;
+
+    const aside = document.createElement("aside");
+    aside.className = "sidenote";
+
+    aside.innerHTML = `
+      <span class="sidenote-number">${number}</span>
+      ${footnote.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "")}
+    `;
+
+    ref.after(aside);
+  });
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.matchMedia("(max-width: 768px)").matches) return;
+
+  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+    ref.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const sup = this.parentElement;
+      const id = this.getAttribute("href").substring(1);
+      const note = document.getElementById(id);
+      if (!note) return;
+
+      
+      const existing = sup.nextElementSibling;
+      if (existing && existing.classList.contains("inline-footnote")) {
+        existing.remove();
+        return;
+      }
+
+      const inline = document.createElement("span");
+      inline.className = "inline-footnote";
+      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+
+      sup.after(inline);
+    });
+  });
+});
+</script>
+
+
 
 
 

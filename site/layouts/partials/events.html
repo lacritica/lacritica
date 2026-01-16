@@ -1,11 +1,5 @@
 <div class="events-row">
 
-  <div class="events-header">
-    <div class="events-prev"></div>
-    <h2 class="events-title">cosas que pasan</h2>
-    <div class="events-next"></div>
-  </div>
-
   {{ $all := where .Site.Pages "File" "ne" nil }}
   {{ $events := shuffle (where $all "File.Dir" "==" "events/") }}
 
@@ -89,7 +83,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   new Swiper(".events-swiper", {
     loop: true,
-    spaceBetween: 24,
+    spaceBetween: 34,
     navigation: {
       // PASS SELECTOR STRINGS, NOT ELEMENTS
       nextEl: ".events-next",
@@ -102,9 +96,9 @@ document.addEventListener("DOMContentLoaded", function () {
       480:  { slidesPerView: 1.2 },
       640:  { slidesPerView: 2 },
       768:  { slidesPerView: 2.5 },
-      1024: { slidesPerView: 5 },
-      1280: { slidesPerView: 6 },
-      1536: { slidesPerView: 7 },
+      1024: { slidesPerView: 4 },
+      1280: { slidesPerView: 4 },
+      1536: { slidesPerView: 4 },
     },
   });
 });
@@ -112,10 +106,11 @@ document.addEventListener("DOMContentLoaded", function () {
 </script>
 
 <style>
+
 .events-row {
-  margin-top: 2rem;
-  background-color: var(--accent-blue);
-  padding: 2rem 1rem 4rem;
+  margin-top: 0rem;
+  margin-botton: -8rem
+  background-color: var(--base-bg);
   overflow: hidden;
 }
 
@@ -136,44 +131,11 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 
 /* ---- ARROWS ---- */
-.events-prev,
-.events-next {
-  width: 36px;
-  height: 36px;
-  color: var(--base-bg);
-  border: 2px solid var(--base-bg);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.events-prev:hover,
-.events-next:hover {
-  background-color: var(--base-bg);
-  color: var(--forest-green);
-}
-
-/* arrow icons */
-.events-prev::after {
-  content: "‹";
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.events-next::after {
-  content: "›";
-  font-size: 20px;
-  font-weight: 700;
-}
 
 /* EVENT CARDS */
 .event-card {
   background: var(--base-bg);
-  border-radius: 1.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 0.5rem;
   padding: 1rem;
   text-align: left;
   transition: transform .2s ease;
@@ -195,11 +157,10 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 
 .event-type {
-    margin: 0 0 0.25rem 0;
-
+  margin: 0 0 0.25rem 0;
   font-family: 'Jost';
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid;
+  border-bottom: 8px solid var(--accent-burgundy);
   text-decoration: none;
   font-size: 0.8rem;
   font-weight: 600;
@@ -211,12 +172,10 @@ document.addEventListener("DOMContentLoaded", function () {
   font-size: 0.8rem;
 }
 
-
 .event-date {
   display: flex;
   align-items: center;   /* baseline also works */
   gap: 0.25rem;
-
   margin: 0 0 0.25rem 0;
   font-family: 'Jost';
   text-decoration: none;
@@ -229,6 +188,8 @@ document.addEventListener("DOMContentLoaded", function () {
 }
 
 .date-of-doc {
+  font-family: 'Jost';
+  font-weight: 600;
   margin: 0 0 0.25rem 0;
   text-decoration: none;
   font-size: 0.8rem;
@@ -283,13 +244,13 @@ document.addEventListener("DOMContentLoaded", function () {
 .event-more-info a {
   letter-spacing: 0.01rem;
   margin-bottom: 0;
-  line-height: 1;
+  line-height: 0;
   letter-spacing: 0.01rem;
   text-decoration: none;
   color: var(--neutral-800);
   font-size: 0.8rem;
   padding-left: 1.5rem;
-  text-indent: -1.5em;
+  text-indent: -1.5rem;
 }
 
 .event-card:hover {

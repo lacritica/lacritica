@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+{{/* get all issues */}}
+{{ $issues := where site.RegularPages "Section" "ediciones" }}
+{{ $issues = sort $issues "Params.month" "desc" }}
+
+{{ $current := index $issues 0 }}
+{{ $previous := after 1 $issues }}
+
+{{/* ================= CURRENT ISSUE ================= */}}
+
+
+  {{ with $current }}
+    {{ partial "issue-full.html" . }}
+
+  {{ end }}
+
+{{/* ================= PREVIOUS ISSUES ================= */}}
+
+
+<section class="previous-issues">
+  <h2></h2>
+  <ul>
+    {{ range $previous }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          {{ .Title }} — {{ .Params.number }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+
+{{ end }}

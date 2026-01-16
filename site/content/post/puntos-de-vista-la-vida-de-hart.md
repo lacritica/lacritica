@@ -1,0 +1,31 @@
+---
+title: Puntos de vista 
+date: 2026-01-10
+description: La increíble vida---interna y externa---del filósofo del derecho más influyente del siglo veinte. 
+categories:
+  - reseñas
+exclude_thumbnail_from_body: true
+author:
+  - Ramiro Álvarez Ugarte
+thumbnail:
+  - src: "/img/hla.webp"
+obra_reseñada: 'Lacey, N. (2006). A Life of H.L.A. Hart: The Nightmare and the Noble Dream. United Kingdom: Oxford University Press.'
+draft: true 
+highlight: false
+highlight2: false
+callouts:
+---
+
+Terminé hace algunas noches la extraordinaria biografía de H.L.A. Hart, el filósofo del derecho británico que a mediados del siglo XX revitalizó a la disciplina desde su puesto de profesor en Oxford, generó cientos de discípulos y críticos (en casi igual medida) y cambió, para siempre, la forma en que entendemos lo que el derecho *es*. 
+
+El libro es notable por varias razones. Por un lado, porque está en gran parte basado en libretas de anotaciones personales que Hart mantuvo con cierta regularidad a lo largo de su vida, lo que le da---a la autora---una ventana insólita a una vida. Los sentimientos personales más detallados y profundos se ponen por escrito, las formas de pensar los problemas filosóficos, las dudas, las sensaciones de no pertenecer a los círculos sociales en los que se movía, y la sensación de ser un fraude saltan de notas tomadas con fines de análisis personal y reflexión a un libro publicado, sin demasiada justificación más que el acuerdo y la colaboración de Jennifer, la esposa de Hart, figura central en su vida. Nicola Lacey, la autora del libro, lleva adelante la tarea y la responsabildad implícita en ese acceso privilegiado con precisión y elegancia. 
+
+Lacey no es autora de biografías, sino que es [profesora de derecho en la London School of Economics](https://www.lse.ac.uk/people/nicola-lacey), de pasado *oxiense*, de vínculo con Hart en los últimos años de su vida. Y este es un dato clave para leer la biografía, que puede abordarse en distintas claves de lectura, de las que yo voy a destacar tres. 
+
+Primero, la biografía de alguien como H.L.A. Hart puede leerse en clave de élite británica moderna, de los patrones de acceso a instituciones y procesos históricamente cerrados y excluyentes que---sin embargo---podían abrirse ante el talento y ciertas cualidades que Hart indudablemente tenía. Su vida se cruza y se mezcla con múltiples colegas y amigos, y la biografía es generosa en ofrecernos pinceladas de talentos parecidos a los de Hart, posiblemente distintos, pero también hechos de sentimientos y emociones que se dejan ver a través de relatos y notas en diarios personales y cartas ---las cientos de cartas. Bajo esta luz, el libro es un relato de los dilemas y los deseos del hijo de un sastre judío que logró ingresar a esos círculos sin alcanzar a sentirse plenamente parte de ellos. A pesar de haber tenido una exitosa carrera como abogado en Londres, de haber servido a su país en el MI5 durante la Segunda Guerra Mundial, y de haber ingresado *tarde* a la vida académica plena del derecho *desde* la filosofía, las dudas y sentimientos de no adecuación parecen haberlo acompañado durante gran parte de su vida. Su alianza con Jenifer---nacida en una familia ya insertada en la élite inglesa---es una parte notable de esta vida, un vínculo que se sugiere complejo, intenso, ambiguo, pero central en la vida de Herbert. 
+
+Una segunda clave de lectura se podría vincular, más directamente, con la vida académica. Allí el libro ofrece una mirada a un tipo de universidad que aquí no tenemos: inmersivo, intenso, cercano, comunitario y durante la vida de Hart casi exclusivamente masculino. Oxford emerge como un club de varones, muchos de ellos bastante inadaptados, que viven donde estudian y trabajan. El famoso sistema de tutorías personalizadas aparece superpuesto con la vida personal, que cuesta distinguir del trabajo. Las discusiones o reuniones académicas ocurren después de las cenas, los grupos de trabajo se reúnen sábados o domingos, las charlas son en los *cuartos* de los profesores e investigadores y pueden durar horas o hasta la madrugada. Para quienes aman las universidades y las bibliotecas y han tenido la oportundiad de conocer distintas instituciones (pero no la de Oxford, como yo), el modelo *oxiense* aparece especialmente peculiar y extraño. El capítulo dedicado a los viajes de Hart por Estados Unidos a mediados de la década del cincuenta es especialmente iluminador para resaltar un contraste entre dos modelos distintos de universidad. (Dos modelos, por cierto, atractivos y alejados de nuestra propia realidad de enseñanza _part time_ del derecho, de profesores que van y vienen pero nunca *se quedan*).
+
+Finalmente, el libro es ideal para acercarse a Hart _por primera vez_, y---creo---podría servir de base para un curso de filosofía del derecho. Aquí la pluma de Lacey se vuelve central, porque la vida intelectual de Hart se interpreta de manera hábil, se enmarca en discusiones y tradiciones más largas --- Bentham, la filósofía analítica del siglo XIX, Wittengstein y su influencia en Inglaterra, JL Austin y el *giro linguístico* del que Hart fue protagonista. Su viaje a Estados Unidos cruza a Hart con el realismo jurídico (la _pesadilla_) y con la escuela del proceso de Hart y Sacks, con Lon Fuller y así los debates entre positivimo y *iusnaturalismo* de esos años emergen anotados por las cartas personales que unos se enviaban a otros. La aparición de Ronald Dworkin y su *sueño noble*---pero, en última instancia, fallido para Herbert---toma un rol central en los últimos capítulos. Hart impulsó a que Dworkin sea su sucesor, a pesar de que éste se presentó como uno de sus principales críticos. Y si bien tuvieron un período de cercanía, ese vínculo no pudo cristalizarse en una amistad como las muchas que Herbert tendió a lo largo de su vida. Su necesidad de *responder a los críticos* se vuelve una carga pesada en la edad madura, y Lacey sugiere que el famoso *postcript* editado en 1994 por Joseph Raz y Penelope Bulloch no refleja al mejor Herbert sobre la base de un manuscrito inconcluso, que en años previos---antes de sufrir una dura depresión---había bosquejado de manera más precisa y eficiente, en presentaciones públicas y clases, una respuesta más articulada y acertiva. 
+
+

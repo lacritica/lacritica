@@ -50,8 +50,6 @@ El problema afecta incluso a su aparente beneficiario. Central termina este año
 
 Más vicios: aún si asumieramos que este campeonato no estuvo afectado por el de la retroactividad, el hub de campeonatos de la AFA y sus multiples ligas y copas ha quedado abiertamente en Zona Rex, donde  necesitamos [un dibujo con rayitas](https://www.instagram.com/p/DRXnCfekXgm/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==) para entender qué cosas se están jugando.
 
-![Plano de copas del fútbol argentino](/img/copas.png "Las copas del fútbol argentino")
-
 Esta compleja tabla de correlatividades incluso está simplificando la cuestión. Detalles como “qué pasa si el campéon de la tabla anual es además el campeón del trofeo de campeones, -y en ese caso se le da el título sin jugar, o juega contra el segundo de la tabla anual, o bien contra el perdedor de la final del torneo de campeones- quedan al margen de la infografía y muy probablemente de la reglamentación y se resuelverán ex post como ha ocurrido en el pasado cercano, como hacía el Rex de Fuller, a los ponchazos, o [finales que se dejan sin resolver y sin jugar](https://lapaginamillonaria.com/river-plate/mientras-la-afa-le-regala-un-titulo-a-rosario-central-las-dos-finales-que-todavia-le-deben-a-river), dando lugar a campeonatos schubiertianos, eternamente inconclusos.
 
 El derecho de nuestro futbol -renuncio a sugerir el hiperbólico “se juega como se vive”, pero señalo la correlación- es muy fullero: adhocrático, hecho a propósito inestable, enroscado y complejo, potencialmente retroactivo, disociado del cumplimiento real, selectivamente aplicado. 

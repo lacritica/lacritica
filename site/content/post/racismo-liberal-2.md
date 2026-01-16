@@ -5,7 +5,6 @@ description: ¿Por qué es complejo comprender la historia argentina? ¿Podemos 
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
-draft: true
 author:
   - Tomás Abraham
 thumbnail:
@@ -14,7 +13,9 @@ thumbnail:
     copyright: "por Joseph Raz"
 highlight: false
 highlight2: false
+featured_callout: 0
 callouts:
+- ¿Por qué resulta complejo comprender la historia argentina? ¿Podemos sumarnos a tantos que hablan de nuestra "excepcionalidad"? Creo que sí
 tags: 
   - installation 
 ---

@@ -5,14 +5,12 @@ description: Algunas palabras dirigidas a una red de abogados en EEUU preocupado
 categories:
   - ensayos
 exclude_thumbnail_from_body: true
-draft: true
 author:
   - Owen Fiss
 thumbnail:
   - src: "/img/sanfrancisco2018.jpeg"
     epigraph: "San Francisco, 2018"
     copyright: "por RAU"
-featured_callout: 0
 highlight: false
 highlight2: false
 callouts:

@@ -211,6 +211,74 @@ body {
   object-fit: cover;
 }
 
+/*sidenotes*/
+
+@media (min-width: 769px) {
+
+  .sidenote {
+    float: right;
+    clear: right;
+    width: 30%;
+    margin-right: -30%;
+    font-size: 0.7em;
+    line-height: 1.4;
+    color: var(--neutral-600);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 0rem;
+  }
+
+  .sidenote .sidenote-number {
+    font-size: 0.9em;
+    color: var(--accent-burgundy);
+    margin: 1rem;
+  }
+
+  #content .article-content sup a {
+  color: var(--accent-burgundy);
+  font-weight: 600;
+  text-decoration: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .sidenote {
+    display: none;
+  }
+}
+
+/* Hide default footnotes list at the end */
+.footnotes {
+  display: none;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+#content .article-content sup[id^="fnref"] a {
+  color: var(--accent-burgundy);
+}
+
+  .inline-footnote {
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
+    border-left: 3px solid #ccc;
+    font-size: 0.8em;
+    color: #444;
+  }
+
+  sup + .inline-footnote {
+    clear: both;
+  }
+}
+
+
+
 /* 6) If you want smaller thumbnails visually, reduce the column width on large screens */
 @media (min-width: 1201px) {
   .secondary-grid { grid-template-columns: repeat(3, 1fr); } /* unchanged */
@@ -247,7 +315,6 @@ body {
   margin-left: -1rem;
   border-right: 1px solid var(--divider-color, #ccc);
   border-left: 1px solid var(--divider-color, #ccc);
-  line-height: 80px;
 }
 
 .featured-content h1 {
@@ -297,6 +364,13 @@ body {
   gap: var(--gutter);
 }
 
+.hero-column h3 {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: -0.5rem;
+  font-family: 'Jost';
+}
+
 
 .article--tight {
   margin-top: -0rem }/* move it up slightly 
@@ -329,42 +403,70 @@ body {
 
 /* --- RIGHT COLUMN WRAPPER --- */
 .home-featured-right {
-  flex: 0 0 32%;
+  flex: 0 0 36%;
+  max-width: 600px;
+
+  /* gradient */
   background: linear-gradient(
     to bottom,
-    transparent 50%,
-    transparent 50%,
-    var(--neutral-beige) 50%,
-    var(--neutral-beige) 100%
+    transparent 60%,
+    var(--neutral-beige) 60%
   );
-  /* compact but comfortable padding */
-  padding: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;              /* spacing between posts */
-  align-items: flex-start;
+
+  padding: 2.5rem;
   box-sizing: border-box;
-}
 
-.home-featured-right h3 {
- font-family: 'Jost';
-}
-
-/* --- POST LIST --- */
-.home-featured-right .misc-posts {
+  /* 👇 THIS is the key */
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
-  width: 100%;
+  align-items: center;
+  gap: 1rem;
 }
 
-/* --- POST TITLE --- */
-.home-featured-right .misc-title {
+/* --- THUMBNAIL --- */
+.home-featured-right .misc-thumbnail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-featured-right .misc-thumbnail img {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  display: block;
+}
+
+/* --- POSTS WRAPPER --- */
+.home-featured-right .misc-posts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+/* --- TITLES & META --- */
+.home-featured-right .misc-title,
+.home-featured-right .misc-number,
+.home-featured-right .misc-autores-grouped,
+.home-featured-right .misc-author,
+.home-featured-right .misc-date {
+  width: 100%;
+  text-align: center;
   margin: 0;
-  font-size: 1.4rem;
+  font-family: 'Jost';
+}
+
+/* --- TITLE --- */
+.home-featured-right .misc-title {
+  margin-top: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.2;
-  white-space: normal;
   overflow-wrap: anywhere;
 }
 
@@ -377,45 +479,29 @@ body {
   background-color: var(--accent-beige);
 }
 
+/* --- NUMBER --- */
+.home-featured-right .misc-number {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* --- AUTHORS --- */
 .misc-autores-grouped {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-family: 'Jost';
-  font-size: .9rem;
-}
-
-/* --- AUTHOR + DATE --- */
-.home-featured-right .misc-author,
-.home-featured-right .misc-date {
-  margin: 0;
   font-size: 0.9rem;
-  font-family: 'Jost';
 }
 
-.home-featured-right .misc-author a {
-  color: inherit;
+/* --- BUTTON / LINK --- */
+.home-featured-right .link-a-archivo a {
+  background-color: var(--accent-blue);
+  padding: .6rem;
+  text-transform: uppercase;
   text-decoration: none;
-}
-
-/* --- THUMBNAIL --- */
-.home-featured-right .misc-thumbnail {
-  margin-bottom: 0.6rem;       /* tighter spacing */
-}
-
-.home-featured-right .misc-thumbnail img {
-  width: 100%;                 /* FULL WIDTH → fix the empty right-side space */
-  max-width: 100%;
-  height: auto;
-
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-
-  display: block;
-}
-
-.home-featured-inner {
-  padding: 2rem;
+  font-family: 'Jost';
+  margin-bottom: -3rem;
+  display: inline-block;
+  color: var(--base-bg);
+  width: 100%;
+  text-align: center;
 }
 
 /* Stack on mobile */
@@ -619,13 +705,15 @@ body {
 }
 
 .pirulos-thumbnail img {
-  width: 100%;        /* landscapes fill width */
-  height: auto;       /* keep aspect ratio */
-  max-height: 450px;  /* portrait images shrink */
-  object-fit: contain !important;
+  width: 100%;
+  max-width: 480px;   /* controls visual size */
+  height: auto;
+  padding: 1rem;
+  padding-top: 0rem;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
 }
-
-
 
 .pirulo-author {
   font-family: 'Jost';
@@ -680,6 +768,25 @@ body {
     max-width: 600px; /* optional: limit width on mobile */
     text-align: center; /* center text inside each box */
   }
+  .home-featured-right {
+    margin-top: -2rem;
+  }
+  .pirulo-section-title {
+  display: flex;
+  flex-direction: column; /* obra_reseñada below the image */
+  align-items: center; /* align left with image */  
+  }
+  .pirulos-thumbnail {
+    display: flex;
+  flex-direction: column; /* obra_reseñada below the image */
+  align-items: center; /* align left with image */
+  }
+  .pirulo-thumb-wrapper {
+  display: flex;
+  flex-direction: column; /* obra_reseñada below the image */
+  align-items: center; /* align left with image */
+  gap: 4px;
+}
 }
 
 
@@ -755,6 +862,7 @@ body {
     right: 10px;
   }
 
+
   /* THUMBNAILS */
   .home-featured-right .misc-thumbnail img {
     border-width: 1px;
@@ -778,52 +886,11 @@ body {
 }
 }
 
-/* super sidenotes */
 
-span.sidenote {
-    /* hidden by default (mobile) */
-    display: none;
-}
-
-@media (min-width: 960px) {
-    span.sidenote {
-        display: block;
-        position: relative;
-        float: right;
-        clear: right;
-        transform: translateY(-50%);
-
-        width: 30%;
-        margin: 0;
-        margin-bottom: 1.1rem;
-        margin-top: 1.1rem;
-        margin-right: -35%;
-        padding: 0.5rem 0;
-        box-sizing: border-box;
-        text-align: left;
-        background-color: initial;
-
-        font-size: 80%;
-        line-height: 150%;
-        color: var(--global-font-secondary-color);
-        padding-left: 0.75rem;   /* ← this is the key line */
-        border-left: 1px solid #888;
-    }
-}
-
-span.sidenote small {
-    font-size: 100%;
-}
-
-
-/* Don't show sidenotes on the home page. */
-.home.posts #content .sidenote {
-    display: none;
-}
 
 /* Container for author list */
 .hero-column .post-author .author-name {
-  font-size: 1rem;
+  font-size: .8rem;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif !important;
   font-weight: 600;
@@ -833,6 +900,12 @@ span.sidenote small {
   line-height: 1.3;    /* improves multi-line readability */
 }
 
+.author-separator {
+  font-family: "Jost", serif;
+  color: var(--accent-burgundy);
+}
+
+
 .hero-column h1 {
   margin-bottom: .5rem;
   font-size: 1.4rem; /* era 1.3 */
@@ -840,7 +913,7 @@ span.sidenote small {
   font-weight: 600;
   color: var(--neutral-800);
   letter-spacing: 0.01em;
-  line-height: 1.4;    /* improves multi-line readability */
+  line-height: 1.2;    /* improves multi-line readability */
 }
 
 #content .article-wrapper {
@@ -898,7 +971,7 @@ span.sidenote small {
 .hero-column .post-author .author-link {
   white-space: nowrap;  /* keep individual names together */
   display: inline-block; /* allows wrapping at commas / spaces between authors */
-  font-size: 1.1em;
+  font-size: 1em;
   font-family: 'Jost', serif !important;
   font-weight: 600;
   color: var(--accent-burgundy);
@@ -1719,9 +1792,10 @@ span.sidenote small {
 .article h2,
 .article h3,
 .article h4 {
-  margin-top: 0;
+  font-family: 'Jost';
 }
 
+.article-content h2,
 .article-content h3 {
   font-family: 'Jost';
 }
@@ -2457,7 +2531,7 @@ span.sidenote small {
 /* footer */
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 0rem;
   background: var(--accent-blue);
   padding: 2em 0;
   font-size: 1.2rem;
@@ -2641,10 +2715,10 @@ span.sidenote small {
   list-style: none; /* removes bullets */
   padding: 0;
   height: 100%;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
   display: flex;
   flex-direction: column; /* stacks items vertically */
-  gap: 1rem; /* optional spacing between items */
+  gap: .2rem; /* optional spacing between items */
   color: var(--base-bg); /* applies text color */
 }
 
@@ -2653,10 +2727,10 @@ span.sidenote small {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--base-bg); /* applies text color */
   border-top: 2px solid;
-  padding: 1.35rem 1rem 0.35rem 1rem; /* top right bottom left */
+  padding: 1rem 1rem 0.5rem 1rem; /* top right bottom left */
 }
 
 .menu-icon {
@@ -2821,5 +2895,103 @@ tr:nth-child(even) { background: #eee }
 /* break long words */
 p, ul, ol, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
+}
+
+.monthly-layout {
+  background-color: var(--accent-blue);  
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.monthly-left img {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  height: auto;
+  display: block;
+}
+
+.monthly-right {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.monthly-right h1 {
+  color: var(--base-bg);
+  margin-top: -.5rem;
+  font-family: 'Jost';
+  font-size: 1.8rem;
+}
+
+.monthly-right h2 {
+  color: var(--base-bg)!important;
+  font-family: 'Jost';
+  font-size: 1.4rem;
+}
+
+.monthly-right h3 {
+  color: var(--base-bg);
+  margin-top: -.5rem;
+  font-family: 'Jost';
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.monthly-right a,
+.monthly-right li, 
+.monthly-right span {
+  color: var(--base-bg)!important; 
+  color: inherit;
+  text-decoration: none;
+}
+
+.monthly-right a:hover {
+  background-color: var(--accent-beige);
+}
+
+.previous-issues {
+  background-color: var(--accent-blue);
+}
+
+.previous-issues h2 {
+color: var(--base-bg);
+margin-top: 0rem;
+margin-bottom: 0rem;
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+  .monthly-layout {
+    padding-left: 0rem;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .monthly-left {
+    padding-left: 2rem;
+  }
+  .monthly-left img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.monthly-right h1 {
+  margin-top: 0;
+}
+}
+
+.shortcode-fencing {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.shortcode-fencing img {
+  width: 30px;   /* adjust as needed */
+  height: auto;
 }
 

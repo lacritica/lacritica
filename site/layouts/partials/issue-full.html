@@ -1,0 +1,61 @@
+{{ $month := .Params.month }}
+{{ $order := slice "debates" "ensayos" "entrevistas" "reseñas" }}
+
+<div class="monthly-layout">
+
+<aside class="monthly-left">
+  {{ with .Params.image }}
+    {{ $img := . }}
+    {{ with $.Params.file }}
+      <a href="{{ . }}" download>
+        <img src="{{ $img }}" alt="">
+      </a>
+    {{ end }}
+  {{ end }}
+</aside>
+
+
+  <section class="monthly-right">
+    <h1>{{ .Title }}</h1>
+    <h2>{{ .Params.number }}</h2>
+
+    {{ with .Params.file }}
+      <h3>
+        <a href="{{ . }}" download>descargar en epub</a>
+      </h3>
+    {{ end }}
+
+    {{ range $order }}
+      {{ $cat := . }}
+      {{ $posts := slice }}
+
+      {{ range site.RegularPages }}
+        {{ $d := or .PublishDate .Date }}
+        {{ if and
+          $d
+          (eq ($d.Format "2006-01") $month)
+          (in .Params.categories $cat)
+        }}
+          {{ $posts = $posts | append . }}
+        {{ end }}
+      {{ end }}
+
+      {{ $posts = sort $posts "Date" "asc" }}
+
+      {{ if gt (len $posts) 0 }}
+        <h2>{{ $cat }}</h2>
+        <ul>
+          {{ range $posts }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+              {{ with .Params.author }}
+                <span> por {{ delimit . ", " }}</span>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ul>
+      {{ end }}
+    {{ end }}
+
+  </section>
+</div>

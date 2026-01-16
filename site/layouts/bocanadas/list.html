@@ -10,6 +10,7 @@
         <h1 class="pirulos-title">{{ .Title }}</h1>
       </div>
 
+
       <!-- RIGHT COLUMN (Main Content) -->
 
         {{ range .Pages }}
@@ -71,8 +72,8 @@
 <style>
 
 .list-of-pirulos {
-  padding-left: clamp(1rem, 18vw, 18rem);
-  padding-right: clamp(1rem, 18vw, 18rem);
+  padding-left: clamp(1rem, 10vw, 10rem);
+  padding-right: clamp(1rem, 10vw, 10rem);
 }
 
 .pirulos-item {
@@ -137,13 +138,6 @@
 
 }
 
-.pirulos-thumbnail img {
-  width: 100%;        /* fill the container width by default */
-  height: auto;       /* maintain aspect ratio */
-  border-radius: 6px;
-  object-fit: cover;  /* crops if necessary */
-  display: block;
-}
 
 .pirulos-text h2 {
   flex: 1 1 auto;
