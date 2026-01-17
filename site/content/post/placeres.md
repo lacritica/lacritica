@@ -9,7 +9,6 @@ author:
   - Tomás Abraham
 thumbnail:
   - src: /img/gargarella_L1100904.JPG
-obra_reseñada: 
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
