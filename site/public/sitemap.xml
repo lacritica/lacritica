@@ -17,6 +17,12 @@
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-01-16T00:00:01+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bocanadas/tooze.md-/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -46,9 +52,6 @@
   </url><url>
     <loc>http://localhost:1313/post/no-es-solo-el-agua/</loc>
     <lastmod>2026-01-09T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/el-traje-chico/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
