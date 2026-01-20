@@ -10,7 +10,7 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/whatsapp-image-2026-01-11-at-11.49.21.jpeg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 callouts:
