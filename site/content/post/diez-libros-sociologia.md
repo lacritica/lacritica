@@ -9,7 +9,7 @@ categories:
 author:
   - Roberto Gargarella
 thumbnail:
-  - src: /img/gargarella_L1100774.JPG
+  - src: /img/rg-montevideo.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
