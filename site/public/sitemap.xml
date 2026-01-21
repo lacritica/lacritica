@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/bocanadas/helados/</loc>
+    <lastmod>2026-01-21T13:03:44+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-01-21T13:03:44+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-21T13:03:44+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/atropellar-el-sexo/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,9 +23,6 @@
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,9 +30,6 @@
     <lastmod>2026-01-16T00:00:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/tooze.md-/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
@@ -43,6 +46,9 @@
   </url><url>
     <loc>http://localhost:1313/post/samuel-moyn/</loc>
     <lastmod>2026-01-11T10:24:34+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-01-09T00:00:02+00:00</lastmod>
@@ -73,6 +79,9 @@
   </url><url>
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
@@ -237,9 +246,13 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/justina-uriburu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
   </url><url>
