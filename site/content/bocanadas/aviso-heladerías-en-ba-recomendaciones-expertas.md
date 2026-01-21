@@ -1,5 +1,5 @@
 ---
-title: "Aviso: Heladerías en BA: Recomendaciones expertas"
+title: "Aviso: Heladerías en BA. Recomendaciones expertas"
 date: 2026-01-21T13:03:44.543Z
 slug: helados
 author:
