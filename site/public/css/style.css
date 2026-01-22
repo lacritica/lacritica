@@ -1109,6 +1109,7 @@ body {
 /* LEFT COLUMN: IMAGE */
 .cat_picture img {
   margin-top: 2rem;
+  margin-right: 55rem;
   width: 100%;
   height: auto;
   display: block;

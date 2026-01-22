@@ -161,32 +161,46 @@
     
 
     <ul>
-      
-        
-          <li>
-            <a href="/categories/debates">
-              debates
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/categories/ensayos">
-              ensayos
-            </a>
-          </li>
-        
-      
-        
-          <li>
-            <a href="/categories/rese%C3%B1as">
-              reseñas
-            </a>
-          </li>
-        
-      
-    </ul>
+  
+    
+      <li>
+        <a href="/categories/debates">
+          debates
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="/categories/ensayos">
+          ensayos
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="/categories/entrevistas">
+          entrevistas
+        </a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="/categories/rese%C3%B1as">
+          reseñas
+        </a>
+      </li>
+    
+  
+
+  
+
+</ul>
+
+
+
 
   
 </div>
@@ -204,10 +218,114 @@
         <li><a href="/search/">buscar</a></li>
         <li><a href="/categories/debates/">debates</a></li>
         <li><a href="/categories/ensayos/">ensayos</a></li>
+        <li><a href="/categories/entrevistas/">entrevistas</a></li>
         <li><a href="/categories/reseñas/">reseñas</a></li>
+        <li><a href="/bocanadas/">bocanadas</a></li>
         <li><a href="/autores/">autores</a></li>
+        <li><a href="/archivo/">archivo</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
+        <li><a><form
+  name="newsletter"
+  action = "/gracias/"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  class="subscribe-form"
+>
+  <input type="hidden" name="form-name" value="newsletter">
+
+  <p class="hidden">
+    <label>
+      Don’t fill this out: <input name="bot-field">
+    </label>
+  </p>
+
+  <input
+    type="email"
+    name="email"
+    placeholder="Tu correo electrónico"
+    required
+    class="subscribe-input"
+  >
+
+  <button type="submit" class="subscribe-button">
+    Suscribirse
+  </button>
+</form>
+
+<style>
+  .hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+ 
+.subscribe-form {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  max-width: 420px;
+  
+  margin-left: 0rem;
+  z-index: 1001;
+}
+
+ 
+.subscribe-input {
+  flex: 1;
+  padding: 0.6rem 0.7rem;
+  font-size: 0.95rem;
+  border: 1px solid var(--divider-color, #ccc);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+ 
+.subscribe-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+ 
+.subscribe-button {
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--primary-dark);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ 
+.subscribe-button:hover {
+  background: #222;
+}
+
+ 
+@media (max-width: 480px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-button {
+    width: 100%;
+  }
+}
+
+ 
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+</a></li>
+        
 
       </ul>
 
@@ -321,6 +439,17 @@ document.addEventListener("click", () => {
       
         <li>
           <a 
+            href="/categories/entrevistas"
+            class=""
+          >
+            entrevistas
+          </a>
+        </li>
+      
+    
+      
+        <li>
+          <a 
             href="/categories/rese%C3%B1as"
             class=""
           >
@@ -345,64 +474,18 @@ document.addEventListener("click", () => {
         
         
           
+            <figure class="grid-thumbnail">
+              <img src="/img/webp/system_failure2.webp" alt="Featured Image"/>
+            </figure>
+          
         
 
-        <h1><a href="/post/test2-copy-11/">Ok, I am trying to try something (test 2)</a></h1>
+        <h1><a href="/post/por-que-la-cr%C3%ADiica/">Por qué la crítica del derecho</a></h1>
 
-        
-          <div class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/roberto-gargarella/">Roberto Gargarella</a>
-
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</div>
         
 
         <div class="summary">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Algunas razones para alzar la voz y combatir el pobre estado de la discusión jurídica en la Argentina.
         </div>
 
         <div class="date">
@@ -410,7 +493,7 @@ document.addEventListener("click", () => {
           
           
           
-          4 de noviembre de 2025
+          10 de diciembre de 2025
         </div>
       </div>
     </article>
@@ -453,7 +536,7 @@ document.addEventListener("click", () => {
 
      
     <div class="footer-text">
-    @ 2025 La Crítica del Derecho
+    <span>@ 2025 La Crítica del Derecho</span>
     </div>
     <br>
 
@@ -468,22 +551,97 @@ document.addEventListener("click", () => {
       <a href="https://www.linkedin.com/company/la-cr%C3%ADtica-del-derecho/about/" target="blank" aria-label="Linkedin">
         <img src="/img/linkedin.svg" alt="Linkedin logo">
       </a>
+      <a href="https://www.instagram.com/lacriticadd/" target="blank" aria-label="Instagram">
+        <img src="/img/instagram.svg" alt="Instagram logo">
+      </a>
+      <a href="https://www.facebook.com/LaCriticaDD/" target="blank" aria-label="Facebook">
+        <img src="/img/facebook.svg" alt="Facebook logo">
+      </a>
       
       </a>
     </div>
 
     <br>
 
-    
-    <div class="footer-social-bottom">
-      <span color = "#fff">hosted on</a><a href="https://github.com/ramiroau/lacritica2" target="blank" aria-label="GitHub">
-         <img src="/img/github.svg" alt="GitHub">
-      </a> 
-      <span color = "#fff">deployed by</a><a href="https://www.netlify.com/" target="blank" aria-label="Netlify">
-         <img src="/img/netlify.svg" alt="Netlify">
-      </a> 
-  </div>
+
+<div class="footer-social-bottom">
+  <span style="color:#fff">hosted on </span>
+  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+    <img src="/img/github.svg" alt="GitHub">
+  </a>
+  <span style="color:#fff"> deployed by </span>
+  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
+    <img src="/img/netlify.svg" alt="Netlify">
+  </a> 
+</div>
 </footer>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.matchMedia("(min-width: 769px)").matches) return;
+
+  document.querySelectorAll("sup[id^='fnref']").forEach(ref => {
+    
+    if (ref.nextElementSibling?.classList.contains("sidenote")) return;
+
+    const link = ref.querySelector("a");
+    if (!link) return;
+
+    
+    const number = link.textContent.trim();
+    if (!number) return;
+
+    const id = link.getAttribute("href").substring(1);
+    const footnote = document.getElementById(id);
+    if (!footnote) return;
+
+    const aside = document.createElement("aside");
+    aside.className = "sidenote";
+
+    aside.innerHTML = `
+      <span class="sidenote-number">${number}</span>
+      ${footnote.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "")}
+    `;
+
+    ref.after(aside);
+  });
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.matchMedia("(max-width: 768px)").matches) return;
+
+  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+    ref.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const sup = this.parentElement;
+      const id = this.getAttribute("href").substring(1);
+      const note = document.getElementById(id);
+      if (!note) return;
+
+      
+      const existing = sup.nextElementSibling;
+      if (existing && existing.classList.contains("inline-footnote")) {
+        existing.remove();
+        return;
+      }
+
+      const inline = document.createElement("span");
+      inline.className = "inline-footnote";
+      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+
+      sup.after(inline);
+    });
+  });
+});
+</script>
+
+
+
 
 
 

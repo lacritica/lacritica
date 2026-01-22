@@ -2,7 +2,7 @@
 
 {{ if and $section $section.Params.show }}
 
-  {{ $catastrofePosts := first 6 ($section.Pages.ByDate.Reverse) }}
+  {{ $catastrofePosts := first 4 ($section.Pages.ByDate.Reverse) }}
 
   <div class="catastrophe">
 
@@ -21,7 +21,7 @@
       </div>
       
 <ul class="cat_articles">
-  {{ range $catastrofePosts }}
+  {{ range $catastrofePosts.ByWeight }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Params.author }}, <em>por {{ partial "author_inline.html" . }}</em>{{ end }}
     </li>

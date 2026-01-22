@@ -1,5 +1,5 @@
 ---
 show: true
-image: "/img/grito.png"
+image: "/img/manifestacion.webp"
 title: "Especial Reforma Laboral"
 ---
