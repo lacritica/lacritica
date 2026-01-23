@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/catastrofe/golpe-a-la-institucionalidad-democr%C3%A1tica-del-trabajo-y-las-relaciones-sociales/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catastrofe/trabajo-autonom%C3%ADa-personal-constituci%C3%B3n-y-democracia/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -23,14 +23,17 @@
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bocanadas/helados/</loc>
     <lastmod>2026-01-21T13:03:44+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-01-21T13:03:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/catastrofe/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
@@ -63,12 +66,6 @@
     <lastmod>2026-01-11T10:24:34+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/interpretativismo-2/</loc>
-    <lastmod>2026-01-09T00:00:02+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2026-01-09T00:00:02+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-09T00:00:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/no-es-solo-el-agua/</loc>
@@ -188,9 +185,6 @@
     <loc>http://localhost:1313/post/paissincontratos/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
-    <lastmod>2025-12-10T10:00:01+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/una-ley/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
@@ -267,6 +261,8 @@
     <loc>http://localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/roberto-gargarella/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/roy-hora/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>

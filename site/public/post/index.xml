@@ -9,11 +9,18 @@
     <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Placeres (I)</title>
+      <title>Placeres (II)</title>
       <link>http://localhost:1313/post/placeres-2/</link>
       <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/placeres-2/</guid>
       <description>&lt;p&gt;Michel Foucault tituló su ultimo libro &amp;ldquo;El uso de los placeres&amp;rdquo; que sintetizaba en una nueva perspectiva la educación del hombre griego varón adulto. Es decir, del ciudadano. En lugar de remitirse a la metafísica del dispositivo platónico-aristotélico con su trasmigración de las almas y el motor inmóvil, se dedica a describir la preceptiva compuesta por consejos prácticos para tener una buena vida, la que se debe adoptar para conocerse a sí mismo y liberarse de las sujeciones a las que nos someten las pasiones.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Un país más corrupto de lo que debiera ser</title>
+      <link>http://localhost:1313/post/corrupcion-argentina/</link>
+      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/corrupcion-argentina/</guid>
+      <description>&lt;p&gt;En la discusión pública, el problema de la corrupción suele ser abordado apelando a un lenguaje de denuncia, muchas veces subtendido por juicios morales. Este ensayo toma distancia de ese enfoque y propone algunas hipótesis sobre la envergadura y la naturaleza del problema de la corrupción en Argentina. Se pregunta, además, por las razones de las alzas y bajas del interés ciudadano en la temática. Finalmente, intenta responder a la pregunta de por qué la corrupción, como problema de política pública, no reviste igual interés para las distintas facciones de la elite dirigente.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Atropellar el sexo</title>
@@ -224,13 +231,6 @@
       <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
       <guid>http://localhost:1313/post/paissincontratos/</guid>
       <description>&lt;h1 id=&#34;una-historia-tucumana-la-de-todos-en-argentina&#34;&gt;Una Historia Tucumana, la de todos en Argentina&lt;/h1&gt;&#xA;&lt;p&gt;Hace unos días &amp;mdash;lo que queda de&amp;mdash; la Corte Suprema dictó un fallo, muy breve, casi imperceptible, que resolvió una disputa contractual originada en Tucumán hace 12 años (&amp;ldquo;Sucesores de Camilo Racca y otro c/ Comercial Carrazana S.A. y otros s/consignación&amp;rdquo;, fallado el 11/11/25)&lt;/p&gt;&#xA;&lt;p&gt;Los hechos son simples. En 2006, las partes habían firmado un contrato de leasing a 10 años. Allí establecieron como forma de pago de los cánones anuales unas sumas fijadas en dólares, y declararon que el pago podía ser realizado en pesos a la cotización del Banco de la Nación Argentina (BNA) la fecha del vencimiento.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>
-      <link>http://localhost:1313/post/corrupcion-argentina/</link>
-      <pubDate>Wed, 10 Dec 2025 10:00:01 +0000</pubDate>
-      <guid>http://localhost:1313/post/corrupcion-argentina/</guid>
-      <description>&lt;p&gt;Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los &lt;a href=&#34;https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/&#34;&gt;ha reivindicado&lt;/a&gt; no ya frente a la inacción del Congreso sino incluso frente a su rechazo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Como una ley, pero no más que una ley. Un límite olvidado de los DNU</title>

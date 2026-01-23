@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
@@ -17,10 +18,45 @@
       {{ end }}
     </title>
 
+    {{/* Social Media Meta Tags */}}
+    {{ if .IsPage }}
+      {{/* Open Graph tags (Facebook, LinkedIn, WhatsApp) */}}
+      <meta property="og:title" content="{{ .Title }}">
+      <meta property="og:description" content="{{ .Description }}">
+      <meta property="og:url" content="{{ .Permalink }}">
+      <meta property="og:type" content="article">
+      
+      {{ if reflect.IsSlice .Params.thumbnail }}
+        {{ with index .Params.thumbnail 0 }}
+          {{ if reflect.IsMap . }}
+            <meta property="og:image" content="{{ .src | absURL }}">
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="630">
+            <meta property="og:image:alt" content="{{ $.Title }}">
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      
+      {{/* Twitter Card tags */}}
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="{{ .Title }}">
+      <meta name="twitter:description" content="{{ .Description }}">
+      
+      {{ if reflect.IsSlice .Params.thumbnail }}
+        {{ with index .Params.thumbnail 0 }}
+          {{ if reflect.IsMap . }}
+            <meta name="twitter:image" content="{{ .src | absURL }}">
+            <meta name="twitter:image:alt" content="{{ $.Title }}">
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
     <link rel="stylesheet" href="{{ "css/fonts.css" | relURL }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css">
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
     {{ partial "head_custom.html" . }}
   </head>
 
