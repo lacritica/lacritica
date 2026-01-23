@@ -2,7 +2,7 @@
 title: "Golpe a la institucionalidad democrática del trabajo y las relaciones sociales"
 slug: golpe-a-la-institucionalidad-democrática-del-trabajo-y-las-relaciones-sociales
 date: 2026-01-21
-draft: false
+draft: true
 weight: 20
 description: 
 categories:
