@@ -2,29 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/catastrofe/reforma-laboral-en-argentina-y-tiempo-de-vida/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/catastrofe/golpe-a-la-institucionalidad-democr%C3%A1tica-del-trabajo-y-las-relaciones-sociales/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/catastrofe/trabajo-autonom%C3%ADa-personal-constituci%C3%B3n-y-democracia/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/catastrofe/el-baile-de-los-que-sobran/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/placeres-2/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/helados/</loc>
     <lastmod>2026-01-21T13:03:44+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-01-21T13:03:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-21T13:03:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-01-21T00:00:00+00:00</lastmod>
@@ -36,12 +39,6 @@
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/diez-textos-que-marcaron-mis-estudios-de-sociologia/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/placeres-1/</loc>
@@ -64,9 +61,6 @@
   </url><url>
     <loc>http://localhost:1313/post/samuel-moyn/</loc>
     <lastmod>2026-01-11T10:24:34+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/interpretativismo-2/</loc>
     <lastmod>2026-01-09T00:00:02+00:00</lastmod>
@@ -94,9 +88,6 @@
   </url><url>
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
@@ -197,6 +188,9 @@
     <loc>http://localhost:1313/post/paissincontratos/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
+    <lastmod>2025-12-10T10:00:01+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/una-ley/</loc>
     <lastmod>2025-12-10T10:00:01+00:00</lastmod>
   </url><url>
@@ -232,8 +226,6 @@
   </url><url>
     <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/catastrofe/</loc>
-  </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
@@ -248,13 +240,9 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
-  </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/justina-uriburu/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
   </url><url>
