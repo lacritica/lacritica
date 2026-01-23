@@ -1,5 +1,6 @@
 ---
-title: "On ne tue point les idées"
+title: On ne tue point les idées
+slug: maquiavelo-y-davos
 date: 2026-01-23
 description: Sobre Maquiavelo y la libertad política
 categories:
@@ -7,20 +8,19 @@ categories:
 author:
   - Pedro Caminos
 thumbnail:
-  - src: "/img/maquiavelo.jpg"
-exclude_thumbnail_from_body: true
+  - src: /img/maquiavelo.jpg
 highlight: false
 highlight2: false
-callouts:
-tags: 
-  - installation 
+callouts: null
+tags:
+  - installation
+exclude_thumbnail_from_body: true
 ---
-
 # I
 
 Según Sarmiento cuenta en el comienzo de "Facundo", al partir al exilio en 1840, decidió escribir en los bañados del Zonda la siguiente frase con un trozo de carbón: "*On ne tue point les idées*". La traducción aproximada es que las ideas no pueden ser degolladas. La tradición oral argentina la convirtió en: "¡Bárbaros! Las ideas no se matan". Cuando escuché el anuncio presidencial sobre la muerte de Nicolás Maquiavelo, pronunciado desde el Foro de Davos, mi mente lo asoció automáticamente a la frase de Sarmiento.
 
-En efecto, Nicolás Maquiavelo murió. Lleva seis siglos en esa condición. Pero su pensamiento y sus ideas mantienen una vigencia sobrecogedora. Y el Presidente acierta al identificarlo como un enemigo de su proyecto político. Pero no por las pueriles razones enunciadas desde Suiza. Maquiavelo era un pensador republicano, defensor de la libertad política. Ello es bastante claro en sus "Discursos sobre la Primera Década de Tito Livio". Pero hasta "El Príncipe", una obra explícitamente destinada a recomendarle a un monarca cómo mantener y ampliar su "estado", puede ser leído en clave republicana. De hecho, en "El Contrato Social", Jean---Jacques Rousseau no tuvo ningún problema en afirmar que "El Príncipe" era "el libro de los republicanos". Así que desde Suiza nos llegan reportes conflictivos sobre el modo de valorar a Maquiavelo. Uno pertenece a Rousseau. El otro, a Milei.
+En efecto, Nicolás Maquiavelo murió. Lleva cinco siglos en esa condición. Pero su pensamiento y sus ideas mantienen una vigencia sobrecogedora. Y el Presidente acierta al identificarlo como un enemigo de su proyecto político. Pero no por las pueriles razones enunciadas desde Suiza. Maquiavelo era un pensador republicano, defensor de la libertad política. Ello es bastante claro en sus "Discursos sobre la Primera Década de Tito Livio". Pero hasta "El Príncipe", una obra explícitamente destinada a recomendarle a un monarca cómo mantener y ampliar su "estado", puede ser leído en clave republicana. De hecho, en "El Contrato Social", Jean---Jacques Rousseau no tuvo ningún problema en afirmar que "El Príncipe" era "el libro de los republicanos". Así que desde Suiza nos llegan reportes conflictivos sobre el modo de valorar a Maquiavelo. Uno pertenece a Rousseau. El otro, a Milei.
 
 # II
 
@@ -61,7 +61,3 @@ En fin, la corrupción consiste en el deterioro de las condiciones que hacen a l
 Volvamos a Davos. Hoy se nos quiere convencer de que la libertad es, meramente, la ausencia de restricciones externas. La libertad, se nos dice, consiste en que un individuo pueda "hacer cosas" sin que nadie más, ni otro individuo ni ---horror de los horrores--- ninguna autoridad política, le pueda decir qué debe o no hacer. También se celebra, en el sentido de que se ve como indicio del éxito de nuestras sociedades, que la desigualdad económica sea cada vez mayor y que un reducido grupo de multimillonarios globales, también cada vez menor, subordine a gobiernos, usuarios y empleados a su voluntad. En definitiva, si el mercado es la institución de la libertad, pues allí los intercambios se dan en base a acuerdos de voluntad en los que ninguno le dice al otro "lo que tiene que hacer", entonces que cada uno de nosotros participe en transacciones con las empresas controladas por esos multimillonarios y nos entreguemos a sus "términos y condiciones", fijados unilateralmente, no debería alarmarnos en absoluto. Nunca habríamos sido más libres.
 
 Sin embargo, recuperando el pensamiento de Maquiavelo, podemos parafrasear la conocida expresión de Rousseau: cada vez que clickeamos la aceptación de los "términos y condiciones", pensamos que estamos ejerciendo nuestra libertad, pero, en verdad, nos estamos encadenando. Estamos frente a la construcción de un mundo social en el que la probabilidad de no estar sujetos a la voluntad arbitraria de estos magnates globales y de los gobiernos autoritarios con los que tienen relaciones incestuosas es cada vez menor. Y con ello, no solo se suprimen las condiciones para la libertad política, que es algo que se da respecto de un conjunto ---el *populus*---, sino también las necesarias para que podamos vivir como individuos una vida que valga la pena. Y esa es la verdadera razón por la cual, como dije al inicio, el Presidente acertó al señalar a Maquiavelo como su enemigo. No porque el florentino fuera "maquiavélico" en el sentido vulgar. Sino porque fue, es y seguirá siendo uno de los principales defensores de la libertad. Por eso, muerto Maquiavelo, ¡viva Maquiavelo! *On ne tue point les idées*.
-
-
-
-
