@@ -1,7 +1,7 @@
 ---
 title: On ne tue point les idées
 slug: maquiavelo-y-davos
-date: 2026-01-23
+date: 2026-01-24
 description: Sobre Maquiavelo y la libertad política
 categories:
   - debates
@@ -11,11 +11,13 @@ thumbnail:
   - src: /img/maquiavelo.jpg
 highlight: false
 highlight2: false
-callouts: null
+callouts: 
+  - "Nicolás Maquiavelo murió. Lleva cinco siglos en esa condición. Pero su pensamiento y sus ideas mantienen una vigencia sobrecogedora."
 tags:
   - installation
 exclude_thumbnail_from_body: true
 ---
+
 # I
 
 Según Sarmiento cuenta en el comienzo de "Facundo", al partir al exilio en 1840, decidió escribir en los bañados del Zonda la siguiente frase con un trozo de carbón: "*On ne tue point les idées*". La traducción aproximada es que las ideas no pueden ser degolladas. La tradición oral argentina la convirtió en: "¡Bárbaros! Las ideas no se matan". Cuando escuché el anuncio presidencial sobre la muerte de Nicolás Maquiavelo, pronunciado desde el Foro de Davos, mi mente lo asoció automáticamente a la frase de Sarmiento.
