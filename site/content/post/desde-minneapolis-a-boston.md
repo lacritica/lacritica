@@ -1,7 +1,7 @@
 ---
 title: "Desde Minneapolis a Boston: Reflexiones sobre el año en que el país se desmoronó"
 slug: desde-minneapolis-a-boston
-date: 2026-01-24
+date: 2026-01-25
 description: Una profesora de Harvard comparte su perspectiva sobre la creciente represión de las protestas y los abusos contra inmigrantes de parte de fuerzas federales en Estados Unidos. 
 categories:
   - debates
