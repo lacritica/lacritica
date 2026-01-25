@@ -184,14 +184,15 @@
           {{- $.Scratch.Add "thumbHTML" "<figcaption>" -}}
 
             {{- if $thumb.epigraph }}
-              {{- $epi := $thumb.epigraph | markdownify }}
-              {{- $.Scratch.Add "thumbHTML" (printf "<span class='epigraph'>%s</span>" $epi) -}}
-            {{- end }}
+            {{- $epi := $thumb.epigraph | markdownify | safeHTML }}
+            {{- $.Scratch.Add "thumbHTML" (printf "<span class='epigraph'>%s</span>" $epi) -}}
+          {{- end }}
 
-            {{- if $thumb.copyright }}
-              {{- $copy := $thumb.copyright | markdownify }}
-              {{- $.Scratch.Add "thumbHTML" (printf "<span class='copyright'>%s</span>" $copy) -}}
-            {{- end }}
+          {{- if $thumb.copyright }}
+            {{- $copy := $thumb.copyright | markdownify | safeHTML }}
+            {{- $.Scratch.Add "thumbHTML" (printf "<span class='copyright'>%s</span>" $copy) -}}
+          {{- end }}
+
 
           {{- $.Scratch.Add "thumbHTML" "</figcaption>" -}}
         {{- end }}

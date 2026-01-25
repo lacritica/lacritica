@@ -1,6 +1,6 @@
 ---
 title: Un país más corrupto de lo que debiera ser
-date: 2026-01-23
+date: 2026-01-24T00:00:00Z
 description: De acuerdo a mediciones usuales, Argentina es un país con problemas de corrupción mucho más graves que los de sus vecinos y los de otros países comparables. 
 categories:
   - debates
@@ -9,7 +9,7 @@ author:
 thumbnail:
   - src: "/img/gargarella_IMG_9640.JPG"
 exclude_thumbnail_from_body: true
-highlight: true
+highlight: false
 highlight2: false
 callouts:
   - "El precio que pagamos por este baldón supera varias veces el dinero que se escurre en sobornos..."

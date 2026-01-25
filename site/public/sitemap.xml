@@ -2,40 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-01-25T12:01:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-25T12:01:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/benjamin/</loc>
+    <lastmod>2026-01-25T12:01:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/desde-minneapolis-a-boston/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/installation/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/maquiavelo-y-davos/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
+    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/placeres-2/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bocanadas/helados/</loc>
-    <lastmod>2026-01-21T13:03:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-01-21T13:03:44+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/catastrofe/</loc>
@@ -214,6 +220,8 @@
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/alberto-binder/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/alicia-ely-yamin/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/ana-correa/</loc>
   </url><url>
