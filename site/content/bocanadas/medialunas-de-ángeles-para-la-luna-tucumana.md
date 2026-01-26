@@ -1,6 +1,6 @@
 ---
 title: Medialunas de Ángeles para la Luna Tucumana
-date: 2026-01-26T14:46:47.712Z
+date: 2026-01-23T14:46:47.712Z
 slug: tafi
 author:
   - Gustavo Maurino
