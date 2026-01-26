@@ -9,7 +9,7 @@ thumbnail:
 ---
 Todo el mundo sabe que Tafí del Valle es un paraíso. Casi escondido en un valle a 2.000 metros de altura, fresco y verde espera el ascenso de los viajeros desde los campos de Acheral. Espera a quienes huyen del abrazo implacable de un calor que pone de rodillas a llanura. 
 
-En la noche, cuando ”le nacen violines a los álamos del valle”, reina una luna única y diferente, la que le regaló el coplero pronto a exiliarse. Es la luna tucumana, que resurge cada veintiocho desvelos, eterna como la rosa de Paracelso. Solo el Tucumán tiene el linaje de una luna propia, la que ya jamás será ninguna otra, nacida del verbo chúcaro de Atahualpa.
+En la noche, cuando ["le nacen violines a los álamos del valle"](https://youtu.be/Go173bBWArc?si=A7IyQOYENIKMA84v), reina una luna única y diferente, la que le regaló el coplero pronto a exiliarse. Es la luna tucumana, que resurge cada veintiocho desvelos, eterna como la rosa de Paracelso. Solo el Tucumán tiene el linaje de una luna propia, la que ya jamás será ninguna otra, nacida del verbo chúcaro de Atahualpa.
 
 Pero lo que casi nadie sabe, es que allí, en las transitadas tierras tafinistas, a la vereda de parsimoniosos adoquines, la Panadería de Ángeles prestidigita unas medialunas míticas, inolvidables.
 
