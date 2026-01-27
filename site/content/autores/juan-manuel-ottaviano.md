@@ -2,7 +2,7 @@
 title: Juan Manuel Ottaviano
 slug: juan-manuel-ottaviano
 thumbnail: /img/ottaviano.jpg
-bio: Abogado laboralista, asesor sindical e investigadora del CETYD.
+bio: Abogado laboralista, asesor sindical e investigador del CETYD.
 bluesky_handle: null
 orcid: null
 sitio_personal: null
