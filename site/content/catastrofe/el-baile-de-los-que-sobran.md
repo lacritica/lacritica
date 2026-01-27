@@ -1,8 +1,7 @@
 ---
 title: "El baile de los que sobran"
 slug: el-baile-de-los-que-sobran
-date: 2026-01-21
-draft: true
+date: 2026-01-27
 weight: 40
 description: 
 categories:

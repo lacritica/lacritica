@@ -2,38 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-01-25T12:01:26+00:00</lastmod>
+    <loc>http://localhost:1313/catastrofe/reforma-laboral-en-argentina-y-tiempo-de-vida/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/golpe-a-la-institucionalidad-democr%C3%A1tica-del-trabajo-y-las-relaciones-sociales/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/trabajo-autonom%C3%ADa-personal-constituci%C3%B3n-y-democracia/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/el-fin-de-los-derechos-laborales-c%C3%B3mo-los-conoc%C3%ADamos/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/el-baile-de-los-que-sobran/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-01-25T12:01:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/benjamin/</loc>
     <lastmod>2026-01-25T12:01:26+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/desde-minneapolis-a-boston/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/installation/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/maquiavelo-y-davos/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-01-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/tafi/</loc>
+    <lastmod>2026-01-23T14:46:47+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
@@ -43,9 +64,6 @@
   </url><url>
     <loc>http://localhost:1313/bocanadas/helados/</loc>
     <lastmod>2026-01-21T13:03:44+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catastrofe/</loc>
-    <lastmod>2026-01-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/atropellar-el-sexo/</loc>
     <lastmod>2026-01-20T00:00:00+00:00</lastmod>
@@ -245,9 +263,13 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/justina-uriburu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/lilia-alonso/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
   </url><url>
@@ -259,9 +281,13 @@
   </url><url>
     <loc>http://localhost:1313/autores/martin-farrell/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/matias-maito/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/nahuel-maisley/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/natalia-saralegui/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/nicolas-tauber-sanz/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/owen-fiss/</loc>
   </url><url>

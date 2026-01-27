@@ -1,8 +1,7 @@
 ---
 title: "Golpe a la institucionalidad democrática del trabajo y las relaciones sociales"
 slug: golpe-a-la-institucionalidad-democrática-del-trabajo-y-las-relaciones-sociales
-date: 2026-01-21
-draft: true
+date: 2026-01-27
 weight: 20
 description: 
 categories:
@@ -37,6 +36,8 @@ La negociación colectiva de actividad constituye uno de los pilares del modelo 
 
 En ese esquema, la negociación por actividad opera como piso, especialmente en materia salarial: establece umbrales comunes que reducen desigualdades, ordenan expectativas y evitan la competencia a la baja entre trabajadores de una misma rama. La reforma propuesta altera ese funcionamiento al desarticular la negociación colectiva de actividad como base del sistema, habilitando que los convenios de empresa puedan fijar condiciones inferiores. Ese desplazamiento no supone mayor pluralismo, sino la ruptura de un principio estructural de igualación y de articulación normativa que fue central para el desarrollo del modelo desde 2004.
 
+{{< callout 0 >}}
+
 La posibilidad de que la negociación de empresa opere por debajo de los convenios de actividad se encuentra estrechamente vinculada con la promoción de sindicatos de empresa. Tal como muestran los análisis relevados, esta orientación tiende a fragmentar el sujeto colectivo y a debilitar la lógica de representación por rama que caracteriza al modelo de unicidad promocionada.
 
 Lejos de permitir un tratamiento del cambio tecnológico, significar incrementos en la productividad o permitir arreglos institucionales de base territorial, la fragmentación inducida facilita una negociación descentralizada en contextos de fuerte asimetría de poder, erosionando el piso común de condiciones y debilitando la capacidad de acción colectiva. En ese sentido, la promoción de sindicatos de empresa no aparece como un fin en sí mismo, sino como un instrumento funcional a la desarticulación de la negociación colectiva de actividad y a la competencia regresiva entre trabajadores.
@@ -48,6 +49,8 @@ Este desplazamiento resulta central para evaluar la tesis oficial según la cual
 El último eslabón de este proceso se manifiesta en la inversión del sentido histórico de la justicia y de la seguridad social. Un retraimiento al estado previo a los debates por la flexibilidad o rigidez de los sistemas de seguridad laboral y social. La introducción de mecanismos que permiten financiar o subsidiar los despidos mediante fondos vinculados al sistema de seguridad social desplaza la responsabilidad económica del empleador hacia el conjunto de la sociedad.
 
 El despido dejaría de ser un acto con consecuencias a cargo de quien decide la ruptura del vínculo laboral y pasaría a ser un riesgo socializado. Con ello, el derecho y la seguridad social se aleja de su función constitucional de protección frente a contingencias y se transforma en un instrumento para absorber costos empresariales. Esta inversión no sólo debilita el sistema previsional, sino que culmina la desarticulación de los mecanismos democráticos de gestión del conflicto entre capital y trabajo, planteada por esta reforma.
+
+{{< callout 2 >}}
 
 Considerados en conjunto, estos ejes muestran que la reforma laboral propuesta, de ningún rasgo modernizante, no se limita a modificar institutos aislados, sino que apunta a desarmar un entramado institucional construido en democracia para equilibrar intereses, procesar conflictos y garantizar derechos. La huelga, la negociación colectiva de actividad, el modelo sindical, la presunción de laboralidad y la seguridad social forman parte de un mismo sistema orientado a la vigencia efectiva del constitucionalismo social.
 

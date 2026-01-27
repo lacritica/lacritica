@@ -1,8 +1,7 @@
 ---
 title: "Reforma laboral en Argentina y tiempo de vida"
 slug: reforma-laboral-en-argentina-y-tiempo-de-vida
-date: 2026-01-21
-draft: true
+date: 2026-01-27
 weight: 10
 description: 
 categories:
@@ -10,7 +9,7 @@ categories:
 author:
   - Rubén Lo Vuolo
 thumbnail:
-  - src: /img/manifestacion_1
+  - src: /img/manifestacion_1.webp
     copyright: Antonio Berni
     epigraph: Manifestación (1932)
 highlight: false
@@ -30,6 +29,8 @@ Esta asimetría es evidente y reconocida ampliamente. Quienes demandan trabajo m
 
 Esta asimetría es clave para entender los probables efectos de este proyecto si se transforma en ley. Bajo la falsa imagen de mayor "libertad", se permiten "acordar" el ritmo de la jornada laboral diaria, habilitando una suerte de "banco de horas" que, teniendo como referencia una cantidad anual y descansos entre jornadas, permitiría extender el horario diario sin pagar horas extras y establecer la distribución de las vacaciones. Dada la asimetría de poder entre las partes contratantes, esto permitirá disponer del tiempo de trabajo de la fuerza laboral conforme a los intereses de los empleadores (y muy probablemente reducirá las remuneraciones totales sin incorporar nuevos trabajadores). Asimismo, aumentará el esfuerzo de los empleados y las dificultades para conciliar su tiempo de trabajo en el empleo con su tiempo de vida en otros ámbitos como el doméstico y el comunitario. En este escenario, tanto las personas empleadas como las desempleadas compartirán ciertas características: exhaustas, ansiosas, estresadas, frustradas y con una vida inestable.
 
+{{< callout 0 >}}
+
 En el mismo sentido, la derogación de la ley de Teletrabajo generaría un vacío sobre aspectos no regulados por la actual normativa, reduciendo costos sin compensaciones y sin protecciones para el trabajo. Así, se ratificaría el carácter no laboral del llamado trabajo de plataforma y la relación laboral se enmascararía con la supuesta obligación de cubrir a los empleados con un seguro de accidente: la responsabilidad de la provisión de este seguro, y los gastos asociados al mismo, han de ser objeto de "libre acuerdo" entre las partes involucradas. Traducción: al no establecer una responsabilidad exclusiva para ninguna de ellas, no lo va a pagar ni tendrá responsabilidad quien contrata el trabajo.
 
 Por si fuera poco, se crearía el llamado Fondo de Asistencia Laboral, cuyo acrónimo (FAL) es todo un símbolo de su contenido. El FAL se integraría con una contribución mensual del empleador de 3% sobre el monto total de las remuneraciones: pero, como al mismo tiempo se reduce por un porcentaje similar la alícuota del pago de las contribuciones destinadas a la seguridad social, habría costo para quienes despidan personal. Por si fuera poco, los empleadores verán también reducidas las contribuciones patronales a las Obras Sociales, que pasan de 6% a 5%.
@@ -37,6 +38,8 @@ Por si fuera poco, se crearía el llamado Fondo de Asistencia Laboral, cuyo acr�
 De este modo, con esta arma, el Estado subsidiaría plenamente los despidos sin causa y se desfinanciaría a la seguridad social que ya viene sufriendo fuertes recortes de recurso. Argentina se transformaría así en país sin restricciones ni costos para despedir empleados, mientras sigue promoviendo la decadencia del sistema público de previsión social y de salud.
 
 Lo anterior se refuerza con otras medidas para debilitar aún más a la fuerza laboral. Por ejemplo, se incluye como causales de despido justificado (es decir, que no se paga indemnización) a quienes participen en bloqueos o tomas de establecimiento. También se debilitan los acuerdos colectivos dado que los de menor nivel (región, empresa) prevalecerán sobre los de mayor nivel (rama, región). Esto se refuerza con la promoción de sindicatos a nivel de firma y la declaración de no obligatorio del descuento en los salarios de las cuotas de afiliados a sindicatos. Asimismo, se mantiene el aumento del período de prueba de tres a seis meses, eliminándose el preaviso para aquellos en esta situación.
+
+{{< callout 1 >}}
 
 Por si fuera poco, se insiste con limitar el derecho de huelga. Entre otras cosas, se deberá garantizar la cobertura del 75% de las prestaciones en los servicios considerados como "esenciales", para lo cual se agrega una larga lista de actividades. Así, a los servicios de telecomunicaciones, aeronáutica comercial, cuidado de menores y servicios educativos, el servicio de recolección de residuos, se suman actividades como producción de medicamentos, el resto del transporte, toda la industria alimenticia y su cadena de valor, los servicios bancarios, financieros, hoteleros, otras actividades afectados a compromisos de exportación.
 

@@ -1,8 +1,7 @@
 ---
 title: "Trabajo, autonomía personal, Constitución y democracia"
 slug: trabajo-autonomía-personal-constitución-y-democracia
-date: 2026-01-21
-draft: true
+date: 2026-01-27
 weight: 30
 description: Breves consideraciones sobre el proyecto de "reforma laboral". 
 categories:
