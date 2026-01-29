@@ -20,6 +20,18 @@
     <loc>http://localhost:1313/catastrofe/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-01-29T14:46:47+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/tafi/</loc>
+    <lastmod>2026-01-29T14:46:47+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-27T18:24:20+00:00</lastmod>
   </url><url>
@@ -28,12 +40,6 @@
   </url><url>
     <loc>http://localhost:1313/catastrofe/</loc>
     <lastmod>2026-01-27T18:24:20+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-27T18:24:20+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-01-25T12:01:26+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/benjamin/</loc>
     <lastmod>2026-01-25T12:01:26+00:00</lastmod>
@@ -44,9 +50,6 @@
     <loc>http://localhost:1313/tags/installation/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-01-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -55,9 +58,6 @@
   </url><url>
     <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/tafi/</loc>
-    <lastmod>2026-01-23T14:46:47+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
