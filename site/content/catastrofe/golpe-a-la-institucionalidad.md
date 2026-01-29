@@ -3,7 +3,7 @@ title: "Golpe a la institucionalidad democrática del trabajo y las relaciones s
 slug: golpe-a-la-institucionalidad-democrática-del-trabajo-y-las-relaciones-sociales
 date: 2026-01-27
 weight: 20
-description: 
+description: La reforma laboral apunta a desarmar un entramado institucional construido en democracia para equilibrar intereses, procesar conflictos y garantizar derechos.
 categories:
   - debates
 author:

@@ -3,7 +3,7 @@ title: "Reforma laboral en Argentina y tiempo de vida"
 slug: reforma-laboral-en-argentina-y-tiempo-de-vida
 date: 2026-01-27
 weight: 10
-description: 
+description: El proyecto de ley de reforma laboral en Argentina va en sentido contrario a estas tendencias modernizadoras, refuerza la dominación y las medidas punitivas en favor del capital menos productivo.
 categories:
   - debates
 author:

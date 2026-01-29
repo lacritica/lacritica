@@ -1,7 +1,7 @@
 ---
 title: El proyecto de reforma laboral y su impacto en mujeres y disidencias
 date: 2026-01-27T18:24:20.057Z
-description:
+description: Hay alguien todavía más oprimido que el obrero. Y es la mujer del obrero.
 weight: 34
 categories:
   - debates
