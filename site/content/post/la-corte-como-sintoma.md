@@ -1,21 +1,20 @@
 ---
-title: "La Corte como síntoma: entre la expansión de la jurisdicción y el vaciamiento de la política"
+title: "La Corte como síntoma"
 slug: la-corte-como-sintoma
-draft: true
 date: 2026-01-30
-description: 
+description: Entre la expansión de la jurisdicción y el vaciamiento de la política. 
 categories:
   - debates
 author:
   - Miguel Gualano de Godoy
 thumbnail:
-  - src: /img/dgut.webp
-    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/) para el New York Times
-    copyright: D. Guttenfelder
-highlight: true
+  - src: /img/brasilia2018.jpg
+    epigraph: Brasilia, victoria de Bolsonaro (2018)
+    copyright: RAU
+highlight: false
 highlight2: false
 callouts: 
-exclude_thumbnail_from_body: true
+exclude_thumbnail_from_body: false
 ---
 
 # Una lectura estructural del Supremo Tribunal Federal (STF) de Brasil
