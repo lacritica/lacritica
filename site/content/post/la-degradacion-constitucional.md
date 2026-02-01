@@ -1,21 +1,23 @@
 ---
-title: "La degradación constitucional de Estados Unidos"
-slug: la-degradacion-constitucional
 draft: true
+title: La degradación constitucional de Estados Unidos
+slug: la-degradacion-constitucional
 date: 2026-01-30
-description: 
+description: Estados Unidos no enfrenta una simple tensión institucional, sino
+  el colapso progresivo de su orden constitucional.
 categories:
   - debates
 author:
-  - Irwin Strotzky 
+  - Irwin Stotzky
 thumbnail:
   - src: /img/dgut.webp
-    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/) para el New York Times
+    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/)
+      para el New York Times
     copyright: D. Guttenfelder
 highlight: true
 highlight2: false
-callouts: 
 exclude_thumbnail_from_body: true
+callouts: null
 ---
 Lo que está ocurriendo hoy en Estados Unidos no es una crisis constitucional. Es la desintegración abierta del gobierno constitucional. Las instituciones que se suponía que debían restringir el poder, proteger los derechos y prevenir los abusos no solo están fallando, sino que se están derrumbando a la vista de todos y, en algunos casos, allanando activamente el camino para el dominio ejecutivo. Los asesinatos de dos civiles desarmados por parte de agentes del ICE no son aberraciones. Son la prueba más clara posible de que el monopolio de la fuerza por parte del gobierno federal se ha escapado del alcance de la ley, la supervisión o el control democrático.
 
