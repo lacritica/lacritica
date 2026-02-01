@@ -1,0 +1,15 @@
+---
+title: Irwin Stotzky
+slug: irwin-stotzky
+thumbnail: /img/stotzky.png
+bio: Profesor de Derecho en la Universidad de Miami, fundador del Center for the
+  Study of Human Rights y experto en derecho constitucional, derechos humanos e
+  inmigración. Ha litigado casos ante la Corte Suprema de EE. UU., asesorado a
+  gobiernos democráticos en Argentina y Haití, y es autor de influyentes obras
+  sobre democracia, justicia y derechos humanos.
+---
+Irwin P. Stotzky es Profesor de Derecho en la Facultad de Derecho de la Universidad de Miami y fundador del *University of Miami Center for the Study of Human Right*s, que dirigió entre 1993 y 2010. Es especialista en derecho constitucional, derechos humanos e inmigración, y durante más de cuatro décadas ha representado a refugiados, en particular haitianos, en casos de alto impacto ante tribunales federales y la Corte Suprema de los Estados Unidos.
+
+Es autor de los libros *The Theory and Craft of American Law: Elements* (con  Soia Mentschikoff) (1981), *Transition to Democracy in Latin America: The Role of the Judiciary* (1993), *Silencing the guns in Haiti: The Promise of Deliberative Democracy* (1997), *Law as Justice: The Moral Imperative of Owen Fiss’s Scholarship* (2009),  *Send Them Back* (2019) y *Jean v. Nelson: A Civil Rights Revolution in Immigration* (2021). 
+
+Fue Fulbright Scholar en Argentina y asesor de gobiernos democráticos en Argentina y Haití en procesos de justicia transicional e investigación de graves violaciones de derechos humanos. Es autor de numerosos libros y artículos sobre democracia, derechos humanos y el papel del poder judicial, y ha recibido reconocimientos internacionales por su labor académica y su compromiso con la defensa de los derechos humanos.
