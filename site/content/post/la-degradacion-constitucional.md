@@ -10,9 +10,8 @@ categories:
 author:
   - Irwin Stotzky
 thumbnail:
-  - src: /img/dgut.webp
-    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/)
-      para el New York Times
+  - src: /img/donotenter.png
+    epigraph: ""
     copyright: D. Guttenfelder
 highlight: true
 highlight2: false
@@ -28,7 +27,7 @@ El ICE es el grupo que mató a los dos civiles inocentes en Minnesota.
 
 El Tribunal Supremo ha ido aún más lejos. En un momento en que el país necesita desesperadamente un poder judicial dispuesto a articular límites, defender derechos y frenar los abusos de poder, la mayoría conservadora del Tribunal ha adoptado doctrinas que concentran el poder en la presidencia y vacían de contenido cualquier otro control. Su jurisprudencia sobre la «teoría del ejecutivo unitario» ha desmantelado las restricciones internas al poder ejecutivo, ha debilitado la supervisión independiente y ha ampliado el control presidencial sobre el Estado administrativo.
 
-Y luego llegó la decisión sobre la inmunidad.
+Y luego llegó [la decisión sobre la inmunidad.](https://en.wikipedia.org/wiki/Trump_v._United_States)
 
 En ese fallo, el Tribunal sostuvo que un presidente goza de una inmunidad total frente al enjuiciamiento penal por acciones consideradas «oficiales». La decisión sitúa efectivamente amplias categorías de conducta presidencial fuera del alcance del derecho penal. Crea una presidencia que puede ordenar, dirigir o autorizar acciones que llevarían a cualquier otro ciudadano a la cárcel, y hacerlo sin temor a ser procesado. Académicos, comentaristas políticos y amplios sectores de la ciudadanía de todo el espectro ideológico han advertido que esta sentencia otorga al presidente algo parecido a la invulnerabilidad legal mientras ocupa el cargo e, incluso, potencialmente después de dejarlo.
 
