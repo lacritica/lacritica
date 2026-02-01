@@ -1,9 +1,9 @@
 ---
-title: "El fin de los derechos laborales cómo los conocíamos"
-slug: el-fin-de-los-derechos-laborales-cómo-los-conocíamos
+title: El fin de los derechos laborales como los conocíamos
+slug: el-fin-de-los-derechos-laborales-como-los-conociamos
 date: 2026-01-27
-weight: 35
-description: Una revisión de los fines, medios y justificaciones de un proyecto que viene a cambiarlo todo para el mundo del trabajo.
+description: Una revisión de los fines, medios y justificaciones de un proyecto
+  que viene a cambiarlo todo para el mundo del trabajo.
 categories:
   - debates
 author:
@@ -13,9 +13,12 @@ thumbnail:
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
-featured_callout: 0
 callouts:
-  - "En algún punto, pareciera que la reforma conduce directamente a desactivar cualquier vestigio de operatividad que pudiera quedarle al malogrado Art. 14 bis."
+  - En algún punto, pareciera que la reforma conduce directamente a desactivar
+    cualquier vestigio de operatividad que pudiera quedarle al malogrado Art. 14
+    bis.
+weight: 35
+featured_callout: 0
 ---
 
 Un cambio radical está en ciernes. Si se aprueba e implementa la reforma laboral propuesta al Congreso argentino, ya nada será como antes en el campo del trabajo. 
