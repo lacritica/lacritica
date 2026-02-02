@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ediciones on La Crítica</title>
-    <link>https://www.lacritica.ar/ediciones/</link>
+    <link>http://localhost:1313/ediciones/</link>
     <description>Recent content in Ediciones on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.lacritica.ar/ediciones/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ediciones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diciembre 2025</title>
-      <link>https://www.lacritica.ar/ediciones/2025-12/</link>
+      <link>http://localhost:1313/ediciones/2025-12/</link>
       <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2025-12/</guid>
+      <guid>http://localhost:1313/ediciones/2025-12/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
   </channel>

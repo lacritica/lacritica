@@ -1,7 +1,7 @@
 
 {
   "title": "Search",
-  "url": "https://www.lacritica.ar/search/",
+  "url": "http://localhost:1313/search/",
   "categories": null,
   "author": null,
   "content": ""
