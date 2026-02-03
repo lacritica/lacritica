@@ -5,34 +5,16 @@
     <loc>http://localhost:1313/post/reforma-laboral-en-argentina-y-tiempo-de-vida/</loc>
     <lastmod>2026-01-27T00:00:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/catastrofe/reforma-laboral-en-argentina-y-tiempo-de-vida/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catastrofe/golpe-a-la-institucionalidad-democr%C3%A1tica-del-trabajo-y-las-relaciones-sociales/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/golpe-a-la-institucionalidad-democr%C3%A1tica-del-trabajo-y-las-relaciones-sociales/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catastrofe/trabajo-autonom%C3%ADa-personal-constituci%C3%B3n-y-democracia/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/trabajo-autonom%C3%ADa-personal-constituci%C3%B3n-y-democracia/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/catastrofe/el-proyecto-de-reforma-laboral-y-su-impacto-en-mujeres-y-disidencias/</loc>
-    <lastmod>2026-01-27T18:24:20+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/el-proyecto-de-reforma-laboral-y-su-impacto-en-mujeres-y-disidencias/</loc>
     <lastmod>2026-01-27T18:24:20+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-fin-de-los-derechos-laborales-como-los-conociamos/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catastrofe/el-fin-de-los-derechos-laborales-c%C3%B3mo-los-conoc%C3%ADamos/</loc>
-    <lastmod>2026-01-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/catastrofe/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
@@ -89,7 +71,7 @@
     <loc>http://localhost:1313/bocanadas/tafi/</loc>
     <lastmod>2026-01-29T14:46:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/catastrofe/</loc>
+    <loc>http://localhost:1313/categories/especial-reforma-laboral/</loc>
     <lastmod>2026-01-27T18:24:20+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/benjamin/</loc>
@@ -301,6 +283,8 @@
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/cynthia-benzon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/catastrofe/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
