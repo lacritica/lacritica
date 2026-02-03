@@ -4,6 +4,7 @@ date: 2026-01-27T18:24:20.057Z
 description: Hay alguien todavía más oprimido que el obrero. Y es la mujer del obrero.
 weight: 34
 categories:
+  - especial reforma laboral
   - debates
 thumbnail:
   - src: /img/manifestacion_4.webp

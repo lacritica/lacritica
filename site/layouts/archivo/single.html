@@ -19,14 +19,21 @@
 
 
 <section class="previous-issues">
-  <h2></h2>
+  
   <ul>
     {{ range $previous }}
-      <li>
-        <a href="{{ .RelPermalink }}">
+        <h2>Ediciones anteriores</h2>
+        <a href="{{ .RelPermalink }}" class="previous-issue-link">
+        
+          {{ with .Params.thumbnail }}
+            {{ $thumb := index . 0 }}
+            {{ with $thumb.src }}
+              <img src="{{ . }}" alt="{{ $.Title }}" class="previous-issue-thumb">
+            {{ end }}
+          {{ end }}
           {{ .Title }} — {{ .Params.number }}
         </a>
-      </li>
+      
     {{ end }}
   </ul>
 </section>

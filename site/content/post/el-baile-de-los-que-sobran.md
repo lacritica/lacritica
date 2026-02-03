@@ -5,6 +5,7 @@ date: 2026-01-27
 weight: 40
 description: El fracaso del derecho laboral en dejar afuera al 40 por ciento de los trabajadores no debería ser ignorado desde una perspectiva crítica del derecho.
 categories:
+  - especial reforma laboral
   - debates
 author:
   - Ramiro Álvarez Ugarte

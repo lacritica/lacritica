@@ -5,6 +5,7 @@ date: 2026-01-27
 description: Una revisión de los fines, medios y justificaciones de un proyecto
   que viene a cambiarlo todo para el mundo del trabajo.
 categories:
+  - especial reforma laboral
   - debates
 author:
   - Gustavo Maurino

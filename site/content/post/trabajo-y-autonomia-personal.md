@@ -5,6 +5,7 @@ date: 2026-01-27
 weight: 30
 description: Breves consideraciones sobre el proyecto de "reforma laboral". 
 categories:
+  - especial reforma laboral
   - debates
 author:
   - Nicolás Tauber Sanz

@@ -2582,6 +2582,52 @@ body {
   color: inherit;
 }
 
+.previous-issue-link,
+.previous-issue-link:visited,
+.previous-issue-link:hover,
+.previous-issue-link:focus,
+.previous-issue-link:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.previous-issue-link:hover,
+.previous-issue-link:focus {
+  opacity: 0.9;
+}
+
+.previous-issues ul {
+  margin: 0;
+  padding: 2rem;
+  list-style: none;
+}
+
+.previous-issues li {
+  margin: 0;
+  padding: 0;
+}
+
+.previous-issue-link {
+  font-family: 'Jost';
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 2rem;
+  background-color: var(--neutral-pale-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.previous-issue-thumb {
+  display: block;
+  height: auto;
+  max-width: 260px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
 
 /* footer */
 
@@ -2848,6 +2894,8 @@ body {
 }
 
 .menu, .article-meta, footer, .post-nav { text-align: center; }
+
+
 
 /* Outer <pre> block */
 pre {

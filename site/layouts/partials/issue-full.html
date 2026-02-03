@@ -1,5 +1,6 @@
 {{ $month := .Params.month }}
-{{ $order := slice "debates" "ensayos" "entrevistas" "reseñas" }}
+{{ $order := slice "especial reforma laboral" "debates" "ensayos" "entrevistas" "reseñas"}}
+{{ $seen := slice }}
 
 <div class="monthly-layout">
 
@@ -35,8 +36,10 @@
           $d
           (eq ($d.Format "2006-01") $month)
           (in .Params.categories $cat)
+          (not (in $seen .RelPermalink))
         }}
           {{ $posts = $posts | append . }}
+          {{ $seen = $seen | append .RelPermalink }}
         {{ end }}
       {{ end }}
 

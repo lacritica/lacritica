@@ -5,6 +5,7 @@ date: 2026-01-27
 weight: 20
 description: La reforma laboral apunta a desarmar un entramado institucional construido en democracia para equilibrar intereses, procesar conflictos y garantizar derechos.
 categories:
+  - especial reforma laboral
   - debates
 author:
   - Matías Maito

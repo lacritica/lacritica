@@ -5,6 +5,7 @@ date: 2026-01-27T00:00:01Z
 weight: 10
 description: El proyecto de ley de reforma laboral en Argentina va en sentido contrario a estas tendencias modernizadoras. 
 categories:
+  - especial reforma laboral
   - debates
 author:
   - Rubén Lo Vuolo
