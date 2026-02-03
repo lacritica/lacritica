@@ -38,14 +38,26 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/events/</loc>
-    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-02-02T23:51:01+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-02T23:51:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/schmitt/</loc>
+    <lastmod>2026-02-02T23:51:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/events/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/events/rcls/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/2026-01/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
@@ -61,9 +73,6 @@
   </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-01-29T14:46:47+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/tafi/</loc>
     <lastmod>2026-01-29T14:46:47+00:00</lastmod>
@@ -162,9 +171,6 @@
     <lastmod>2025-12-31T17:24:43+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/2025-12/</loc>
-    <lastmod>2025-12-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2025-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/cuatro-libros-que-marcaron/</loc>
@@ -273,6 +279,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/ana-correa/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/antonia_fratini_lagos/</loc>
+  </url><url>
     <loc>http://localhost:1313/archivo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
@@ -326,6 +334,8 @@
     <loc>http://localhost:1313/autores/nicolas-tauber-sanz/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/owen-fiss/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/pablo_alabarces/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/pedro-caminos/</loc>
   </url><url>
