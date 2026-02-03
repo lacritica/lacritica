@@ -2,7 +2,7 @@
 draft: true
 title: Advertencias de Ford, Zinnemann y Eastwood para el nuevo mundo
 slug: advertencias-de-ford-zinnermann-y-eastwood-para-el-nuevo-mundo
-date: 2026-01-23
+date: 2026-02-03T18:05:10.723Z
 description: Notas sobre cine, fronteras, y modernidad
 categories:
   - ensayos
