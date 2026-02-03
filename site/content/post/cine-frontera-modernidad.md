@@ -1,9 +1,9 @@
 ---
-title: "Advertencias de John Ford y Clint Eastwood para el nuevo mundo"
-slug: advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo
-date: 2026-01-23
 draft: true
-description: Notas sobre cine, fronteras, y modernidad 
+title: Advertencias de John Ford y Clint Eastwood para el nuevo mundo
+slug: advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo
+date: 2026-02-03T13:55:24.777Z
+description: Notas sobre cine, fronteras, y modernidad
 categories:
   - ensayos
 author:
@@ -13,8 +13,8 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
-callouts:
-featured_callout: 
+callouts: null
+featured_callout: null
 ---
 
 Existe un conjunto de películas que narran el fin del Oeste y permiten decir algo acerca de la salida del mundo natural y comienzo de la sociedad moderna. Estos westerns son como instrumentos para surcar en el paso del tiempo, analizar la persistencia de ciertos conflictos, y la inevitable frustración de algunas promesas.
