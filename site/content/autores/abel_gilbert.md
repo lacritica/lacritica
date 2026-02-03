@@ -1,5 +1,5 @@
 ---
-title: Abel Gilberet
+title: Abel Gilbert
 twitter_handle: 
 bio: Periodista, escritor, músico y doctor en Comunicación de la Facultad de Periodismo de la Universidad Nacional de La Plata
 thumbnail: /img/abel_gilberet.jpeg

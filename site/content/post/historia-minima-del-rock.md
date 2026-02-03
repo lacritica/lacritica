@@ -7,7 +7,7 @@ description: Sobre las posibilidades de una historia del rock. Tramas y límites
 categories:
   - debates
 author:
-  - Abel Gilberet
+  - Abel Gilbert
   - Pablo Alabarces
 thumbnail:
   - src: /img/IMG_20190219_210031.jpg
