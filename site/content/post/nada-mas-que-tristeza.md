@@ -1,18 +1,16 @@
 ---
-title: "La Corte como síntoma: entre la expansión de la jurisdicción y el vaciamiento de la política"
-slug: la-corte-como-sintoma
-draft: true
-date: 2026-01-30
-description: 
+title: "Nada, nada más que tristeza… ¿y quietud? "
+slug: nada-mas-que-tristeza-y-quietud
+draft: false
+date: 2026-02-03
+description: El derretimiento de los glaciares y las posibilidades del derecho y la ley.
 categories:
-  - debates
+  - ensayos
 author:
-  - Miguel Gualano de Godoy
+  - María Valeria Berros
 thumbnail:
-  - src: /img/dgut.webp
-    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/) para el New York Times
-    copyright: D. Guttenfelder
-highlight: true
+  - src: /img/puga_2-4-18 (3).jpeg
+highlight: false
 highlight2: false
 callouts: 
 exclude_thumbnail_from_body: true

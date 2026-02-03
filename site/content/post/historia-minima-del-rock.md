@@ -1,19 +1,19 @@
 ---
 title: "Historia Mínima del rock en América Latina"
 slug: historia-minima-del-rock
-draft: true
-date: 2026-01-30
-description: 
+draft: false
+date: 2026-02-03
+description: Sobre las posibilidades de una historia del rock. Tramas y límites.
 categories:
   - debates
 author:
   - Abel Gilberet
   - Pablo Alabarces
 thumbnail:
-  - src: /img/dgut.webp
-    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/) para el New York Times
-    copyright: D. Guttenfelder
-highlight: true
+  - src: /img/IMG_20190219_210031.jpg
+    epigraph: Buenos Aires, 2019
+    copyright: RAU
+highlight: false
 highlight2: false
 callouts: 
 exclude_thumbnail_from_body: true

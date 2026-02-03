@@ -10,7 +10,7 @@ author:
   - Gustavo Maurino
 thumbnail:
   - src: /img/munsch.jpg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 callouts:
