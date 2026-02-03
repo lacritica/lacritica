@@ -18,15 +18,17 @@ featured_callout: null
 ---
 Existe un conjunto de películas que narran el fin del Lejano Oeste y permiten decir algo acerca de la salida del mundo natural y comienzo de la sociedad moderna. Estos westerns son como instrumentos para surcar en el paso del tiempo, analizar la persistencia de ciertos conflictos, y la inevitable frustración de algunas promesas.
 
-**A la hora señalada (1952) y la ilusoria transparencia de la gente decente**
+***A la hora señalada* (1952) y la ilusoria transparencia de la gente decente**
 
-En A la hora señalada (1952) Gary Cooper actúa de Will Kane, un sheriff que levanta su arma por última vez cuando el criminal Frank Miller, a quien había encarcelado años atrás, regresa al pueblo con su banda en busca de venganza. Su ayudante, molesto por no ser nombrado alguacil, le ofrece ayuda a cambio del cargo. Kane rechaza, sin negociar su integridad, y él lo abandona. A medida que pide ayuda a la comunidad que él había liberado de la tiranía de los criminales, esta (temerosa, egoísta o indiferente) le da la espalda y lo deja solo. 
+En *A la hora señalada* (1952) Gary Cooper actúa de Will Kane, un sheriff que levanta su arma por última vez cuando el criminal Frank Miller, a quien había encarcelado años atrás, regresa al pueblo con su banda en busca de venganza. Su ayudante, molesto por no ser nombrado alguacil, le ofrece ayuda a cambio del cargo. Kane rechaza, sin negociar su integridad, y él lo abandona. A medida que pide ayuda a la comunidad que él había liberado de la tiranía de los criminales, esta (temerosa, egoísta o indiferente) le da la espalda y lo deja solo. 
 
 El juez, que había enviado a Miller a prisión, huye del territorio para salvarse de la venganza de los bandidos, llevándose los símbolos o disfraces de la justicia (bandera, balanza, constitución). Al mismo tiempo, varios habitantes del pueblo esperan el duelo final con un entusiasmo sádico poco disimulado. Es la ley del Lejano Oeste, en pueblos donde no pasa nada, el tiroteo siempre es bienvenido como espectáculo. 
 
 Kane se dirige a la iglesia a pedir ayuda a los creyentes (hombres y mujeres respetables). Inicialmente algunos hombres se ofrecen impulsivamente, recordando que fue Kane quien convirtió al pueblo en un lugar seguro y próspero. Pero pronto surgen voces disidentes. Ellos pagan impuestos para que se garantice el orden, y no entienden por qué los ciudadanos comunes deberían arriesgar la vida para salvar al sheriff. 
 
 El debate se extiende cruelmente mientras el tiempo se agota. Finalmente, la congregación advierte sobre el peligro económico de un tiroteo en Hadleyville, la violencia espanta inversiones y pone en riesgo el futuro común, y aconsejan que Will se vaya antes de que sea tarde. Los hombres y mujeres de la iglesia revelan su cobardía y su falta de compromiso con la civilización. 
+
+![](/img/imagen1.jpg "High Noon")
 
 Como última alternativa, llevan a Kane a buscar a su mentor, el antiguo sheriff. Lo encuentra en una casa aislada, sentado en su mecedora, con artritis y sin gloria. El veterano, desencantado con la justicia, ya conoce su manera de actuar: liberar a los prisioneros en nombre de principios inasibles como la redención humana, solo para que regresen y busquen venganza. 
 
@@ -44,13 +46,17 @@ Frente a la amenaza de que los bandidos regresen al pueblo, contratan al Foraste
 
 La venganza se eleva a un plano sobrenatural, un juicio final propio de las narraciones del Antiguo Testamento, y el personaje de Clint Eastwood se confunde con el de un fantasma. Solo un enviado del pasado, un muerto vivo, conoce la verdad de lo que sucedió en el Lejano Oeste. Como el Forastero, el western es un fantasma que persigue a los Estados Unidos, y otras experiencias de sociedad moderna, revela secretos y endereza injusticias. 
 
+![](/img/imagen2.png)
+
 En los westerns clásicos, predomina una especie de convicción - un alivio - de que al final se eliminarán los elementos violentos y el mundo seguirá su cauce brillante como en Horizontes de grandeza (1958). Al final un cowboy vuelve a poner al mundo cabeza arriba. Sin embargo, A la hora señalada (1952) e Infierno de Cobardes (1973) nos dicen: la violencia es la violencia, no se la puede pensar como una disfunción de la que el mundo se arregla. La historia de la sociedad moderna no es una seguidilla de triunfos inevitables que nos dirigen a un futuro más brillante. La sociedad puede ser su propio obstáculo. 
 
-**Pasión de los fuertes (1946) y el precio del orden**
+***Pasión de los fuertes* (1946) y el precio del orden**
 
 En *Pasión de los fuertes* (1946), John Ford cuenta la historia que el mismo escuchó contar al mítico cowboy Wyatt Earp. El film se desenvuelve en Tombstone, un pueblo al borde de la civilización, dominado por dos formas de autoridad primitiva. Por un lado, el clan familiar de Pa Clanton, que domina el negocio ganadero; por el otro, Doc Holliday, que controla el juego y los salones. La incipiente comunidad, atrapada entre estas dos fuerzas, mira hacia el Este con fascinación. Quiere formar parte del mundo moderno, pero su ilusión de progreso es tan fuerte como torpe.
 
 Para dar cuenta de lo cerca y lejos que está el pueblo de ser una sociedad moderna Ford incluye otros personajes y lugares híbridos. Por ejemplo, al pueblo lo visita un poeta ambulante, declamado Hamlet, que recita de memoria la obra de Shakespeare. Ese destello de erudición civilizada se ve corrompida por la tendencia a emborracharse que provoca el Lejano Oeste y la persistencia de personajes del orden de lo natural (los hermanos Clanton) que encierran al poeta en un bar y se burlan de él. Otra escena ilustrativa es la inauguración de la iglesia. John Ford monta un baile en el piso de una iglesia todavía no construida, pero que ya tiene los cimientos, campanas y una estructura firme, en el medio de Monument Valley. Sin sermones, el pueblo celebra la llegada de la evangelización de la mano de las campanas a Tombstone con música y baile. 
+
+![](/img/imagen3.png)
 
 Al enterarse de que un clan familiar de bandidos robó su ganado y asesinó a su hermano menor, Wyatt Earp acepta ser el nuevo sheriff de Tombstone. La motivación personal de venganza familiar se entremezcla con un propósito mayor. Frente a la tumba de su hermano menor Earp dice: “Cuando dejemos este país, los chicos como vos van a poder crecer y vivir seguros”. Ford consigue que la lápida de piedras se entremezcle con el paisaje rocoso de Monument Valley, como si la pérdida inesperada de su hermano menor fuera un eco lejano de un trauma nacional. 
 
