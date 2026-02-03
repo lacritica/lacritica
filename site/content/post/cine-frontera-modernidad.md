@@ -18,7 +18,7 @@ featured_callout: null
 ---
 Existe un conjunto de películas que narran el fin del Lejano Oeste y permiten decir algo acerca de la salida del mundo natural y comienzo de la sociedad moderna. Estos westerns son como instrumentos para surcar en el paso del tiempo, analizar la persistencia de ciertos conflictos, y la inevitable frustración de algunas promesas.
 
-***A la hora señalada* (1952) y la ilusoria transparencia de la gente decente**
+# *A la hora señalada* (1952) y la ilusoria transparencia de la gente decente
 
 En *A la hora señalada* (1952) Gary Cooper actúa de Will Kane, un sheriff que levanta su arma por última vez cuando el criminal Frank Miller, a quien había encarcelado años atrás, regresa al pueblo con su banda en busca de venganza. Su ayudante, molesto por no ser nombrado alguacil, le ofrece ayuda a cambio del cargo. Kane rechaza, sin negociar su integridad, y él lo abandona. A medida que pide ayuda a la comunidad que él había liberado de la tiranía de los criminales, esta (temerosa, egoísta o indiferente) le da la espalda y lo deja solo. 
 
@@ -50,7 +50,7 @@ La venganza se eleva a un plano sobrenatural, un juicio final propio de las narr
 
 En los westerns clásicos, predomina una especie de convicción - un alivio - de que al final se eliminarán los elementos violentos y el mundo seguirá su cauce brillante como en Horizontes de grandeza (1958). Al final un cowboy vuelve a poner al mundo cabeza arriba. Sin embargo, A la hora señalada (1952) e Infierno de Cobardes (1973) nos dicen: la violencia es la violencia, no se la puede pensar como una disfunción de la que el mundo se arregla. La historia de la sociedad moderna no es una seguidilla de triunfos inevitables que nos dirigen a un futuro más brillante. La sociedad puede ser su propio obstáculo. 
 
-***Pasión de los fuertes* (1946) y el precio del orden**
+# *Pasión de los fuertes* (1946) y el precio del orden
 
 En *Pasión de los fuertes* (1946), John Ford cuenta la historia que el mismo escuchó contar al mítico cowboy Wyatt Earp. El film se desenvuelve en Tombstone, un pueblo al borde de la civilización, dominado por dos formas de autoridad primitiva. Por un lado, el clan familiar de Pa Clanton, que domina el negocio ganadero; por el otro, Doc Holliday, que controla el juego y los salones. La incipiente comunidad, atrapada entre estas dos fuerzas, mira hacia el Este con fascinación. Quiere formar parte del mundo moderno, pero su ilusión de progreso es tan fuerte como torpe.
 
