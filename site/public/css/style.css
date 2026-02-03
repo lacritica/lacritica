@@ -2124,6 +2124,12 @@ body {
   align-items: center;
 }
 
+.taxonomy-list ul,
+.taxonomy-list li {
+  list-style: none !important;
+}
+
+
 /* Optional: Add media query for desktop to restore wrapping */
 /* Desktop: keep existing behavior */
 @media (min-width: 768px) {
