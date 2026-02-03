@@ -38,25 +38,28 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo/</loc>
+    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/historia-minima-del-rock/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/nada-mas-que-tristeza-y-quietud/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
@@ -78,9 +81,6 @@
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-corte-como-sintoma/</loc>
-    <lastmod>2026-01-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/la-degradacion-constitucional/</loc>
     <lastmod>2026-01-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/placeres-3/</loc>
@@ -109,9 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/post/corrupcion-argentina/</loc>
     <lastmod>2026-01-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/placeres-2/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
@@ -146,9 +143,6 @@
     <loc>http://localhost:1313/post/samuel-moyn/</loc>
     <lastmod>2026-01-11T10:24:34+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
-    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/interpretativismo-2/</loc>
     <lastmod>2026-01-09T00:00:02+00:00</lastmod>
   </url><url>
@@ -169,9 +163,6 @@
   </url><url>
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
@@ -289,6 +280,8 @@
   </url><url>
     <loc>http://localhost:1313/gracias/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/abel_gilberet/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/alberto-binder/</loc>
@@ -323,15 +316,11 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
-  </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/justina-uriburu/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/lilia-alonso/</loc>
   </url><url>

@@ -1,5 +1,4 @@
 ---
-draft: true
 title: Advertencias de John Ford y Clint Eastwood para el nuevo mundo
 slug: advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo
 date: 2026-02-03T13:55:24.777Z
@@ -7,7 +6,7 @@ description: Notas sobre cine, fronteras, y modernidad
 categories:
   - ensayos
 author:
-  - Antonia Fratini
+  - Antonia Fratini Lagos
 thumbnail:
   - src: /img/image2.jpg
 highlight: false
@@ -19,7 +18,7 @@ featured_callout: null
 
 Existe un conjunto de películas que narran el fin del Oeste y permiten decir algo acerca de la salida del mundo natural y comienzo de la sociedad moderna. Estos westerns son como instrumentos para surcar en el paso del tiempo, analizar la persistencia de ciertos conflictos, y la inevitable frustración de algunas promesas.
 
-### *Pasión de los fuertes* (1946) y el precio del orden
+# *Pasión de los fuertes* (1946) y el precio del orden
 
 En *Pasión de los fuertes* (1946), John Ford cuenta la historia que el mismo escucho contar al mítico cowboy Wyat Earp. El film se desenvuelve en Tombstone, un pueblo al borde de la civilización, dominado por dos formas de autoridad primitiva. Por un lado, el clan familiar de Pa Clanton, que domina el negocio ganadero; por el otro, Doc Holliday, que controla el juego y los salones. La incipiente comunidad, atrapada entre estas dos fuerzas, mira hacia el Este con fascinación. Quiere formar parte del mundo moderno, pero su ilusión de progreso es tan fuerte como torpe.
 
@@ -33,7 +32,7 @@ Durante el enfrentamiento final, la justicia se presenta como un gesto ambiguo e
 
 Por más que la película no nos hable de la fundación de un Estado, sí dice algo sobre cómo se termina el mundo natural. Para Ford, son hombres como Wyatt Earp los que hacen que el mundo progrese. Las instituciones, si algún día llegan, serán un síntoma no las artífices de esta entrada al mundo moderno. El nuevo mundo se abre paso con actos individuales, necesarios para el progreso social. La Ley como principio abstracto no existe en el Oeste, por eso, se necesita la venganza personal pasa a darle sentido. ¿Cómo construir un significado común de la Ley que se sostenga por sí mismo? Ese es el desafío del mundo moderno. Películas posteriores como Bronco Billy (1980) no son muy optimistas en los resultados.
 
-### *A la hora señalada* (1952) y la ilusoria transparencia de la gente decente
+# *A la hora señalada* (1952) y la ilusoria transparencia de la gente decente
 
 En *A la hora señalada* (1952) Gary Cooper actúa de Will Kane, un alguacil recién casado y a punto de retirarse, quien levanta las armas por última vez cuando el criminal Frank Miller y su banda, a quienes había encarcelado años atrás, regresan al pueblo en busca de venganza. A medida que pide ayuda a la comunidad que él había liberado de la tiranía de los criminales, ésta (temerosa, egoísta o indiferente) le da la espalda y lo deja solo.
 

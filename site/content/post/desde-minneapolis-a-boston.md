@@ -11,7 +11,7 @@ thumbnail:
   - src: /img/dgut.webp
     epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/) para el New York Times
     copyright: D. Guttenfelder
-highlight: true
+highlight: false
 highlight2: false
 callouts: 
   - "El histórico eslogan del Washington Post 'la democracia muere en la oscuridad' hoy puede reformularse para afirmar que también muere bajo el efecto estroboscópico del caos y la crueldad gratuita que genera continuamente este gobierno." 

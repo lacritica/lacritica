@@ -13,7 +13,7 @@ thumbnail:
   - src: /img/IMG_20190219_210031.jpg
     epigraph: Buenos Aires, 2019
     copyright: RAU
-highlight: false
+highlight: true
 highlight2: false
 callouts: 
 exclude_thumbnail_from_body: true

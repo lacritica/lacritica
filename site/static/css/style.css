@@ -903,7 +903,7 @@ body {
 .author-separator {
   font-family: "Jost", serif;
   font-size: 1.2rem;
-  color: var(--base-bg);
+  color: var(--neutral-900);
 }
 
 
