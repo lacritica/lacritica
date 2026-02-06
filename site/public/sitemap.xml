@@ -20,23 +20,35 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo/</loc>
-    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-degradacion-constitucional/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/sobre-el-eterno-debate/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo/</loc>
     <lastmod>2026-02-03T13:55:24+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-02-03T13:55:24+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-02-03T13:55:24+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-02-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/historia-minima-del-rock/</loc>
     <lastmod>2026-02-03T00:00:00+00:00</lastmod>
@@ -111,9 +123,6 @@
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2026-01-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-lista-de-binder/</loc>

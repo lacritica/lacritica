@@ -1,6 +1,6 @@
 ---
 title: Puntos de vista 
-date: 2026-01-10
+date: 2026-02-06
 description: La increíble vida---interna y externa---del filósofo del derecho más influyente del siglo veinte. 
 categories:
   - reseñas
@@ -10,7 +10,7 @@ author:
 thumbnail:
   - src: "/img/hla.webp"
 obra_reseñada: 'Lacey, N. (2006). A Life of H.L.A. Hart: The Nightmare and the Noble Dream. United Kingdom: Oxford University Press.'
-draft: true 
+draft: false 
 highlight: false
 highlight2: false
 callouts:

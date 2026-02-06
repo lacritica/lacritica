@@ -1,22 +1,23 @@
 ---
 title: "La degradación constitucional de Estados Unidos"
 slug: la-degradacion-constitucional
-draft: true
-date: 2026-01-30
-description: 
+draft: false
+date: 2026-02-06
+description: Las instituciones que se suponía que debían restringir el poder, proteger los derechos y prevenir los abusos no solo están fallando, sino que se están derrumbando a la vista de todos
 categories:
   - debates
-author:
-  - Irwin Strotzky 
-thumbnail:
-  - src: /img/dgut.webp
-    epigraph: Foto de [D. Guttenfelder](https://www.instagram.com/dguttenfelder/) para el New York Times
-    copyright: D. Guttenfelder
 highlight: true
 highlight2: false
+author:
+  - Irwin Stotzky 
+thumbnail:
+  - src: /img/rau_IMG_20180715_130427.jpg
+    epigraph: San Francisco (2018)
+    copyright: RAU
 callouts: 
 exclude_thumbnail_from_body: true
 ---
+
 Lo que está ocurriendo hoy en Estados Unidos no es una crisis constitucional. Es la desintegración abierta del gobierno constitucional. Las instituciones que se suponía que debían restringir el poder, proteger los derechos y prevenir los abusos no solo están fallando, sino que se están derrumbando a la vista de todos y, en algunos casos, allanando activamente el camino para el dominio ejecutivo. Los asesinatos de dos civiles desarmados por parte de agentes del ICE no son aberraciones. Son la prueba más clara posible de que el monopolio de la fuerza por parte del gobierno federal se ha escapado del alcance de la ley, la supervisión o el control democrático.
 
 En ambos asesinatos, los agentes federales dispararon a civiles desarmados que no representaban una amenaza inminente. No se trató de accidentes imprevisibles. Fueron el resultado previsible de un sistema federal de aplicación de la ley al que el Congreso, los tribunales y la cultura política le han dicho que no tendrá que rendir cuentas. Cuando el Estado puede quitar una vida y el sistema responde con silencio, el estado de derecho no solo se debilita. Muere.
