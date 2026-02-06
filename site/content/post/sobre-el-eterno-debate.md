@@ -1,6 +1,6 @@
 ---
-title: Sobre el eterno debate de la baja la edad de punibilidad
-date: 2026-02-06
+title: El eterno debate por la baja en la edad de punibilidad
+date: 2026-02-06T00:00:02Z
 description: Una iniciativa ilegal que se enfrenta con la realidad del sistema penal 
 categories:
   - debates
