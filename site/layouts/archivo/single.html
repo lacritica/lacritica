@@ -18,24 +18,25 @@
 {{/* ================= PREVIOUS ISSUES ================= */}}
 
 
-<section class="previous-issues">
-  
-  <ul>
-    {{ range $previous }}
-        <h2>Ediciones anteriores</h2>
-        <a href="{{ .RelPermalink }}" class="previous-issue-link">
-        
-          {{ with .Params.thumbnail }}
-            {{ $thumb := index . 0 }}
-            {{ with $thumb.src }}
-              <img src="{{ . }}" alt="{{ $.Title }}" class="previous-issue-thumb">
+<div class="previous-issues-wrapper">
+  <section class="previous-issues">
+    <h2>Ediciones anteriores</h2>
+    <ul>
+      {{ range $previous }}
+        <li>
+          <a href="{{ .RelPermalink }}" class="previous-issue-link">
+            {{ with .Params.thumbnail }}
+              {{ $thumb := index . 0 }}
+              {{ with $thumb.src }}
+                <img src="{{ . }}" alt="{{ $.Title }}" class="previous-issue-thumb">
+              {{ end }}
             {{ end }}
-          {{ end }}
-          {{ .Title }} — {{ .Params.number }}
-        </a>
-      
-    {{ end }}
-  </ul>
-</section>
+            {{ .Title }} — {{ .Params.number }}
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
 
 {{ end }}

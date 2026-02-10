@@ -45,7 +45,7 @@
     <lastmod>2026-02-06T00:00:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-degradacion-constitucional/</loc>
-    <lastmod>2026-02-06T00:00:01+00:00</lastmod>
+    <lastmod>2026-02-06T00:00:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
@@ -300,6 +300,8 @@
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/cynthia-benzon/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/emiliano_martin_vitaliani/</loc>
   </url><url>
     <loc>http://localhost:1313/catastrofe/</loc>
   </url><url>

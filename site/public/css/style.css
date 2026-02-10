@@ -2611,8 +2611,13 @@ body {
 
 .previous-issues ul {
   margin: 0;
-  padding: 2rem;
+  padding: 1rem 2rem 2rem;
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
 
 .previous-issues li {
@@ -2624,12 +2629,13 @@ body {
   font-family: 'Jost';
   font-size: 0.9rem;
   font-weight: 700;
-  padding: 2rem;
-  background-color: var(--neutral-pale-blue);
+  padding: 0.6rem;
+  background-color: var(--accent-burgundy);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
+  width: 250px;
 }
 
 .previous-issue-thumb {
@@ -3067,8 +3073,13 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
   background-color: var(--accent-beige);
 }
 
+.previous-issues-wrapper {
+  background-color: var(--accent-burgundy);
+  padding: 1rem;
+}
+
 .previous-issues {
-  background-color: var(--accent-blue);
+  background-color: var(--accent-burgundy);
 }
 
 .previous-issues h2 {
@@ -3076,11 +3087,30 @@ color: var(--base-bg);
 margin-top: 0rem;
 margin-bottom: 0rem;
 padding-top: 2rem;
-padding-bottom: 2rem;
+padding-bottom: 0.75rem;
+text-transform: uppercase;
+position: relative;
+}
+
+.previous-issues h2::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  margin-top: 0.5rem;
 }
 
 
 @media (max-width: 768px) {
+  .previous-issues h2 {
+    text-align: center;
+  }
+
+  .previous-issues ul {
+    justify-content: center;
+  }
+
   .monthly-layout {
     padding-left: 0rem;
     grid-template-columns: 1fr;

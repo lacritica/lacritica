@@ -2,7 +2,7 @@
 title: "La degradación constitucional de Estados Unidos"
 slug: la-degradacion-constitucional
 draft: false
-date: 2026-02-06T00:00:01Z
+date: 2026-02-06T00:00:02Z
 description: Las instituciones que se suponía que debían restringir el poder, proteger los derechos y prevenir los abusos no solo están fallando, sino que se están derrumbando a la vista de todos
 categories:
   - debates

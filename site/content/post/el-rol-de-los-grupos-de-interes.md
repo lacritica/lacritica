@@ -1,5 +1,5 @@
 ---
-title: "Cuál es el rol de los grupos de interés en la conversación pública"
+title: "El rol de los grupos de interés en la conversación pública"
 slug: el-rol-de-los-grupos-de-interes
 date: 2026-02-10
 description: los funcionarios estatales y sus defensores académicos
