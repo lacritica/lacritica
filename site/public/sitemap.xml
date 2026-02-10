@@ -21,18 +21,21 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-rol-de-los-grupos-de-interes/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/leer-a-c-wright-mills/</loc>
-    <lastmod>2026-02-09T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/leer-a-c-wright-mills/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
@@ -41,13 +44,13 @@
     <loc>http://localhost:1313/post/sobre-el-eterno-debate/</loc>
     <lastmod>2026-02-06T00:00:02+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
+    <loc>http://localhost:1313/post/la-degradacion-constitucional/</loc>
     <lastmod>2026-02-06T00:00:01+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/puntos-de-vista-la-vida-de-hart/</loc>
+    <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2026-02-06T00:00:01+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/la-degradacion-constitucional/</loc>
     <lastmod>2026-02-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/advertencias-de-john-ford-y-clint-eastwood-para-el-nuevo-mundo/</loc>
@@ -291,6 +294,8 @@
     <loc>http://localhost:1313/autores/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/clyde_w_barrow/</loc>
   </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
