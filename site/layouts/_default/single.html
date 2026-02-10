@@ -100,10 +100,6 @@
       <p class="post-date">{{ .Day }} de {{ $month }} de {{ .Year }}</p>
     {{ end }}
     
-    {{ if not .Params.skip_partial }}
-    {{ partial "share.html" . }}
-    {{ end }}
-
     {{ if and (isset .Params "thumbnail") (isset .Params "obra_reseñada") }}
       <div class="title-obra-resenada" data-pagefind-ignore>
         <h4>Obra reseñada</h4>
@@ -119,23 +115,35 @@
     {{ end }}
 
     {{ with .Params.publicado_originalmente_en }}
-      <div class="title-obra-resenada" data-pagefind-ignore>
-        <h4>Publicado originalmente en</h4>
-      </div>
-      <div class="publicado-originalmente-en" data-pagefind-ignore>
-        {{ . | markdownify }}
+      <div class="publicado-originalmente-section" data-pagefind-ignore>
+        <div class="title-obra-resenada">
+          <h4>Publicado originalmente en</h4>
+        </div>
+        <div class="publicado-originalmente-en">
+          {{ . | markdownify }}
+        </div>
       </div>
     {{ end }}
 
+    {{ if not .Params.skip_partial }}
+    {{ partial "share.html" . }}
+    {{ end }}
+
     {{ with .Params.category }}
-      <p class="post-category">{{ . }}</p>
+      <div class="publicado-originalmente-en post-category" data-pagefind-ignore>
+        {{ if (reflect.IsSlice .) }}
+          {{ delimit . ", " | markdownify }}
+        {{ else }}
+          {{ . | markdownify }}
+        {{ end }}
+      </div>
     {{ end }}
   </aside> <!-- /.article-sidebar -->
 
   <div
     class="article-content"
     data-pagefind-body
-    data-pagefind-filter-category="{{ with .Params.category }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
+    data-pagefind-filter-category="{{ with .Params.category }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " | plainify }}{{ else }}{{ . | plainify }}{{ end }}{{ end }}"
     data-pagefind-filter-author="{{ with .Params.author }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
       >
     {{/* If exclude_thumbnail_from_body is TRUE → do not insert thumbnail */}}

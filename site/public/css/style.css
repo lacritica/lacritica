@@ -901,9 +901,9 @@ body {
 }
 
 .author-separator {
-  font-family: "Jost", serif;
-  font-size: 1.2rem;
-  color: var(--neutral-900);
+  font-family: inherit;
+  font-size: inherit;
+  color: currentColor;
 }
 
 
@@ -1336,6 +1336,7 @@ body {
   justify-content: center;
   gap: 2rem;
   margin-top: 0rem;
+  margin-bottom: 4rem;
 }
 
 #content .article-layout .article-sidebar {
@@ -1431,6 +1432,12 @@ body {
 
 #content .publicado-originalmente-en {
   margin-top: -1rem;
+}
+
+#content .publicado-originalmente-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color, #ddd);
 }
 
 #content .publicado-originalmente-en a {
@@ -3103,4 +3110,3 @@ padding-bottom: 2rem;
   width: 30px;   /* adjust as needed */
   height: auto;
 }
-
