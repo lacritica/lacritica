@@ -21,7 +21,19 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/una-vez-mas/</loc>
+    <lastmod>2026-02-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-rol-de-los-grupos-de-interes/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
@@ -29,17 +41,8 @@
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-02-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/leer-a-c-wright-mills/</loc>
     <lastmod>2026-02-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-02-06T00:00:02+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/sobre-el-eterno-debate/</loc>
     <lastmod>2026-02-06T00:00:02+00:00</lastmod>

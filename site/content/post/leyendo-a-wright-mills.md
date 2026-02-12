@@ -9,7 +9,7 @@ author:
   - Clyde W. Barrow
 thumbnail:
   - src: /img/cwrightmills.webp
-highlight: true
+highlight: false
 highlight2: false
 publicado_originalmente_en: "**Jacobin**, [5 de febrero de 2026](https://jacobin.com/2026/02/wright-mills-power-elite-intellectuals) (en inglés)."
 exclude_thumbnail_from_body: true
