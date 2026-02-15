@@ -6,7 +6,7 @@ date: 2026-02-12
 description: En el marco de un debate a las apuradas, algunos problemas de una propuesta que siempre vuelve. 
 categories:
   - debates
-highlight: true
+highlight: false
 highlight2: false
 author:
   - Roberto Gargarella

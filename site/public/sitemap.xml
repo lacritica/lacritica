@@ -21,22 +21,25 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-13T13:36:47+00:00</lastmod>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/punitivismo-ineficiente/</loc>
+    <lastmod>2026-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-02-13T13:36:47+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-13T13:36:47+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-02-13T13:36:47+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/una-noche-en-el-senado/</loc>
     <lastmod>2026-02-13T13:36:47+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-02-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/una-defensa-inc%C3%B3moda-de-la-justicia-retributiva/</loc>
     <lastmod>2026-02-13T00:00:00+00:00</lastmod>
@@ -388,5 +391,7 @@
     <loc>http://localhost:1313/autores/tomas-abraham/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/tomas_fernandez_fiks/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/valeria-vegh-weis/</loc>
   </url>
 </urlset>
