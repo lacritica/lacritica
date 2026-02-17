@@ -8,7 +8,7 @@ categories:
 author:
   - Sebastián Guidi
 thumbnail:
-  - src: /img/gargarella_IMG_9637.JPG
+  - src: /img/puga_23-3-23.jpeg
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
