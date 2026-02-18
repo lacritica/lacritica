@@ -20,13 +20,19 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/martin-luther-king/</loc>
+    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-02-17T12:30:50+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-02-17T12:30:50+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-02-17T12:30:50+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
@@ -40,9 +46,6 @@
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-02-16T20:05:09+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/justicia-x-joni/</loc>
     <lastmod>2026-02-16T20:05:09+00:00</lastmod>
