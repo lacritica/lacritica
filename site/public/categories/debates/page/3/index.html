@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -498,6 +498,85 @@ document.addEventListener("click", () => {
         
           
             <figure class="grid-thumbnail">
+              <img src="/img/munsch.jpg" alt="Featured Image"/>
+            </figure>
+          
+        
+
+        <h1><a href="/post/el-fin-de-los-derechos-laborales-como-los-conociamos/">El fin de los derechos laborales como los conocíamos</a></h1>
+
+        
+          <div class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/gustavo-maurino/">Gustavo Maurino</a>
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</div>
+        
+
+        <div class="summary">
+          Una revisión de los fines, medios y justificaciones de un proyecto que viene a cambiarlo todo para el mundo del trabajo.
+        </div>
+
+        <div class="date">
+          
+          
+          
+          
+          27 de enero de 2026
+        </div>
+      </div>
+    </article>
+  
+    <article class="article-taxonomy">
+    
+
+        
+        
+          
+            <figure class="grid-thumbnail">
               <img src="/img/manifestacion_3.webp" alt="Featured Image"/>
             </figure>
           
@@ -940,85 +1019,6 @@ document.addEventListener("click", () => {
       </div>
     </article>
   
-    <article class="article-taxonomy">
-    
-
-        
-        
-          
-            <figure class="grid-thumbnail">
-              <img src="/img/gargarella_WhatsApp%20Image%202025-11-12%20at%2023.37.14.jpeg" alt="Featured Image"/>
-            </figure>
-          
-        
-
-        <h1><a href="/post/interpretativismo-2/">Hay que dejar de decir &#34;interpretativismo&#34; por lo menos por dos años (II)</a></h1>
-
-        
-          <div class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/pedro-caminos/">Pedro Caminos</a>
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</div>
-        
-
-        <div class="summary">
-          Nadie se auto-califica como positivista para perder.
-        </div>
-
-        <div class="date">
-          
-          
-          
-          
-          9 de enero de 2026
-        </div>
-      </div>
-    </article>
-  
 </section>
 
 <nav class="pagination">
@@ -1143,25 +1143,38 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+  document.querySelectorAll("a.footnote-ref").forEach((ref) => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
-      const sup = this.parentElement;
-      const id = this.getAttribute("href").substring(1);
+      const sup = this.closest("sup");
+      if (!sup) return;
+
+      const id = decodeURIComponent((this.getAttribute("href") || "").replace(/^#/, ""));
+      if (!id) return;
+
       const note = document.getElementById(id);
       if (!note) return;
 
       
       const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
-        existing.remove();
+        const willOpen = existing.hidden;
+        existing.hidden = !willOpen;
+        existing.classList.toggle("is-open", willOpen);
+        this.setAttribute("aria-expanded", willOpen ? "true" : "false");
         return;
       }
 
-      const inline = document.createElement("span");
-      inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+      const inline = document.createElement("div");
+      inline.className = "inline-footnote is-open";
+
+      const noteClone = note.cloneNode(true);
+      noteClone.querySelectorAll("a.footnote-backref, a[role='doc-backlink']").forEach((backref) => backref.remove());
+
+      inline.innerHTML = noteClone.innerHTML;
+      inline.hidden = false;
+      this.setAttribute("aria-expanded", "true");
 
       sup.after(inline);
     });

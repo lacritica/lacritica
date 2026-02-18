@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <!DOCTYPE html>
 <html lang="en-us">
   <head>
@@ -24,13 +24,13 @@
       
       <meta property="og:title" content="¿Un país sin contratos?">
       <meta property="og:description" content="El mercader de Venecia ante la nueva jurisprudencia de la Corte Suprema">
-      <meta property="og:url" content="http://localhost:1313/post/paissincontratos/">
+      <meta property="og:url" content="https://www.lacritica.ar/post/paissincontratos/">
       <meta property="og:type" content="article">
       
       
         
           
-            <meta property="og:image" content="http://localhost:1313/img/webp/mostro.webp">
+            <meta property="og:image" content="https://www.lacritica.ar/img/webp/mostro.webp">
             <meta property="og:image:width" content="1200">
             <meta property="og:image:height" content="630">
             <meta property="og:image:alt" content="¿Un país sin contratos?">
@@ -46,7 +46,7 @@
       
         
           
-            <meta name="twitter:image" content="http://localhost:1313/img/webp/mostro.webp">
+            <meta name="twitter:image" content="https://www.lacritica.ar/img/webp/mostro.webp">
             <meta name="twitter:image:alt" content="¿Un país sin contratos?">
           
         
@@ -573,31 +573,31 @@ document.addEventListener("click", () => {
   <div class="share-buttons" data-pagefind-ignore>
 
     <a class="share-button" 
-       href="https://twitter.com/intent/tweet?text=%C2%BFUn&#43;pa%C3%ADs&#43;sin&#43;contratos%3F%0Apor&#43;Gustavo&#43;Maurino%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fpaissincontratos%2F"
+       href="https://twitter.com/intent/tweet?text=%C2%BFUn&#43;pa%C3%ADs&#43;sin&#43;contratos%3F%0Apor&#43;Gustavo&#43;Maurino%0Aen&#43;%40LaCriticaDD%0A%0Ahttps%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fpaissincontratos%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/twitter.svg" alt="Compartir en Twitter" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://bsky.app/intent/compose?text=%C2%BFUn&#43;pa%C3%ADs&#43;sin&#43;contratos%3F%0Apor&#43;Gustavo&#43;Maurino%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fpaissincontratos%2F"
+       href="https://bsky.app/intent/compose?text=%C2%BFUn&#43;pa%C3%ADs&#43;sin&#43;contratos%3F%0Apor&#43;Gustavo&#43;Maurino%0A%0Ahttps%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fpaissincontratos%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/bluesky.svg" alt="Compartir en Bluesky" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fpaissincontratos%2F"
+       href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fpaissincontratos%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/facebook.svg" alt="Compartir en Facebook" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A1313%2Fpost%2Fpaissincontratos%2F"
+       href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fpaissincontratos%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/linkedin.svg" alt="Compartir en LinkedIn" data-pagefind-ignore>
     </a>
 
     <a class="share-button"
-       href="https://api.whatsapp.com/send?text=%C2%BFUn&#43;pa%C3%ADs&#43;sin&#43;contratos%3F%0Apor&#43;Gustavo&#43;Maurino%0Aen&#43;%40LaCriticaDD%0A%0Ahttp%3A%2F%2Flocalhost%3A1313%2Fpost%2Fpaissincontratos%2F"
+       href="https://api.whatsapp.com/send?text=%C2%BFUn&#43;pa%C3%ADs&#43;sin&#43;contratos%3F%0Apor&#43;Gustavo&#43;Maurino%0Aen&#43;%40LaCriticaDD%0A%0Ahttps%3A%2F%2Fwww.lacritica.ar%2Fpost%2Fpaissincontratos%2F"
        target="_blank" rel="noopener noreferrer">
       <img src="/img/whatsapp.svg" alt="Compartir en WhatsApp" data-pagefind-ignore>
     </a>
@@ -788,25 +788,38 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+  document.querySelectorAll("a.footnote-ref").forEach((ref) => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
-      const sup = this.parentElement;
-      const id = this.getAttribute("href").substring(1);
+      const sup = this.closest("sup");
+      if (!sup) return;
+
+      const id = decodeURIComponent((this.getAttribute("href") || "").replace(/^#/, ""));
+      if (!id) return;
+
       const note = document.getElementById(id);
       if (!note) return;
 
       
       const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
-        existing.remove();
+        const willOpen = existing.hidden;
+        existing.hidden = !willOpen;
+        existing.classList.toggle("is-open", willOpen);
+        this.setAttribute("aria-expanded", willOpen ? "true" : "false");
         return;
       }
 
-      const inline = document.createElement("span");
-      inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+      const inline = document.createElement("div");
+      inline.className = "inline-footnote is-open";
+
+      const noteClone = note.cloneNode(true);
+      noteClone.querySelectorAll("a.footnote-backref, a[role='doc-backlink']").forEach((backref) => backref.remove());
+
+      inline.innerHTML = noteClone.innerHTML;
+      inline.hidden = false;
+      this.setAttribute("aria-expanded", "true");
 
       sup.after(inline);
     });

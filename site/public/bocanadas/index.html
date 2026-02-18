@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -430,6 +430,59 @@ document.addEventListener("click", () => {
       
 
         
+<article class="pirulos-item">
+
+  
+
+    <div class="pirulos-row">
+
+      
+      <div class="pirulos-thumbnail">
+        
+          
+          <img src="/img/joni-blue.png" alt="Bocanadas">
+        
+      </div>
+
+      
+      <div class="pirulos-text">
+        <h2>Justicia para Joni Mitchell</h2>
+
+        
+
+        <div class="pirulos-text-content">
+  
+    <p>Ronald Dworkin comienza su magnífica obra <em><strong>Justicia para Erizos</strong></em> con una broma mínima, en la que nos avisa su libro no es un alegato por los derechos animales. “Justicia para Joni Mitchell” sí sería un alegato sin pudores en favor de la milagrosa Joni como un regalo de justicia cósmica. Debería estar prohibido perderse la experiencia de navegar el universo mágico música, su poética, su ética y su estética.</p>
+<p>Durante 50 años, Joni Mitchell ha retratado el mundo y la experiencia humana con una profundidad, riqueza y bellezas únicas, <a href="https://youtu.be/oVeFgt8Z13g?si=6xShei1i3WD9zlmb">“desde los dos lados”, je (no se pierdan esta versión en vivo, junto a la Joni Jam y el mágico Jacob Collier al piano).</a></p>
+<p>Pero esta bocanada de justicia también tiene otro sentido.</p>
+<p>La justicia habita el mundo -y ciertamente el derecho- como testaruda esperanza, como promesa, como sentido. Lo habita contra toda burla cínica, contra todo desprecio bruto, contra toda incomprendida evasión. Como inocencia sin ingenuidad. Como el amor, bah.</p>
+<p>Esta bocanada es también sobre la Justicia en Joni Mitchell y su obra. Pero, ¿qué es la justicia para Joni?</p>
+<p>Una vez, en el aclamado Turbulent Indigo, Joni escribió una canción lascerante: <a href="https://youtu.be/hDjDVRZa9tE?si=ob0uQ6oBraG4VFIz"><em>Sex Kills</em> (con la osadía inclaudicable de arrojarla impiadosamente al aire en un late night show!).</a> La canción tiene estampada su irónica e inolvidable pregunta: <em><strong>“is justice, just ice?”</strong></em>. Tanto por meditar sobre la frialdad o calidez de la justicia, sobre la distancia o la cercanía que le da la mejor perspectiva, sobre la racionalidad y la emocionalidad como vehículos de la imparcialidad. Pero eso será otro día.</p>
+<p>A lo largo de más de 20 discos y 200 canciones, Joni visitó las preguntas fundamentales de la justicia en este tiempo nuestro sobre la tierra.</p>
+<p>Las preguntas de la Justicia ambiental: <a href="https://youtu.be/ratQlft_G5c?si=xIMquuEjedw_L17t"><em>Big Yellow taxi</em> </a>(el presagio de yo quiero ver un tren). “pavimentaron le paraíso, para poner un estacionamiento”.</p>
+<p>Las preguntas de la Justicia de género: <em><a href="https://youtu.be/3T5sCCodvtk?si=hexOM53wi9Y5OlhC">Not to blame</a></em>, o la terrible historia de las <a href="https://youtu.be/dwgTSC-stIM?si=7fTQrsgxG6lvdmxy"><em>Magdalene Loundries</em>.</a></p>
+<p>Las de la Justicia social (<em><a href="https://youtu.be/xeKupuznd9I?si=9AIU1nhZOOOf1g6e">No Apologies</a>)</em>, las injusticias de la guerra (<em><a href="https://youtu.be/J6_bCQ-CUsc?si=ryWroboZA9egOT4e">The Beat of Black Wings</a></em>), las preguntas de la justicia étnica: <em><a href="https://youtu.be/6KSTILm7VVc?si=nNbDhD6OvrSiOoP3">Lakota</a></em>, <a href="https://youtu.be/zyipnRngQlQ?si=jZMXD2BjXVgjz-fN"><em>Cherokee Louise</em>.</a></p>
+<p><a href="https://youtu.be/zyipnRngQlQ?si=jZMXD2BjXVgjz-fN"></a>Y la pregunta eterna, sobre la justicia divina, la inescapable pregunta de Job (por qué Dios permite las injusticias). Acaso una de sus canciones más hermosas, y que cantó en vivo por primera vez en 2024: <a href="https://youtu.be/-jboNZG8GB8?si=lVGZxtk7tLWcOht2"><em>Job’s Sad Song (The Sire of Sorrow</em>)</a>. <em>“Tell me why do you starve the faithful? Why do you crucify the saints? And you let the wicked prosper”.</em></p>
+<p>Y podríamos seguir, y seguir…y seguir. Todo está contenido en su universo.</p>
+<p>Y también, sobre todo, la inasible, inefable y fugaz belleza, la pura belleza de la música más hermosa. Esa que espera a quien se anime a desplegar sus alas y volar hacia el sol nacido en Saskatoon.</p>
+<p>Justicia para Joni, que <a href="https://youtu.be/bgXcxUim--I?si=ZCipsV7kUaaRwMpu">Brilla</a>, luminosa y renaciente.</p>
+
+  
+</div>
+
+
+        
+          <p class="pirulos-author">Gustavo Maurino</p>
+        
+      </div>
+
+
+    </div>
+
+  
+
+</article>
+
 <article class="pirulos-item">
 
   
@@ -1348,25 +1401,38 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+  document.querySelectorAll("a.footnote-ref").forEach((ref) => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
-      const sup = this.parentElement;
-      const id = this.getAttribute("href").substring(1);
+      const sup = this.closest("sup");
+      if (!sup) return;
+
+      const id = decodeURIComponent((this.getAttribute("href") || "").replace(/^#/, ""));
+      if (!id) return;
+
       const note = document.getElementById(id);
       if (!note) return;
 
       
       const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
-        existing.remove();
+        const willOpen = existing.hidden;
+        existing.hidden = !willOpen;
+        existing.classList.toggle("is-open", willOpen);
+        this.setAttribute("aria-expanded", willOpen ? "true" : "false");
         return;
       }
 
-      const inline = document.createElement("span");
-      inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+      const inline = document.createElement("div");
+      inline.className = "inline-footnote is-open";
+
+      const noteClone = note.cloneNode(true);
+      noteClone.querySelectorAll("a.footnote-backref, a[role='doc-backlink']").forEach((backref) => backref.remove());
+
+      inline.innerHTML = noteClone.innerHTML;
+      inline.hidden = false;
+      this.setAttribute("aria-expanded", "true");
 
       sup.after(inline);
     });

@@ -265,11 +265,25 @@ body {
 
   .inline-footnote {
     display: block;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transition: max-height 0.25s ease, opacity 0.2s ease;
     margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
     padding-left: 0.75rem;
     border-left: 3px solid #ccc;
     font-size: 0.8em;
     color: #444;
+  }
+
+  .inline-footnote.is-open {
+    max-height: 40rem;
+    opacity: 1;
+  }
+
+  .inline-footnote p {
+    margin: 0;
   }
 
   sup + .inline-footnote {

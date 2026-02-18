@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
       
       <meta property="og:title" content="Tomas Fernandez Fiks">
       <meta property="og:description" content="">
-      <meta property="og:url" content="http://localhost:1313/autores/tomas_fernandez_fiks/">
+      <meta property="og:url" content="https://www.lacritica.ar/autores/tomas_fernandez_fiks/">
       <meta property="og:type" content="article">
       
       
@@ -546,25 +546,38 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+  document.querySelectorAll("a.footnote-ref").forEach((ref) => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
-      const sup = this.parentElement;
-      const id = this.getAttribute("href").substring(1);
+      const sup = this.closest("sup");
+      if (!sup) return;
+
+      const id = decodeURIComponent((this.getAttribute("href") || "").replace(/^#/, ""));
+      if (!id) return;
+
       const note = document.getElementById(id);
       if (!note) return;
 
       
       const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
-        existing.remove();
+        const willOpen = existing.hidden;
+        existing.hidden = !willOpen;
+        existing.classList.toggle("is-open", willOpen);
+        this.setAttribute("aria-expanded", willOpen ? "true" : "false");
         return;
       }
 
-      const inline = document.createElement("span");
-      inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+      const inline = document.createElement("div");
+      inline.className = "inline-footnote is-open";
+
+      const noteClone = note.cloneNode(true);
+      noteClone.querySelectorAll("a.footnote-backref, a[role='doc-backlink']").forEach((backref) => backref.remove());
+
+      inline.innerHTML = noteClone.innerHTML;
+      inline.hidden = false;
+      this.setAttribute("aria-expanded", "true");
 
       sup.after(inline);
     });
