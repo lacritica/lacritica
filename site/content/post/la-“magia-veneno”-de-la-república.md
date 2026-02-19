@@ -11,25 +11,25 @@ thumbnail:
   - src: /img/system_failure.png
 highlight: false
 highlight2: false
-exclude_thumbnail_from_body: false
+exclude_thumbnail_from_body: true
 ---
 No entiendo suficiente de derecho penal, ni de política criminal o de seguridad para involucrarme en este tema. Sin embargo, arrimo mi lente constitucional aquí para comentar lo que leí sobre el proyecto de Reforma del Régimen Penal Juvenil. Y por ahi, proponer otra perspectiva para pensar. 
 
 El proyecto que ya tiene media sanción, esta mostrando con cierta desnudez lo que llamaré la “magia-veneno” de nuestra República. Esa hermosa ambivalencia de los valores republicanos, desde los que se legitima la coacción legítima, pero ejercida no como fuerza que causa dolor, sino como justicia retributiva sobre los miembros, libres e iguales, de una comunidad política. 
 
-**Entre lo dicho y lo hecho…**
+# Entre lo dicho y lo hecho…
 
-El asunto del régimen penal juvenil estuvo ardiendo en [lacritica.ar](file:///C:\\Users\\Gateway\\AppData\\Roaming\\Microsoft\\Windows\\Network%20Shortcuts\\lacritica.ar). Aprendí mucho con el fenomenal [ensayo de Sebastián Guidi](https://lacritica.ar/post/penal-juvenil-opinion-publica/), me preocupé bastante por la asimilación de la que advierte [Roberto Gargarella](https://lacritica.ar/post/una-vez-mas/), me hizo mucho sentido la apelación a la “justicia retributiva” de [Tomás Fernández Fiks](https://lacritica.ar/post/una-defensa-inc%C3%B3moda-de-la-justicia-retributiva/). “Veo en parte” lo que ellos ven, como diría Catupecu Machu, pero también noto algo implícito en sus argumentos, esa magia veneno de la contradicción de los reformadores, “entre lo dicho y lo hecho.” 
+El asunto del régimen penal juvenil estuvo ardiendo en **La Crítica**. Aprendí mucho con el fenomenal [ensayo de Sebastián Guidi](https://lacritica.ar/post/penal-juvenil-opinion-publica/), me preocupé bastante por la asimilación de la que advierte [Roberto Gargarella](https://lacritica.ar/post/una-vez-mas/), me hizo mucho sentido la apelación a la “justicia retributiva” de [Tomás Fernández Fiks](https://lacritica.ar/post/una-defensa-inc%C3%B3moda-de-la-justicia-retributiva/). “Veo en parte” lo que ellos ven, como diría Catupecu Machu, pero también noto algo implícito en sus argumentos, esa magia veneno de la contradicción de los reformadores, “entre lo dicho y lo hecho.” 
 
-Nos prometieron “penas de adultos, para delito de adultos” (asimilación, para Gargarella). No sin insistir que “solo era para **delitos graves,** como el homicidio” (siguiendo lo que piden las encuestas, según la hipótesis de Guidi). Sin embargo, los reformadores diseñaron y votaron un proyecto por el cual los menores NO tendrán la misma pena que los adultos, justo, en los **delitos graves;** y, en cambio, serán excepcionalmente perseguidos, y sí con las mismas penas, por los delitos leves. ¿Qué pensará F. Fink de esta desigualdad retributiva en el castigo? 
+Nos prometieron “penas de adultos, para delito de adultos” (asimilación, para Gargarella). No sin insistir que “solo era para *delitos graves*, como el homicidio” (siguiendo lo que piden las encuestas, según la hipótesis de Guidi). Sin embargo, los reformadores diseñaron y votaron un proyecto por el cual los menores *no* tendrán la misma pena que los adultos, justo, en los *delitos graves*; y, en cambio, serán excepcionalmente perseguidos, y sí con las mismas penas, por los delitos leves. ¿Qué pensará F. Fink de esta desigualdad retributiva en el castigo? 
 
-Si como cuenta Sebastián G., los menores serán más perseguidos que los mayores en ciertos casos, ya que se obliga al fiscal a hacerlo, y a la vez no pueden recibir una pena que sea mayor de 15 años (porque es el estándar constitucional que no pudieron evadir), entonces, la combinación es **puro veneno**: Más persecución a menores por delitos leves con penas de adultos, y los menores que cometen delitos graves, en cambio, no tendrán la misma sanción que los mayores (por suerte). 
+Si como cuenta Sebastián G., los menores serán más perseguidos que los mayores en ciertos casos, ya que se obliga al fiscal a hacerlo, y a la vez no pueden recibir una pena que sea mayor de 15 años (porque es el estándar constitucional que no pudieron evadir), entonces, la combinación es *puro veneno*: Más persecución a menores por delitos leves con penas de adultos, y los menores que cometen delitos graves, en cambio, no tendrán la misma sanción que los mayores (por suerte). 
 
 “De lo oscuro hacia la luz”, ejemplificaría con el menor que comete un homicidio, o el que comete un robo calificado. Nunca podrá tener una condena de más de 15 años en prisión. De modo que armar chicos y mandarlos a matar todavía puede ser un buen negocio para el jefe narco, *certeris paribus* un adulto (si la razón para hacerlo fuera su menor punibilidad, como sostienen algunoxs). En cambio, siguiendo el ejemplo de Sebas, el adolescente de 14 años que falsificó su documento para entrar a un boliche, arriesga seriamente ir a la cárcel si además se le ocurre pintar un grafitti en la puerta del boliche. Y acá lo burdo del asunto: Dos tonterías acumuladas se anteponen en la cartera de casos del fiscal, porque está obligado. Decantarán condenas no por su peso, sino por el orden de obligación que impone la nueva regla de persecución desigual a la fiscalía. Me da la sensación de que la justicia retributiva, empezaría a heder injusticia distributiva. 
 
-{{<https://www.youtube.com/watch?v=GqqE8KI7QlQ>}}
+{{< https://www.youtube.com/watch?v=GqqE8KI7QlQ >}}
 
-**Los finales abiertos**
+# Los finales abiertos
 
 No me interesa denunciar la traición a las promesas que hicieron los reformistas. En lo que pienso es en los efectos colaterales de la contradicción “entre lo dicho y lo hecho”. El más claro de esos efectos es el aumento de delitos leves en la cartera de casos del Ministerio Público Fiscal, y en los expedientes de Tribunales Penales. Ese aumento no es gratis ¿Qué pasa si no se asignan recursos extras al Poder Judicial para procesar a los nuevos delincuentes?, y ¿al Ministerio Fiscal para perseguir de la forma indeclinable e irreflexiva que les indica la nueva ley?, La implementación de esta ley sin recursos ¿arriesga empeorar la persecución penal a otros delitos? ¿Va aumentar el retardo de la justicia penal en casos más graves? El financiamiento no puede faltar.
 
@@ -42,9 +42,10 @@ Todo nuevo comienzo, no obstante, siempre puede verse como una nueva oportunidad
 Por último, es intrigante saber ¿cuál será la tecnología jurídica del gobierno para reglamentar esta ley? Probablemente una que considere el peligro razonable de que una medida cautelar suspenda la aplicación de la ley hasta tanto se aseguren los recursos. Es que el peligro en la demora en un caso así, es tan indudablemente grave, que pocos jueces estarían dispuestos a guardarlo en su cajón de responsabilidades. Vale tener en cuenta ahora, esa "innovadora" tecno jurídica que el gobierno puso a rodar para no tener que implementar las leyes de discapacidad y de presupuesto universitario. Eso de que “una ley sin recursos asignados por el Congreso no se ejecuta.” ¿Se le dara vuelta este argumento en contra? Podrá decir "yo ejecuto leyes sin presupuesto cuando quiero".
 
 Ojo, que hipotética la medida cautelar que tengo en mente, podría ser la antesala de una acción declarativa de certeza. Una que busque marcar las condiciones financieras para que se pueda implementar una ley como esta. Y si un juez hiciera lugar a algo de esta lógica, ¿cúantos progresistas saltarán a deslegitimar la decisión, en base a la razón deliberativa del congreso? ¿Cuántos conservadores traicionarían su lealtad liberal al artículo 18 de la Constitución Nacional para reclamar deferencia en este caso? Para todo hay un botón, lo se, por eso pregunto cuantos (y no cuantas, porque seguro no se aplica). 
+
 Pero si una decisión judicial indicara que se determinen racionalmente los mínimos de financiamiento para implementarla, hay que preguntarse ¿Cuántas órdenes judiciales más puede seguir incumpliendo el ejecutivo? Todo suma señora, decía el almacenero cuando pasa la cuenta del fiado. ¿Cuántos flancos más puede abrir este gobierno sin pisar la cornisa de condenas penales por incumplimiento de sentencia? Nunca hubo un juicio político por ese tipo de condenas. Pero son esas, las que te esperan piolas, en la puerta de Casa Rosada, y te miran desde afuera, como el personaje del encargado de Francella, esperando que te quites la banda. Final abierto, si los hay…
 
-**Punibilidad e Imputabilidad**
+# Punibilidad e Imputabilidad
 
 En serio no entiendo mucho de derecho penal. Por eso me cuesta entender la discusión acerca de si la reforma pretende bajar la edad de “imputabilidad”, o lo que baja es la edad de “punibilidad”. En argumentos como los de Fernández Fink parece claro que si fueras imputable, deberías ser punible (hacerte responsable). Sin embargo, como constitucionalista, para mi la distinción puede ser más relevante que la mera separación entre el género y la especie. 
 
@@ -63,7 +64,7 @@ En fin, las condiciones sociales cambian, y con ellas, nuestra percepción de lo
 
 Sin embargo, tiendo a creer que hay un salto lógico-jurídico desde su imputabilidad a su punibilidad. Nosotros, la comunidad política argentina, podemos dejar atrás la presunción de inimputabilidad de los menores. Así funcionan los cambios en nuestra república. Pero NO podemos hacerlos punibles sin hacerlos parte activa de la comunidad política. Ellos no son responsables ante nosotros, a menos que garanticemos sus derechos políticos. 
 
-**No hay autoridad punitiva sin comunidad política**
+# No hay autoridad punitiva sin comunidad política
 
 Ya editaba estas notas, cuando me tope con la frase de Máximo Lanusse: “*Toda autonomía supone vulnerabilidad y toda autoridad, comunidad”.* (La nota de Max a publicarse con la mía, es una delicia, sin desperdicios)
 
@@ -84,7 +85,5 @@ Hoy los adolescentes de 14 años no votan porque los consideramos aún demasiado
 Ahora, si cayera esa presunción de inmadurez e irresponsabilidad en el sistema penal, ¿cómo se seguiría sosteniendo en el sistema político? Sin presunción de falta de autonomía, los jóvenes son habitantes proscritos. Y mientras estén proscritos, no son punibles, sólo son el objeto de la fuerza ilegítima.
 
 Si queremos aplicar “nuestra” ley penal y fiscal a los jóvenes, asignándoles madurez y responsabilidad suficiente para entenderla, pero no le permitimos que voten o sean elegibles como representantes, estamos resquebrajando las bases de nuestra mágica república, con una ley envenenada. 
-
-
 
 [^1]:  Esta es una alegoría al tema homónimo del grupo de rock Catupecu Machu.
