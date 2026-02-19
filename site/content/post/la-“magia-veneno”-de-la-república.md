@@ -27,7 +27,7 @@ Si como cuenta Sebastián G., los menores serán más perseguidos que los mayore
 
 “De lo oscuro hacia la luz”, ejemplificaría con el menor que comete un homicidio, o el que comete un robo calificado. Nunca podrá tener una condena de más de 15 años en prisión. De modo que armar chicos y mandarlos a matar todavía puede ser un buen negocio para el jefe narco, *certeris paribus* un adulto (si la razón para hacerlo fuera su menor punibilidad, como sostienen algunoxs). En cambio, siguiendo el ejemplo de Sebas, el adolescente de 14 años que falsificó su documento para entrar a un boliche, arriesga seriamente ir a la cárcel si además se le ocurre pintar un grafitti en la puerta del boliche. Y acá lo burdo del asunto: Dos tonterías acumuladas se anteponen en la cartera de casos del fiscal, porque está obligado. Decantarán condenas no por su peso, sino por el orden de obligación que impone la nueva regla de persecución desigual a la fiscalía. Me da la sensación de que la justicia retributiva, empezaría a heder injusticia distributiva. 
 
-{{< https://www.youtube.com/watch?v=GqqE8KI7QlQ >}}
+{{< youtube id="GqqE8KI7QlQ" >}}
 
 # Los finales abiertos
 
