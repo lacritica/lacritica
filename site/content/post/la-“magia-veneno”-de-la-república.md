@@ -84,6 +84,6 @@ Hoy los adolescentes de 14 años no votan porque los consideramos aún demasiado
 
 Ahora, si cayera esa presunción de inmadurez e irresponsabilidad en el sistema penal, ¿cómo se seguiría sosteniendo en el sistema político? Sin presunción de falta de autonomía, los jóvenes son habitantes proscritos. Y mientras estén proscritos, no son punibles, sólo son el objeto de la fuerza ilegítima.
 
-Si queremos aplicar “nuestra” ley penal y fiscal a los jóvenes, asignándoles madurez y responsabilidad suficiente para entenderla, pero no le permitimos que voten o sean elegibles como representantes, estamos resquebrajando las bases de nuestra mágica república, con una ley envenenada. 
+Si queremos aplicar “nuestra” ley penal y fiscal a los adolescentes, asignándoles madurez y responsabilidad suficiente para entenderla, pero no le permitimos que voten o sean elegibles como representantes, estamos resquebrajando las bases de nuestra mágica república, con una ley envenenada. 
 
 [^1]:  Esta es una alegoría al tema homónimo del grupo de rock Catupecu Machu.
