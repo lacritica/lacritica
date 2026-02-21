@@ -65,7 +65,7 @@ Es difícil seguir sosteniendo que los adolescentes de 14 años no comprenden la
 
 En fin, las condiciones sociales cambian, y con ellas, nuestra percepción de los más jóvenes. Así, la regla que los hace inimputables de forma general, y que se asienta en la presunción de su falta de entendimiento y autonomía de decisión, se percibe ahora, injusta,  y asentada en una presunción falsa. En este contexto, quizás no el ideal, la república permite activar el sentido de justicia retributiva al que apela F. Fink.
 
-Sin embargo, tiendo a creer que hay un salto lógico-jurídico desde reconocer su imputabilidad hacia pretender su punibilidad. Nosotros, la comunidad política argentina, podemos dejar atrás la presunción de inimputabilidad de los adolescentes, de la misma manera que la creamos. Así funcionan los cambios en nuestra república. Pero NO podemos hacerlo punibles sin hacerlos parte activa de la comunidad política. Ellos no son responsables ante nosotros, a menos que garanticemos sus derechos políticos. 
+Sin embargo, tiendo a creer que hay un salto lógico-jurídico entre reconocer su imputabilidad y pretender su punibilidad. Nosotros, la comunidad política argentina, podemos dejar atrás la presunción de inimputabilidad de los adolescentes, de la misma manera que la creamos. Así funcionan los cambios en nuestra república. Pero NO podemos hacerlo punibles sin que sean parte activa de la comunidad política. Ellos no son responsables ante nosotros, a menos que garanticemos sus derechos políticos. 
 
 # No hay autoridad punitiva sin comunidad política
 
