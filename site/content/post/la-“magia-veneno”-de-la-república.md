@@ -16,9 +16,9 @@ exclude_thumbnail_from_body: true
 
 No entiendo suficiente de derecho penal, ni de política criminal o de seguridad. Sin embargo, arrimo mi lente constitucional para comentar lo que leí sobre el proyecto de Reforma del Régimen Penal Juvenil. Y por ahí, para proponer otra perspectiva para pensar. 
 
-El proyecto que ya tiene media sanción, esta mostrando lo que podría nombrase como la "magia-veneno" de nuestra República. Esa hermosa ambivalencia de los valores republicanos, desde los que se legitima la coacción legítima, no como fuerza que causa dolor, sino como justicia retributiva sobre los miembros, libres e iguales, de una comunidad política. 
+El proyecto que ya tiene media sanción, esta mostrando lo que podría nombrase como la "magia-veneno" de nuestra República. Esa hermosa ambivalencia de los valores republicanos, desde los que se legitima la coacción legítima, no como fuerza que causa dolor, sino como justicia pública sobre los miembros, libres e iguales, de una comunidad política. 
 
-Con se lente constitucional entiendo que NO es constitucional hacer punibles a sujetos que, aunque imputables, siguen privados de derechos políticos. Y si la ley no prevé sus costos, y asignación de financiamiento para cubrirlos, quizás no consiga aplicarse. Sobre estas dos ideas argumento aquí.
+Con este lente entiendo que podría NO ser constitucional hacer punibles a sujetos que, aunque imputables, están privados de derechos políticos. Pero para empezar habrá que decir que si la ley no prevé sus costos, y financiamiento acorde, su aplicación va a estar en fuerte entredicho. Sobre estos dos asuntos, argumento aquí.
 
 # Entre lo dicho y lo hecho…
 
