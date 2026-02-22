@@ -7,10 +7,7 @@ author:
 thumbnail:
   - src: https://pbs.twimg.com/media/HBwYGgkakAA3SDS?format=jpg&name=medium
 ---
-
-Ayer fue el aniversario del nacimiento de John Rawls (21 de febrero de 1921, Baltimore, EE.UU. -  
-24 de noviembre de 2002, Lexington, Massachusetts, EE.UU,) y en la ancha y honda web vimos circular esto. 
- 
+Ayer fue el aniversario del nacimiento de John Rawls (21 de febrero de 1921, Baltimore, EE.UU. - 24 de noviembre de 2002, Lexington, Massachusetts, EE.UU,) y en la ancha y honda web vimos circular esto. 
 
 **Para:** John Rawls 
 
