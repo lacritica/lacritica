@@ -20,7 +20,7 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
-publicado_originalmente_en: Publicado originalmente en "El Derecho", diario del 24 de febrero de 2003.
+publicado_originalmente_en: Revista "El Derecho", diario del 24 de febrero de 2003.
 ---
 **1. El plan Marshall** 
 
