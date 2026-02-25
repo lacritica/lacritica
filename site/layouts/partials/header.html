@@ -60,7 +60,8 @@
     {{ partial "head_custom.html" . }}
   </head>
 
-  <body{{ if .IsPage }} class="page"{{ end }}>
+  {{ $themeClass := partial "hero_theme_class.html" . }}
+  <body class="{{ if .IsPage }}page {{ end }}{{ $themeClass }}">
     <header class="header">
       <div class="banner">
         <a href="{{ "/" | relURL }}" class="logo-link">

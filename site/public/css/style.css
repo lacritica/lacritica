@@ -48,6 +48,184 @@
   --success: #3B8C6E;
   --warning: #F5B700;
   --error: #D7263D;
+
+  /* Dynamic home hero theming defaults */
+  --hero-theme-bg: var(--base-bg);
+  --hero-theme-nav-bg: var(--accent-blue);
+  --hero-theme-nav-text: var(--base-bg);
+  --hero-theme-border: #d35f5f;
+  --hero-card-bg: #f9f9f9;
+  --hero-title: #7a1f2a;
+  --hero-accent: var(--accent-burgundy);
+}
+
+/* Monday/Tuesday rotating palettes (held from Tuesday through Sunday) */
+body.theme-1 {
+  --hero-theme-bg: #f0dfc9;
+  --hero-theme-nav-bg: #1f2f66;
+  --hero-theme-nav-text: #fff7ea;
+  --hero-theme-border: #bf4f45;
+  --hero-card-bg: #f0dfc9;
+  --hero-title: #8a1f35;
+  --hero-accent: #a32136;
+}
+
+body.theme-2 {
+  --hero-theme-bg: #e8dcc9;
+  --hero-theme-nav-bg: #5c1f36;
+  --hero-theme-nav-text: #fff3e3;
+  --hero-theme-border: #bf7342;
+  --hero-card-bg: #e8dcc9;
+  --hero-title: #8f1f2a;
+  --hero-accent: #7a1a2a;
+}
+
+body.theme-3 {
+  --hero-theme-bg: #d7dfd3;
+  --hero-theme-nav-bg: #114f5c;
+  --hero-theme-nav-text: #eef9f6;
+  --hero-theme-border: #4f7f63;
+  --hero-card-bg: #d7dfd3;
+  --hero-title: #5a1f1f;
+  --hero-accent: #6f2525;
+}
+
+body.theme-4 {
+  --hero-theme-bg: #ead6cf;
+  --hero-theme-nav-bg: #4b2b74;
+  --hero-theme-nav-text: #faefe9;
+  --hero-theme-border: #c14e63;
+  --hero-card-bg: #ead6cf;
+  --hero-title: #7a1635;
+  --hero-accent: #911b44;
+}
+
+body.theme-5 {
+  --hero-theme-bg: #d7ddd3;
+  --hero-theme-nav-bg: #0f4f44;
+  --hero-theme-nav-text: #ecf8f3;
+  --hero-theme-border: #9a5a2f;
+  --hero-card-bg: #d7ddd3;
+  --hero-title: #6e1d1d;
+  --hero-accent: #7f2236;
+}
+
+body.theme-6 {
+  --hero-theme-bg: #e5d5c5;
+  --hero-theme-nav-bg: #233f74;
+  --hero-theme-nav-text: #fff4e8;
+  --hero-theme-border: #bf4a3f;
+  --hero-card-bg: #e5d5c5;
+  --hero-title: #8a2228;
+  --hero-accent: #992a30;
+}
+
+body.theme-dynamic .header .banner,
+body.theme-dynamic .hero-grid {
+  background-color: var(--hero-card-bg) !important;
+}
+
+body.theme-dynamic .taxonomy-bar {
+  background-color: var(--hero-theme-nav-bg);
+  border-bottom-color: var(--hero-theme-border);
+  border-top-color: var(--hero-theme-border);
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+body.theme-dynamic .taxonomy-bar li a {
+  color: var(--hero-theme-nav-text);
+}
+
+body.theme-dynamic .header .banner,
+body.theme-dynamic .taxonomy-bar {
+  position: relative;
+  isolation: isolate;
+}
+
+body.theme-dynamic .header .banner::before,
+body.theme-dynamic .taxonomy-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+body.theme-dynamic .header .banner::before {
+  background-color: var(--hero-card-bg);
+}
+
+body.theme-dynamic .taxonomy-bar::before {
+  background-color: var(--hero-theme-nav-bg);
+}
+
+body.theme-dynamic .hero-grid > * {
+  background-color: var(--hero-card-bg);
+}
+
+body.theme-dynamic .hero-feature {
+  background-color: var(--hero-card-bg);
+  margin-left: 0;
+  border-left-color: var(--hero-theme-border);
+  border-right-color: var(--hero-theme-border);
+}
+
+body.theme-dynamic .hero-grid .article,
+body.theme-dynamic .hero-grid .featured-content,
+body.theme-dynamic .hero-grid .hero-column,
+body.theme-dynamic .hero-grid .hero-feature {
+  background-color: var(--hero-card-bg) !important;
+}
+
+body.theme-dynamic .hero-grid h1 a {
+  color: var(--hero-title) !important;
+}
+
+body.theme-dynamic .hero-grid .categories a,
+body.theme-dynamic .hero-grid .author a,
+body.theme-dynamic .hero-grid .author,
+body.theme-dynamic .hero-grid .date {
+  color: var(--hero-accent) !important;
+}
+
+body.theme-dynamic #content .article-layout .article-sidebar {
+  background-color: var(--hero-card-bg);
+}
+
+@media (min-width: 901px) {
+  body.theme-dynamic #content .article-layout {
+    align-items: stretch;
+  }
+
+  body.theme-dynamic #content .article-layout .article-sidebar {
+    position: relative;
+    z-index: 0;
+  }
+
+  body.theme-dynamic #content .article-layout .article-sidebar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: calc(50% - 50vw);
+    background-color: var(--hero-card-bg);
+    z-index: -1;
+  }
+}
+
+body.theme-dynamic main.homepage {
+  padding-top: 0;
+}
+
+body.theme-dynamic .hero-grid {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 
@@ -67,6 +245,7 @@ main.homepage {
 }
 
 body {
+  margin: 0;
   background-color: var(--base-bg);
   font-family: 'Averia Serif Libre', system-ui, -apple-system, sans-serif !important;
   font-size: 1.1rem;
@@ -127,8 +306,22 @@ body {
   width: min(100% - 2rem, 1600px);
   margin-inline: auto;
   background-color: var(--base-bg);
+  position: relative;
+  isolation: isolate;
   grid-template-areas:
     "column1 feature column2";
+}
+
+body.theme-dynamic .hero-grid::before {
+  content: "";
+  position: absolute;
+  top: -1.2rem;
+  bottom: -1.2rem;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background-color: var(--hero-card-bg);
+  z-index: -1;
 }
 
 .hero-column:nth-of-type(1) { grid-area: column1; }
@@ -400,7 +593,7 @@ body {
   max-width: 1000px;
   width: 100%;
   gap: 2rem;
-  margin-top: -2rem;  /* remove top margin */
+  margin-top: 1.2rem;
 }
 
 
@@ -902,9 +1095,9 @@ body {
 
 
 
-/* Container for author list */
-.hero-column .post-author .author-name {
-  font-size: .8rem;
+/* Hero grid author sizing */
+.hero-grid .post-author .author-name {
+  font-size: .52rem !important;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif !important;
   font-weight: 600;
@@ -983,10 +1176,10 @@ body {
 
 
 /* Each author link / name */
-.hero-column .post-author .author-link {
+.hero-grid .post-author .author-link {
   white-space: nowrap;  /* keep individual names together */
   display: inline-block; /* allows wrapping at commas / spaces between authors */
-  font-size: 1em;
+  font-size: 1.2rem;
   font-family: 'Jost', serif !important;
   font-weight: 600;
   color: var(--accent-burgundy);
@@ -1350,7 +1543,7 @@ body {
   justify-content: center;
   gap: 2rem;
   margin-top: 0rem;
-  margin-bottom: 4rem;
+  margin-bottom: 0;
 }
 
 #content .article-layout .article-sidebar {
@@ -2663,6 +2856,10 @@ body {
 
 
 /* footer */
+
+footer {
+  margin-top: 0;
+}
 
 .footer {
   margin-top: 0rem;

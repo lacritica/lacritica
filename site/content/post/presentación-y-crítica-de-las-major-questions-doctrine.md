@@ -10,13 +10,13 @@ author:
   - Roberto Gargarella
 thumbnail:
   - src: /img/whatsapp-image-2026-02-21-at-14.28.55.jpeg
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
 Presentación y crítica de la Major Questions Doctrine, a partir del fallo Learning Resources, Inc. v. Trump
 
-## De la doctrina de la non-delegation a la de la major questions 
+## De la doctrina de la non-delegation a la de la major questions
 
 En el reciente caso sobre los aranceles establecidos por Trump -“[*Learning Resources, Inc. v. Trump*”](https://www.supremecourt.gov/opinions/25pdf/24-1287_4gcj.pdf), del 20 de febrero de 2026- la Corte norteamericana sostuvo que la mayoría de los aranceles fijados por el Presidente norteamericano en el último año son inconstitucionales. La mayoría de la Corte (en un fallo 6-3, liderado por el Juez Roberts) afirmó lo propio a través de un fallo en donde invocó, centralmente, el principio de la división de poderes y, para su sostén, la fortalecida doctrina de las “cuestiones mayores”. En lo que sigue, quiero presentar esta renovada doctrina, y luego examinarla críticamente, desde una perspectiva informada por una visión dialógica de la democracia. Desde esta visión, sostendré que hay muy buenas razones para recortar los poderes del Presidente (acompañando, entonces, al fondo del fallo), pero no, justamente, las expuestas por la Corte.
 

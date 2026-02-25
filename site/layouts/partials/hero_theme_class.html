@@ -1,0 +1,21 @@
+{{- $today := now -}}
+{{- $weekday := $today | time.Format "Monday" -}}
+{{- $anchor := $today -}}
+
+{{- if eq $weekday "Wednesday" -}}
+  {{- $anchor = $today.AddDate 0 0 -1 -}}
+{{- else if eq $weekday "Thursday" -}}
+  {{- $anchor = $today.AddDate 0 0 -2 -}}
+{{- else if eq $weekday "Friday" -}}
+  {{- $anchor = $today.AddDate 0 0 -3 -}}
+{{- else if eq $weekday "Saturday" -}}
+  {{- $anchor = $today.AddDate 0 0 -4 -}}
+{{- else if eq $weekday "Sunday" -}}
+  {{- $anchor = $today.AddDate 0 0 -5 -}}
+{{- end -}}
+
+{{- $year := int ($anchor | time.Format "2006") -}}
+{{- $dayOfYear := int ($anchor | time.Format "002") -}}
+{{- $themeCount := 6 -}}
+{{- $themeIndex := add (mod (add (mul $year 13) (mul $dayOfYear 7)) $themeCount) 1 -}}
+theme-dynamic theme-{{ $themeIndex }}

@@ -21,7 +21,31 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-20T11:47:00-03:00</lastmod>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-crisis-estructural-del-dise%C3%B1o-politico-del-peru/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-penalizacion-de-la-biografia/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-02-22T19:16:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/perdon-rawls/</loc>
+    <lastmod>2026-02-22T19:16:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/mqd/</loc>
+    <lastmod>2026-02-21T14:30:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-02-20T11:47:00-03:00</lastmod>
@@ -29,17 +53,8 @@
     <loc>http://localhost:1313/post/la-magia-veneno-de-la-republica/</loc>
     <lastmod>2026-02-20T11:47:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-20T11:47:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-02-20T11:47:00-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/infancias-heridas/</loc>
     <lastmod>2026-02-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-02-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/martin-luther-king/</loc>
     <lastmod>2026-02-18T00:00:00+00:00</lastmod>
@@ -48,9 +63,6 @@
     <lastmod>2026-02-17T12:30:50+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/elegir-al-menos-malo/</loc>
-    <lastmod>2026-02-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-02-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/justicia-x-joni/</loc>
@@ -312,6 +324,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/abel_gilbert/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/adriana-soria/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/alberto-binder/</loc>
@@ -325,6 +339,8 @@
     <loc>http://localhost:1313/archivo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/camila_vicintin/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
   </url><url>
@@ -343,6 +359,8 @@
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/heber_joel_campos_bernal/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/ignacio-giuffr%C3%A9/</loc>
   </url><url>
