@@ -18,7 +18,7 @@ thumbnail:
       citaba Vélez Sarsfield en sus notas del Código. FOTO: Matthew Bisanz
       (Wikicommons)'
     copyright: ""
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 publicado_originalmente_en: Revista "El Derecho", diario del 24 de febrero de 2003.

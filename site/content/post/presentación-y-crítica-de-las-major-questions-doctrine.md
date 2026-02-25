@@ -10,7 +10,7 @@ author:
   - Roberto Gargarella
 thumbnail:
   - src: /img/whatsapp-image-2026-02-21-at-14.28.55.jpeg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
