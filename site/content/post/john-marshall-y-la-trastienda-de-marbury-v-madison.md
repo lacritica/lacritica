@@ -15,8 +15,9 @@ thumbnail:
       detalle: el escultor de esa estatua es William Wetmore Story, hijo de
       Joseph Story, compañero en la Corte de Marshall, autor del "Commentaries
       on the Constitution" y de ese bendito "Conflict of laws" que tantas veces
-      citaba Vélez Sarsfield en sus notas del Código.'
-    copyright: Matthew Bisanz (Wikicommons)
+      citaba Vélez Sarsfield en sus notas del Código. FOTO: Matthew Bisanz
+      (Wikicommons)'
+    copyright: ""
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
@@ -24,7 +25,7 @@ publicado_originalmente_en: Revista "El Derecho", diario del 24 de febrero de 20
 ---
 **1. El plan Marshall** 
 
-Hay una observación que Bernard Schwartz pone al principio de su Historia de la Suprema Corte Norteamericana, donde postula que los distintos sistemas legales pueden  analizarse a partir de los caracteres personales de los grandes “hacedores de leyes”, *lawgivers*. En otros sistemas, han sido monarcas poderosos como Hammurabi y Justiniano,  profetas de inspiración divina como Moisés, filósofos como Confucio, profesores como  Hugo Grocio y William Blackstone; entre nosotros –dice Schwartz– la figura prominente es  John Marshall. Ese detalle es altamente revelador del sistema legal norteamericano.  [^fn1]   
+Hay una observación que Bernard Schwartz pone al principio de su Historia de la Suprema Corte Norteamericana, donde postula que los distintos sistemas legales pueden  analizarse a partir de los caracteres personales de los grandes “hacedores de leyes”, *lawgivers*. En otros sistemas, han sido monarcas poderosos como Hammurabi y Justiniano,  profetas de inspiración divina como Moisés, filósofos como Confucio, profesores como  Hugo Grocio y William Blackstone; entre nosotros –dice Schwartz– la figura prominente es  John Marshall. Ese detalle es altamente revelador del sistema legal norteamericano. [^1]   
 
 Es que [John Marshall](https://es.wikipedia.org/wiki/John_Marshall) (1755-1835) fue, sin duda, el gran juez de ese tribunal. A diferencia de Gorostiaga, que sería su paralelo argentino, no llegó a la  Corte con un currículum impresionante, más allá de haber participado con cierto relieve en  los debates de ratificación de la Constitución y ser un protegido político de George  Washington (cuyos herederos le encargarían luego la biografía “oficial”, de la que Marshall  –ya en la Corte– se encargó más que nada porque necesitaba el dinero, y que a pesar de constar de cinco tomos resultó bastante deficiente). 
 
@@ -88,7 +89,7 @@ Doscientos años después seguimos discutiendo cosas que a Marshall le  parecía
 
 Lo que es más, Marshall apoya su petición de principio en un despliegue razonativo  que no aparece necesario ni pertinente para decidir el caso. Ello nos lleva a una conclusión:  tanta insistencia en el poder de la Corte (que ésta, en verdad, se autoarrogaba) era en  realidad una advertencia a los otros poderes que trascendía el asunto que se estaba  decidiendo.  
 
-Esta doctrina le permitió a Marshall evitar respaldar al cuestionado nombramiento  (como dice Nino, evitando generar un conflicto de poderes del que habría salido perdidosa),  pero al mismo tiempo condicionar aún más intensamente al nuevo gobierno, que en lo  sucesivo tendría pendiente sobre su cabeza la posibilidad de que la Corte Suprema  declarare inconstitucionales las leyes del Congreso y sus propios actos. Puede decirse  además que Marshall tiró la piedra y escondió la mano, porque pocos días después la Corte  aceptó la constitucionalidad de la Ley Judicial de 1802, por la que la legislatura controlada  por Jefferson revocó la reducción de miembros que se había dispuesto en el último período  de la presidencia saliente de Adams, de manera que la Corte seguiría teniendo seis  miembros.  
+Esta doctrina le permitió a Marshall evitar respaldar al cuestionado nombramiento (como dice Nino, evitando generar un conflicto de poderes del que habría salido perdidosa),  pero al mismo tiempo condicionar aún más intensamente al nuevo gobierno, que en lo  sucesivo tendría pendiente sobre su cabeza la posibilidad de que la Corte Suprema  declarare inconstitucionales las leyes del Congreso y sus propios actos. Puede decirse  además que Marshall tiró la piedra y escondió la mano, porque pocos días después la Corte  aceptó la constitucionalidad de la Ley Judicial de 1802, por la que la legislatura controlada  por Jefferson revocó la reducción de miembros que se había dispuesto en el último período  de la presidencia saliente de Adams, de manera que la Corte seguiría teniendo seis  miembros.  
 
 **5. Después de *Marbury*** 
 
@@ -100,7 +101,7 @@ Me permito cerrar estas líneas con una última advertencia, planteada en el ter
 
 \---
 
-[fn^1]: Bernard Schwartz, *A history of the Supreme Court,* Oxford University Press, 1993, p. 32. Los nombres que  menciona corresponden a algunos de los dieciocho personajes representados en los frontispicios de las  paredes norte y sur del edificio de la Corte Suprema. John Marshall es el único estadounidense entre todos  esos célebres juristas.
+[^1]: Bernard Schwartz, *A history of the Supreme Court,* Oxford University Press, 1993, p. 32. Los nombres que  menciona corresponden a algunos de los dieciocho personajes representados en los frontispicios de las  paredes norte y sur del edificio de la Corte Suprema. John Marshall es el único estadounidense entre todos  esos célebres juristas.
 
 [fn^2]: Albert Jeremiah Beveridge, *The life of John Marshall,* Boston, Houghton Mifflin, 1916-1919. Otras  biografías importantes son las de Leonard Baker (*John Marshall: A life in Law*, New York, Macmillan, 1974)  y de Edward S. Corwin (*John Marshall and the Constitution: A chronicle of the Supreme Court*, New Haven,  Yale University Press, 1919).
 
