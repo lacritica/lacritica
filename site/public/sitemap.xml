@@ -21,21 +21,30 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/la-crisis-estructural-del-dise%C3%B1o-politico-del-peru/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-penalizacion-de-la-biografia/</loc>
-    <lastmod>2026-02-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-02-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-fal/</loc>
+    <lastmod>2026-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-02-24T15:49:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/marshall-marbury/</loc>
+    <lastmod>2026-02-24T15:49:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-crisis-estructural-del-dise%C3%B1o-politico-del-peru/</loc>
     <lastmod>2026-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
@@ -46,9 +55,6 @@
   </url><url>
     <loc>http://localhost:1313/post/mqd/</loc>
     <lastmod>2026-02-21T14:30:00+01:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-02-20T11:47:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-magia-veneno-de-la-republica/</loc>
     <lastmod>2026-02-20T11:47:00-03:00</lastmod>
@@ -380,6 +386,10 @@
   </url><url>
     <loc>http://localhost:1313/autores/lilia-alonso/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/luciana_noelia_ginga/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/marco_gaiero/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-luisa-pique/</loc>
@@ -389,6 +399,8 @@
     <loc>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/mario-ackerman/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/martin-farrell/</loc>
   </url><url>
@@ -409,6 +421,8 @@
     <loc>http://localhost:1313/autores/owen-fiss/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/pablo_alabarces/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/patricio_mendez_montenegro/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/pedro-caminos/</loc>
   </url><url>
