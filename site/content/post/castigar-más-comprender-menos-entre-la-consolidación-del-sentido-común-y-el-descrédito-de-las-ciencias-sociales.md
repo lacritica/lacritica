@@ -8,12 +8,13 @@ description: "Políticas legislativas reactivas, dedicadas a la gestión de la
 categories:
   - ensayos
 author:
-  - Gustavo Maurino
+  - Luciana Noelia Ginga
+  - Marco Gaiero
 thumbnail:
   - src: /img/a.jpeg
 highlight: false
 highlight2: false
-exclude_thumbnail_from_body: false
+exclude_thumbnail_from_body: true
 callouts: []
 ---
 En contextos de gobiernos de extrema derecha, como el que fue electo en diciembre de 2023 en Argentina, la voracidad por castigar se vuelve explícita y desembozada. Aunque no siempre se logra, estos sectores políticos no cesan de intentarlo. En febrero de 2026 en Argentina se debate la reforma del Régimen Penal Juvenil para bajar de la edad de punibilidad de niños/as y adolescentes a 14 años impulsada por el Poder Ejecutivo Nacional. 
@@ -30,7 +31,7 @@ Ahora bien, por qué es imperioso acudir a las Ciencias Sociales para entender. 
 
 En este sentido, es pertinente abordar los causantes de dicha reforma, en relación con los tratamientos de las cuestiones en materia de justicia y seguridad en nuestro país, así como mencionar el rol que las Ciencias Sociales deben llevar a cabo en los tiempos actuales.
 
-***Punitivismo, reduccionismo y sensacionalismo: opinión y dramatismo mata al dato*** 
+# Punitivismo, reduccionismo y sensacionalismo: opinión y dramatismo mata al dato
 
 Los casos de jóvenes que han cometido delitos graves son resonantes y revisten una importancia que no pretendemos soslayar. En Rosario en 2024, por ejemplo, un joven ingresó a una estación de servicio y asesinó a quemarropa a uno de los trabajadores -Bruno Bussanich- en el marco de una oleada de asesinatos que sucedieron en la ciudad (Maggi, 2024). También el asesinato de la niña Kim Gómez en La Plata en febrero de 2025, donde dos jóvenes de 17 y 14 años roban el auto que conducía la madre de Kim, con ella en el asiento trasero ubicada con cinturón de seguridad. Como no pudieron despedir a la niña del auto porque quedó enganchada con el cinturón, la arrastraron más de un kilómetro y murió (La Nación, 2026). 
 
@@ -56,7 +57,7 @@ Dicha concepción es observable en el comportamiento de gran parte de la dirigen
 
 En otras palabras, en lugar de hablar de gestión de los asuntos de seguridad pública, se debe mencionar que dichas políticas parten de la “gestión de la emocionalidad” que estos hechos producen en distintos sectores de la sociedad y la necesidad de establecer “escenarios” favorables para la captación de votantes. Por lo tanto, los “diagnósticos” más que sustentarse en información cuantitativa o cualitativa que permita -con sus limitaciones- un conocimiento lo más certero posible a la realidad delictiva -en función de sus manifestaciones y heterogeneidades-, se basan en los resultados de diversos estudios de opinión pública, los cuáles carecen de los criterios teóricos y metodológicos aprobados para medir la denominada “sensación de inseguridad” (Kessler, 2009), y cuyo desarrollo tiene como disparador hechos con una alta carga emocional que no permiten -ni para aquellos/as que nos dedicamos a la investigación de estos asuntos- un abordaje certero y los más objetivo posible de estos asuntos. 
 
-***Las ciencias sociales en crisis. La importancia (e incomodidad) de comprender y problematizar***
+# Las ciencias sociales en crisis. La importancia (e incomodidad) de comprender y problematizar
 
 En un contexto en donde el “sentido común” se impone ante toda información producida en base a principios técnicos y científicos, en particular en lo referido a las violencias y a la seguridad, las ciencias sociales se encuentran en el banquillo de los acusados. En este sentido, se las suele considerar explícitamente como “defensoras” de delincuentes, terroristas o incivilizados (parafraseando a Lahire, 2016) al intentar, mediante sus distintos métodos y técnicas explicar, con igual rigurosidad, por qué un joven proveniente de un barrio marginal termina convirtiéndose en delincuente o cuáles son los hechos que llevan a que una persona del mismo origen social pueda terminar siendo un agente policial que -probablemente- ejecute prácticas de tortura o que se vincule a grupos criminales. 
 
@@ -66,7 +67,7 @@ En este sentido, las Ciencias Sociales, en su ambición de comprender, discuten 
 
 Por lo tanto, realizar producciones en Ciencias Sociales, en tiempos como en el que vivimos, debe ser considerada una suerte de activismo cuya función no es justificar la opinión de quienes la ejercen o adecuarse a lo considerado “políticamente correcto” por los sectores más ilustrados, sino poner a consideración otras maneras de comprender los hechos que generan una enorme preocupación social. Para tal fin, se debe valer de los criterios y rigurosidad metodológica de cualquier ciencia y buscar que dichos resultados o discusiones no se limiten a los ámbitos tradicionales de la academia. Por el contrario, es pertinente encontrar el lenguaje o manera que mejor se ajuste para interpelar a toda la ciudadanía, independientemente de su origen social o grado de formación académica, con el horizonte de problematizar sobre lo considerado “natural” y de hacer visible las innumerables desigualdades subyacentes al momento de pensar y ejecutar políticas públicas, principalmente, en materia de justicia y de seguridad.
 
-**Referencias bibliográficas**
+# Referencias bibliográficas
 
 Balonga, M. L. (2025, diciembre 28). El crimen de Jeremías Monzón en Santa Fe: más de 20 puñaladas, tres chicos implicados y videos del ataque. Infobae. [https://www.infobae.com/sociedad/policiales/2025/12/28/el-crimen-de-jeremias-monzon-en-santa-fe-mas-de-20-punaladas-tres-chicos-implicados-y-videos-del-ataque/](https://www.infobae.com/sociedad/policiales/2025/12/28/el-crimen-de-jeremias-monzon-en-santa-fe-mas-de-20-punaladas-tres-chicos-implicados-y-videos-del-ataque/?utm_source=chatgpt.com)
 
