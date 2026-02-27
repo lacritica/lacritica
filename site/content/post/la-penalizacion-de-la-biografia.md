@@ -2,7 +2,7 @@
 title: 'La penalización de la biografía'
 date: 2026-02-26
 description: 'Justicia y supervivencia en el abismo económico.'
-draft: true
+draft: false
 categories:
   - debates
 author:
