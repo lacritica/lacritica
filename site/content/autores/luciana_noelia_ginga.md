@@ -1,5 +1,5 @@
 ---
-title: Luciana Noelia Ginga
+title: Luciana Ginga
 bio: Investigadora de la Universidad Nacional de Rosario. Docente de la Facultad de
   Ciencia Política y Relaciones Internacionales (Universidad Nacional de Rosario).
   Integrante del Centro de Investigaciones en Seguridad Ciudadana (CISEC- FCPOLIT-

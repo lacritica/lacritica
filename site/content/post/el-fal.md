@@ -8,7 +8,7 @@ author:
   - Mario Ackerman
 thumbnail:
   - src: /img/gargarella_WhatsApp Image 2025-11-09 at 09.27.11.jpeg
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

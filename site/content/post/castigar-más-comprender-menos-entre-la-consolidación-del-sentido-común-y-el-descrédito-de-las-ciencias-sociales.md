@@ -1,14 +1,12 @@
 ---
-title: "Castigar más, comprender menos: Entre la consolidación del sentido común
-  y el descrédito de las Ciencias Sociales"
+title: "Castigar más, comprender menos"
 slug: castigar-comprender
-date: 2026-02-24T14:03:00.000-03:00
-description: "Políticas legislativas reactivas, dedicadas a la gestión de la
-  emocionalidad, sin base de evidencias "
+date: 2026-02-27
+description: "Entre la consolidación del sentido común y el descrédito de las Ciencias Sociales"
 categories:
   - ensayos
 author:
-  - Luciana Noelia Ginga
+  - Luciana Ginga
   - Marco Gaiero
 thumbnail:
   - src: /img/a.jpeg
