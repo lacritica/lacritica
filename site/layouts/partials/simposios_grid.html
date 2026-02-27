@@ -1,0 +1,133 @@
+{{ $section := site.GetPage "section" "simposios" }}
+
+{{ if and $section $section.Params.show }}
+  {{/* Orden por weight: original -> reacciones -> respuesta final */}}
+  {{ $columns := first 5 ($section.RegularPages.ByWeight) }}
+  {{ $count := len $columns }}
+
+  {{ if ge $count 3 }}
+    {{ $first := index $columns 0 }}
+    {{ $middle := first (sub $count 2) (after 1 $columns) }}
+    {{ $last := index $columns (sub $count 1) }}
+
+    <div class="simposio">
+      <div class="simposio-inner">
+        <section class="simposio-title">
+          <h1>{{ $section.Title }}</h1>
+        </section>
+
+        <section class="simposio-grid" style="--simposio-cols: {{ $count }};">
+          <article class="simposio-column simposio-column-original">
+            <p class="simposio-column-kicker">Texto original</p>
+            {{ with $first.Params.thumbnail }}
+              {{ $raw := . }}
+              {{ $thumb := dict }}
+
+              {{ if reflect.IsMap $raw }}
+                {{ $thumb = $raw }}
+              {{ else if reflect.IsSlice $raw }}
+                {{ $thumb = index $raw 0 }}
+              {{ else if (eq (printf "%T" $raw) "string") }}
+                {{ $thumb = dict "src" $raw }}
+              {{ end }}
+
+              {{ with $thumb.src }}
+                {{ $src := "" }}
+
+                {{ with $first.Resources.GetMatch . }}
+                  {{ $src = .RelPermalink }}
+                {{ else }}
+                  {{ $src = (. | relURL) }}
+                {{ end }}
+
+                <figure class="simposio-column-thumb">
+                  <img src="{{ $src }}" alt="{{ $first.Title }}">
+                </figure>
+              {{ end }}
+            {{ end }}
+            <h2 class="simposio-column-title">
+              <a href="{{ $first.RelPermalink }}">{{ $first.Title }}</a>
+            </h2>
+            {{ with $first.Params.author }}
+              <p class="simposio-column-author">por {{ partial "author_inline.html" $first }}</p>
+            {{ end }}
+          </article>
+
+          {{ range $index, $post := $middle }}
+            <article class="simposio-column simposio-column-reaction">
+              <p class="simposio-column-kicker">Reacci&oacute;n {{ add $index 1 }}</p>
+              {{ with $post.Params.thumbnail }}
+                {{ $raw := . }}
+                {{ $thumb := dict }}
+
+                {{ if reflect.IsMap $raw }}
+                  {{ $thumb = $raw }}
+                {{ else if reflect.IsSlice $raw }}
+                  {{ $thumb = index $raw 0 }}
+                {{ else if (eq (printf "%T" $raw) "string") }}
+                  {{ $thumb = dict "src" $raw }}
+                {{ end }}
+
+                {{ with $thumb.src }}
+                  {{ $src := "" }}
+
+                  {{ with $post.Resources.GetMatch . }}
+                    {{ $src = .RelPermalink }}
+                  {{ else }}
+                    {{ $src = (. | relURL) }}
+                  {{ end }}
+
+                  <figure class="simposio-column-thumb">
+                    <img src="{{ $src }}" alt="{{ $post.Title }}">
+                  </figure>
+                {{ end }}
+              {{ end }}
+              <h2 class="simposio-column-title">
+                <a href="{{ $post.RelPermalink }}">{{ $post.Title }}</a>
+              </h2>
+              {{ with $post.Params.author }}
+                <p class="simposio-column-author">por {{ partial "author_inline.html" $post }}</p>
+              {{ end }}
+            </article>
+          {{ end }}
+
+          <article class="simposio-column simposio-column-reply">
+            <p class="simposio-column-kicker">Respuesta a las cr&iacute;ticas</p>
+            {{ with $last.Params.thumbnail }}
+              {{ $raw := . }}
+              {{ $thumb := dict }}
+
+              {{ if reflect.IsMap $raw }}
+                {{ $thumb = $raw }}
+              {{ else if reflect.IsSlice $raw }}
+                {{ $thumb = index $raw 0 }}
+              {{ else if (eq (printf "%T" $raw) "string") }}
+                {{ $thumb = dict "src" $raw }}
+              {{ end }}
+
+              {{ with $thumb.src }}
+                {{ $src := "" }}
+
+                {{ with $last.Resources.GetMatch . }}
+                  {{ $src = .RelPermalink }}
+                {{ else }}
+                  {{ $src = (. | relURL) }}
+                {{ end }}
+
+                <figure class="simposio-column-thumb">
+                  <img src="{{ $src }}" alt="{{ $last.Title }}">
+                </figure>
+              {{ end }}
+            {{ end }}
+            <h2 class="simposio-column-title">
+              <a href="{{ $last.RelPermalink }}">{{ $last.Title }}</a>
+            </h2>
+            {{ with $last.Params.author }}
+              <p class="simposio-column-author">por {{ partial "author_inline.html" $last }}</p>
+            {{ end }}
+          </article>
+        </section>
+      </div>
+    </div>
+  {{ end }}
+{{ end }}
