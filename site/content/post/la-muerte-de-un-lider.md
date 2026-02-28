@@ -7,9 +7,9 @@ categories:
 author:
   - Catalina Pérez Correa
 thumbnail:
-  - src: '/img/WhatsApp Image 2026-02-27 at 5.57.06 PM.jpeg'
+  - src: '/img/WhatsApp Image 2026-02-28 at 5.10.35 AM.jpeg'
     epigraph: Hice parte de este paisaje usando una foto de las pertenencias que se encontraron en el Rancho Izaguirre en Teuchitlán, Jalisco. Izaguirre era usado por el CJNG como centro de entrenamiento, tortura, exterminio, crematorio. El gobierno negó que lo fuera, luego abrió una investigación que quedó abandonada.  En nuestro paisaje está presente una guerra de la que ningún gobierno se ha hecho cargo.
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
