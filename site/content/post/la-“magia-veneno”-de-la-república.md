@@ -13,12 +13,11 @@ highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
-
 No entiendo suficiente de derecho penal, ni de política criminal o de seguridad. Sin embargo, arrimo mi lente constitucional para comentar lo que leí sobre el proyecto de Reforma del Régimen Penal Juvenil. Y por ahí, para proponer otra perspectiva para pensar. 
 
-El proyecto que ya tiene media sanción, esta mostrando lo que podría nombrase como la "magia-veneno" de nuestra República. Esa hermosa ambivalencia de los valores republicanos, desde los que se legitima la coacción legítima, no como fuerza que causa dolor, sino como justicia pública sobre los miembros, libres e iguales, de una comunidad política. 
+El proyecto que ya tiene media sanción, esta mostrando lo que podría nombrase como la "magia-veneno" de nuestra República. Esa hermosa ambivalencia de los valores republicanos que legitiman la coacción, no como fuerza que causa dolor, sino como justicia pública sobre los miembros, libres e iguales, de una comunidad política. 
 
-Con este lente entiendo que podría NO ser constitucional hacer punibles a sujetos que, aunque imputables, están privados de derechos políticos. Pero para empezar habrá que decir que si la ley no prevé sus costos, y financiamiento acorde, su aplicación va a estar en fuerte entredicho. Sobre estos dos asuntos, argumento aquí.
+Con este lente entiendo que podría NO ser constitucional hacer punibles a sujetos que, aunque imputables, no tienen iguales derechos políticos en nuestra comunidad. Pero para empezar habrá que decir que si la ley no prevé sus costos, y el financiamiento acorde, su aplicación va a estar en fuerte entredicho constitucional. Sobre estos dos asuntos, argumento aquí.
 
 # Entre lo dicho y lo hecho…
 
@@ -58,10 +57,10 @@ La responsabilidad del punible no es moral. No es responsabilidad por la justici
 
 Es difícil seguir sosteniendo que los adolescentes de 14 años no comprenden la criminalidad de sus actos o que no son responsables de sus decisiones. No por la cantidad de delitos que cometen (menos del 2%), sino por la intensidad de la experiencia que tenemos en la interacción con ellos (aunque esta no sea cuantitativamente relevante). 
 
-- Hay adolescentes que asesinaron de forma sangrienta, y la escena mella nuestra percepción de su supuesta inmadurez y falta de responsabilidad en sus decisiones. Quizás no esté bien que sea así, que el drama o que nuestro instinto retributivo nuble nuestra percepción de las condiciones generales de su autonomía, pero así parece funcionar. Y así se activan las leyes de la república.  
-- Los adolescentes manejan mejor que los adultos las nuevas tecnologías, las que hoy gobiernan el mundo. En esa posición de poder frente al adulto, el que se va sintiendo cada vez mas desfasado y desventajado frente al cambio tecnológico, es difícil que conciba a los adolescentes tan vulnerables o dependientes como antes.  
-- Los adolescentes son cada vez más independientes del poder tuitivo de sus padres. El código civil les reconoce desde el 2015 una autonomía progresiva para decidir sobre asuntos importantes de su personalidad, y para defenderse frente a la autoridad parental arbitraria. Los vemos conducir, pagar la cuenta, manifestarse en las calles.  
-- Los adolescentes pobres, que **son los más**, dependen materialmente cada vez menos de sus padres. Más tempranamente salen a ganarse la vida, y a exponerse a una independencia espiritual precoz y a veces destructiva. 
+* Hay adolescentes que asesinaron de forma sangrienta, y la escena mella nuestra percepción de su supuesta inmadurez y falta de responsabilidad en sus decisiones. Quizás no esté bien que sea así, que el drama o que nuestro instinto retributivo nuble nuestra percepción de las condiciones generales de su autonomía, pero así parece funcionar. Y así se activan las leyes de la república.  
+* Los adolescentes manejan mejor que los adultos las nuevas tecnologías, las que hoy gobiernan el mundo. En esa posición de poder frente al adulto, el que se va sintiendo cada vez mas desfasado y desventajado frente al cambio tecnológico, es difícil que conciba a los adolescentes tan vulnerables o dependientes como antes.  
+* Los adolescentes son cada vez más independientes del poder tuitivo de sus padres. El código civil les reconoce desde el 2015 una autonomía progresiva para decidir sobre asuntos importantes de su personalidad, y para defenderse frente a la autoridad parental arbitraria. Los vemos conducir, pagar la cuenta, manifestarse en las calles.  
+* Los adolescentes pobres, que **son los más**, dependen materialmente cada vez menos de sus padres. Más tempranamente salen a ganarse la vida, y a exponerse a una independencia espiritual precoz y a veces destructiva. 
 
 En fin, las condiciones sociales cambian, y con ellas, nuestra percepción de los más jóvenes. Así, la regla que los hace inimputables de forma general, y que se asienta en la presunción de su falta de entendimiento y autonomía de decisión, se percibe ahora, injusta,  y asentada en una presunción falsa. En este contexto, quizás no el ideal, la república permite activar el sentido de justicia retributiva al que apela F. Fink.
 
