@@ -219,6 +219,24 @@ body.theme-dynamic #content .article-layout .article-sidebar {
   }
 }
 
+@media (max-width: 900px) {
+  body.theme-dynamic #content .article-layout .article-sidebar {
+    position: relative;
+    z-index: 0;
+  }
+
+  body.theme-dynamic #content .article-layout .article-sidebar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: calc(50% - 50vw);
+    right: calc(50% - 50vw);
+    background-color: var(--hero-card-bg);
+    z-index: -1;
+  }
+}
+
 body.theme-dynamic main.homepage {
   padding-top: 0;
 }
@@ -1865,16 +1883,39 @@ body.theme-dynamic .hero-grid::before {
     width: 100%;
   }
 
+  #content .article-layout .article-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
   #content .article-layout .article-sidebar h1 {
     text-align: center;
     margin-bottom: 1rem;
+  }
+
+  #content .article-sidebar .post-author {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #content .article-sidebar .author-bio,
+  #content .article-sidebar .twitter-handle {
+    text-align: center;
+  }
+
+  #content .article-sidebar .publicado-originalmente-en,
+  #content .article-sidebar .post-category {
+    text-align: center;
   }
 
   .share-section {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color, #ddd);
-    text-align: left;
+    text-align: center;
   }
 
   .share-title {
@@ -1888,7 +1929,7 @@ body.theme-dynamic .hero-grid::before {
 
   .share-buttons {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 1.5rem;
   }
 
@@ -1945,16 +1986,39 @@ body.theme-dynamic .hero-grid::before {
     width: 100%;
   }
 
+  #content .article-layout .article-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
   #content .article-layout .article-sidebar h1 {
     text-align: center;
     margin-bottom: 1rem;
+  }
+
+  #content .article-sidebar .post-author {
+    justify-content: center;
+    text-align: center;
+  }
+
+  #content .article-sidebar .author-bio,
+  #content .article-sidebar .twitter-handle {
+    text-align: center;
+  }
+
+  #content .article-sidebar .publicado-originalmente-en,
+  #content .article-sidebar .post-category {
+    text-align: center;
   }
 
   .share-section {
     margin-top: 1rem;
     padding-top: 1rem;
     border-top: 1px solid var(--border-color, #ddd);
-    text-align: left;
+    text-align: center;
   }
 
   .share-title {
@@ -1968,7 +2032,7 @@ body.theme-dynamic .hero-grid::before {
 
   .share-buttons {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     gap: 1.5rem;
   }
 
