@@ -1,6 +1,6 @@
 ---
-title: Sunstain y la vuelta de los frenos y contrapesos
-slug: sunstain-y-la-vuelta-de-los-frenos-y-contrapesos
+title: Sunstein y la vuelta de los frenos y contrapesos
+slug: sunstein-y-la-vuelta-de-los-frenos-y-contrapesos
 date: 2026-03-03
 description: Una lectura crítica del último libro del prolífico autor, con un gesto argumentativo ... irritante. 
 categories:
