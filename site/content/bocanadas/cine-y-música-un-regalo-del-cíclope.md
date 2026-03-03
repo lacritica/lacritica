@@ -13,6 +13,8 @@ Así ocurre en este crossover entre música y cine, de la mano de ***Cpíclope*
 
 [Un hermoso corto de 10 minutos, una road movie indie que recorre tres hermosas canciones.  ](https://youtu.be/GRU1cpDwAkw?si=xM8dZUYWWdXHG3jc)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GRU1cpDwAkw?si=kW1uW5y37oMyS5S1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 En tiempos de imitación, masificación, multiplicación algorítmica hasta el hartazgo, damos la bienvenida, disfrutamos, agradecemos y celebramos la originalidad, la búsqueda, la maravilla del arte, el puro e ingenuo arte que no tiene más pretensiones que construir experiencias de belleza en este mundo atroz.
 
 No se queden sin conocer los sonidos de Cíclope, no se pierdan las imágenes de Laura Berch (los rostros a través del fuego nocturno son una maravilla).
