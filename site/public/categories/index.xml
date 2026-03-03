@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on La Crítica</title>
-    <link>http://localhost:57472/categories/</link>
+    <link>http://localhost:58131/categories/</link>
     <description>Recent content in Categories on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:57472/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58131/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Debates</title>
-      <link>http://localhost:57472/categories/debates/</link>
+      <link>http://localhost:58131/categories/debates/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57472/categories/debates/</guid>
+      <guid>http://localhost:58131/categories/debates/</guid>
       <description></description>
     </item>
     <item>
       <title>Reseñas</title>
-      <link>http://localhost:57472/categories/rese%C3%B1as/</link>
+      <link>http://localhost:58131/categories/rese%C3%B1as/</link>
       <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57472/categories/rese%C3%B1as/</guid>
+      <guid>http://localhost:58131/categories/rese%C3%B1as/</guid>
       <description></description>
     </item>
     <item>
       <title>Ensayos</title>
-      <link>http://localhost:57472/categories/ensayos/</link>
+      <link>http://localhost:58131/categories/ensayos/</link>
       <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57472/categories/ensayos/</guid>
+      <guid>http://localhost:58131/categories/ensayos/</guid>
       <description></description>
     </item>
     <item>
       <title>Especial Ley Penal Juvenil</title>
-      <link>http://localhost:57472/categories/especial-ley-penal-juvenil/</link>
+      <link>http://localhost:58131/categories/especial-ley-penal-juvenil/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:57472/categories/especial-ley-penal-juvenil/</guid>
+      <guid>http://localhost:58131/categories/especial-ley-penal-juvenil/</guid>
       <description></description>
     </item>
     <item>
       <title>Especial Reforma Laboral</title>
-      <link>http://localhost:57472/categories/especial-reforma-laboral/</link>
+      <link>http://localhost:58131/categories/especial-reforma-laboral/</link>
       <pubDate>Tue, 27 Jan 2026 18:24:20 +0000</pubDate>
-      <guid>http://localhost:57472/categories/especial-reforma-laboral/</guid>
+      <guid>http://localhost:58131/categories/especial-reforma-laboral/</guid>
       <description></description>
     </item>
     <item>
       <title>Entrevistas</title>
-      <link>http://localhost:57472/categories/entrevistas/</link>
+      <link>http://localhost:58131/categories/entrevistas/</link>
       <pubDate>Sun, 11 Jan 2026 10:24:34 +0000</pubDate>
-      <guid>http://localhost:57472/categories/entrevistas/</guid>
+      <guid>http://localhost:58131/categories/entrevistas/</guid>
       <description></description>
     </item>
   </channel>

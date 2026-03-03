@@ -1724,6 +1724,11 @@ body.theme-dynamic .hero-grid::before {
 
 /* search box */ 
 
+.search-page,
+.search-layout {
+  margin-bottom: 2.5rem;
+}
+
 #search .pagefind-ui__search-input-wrapper svg {
     display: none !important;
     width: 0 !important;
