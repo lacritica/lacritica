@@ -20,6 +20,7 @@
   --blockquote-color: #E5DFD2; 
   --mustard: #a1a63f;
   --orange: #ffa94c;
+  --accent-orange: #d75800ff;
 
   /* Supporting neutrals */
   --neutral-100: #FAFAFA;
@@ -3297,7 +3298,7 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
 }
 
 .monthly-layout {
-  background-color: var(--accent-blue);  
+  background-color: var(--mustard);  
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 0rem;

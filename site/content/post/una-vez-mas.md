@@ -6,6 +6,7 @@ date: 2026-02-12
 description: En el marco de un debate a las apuradas, algunos problemas de una propuesta que siempre vuelve. 
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 highlight: false
 highlight2: false
 author:

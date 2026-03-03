@@ -6,6 +6,7 @@ date: 2026-02-13
 description: Cuando quienes comprenden la gravedad de sus actos no pueden ser castigados, algo parece fallar en nuestra idea de justicia.
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 highlight: false
 highlight2: false
 author:

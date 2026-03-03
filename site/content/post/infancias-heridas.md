@@ -5,6 +5,7 @@ date: 2026-02-19
 description: La pena y la infancia son dos o más rectas situadas en un mismo plano que, por más que se prolonguen, nunca se deberían cruzar.
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 author:
   - Máximo Lanusse Noguera
 thumbnail:

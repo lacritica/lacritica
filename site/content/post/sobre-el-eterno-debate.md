@@ -4,6 +4,7 @@ date: 2026-02-06T00:00:02Z
 description: Una iniciativa ilegal que se enfrenta con la realidad del sistema penal 
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 exclude_thumbnail_from_body: true
 author:
   - Fernando Gauna Alsina 

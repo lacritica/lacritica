@@ -7,6 +7,7 @@ categories:
   - debates
 author:
   - Sebastián Guidi
+  - Especial Ley Penal Juvenil
 thumbnail:
   - src: /img/puga_23-3-23.jpeg
 highlight: false

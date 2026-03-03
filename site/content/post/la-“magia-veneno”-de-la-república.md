@@ -5,6 +5,7 @@ date: 2026-02-20T11:47:00.000-03:00
 description: Sobre la edad de punibilidad, y la reforma a la Ley Penal Juvenil.
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 author:
   - Mariela Puga
 thumbnail:

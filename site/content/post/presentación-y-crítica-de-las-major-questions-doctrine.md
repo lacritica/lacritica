@@ -5,7 +5,7 @@ date: 2026-02-21T14:30:00.000+01:00
 description: 'Ante el fallo de las tarifas, contra Trump, un examen crítico de
   su principal fundamento: las "Major Questions Doctrine"'
 categories:
-  - ensayos
+  - debates
 author:
   - Roberto Gargarella
 thumbnail:

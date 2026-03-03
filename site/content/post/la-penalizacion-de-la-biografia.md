@@ -5,6 +5,7 @@ description: 'Justicia y supervivencia en el abismo económico.'
 draft: false
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 author:
   - Adriana Soria
 thumbnail:
