@@ -1,5 +1,5 @@
 ---
-title: "CINE Y MÚSICA: UN REGALITO del CÍCLOPE"
+title: "Cine y música: un regalito del Cíclope"
 date: 2026-03-03T16:08:00.000-03:00
 slug: ciclope
 author:
