@@ -5,9 +5,9 @@ date: 2026-02-17T12:30:50.254Z
 description: Una ley penal juvenil que nadie pidió y que todavía se puede corregir.
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 author:
   - Sebastián Guidi
-  - Especial Ley Penal Juvenil
 thumbnail:
   - src: /img/puga_23-3-23.jpeg
 highlight: false

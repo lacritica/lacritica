@@ -5,9 +5,9 @@ date: 2026-02-15
 description: Por qué bajar la edad de imputabilidad no reduce el delito
 categories:
   - debates
+  - Especial Ley Penal Juvenil
 author:
   - Valeria Vegh Weis
-  - Especial Ley Penal Juvenil
 thumbnail:
   - src: /img/gargarella_biarritz1.1.JPG
 highlight: true

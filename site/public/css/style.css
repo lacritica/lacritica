@@ -1568,11 +1568,10 @@ body.theme-dynamic .hero-grid::before {
 #content .article-layout .article-sidebar {
   flex: 0 0 22%;
   max-width: 260px;
-  padding-right: 1rem;
+  padding-right: .5rem;
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #333;
-  padding: .2rem;
+  color: #333;  
 }
 
 #content .article-layout .article-sidebar h1 {

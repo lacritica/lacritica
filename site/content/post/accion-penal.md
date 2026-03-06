@@ -1,8 +1,7 @@
 ---
 title: Acción penal y género 
 slug: accion-penal-y-perspectiva-de-genero
-date: 2026-03-03
-draft: true
+date: 2026-03-06
 description: Cuando el interés de las mujeres se contrapone con el interés de la acusación, se generan prácticas revictimizantes que se traducen en obstáculos en el acceso a la justicia
 categories:
   - ensayos
