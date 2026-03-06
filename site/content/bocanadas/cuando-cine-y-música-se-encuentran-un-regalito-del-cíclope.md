@@ -9,7 +9,7 @@ thumbnail:
 ---
 De vez en cuando, las artes se entrecruzan y crean maravillas multidimensionales.
 
-Así ocurre en este crossover entre música y cine, de la mano de ***Cpíclope*** (banda alternativa emergente que estrena su primer EP) y ***María Laura Berch*** (directora de “La Noche sin mí”, coach actoral y directora de casting N° 1 del país).
+Así ocurre en este crossover entre música y cine, de la mano de ***Cíclope*** (banda alternativa emergente que estrena su primer EP) y ***María Laura Berch*** (directora de “La Noche sin mí”, coach actoral y directora de casting N° 1 del país).
 
 [Un hermoso corto de 10 minutos, una road movie indie que recorre tres hermosas canciones.  ](https://youtu.be/GRU1cpDwAkw?si=xM8dZUYWWdXHG3jc)
 
