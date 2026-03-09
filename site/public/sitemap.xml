@@ -65,6 +65,12 @@
     <loc>http://localhost:1313/post/sunstein-y-la-vuelta-de-los-frenos-y-contrapesos/</loc>
     <lastmod>2026-03-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-03-02T02:03:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/ciclope/</loc>
+    <lastmod>2026-03-02T02:03:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -73,9 +79,6 @@
   </url><url>
     <loc>http://localhost:1313/ediciones/2026-02/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/castigar-comprender/</loc>
     <lastmod>2026-02-27T00:00:00+00:00</lastmod>
