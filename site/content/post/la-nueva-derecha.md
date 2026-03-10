@@ -9,7 +9,7 @@ author:
   - José Ignacio Hernández
 thumbnail:
   - src: '/img/WhatsApp Image 2026-03-02 at 10.09.40 AM (1).jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 callouts: 
