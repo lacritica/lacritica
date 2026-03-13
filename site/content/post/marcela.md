@@ -1,19 +1,18 @@
 ---
-title: "Marcela Rodríguez"
+title: Marcela Rodríguez
 slug: marcela-rodriguez
 date: 2026-03-13
-description: 'Una vida de aventuras legales.'
+description: Una vida de aventuras legales.
 categories:
   - entrevistas
 author:
   - Agustina Ramón Michel
 thumbnail:
-  - src: '/img/marcela-rodriguez.jpg'
+  - src: /img/marcela-rodriguez.jpg
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
-
 La entrevista la realizamos en la casa de Marcela, un departamento con vista al Parque Rivadavia, en Caballito, Buenos Aires. Se mudó hace poco; fue volver al barrio de su infancia. La foto fue tomada en su balcón; al fondo puede verse la Escuela Normal a la que asistió con sus dos hermanas. Solo hicimos una toma, no le gusta fotografiarse.
 
 **Agustina** --- Cuando hablamos en diciembre me contaste que te estabas jubilando.
@@ -256,7 +255,7 @@ Yo hice la primera denuncia de la represión del 19 y el 20 de diciembre y estab
 
 También, cuando Rodríguez Saá renunció como presidente provisional, sin aviso previo al Congreso desde San Luis y por televisión, también hicimos una denuncia porque eso era un delito, irse así del cargo sin que le hubieran aceptado la renuncia ¡En medio de tamaña crisis institucional!
 
-**Agustina** --- Impulsaste y ayudaste a redactar y aprobar varias leyes, como la Ley de Matrimonio Igualitario, la de Violencia de Género, la de Anulación de las leyes de obediencia debida y punto final [¿]{.smallcaps}Cuál recordas con más intensidad?
+**Agustina** --- Impulsaste y ayudaste a redactar y aprobar varias leyes, como la Ley de Matrimonio Igualitario, la de Violencia de Género, la de Anulación de las leyes de obediencia debida y punto final. ¿Cuál recordas con más intensidad?
 
 **Marcela** --- Las de anulación de las leyes de impunidad.
 
