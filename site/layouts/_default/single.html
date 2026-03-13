@@ -100,15 +100,23 @@
       <p class="post-date">{{ .Day }} de {{ $month }} de {{ .Year }}</p>
     {{ end }}
     
-    {{ if and (isset .Params "thumbnail") (isset .Params "obra_reseñada") }}
+    {{ if and (or (isset .Params "cover") (isset .Params "thumbnail")) (isset .Params "obra_reseñada") }}
       <div class="title-obra-resenada" data-pagefind-ignore>
         <h4>Obra reseñada</h4>
       </div>
       <div class="obra_reseñada" data-pagefind-ignore>
-        {{ with index .Params.thumbnail 0 }}
-          <div class="book-cover">
-            <img src="{{ relURL .src }}" alt="Featured Image"/>
-          </div>
+        {{ if isset .Params "cover" }}
+          {{ with index .Params.cover 0 }}
+            <div class="book-cover">
+              <img src="{{ relURL .src }}" alt="Featured Image"/>
+            </div>
+          {{ end }}
+        {{ else if isset .Params "thumbnail" }}
+          {{ with index .Params.thumbnail 0 }}
+            <div class="book-cover">
+              <img src="{{ relURL .src }}" alt="Featured Image"/>
+            </div>
+          {{ end }}
         {{ end }}
         <div class="obra-text">{{ .Params.obra_reseñada | markdownify }}</div>
       </div>

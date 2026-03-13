@@ -9,7 +9,7 @@ author:
   - Laura Ronchetti
 thumbnail:
   - src: '/img/gargarella_L1100855.JPG'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
