@@ -47,8 +47,14 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/perder-a-jurgen-habermas/</loc>
+    <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/habermas/</loc>
+    <lastmod>2026-03-14T18:02:00+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/cada-voto-cuenta/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
@@ -421,6 +427,8 @@
     <loc>http://localhost:1313/autores/clyde_w_barrow/</loc>
   </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/cristina-lafont/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/cynthia-benzon/</loc>
   </url><url>
