@@ -8,8 +8,13 @@ categories:
 author:
   - Agustina Ramón Michel
 thumbnail:
+<<<<<<< HEAD
   - src: /img/marcela-rodriguez.jpg
 highlight: true
+=======
+  - src: '/img/marcela-rodriguez.jpg'
+highlight: false
+>>>>>>> cec08c74 (update martes)
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

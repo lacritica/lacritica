@@ -10,7 +10,7 @@ author:
   - Valeria Vegh Weis
 thumbnail:
   - src: /img/gargarella_biarritz1.1.JPG
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---

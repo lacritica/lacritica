@@ -9,7 +9,7 @@ author:
   - Rubén Lo Vuolo
 thumbnail:
   - src: '/img/Screenshot 2026-03-10 at 8.17.18 AM.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
