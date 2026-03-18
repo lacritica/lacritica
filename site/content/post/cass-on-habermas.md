@@ -49,3 +49,7 @@ Para quienes se interesan por un enfoque deliberativo de la democracia gran part
 La suya es una obra de filosofía política que aborda los fundamentos de la teoría democrática y, como tal, tiene un gran valor, sobre todo por su minuciosa exposición de la democracia deliberativa y el potencial de interacciones productivas entre la democracia y el derecho. El siglo XX llegó a su fin y el siglo XXI inició con las aspiraciones democráticas proliferando por el mundo. Habermas brindó una de las mejores y, en mi opinión, más duraderas explicaciones y justificaciones de los valores que subyacen a esas aspiraciones.
 
 Descanse en paz, profesor Habermas. Le estamos muy agradecidos y le rendimos homenaje. No volveremos a ver a nadie como usted.
+
+---
+
+*Traducción de Leonardo García Jaramillo, publicada con la expresa autorización del autor*.
