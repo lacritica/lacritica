@@ -1,5 +1,5 @@
 {{/* Show posts belonging to the current taxonomy term */}}
-{{ $paginator := .Paginate (.Pages.ByDate.Reverse) 6 }}
+{{ $paginator := .Paginate (.Pages.ByDate.Reverse) 7 }}
 
 <section class="taxonomy-grid secondary-grid" data-term="{{ .Title | urlize }}">
   {{ range $index, $post := $paginator.Pages }}

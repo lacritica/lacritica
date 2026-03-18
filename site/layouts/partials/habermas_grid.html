@@ -1,6 +1,6 @@
 {{ $posts := where .Site.RegularPages "Section" "post" }}
 {{ $habermasPosts := where $posts ".Params.categories" "intersect" (slice "Jürgen Habermas") }}
-{{ $habermasPosts = first 6 ($habermasPosts.ByParam "weight") }}
+{{ $habermasPosts = $habermasPosts.ByParam "weight" }}
 
 {{ if $habermasPosts }}
 <div class="habermas-hero">
