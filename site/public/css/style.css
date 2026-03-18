@@ -1580,6 +1580,9 @@ body.theme-dynamic .hero-grid::before {
   margin-bottom: 3rem;
   letter-spacing: -0.032em;
   line-height: 3.2rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 

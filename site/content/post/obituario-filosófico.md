@@ -2,7 +2,7 @@
 title: "Habermas: breve obituario filosófico"
 slug: breve-obituario-filosófico
 date: 2026-03-18
-description: 'Breve obituario'
+description: 'Una despedida a uno de los principales teóricos sociales y filósofos de la Segunda Postguerra.'
 weight: 6
 categories:
   - ensayos
