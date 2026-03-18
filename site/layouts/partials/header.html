@@ -84,7 +84,7 @@
 
 {{ range $key, $value := . }}
   {{ $slug := $key | urlize }}
-  {{ if not (in $exclude $slug) }}
+  {{ if and (not (in $exclude $slug)) (not (strings.Contains ($key | lower) "habermas")) }}
     <li>
       <a href="{{ "/categories/" | relURL }}{{ $slug }}">
         {{ $key }}

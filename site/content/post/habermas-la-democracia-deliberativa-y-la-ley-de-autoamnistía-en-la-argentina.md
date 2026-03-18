@@ -1,11 +1,13 @@
 ---
 title: Habermas, la democracia deliberativa, y la ley de autoamnistía en la Argentina
 slug: habermas
-date: 2026-03-14T18:02:00.000+01:00
+date: 2026-03-18
+weight: 4
 description: Habermas, la democracia deliberativa, y la ley de autoamnistía en
   la Argentina. Un ideal regulativo al servicio de la práctica democrática
 categories:
   - ensayos
+  - Jürgen Habermas
 author:
   - Roberto Gargarella
 thumbnail:

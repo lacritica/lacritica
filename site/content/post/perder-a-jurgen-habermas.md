@@ -2,13 +2,15 @@
 title: "Perder a Jürgen Habermas"
 slug: perder-a-jurgen-habermas
 date: 2026-03-17
+weight: 1
 description: Nos ha dejado cuando más lo necesitábamos.
 categories:
   - ensayos
+  - Jürgen Habermas
 author:
   - Cristina Lafont
 thumbnail:
-  - src: '/img/jurgen.avif'
+  - src: '/img/jurgen4.jpeg'
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true

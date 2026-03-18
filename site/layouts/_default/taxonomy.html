@@ -12,7 +12,7 @@
 
 {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
   {{ $slug := $name | urlize }}
-  {{ if not (in $exclude $slug) }}
+  {{ if and (not (in $exclude $slug)) (not (strings.Contains ($name | lower) "habermas")) }}
     <li>
       <a 
         href="{{ (path.Join "categories" $slug) | relURL }}"

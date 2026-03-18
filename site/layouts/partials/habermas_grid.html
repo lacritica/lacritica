@@ -1,0 +1,25 @@
+{{ $posts := where .Site.RegularPages "Section" "post" }}
+{{ $habermasPosts := where $posts ".Params.categories" "intersect" (slice "Jürgen Habermas") }}
+{{ $habermasPosts = first 6 ($habermasPosts.ByParam "weight") }}
+
+{{ if $habermasPosts }}
+<div class="habermas-hero">
+  <div class="habermas-hero-inner">
+    <div class="habermas-hero-left">
+      <!-- intentionally empty — background image shows here -->
+    </div>
+    <div class="habermas-hero-right">
+      <h2 class="habermas-hero-title">
+        <a href="{{ "/categories/jürgen-habermas/" | relURL }}">Jürgen Habermas</a> <span class="habermas-hero-dates">(1929-2026)</span>
+      </h2>
+      <ul class="habermas-hero-list">
+        {{ range $habermasPosts }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ if .Params.author }}, <em>por {{ partial "author_inline.html" . }}</em>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+</div>
+{{ end }}

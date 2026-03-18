@@ -52,3 +52,98 @@ h1 a:hover, h2 a:hover, .post-title a:hover, .entry-title a:hover, .title a:hove
   color: inherit !important;
   background-color: rgba(0,0,0,0.02) !important;
 }
+
+/* ── Habermas hero section ─────────────────────────── */
+
+.habermas-hero {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+
+  background-image: url('/img/jurgen_background.jpg');
+  background-size: cover;
+  background-position: center top;
+
+  margin-bottom: 1.5rem;
+}
+
+.habermas-hero-inner {
+  max-width: var(--max-width, 1200px);
+  margin: 0 auto;
+  padding: 5rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  min-height: 520px;
+  align-items: center;
+}
+
+.habermas-hero-left {
+  /* empty — background image visible here */
+}
+
+.habermas-hero-right {
+  background-color: rgba(5, 51, 74, 0.88);
+  padding: 2.5rem 2.5rem 3rem;
+  color: #fff;
+}
+
+.habermas-hero-title {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+}
+
+.habermas-hero-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.habermas-hero-dates {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 0.05em;
+}
+
+.habermas-hero-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.habermas-hero-list li {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 1.2rem;
+  line-height: 1.45;
+}
+
+.habermas-hero-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.habermas-hero-list li a:hover {
+  text-decoration: underline;
+}
+
+.habermas-hero-list em {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 767px) {
+  .habermas-hero-inner {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+    min-height: auto;
+  }
+  .habermas-hero-left {
+    display: none;
+  }
+}
