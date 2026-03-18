@@ -10,7 +10,7 @@ categories:
 author:
   - Cass Sunstein
 thumbnail:
-  - src: '/img/jurgen1.jpeg'
+  - src: '/img/jurgen3.jpeg'
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true

@@ -11,7 +11,7 @@ categories:
 author:
   - Roberto Gargarella
 thumbnail:
-  - src: /img/whatsapp-image-2026-02-20-at-17.53.21-1-.jpeg
+  - src: /img/jurgen4.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false

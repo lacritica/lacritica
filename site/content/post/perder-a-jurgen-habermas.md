@@ -10,7 +10,7 @@ categories:
 author:
   - Cristina Lafont
 thumbnail:
-  - src: '/img/jurgen4.jpeg'
+  - src: '/img/jurgen1.jpeg'
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true

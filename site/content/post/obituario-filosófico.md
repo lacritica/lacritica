@@ -10,7 +10,7 @@ categories:
 author:
   - Leonardo García Jaramillo
 thumbnail:
-  - src: '/img/jurgen1.jpeg'
+  - src: '/img/jurgen2.jpeg'
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true

@@ -10,7 +10,7 @@ categories:
 author:
   - José Luis Martí
 thumbnail:
-  - src: '/img/jurgen2.jpeg'
+  - src: '/img/jurgen1.jpeg'
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
