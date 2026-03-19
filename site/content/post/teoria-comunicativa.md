@@ -1,5 +1,5 @@
 ---
-title: "La teoría de la acción comunicativa. Conceptos clave."
+title: "La teoría de la acción comunicativa. Conceptos clave"
 slug: la-teoría-de-la-acción-comunicativa
 date: 2026-03-19
 weight: 8
