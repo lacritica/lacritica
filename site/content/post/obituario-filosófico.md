@@ -16,9 +16,7 @@ highlight2: false
 exclude_thumbnail_from_body: true
 ---
 
-*A Cristina Lafont,[^1]*
-
-> *"Was für eine Philosophie man wähle, hängt davon ab, was man für ein Mensch ist"* --- Fichte. 
+> *A Cristina Lafont, "Was für eine Philosophie man wähle, hängt davon ab, was man für ein Mensch ist"* --- Fichte [^1]. 
 
 > "*Con Habermas perdemos a un gran ilustrado que analizó a fondo las contradicciones de la modernidad. Nos enseñó el ethos del discurso democrático y fundamentó la emancipación del ser humano como un objetivo inalienable. Durante muchas décadas ha marcado, enriquecido e impulsado el discurso tanto científico como político en nuestro país y mucho más allá. En su obra se combinaban de manera inconfundible la precisión teórica, la fuerza analítica, la autorreflexión crítica, el poder del lenguaje y la intervención republicana*" --- Frank-Walter Steinmeier, presidente de Alemania
 
