@@ -1,6 +1,6 @@
 ---
 title: Alguien lo tenía que decir, y Binder lo dijo
-date: 2026-03-13T09:03:00.000-03:00
+date: 2026-03-19T17:51:00.000-03:00
 slug: binder-justa
 author:
   - Gustavo Maurino
@@ -9,12 +9,14 @@ thumbnail:
     epigraph: Una entrevista imperdible al gran Alberto Binder, por Irene Benito y
       Ezequiel Nino
 ---
-La plataforma [JUSTA-Por una justicia transparente y abierta](https://justa.acij.org.ar/) es una iniciativa de [ACIJ ](https://acij.org.ar/)que realiza una valiosa contribución para que la conversación pública sobre la justicia cuente con evidencia, fundamentos y puntos de vistas comprometidos con los mejores principios y valores constitucionales y democráticos.
+El Poder Judicial argentino atraviesa una crisis que ya no puede describirse en los términos de siempre. No se trata simplemente de lentitud, de falta de recursos o de designaciones politizadas: se trata de algo más grave y más difícil de revertir. 
 
-Irene Benito y Ezequiel Nino nos traen **[aquí las palabras -lúcidas, reflexivas, responsables, filosas, inquietas e inquietantes- de Alberto Binder](https://justa.acij.org.ar/articulos/alberto-binder-analiza-la-coyuntura-y-las-perspectivas-de-la-justicia).** 
+Como advierte [Alberto Binder en esta entrevista,](https://justa.acij.org.ar/articulos/alberto-binder-analiza-la-coyuntura-y-las-perspectivas-de-la-justicia) lo que está en juego es la cooptación mafiosa del sistema judicial, un fenómeno que no reconoce fronteras ideológicas ni geográficas y que avanza con una velocidad y una impunidad que desafían las herramientas que teníamos para combatirlo.
 
-Alberto siempre mide sus palabras con sumo cuidado. Piensa lo que dice, y dice lo que piensa con mucha responsabilidad. Por eso, cuando dice ***"Estamos ante la disputa por la cooptación mafiosa del Poder Judicial. Esto se está dando en todos los países y también acá en la Argentina",*** quiere decir exactamente eso.
+Binder es una de las voces más lúcidas y comprometidas en el debate sobre la reforma judicial en América Latina. Desde hace décadas trabaja para transformar un sistema que, en sus propias palabras, fue diseñado para servir a ciertos intereses y no para hacer justicia. Lo que esta entrevista revela es que ese problema estructural se profundizó: hoy las mafias no solo influyen sobre el Poder Judicial, sino que operan dentro de él, con jueces procesados que reciben nuevas subrogaciones, con posgrados universitarios conducidos por magistrados cuestionados, y con organismos de control que perdieron todo rumbo ético.
 
-No vamos a spoilear la entrevista en estas líneas; no se la pierdan. Es una bocanada de aire fresco para mirar de frente al monstruo. Pero no teman, Alberto Binder estará junto a nosotros, todo estará bien.
+La lectura de esta conversación incomoda, y eso es exactamente lo que tiene que hacer. Porque si algo queda claro después de escuchar a Binder es que el silencio cómplice —el de los colegios de abogados, el de las asociaciones de magistrados, el de buena parte de la academia— es parte del problema. Frente a eso, la única respuesta posible es la que propone el título de esta nota: volvernos intransigentes, tenaces y, si hace falta, molestos.
 
-Gracias a Alberto, a Ezequiel e Irene, a Justa y ACIJ.
+\-------------------------
+
+LaCrítica agradece a Alberto, a Ezequiel e Irene, a [Justa ](https://justa.acij.org.ar/)y [ACIJ](https://acij.org.ar/).
