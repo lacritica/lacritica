@@ -8,7 +8,7 @@ categories:
   - ensayos
   - Jürgen Habermas
 author:
-  - Mariana Velasco
+  - Marina Velasco
 thumbnail:
   - src: '/img/jurgen1.jpeg'
 highlight: false
