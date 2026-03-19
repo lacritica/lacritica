@@ -47,7 +47,24 @@
 
 
         {{ with .Params.author }}
-          <p class="pirulos-author">{{ delimit . ", " }}</p>
+          <p class="pirulos-author">
+            {{- if eq (len .) 1 }}
+              {{- index . 0 }}
+            {{- else if eq (len .) 2 }}
+              {{- index . 0 }} y {{ index . 1 }}
+            {{- else }}
+              {{- $lastIndex := sub (len .) 1 }}
+              {{- range $i, $author := . }}
+                {{- if eq $i $lastIndex }}
+                  {{- printf "y %s" $author }}
+                {{- else if eq $i (sub $lastIndex 1) }}
+                  {{- printf "%s, " $author }}
+                {{- else }}
+                  {{- printf "%s, " $author }}
+                {{- end }}
+              {{- end }}
+            {{- end }}
+          </p>
         {{ end }}
       </div>
 

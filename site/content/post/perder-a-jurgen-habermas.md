@@ -14,6 +14,9 @@ thumbnail:
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
+callouts:
+  - 'Jürgen Habermas nos ha dejado cuando más lo necesitábamos: como el más firme defensor filosófico de la democracia; como el intelectual público más inquebrantable en su compromiso con los valores de la Ilustración, con un proyecto europeo políticamente integrado y con un orden mundial cosmopolita...'
+featured_callout: 0
 ---
 
 Es una pérdida inconmensurable para tantas personas, por tantas razones y para tantas causas cada vez más urgentes en estos tiempos peligrosos. Jürgen Habermas nos ha dejado cuando más lo necesitábamos: como el más firme defensor filosófico de la democracia; como el intelectual público más inquebrantable en su compromiso con los valores de la Ilustración, con un proyecto europeo políticamente integrado y con un orden mundial cosmopolita; y como una conciencia moral implacable ante las circunstancias políticas más amenazantes. Nos habíamos acostumbrado a que él luchara nuestras batallas, hablara en nombre de todos nosotros y corriera todos los riesgos sin importarle las consecuencias. Sabíamos que continuaría la lucha en todos los frentes: filosófico, intelectual y político. Y así lo hizo. Era, y sigue siendo, imprescindible. 

@@ -56,6 +56,15 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bocanadas/binder-justa/</loc>
+    <lastmod>2026-03-19T17:51:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-03-19T17:51:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-19T17:51:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -63,9 +72,6 @@
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/j%C3%BCrgen-habermas/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
@@ -94,9 +100,6 @@
   </url><url>
     <loc>http://localhost:1313/post/por-un-estado-eco-social/</loc>
     <lastmod>2026-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-03-09T18:28:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/cayuso/</loc>
     <lastmod>2026-03-09T18:28:00-03:00</lastmod>
@@ -302,9 +305,6 @@
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
   </url><url>
@@ -471,6 +471,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/ignacio-giuffr%C3%A9/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/irene_benito/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/irwin-stotzky/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/javier-couso-salas/</loc>
@@ -481,8 +483,6 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
-  </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
@@ -492,8 +492,6 @@
     <loc>http://localhost:1313/autores/klaus-gunther/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura_ronchetti/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
