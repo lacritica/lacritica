@@ -198,6 +198,26 @@ body.theme-dynamic #content .article-layout .article-sidebar {
   background-color: var(--hero-card-bg);
 }
 
+/* ========================================
+ * RESPONSIVE BREAKPOINT GUIDE
+ * ========================================
+ * Mobile-first responsive design strategy
+ *
+ * Breakpoint tiers:
+ * - 767px and below: Mobile (phones, small tablets)
+ * - 768px - 900px: Tablet (medium tablets)
+ * - 901px and above: Desktop
+ *
+ * Key breakpoints in use:
+ * - max-width: 767px = mobile-only overrides
+ * - max-width: 768px = mobile and up overrides
+ * - max-width: 900px = desktop-up target transitions
+ * - min-width: 901px = desktop-specific styling
+ *
+ * Note: Standardized to use 767px for strict mobile-only
+ * to avoid off-by-one inconsistencies at tablet breakpoint.
+ * ======================================== */
+
 @media (min-width: 901px) {
   body.theme-dynamic #content .article-layout {
     align-items: stretch;
@@ -291,6 +311,7 @@ body {
 
 @media (max-width: 768px) {
   .header .banner svg {
+    width: 100%;
     max-width: 100%; /* takes 90% of the parent width */
   }
 }
@@ -979,7 +1000,7 @@ body.theme-dynamic .hero-grid::before {
 /* MOBILE RESPONSIVE BREAKPOINT */
 /* -------------------------------------------- */
 @media (max-width: 1070px) {
-  .home-featured-container { /* parent container */
+  .home-featured { /* parent container */
     display: flex;
     flex-direction: column; /* stack children vertically */
     align-items: center;    /* center children horizontally */
@@ -1064,6 +1085,8 @@ body.theme-dynamic .hero-grid::before {
   font-size: 1rem;
   line-height: 1.1;
   padding: .5rem 2rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* keep specific tokens together */
@@ -1116,7 +1139,7 @@ body.theme-dynamic .hero-grid::before {
 
 /* Hero grid author sizing */
 .hero-grid .post-author .author-name {
-  font-size: .52rem !important;
+  font-size: 0.75rem !important;
   margin-bottom: -0.6rem;
   font-family: 'Jost', Georgia, serif !important;
   font-weight: 600;
@@ -1337,7 +1360,7 @@ body.theme-dynamic .hero-grid::before {
 /* LEFT COLUMN: IMAGE */
 .cat_picture img {
   margin-top: 2rem;
-  margin-right: 45rem;
+  margin-right: 1rem;
   width: 100%;
   height: auto;
   display: block;
@@ -1878,109 +1901,6 @@ body.theme-dynamic .hero-grid::before {
 
 /* llevar a media */
 
-@media (max-width: 900px) {
-
-  #content .container-article {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  #content .article-layout {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  #content .article-layout .article-sidebar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-  }
-
-  #content .article-layout .article-sidebar h1 {
-    text-align: center;
-    margin-bottom: 1rem;
-  }
-
-  #content .article-sidebar .post-author {
-    justify-content: center;
-    text-align: center;
-  }
-
-  #content .article-sidebar .author-bio,
-  #content .article-sidebar .twitter-handle {
-    text-align: center;
-  }
-
-  #content .article-sidebar .publicado-originalmente-en,
-  #content .article-sidebar .post-category {
-    text-align: center;
-  }
-
-  .share-section {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--border-color, #ddd);
-    text-align: center;
-  }
-
-  .share-title {
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted, #666);
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .share-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-  }
-
-  .share-button img {
-    width: 28px;
-    height: 28px;
-    transition: transform 0.2s ease;
-    opacity: 0.85;
-  }
-
-  .share-button img:hover {
-    transform: scale(1.15);
-    opacity: 1;
-  }
-
-  #content .article-content {
-    width: 100%;
-    text-align: left;
-  }
-
-  #content .obra_reseñada {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-top: 1rem;
-    gap: 0.5rem;
-  }
-
-  #content .book-cover img {
-    max-width: 80%;
-    height: auto;
-    box-shadow: 8px 0 12px rgba(0, 0, 0, 0.3); /* right-side shadow */
-  }
-
-  #content .obra-text {
-    font-size: 1rem;
-    color: #333;
-    text-align: center;
-    max-width: 90%;
-  }
-}
-
 @media (max-width: 768px) {
 
   #content .container-article {
@@ -2059,6 +1979,7 @@ body.theme-dynamic .hero-grid::before {
   #content .article-content {
     width: 100%;
     text-align: left;
+    padding: 0 1rem;
   }
 
   #content .obra_reseñada {
@@ -2656,8 +2577,8 @@ body.theme-dynamic .hero-grid::before {
 }
 
 
-/* --- Mobile responsive --- */
-@media screen and (max-width: 1070px) {
+/* --- Tablet responsive (2 columns) --- */
+@media (max-width: 1070px) {
 
   .taxonomy-layout {
     grid-template-columns: 1fr; /* full width */
@@ -2665,105 +2586,52 @@ body.theme-dynamic .hero-grid::before {
     padding-right: 1rem;
   }
 
-  .taxonomy-layout[data-term="rese%C3%B1as"] {
-    grid-template-columns: 1fr; /* full width */
-    padding-left: 1rem;
-    padding-right: 1rem;
-
-}
-
-    /* Hide menu */
+  /* Hide menu on tablets and below */
   .taxonomy-menu {
     display: none;
   }
 
+  /* 2 columns on tablets */
   .taxonomy-grid.secondary-grid {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-
-  .taxonomy-grid-rese.secondary-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-
-  .taxonomy-grid-rese h1 {
-  margin-top: 0rem;
-}
 
   .taxonomy-grid h1 {
-  margin-top: 0rem;
+    margin-top: 0rem;
+  }
 }
 
-.taxonomy-grid .grid-thumbnail {
-   display: none;
-}
+/* --- Mobile responsive (1 column) --- */
+@media (max-width: 768px) {
 
-.taxonomy-grid .grid-thumbnail img {
- display: none;
-}
-
-.taxonomy-grid-rese .grid-thumbnail-rese {
-  display: none !important;
-   display: none;
-
-}
-
-.taxonomy-grid-rese .grid-thumbnail-rese img {
-
-   display: none;
-
-}
-}
-
-/* --- Mobile responsive --- */
-@media screen and (max-width: 500px) {
-
-    .taxonomy-layout .taxonomy-content {
+  .taxonomy-layout {
     grid-template-columns: 1fr; /* full width */
     padding-left: 1rem;
     padding-right: 1rem;
   }
 
-    /* Hide menu */
+  /* Hide menu on mobile */
   .taxonomy-menu {
     display: none;
   }
 
-.taxonomy-grid-rese.secondary-grid-rese {
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.taxonomy-grid-rese .article-taxonomy-rese {
-  display: flex;
-  flex-direction: column; /* stack vertically */
-  gap: 1rem;              /* space between thumbnail and text */
-}
-
+  /* 1 column on mobile */
   .taxonomy-grid.secondary-grid {
     grid-template-columns: repeat(1, 1fr);
   }
-  .secondary-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
 
-  .taxonomy-grid {
-    background-color: var(--accent-burgundy);
-    padding: 0rem 0;   /* increase vertical background area */
-}
-    .taxonomy-grid.secondary-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
   .taxonomy-grid h1 {
-  margin-top: 2rem;
-}
+    margin-top: 0rem;
+  }
 
-.taxonomy-grid .grid-thumbnail {
- display: none;
-}
+  /* Hide thumbnails on mobile */
+  .taxonomy-grid .grid-thumbnail {
+    display: none;
+  }
 
-.taxonomy-grid .grid-thumbnail img {
- display: none;
-}
+  .taxonomy-grid .grid-thumbnail img {
+    display: none;
+  }
 }
 
 /* página de autores */
@@ -2861,7 +2729,6 @@ body.theme-dynamic .hero-grid::before {
 /* Bio text */
 .author-bio {
   margin-top: 0; /* cleaner */
-  font-size: ;
 }
 
 
@@ -2956,7 +2823,7 @@ footer {
 }
 
 /* Stack on mobile */
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .footer-social {
     display: grid;
     grid-template-columns: repeat(1, 1fr);  /* 2 columns */
@@ -2964,7 +2831,12 @@ footer {
     width: 100%;
     gap: 2rem;                               /* spacing between icons */
     justify-items: center;                  /* center each icon */
-  };
+  }
+
+  .footer-social a img {
+    margin-right: 8px;
+  }
+
   .footer-social-bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  /* 2 columns */
@@ -3100,7 +2972,7 @@ footer {
 }
 
 /* Show the menu */
-.#menu.open {
+#menu.open {
   transform: translateX(0);
 }
 
@@ -3108,6 +2980,10 @@ footer {
 @media (max-width: 768px) {
   #menu {
     width: 100vw;   /* full mobile width */
+  }
+
+  .previous-issue-link {
+    width: 100%;
   }
 }
 
@@ -3153,6 +3029,11 @@ footer {
   padding: 0.01rem;
   background: none;
   border: none;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #menu-close {
@@ -3187,7 +3068,7 @@ footer {
   white-space: normal !important;
   overflow: visible !important;
   text-overflow: unset !important;
-  line-height: 0.9
+  line-height: 1.2;
 }
 
 /* Date styling */
@@ -3247,6 +3128,9 @@ table {
   margin: 1em auto auto;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
+  width: 100%;
+  overflow-x: auto;
+  display: block;
 }
 
 table thead th { border-bottom: 1px solid #ddd; }
