@@ -307,6 +307,7 @@ body {
   width: 700px; /* increase this value */
   display: block;
   transform: translateY(-5%);
+  margin-top: 12px;
 }
 
 @media (max-width: 768px) {
