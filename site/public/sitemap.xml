@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/post/la-teor%C3%ADa-de-la-acci%C3%B3n-comunicativa/</loc>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/perder-a-jurgen-habermas/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -66,16 +69,16 @@
     <lastmod>2026-03-19T17:51:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/j%C3%BCrgen-habermas/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-aborto-en-el-cine/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
@@ -305,6 +308,9 @@
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
   </url><url>
@@ -483,6 +489,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
@@ -492,6 +500,8 @@
     <loc>http://localhost:1313/autores/klaus-gunther/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura_ronchetti/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
