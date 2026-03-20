@@ -2,7 +2,7 @@
 title: "El filósofo del mundo"
 slug: el-filosofo-del-mundo
 date: 2026-03-18
-description: 'asd'
+description: 'Con la muerte de Jürgen Habermas nos ha dejado uno de los últimos gigantes intelectuales del siglo XX.'
 weight: 4
 categories:
   - ensayos
@@ -10,7 +10,7 @@ categories:
 author:
   - Seyla Benhabib
 thumbnail:
-  - src: '/img/jurgen1.jpg'
+  - src: '/img/jurgen1.jpeg'
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
