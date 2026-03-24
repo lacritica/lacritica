@@ -1,19 +1,18 @@
 ---
-title: "Jaime Malamud Goti frente a Procusto"
+title: Jaime Malamud Goti frente a Procusto
 slug: laudatio-jaime
 date: 2026-03-24
-description: 'A propósito del doctorado Honoris Causa de la Universidad Nacional de La Plata.'
+description: A propósito del doctorado Honoris Causa de la Universidad Nacional de La Plata.
 categories:
   - ensayos
 author:
   - Joaquín Millon Quintana
 thumbnail:
-  - src: '/img/gargarella_biarr9.JPG'
+  - src: /img/gargarella_biarr9.JPG
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
-
 1. Quienes conocemos a Jaime sabemos que es un amigo extraordinario, dueño de un sentido del humor infrecuente, de una inteligencia sutil y de una disposición a nunca huir de la complejidad. Creo (con temor a simplificarlo), que esa combinación de calidez, fineza y valentía intelectual lo vuelve el individuo excepcional que es.
 
 Mucho de esto puede advertirse en *El último liberal*, un libro que recoge una serie de conversaciones entre Jaime y Andrés Rosler. Quisiera destacar un hecho que Carlos Pagni subraya, en su prólogo, y que no deja de sorprender: en lugar de consagrarse a celebrar el Juicio a las Juntas como una hazaña propia, Jaime ha elegido revisitar críticamente lo realizado y preguntarse si no hubiera sido mejor no haberlo hecho.[^1] Que Jaime haya vuelto críticamente sobre aquella decisión ha causado no poca perplejidad. Si uno considera el nivel de las atrocidades cometidas por el régimen militar de 1976, esa perplejidad puede llegar a producir escalofríos. La sola posibilidad de que uno de los principales arquitectos intelectuales del Juicio a las Juntas se permita siquiera dudar de lo que parece ser uno de nuestros más grandes "momentos constitucionales" resulta, a primera vista, desconcertante.[^2]
@@ -38,7 +37,7 @@ En ese sentido, la reflexión tardía de Jaime, más que debilitar el significad
 
 3. Una segunda consideración, íntimamente conectada con lo anterior, se refiere a la consistente preocupación de Jaime frente al impulso simplificador de muchas teorías morales. Lo que en ellas parece inquietarlo no es, desde luego, la aspiración para orientar la acción, sino la facilidad con que a veces prometen resolver asuntos prácticos complejos mediante principios demasiado generales, demasiado pulcros, demasiado seguros de sí mismos. Jaime siempre ha advertido que la experiencia moral desborda una y otra vez esos esquemas teóricos. Hay decisiones en las que los bienes en juego no pueden reducirse sin pérdida a una única regla, a un único criterio, a una única fórmula de corrección. Y cuando una teoría pretende hacerlo, la pérdida no es solo intelectual. Es también moral.
 
-Creo que esa advertencia ayuda a ver un rasgo muy característico de Jaime. En su obra hay una desconfianza sostenida frente a las teorías morales que quieren poner la experiencia humana demasiado en orden. Él ha sabido ver que la vida moral se resiste a esa aspiración a la pulcritud. Hay conflictos que no admiten una salida enteramente limpia, decisiones correctas que no eliminan del todo la experiencia de una pérdida, y emociones --como la vergüenza, la ira o la humillación-- que no están en la periferia de nuestras prácticas evaluativas, sino en su centro. Tal vez por eso la literatura ocupa en sus últimos trabajos un lugar tan importante. Allí reaparecen, con todos su matices, lo que muchas teorías morales pretenden a depurar.[^6] En definitiva, una teoría puede ganar mucho en coherencia cuando prescinde de esas dimensiones, pero también empieza a perder contacto con aquello mismo que pretende explicar, o cuando menos reglar.
+Creo que esa advertencia ayuda a ver un rasgo muy característico de Jaime. En su obra hay una desconfianza sostenida frente a las teorías morales que quieren poner la experiencia humana demasiado en orden. Él ha sabido ver que la vida moral se resiste a esa aspiración a la pulcritud. Hay conflictos que no admiten una salida enteramente limpia, decisiones correctas que no eliminan del todo la experiencia de una pérdida, y emociones --como la vergüenza, la ira o la humillación-- que no están en la periferia de nuestras prácticas evaluativas, sino en su centro. Tal vez por eso la literatura ocupa en sus últimos trabajos un lugar tan importante. Allí reaparecen, con todos sus matices, lo que muchas teorías morales pretenden depurar.[^6] En definitiva, una teoría puede ganar mucho en coherencia cuando prescinde de esas dimensiones, pero también empieza a perder contacto con aquello mismo que pretende explicar, o cuando menos reglar.
 
 Si se mira desde esta perspectiva, su reflexión crítica sobre el Juicio a las Juntas adquiere un significado mucho más amplio. No se trata solo de volver sobre una decisión histórica determinada, sino de oponerse a la tentación --tan frecuente en la vida moral y política-- de creer que una sola idea, por brillante que parezca, puede ordenar sin sacrificios toda la complejidad de una situación. En esto también reside, me parece, una parte esencial de su legado, en habernos enseñado a desconfiar de las respuestas demasiado rápidas, de las justificaciones demasiado puras y de las teorías que, para conservar su elegancia, necesitan amputar aquello que en la experiencia humana se resiste a encajar.
 
@@ -62,7 +61,7 @@ Tal vez por eso, en los trabajos de Jaime, el derecho nunca aparezca como un dis
 
 [^4]: Jaime Malamud Goti, *Suerte, moralidad y responsabilidad penal*, Buenos Aires, Hammurabi, 2008.
 
-[^5]: Ver, asimismo, Barnard Williams, "Moral luck", *Proceedings of the Aristotelian Society*, volumen suplementario L (1976), pp. 115-135; \"Politics and moral character\", en *Public and Private Morality*, Stuart Hampshire (ed.), Cambridge: Cambridge University Press, 1978.
+[^5]: Ver, asimismo, Barnard Williams, "Moral luck", *Proceedings of the Aristotelian Society*, volumen suplementario L (1976), pp. 115-135; "Politics and moral character", en *Public and Private Morality*, Stuart Hampshire (ed.), Cambridge: Cambridge University Press, 1978.
 
 [^6]: Ver, entre otros, Jaime Malamud Goti, "La Eternidad", en Homenaje a Carlos S. Nino, Marcelo Alegre, Roberto Gargarella y Carlos Rosenkrantz (eds.), Buenos Aires, Universidad de Buenos Aires, Facultad de Derecho, 2008 y "Traición, heroísmo y sentido de la existencia: pensando en Borges y el mal", en *La cultura penal: homenaje al profesor Edmundo S. Hendler*, Gabriel Anitua e Ignacio Tedesco (comps.), Buenos Aires, Editores del Puerto, 2009.
 
