@@ -11,7 +11,7 @@ author:
   - Cristina Lafont
 thumbnail:
   - src: '/img/jurgen1.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 callouts:

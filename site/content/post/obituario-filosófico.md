@@ -11,7 +11,7 @@ author:
   - Leonardo García Jaramillo
 thumbnail:
   - src: '/img/jurgen2.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

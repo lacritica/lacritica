@@ -65,19 +65,31 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/calavera-1/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/j%C3%BCrgen-habermas/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/laudatio-jaime/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/laudatio-farrell/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/laudatio-nino/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/j%C3%BCrgen-habermas/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/binder-justa/</loc>
@@ -445,6 +457,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/ana-correa/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/ana-longoni/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/anna_mastromarino/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/antonia_fratini_lagos/</loc>
@@ -490,6 +504,8 @@
     <loc>http://localhost:1313/autores/irwin-stotzky/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/javier-couso-salas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/joaquin-millon-quintana/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/jose-ignacio-hernandez/</loc>
   </url><url>
