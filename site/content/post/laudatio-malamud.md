@@ -6,7 +6,7 @@ description: 'A propósito del doctorado Honoris Causa de la Universidad Naciona
 categories:
   - ensayos
 author:
-  - Joaquón Millon Quintana
+  - Joaquín Millon Quintana
 thumbnail:
   - src: '/img/gargarella_biarr9.JPG'
 highlight: false
