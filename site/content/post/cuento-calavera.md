@@ -52,7 +52,7 @@ Contra todo pronóstico, las cosas en el aeropuerto no se complicaron demasiado.
 
 Aún no entiendo cómo la calavera logró pasar por los controles aduaneros, envuelta en papel de regalo y con un moño rojo. Ventajas de un tiempo en el que todavía no existía el escáner. Con el mismo método de simular regalos mi madre logró pasar en las valijas algunos huacos, el más grande encontrado en el cementerio de Chancay, entre tumbas profanadas la noche anterior por saqueadores que se llevaban lo más entero y vendible al turismo, y dejaban tiradas momias de pelos y uñas larguísimos, con la piel intacta y tatuada, junto a cerámicas y enseres rotos o deslucidos. Los otros dos, más pequeños, los había comprado por pocos soles a vendedores ambulantes que aparecían mágicamente en medio del médano inmenso y solitario apenas el auto estacionaba (aparcaba, se dice allá) cerca de algún sitio arqueológico. No podíamos saber si eran huacos originales o falsificaciones bien hechas, aunque mi madre sostenía con bastante sentido común que en Perú para un pobre era más fácil exhumar una tumba que envejecer de forma verosímil una cerámica recién hecha.
 
-No veo ni escucho nada. Pero siento el calor y el olor de una piel de hembra que me lleva consigo.*
+*No veo ni escucho nada. Pero siento el calor y el olor de una piel de hembra que me lleva consigo.*
 
 4.
 
@@ -74,7 +74,7 @@ Una amiga suya experta en fantasmas le aconsejó ponerle nombre para que se calm
 
 Pasaron las semanas y llegó el día de entregar nuestra querida calavera. Cargué la cajita de cartón en el baúl del auto. La cita era al mediodía en la otra punta de la ciudad, cerca del barrio chino. Conseguir estacionamiento por esa zona es más difícil que desenterrar un muerto, pero a un par de cuadras del Instituto se abrió de golpe un hueco exacto para encajar el auto, al lado de una embajada. La cajita no era nada pesada pero parecía que de golpe los nervios anquilosaban las manos, volviéndolas torpes marionetas de quién sabe quién. De golpe la caja se abrió y los huesos se cayeron entre los adoquines de la calle, entre un auto y otro, muy pegados entre sí. Tuve que agacharme y reptar de nuevo, como aquella vez en la pirámide, para meterme debajo de los autos, y sacarlos. En medio del fragor ciudadano, nadie pareció reparar en esa delicada operación con huesos viejos. Me levanté manchado de aceite y barro, y un poco tieso. Sentí muy lejos la voz de mi primo señalándome "¡piedra libre!". Me acomodé los anteojos, me sacudí un poco la mugre, y avancé solemne con la caja como quien lleva un féretro.
 
-Soy joven, ¿escuchan? Más joven y menos necio que todos ustedes que envejecen, ríen, lloran, duermen y despiertan delante mío.*
+*Soy joven, ¿escuchan? Más joven y menos necio que todos ustedes que envejecen, ríen, lloran, duermen y despiertan delante mío.*
 
 5.
 
