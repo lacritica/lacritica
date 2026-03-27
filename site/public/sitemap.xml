@@ -62,22 +62,49 @@
     <loc>http://localhost:1313/simposios/el-fin-de-los-derechos-laborales-como-los-conociamos/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/critica-a-maurino/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/un-derecho-mas-instrumentalista/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/replica-a-los-cr%C3%ADticos/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/mi-impresion-de-rawls/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/simposio/</loc>
+    <lastmod>2026-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-03-24T16:20:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/bibliografia-dictadura/</loc>
+    <lastmod>2026-03-24T16:20:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/ercoli/</loc>
+    <lastmod>2026-03-24T14:58:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/calavera-1/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/laudatio-jaime/</loc>
-    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/laudatio-farrell/</loc>
@@ -86,16 +113,10 @@
     <loc>http://localhost:1313/post/laudatio-nino/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/j%C3%BCrgen-habermas/</loc>
     <lastmod>2026-03-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/binder-justa/</loc>
-    <lastmod>2026-03-19T17:51:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-03-19T17:51:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-aborto-en-el-cine/</loc>
@@ -452,6 +473,8 @@
     <loc>http://localhost:1313/autores/agustina-ramon-michel/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/alberto-binder/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/alejandro-carrio/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/alicia-ely-yamin/</loc>
   </url><url>

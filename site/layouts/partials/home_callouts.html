@@ -1,6 +1,19 @@
 {{/* Get posts that define featured_callout as a number >= 0 */}}
 {{ $featured := where .Site.RegularPages ".Params.featured_callout" "ge" 0 }}
 
+{{/* If simposios grid is active, exclude simposio-category posts */}}
+{{ $simposioSection := site.GetPage "section" "simposios" }}
+{{ if and $simposioSection $simposioSection.Params.show }}
+  {{ $temp := slice }}
+  {{ range $featured }}
+    {{ $cats := .Params.categories | default slice }}
+    {{ if not (intersect $cats (slice "simposio")) }}
+      {{ $temp = $temp | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $featured = $temp }}
+{{ end }}
+
 {{/* Sort by date (newest first) */}}
 {{ $featured := sort $featured "Date" "desc" }}
 

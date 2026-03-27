@@ -183,13 +183,15 @@ document.addEventListener("click", () => {
           return;
         }
 
-        if (currentScroll > lastScroll && currentScroll > 100) {
-          // Scrolling down
+        if (currentScroll > lastScroll && currentScroll > 400) {
+          // Scrolling down — hide
+          bar.style.transform = "translateY(-100%)";
           bar.classList.add("hidden");
           bar.classList.remove("visible");
           smallLogo.classList.remove("show");
-        } else {
-          // Scrolling up
+        } else if (currentScroll < lastScroll) {
+          // Scrolling up — show
+          bar.style.transform = "translateY(0)";
           bar.classList.remove("hidden");
           bar.classList.add("visible");
           smallLogo.classList.add("show");

@@ -2245,17 +2245,16 @@ body.theme-dynamic .hero-grid::before {
   top: 0;
   z-index: 1000;
   justify-content: center;
-  align-items: center; /* centers items vertically */
+  align-items: center;
   height: 4.5rem;
   background-color: var(--accent-blue);
   display: flex;
-/*  justify-content: center;*/
   border-bottom: 5px solid #d35f5f;
   border-top: 5px solid #d35f5f;
-  padding: 0.6rem 2rem; /* ⬅️ increased from 1rem to 2rem */
-  overflow-x: auto; /* enable horizontal scroll */
+  padding: 0.6rem 2rem;
+  overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  transition: transform 0.3s linear, box-shadow 0.3s linear;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 /* When hidden, slide the bar up out of view */
@@ -3313,16 +3312,15 @@ position: relative;
 
 /* Simposio debate grid */
 .simposio {
-  background-color: var(--accent-blue);
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  padding: 2rem 1.5rem;
+  background-color: var(--accent-burgundy2);
+  padding: 2.5rem 1.5rem;
 }
 
 .simposio-inner {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
 }
 
 .simposio-title h1 {
@@ -3407,6 +3405,14 @@ position: relative;
   font-family: "Averia Serif Libre";
   font-size: 0.95rem;
   font-style: italic;
+}
+
+.simposio-column-description {
+  margin: 0.5rem 0 0 0;
+  font-family: "Source Serif 4", serif;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--neutral-600);
 }
 
 @media screen and (max-width: 1024px) {

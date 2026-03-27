@@ -1,8 +1,8 @@
 {{ $section := site.GetPage "section" "simposios" }}
 
 {{ if and $section $section.Params.show }}
-  {{/* Orden por weight: original -> reacciones -> respuesta final */}}
-  {{ $columns := first 5 ($section.RegularPages.ByWeight) }}
+  {{ $allPosts := where site.RegularPages "Params.categories" "intersect" (slice "simposio") }}
+  {{ $columns := first 5 ($allPosts.ByWeight) }}
   {{ $count := len $columns }}
 
   {{ if ge $count 3 }}
@@ -51,6 +51,9 @@
             {{ with $first.Params.author }}
               <p class="simposio-column-author">por {{ partial "author_inline.html" $first }}</p>
             {{ end }}
+            {{ with $first.Description }}
+              <p class="simposio-column-description">{{ . | markdownify }}</p>
+            {{ end }}
           </article>
 
           {{ range $index, $post := $middle }}
@@ -88,6 +91,9 @@
               {{ with $post.Params.author }}
                 <p class="simposio-column-author">por {{ partial "author_inline.html" $post }}</p>
               {{ end }}
+              {{ with $post.Description }}
+                <p class="simposio-column-description">{{ . | markdownify }}</p>
+              {{ end }}
             </article>
           {{ end }}
 
@@ -124,6 +130,9 @@
             </h2>
             {{ with $last.Params.author }}
               <p class="simposio-column-author">por {{ partial "author_inline.html" $last }}</p>
+            {{ end }}
+            {{ with $last.Description }}
+              <p class="simposio-column-description">{{ . | markdownify }}</p>
             {{ end }}
           </article>
         </section>

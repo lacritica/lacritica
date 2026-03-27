@@ -63,7 +63,7 @@
   </head>
 
   
-  <body class="page theme-dynamic theme-4
+  <body class="page theme-dynamic theme-1
 ">
     <header class="header">
       <div class="banner">
@@ -243,6 +243,15 @@
     <li>
       <a href="/categories/rese%C3%B1as">
         reseñas
+      </a>
+    </li>
+  
+
+  
+  
+    <li>
+      <a href="/categories/simposio">
+        simposio
       </a>
     </li>
   
@@ -437,13 +446,15 @@ document.addEventListener("click", () => {
           return;
         }
 
-        if (currentScroll > lastScroll && currentScroll > 100) {
+        if (currentScroll > lastScroll && currentScroll > 400) {
           
+          bar.style.transform = "translateY(-100%)";
           bar.classList.add("hidden");
           bar.classList.remove("visible");
           smallLogo.classList.remove("show");
-        } else {
+        } else if (currentScroll < lastScroll) {
           
+          bar.style.transform = "translateY(0)";
           bar.classList.remove("hidden");
           bar.classList.add("visible");
           smallLogo.classList.add("show");
@@ -627,7 +638,7 @@ document.addEventListener("click", () => {
 <p>El período del año en que esas dotes pedagógicas maternas se henchían y desplegaban como cola de pavo real era durante las vacaciones de verano, cuando luego de deliberación hasta altas horas de la noche sobre el mapa de la República Argentina, nuestros progenitores elegían un destino aún marcado como conocido, y salíamos a la ruta en lenta caravana de Citroën 3CV (con mis tíos y primos, otra parentela y amigos) para hacer campamento en un pueblo fantasma en San Luis, en el lago helado al pie del volcán Lanín, cerca de una caverna con pinturas rupestres, o en medio de la tierra escandalosamente roja de Misiones.</p>
 <p>Pero su pulsión por los restos óseos se volvió irrefrenable cuando vivimos en Perú, adonde basta escarbar un poquito para que aparezca una osamenta humana, un pedazo de cerámica, un trozo de tejido o los restos todavía anudados de un collar de caracoles. Perú es una enorme e ininterrumpida huaca.</p>
 <p>La cuestión es que estábamos un domingo de 1977 con nuestros primos que habían venido a visitarnos, trepando a la huaca Pan de Azúcar, en San Isidro. Es una enorme pirámide de adobe, que por entonces se veía como un cerro de arena y tierra protegido apenas por una cerca alambrada y un guardián. Debajo de ese cerro se adivinaba la pirámide Huallamarca, aún sin excavar ni reconstruir. Jugábamos a las escondidas. Yo iba rápido por la base del cerro, buscando un buen lugar para escabullirme, y me topé con mi hermana, cuya agilidad es igual a cero. Justo ahí escuchamos la advertencia del primo Santiago de que había terminado de contar y empezaba a buscar. &ldquo;Punto y coma, el que no se escondió se embroma&rdquo;. Sin pensarlo mucho, porque ya no había margen ni opciones mejores, vimos una especie de orificio o pliegue disimulado, un orificio horizontal. Me acosté y repté por la tierra rasposa, como zambulléndome dentro del cerro, y cuando mi cabeza pasó el primer escollo noté que se abría una gruta bastante cómoda dentro de ese cerro que fue sagrado. Mi hermana además de torpe es muy miedosa, y me seguía lanzando suspiros de alarma (nada ostentosos, tampoco era cuestión de delatar nuestro genial escondite). Repté por el hueco hasta no ser visible desde el exterior y le chisté para que se apurara a entrar. Una vez que nos acostumbramos a la penumbra (la única luz entraba por el agujero-puerta) vimos que había espacio incluso para estar de pie y se abría un pequeño recodo o prolongación hacia un costado. Fui hasta allí y los encontré: eran varios esqueletos de huesos refulgentes, tendidos al fondo de la cueva. Mi hermana lanzó un agudo chillido asustado y se tapó la boca, recordando que todavía nos estaban buscando. Contamos tres calaveras con sus osamentas un poco entremezcladas y amontonadas. Ella seguía paralizada, con las manos en la boca y los ojos muy abiertos. Yo no pude evitar llevarle un presente a mi mamá, y elegí la mejor de las tres calaveras, la más entera. Me la puse bajo el brazo como una pelota de futbol, volví a reptar boca arriba fuera de la cueva y corrí hasta la rampa donde caminaban ella y mi tía Quiti, conversando. Mi primo me vio a lo lejos y perdí a las escondidas. Pero qué me importaba: mi madre amó aquella ofrenda.</p>
-<p>*Run run. No llegaron a enterrarnos. No limpiaron nuestros cuerpos con el agua del río Rímac, ni nos vistieron con los ropajes más delicados ni nos envolvieron en fardos ni quemaron hojas de coca ni construyeron máscaras alegres para disimular nuestras caras <em>magulladas. No nos homenajearon. Y allí quedamos, tirados para siempre.</em></p>
+<p><em>Run run. No llegaron a enterrarnos. No limpiaron nuestros cuerpos con el agua del río Rímac, ni nos vistieron con los ropajes más delicados ni nos envolvieron en fardos ni quemaron hojas de coca ni construyeron máscaras alegres para disimular nuestras caras magulladas. No nos homenajearon. Y allí quedamos, tirados para siempre.</em></p>
 <ol start="2">
 <li></li>
 </ol>
@@ -642,7 +653,7 @@ document.addEventListener("click", () => {
 <p>A pesar de la rotunda incomprensión de mi padre, mamá la puso indeclinable entre sus prioridades, condición <em>sine qua non</em> de la vuelta, junto con unos pocos discos adquiridos en esos años y escuchados hasta el cansancio (&ldquo;Pajarito verde&rdquo; de Soledad Bravo, &ldquo;Atom Heart Mother&rdquo; de Pink Floyd, uno de tangos clásicos de Gardel), y por supuesto la olla a presión Marmicoc y la radio Sietemares que habían llegado con nosotros y sido objetos fundantes del hogar. Ya no existía la mochilita de tela de vaquero que mi abuela Esther había cosido para que yo cargara la radio, y mi hermano menor ya no iba en cochecito con el ancla de la pesada olla. Pero eran objetos irrenunciables para ella si queríamos seguir siendo familia, y creo que la calavera había alcanzado similar estatuto.</p>
 <p>Contra todo pronóstico, las cosas en el aeropuerto no se complicaron demasiado.</p>
 <p>Aún no entiendo cómo la calavera logró pasar por los controles aduaneros, envuelta en papel de regalo y con un moño rojo. Ventajas de un tiempo en el que todavía no existía el escáner. Con el mismo método de simular regalos mi madre logró pasar en las valijas algunos huacos, el más grande encontrado en el cementerio de Chancay, entre tumbas profanadas la noche anterior por saqueadores que se llevaban lo más entero y vendible al turismo, y dejaban tiradas momias de pelos y uñas larguísimos, con la piel intacta y tatuada, junto a cerámicas y enseres rotos o deslucidos. Los otros dos, más pequeños, los había comprado por pocos soles a vendedores ambulantes que aparecían mágicamente en medio del médano inmenso y solitario apenas el auto estacionaba (aparcaba, se dice allá) cerca de algún sitio arqueológico. No podíamos saber si eran huacos originales o falsificaciones bien hechas, aunque mi madre sostenía con bastante sentido común que en Perú para un pobre era más fácil exhumar una tumba que envejecer de forma verosímil una cerámica recién hecha.</p>
-<p>No veo ni escucho nada. Pero siento el calor y el olor de una piel de hembra que me lleva consigo.*</p>
+<p><em>No veo ni escucho nada. Pero siento el calor y el olor de una piel de hembra que me lleva consigo.</em></p>
 <ol start="4">
 <li></li>
 </ol>
@@ -655,7 +666,7 @@ document.addEventListener("click", () => {
 <p>Mi hermana, ya lo dije, es miedosa, y ha abandonado el sendero darwinista de la vida, apelando a altares y talismanes, invocando fantasmas y presencias, y dando cabida a todo tipo de sugestiones politeístas. Su convivencia con la caja de la calavera no fue inocua, y le atribuyó todos los incidentes desfavorables o las señales insólitas que acontecieron a lo largo de esos pocos días. Objetos que se rompían o desaparecían, ventanas que no se abrían y otros pequeños desastres domésticos. Nada grave, más bien una serie de traviesas diabluras, como diciendo &ldquo;aquí estoy&rdquo;, de aquel hueso tan fiel y nuestro.</p>
 <p>Una amiga suya experta en fantasmas le aconsejó ponerle nombre para que se calme. &ldquo;Ha sido parte de la familia tantos años, no puede irse así nomás: bautícenlo&rdquo;. Un breve concilio familiar por whatsapp resolvió llamarla graciosamente y sin mucha convicción José Kale. Nombrar aquieta las ánimas, por lo menos la de mi hermana, y todo pareció tranquilizarse.</p>
 <p>Pasaron las semanas y llegó el día de entregar nuestra querida calavera. Cargué la cajita de cartón en el baúl del auto. La cita era al mediodía en la otra punta de la ciudad, cerca del barrio chino. Conseguir estacionamiento por esa zona es más difícil que desenterrar un muerto, pero a un par de cuadras del Instituto se abrió de golpe un hueco exacto para encajar el auto, al lado de una embajada. La cajita no era nada pesada pero parecía que de golpe los nervios anquilosaban las manos, volviéndolas torpes marionetas de quién sabe quién. De golpe la caja se abrió y los huesos se cayeron entre los adoquines de la calle, entre un auto y otro, muy pegados entre sí. Tuve que agacharme y reptar de nuevo, como aquella vez en la pirámide, para meterme debajo de los autos, y sacarlos. En medio del fragor ciudadano, nadie pareció reparar en esa delicada operación con huesos viejos. Me levanté manchado de aceite y barro, y un poco tieso. Sentí muy lejos la voz de mi primo señalándome &ldquo;¡piedra libre!&rdquo;. Me acomodé los anteojos, me sacudí un poco la mugre, y avancé solemne con la caja como quien lleva un féretro.</p>
-<p>Soy joven, ¿escuchan? Más joven y menos necio que todos ustedes que envejecen, ríen, lloran, duermen y despiertan delante mío.*</p>
+<p><em>Soy joven, ¿escuchan? Más joven y menos necio que todos ustedes que envejecen, ríen, lloran, duermen y despiertan delante mío.</em></p>
 <ol start="5">
 <li></li>
 </ol>

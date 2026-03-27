@@ -2,7 +2,7 @@
 
 {{ with .Params.author }}
   {{ if reflect.IsSlice . }}
-    {{ delimit . ", " }}
+    {{ delimit . ", " " y " }}
   {{ else }}
     {{ . }}
   {{ end }}

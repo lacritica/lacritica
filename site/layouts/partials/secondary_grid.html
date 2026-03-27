@@ -1,4 +1,19 @@
-{{ $secondaryPosts := first 3 (after 6 (where (where .Site.RegularPages.ByDate.Reverse "Section" "post") "Params.highlight" "ne" true)) }}
+{{ $secondaryBase := where (where .Site.RegularPages.ByDate.Reverse "Section" "post") "Params.highlight" "ne" true }}
+
+{{/* If simposios grid is active, exclude simposio-category posts */}}
+{{ $simposioSection := site.GetPage "section" "simposios" }}
+{{ if and $simposioSection $simposioSection.Params.show }}
+  {{ $temp := slice }}
+  {{ range $secondaryBase }}
+    {{ $cats := .Params.categories | default slice }}
+    {{ if not (intersect $cats (slice "simposio")) }}
+      {{ $temp = $temp | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $secondaryBase = $temp }}
+{{ end }}
+
+{{ $secondaryPosts := first 3 (after 6 $secondaryBase) }}
 
 <section class="secondary-grid">
   {{ range $index, $post := $secondaryPosts }}

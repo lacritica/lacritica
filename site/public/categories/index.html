@@ -32,7 +32,7 @@
   </head>
 
   
-  <body class="theme-dynamic theme-4
+  <body class="theme-dynamic theme-1
 ">
     <header class="header">
       <div class="banner">
@@ -212,6 +212,15 @@
     <li>
       <a href="/categories/rese%C3%B1as">
         reseñas
+      </a>
+    </li>
+  
+
+  
+  
+    <li>
+      <a href="/categories/simposio">
+        simposio
       </a>
     </li>
   
@@ -406,13 +415,15 @@ document.addEventListener("click", () => {
           return;
         }
 
-        if (currentScroll > lastScroll && currentScroll > 100) {
+        if (currentScroll > lastScroll && currentScroll > 400) {
           
+          bar.style.transform = "translateY(-100%)";
           bar.classList.add("hidden");
           bar.classList.remove("visible");
           smallLogo.classList.remove("show");
-        } else {
+        } else if (currentScroll < lastScroll) {
           
+          bar.style.transform = "translateY(0)";
           bar.classList.remove("hidden");
           bar.classList.add("visible");
           smallLogo.classList.add("show");
@@ -437,17 +448,19 @@ document.addEventListener("click", () => {
   
   <li><a href="http://localhost:1313/categories/debates/">Debates (39)</a></li>
   
-  <li><a href="http://localhost:1313/categories/ensayos/">Ensayos (50)</a></li>
+  <li><a href="http://localhost:1313/categories/ensayos/">Ensayos (55)</a></li>
   
   <li><a href="http://localhost:1313/categories/entrevistas/">Entrevistas (3)</a></li>
   
   <li><a href="http://localhost:1313/categories/especial-ley-penal-juvenil/">Especial Ley Penal Juvenil (8)</a></li>
   
-  <li><a href="http://localhost:1313/categories/especial-reforma-laboral/">Especial Reforma Laboral (11)</a></li>
+  <li><a href="http://localhost:1313/categories/especial-reforma-laboral/">Especial Reforma Laboral (10)</a></li>
   
   <li><a href="http://localhost:1313/categories/j%C3%BCrgen-habermas/">Jürgen Habermas (10)</a></li>
   
   <li><a href="http://localhost:1313/categories/rese%C3%B1as/">Reseñas (9)</a></li>
+  
+  <li><a href="http://localhost:1313/categories/simposio/">Simposio (4)</a></li>
   
 </ul>
 

@@ -29,7 +29,7 @@
   </head>
 
   
-  <body class="theme-dynamic theme-4
+  <body class="theme-dynamic theme-1
 ">
     <header class="header">
       <div class="banner">
@@ -209,6 +209,15 @@
     <li>
       <a href="/categories/rese%C3%B1as">
         reseñas
+      </a>
+    </li>
+  
+
+  
+  
+    <li>
+      <a href="/categories/simposio">
+        simposio
       </a>
     </li>
   
@@ -403,13 +412,15 @@ document.addEventListener("click", () => {
           return;
         }
 
-        if (currentScroll > lastScroll && currentScroll > 100) {
+        if (currentScroll > lastScroll && currentScroll > 400) {
           
+          bar.style.transform = "translateY(-100%)";
           bar.classList.add("hidden");
           bar.classList.remove("visible");
           smallLogo.classList.remove("show");
-        } else {
+        } else if (currentScroll < lastScroll) {
           
+          bar.style.transform = "translateY(0)";
           bar.classList.remove("hidden");
           bar.classList.add("visible");
           smallLogo.classList.add("show");
@@ -488,6 +499,18 @@ document.addEventListener("click", () => {
         class=""
       >
         reseñas
+      </a>
+    </li>
+  
+
+  
+  
+    <li>
+      <a 
+        href="/categories/simposio"
+        class=""
+      >
+        simposio
       </a>
     </li>
   
@@ -781,6 +804,17 @@ document.addEventListener("click", () => {
     
     
       
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
       
         
         

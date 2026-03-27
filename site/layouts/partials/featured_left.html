@@ -11,6 +11,19 @@
   {{ end }}
 {{ end }}
 
+{{/* If simposios grid is active, exclude simposio-category posts */}}
+{{ $simposioSection := site.GetPage "section" "simposios" }}
+{{ if and $simposioSection $simposioSection.Params.show }}
+  {{ $temp := slice }}
+  {{ range $filtered }}
+    {{ $cats := .Params.categories | default slice }}
+    {{ if not (intersect $cats (slice "simposio")) }}
+      {{ $temp = $temp | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $filtered = $temp }}
+{{ end }}
+
 {{ $p0 := index $filtered 0 }}
 {{ $p1 := index $filtered 1 }}
 {{ $p2 := index $filtered 2 }}

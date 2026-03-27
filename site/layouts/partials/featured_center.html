@@ -1,4 +1,18 @@
 {{ $featured := where .Site.RegularPages "Params.highlight" true }}
+
+{{/* If simposios grid is active, exclude simposio-category posts */}}
+{{ $simposioSection := site.GetPage "section" "simposios" }}
+{{ if and $simposioSection $simposioSection.Params.show }}
+  {{ $temp := slice }}
+  {{ range $featured }}
+    {{ $cats := .Params.categories | default slice }}
+    {{ if not (intersect $cats (slice "simposio")) }}
+      {{ $temp = $temp | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $featured = $temp }}
+{{ end }}
+
 {{ if gt (len $featured) 0 }}
   {{ range first 1 $featured }}
     <article class="hero-feature article">

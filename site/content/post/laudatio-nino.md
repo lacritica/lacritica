@@ -9,7 +9,7 @@ author:
   - Roberto Gargarella
 thumbnail:
   - src: '/img/gargarella_biarr9.JPG'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

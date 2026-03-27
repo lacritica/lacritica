@@ -2,15 +2,14 @@
 title: El fin de los derechos laborales como los conocíamos
 slug: el-fin-de-los-derechos-laborales-como-los-conociamos
 date: 2026-01-27
-description: Una revisión de los fines, medios y justificaciones de un proyecto
-  que viene a cambiarlo todo para el mundo del trabajo.
+description: Una revisión de los fines, medios y justificaciones de un proyecto que viene a cambiarlo todo para el mundo del trabajo.
 categories:
-  - especial reforma laboral
   - debates
+  - simposio
 author:
   - Gustavo Maurino
 thumbnail:
-  - src: /img/munsch.jpg
+  - src: /img/batalla1.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
