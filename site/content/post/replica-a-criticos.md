@@ -4,13 +4,13 @@ slug: Replica a los críticos
 date: 2026-03-27
 description: 'Gustavo reacciona a las críticas. Puntos de acuerdo y senderos que se bifurcan.'
 categories:
-  - ensayos
+  - debates
   - simposio
 author:
   - Gustavo Maurino
 thumbnail:
   - src: '/img/batalla4.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 weight: 38

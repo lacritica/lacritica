@@ -4,7 +4,7 @@ slug: un-derecho-mas-instrumentalista
 date: 2026-03-27
 description: 'Con la visión del derecho de Gustavo no hay, digamos, reforma agraria. Más democracia.'
 categories:
-  - ensayos
+  - debates
   - simposio
 author:
   - Ramiro Álvarez Ugarte

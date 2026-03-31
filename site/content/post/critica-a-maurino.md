@@ -4,7 +4,7 @@ slug: critica-a-maurino
 date: 2026-03-27
 description: 'Dos amigos señalan lo que ---según ellos--- son problemas en el argumento de Gustavo.'
 categories:
-  - ensayos
+  - debates
   - simposio
 author:
   - Emiliano Vitaliani

@@ -8,7 +8,7 @@
 <!-- Left column: all taxonomy links -->
 <aside class="taxonomy-menu {{ $termClass }}">
   <ul>
-    {{ $exclude := slice "catastrophe" "catastrofe" "internal" "hidden" "especial-reforma-laboral" "especial-ley-penal-juvenil"}}
+    {{ $exclude := slice "catastrophe" "catastrofe" "internal" "hidden" "especial-reforma-laboral" "especial-ley-penal-juvenil" "simposio"}}
 
 {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
   {{ $slug := $name | urlize }}

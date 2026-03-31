@@ -80,7 +80,7 @@
   {{ with .Site.Taxonomies.categories }}
 
     {{/* Categories to hide */}}
-    {{ $exclude := slice "catastrophe" "catastrofe" "internal" "especial-reforma-laboral" "especial-ley-penal-juvenil" "hidden" }}
+    {{ $exclude := slice "catastrophe" "catastrofe" "internal" "especial-reforma-laboral" "especial-ley-penal-juvenil" "simposio" "hidden" }}
 
 {{ range $key, $value := . }}
   {{ $slug := $key | urlize }}
