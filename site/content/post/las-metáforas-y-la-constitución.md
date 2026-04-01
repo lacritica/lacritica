@@ -52,7 +52,7 @@ Se habla a veces del artículo 8 como un cajón de sastre del derecho europeo de
 
 [^7]: *Idem,* pp. 245-254.
 
-[^8]: Alvarez Medina, Silvina, “Constitucionalismo liberal y feminista: las claves de un injerto malogrado”, *ICON.s International Journal of Constitutional Law*, 2006. 
+[^8]: Alvarez Medina, Silvina, “Constitucionalismo liberal y feminista: las claves de un injerto malogrado”, *ICON.s International Journal of Constitutional Law*, 2026. 
 
 [^9]: Puga, Mariela, “Constitucionalismo Feminista”, IBERICONNET, el blog de la revista internacional de 
 derecho constitucional en español, 25 de agosto de 2023. 
