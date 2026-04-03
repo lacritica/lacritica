@@ -9,7 +9,7 @@ author:
   - Silvina Alvarez Medina
 thumbnail:
   - src: /img/a.jpeg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
