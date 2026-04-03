@@ -1,6 +1,25 @@
 {{ $month := .Params.month }}
-{{ $order := slice "especial reforma laboral" "debates" "ensayos" "entrevistas" "reseñas"}}
+{{ $generic := slice "debates" "ensayos" "entrevistas" "reseñas" }}
 {{ $seen := slice }}
+{{ $specific := slice }}
+
+{{/* Collect specific categories from this month's posts */}}
+{{ range site.RegularPages }}
+  {{ $d := or .PublishDate .Date }}
+  {{ if and $d (eq ($d.Format "2006-01") $month) }}
+    {{ range .Params.categories }}
+      {{ if and (not (in $generic .)) (not (in $specific .)) }}
+        {{ $specific = $specific | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Build order: specific categories first, then generic */}}
+{{ $order := $specific }}
+{{ range $generic }}
+  {{ $order = $order | append . }}
+{{ end }}
 
 <div class="monthly-layout">
 

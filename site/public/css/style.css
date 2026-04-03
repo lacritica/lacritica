@@ -3189,7 +3189,7 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
 }
 
 .monthly-layout {
-  background-color: var(--mustard);  
+  background-color: var(--hero-card-bg);
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 0rem;
@@ -3210,20 +3210,20 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
   padding-right: 2rem;
 }
 .monthly-right h1 {
-  color: var(--base-bg);
+  color: var(--hero-title);
   margin-top: -.5rem;
   font-family: 'Jost';
   font-size: 1.8rem;
 }
 
 .monthly-right h2 {
-  color: var(--base-bg)!important;
+  color: var(--hero-accent)!important;
   font-family: 'Jost';
   font-size: 1.4rem;
 }
 
 .monthly-right h3 {
-  color: var(--base-bg);
+  color: var(--hero-title);
   margin-top: -.5rem;
   font-family: 'Jost';
   font-size: 1.2rem;
@@ -3231,15 +3231,15 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
 }
 
 .monthly-right a,
-.monthly-right li, 
+.monthly-right li,
 .monthly-right span {
-  color: var(--base-bg)!important; 
-  color: inherit;
+  color: var(--hero-title)!important;
   text-decoration: none;
 }
 
 .monthly-right a:hover {
-  background-color: var(--accent-beige);
+  background-color: var(--hero-theme-border);
+  color: var(--hero-theme-nav-text)!important;
 }
 
 .previous-issues-wrapper {

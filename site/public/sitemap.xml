@@ -80,7 +80,13 @@
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/ediciones/</loc>
+    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/2026-03/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/mas-alla-de-las-urnas/</loc>
@@ -172,9 +178,6 @@
   </url><url>
     <loc>http://localhost:1313/bocanadas/ciclope/</loc>
     <lastmod>2026-03-02T02:03:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ediciones/</loc>
-    <lastmod>2026-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-muerte-de-un-lider/</loc>
     <lastmod>2026-02-28T00:00:00+00:00</lastmod>
@@ -525,6 +528,10 @@
     <loc>http://localhost:1313/autores/fernando_gauna_alsina/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/georgina-amaro-piccinini/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/giacomo-delledonne/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/giuseppe-martinico/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-arballo/</loc>
   </url><url>
