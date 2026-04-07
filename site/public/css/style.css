@@ -443,6 +443,7 @@ body.theme-dynamic .hero-grid::before {
   height: 100%;          /* required for object-fit cropping */
   max-width: 100%;       /* safety */
   object-fit: cover;
+  object-position: top;
 }
 
 /*sidenotes*/
@@ -588,6 +589,7 @@ body.theme-dynamic .hero-grid::before {
   width: 100%;
   aspect-ratio: 4 / 3;   /* or 1/1 for square, 4/3, etc. */
   object-fit: cover;      /* fills the box and crops excess */
+  object-position: top;
 }
 
 .featured-content .summary {
@@ -604,6 +606,7 @@ body.theme-dynamic .hero-grid::before {
   width: 100%;
   aspect-ratio: 4 / 3;   /* or 1/1 for square, 4/3, etc. */
   object-fit: cover;      /* fills the box and crops excess */
+  object-position: top;
 }
 
 .hero-column {

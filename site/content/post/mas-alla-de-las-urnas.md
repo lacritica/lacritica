@@ -10,7 +10,7 @@ author:
   - Giuseppe Martinico
 thumbnail:
   - src: '/img/E16CBF34-C90D-4F39-86F1-E9D3CC022B96_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

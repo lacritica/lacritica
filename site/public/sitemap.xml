@@ -75,7 +75,25 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-desafio-de-crecer-en/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/no-es-trump-estupido/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
@@ -83,20 +101,11 @@
     <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/ediciones/2026-03/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/mas-alla-de-las-urnas/</loc>
     <lastmod>2026-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-04-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-03-31T15:06:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/metaforas-y-constitucion/</loc>
     <lastmod>2026-03-31T15:06:00-03:00</lastmod>
@@ -153,9 +162,6 @@
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/marcela-rodriguez/</loc>
-    <lastmod>2026-03-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2026-03-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/por-un-estado-eco-social/</loc>
@@ -623,6 +629,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
   </url><url>
+    <loc>http://localhost:1313/categories/resse%C3%B1as/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/roberto-gargarella/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/roy-hora/</loc>
@@ -632,6 +640,8 @@
     <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/sebastian-guidi/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/sebasti%C3%A1n-mazzuca/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/seyla-benhabib/</loc>
   </url><url>
