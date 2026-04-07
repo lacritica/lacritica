@@ -86,13 +86,13 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/no-es-trump-estupido/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/trump-el-mensajero/</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
@@ -628,8 +628,6 @@
     <loc>http://localhost:1313/autores/rainer-forst/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/ramiro-alvarez-ugarte/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/resse%C3%B1as/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/roberto-gargarella/</loc>
   </url><url>
