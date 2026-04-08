@@ -1,7 +1,7 @@
 ---
 title: Jorge Barraguirre
 slug: Jorge Barraguirre
-thumbnail: /img/jorge_barraguirre.jpg
+thumbnail: /img/jorgeB.webp
 bio: Procurador General ante la Corte Suprema de Justicia de la Provincia de Santa Fe. 
 twitter_handle: 
 orcid: 
