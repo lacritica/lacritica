@@ -9,7 +9,7 @@ author:
   - Sebastián Mazzuca
 thumbnail:
   - src: '/img/rau_IMG_20180715_130341.jpg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
