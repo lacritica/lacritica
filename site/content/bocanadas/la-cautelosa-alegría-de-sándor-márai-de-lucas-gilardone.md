@@ -1,14 +1,12 @@
 ---
-title: La cautelosa alegría de Sándor Márai (de Lucas Gilardone)
+title: La cautelosa alegría de Sándor Márai
 date: 2026-04-12T23:16:00.000-03:00
 slug: hungria-elecciones
 author:
-  - Roberto Gargarella
-thumbnail: []
+  - Lucas Gilardone
+thumbnail: 
+  - src: '/img/WhatsApp Image 2026-04-13 at 7.57.30 AM.jpeg'
 ---
-(El amigo Lucas Gilardone, que transitó Budapest con frecuencia y con cariño, nos facilita esta crónica post-eleccionaria)
-
-
 
 La elección del título para este artículo busca anudar la derrota de Viktor Órban en las elecciones de hoy, con la historia húngara narrada por uno de sus más brillantes escépticos a través de novelas entrañables. Es que la historia de Hungría en el último siglo (y también antes, pero no llegaré allí) está atravesada por elecciones que se revelan equivocadas, por alineamientos con potencias siniestras, por el metódico ejercicio de la crueldad estatal. Márai lo describió como nadie en *Lo que no quise decir*, pero también en novelas como *Liberación*: el poder ubicuo avasallando la dignidad humana una y otra vez, al amparo de ideologías contradictorias pero con el mismo desprecio por la libertad y la dignidad humana. Es por eso que la derrota de Órban es (parece ser) uno de esos puntos de quiebre en la historia del país, y acaso el umbral de un cambio de época. Pero vamos al principio.
 
