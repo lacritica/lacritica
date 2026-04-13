@@ -9,7 +9,7 @@ author:
   - Jorge Barraguirre
 thumbnail:
   - src: '/img/B364AA02-2F81-4260-B58F-76CE5B35561F_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

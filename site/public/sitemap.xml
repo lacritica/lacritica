@@ -84,7 +84,16 @@
     <lastmod>2026-04-12T23:16:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/venezuela-y-hungria/</loc>
+    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/cronica-de-un-deshielo/</loc>
     <lastmod>2026-04-08T00:00:00+00:00</lastmod>
@@ -92,13 +101,7 @@
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-04-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-04-08T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/el-desafio-de-crecer-en/</loc>
-    <lastmod>2026-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
@@ -660,5 +663,7 @@
     <loc>http://localhost:1313/autores/tomas_fernandez_fiks/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/valeria-vegh-weis/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/yanina-welp/</loc>
   </url>
 </urlset>
