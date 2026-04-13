@@ -2,7 +2,7 @@
 title: "La ilusión electoral: por qué Venezuela no es Hungría"
 slug: Venezuela y Hungria
 date: 2026-04-13
-description: 'Lo que pasó en Hungría (no) pasó en Venezuela'
+description: 'A diferenica del régimen de Orban, el sistema político venezolano ya no tenía márgen de competencia real.'
 categories:
   - ensayos
 author:
