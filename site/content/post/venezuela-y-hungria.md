@@ -9,7 +9,7 @@ author:
   - Yanina Welp
 thumbnail:
   - src: '/img/FC65577D-93C3-4D2B-8B71-FA7789A15ECB_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
