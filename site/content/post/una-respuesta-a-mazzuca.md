@@ -1,14 +1,15 @@
 ---
-title: "Un orden que Trump no quiere salvar"
+title: Un orden que Trump no quiere salvar
 slug: un-orden-que-trump-no-quiere
 date: 2026-04-14
-description: 'Una crítica a Sebastián Mazzuca y una hipótesis alternativa sobre la lógica del trumpismo.'
+description: Una crítica a Sebastián Mazzuca y una hipótesis alternativa sobre
+  la lógica del trumpismo.
 categories:
   - debates
 author:
-  - Oled Balaban
+  - Oded Balaban
 thumbnail:
-  - src: '/img/C2628B75-EB30-459D-9ABB-290EB9955719_1_105_c.jpeg'
+  - src: /img/C2628B75-EB30-459D-9ABB-290EB9955719_1_105_c.jpeg
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
