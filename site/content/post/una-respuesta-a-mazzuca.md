@@ -9,8 +9,8 @@ categories:
 author:
   - Oded Balaban
 thumbnail:
-  - src: /img/C2628B75-EB30-459D-9ABB-290EB9955719_1_105_c.jpeg
-highlight: true
+  - src: '/img/C2628B75-EB30-459D-9ABB-290EB9955719_1_105_c.jpeg'
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
