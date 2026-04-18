@@ -1,5 +1,5 @@
 ---
-title: TROPEZANDO CON EL PER SALTUM OTRA VEZ. SAY NO MORE
+title: TROPEZANDO CON EL PER SALTUM, OTRA VEZ. SAY NO MORE
 slug: persaltum
 date: 2026-04-18T17:18:00.000-03:00
 description: una visita a la historia maldita del per saltum en argentina, con
