@@ -16,13 +16,11 @@ exclude_thumbnail_from_body: false
 ---
 Hola: Este texto debería ser leído con [Say no More de fondo, el disco imposible del rock argentino](https://youtu.be/nMnjOqAjg0U?si=uKsXy9ALEZML4byx).
 
-
-
 ***LA NOTICIA***
 
 La noticia apareció en todos los portales de noticias. Decía simplemente que el gobierno presentó un recurso *“per saltum”* para que la Corte Suprema -bueno, lo que nos queda de ella- revea la medida cautelar que suspendió la vigencia de la nueva ley laboral.
 
-Otra vez estas palabritas aparecen en la conversación pública. Seguramente **“Per Saltum”** serviría bien como nombre de un bar en la zona de los tribunales donde se sirvan chapulines, o para una banda de rock formada por abogadxs. Prácticamente no sirve para nada más.
+Otra vez estas palabritas aparecen en la conversación pública. Seguramente *“Per Saltum”* serviría bien como nombre de un bar en la zona de los tribunales, o para una banda de rock formada por abogadxs. Prácticamente no sirve para nada más.
 
 Pero en nuestra enrevesada práctica legal, el “*per saltum*”es un juguete político más o menos recurrente que ya tiene varias décadas, algo así como un [“constant concept”](https://youtu.be/born2TqgIT8?si=zArXQeQOJPbXyGQm) en el menú de trucos de la política judicial; sobre todo en manos de los gobiernos de turno, de cierta clase de gobiernos en particular.
 
@@ -30,7 +28,7 @@ Si alguien le preguntara a los estrategas judiciales del gobierno actual cómo e
 
 Otra vez la misma historia, otra vez el mismo juego, un nuevo episodio, que es siempre el mismo, como en el día de la marmota. 
 
-***LA SUCIA Y DESPROLIJA HISTORIA DEL PER SALTUM ENARGENTINA (LA VANGUARDIA ES ASÍ)***
+***LA SUCIA Y DESPROLIJA HISTORIA DEL PER SALTUM ENARGENTINA ([LA VANGUARDIA ES ASÍ](https://youtu.be/KoFrUqItloQ?si=yNYayOKEEiM5o4tG))***
 
 Como bien sabemos, el derecho de las sociedades moderna no es solo un catálogo de normas que prohíben, obligan o permiten algo. Tampoco es pura política, o moral -ni es la guerra- por otros medios. Es una compleja y específica práctica social: Una práctica (a) colectiva, (b) fundamentalmente interpretativa, (c) constructiva, (d) institucionalizada o positivizada, (e) extendida en el tiempo de manera intergeneracional (e) de regulación de las condiciones de participación, convivencia, cooperación y conflictividad social por parte de sus miembros. Todos los elementos y componentes de esa práctica, su sentido y alcances, se construyen “adentro” de ella, con las intervenciones y contribuciones de quienes van participando y desarrollan su funcionamiento. 
 
@@ -67,8 +65,6 @@ Y -vale aclarar- no se trata de una dinámica de suma cero o equilibrio. No es q
 En un capítulo más de la larga lista de búsqueda de ganancias políticas inmediatas que implican pérdidas estructurales de largo plazo, las “mentes brillantes” del hiperpresidencialismo judicial argentino le han hecho a la Corte Suprema el regalo gratuito de un enorme vector de poder discrecional. 
 
 La capacidad discrecional de admitir o rechazar recursos “*per saltum*” expande notablemente la bolsa de favores -o amenazas- a disposición de la Corte, quien probablemente tenga escrito en la puerta de entrada del "*per saltum*": ***La entrada es gratis, la salida vemos.*** 
-
-
 
  **¿Y ÉSTE PER SALTUM? ([INTUICIÓN](https://youtu.be/ih6YPCgyu5w?si=rProERkxo2y4tyrN))**
 
