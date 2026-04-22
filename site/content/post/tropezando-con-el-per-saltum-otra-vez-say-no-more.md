@@ -1,9 +1,9 @@
 ---
-title: TROPEZANDO CON EL PER SALTUM, OTRA VEZ. SAY NO MORE
+title: Tropezando con el per saltum, otra vez. Say No More
 slug: persaltum
 date: 2026-04-18T17:18:00.000-03:00
 description: Una visita a la historia maldita del per saltum en argentina, con
-  una música de fondo imposible. 
+  una música de fondo imposible.
 categories:
   - ensayos
 author:
@@ -15,9 +15,10 @@ highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
+
 Hola: Este texto debería ser leído con [Say no More de fondo, el disco imposible del rock argentino](https://youtu.be/nMnjOqAjg0U?si=uKsXy9ALEZML4byx).
 
-***LA NOTICIA***
+# La noticia
 
 La noticia apareció en todos los portales de noticias. Decía simplemente que el gobierno presentó un recurso *“per saltum”* para que la Corte Suprema -bueno, lo que nos queda de ella- revea la medida cautelar que suspendió la vigencia de la nueva ley laboral.
 
@@ -29,27 +30,27 @@ Si alguien le preguntara a los estrategas judiciales del gobierno actual cómo e
 
 Otra vez la misma historia, otra vez el mismo juego, un nuevo episodio, que es siempre el mismo, como en el día de la marmota. 
 
-***LA SUCIA Y DESPROLIJA HISTORIA DEL PER SALTUM ENARGENTINA ([LA VANGUARDIA ES ASÍ](https://youtu.be/KoFrUqItloQ?si=yNYayOKEEiM5o4tG))***
+# la sucia y desprolija historia del per saltum en Argentina ([la vanguardia es así](https://youtu.be/kofruqitloq?si=ynyayokeeim5o4tg))
 
 Como bien sabemos, el derecho de las sociedades moderna no es solo un catálogo de normas que prohíben, obligan o permiten algo. Tampoco es pura política, o moral -ni es la guerra- por otros medios. Es una compleja y específica práctica social: Una práctica (a) colectiva, (b) fundamentalmente interpretativa, (c) constructiva, (d) institucionalizada o positivizada, (e) extendida en el tiempo de manera intergeneracional (e) de regulación de las condiciones de participación, convivencia, cooperación y conflictividad social por parte de sus miembros. Todos los elementos y componentes de esa práctica, su sentido y alcances, se construyen “adentro” de ella, con las intervenciones y contribuciones de quienes van participando y desarrollan su funcionamiento. 
 
 En el contexto de esa clase de prácticas, aparecen y evolucionan las instituciones legales, como por ejemplo el “*per saltum*”, esta peculiar creatura que navega a la deriva en el *maelstrom* de nuestro derecho; **una institución fallida, maldita, por donde se la mire.** También es, y ha sido, una institución políticamente paradojal, por decir lo menos.
 
-***El shock del origen ([necesito un gol](https://youtu.be/-LwRzW9gqqY?si=fOS88XrotrVneotZ)):*** El “*per saltum*” obtuvo su carta de ciudadanía en el derecho argentino en un episodio vergonzoso, en la década de los años 90. Fue utilizado por el gobierno de turno para que la Corte -que en aquel entonces se autodefinió como instrumento incondicional a su servicio - lo ayudara a implementar decisiones polémicas, exhorbitantes y desaforadas de privatización que habían sido puestas en suspenso en la justicia de primera instancia bajo la sospecha de inconstitucionalidad (el caso “Rodríguez” fue la bochornosa consumación efectiva de esa innovación, creada por la Corte como un regalo a su gobierno, que necesitaba un gol para destrabar su agenda).
+- **El shock del origen** ([necesito un gol](https://youtu.be/-LwRzW9gqqY?si=fOS88XrotrVneotZ)): El “*per saltum*” obtuvo su carta de ciudadanía en el derecho argentino en un episodio vergonzoso, en la década de los años 90. Fue utilizado por el gobierno de turno para que la Corte -que en aquel entonces se autodefinió como instrumento incondicional a su servicio - lo ayudara a implementar decisiones polémicas, exhorbitantes y desaforadas de privatización que habían sido puestas en suspenso en la justicia de primera instancia bajo la sospecha de inconstitucionalidad (el caso “Rodríguez” fue la bochornosa consumación efectiva de esa innovación, creada por la Corte como un regalo a su gobierno, que necesitaba un gol para destrabar su agenda).
 
-***Un tiempo de silencio ([casa vacía](https://youtu.be/6CW0SJPy7so?si=GxZCE4GyG7cimojd)):*** Luego de su dislocada irrupción, el “*per saltum*” permaneció inerte en el desierto anómico argentino, casi como una proto-institución anómala de desarrollo incierto, en estado de latencia. Dado que el precedente “Rodríguez” no solo lo había admitido, sino que había delineado conceptualmente de funcionamiento, siempre era posible que se utilizara nuevamente; de hecho a veces se intentó, pero la Corte no admitió nuevos episodios en los años posteriores.
+- **Un tiempo de silencio** ([casa vacía](https://youtu.be/6CW0SJPy7so?si=GxZCE4GyG7cimojd)): Luego de su dislocada irrupción, el “*per saltum*” permaneció inerte en el desierto anómico argentino, casi como una proto-institución anómala de desarrollo incierto, en estado de latencia. Dado que el precedente “Rodríguez” no solo lo había admitido, sino que había delineado conceptualmente de funcionamiento, siempre era posible que se utilizara nuevamente; de hecho a veces se intentó, pero la Corte no admitió nuevos episodios en los años posteriores.
 
-***Un primer intento regulatorio ([Vemos](https://youtu.be/40eH3HOEyWU?si=5eM9KdpMK6jsZ1Vj)):*** En el climax de la tormentosa crisis de judicialización masiva post 2001 el “*per saltum*” encontró su primera regulación formal -de la cual nadie quisiera acordarse. El gobierno del momento pensó que sería buena idea utilizarlo para limitar la eficacia de las órdenes judiciales cautelares que protegían los derechos de los ahorristas, y así -primero a través de un DNU y luego con una ley- lo reguló como recurso frente a medidas cautelares que “comprometieran actividades esenciales del estado”. La reforma legal fue dejada sin efecto tan solo 3 meses (por otra ley que intentaba el mismo objetivo) después de la vergonzosa forma en que el gobierno trató de utilizarla. 
+- **Un primer intento regulatorio** ([Vemos](https://youtu.be/40eH3HOEyWU?si=5eM9KdpMK6jsZ1Vj)): En el climax de la tormentosa crisis de judicialización masiva post 2001 el “*per saltum*” encontró su primera regulación formal -de la cual nadie quisiera acordarse. El gobierno del momento pensó que sería buena idea utilizarlo para limitar la eficacia de las órdenes judiciales cautelares que protegían los derechos de los ahorristas, y así -primero a través de un DNU y luego con una ley- lo reguló como recurso frente a medidas cautelares que “comprometieran actividades esenciales del estado”. La reforma legal fue dejada sin efecto tan solo 3 meses (por otra ley que intentaba el mismo objetivo) después de la vergonzosa forma en que el gobierno trató de utilizarla. 
 
-***El intento final, y paradojalmente exitoso, de regulación([Cuchillos](https://youtu.be/UvIIUtDgIk8?si=ZYz_C9vXgPc_LMnE)):*** La tentación de los gobiernos por el potencial político del “*per saltum*” se mantuvo constante, y finalmente en 2012 se re-introdujo su regulación legal formal y general en el Código Procesal nacional. La micro-historia de la desaforada regulación es triste y desopilante, por decir lo menos; y terminó de realizar su carácter de institución maldita. Vale la pena repasarla:
+- **El intento final, y paradojalmente exitoso, de regulación** ([Cuchillos](https://youtu.be/UvIIUtDgIk8?si=ZYz_C9vXgPc_LMnE)): La tentación de los gobiernos por el potencial político del “*per saltum*” se mantuvo constante, y finalmente en 2012 se re-introdujo su regulación legal formal y general en el Código Procesal nacional. La micro-historia de la desaforada regulación es triste y desopilante, por decir lo menos; y terminó de realizar su carácter de institución maldita. Vale la pena repasarla:
 
-La historia ocurrió en 2012-2013, en el contexto de la tensión política extrema desatada entre el gobiernoy el Grupo Clarín con la sanción, implementación y judicialización de la ley de servicios de comunicación audiovisual. El poder judicial de primera instancia había dictado medidas cautelares que condicionaban la implementación de la ley, entonces el gobierno apuró una sanción express de una ley regulatoria del “per saltum”, e inmediatamente despúes intentó un recurso a fin de que la Corte interviniera en esas cautelares bypaseando a la cámara de apelaciones que parecía inclinada a postergar indefinidamente la implementación. 
+La historia ocurrió en 2012-2013, en el contexto de la tensión política extrema desatada entre el gobierno y el Grupo Clarín con la sanción, implementación y judicialización de la ley de servicios de comunicación audiovisual. El poder judicial de primera instancia había dictado medidas cautelares que condicionaban la implementación de la ley, entonces el gobierno apuró una sanción express de una ley regulatoria del “per saltum”, e inmediatamente despúes intentó un recurso a fin de que la Corte interviniera en esas cautelares bypaseando a la cámara de apelaciones que parecía inclinada a postergar indefinidamente la implementación. 
 
 La Corte trato el pedido de “*per saltum*” bajo la nueva legislación, pero concluyó que no era admisible (!). Unos pocos meses después, ofuscado contra el poder judicial -al que veía como corporativamente capturado- el gobierno promovió y obtuvo la sanción de diversas leyes llamadas de “democratización de la justicia”, que entre otras cosas implicaban una abierta colonización política de la institucionalidad del Consejo de la Magistratura. La ley fue judicializada y rápidamente declarada inconstitucional por una jueza de 1° Instancia. El Gobierno intentó otro “*per saltum*” ante la Corte Suprema, quien esta vez sí declaró admisible -primera vez que lo hizo- y tomó intervención; pero solo para fallar en contra del gobierno, declarar inconstitucional la ley de democratización y desmontar la reforma (!!).
 
 La secuencia tuvo todos los trazos de justicia poética (o patética, *“esa navaja gris, te cortó la voz, se hizo cuchillo al fin”).* 
 
-**LA PARADOJA DEMOCRÁTICA DEL PER SALTUM EN ELHIPERPRESIDENCIALISMO ARGENTINO ([SAY NO MORE](https://youtu.be/A7KQGzNdnhw?si=4vmzEFQeqofWeOS8))**
+# La paradoja democrática del per saltum en el hiperpresidencialismo argentino ([Say No More](https://youtu.be/a7kqgzndnhw?si=4vmzefqeqofweos8))**
 
 Encuentro el carácter paradojal del “*per saltum*” en Argentina en el hecho de que fue concebido, diseñado, intentado y utilizado fundamentalmente por poderes ejecutivos con aspiraciones y agendas refundacionales y dinámicas hiperpresidencialistas/hegemónicas -o cuanto menos excepcionalistas-, para instrumentalizar y usar a la Corte como garante práctico de la implementación rápida y efectiva de sus reformas.
 
@@ -57,17 +58,17 @@ Es cierto que en todos los casos de uso estratégico del “*per saltum*”, los
 
 Entonces, en la historia de nuestra práctica jurídica, el “*per saltum*” ha sido fundamentalmente una herramienta concebida y utilizada por los poderes ejecutivos para asegurar o blindar su efectividad y fortalecer el propio margen de maniobra; ha sido una herramienta de apoyo al poder político presidencial. En cada uno de los hitos de la historia que hemos recorrido, el “*per saltum*” ha sido un momento “eureka” en las “mentes brillantes”de las estrategias de política judicial de gobiernos embarcados en iniciativas excepcionalistas y dinámicas hiperpresidencialistas. Siempre.
 
-***Sin embargo, la consecuencia y efecto sistémico más claro que ha venido adquiriendo en la práctica, tal como se ha ido estabilizado lentamente, fue el de conceder a la Corte Suprema una dosis reforzada de poder institucional relativo. Una dosis de esteroides institucinales para reforzar una dimensión muy sensible y afinada de sus intervenciones, particularmente importante en términos estratégicos: el manejo de los tiempos de su participación.***
+*Sin embargo, la consecuencia y efecto sistémico más claro que ha venido adquiriendo en la práctica, tal como se ha ido estabilizado lentamente, fue el de conceder a la Corte Suprema una dosis reforzada de poder institucional relativo. Una dosis de esteroides institucinales para reforzar una dimensión muy sensible y afinada de sus intervenciones, particularmente importante en términos estratégicos: el manejo de los tiempos de su participación.*
 
-Hasta la incorporación del “*per saltum*”, con respecto a la variable “temporal” de su intervención, la Corte solo tenía a mano la herramientapopularmente llamada “cronoterapia” -la posibilidad de demorar indefinidamente el dictado de sus sentencias según su propia conveniencia y discrecionalidad, para darle más o menos tiempo al juego político. A partir del “*per saltum*”, la Corte maneja el tiempo y su velocidad en ambas direcciones; ya no solo puede demorar -más o menos-, sino que también puede acelerar radicalmente el tiempo de su intervención pública -la experiencia muestra que en toda causa de significación institucional y política, las partes tratan de utilizar el “*per saltum*”, lo que le permite  decidir si se apodera o no de los casos importantes, casi de entrada. 
+Hasta la incorporación del “*per saltum*”, con respecto a la variable “temporal” de su intervención, la Corte solo tenía a mano la herramientapopularmente llamada “cronoterapia” --- la posibilidad de demorar indefinidamente el dictado de sus sentencias según su propia conveniencia y discrecionalidad, para darle más o menos tiempo al juego político. A partir del “*per saltum*”, la Corte maneja el tiempo y su velocidad en ambas direcciones; ya no solo puede demorar -más o menos-, sino que también puede acelerar radicalmente el tiempo de su intervención pública -la experiencia muestra que en toda causa de significación institucional y política, las partes tratan de utilizar el “*per saltum*”, lo que le permite  decidir si se apodera o no de los casos importantes, casi de entrada. 
 
-Y -vale aclarar- no se trata de una dinámica de suma cero o equilibrio. No es que lo que ganó la Corte con el “*per saltum*” lo perdió otro poder. El ejecutivo está más fuerte al contar con la posibilidad intentar recursos "*per saltum"*, y la Corte está más fuerte con la posibilidad discrecional de admitir o rechazar los “*per saltum*”, de quien sea que los presente. Lo único que hay es un nuevo vector de desequilibrios -en manos de la Corte-, que se agrega al desaforado ecosistema institucional.
+Y ---vale aclarar--- no se trata de una dinámica de suma cero o equilibrio. No es que lo que ganó la Corte con el “*per saltum*” lo perdió otro poder. El ejecutivo está más fuerte al contar con la posibilidad intentar recursos "*per saltum"*, y la Corte está más fuerte con la posibilidad discrecional de admitir o rechazar los “*per saltum*”, de quien sea que los presente. Lo único que hay es un nuevo vector de desequilibrios -en manos de la Corte-, que se agrega al desaforado ecosistema institucional.
 
 En un capítulo más de la larga lista de búsqueda de ganancias políticas inmediatas que implican pérdidas estructurales de largo plazo, las “mentes brillantes” del hiperpresidencialismo judicial argentino le han hecho a la Corte Suprema el regalo gratuito de un enorme vector de poder discrecional. 
 
 La capacidad discrecional de admitir o rechazar recursos “*per saltum*” expande notablemente la bolsa de favores -o amenazas- a disposición de la Corte, quien probablemente tenga escrito en la puerta de entrada del "*per saltum*": ***La entrada es gratis, la salida vemos.*** 
 
- **¿Y ÉSTE PER SALTUM? ([INTUICIÓN](https://youtu.be/ih6YPCgyu5w?si=rProERkxo2y4tyrN))**
+# ¿Y éste per saltum? ([intuición](https://youtu.be/ih6ypcgyu5w?si=rproerkxo2y4tyrn))
 
 Pues bien, más allá de todo lo dicho hasta aquí, ¿podemos saber qué pasará con este nuevo episodio en la tortuosa saga del “per saltum”en Argentina? Claro que sí. De hecho, es muy fácil saberlo. 
 
@@ -99,6 +100,6 @@ En todo caso, solo nos cabe esperar que los tres tristes tigres supremos tengan 
 
 **Solo cabe esperar que alguien en el mundo de la Corte piense en nosotros. Al final del día, todos queremos fundamentalmente lo mismo, una sola cosa; sentir simplemente "[alguien en el mundo piensa en mí](https://youtu.be/j7XwBi4MMNw?si=GVbd2HbRH9DVQ66s)"**
 
-**Gracias.**
+Gracias.
 
 **SNM**
