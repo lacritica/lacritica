@@ -9,7 +9,7 @@ author:
   - Tomás Abraham
 thumbnail:
   - src: '/img/1E239DA5-3884-467B-AB98-821B35E04504_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
