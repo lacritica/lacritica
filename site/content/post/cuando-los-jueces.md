@@ -1,19 +1,20 @@
 ---
-title: "Cuando los jueces se vuelven la Corte"
+title: Cuando los jueces se vuelven la Corte
 slug: cuando-los-jueces-se-vuelven-la-corte
 date: 2026-04-21
-description: 'La crisis en la suprema corte supremo brasileña.'
+description: La crisis en el Supremo Tribunal Federal brasileño.
 categories:
   - ensayos
 author:
   - Miguel Gualano de Godoy
   - Juliano Zaiden Benvindo
 thumbnail:
-  - src: '/img/D756403B-C336-49D4-91A4-A42F2A80AC0C_1_201_a.jpeg'
-publicado_originalmente_en: Verfassungsblog, 16 de abril de 2026, en inglés [aquí](https://verfassungsblog.de/brazil-stf-crisis/).
+  - src: /img/D756403B-C336-49D4-91A4-A42F2A80AC0C_1_201_a.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
+publicado_originalmente_en: Verfassungsblog, 16 de abril de 2026, en inglés
+  [aquí](https://verfassungsblog.de/brazil-stf-crisis/).
 ---
 
 # Una crisis de gobernanza judicial
