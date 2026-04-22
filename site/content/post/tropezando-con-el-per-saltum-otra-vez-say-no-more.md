@@ -10,7 +10,8 @@ author:
   - Gustavo Maurino
 thumbnail:
   - src: /img/saltum.png
-highlight: false
+    epigraph: Charly, saltando.
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
