@@ -75,21 +75,27 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/cuando-los-jueces-se-vuelven-la-corte/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/persaltum/</loc>
+    <lastmod>2026-04-18T17:18:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/courtis-y-la-renovacion-del-derecho-en-la-argentina/</loc>
     <lastmod>2026-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/pensar-de-nuevo/</loc>
-    <lastmod>2026-04-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-04-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
@@ -389,9 +395,6 @@
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
   </url><url>
@@ -586,19 +589,17 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
-  </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/julian-arato/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/juliano-zaiden-benvindo/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/justina-uriburu/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/klaus-gunther/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura_ronchetti/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro_dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
