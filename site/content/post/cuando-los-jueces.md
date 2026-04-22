@@ -2,7 +2,7 @@
 title: Cuando los jueces se vuelven la Corte
 slug: cuando-los-jueces-se-vuelven-la-corte
 date: 2026-04-21
-description: La crisis en el Supremo Tribunal Federal brasileño.
+description: 'La crisis en el Supremo Tribunal Federal de Brasil.'
 categories:
   - ensayos
 author:
