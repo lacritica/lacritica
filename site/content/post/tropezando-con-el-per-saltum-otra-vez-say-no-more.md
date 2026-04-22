@@ -29,7 +29,7 @@ Si alguien le preguntara a los estrategas judiciales del gobierno actual cómo e
 
 Otra vez la misma historia, otra vez el mismo juego, un nuevo episodio, que es siempre el mismo, como en el día de la marmota. 
 
-# la sucia y desprolija historia del per saltum en Argentina ({{< youtube id=" CiWkp-D2gZyotCcZ" title="La Vanguardia es Así" >}})
+# la sucia y desprolija historia del per saltum en Argentina (["La Vanguardia es Así"](https://youtu.be/KoFrUqItloQ?si=CiWkp-D2gZyotCcZ))
 
 Como bien sabemos, el derecho de las sociedades moderna no es solo un catálogo de normas que prohíben, obligan o permiten algo. Tampoco es pura política, o moral -ni es la guerra- por otros medios. Es una compleja y específica práctica social: Una práctica (a) colectiva, (b) fundamentalmente interpretativa, (c) constructiva, (d) institucionalizada o positivizada, (e) extendida en el tiempo de manera intergeneracional (e) de regulación de las condiciones de participación, convivencia, cooperación y conflictividad social por parte de sus miembros. Todos los elementos y componentes de esa práctica, su sentido y alcances, se construyen “adentro” de ella, con las intervenciones y contribuciones de quienes van participando y desarrollan su funcionamiento. 
 
