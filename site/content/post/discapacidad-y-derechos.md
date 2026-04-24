@@ -50,7 +50,7 @@ Porque como bien señala el texto internacional, "Por \"discriminación por moti
 
 Dicho todo esto, como necesario marco conceptual para ver dónde estamos parados, y sin entrar aquí en detalle de todos los derechos específicos que se consagran en la CDPD, veamos un poco qué está sucediendo. ¿Avanzamos, nos estancamos o retrocedemos? Creo que el activismo del colectivo de PcD, ¿Ha caído también en un "manto de complacencia", como el que marcaba Sen, respecto a determinado tipo de "prestación" o "servicio" que se le brinda? ¿Lo está al punto tal de no reaccionar sino por cuestiones coyunturales que los afecta? ¿Cómo juegan aquí los actores sociales y políticos; qué intereses representan; cuáles son los motivos que los movilizan?
 
-[Las personas de PcD y su ingreso a la agenda actual]{.underline}
+# Las personas de PcD y su ingreso a la agenda actual
 
 Hoy las PcD están visibilizadas en la agenda por:
 
@@ -120,9 +120,9 @@ El hacer realidad los derechos, como titulamos el trabajo con Acuña, sigue sien
 
 [^2]: El Programa de Acción Mundial para las Personas con Discapacidad fue aprobado por la Asamblea General de las Naciones Unidas en su trigésimo séptimo período de sesiones, por Resolución 37/52, de 3 de diciembre de 1982.
 
-[^3]: PALACIOS, Agustina [El modelo social de discapacidad. Orígenes, caracterización y plasmación en la Convención Internacional sobre los Derechos de las Personas con Discapacidad]{.underline}. CERMI. Madrid, 2008.
+[^3]: PALACIOS, Agustina [El modelo social de discapacidad. Orígenes, caracterización y plasmación en la Convención Internacional sobre los Derechos de las Personas con Discapacidad]. CERMI. Madrid, 2008.
 
-[^4]: ACUÑA, Carlos H. y BULIT GOÑI, Luis G (comps) [Políticas sobre la discapacidad en la Argentina. El desafío de hacer realidad los derechos]{.underline}, Siglo XXI Editores, Buenos Aires, 2010.
+[^4]: ACUÑA, Carlos H. y BULIT GOÑI, Luis G (comps) [Políticas sobre la discapacidad en la Argentina. El desafío de hacer realidad los derechos], Siglo XXI Editores, Buenos Aires, 2010.
 
 [^5]: Informe ONU 2012 <https://docs.un.org/es/CRPD/C/ARG/CO/1> . Informe ONU 2023 <https://docs.un.org/es/CRPD/C/ARG/CO/2-3->
 
