@@ -10,7 +10,7 @@ categories:
 author:
   - Gustavo Arballo
 thumbnail:
-  - src: site/static/img/laguna-inundada.jfif
+  - src: /img/laguna-inundada.jfif
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
