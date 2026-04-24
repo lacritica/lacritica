@@ -10,7 +10,7 @@ categories:
 author:
   - Gustavo Arballo
 thumbnail:
-  - src: /img/puga_19-2-18.jpeg
+  - src: site/static/img/laguna-inundada.jfif
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
