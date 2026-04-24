@@ -1,5 +1,6 @@
 ---
 title: Natalia Saralegui
+slug: natalia-saralegui
 twitter_handle: NatiSaralegui
 bio: Abogada y criminóloga. Doy clases, investigo y escribo.
 thumbnail: /img/natalia-saralegui.jpeg

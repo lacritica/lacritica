@@ -1,6 +1,6 @@
 ---
 title: Alicia Ely Yamin
-slug: Alicia Ely Yamin      
+slug: alicia-ely-yamin
 thumbnail: /img/10979.jpg
 bio: Profesora de derecho y directora del Global Health and Rights Project en la Escuela de Derecho de Harvard. 
 bluesky_handle: aliciay.bsky.social

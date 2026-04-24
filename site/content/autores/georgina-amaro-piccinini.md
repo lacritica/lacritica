@@ -1,5 +1,6 @@
 ---
 title: Georgina Amaro Piccinini
+slug: georgina-amaro-piccinini
 bio: Abogada UBA, Jueza. Especialista en violencia(s) de género (CI/OEA-CIM). Magíster
   en Derecho Penal (UdeSA)
 thumbnail: img/georgina_amaro_piccinini.jpg

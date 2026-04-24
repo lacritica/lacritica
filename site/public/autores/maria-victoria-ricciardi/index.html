@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
@@ -15,15 +16,36 @@
       
     </title>
 
+    
+    
+      
+      <meta property="og:title" content="María Victoria Ricciardi">
+      <meta property="og:description" content="">
+      <meta property="og:url" content="http://localhost:1313/autores/maria-victoria-ricciardi/">
+      <meta property="og:type" content="article">
+      
+      
+      
+      
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="María Victoria Ricciardi">
+      <meta name="twitter:description" content="">
+      
+      
+    
+
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.1.0/css/all.min.css">
     <link rel="stylesheet" href="/css/custom.css">
+
     <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
 
   </head>
 
-  <body class="page">
+  
+  <body class="page theme-dynamic theme-5
+">
     <header class="header">
       <div class="banner">
         <a href="/" class="logo-link">
@@ -160,42 +182,56 @@
     
     
 
-    <ul>
+
   
-    
   
-    
-      <li>
-        <a href="/categories/debates">
-          debates
-        </a>
-      </li>
-    
+    <li>
+      <a href="/categories/debates">
+        debates
+      </a>
+    </li>
   
-    
-      <li>
-        <a href="/categories/ensayos">
-          ensayos
-        </a>
-      </li>
-    
+
   
-    
-      <li>
-        <a href="/categories/entrevistas">
-          entrevistas
-        </a>
-      </li>
-    
   
-    
-      <li>
-        <a href="/categories/rese%C3%B1as">
-          reseñas
-        </a>
-      </li>
-    
+    <li>
+      <a href="/categories/ensayos">
+        ensayos
+      </a>
+    </li>
   
+
+  
+  
+    <li>
+      <a href="/categories/entrevistas">
+        entrevistas
+      </a>
+    </li>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/categories/rese%C3%B1as">
+        reseñas
+      </a>
+    </li>
+  
+
+  
+  
+
+
 
   
 
@@ -224,6 +260,7 @@
         <li><a href="/categories/reseñas/">reseñas</a></li>
         <li><a href="/bocanadas/">bocanadas</a></li>
         <li><a href="/autores/">autores</a></li>
+        <li><a href="/archivo/">archivo</a></li>
         <li><a href="/quienes_somos/">quienes somos</a></li>
         <li><a href="/contáctenos/">contáctenos</a></li>
         <li><a><form
@@ -268,7 +305,7 @@
   align-items: center;
   max-width: 420px;
   
-  margin-left: 1rem;
+  margin-left: 0rem;
   z-index: 1001;
 }
 
@@ -384,13 +421,15 @@ document.addEventListener("click", () => {
           return;
         }
 
-        if (currentScroll > lastScroll && currentScroll > 100) {
+        if (currentScroll > lastScroll && currentScroll > 400) {
           
+          bar.style.transform = "translateY(-100%)";
           bar.classList.add("hidden");
           bar.classList.remove("visible");
           smallLogo.classList.remove("show");
-        } else {
+        } else if (currentScroll < lastScroll) {
           
+          bar.style.transform = "translateY(0)";
           bar.classList.remove("hidden");
           bar.classList.add("visible");
           smallLogo.classList.add("show");
@@ -410,7 +449,7 @@ document.addEventListener("click", () => {
 <div class="author-header">
   
     <div class="author-image">
-      <img src="/img/mar%c3%ada_victoria_ricciardi.jpg" alt="Author image">
+      <img src="/img/mvr.webp" alt="Author image">
     </div>
   
 
@@ -424,6 +463,19 @@ document.addEventListener("click", () => {
   <div class = "list-of-articles-by-authors">
 
   <div class="secondary-grid-author">
+  
+    <article class="article">
+      <h2>
+        <a href="/post/courtis-y-la-renovacion-del-derecho-en-la-argentina/">Courtis y la renovación del derecho en la Argentina</a>
+
+  
+  
+  <span class="article-date">
+    | 17 de abril de 2026
+  </span>
+
+      </h2>
+    </article>
   
     <article class="article">
       <h2>
@@ -455,7 +507,7 @@ document.addEventListener("click", () => {
 
      
     <div class="footer-text">
-    <span>@ 2025 La Crítica del Derecho</span>
+    <span>@ 2025-2026 La Crítica del Derecho</span>
     </div>
     <br>
 
@@ -494,6 +546,85 @@ document.addEventListener("click", () => {
   </a> 
 </div>
 </footer>
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.matchMedia("(min-width: 769px)").matches) return;
+
+  document.querySelectorAll("sup[id^='fnref']").forEach(ref => {
+    
+    if (ref.nextElementSibling?.classList.contains("sidenote")) return;
+
+    const link = ref.querySelector("a");
+    if (!link) return;
+
+    
+    const number = link.textContent.trim();
+    if (!number) return;
+
+    const id = link.getAttribute("href").substring(1);
+    const footnote = document.getElementById(id);
+    if (!footnote) return;
+
+    const aside = document.createElement("aside");
+    aside.className = "sidenote";
+
+    aside.innerHTML = `
+      <span class="sidenote-number">${number}</span>
+      ${footnote.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "")}
+    `;
+
+    ref.after(aside);
+  });
+});
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.matchMedia("(max-width: 768px)").matches) return;
+
+  document.querySelectorAll("a.footnote-ref").forEach((ref) => {
+    ref.addEventListener("click", function (e) {
+      e.preventDefault();
+
+      const sup = this.closest("sup");
+      if (!sup) return;
+
+      const id = decodeURIComponent((this.getAttribute("href") || "").replace(/^#/, ""));
+      if (!id) return;
+
+      const note = document.getElementById(id);
+      if (!note) return;
+
+      
+      const existing = sup.nextElementSibling;
+      if (existing && existing.classList.contains("inline-footnote")) {
+        const willOpen = existing.hidden;
+        existing.hidden = !willOpen;
+        existing.classList.toggle("is-open", willOpen);
+        this.setAttribute("aria-expanded", willOpen ? "true" : "false");
+        return;
+      }
+
+      const inline = document.createElement("div");
+      inline.className = "inline-footnote is-open";
+
+      const noteClone = note.cloneNode(true);
+      noteClone.querySelectorAll("a.footnote-backref, a[role='doc-backlink']").forEach((backref) => backref.remove());
+
+      inline.innerHTML = noteClone.innerHTML;
+      inline.hidden = false;
+      this.setAttribute("aria-expanded", "true");
+
+      sup.after(inline);
+    });
+  });
+});
+</script>
+
+
 
 
 

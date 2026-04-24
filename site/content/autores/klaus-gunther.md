@@ -1,5 +1,6 @@
 ---
 title: Klaus Günther
+slug: klaus-gunther
 bio: Profesor de Teoría Legal y Filosofía del Derecho, Goethe University Frankfurt
 thumbnail: img/klaus-gunther.webp
 ---

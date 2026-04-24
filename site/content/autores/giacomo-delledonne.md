@@ -1,5 +1,6 @@
 ---
 title: Giacomo Delledonne
+slug: giacomo-delledonne
 bio: Profesor asociado de Derecho Constitucional en la Scuola Superiore Sant’Anna de Pisa
 thumbnail: img/giacomo.jpg
 ---

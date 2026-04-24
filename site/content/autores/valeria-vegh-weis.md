@@ -1,5 +1,6 @@
 ---
 title: Valeria Vegh Weis
+slug: valeria-vegh-weis
 twitter_handle: 
 bio: Investigadora Senior, Universidad de Constanza (Alemania)
 thumbnail: img/valeria-vegh.jpg

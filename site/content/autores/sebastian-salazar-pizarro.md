@@ -1,6 +1,6 @@
 ---
 title: Sebastián Salazar Pizarro
-slug: Sebastián Salazar Pizarro
+slug: sebastian-salazar-pizarro
 thumbnail: 
 bio: Universidad Alberto Hurtado
 twitter_handle: /img/sebastian-Salazar.jpg

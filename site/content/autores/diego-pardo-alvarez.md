@@ -1,6 +1,6 @@
 ---
 title: Diego Pardo Álvarez
-slug: Diego Pardo Álvarez
+slug: diego-pardo-alvarez
 thumbnail: /img/pardo-alvarez.jpg
 bio: Universidad Adolfo Ibáñez
 twitter_handle: 

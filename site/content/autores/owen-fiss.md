@@ -1,6 +1,6 @@
 ---
 title: Owen Fiss
-slug: Owen Fiss
+slug: owen-fiss
 thumbnail: /img/fiss_owen.jpg
 bio: Profesor Sterling emérito de Derecho (Yale Law School)
 twitter_handle: 

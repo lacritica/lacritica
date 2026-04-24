@@ -1,5 +1,6 @@
 ---
 title: Adriana Soria    
+slug: adriana-soria
 twitter_handle: 
 bio: Abogada, Investigadora y Especialista en Métodos Alternativos de Resolución de Conflictos, DDHH, y Género. 
 thumbnail: img/adriana-soria.jpeg

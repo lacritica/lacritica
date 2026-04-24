@@ -1,5 +1,6 @@
 ---
 title: Alejandro Carrió
+slug: alejandro-carrio
 twitter_handle: 
 bio: Profesor de derecho y abogado
 thumbnail: /img/a_carrio.jpg

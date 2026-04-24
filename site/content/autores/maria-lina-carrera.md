@@ -1,5 +1,6 @@
 ---
 title: María Lina Carrera
+slug: maria-lina-carrera
 twitter_handle: 
 bio: Abogada, Investigadora y Profesora.
 thumbnail: /img/maria_lina_carrera.jpg

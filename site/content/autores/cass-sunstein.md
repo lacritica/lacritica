@@ -1,5 +1,6 @@
 ---
 title: Cass Sunstein
+slug: cass-sunstein
 bio: Robert Walmsley University Professor, Harvard Law School. Premio Holberg 2018
 thumbnail: img/cass-sunstein.jpg
 ---

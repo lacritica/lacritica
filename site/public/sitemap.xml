@@ -75,18 +75,24 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/cuando-los-jueces-se-vuelven-la-corte/</loc>
-    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/discapacidad-y-derechos/</loc>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/las-elecciones-peruanas-abril-2026/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/cuando-los-jueces-se-vuelven-la-corte/</loc>
     <lastmod>2026-04-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/persaltum/</loc>
@@ -514,7 +520,7 @@
   </url><url>
     <loc>http://localhost:1313/gracias/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/abel_gilbert/</loc>
+    <loc>http://localhost:1313/autores/abel-gilbert/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/adriana-soria/</loc>
   </url><url>
@@ -530,9 +536,9 @@
   </url><url>
     <loc>http://localhost:1313/autores/ana-longoni/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/anna_mastromarino/</loc>
+    <loc>http://localhost:1313/autores/anna-mastromarino/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/antonia_fratini_lagos/</loc>
+    <loc>http://localhost:1313/autores/antonia-fratini-lagos/</loc>
   </url><url>
     <loc>http://localhost:1313/archivo/</loc>
   </url><url>
@@ -540,27 +546,27 @@
   </url><url>
     <loc>http://localhost:1313/autores/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/camila_vicintin/</loc>
+    <loc>http://localhost:1313/autores/camila-vicintin/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/cass-sunstein/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/catalina_p%C3%A9rez_correa/</loc>
+    <loc>http://localhost:1313/autores/catalina-perez-correa/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/clyde_w_barrow/</loc>
+    <loc>http://localhost:1313/autores/clyde-w-barrow/</loc>
   </url><url>
     <loc>http://localhost:1313/cont%C3%A1ctenos/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/cristina-lafont/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/cynthia-benzon/</loc>
+    <loc>http://localhost:1313/autores/cynthia-benzion/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/diego-pardo-%C3%A1lvarez/</loc>
+    <loc>http://localhost:1313/autores/diego-pardo-alvarez/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/emiliano_martin_vitaliani/</loc>
+    <loc>http://localhost:1313/autores/emiliano-vitaliani/</loc>
   </url><url>
     <loc>http://localhost:1313/catastrofe/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/fernando_gauna_alsina/</loc>
+    <loc>http://localhost:1313/autores/fernando-gauna-alsina/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/georgina-amaro-piccinini/</loc>
   </url><url>
@@ -572,11 +578,11 @@
   </url><url>
     <loc>http://localhost:1313/autores/gustavo-maurino/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/heber_joel_campos_bernal/</loc>
+    <loc>http://localhost:1313/autores/heber-joel-campos-bernal/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/ignacio-giuffr%C3%A9/</loc>
+    <loc>http://localhost:1313/autores/ignacio-giuffre/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/irene_benito/</loc>
+    <loc>http://localhost:1313/autores/irene-benito/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/irwin-stotzky/</loc>
   </url><url>
@@ -590,9 +596,9 @@
   </url><url>
     <loc>http://localhost:1313/autores/jose-luis-marti/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan_gonz%C3%A1lez_bertomeu/</loc>
+    <loc>http://localhost:1313/autores/juan-f-gonzalez-bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan_ignacio_saenz/</loc>
+    <loc>http://localhost:1313/autores/juan-ignacio-saenz/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
   </url><url>
@@ -604,9 +610,9 @@
   </url><url>
     <loc>http://localhost:1313/autores/klaus-gunther/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/laura_ronchetti/</loc>
+    <loc>http://localhost:1313/autores/laura-ronchetti/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/leandro_dias/</loc>
+    <loc>http://localhost:1313/autores/leandro-dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
@@ -616,17 +622,19 @@
   </url><url>
     <loc>http://localhost:1313/autores/lucas-gilardone/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/luciana_noelia_ginga/</loc>
+    <loc>http://localhost:1313/autores/luciana-ginga/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/marco_gaiero/</loc>
+    <loc>http://localhost:1313/autores/luis-bulit-goni/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/marco-gaiero/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-luisa-pique/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/mar%C3%ADa_valeria_berros/</loc>
+    <loc>http://localhost:1313/autores/maria-valeria-berros/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/mar%C3%ADa-victoria-ricciardi/</loc>
+    <loc>http://localhost:1313/autores/maria-victoria-ricciardi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
   </url><url>
@@ -636,17 +644,17 @@
   </url><url>
     <loc>http://localhost:1313/autores/matias-maito/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/m%C3%A1ximo_lanusse_noguera/</loc>
+    <loc>http://localhost:1313/autores/maximo-lanusse-noguera/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/michael-sandel/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/miguel_gualano_de_godoy/</loc>
+    <loc>http://localhost:1313/autores/miguel-gualano-de-godoy/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/nahuel-maisley/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/natalia-saralegui/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/natalia-sobrevilla/</loc>
+    <loc>http://localhost:1313/autores/natalia-sobrevilla-perea/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/nicolas-tauber-sanz/</loc>
   </url><url>
@@ -654,9 +662,9 @@
   </url><url>
     <loc>http://localhost:1313/autores/owen-fiss/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/pablo_alabarces/</loc>
+    <loc>http://localhost:1313/autores/pablo-alabarces/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/patricio_mendez_montenegro/</loc>
+    <loc>http://localhost:1313/autores/patricio-mendez-montenegro/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/pedro-caminos/</loc>
   </url><url>
@@ -670,15 +678,15 @@
   </url><url>
     <loc>http://localhost:1313/autores/roy-hora/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/rub%C3%A9n_m_lo_vuolo/</loc>
+    <loc>http://localhost:1313/autores/ruben-lo-vuolo/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/sebastian-guidi/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/sebasti%C3%A1n-mazzuca/</loc>
+    <loc>http://localhost:1313/autores/sebastian-mazzuca/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/sebasti%C3%A1n-salazar-pizarro/</loc>
+    <loc>http://localhost:1313/autores/sebastian-salazar-pizarro/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/seyla-benhabib/</loc>
   </url><url>
@@ -686,7 +694,7 @@
   </url><url>
     <loc>http://localhost:1313/autores/tomas-abraham/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/tomas_fernandez_fiks/</loc>
+    <loc>http://localhost:1313/autores/tomas-fernandez-fiks/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/valeria-vegh-weis/</loc>
   </url><url>

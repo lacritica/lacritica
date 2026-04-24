@@ -1,5 +1,6 @@
 ---
 title: Ana Longoni
+slug: ana-longoni
 bio: Investigadora del Conicet
 thumbnail: img/ana-longoni.jpeg
 ---

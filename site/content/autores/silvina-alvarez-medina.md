@@ -1,5 +1,6 @@
 ---
 title: Silvina Alvarez Medina
+slug: silvina-alvarez-medina
 twitter_handle: Silvina86624794
 bio: Profesora de filosofía del derecho de la Universidad Autónoma de Madrid
 thumbnail: img/silvina_alvarez_medina.jpg

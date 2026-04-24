@@ -1,5 +1,6 @@
 ---
 title: Cristina Lafont
+slug: cristina-lafont
 bio: Profesora de Filosofía, Northwestern University. 
 thumbnail: img/cristina-lafont.jpg
 ---

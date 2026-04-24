@@ -1,5 +1,6 @@
 ---
 title: Michael Sandel
+slug: michael-sandel
 bio: Anne T. and Robert M. Bass Professor of Government Theory, Harvard University. Filósofo político y moral.
 thumbnail: img/sandel.jpg
 ---

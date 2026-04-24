@@ -43,7 +43,9 @@
 
   </head>
 
-  <body class="page">
+  
+  <body class="page theme-dynamic theme-5
+">
     <header class="header">
       <div class="banner">
         <a href="/" class="logo-link">
@@ -213,11 +215,20 @@
 
   
   
+
+  
+  
+
+  
+  
     <li>
       <a href="/categories/rese%C3%B1as">
         reseñas
       </a>
     </li>
+  
+
+  
   
 
 
@@ -410,13 +421,15 @@ document.addEventListener("click", () => {
           return;
         }
 
-        if (currentScroll > lastScroll && currentScroll > 100) {
+        if (currentScroll > lastScroll && currentScroll > 400) {
           
+          bar.style.transform = "translateY(-100%)";
           bar.classList.add("hidden");
           bar.classList.remove("visible");
           smallLogo.classList.remove("show");
-        } else {
+        } else if (currentScroll < lastScroll) {
           
+          bar.style.transform = "translateY(0)";
           bar.classList.remove("hidden");
           bar.classList.add("visible");
           smallLogo.classList.add("show");
@@ -436,14 +449,13 @@ document.addEventListener("click", () => {
 <div class="author-header">
   
     <div class="author-image">
-      <img src="/img/fernando-gauna-alsina.jpeg" alt="Author image">
+      <img src="/img/fernando_gauna_alsina.jpg" alt="Author image">
     </div>
   
 
   <div class="author-info">
     <h1>Fernando Gauna Alsina</h1>
-    <p>Magíster en sociología jurídico-penal, Universidad de Barcelona, y en criminología, Universidad Nacional del Litoral.
-Integrante del Área sociología de la justicia penal de la Universidad Nacional de La Plata.</p>
+    <p>Abogado, Universidad de Palermo. Magister en sociología jurídico-penal, Universidad de Barcelona. Magister en criminología y doctorando en estudios sociales, Universidad Nacional del Litoral. Integrante del Área de sociología de la justicia penal del Instituto de Cultura Jurídica, Universidad Nacional de La Plata.</p>
 
   </div>
 </div>
@@ -454,7 +466,7 @@ Integrante del Área sociología de la justicia penal de la Universidad Nacional
   
     <article class="article">
       <h2>
-        <a href="/post/sobre-el-eterno-debate/">Sobre el eterno debate de la baja la edad de punibilidad</a>
+        <a href="/post/sobre-el-eterno-debate/">El eterno debate por la baja en la edad de punibilidad</a>
 
   
   
@@ -560,25 +572,38 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
   if (!window.matchMedia("(max-width: 768px)").matches) return;
 
-  document.querySelectorAll("sup[id^='fnref'] a").forEach(ref => {
+  document.querySelectorAll("a.footnote-ref").forEach((ref) => {
     ref.addEventListener("click", function (e) {
       e.preventDefault();
 
-      const sup = this.parentElement;
-      const id = this.getAttribute("href").substring(1);
+      const sup = this.closest("sup");
+      if (!sup) return;
+
+      const id = decodeURIComponent((this.getAttribute("href") || "").replace(/^#/, ""));
+      if (!id) return;
+
       const note = document.getElementById(id);
       if (!note) return;
 
       
       const existing = sup.nextElementSibling;
       if (existing && existing.classList.contains("inline-footnote")) {
-        existing.remove();
+        const willOpen = existing.hidden;
+        existing.hidden = !willOpen;
+        existing.classList.toggle("is-open", willOpen);
+        this.setAttribute("aria-expanded", willOpen ? "true" : "false");
         return;
       }
 
-      const inline = document.createElement("span");
-      inline.className = "inline-footnote";
-      inline.innerHTML = note.innerHTML.replace(/<a[^>]*>↩︎?<\/a>/, "");
+      const inline = document.createElement("div");
+      inline.className = "inline-footnote is-open";
+
+      const noteClone = note.cloneNode(true);
+      noteClone.querySelectorAll("a.footnote-backref, a[role='doc-backlink']").forEach((backref) => backref.remove());
+
+      inline.innerHTML = noteClone.innerHTML;
+      inline.hidden = false;
+      this.setAttribute("aria-expanded", "true");
 
       sup.after(inline);
     });

@@ -1,5 +1,6 @@
 ---
 title: Joaquín Millon Quintana
+slug: joaquin-millon-quintana
 bio: Profesor de la Universidad de San Andrés
 thumbnail: img/joquin.webp
 ---

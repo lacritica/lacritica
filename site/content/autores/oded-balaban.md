@@ -1,6 +1,6 @@
 ---
 title: Oded Balaban
-slug: Oded Balaban
+slug: oded-balaban
 thumbnail: img/balaban.jpg
 bio: Profesor de Filosofía en la Universidad de Haifa
 twitter_handle: 

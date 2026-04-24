@@ -1,5 +1,6 @@
 ---
 title: Pedro Caminos 
+slug: pedro-caminos
 twitter_handle: pedrocaminos
 bio: Abogado y profesor de derecho constitucional.
 thumbnail: /img/pedro_a_caminos.jpg

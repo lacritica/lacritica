@@ -11,7 +11,7 @@ author:
 thumbnail:
   - src: /img/charly.jpg
     epigraph: Charly, saltando.
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---

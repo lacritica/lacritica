@@ -1,5 +1,6 @@
 ---
 title: Rainer Forst
+slug: rainer-forst
 bio: Profesor de Teoría Política, Goethe University Frankfurt. Leibniz Prize 2012
 thumbnail: img/rainer-forst.jpg
 ---

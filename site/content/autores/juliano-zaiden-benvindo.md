@@ -1,5 +1,6 @@
 ---
 title: Juliano Zaiden Benvindo
+slug: juliano-zaiden-benvindo
 twitter_handle: 
 bio: Professor de Derecho Constitucional de la Facultad de Derecho de la Universidad de Brasilia (UnB).
 thumbnail: /img/juliano.jpeg

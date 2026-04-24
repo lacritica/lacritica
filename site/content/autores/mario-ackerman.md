@@ -1,5 +1,6 @@
 ---
 title: Mario Ackerman
+slug: mario-ackerman
 twitter_handle: 
 bio:  Profesor Emérito de Derecho del Trabajo y de la Seguridad Social y Director de la Maestría y de la Carrera de Especialización de Posgrado en Derecho del Trabajo en la Facultad de Derecho de la Universidad de Buenos Aires.
 thumbnail: img/mario-ackerman.jpg

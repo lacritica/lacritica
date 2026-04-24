@@ -1,5 +1,6 @@
 ---
 title: Roberto Gargarella	
+slug: roberto-gargarella
 twitter_handle: rgargarella
 bluesky_handle: rgargarella.bsky.social
 bio: Doctor en derecho (UBA 1991, Chicago 1993), Sociólogo, Master en Ciencias Políticas

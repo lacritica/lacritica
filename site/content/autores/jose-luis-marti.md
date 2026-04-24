@@ -1,5 +1,6 @@
 ---
 title: José Luis Martí
+slug: jose-luis-marti
 bio: Profesor Asociado de Filosofía del Derecho, Universitat Pompeu Fabra
 thumbnail: img/jose-luis-marti.jpg
 ---

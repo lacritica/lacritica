@@ -1,6 +1,6 @@
 ---
 title: Sebastián Mazzuca
-slug: Sebastián Mazzuca
+slug: sebastian-mazzuca
 thumbnail: /img/Mazzuca.jpg
 bio: Profesor de Ciencia Política (Tecnológico de Monterrey).
 twitter_handle: SLMazzuca

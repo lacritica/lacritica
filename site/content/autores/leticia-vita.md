@@ -1,5 +1,6 @@
 ---
 title: Leticia Vita
+slug: leticia-vita
 bio: Profesora de Teoría del Estado en la Facultad de Derecho de la Universidad de Buenos Aires.
 twitter_handle: leticiajvita
 thumbnail: /img/l_vita.jpeg

@@ -1,5 +1,6 @@
 ---
 title: Leonardo García Jaramillo
+slug: leonardo-garcia-jaramillo
 bio: Profesor de Ciencias Políticas, Universidad EAFIT (Colombia)
 thumbnail: img/leonardo-garcia-jaramillo.jpg
 ---

@@ -1,5 +1,6 @@
 ---
 title: Seyla Benhabib
+slug: seyla-benhabib
 bio: Senior Research Scholar, Columbia Law School. Ganadora del Premio Hannah Arendt 2025
 thumbnail: img/seyla-benhabib.jpg
 ---

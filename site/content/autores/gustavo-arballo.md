@@ -1,5 +1,6 @@
 ---
 title: Gustavo Arballo
+slug: gustavo-arballo
 twitter_handle: gustarballo
 bio: Doctor en Derecho (UN Cordoba). Profesor Derecho Público Provincial y Municipal (UNLPam)
 thumbnail: /img/gustavo_arballo.jpg

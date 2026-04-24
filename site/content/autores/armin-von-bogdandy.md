@@ -1,5 +1,6 @@
 ---
 title: Armin von Bogdandy
+slug: armin-von-bogdandy
 bio: Director del Instituto Max Planck de Derecho Público Comparado y Derecho Internacional. Experto en derecho constitucional y derecho internacional.
 thumbnail: img/amin.webp
 ---
