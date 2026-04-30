@@ -9,7 +9,7 @@ author:
   - Luis Guillermo Bulit Goñi
 thumbnail:
   - src: '/img/puga_16-5-19.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
