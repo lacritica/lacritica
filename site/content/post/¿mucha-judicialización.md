@@ -12,6 +12,9 @@ thumbnail:
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
+callouts: 
+  - "La diferencia entre el caudal de casos de las Cortes Supremas en ambos países no tiene que ver con el nivel de judicialización en general, ni de judicialización de la política en particular, sino con el modo de admisión de las causas."
+featured_callout: 0
 ---
 Me detengo en una frase de la conferencia de Horacio Rosatti del otro día que [recoge](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.lanacion.com.ar/politica/horacio-rosatti-cuestiono-la-judicializacion-de-la-politica-por-falta-de-consensos-nid28042026/&ved=2ahUKEwik1LC-lJSUAxXRppUCHWZcOXsQFnoECBoQAQ&usg=AOvVaw0Fq6rP6PMETxiwslmaCNPu) la tribuna de doctrina:
 
