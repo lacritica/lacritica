@@ -1,8 +1,8 @@
 ---
-title: En busca de una Corte Suprema para la Constitución
+title: "En busca de una casa (una Corte suprema) para la Constitución "
 slug: corte-cortita
 date: 2026-05-01T11:38:00.000-03:00
-description: Vivimos en una casa constitucional vacía y no deberíamos naturalizarlo
+description: Vivimos en una casa constitucional vacía, y no deberíamos aceptarlo
 categories:
   - ensayos
 author:
@@ -11,9 +11,9 @@ highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-El primero de Mayo, Argentina honra no solo el día del trabajador, sino también el día de la Constitución Nacional, conmermorando la fecha de su primera constitución exitosa. Para una comunidad jurídica y política que ha pasado buen parte del Siglo XX al margen de la Constitución, deberá ser una fecha significativa, un hito para renovar su compromiso, su patriotismo constitucional.
+El primero de Mayo, Argentina honra no solo el día del trabajador, sino también el día de la Constitución Nacional conmermorando la fecha de su primera Constitución exitosa. Para una comunidad jurídica y política que ha pasado buen parte del Siglo XX al margen de la Constitución, debería ser una fecha significativa, un hito para renovar nuestro compromiso y patriotismo constitucional.
 
-Justo un día antes, el 30 de Abril -día en que se conmemora la primera ronda de las madres de plaza de mayo- , en la sede de nuestra Corte Suprema se dictó un fallo que debería tener una enorme trascendencia constitucional e institucional. 
+Justo un día antes, ayer 30 de Abril -día en que se conmemora la primera ronda de las madres de plaza de mayo- , en la sede de nuestra Corte Suprema se dictó un fallo que debería tener una enorme trascendencia constitucional e institucional. 
 
 En el caso **“Torres Abad, Carmen c/ EN - JGM s/ hábeas data”**, se analizó la constitucionalidad de diversas normas de la ley 25.326 de Protección de Datos Personales, y se resolvió que eran inconstitucionales porque vulneraban los derechos constitucionales a la intimidad, la privacidad y la “autodeterminación informativa o libertad informática” de las personas.
 
