@@ -7,6 +7,8 @@ categories:
   - ensayos
 author:
   - Gustavo Maurino
+thumbnail:
+  - src: /img/038B6BF7-FD0B-40D5-84B6-67D461E3D264_1_201_a.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
@@ -15,7 +17,7 @@ El primero de Mayo, Argentina honra no solo el día del trabajador, sino tambié
 
 Justo un día antes, ayer 30 de Abril -día en que se conmemora la primera ronda de las madres de plaza de mayo- , en la sede de nuestra Corte Suprema se dictó un fallo que debería tener una enorme trascendencia constitucional e institucional. 
 
-En el caso **“Torres Abad, Carmen c/ EN - JGM s/ hábeas data”**, se analizó la constitucionalidad de diversas normas de la ley 25.326 de Protección de Datos Personales, y se resolvió que eran inconstitucionales porque vulneraban los derechos constitucionales a la intimidad, la privacidad y la “autodeterminación informativa o libertad informática” de las personas.
+En el caso **[“Torres Abad, Carmen c/ EN - JGM s/ hábeas data”](https://www.palabrasdelderecho.com.ar/articulo/6728/Fallo-a-favor-de-la-privacidad-la-Corte-Suprema-declaro-la-inconstitucionalidad-de-varios-articulos-de-la-Ley-de-Datos-Personales)**, se analizó la constitucionalidad de diversas normas de la ley 25.326 de Protección de Datos Personales, y se resolvió que eran inconstitucionales porque vulneraban los derechos constitucionales a la intimidad, la privacidad y la “autodeterminación informativa o libertad informática” de las personas.
 
 En cualquier contexto de normalidad y funcionalidad constitucional una sentencia de este tipodefine las bases y marca el rumbo futuro de los mandatos constitucionales relativos al uso estatal de datos e información que obtiene de sus ciudadanos. Se trata del tipo de sentencias trascendentales a través de las cuales las Cortes Supremas actualizan el sentido y marcan la identidad constitucional de la generación que les toca gobernar. 
 
