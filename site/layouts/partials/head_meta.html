@@ -15,9 +15,9 @@
 </title>
 
 {{ $pageTitle := cond (ne .Title "") .Title .Site.Title }}
-{{ $pageDescription := .Description | plainify | strings.TrimSpace }}
+{{ $pageDescription := trim (.Description | plainify) " \n\r\t" }}
 {{ if eq $pageDescription "" }}
-  {{ $pageDescription = .Summary | plainify | strings.TrimSpace }}
+  {{ $pageDescription = trim (.Summary | plainify) " \n\r\t" }}
 {{ end }}
 {{ if eq $pageDescription "" }}
   {{ $pageDescription = .Site.Params.description | default "La Crítica del Derecho" }}
