@@ -16,6 +16,7 @@ googleAnalytics = "G-2QZ6PPKCSR"
   
 [params]
   description = "La Crítica del Derecho"
+  social_image = "/img/batalla1.jpeg"
   footer = "&copy; 2025 La Crítica del Derecho Colectivo Crítico"
 
 # Optional: social links
@@ -67,4 +68,3 @@ term = ["HTML", "JSON"]
       unsafe = true
     [markup.goldmark.extensions]
       footnote = true
-

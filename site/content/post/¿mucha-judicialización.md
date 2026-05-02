@@ -9,7 +9,7 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/3EAB2FB8-1CE8-44E8-9B14-F840FE1DFDF6_1_201_a.jpeg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 callouts: 

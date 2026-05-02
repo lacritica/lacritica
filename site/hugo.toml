@@ -10,4 +10,6 @@ theme = "hugo-xmag"
 #disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 
 [params]
-images = ["img/og-image.jpg"]
+images = ["img/batalla1.jpeg"]
+description = "La Crítica del Derecho"
+social_image = "/img/batalla1.jpeg"

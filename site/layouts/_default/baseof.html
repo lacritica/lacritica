@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="{{ .Site.LanguageCode }}">
 <head>
-  {{ partial "header.html" . }}
+  {{ partial "head_meta.html" . }}
 </head>
 
-<body>
-
+{{ $themeClass := partial "hero_theme_class.html" . }}
+<body class="{{ if .IsPage }}page {{ end }}{{ $themeClass }}">
+  {{ partial "site_header.html" . }}
   <main id="content" class="content">
     {{ block "main" . }}{{ end }}
   </main>
 
   {{ partial "footer.html" . }}
-
-</body>
-</html>

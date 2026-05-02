@@ -1,0 +1,118 @@
+<header class="header">
+  <div class="banner">
+    <a href="{{ "/" | relURL }}" class="logo-link">
+      {{ partial "logo.svg" . }}
+    </a>
+  </div>
+</header>
+
+<div class="taxonomy-bar">
+  <!-- Small logo (only visible when scrolled) -->
+  <a href="{{ "/" | relURL }}" class="taxonomy-logo">
+    <img src="{{ "/img/logo_small.svg" | relURL }}" alt="Logo">
+  </a>
+
+  <div class="taxonomy-list">
+    {{ with .Site.Taxonomies.categories }}
+      {{ $exclude := slice "catastrophe" "catastrofe" "internal" "especial-reforma-laboral" "especial-ley-penal-juvenil" "simposio" "hidden" }}
+
+      {{ range $key, $value := . }}
+        {{ $slug := $key | urlize }}
+        {{ if and (not (in $exclude $slug)) (not (strings.Contains ($key | lower) "habermas")) }}
+          <li>
+            <a href="{{ "/categories/" | relURL }}{{ $slug }}">
+              {{ $key }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+
+    </ul>
+    {{ end }}
+  </div>
+
+  <button id="menu-toggle" aria-label="Toggle menu">
+    <img src="{{ "img/three_lines.svg" | relURL }}" alt="Menu toggle icon" class="menu-icon">
+  </button>
+</div>
+
+<nav id="menu" class="hidden">
+  <button id="menu-close" aria-label="Close menu">✕</button>
+  <ul>
+    <li><a href="/search/">buscar</a></li>
+    <li><a href="/categories/debates/">debates</a></li>
+    <li><a href="/categories/ensayos/">ensayos</a></li>
+    <li><a href="/categories/entrevistas/">entrevistas</a></li>
+    <li><a href="/categories/reseñas/">reseñas</a></li>
+    <li><a href="/bocanadas/">bocanadas</a></li>
+    <li><a href="/autores/">autores</a></li>
+    <li><a href="/archivo/">archivo</a></li>
+    <li><a href="/quienes_somos/">quienes somos</a></li>
+    <li><a href="/contáctenos/">contáctenos</a></li>
+    <li><a>{{ partial "subscribe.html" . }}</a></li>
+  </ul>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@latest/dist/flexsearch.bundle.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+  const closeBtn = document.getElementById("menu-close");
+  const smallLogo = document.querySelector(".taxonomy-logo");
+  const bar = document.querySelector(".taxonomy-bar");
+
+  if (btn && menu && closeBtn) {
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      menu.classList.remove("hidden");
+      requestAnimationFrame(() => {
+        menu.style.transform = "translateX(0)";
+      });
+    });
+
+    menu.addEventListener("click", (e) => e.stopPropagation());
+
+    closeBtn.addEventListener("click", () => {
+      menu.style.transform = "translateX(100%)";
+      setTimeout(() => menu.classList.add("hidden"), 300);
+    });
+
+    document.addEventListener("click", () => {
+      if (!menu.classList.contains("hidden")) {
+        menu.style.transform = "translateX(100%)";
+        setTimeout(() => menu.classList.add("hidden"), 300);
+      }
+    });
+  }
+
+  if (bar && smallLogo) {
+    let lastScroll = 0;
+
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+      if (currentScroll <= 0) {
+        bar.classList.remove("hidden", "visible");
+        smallLogo.classList.remove("show");
+        return;
+      }
+
+      if (currentScroll > lastScroll && currentScroll > 400) {
+        bar.style.transform = "translateY(-100%)";
+        bar.classList.add("hidden");
+        bar.classList.remove("visible");
+        smallLogo.classList.remove("show");
+      } else if (currentScroll < lastScroll) {
+        bar.style.transform = "translateY(0)";
+        bar.classList.remove("hidden");
+        bar.classList.add("visible");
+        smallLogo.classList.add("show");
+      }
+
+      lastScroll = currentScroll;
+    });
+  }
+});
+</script>
