@@ -69,10 +69,10 @@ Vacía de Defensoría del Pueblo de la Nación.
 
 Vacía, finalmente, de una verdadera Corte Suprema de Justicia de la Nación. 
 
-El palacio de tribunales está habitado por tres jueces -sin dudas probos los tres pobres varones-, pero sin una Corte Suprema. Tres pobres jueces, auienes a pesar de todos sus esfuerzos para proyectar institucionalidad -que también malogran con sus rencillas internas-, ni siquiera pueden crear interpretación constitucional que merezca autoritatividad. 
+El palacio de tribunales está habitado por tres jueces -sin dudas probos los tres pobres varones-, pero sin una Corte Suprema. Tres pobres jueces, quienes a pesar de todos sus esfuerzos para proyectar institucionalidad -que también malogran con sus rencillas internas-, ni siquiera pueden crear interpretación constitucional que merezca autoritatividad. 
 
 En esta pesadilla de casa vacía, una comunidad jurídica transcurre mansamente recluida en un estado de excepción constitucional, como si nada pasara *(“no pasa nada, nadie pasa, solo una banda militar, desafinando el tiempo y el compás”, decía la canción).*
 
-*La comunidad jurídica no ha hecho nada significativo para reclamar frente a la anomalía constitucional. Colegios de abogados, asociaciones de magistrados, funcionarios y trabajadores...no han una sola demostración o una medida de protesta frente a la casa constitucional vacíada de instituciones.*
+*La comunidad jurídica no ha hecho nada significativo para reclamar frente a la anomalía constitucional. Colegios de abogados, asociaciones de magistrados, funcionarios y trabajadores...no han creado una sola demostración o una medida de protesta frente a la casa constitucional vacíada de instituciones.*
 
 En esta casa, la idea de una constitución viva -interpretada unívocamente por nuestra comunidad política, con la Corte Surpema a la cabeza-, es simplemente un espejismo, una espera, mientras el desierto avanza.
