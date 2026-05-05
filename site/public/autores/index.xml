@@ -582,6 +582,13 @@
       <description>&lt;p&gt;Candidato a Doctor en la Facultad de Derecho de la Universidad de Buenos Aires. Abogado por la Facultad de Derecho de la Universidad Nacional de Mar del Plata y Master of Laws por la Universidad de Columbia, EE.UU. Docente en las asignaturas Metodologia de la Investigación Científica y Derecho Penal: Parte Especial en la Facultad de Derecho de la Universidad Nacional de Mar del Plata.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Valentin Diaz</title>
+      <link>http://localhost:1313/autores/valentin-diaz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/valentin-diaz/</guid>
+      <description>&lt;p&gt;Abogado y docente en formación. Se desempeña en la función judicial y participa de distintos espacios de debate e intercambio académico. Interesado en el derecho no solo como práctica profesional, sino también como ámbito de reflexión, enseñanza y construcción colectiva.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Valeria Vegh Weis</title>
       <link>http://localhost:1313/autores/valeria-vegh-weis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -593,7 +600,7 @@
       <link>http://localhost:1313/autores/yanina-welp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/autores/yanina-welp/</guid>
-      <description></description>
+      <description>&lt;p&gt;Politóloga e investigadora argentina especializada en participación política.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

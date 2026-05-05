@@ -16,6 +16,7 @@ callouts:
   - "La diferencia entre el caudal de casos de las Cortes Supremas en ambos países no tiene que ver con el nivel de judicialización en general, ni de judicialización de la política en particular, sino con el modo de admisión de las causas."
 featured_callout: 0
 ---
+
 Me detengo en una frase de la conferencia de Horacio Rosatti del otro día que [recoge](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.lanacion.com.ar/politica/horacio-rosatti-cuestiono-la-judicializacion-de-la-politica-por-falta-de-consensos-nid28042026/&ved=2ahUKEwik1LC-lJSUAxXRppUCHWZcOXsQFnoECBoQAQ&usg=AOvVaw0Fq6rP6PMETxiwslmaCNPu) la tribuna de doctrina:
 
 > *Rosatti planteó que, en los últimos años, en la Argentina se profundizó la judicialización de las leyes y políticas públicas. Lo puso en cifras: mientras la Corte Federal norteamericana emite por año entre 80 y 100 sentencias, el Máximo Tribunal de la Argentina emitió, en el último año, 15.000. “¿Por qué esa diferencia? En primer lugar porque hay una judicialización creciente de todos los temas. Los debates no se clausuran en el circuito político, sino que hay judicialización y, en la Justicia, siempre se busca llegar a la palabra de la Corte", aseguró.*

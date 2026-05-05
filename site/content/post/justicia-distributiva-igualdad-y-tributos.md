@@ -2,13 +2,13 @@
 title: "Justicia distributiva, igualdad y tributos"
 slug: justicia-distributiva-igualdad-y-tributos
 date: 2026-05-05
-description: 'Resumen o descripción breve de la nota.'
+description: 'Los impuestos, el hilo invisible que une a la sociedad que queremos y a la que tenemos.'
 categories:
   - ensayos
 author:
   - Valentín Díaz
 thumbnail:
-  - src: '/img/placeholder.jpg'
+  - src: '/img/B9E1D53E-9C98-4216-A911-BD18800D35B4_1_201_a.jpeg'
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true

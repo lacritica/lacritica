@@ -12,8 +12,11 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
+callouts: 
+  - "... la interpretación de la ley es una de las operaciones necesarias y más importantes —tal vez la más importante— que requiere el derecho, antes de que se aplique una norma abstracta sobre un caso concreto."
 featured_callout: 0
 ---
+
 Quisiera aprovechar el estreno del film *No Matar,* de Juan Villegas, para sumar mi opinión a la conversación, tan valiosa como imperfecta, que la película de Villegas ha ayudado a reabrir, en torno a la violencia política de los 70 y la política de derechos humanos desarrollada desde los 80. [^fn1]
 
 La reciente obra de Villegas (a quien considero un intelectual honesto y comprometido con su tarea) me parece un *aporte digno,* aunque algo *perezoso,* a la reflexión colectiva sobre las cuestiones citadas. Digo que es un *aporte,* porque su película ayuda a sumar al debate a algunas voces relevantes y poco (re)conocidas. Pienso, de manera particular, en las declaraciones de Sergio Bufano (con quien tuve la dicha de compartir una década de trabajo en *La Ciudad Futura,* la revista editada por el *Club de Cultura Socialista*), y también en las voces de algunos familiares de víctimas de la guerrilla (es conmovedor el testimonio de algunos de ellos, como aterrador reconocer el modo en que el empresariado argentino abandonó a su suerte a algunos de sus directivos, muertos por la guerrilla). 

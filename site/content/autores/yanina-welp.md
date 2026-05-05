@@ -8,3 +8,4 @@ orcid:
 sitio_personal: 
 ---
 
+Politóloga e investigadora argentina especializada en participación política.

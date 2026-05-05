@@ -9,7 +9,7 @@ author:
   - Leonardo García Jaramillo
 thumbnail:
   - src: '/img/E93294F7-C3EC-48F4-99A3-ED1A0C99CCCB_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
