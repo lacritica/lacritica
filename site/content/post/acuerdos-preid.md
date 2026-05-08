@@ -1,0 +1,27 @@
+---
+title: "¿Qué acuerdo pre-ideológico?"
+slug: que-acuerdo-pre-ideológico
+date: 2026-05-08
+description: 'Los derechos constitucionales como guía de acción política, y en respuesta a supuestos consensos apolíticos.'
+categories:
+  - ensayos
+author:
+  - Roberto Gargarella
+thumbnail:
+  - src: '/img/8AD70002-D239-474C-AC17-FCAB7B63B0FA.jpeg'
+highlight: false
+highlight2: false
+exclude_thumbnail_from_body: true
+---
+
+Quisiera controvertir aquí, una idea por la que, desde hace un tiempo, se viene bregando en el ámbito público, desde diferentes sectores de la comunidad. Me refiero a la afirmación según la cual cualquier programa de reconstrucción o cambio institucional debe asumir un acuerdo económico previo, referido ---básicamente--- al equilibrio fiscal, que como tal ha de quedar fuera de la discusión.
+
+Una expresión conocida y saliente de esta postura es la que presentó, días atrás, el presidente del CIPPEC (Centro de Implementación de Políticas Públicas para la Equidad y el Crecimiento), Luciano Laspina, en la cena anual de la entidad. En dicha ocasión, Laspina sostuvo, entre otros conceptos: 
+
+> "Los argentinos necesitamos un acuerdo político básico y duradero; no entre los que piensan igual, sino entre los que piensan distinto. Es un acuerdo simple, pre-ideológico. En el que ganamos todos. Un acuerdo que le sirva al oficialismo para gobernar mejor y a la oposición, para ser más competitiva. Ese compromiso incluye definiciones tan básicas como respetar los contratos, sostener el equilibrio fiscal y eliminar el financiamiento monetario al fisco, en el entendimiento de que para todo lo demás, decide la democracia. Y se dirime en las urnas...Sin reglas, sin acuerdos, no hay futuro".
+
+Sobre esa formulación ---que aquí tomaré, simplemente, como arquetípica de un cierto modo de pensar la vida pública--- quisiera hacer algunos breves comentarios críticos. Como cuestión inicial, señalaría que un acuerdo como el expresado aparece (antes que como pre-ideológico) como fuertemente ideológico, y de ese modo, como muy discutible. Desde ya, todos podemos estar de acuerdo con una versión débil ---de alguna manera trivial o vacía--- de dicho planteo: importa tener una economía "ordenada", lejos del cualunquismo o "terraplanismo" económico (entiendo que, a la luz de la historia argentina reciente, el punto no es irrelevante). De todos modos, apenas empezamos a dotar de contenido real a los principios del caso, aparecen fuertes y razonables diferencias sobre cómo entenderlos. Para muchos de nosotros, por ejemplo, los modos que este gobierno ha escogido para mantener el equilibrio fiscal (negarse a cumplimentar con pagos ---a jubilados, a las universidades, a discapacitados--- a los que está obligado) representa, más que la base para un acuerdo pre-ideológico, un hecho ilegal, directamente delictivo.
+
+En segundo lugar, cuestionaría el carácter obvio o compartido que pretende asignársele a la afirmación en juego (resumidamente: el equilibro fiscal como acuerdo fundacional). Lo cierto es que hemos conocido ya muchas formulaciones similares, provenientes de sectores diferentes, y presentadas con similar énfasis. Hace unos años, por caso, resultaba común escuchar la idea de que la seguridad (las garantías básicas para la vida, la propiedad, etc.) constituía el supuesto fundamental de la sociedad --- la piedra fundante desde la cual, luego, podía erigirse la democracia. Sin ese pilar básico, todo el edificio restante iba a tambalear. El juez de la Corte Suprema, Carlos Rosenkrantz, supo sostener una idea parecida, conforme a la cual la constitución del orden social era lo prioritario. Más precisamente, él afirmaba que no había derecho sin autoridad, y que la fuerza obligatoria del derecho es lo que permitía la existencia de una sociedad ordenada. Para otros más, el acuerdo básico debía llevarnos a garantizar la probidad de los funcionarios públicos ---su honestidad: ésa era la condición necesaria para la reconstrucción de la sociedad. Esta postura, aunque vaporosa, podía ostentar un reconocido linaje en la tradición republicana --- una que, desde hace siglos, sostiene que la "virtud cívica" es la condición fundamente de la vida en común.
+
+Frente a opciones tan diversas, me interesa aludir a una alternativa distinta --- pero no "una más". Se trata de una opción que corre con ventajas frente a sugerencias como las examinadas. Ello así, porque no refiere a una mera expresión de deseos (la voluntad de un acuerdo amplio y profundo que desearíamos se consiga) sino a un conjunto de intereses fundamentales que ya estamos obligados a cumplir: los derechos constitucionales. Decir esto no es decir poco, ni hacer un reclamo retórico o demagógico, ni insistir sobre algo sin contenido. Por el contrario, la Constitución se encuentra clara y abiertamente comprometida con fortísimas garantías y exigencias sociales y económicas, que resultan simplemente exigibles: se trata, y lo sabemos todos, de nuestra Carta Fundamental. No resulta, entonces ---como dicen oficialistas y amigos del gobierno--- de que los derechos se deberán cumplir sólo si, o en la medida en que primero ordenemos la economía. Es al revés: cualquier programa económico, o cualquier esquema de seguridad, o cualquier propuesta de reordenamiento moral, resulta válido sólo si, y en la medida en que se someta a las fuertes garantías y exigencias sociales y económicas que desde hace décadas ha establecido la Constitución.
