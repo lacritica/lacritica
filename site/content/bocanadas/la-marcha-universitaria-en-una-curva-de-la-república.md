@@ -4,8 +4,7 @@ date: 2026-05-12T12:00:00.000-03:00
 slug: la-marcha-universitaria-en-una-curva-de-la-republica
 author:
   - Mariela Puga
-thumbnail:
-  - src: /img/puga_15-11-23.jpeg
+thumbnail: []
 ---
 Un día antes de la Marcha por la Universidad Pública, día que promete ser épico, el presidente decidió otro mega recorte del gasto público a los y las estatales: “Ante la continua baja de la recaudación impositiva nacional y la necesidad de preservar el superávit fiscal, el Gobierno nacional dispuso un [amplio recorte del gasto público](https://www.lavoz.com.ar/politica/gasto-publico-cayo-6-abril-universidades-provincias-obra-publica-sectores-afectados_0_Aexx0DBU0U.html) que afecta a áreas sensibles como educación y salud, además de continuar recortando los fondos comprometidos con las provincias.” ([La voz del interior, 11/5/2026](https://www.lavoz.com.ar/politica/milei-lanzo-fuerte-recorte-gasto-publico-impacta-cordoba_0_WJWuJLfB9K.html))\
 Así amanece este 12 de mayo, en plena tensión.
