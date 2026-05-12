@@ -6,7 +6,7 @@ description: Sin educación no hay ni futuro ni democracia.
 categories:
   - ensayos
 author:
-  - Abel Gilbert
+  - Mariela Puga
 thumbnail:
   - src: /img/229F94ED-5519-46F0-9487-3066E7D66F97_1_201_a.jpeg
 highlight: false
