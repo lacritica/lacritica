@@ -9,7 +9,7 @@ author:
   - María Victoria Ricciardi
 thumbnail:
   - src: '/img/lejure.jpeg'
-highlight: true
+highlight: false
 obra_reseñada: '*Je le jure* (dir: Samuel Theis), Francia, 2024.'
 highlight2: false
 exclude_thumbnail_from_body: true
