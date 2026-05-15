@@ -2,13 +2,14 @@
 title: "Cuidados: Trabajo y derechos"
 slug: cuidados-trabajo-y-derechos
 date: 2026-05-15
-description: 'Resumen o descripción breve de la nota.'
+description: Todas las personas tienen derecho a ser cuidadas, deben poder
+  cuidar y ejercer su derecho a cuidarse.
 categories:
   - ensayos
 author:
   - Laura Pautassi
 thumbnail:
-  - src: '/img/oax52.jpg'
+  - src: /img/oax52.jpg
     copyright: R. Gargarella
     epigraph: Oaxaca Series
 highlight: true
