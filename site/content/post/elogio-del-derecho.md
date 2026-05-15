@@ -9,7 +9,7 @@ author:
   - Víctor Ferreres Comella
 thumbnail:
   - src: '/img/C6903B7B-FD3F-4120-96A6-A0BCFCF8C6BF_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

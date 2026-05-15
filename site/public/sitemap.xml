@@ -74,19 +74,25 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/elogio-del-derecho/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/cuidados-trabajo-y-derechos/</loc>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-12T00:00:00+00:00</lastmod>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-marcha-universitaria/</loc>
+    <lastmod>2026-05-12T14:44:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/elogio-del-derecho/</loc>
     <lastmod>2026-05-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/que-acuerdo-pre-ideol%C3%B3gico/</loc>
@@ -657,6 +663,8 @@
     <loc>http://localhost:1313/autores/justina-uriburu/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/klaus-gunther/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/laura-pautassi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura-ronchetti/</loc>
   </url><url>
