@@ -1,14 +1,15 @@
 ---
-title: "Dworkin y los cinturones de seguridad"
+title: Dworkin y los cinturones de seguridad
 slug: dworkin-y-los-cinturones-de-seguridad
 date: 2026-05-18
-description: 'Quien quería conducir libre de ataduras perdió, perdió, y perdió, y sin embargo... En defensa de la extentricidad.'
+description: Quien quería conducir libre de ataduras perdió, perdió, y perdió, y
+  sin embargo... En defensa de la excentricidad.
 categories:
   - ensayos
 author:
   - Martín Farrell
 thumbnail:
-  - src: '/img/gargarella_L1100901.JPG'
+  - src: /img/gargarella_L1100901.JPG
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
