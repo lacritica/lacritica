@@ -3,7 +3,7 @@ title: Dworkin y los cinturones de seguridad
 slug: dworkin-y-los-cinturones-de-seguridad
 date: 2026-05-18
 description: Quien quería conducir libre de ataduras perdió, perdió, y perdió, y
-  sin embargo... En defensa de la excentricidad.
+  sin embargo ... En defensa de la excentricidad.
 categories:
   - ensayos
 author:
