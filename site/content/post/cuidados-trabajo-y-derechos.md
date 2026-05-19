@@ -12,7 +12,7 @@ thumbnail:
   - src: /img/oax52.jpg
     copyright: R. Gargarella
     epigraph: Oaxaca Series
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
