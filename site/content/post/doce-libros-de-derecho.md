@@ -2,7 +2,7 @@
 title: Doce libros de Derecho
 slug: arballo-12-libros
 date: 2026-05-22T13:22:00.000-03:00
-description: Esecenas anotadas de una educación jurídica sentimental
+description: Bibliografía anotada de una educación jurídica sentimental
 categories:
   - reseñas
 author:
