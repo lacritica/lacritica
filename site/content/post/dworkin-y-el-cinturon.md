@@ -10,7 +10,7 @@ author:
   - Martín Farrell
 thumbnail:
   - src: /img/gargarella_L1100901.JPG
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
