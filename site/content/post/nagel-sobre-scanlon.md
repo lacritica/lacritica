@@ -2,7 +2,7 @@
 title: "Nagel sobre Scanlon"
 slug: nagel-sobre-scanlon
 date: 2026-05-29
-description: 'Publicamos una reseña de Thomas Nagel sobre el último libro de T.M. Scanlon, con una breve introducción de Tomás Fernández Fiks.'
+description: 'Publicamos una reseña de Thomas Nagel sobre el último libro de T.M. Scanlon, sobre la justificación del casdtigo. Con una breve introducción de Tomás Fernández Fiks.'
 publicado_originalmente_en: London Review of Books, Vol. 48, No. 9, 21 de mayo de 2026. Reproducimos con autorización del autor. 
 categories:
   - ensayos
