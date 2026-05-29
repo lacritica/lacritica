@@ -9,7 +9,7 @@ author:
   - Juan Jesús Garza Onofre
 thumbnail:
   - src: '/img/oax19.jpg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 featured_callout: 0
