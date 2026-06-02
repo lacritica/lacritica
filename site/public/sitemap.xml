@@ -74,22 +74,25 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/libros-big-bang-derecho/</loc>
+    <lastmod>2026-06-02T02:26:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-02T02:26:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-02T02:26:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-02T02:26:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-06-02T02:26:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-dimension-moral/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/nagel-sobre-scanlon/</loc>
-    <lastmod>2026-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/relexiones-sobre-derecho-constitucional/</loc>
@@ -751,6 +754,8 @@
     <loc>http://localhost:1313/autores/owen-fiss/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/pablo-alabarces/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/pablo-secchi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/patricio-mendez-montenegro/</loc>
   </url><url>
