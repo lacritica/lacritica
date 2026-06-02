@@ -13,12 +13,16 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
+callouts: 
+  - "...una regulación que no distingue entre interés comercial e incidencia ciudadana, que exige habilitación estatal previa para reunirse con un legislador, que impone cargas trimestrales sobre organizaciones sin fines de lucro y que criminaliza errores formales no fortalece la democracia"
+featured_callout: 0
 ---
+
 La regulación del lobby es una práctica extendida en democracias consolidadas y puede constituir, en principio, una herramienta legítima de transparencia institucional. El [proyecto de Ley de Transparencia y Publicidad de la Gestión de Intereses](https://drive.google.com/file/d/1n5RtfYpItKMXAzvEOTBUcdF58Z0BjhHx/view?usp=sharing), enviado hace días por el Ejecutivo, se presenta exactamente con esa justificación. Sin embargo, el texto tiene problemas estructurales que exceden su objetivo declarado y comprometen el funcionamiento autónomo de la sociedad civil.
 
 Antes de entrar en el análisis, despejemos un malentendido que seguramente surgirá en este debate. Las organizaciones de la sociedad civil presentan anualmente memoria y balance donde constan todos sus ingresos, egresos, donantes -argentinos y extranjeros- y proyectos. La transparencia sobre su financiamiento no es una deuda pendiente: es una obligación que ya se cumple. El proyecto no viene a cubrir ese vacío porque ese vacío no existe.
 
-**Problemas de diseño y el alcance del proyecto**
+# Problemas de diseño y el alcance del proyecto
 
 El primer problema del proyecto es de diseño. La definición de "gestión de intereses" del artículo 2 incluye prácticamente cualquier forma de incidencia pública: una reunión, una llamada, un correo electrónico a un legislador, un funcionario o incluso un asesor. En la práctica, casi cualquier acción de una organización de la sociedad civil destinada a influir en una política pública queda alcanzada por el régimen.
 
@@ -28,13 +32,13 @@ El segundo problema es la obligación de inscripción y el esbozo de una habilit
 
 A eso se suma la obligación de reportes trimestrales: con quiénes se reunieron, qué temas abordaron, sobre qué asuntos buscan incidir, todo bajo declaración jurada. Y si en ese período la organización no realizó ninguna gestión, igual deberá presentar una declaración que certifique esa inactividad. Para organizaciones pequeñas, esta carga es difícil de sostener. Para organizaciones dedicadas al control del Estado -cuya tarea central es justamente reunirse con funcionarios y promover reformas- el efecto es todavía más grave: sus actividades más esenciales quedarían bajo fiscalización permanente del mismo poder que buscan controlar.
 
-**Control agravado sobre los fondos de cooperación internacional**
+# Control agravado sobre los fondos de cooperación internacional
 
 El tercer problema -y quizás el de mayor potencial estigmatizador- es el tratamiento específico para organizaciones con financiamiento o vínculos internacionales (artículos 22 a 24). Esto alcanza a una cantidad significativa de organizaciones que trabajan en derechos humanos, transparencia, ambiente o fortalecimiento democrático, donde la cooperación internacional es habitual.
 
 Estas organizaciones quedan sujetas a un régimen de control mucho más exhaustivo: declaraciones especiales, documentación adicional y la posibilidad de que la Autoridad de Aplicación exija reportes extraordinarios invocando razones tan amplias como "seguridad interior" o "interés público debidamente justificado". En otras palabras, el Estado puede pedir lo que quiera cuando quiera, sin que la ley establezca límites claros. Eso es incompatible con cualquier régimen que incluya sanciones.
 
-**Sanciones penales y su efecto disuasorio**
+# Sanciones penales y su efecto disuasorio
 
 El proyecto incorpora penas de entre dos meses y seis años de prisión para quienes realicen gestiones sin inscripción previa (lo tipifica como "gestión clandestina de intereses" en el art. 39). Convertir un incumplimiento burocrático en delito penal con esas escalas eleva significativamente la presión sobre organizaciones y activistas. El efecto no es solo punitivo, es disuasorio. Frente al riesgo de investigaciones o procesos penales, muchas organizaciones optarán por reducir actividades de incidencia o directamente dejar de interactuar con funcionarios. La autocensura no requiere sanciones efectivas para operar, sino que solo basta con que la amenaza sea creíble.
 

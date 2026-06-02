@@ -89,6 +89,12 @@
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-06-02T02:26:00-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-06-02T01:49:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/ley-gestion-intereses/</loc>
+    <lastmod>2026-06-02T01:49:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/la-dimension-moral/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -97,9 +103,6 @@
   </url><url>
     <loc>http://localhost:1313/post/relexiones-sobre-derecho-constitucional/</loc>
     <lastmod>2026-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-05-26T09:57:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/todo-por-un-depto/</loc>
     <lastmod>2026-05-26T09:57:00-03:00</lastmod>
@@ -156,6 +159,9 @@
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/justicia-distributiva-igualdad-y-tributos/</loc>
+    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/2026-05/</loc>
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/nomatar/</loc>
