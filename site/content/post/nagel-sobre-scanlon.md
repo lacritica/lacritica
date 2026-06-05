@@ -10,7 +10,7 @@ author:
   - Tomás Fernández Fiks
 thumbnail:
   - src: '/img/oax14.jpg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
