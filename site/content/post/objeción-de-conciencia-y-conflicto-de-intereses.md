@@ -5,7 +5,7 @@ date: 2026-06-05T15:05:00.000-03:00
 description: Sobre las declaraciones del Presidente y la Senadora Patricia
   Bullrich en relación a la designación como jueza de M.V. Michelli.
 categories:
-  - ensayos
+  - debates
 author:
   - Mariela Puga
 thumbnail:
