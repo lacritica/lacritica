@@ -13,6 +13,9 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
+callouts: 
+  - "Ella tiene todo el derecho del mundo a poner lo que hace a su mejor luz, pero algunas instituciones jurídicas son lo que son, y no lo que el espíritu generativo de la IA delire."
+featured_callout: 0
 ---
 Me duelen los oído al escuchar a Bullrich repetir *ad nauseam* que se abstiene de votar el pliego de Michelli por “[objeción de conciencia](https://www.lanacion.com.ar/opinion/la-objecion-de-conciencia-de-patricia-bullrich-desautorizo-a-los-hermanos-milei-nid04062026/)”… ¿nadie le va a decir nada?  Se me nubla la vista y me empiezan los mareos, cuando escucho al presidente argumentar que quiere evitar el “[conflicto de intereses](https://www.perfil.com/noticias/politica/tras-la-polemica-milei-respaldo-la-decision-de-retirar-el-pliego-de-michelli.phtml)” que causaría la jueza… Llamen a la ambulancia!!!  creo que me dio algo.
 
@@ -22,7 +25,7 @@ El instituto de objeción de conciencia, baluarte liberal, si los hay, es la per
 
 Y lo del “conflicto de intereses”,  ¿en serio?  Este tipo de conflictos funciona como una razón jurídica crucial para impugnar una decisión jurisdiccional en un caso concreto. El conflicto es entre interses en conflicto. La idea es crucial para garantizar la imparcialidad jurisdiccional, otro baluarte del derecho liberal, un monumento, diría yo. Pero el discurso del presidente se limpia los zapatos en este monumento. Obvio que esto tiene que ver con los jueces, Javito, y con cualquier poder de decisión jurisdiccional. Pero lo más obvio es que sólo funciona en un conflicto concreto, o previsible, frente a intereses desnudos. Nadie te avisó que en este caso este es un argumento bumerang. Es una forma de socavar tu propia decisión en relación a la designación de la jueza. Digo, la decisión jurisdiccional es tuya, toda tuya, pero si decís que hay un conflicto de interés entre vos y ella, **estas impugnando la imparcialidad de tu propia decisión**. Te escuchaba y pensaba en Larry, el de los tres chiflados, cuando golpeaba con un martillo que le rebotaba en la cara.
 
-Aún si asumiéramos que el periodista Alconada Mont es un “ensobrado” por los rusos, esos que quieren perjudicar al presidente, la verdad es que no estamos discutiendo si él va a ser juez. ¿Por qué ese supuesto vicio de carácter del periodista afectaría a su cuñada?, ¿no era liberal este presidente? Ni siquiera tienen la misma familia de sangre, como para discutir una buena hipótesis genetista de los vicios de carácter. 
+Aún si asumiéramos que el periodista Alconada Mon es un “ensobrado” por los rusos, esos que quieren perjudicar al presidente, la verdad es que no estamos discutiendo si él va a ser juez. ¿Por qué ese supuesto vicio de carácter del periodista afectaría a su cuñada?, ¿no era liberal este presidente? Ni siquiera tienen la misma familia de sangre, como para discutir una buena hipótesis genetista de los vicios de carácter. 
 
 Detrás de este aparente error conceptual hay un razonamiento pseudo-fascista: cualquiera que tenga alguna vinculación con la oposición o la prensa crítica tendría un conflicto de interés con el presidente, y no podría ocupar ningún cargo público. ¿Será ésta su concepción de conflicto de intereses? O solo busca destruirnos los oídos alardeando su ignorancia jurídica.
 
