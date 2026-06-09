@@ -1,14 +1,14 @@
 ---
 title: "Una entrevista con Scanlon (parte 2)"
 slug: scanlon-utopian1
-date: 2026-06-04
+date: 2026-06-09
 description: 'Recuperamos y traducimos una vieja, y notable, entrevista sobre el castigo y sus justificaciones.'
 categories:
   - ensayos
 author:
   - Yascha Mounk
 thumbnail:
-  - src: '/img/6F3DAB63-0148-4823-871E-FEB52C577895_1_201_a.jpeg'
+  - src: '/img/1E239DA5-3884-467B-AB98-821B35E04504_1_201_a.jpeg'
 highlight: false
 draft: true
 highlight2: false
