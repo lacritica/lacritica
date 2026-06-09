@@ -9,7 +9,7 @@ author:
   - Yascha Mounk
 thumbnail:
   - src: '/img/6F3DAB63-0148-4823-871E-FEB52C577895_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 publicado_originalmente_en: '[The Utopian](https://www.the-utopian.org/T.M.-Scanlon-Interview-1)'
