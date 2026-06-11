@@ -1,18 +1,19 @@
 ---
-title: "Una entrevista con Scanlon (parte 2)"
-slug: scanlon-utopian1
+title: Una entrevista con Scanlon (parte 2)
+slug: scanlon-utopian2
 date: 2026-06-09
-description: 'Recuperamos y traducimos una vieja, y notable, entrevista sobre el castigo y sus justificaciones.'
+description: Recuperamos y traducimos una vieja, y notable, entrevista sobre el
+  castigo y sus justificaciones.
 categories:
   - ensayos
 author:
   - Yascha Mounk
 thumbnail:
-  - src: '/img/1E239DA5-3884-467B-AB98-821B35E04504_1_201_a.jpeg'
+  - src: /img/1E239DA5-3884-467B-AB98-821B35E04504_1_201_a.jpeg
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
-publicado_originalmente_en: '[The Utopian](https://www.the-utopian.org/T.M.-Scanlon-Interview-1)'
+publicado_originalmente_en: "[The Utopian](https://www.the-utopian.org/T.M.-Scanlon-Interview-1)"
 ---
 
 --- *The Utopian: En «Significance of Choice», expusiste los diferentes tipos de elección que conservan su valor incluso si el determinismo causal fuera cierto. En algunos casos, es obvio por qué debería ser así: el valor instrumental de la elección, por ejemplo. Cuando vas a comer a un restaurante, lo que te sirvan debería depender de tu elección, incluso si el determinismo causal fuera cierto. Pero lo que usted denomina la dimensión «expresiva» de la elección parece más problemática: se trata de la idea de que, en lugar de que lo haga otra persona, es importante que usted elija el regalo que le da a su esposa. Pero podría pensarse que, si está causalmente predeterminado que iba a elegir el regalo para su esposa, eso socava el significado del gesto. Ella podría decir: bueno, está bien que te hayas tomado el tiempo, pero, al fin y al cabo, el hecho de que decidieras tomarte ese tiempo también estaba predeterminado causalmente.*
