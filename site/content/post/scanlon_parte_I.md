@@ -1,20 +1,20 @@
 ---
-title: "Una entrevista con Scanlon (parte 1)"
+title: Una entrevista con Scanlon (parte 1)
 slug: scanlon-utopian1
 date: 2026-06-05
-description: 'Recuperamos y traducimos una vieja, y notable, entrevista sobre el castigo y sus justificaciones.'
+description: Recuperamos y traducimos una vieja, y notable, entrevista sobre el
+  castigo y sus justificaciones.
 categories:
   - ensayos
 author:
   - Yascha Mounk
 thumbnail:
-  - src: '/img/6F3DAB63-0148-4823-871E-FEB52C577895_1_201_a.jpeg'
+  - src: /img/6F3DAB63-0148-4823-871E-FEB52C577895_1_201_a.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
-publicado_originalmente_en: '[The Utopian](https://www.the-utopian.org/T.M.-Scanlon-Interview-1)'
+publicado_originalmente_en: "[The Utopian](https://www.the-utopian.org/T.M.-Scanlon-Interview-1)"
 ---
-
 T. M. Scanlon es uno de los filósofos morales en activo más prestigiosos de la actualidad. Además de su obra maestra, *What We Owe to Each Other*, ha escrito tratados revolucionarios sobre temas que van desde la importancia de la elección hasta la naturaleza de la permisibilidad, el significado y la culpa.
 
 Es natural esperar cierta pomposidad de los filósofos, quizá especialmente de los filósofos morales. La talla de Scanlon ---y esas iniciales anticuadas e impersonales que utiliza en sus publicaciones--- lo convierten en un blanco especialmente prometedor para tales sospechas. Pero los lectores de sus obras se desengañan rápidamente de tales expectativas. Su prosa es elegante, directa y accesible. A veces, es fácil pasar por alto la verdadera importancia de lo que dice, ya que expone con tanta calma incluso sus conclusiones de mayor alcance.
@@ -27,9 +27,9 @@ Por fin llegamos a la espaciosa oficina de Tim, en la tercera planta, y nos acom
 
 # El libre albedrío, el castigo y el significado de la elección
 
---- *The Utopian: Una de las preocupaciones más antiguas de la filosofía es el determinismo causal: el temor de que, si lo que hacemos y pensamos está determinado por procesos físicos que escapan a nuestro control, entonces deberíamos abandonar categorías morales como el elogio, la culpa y la elección. Pero, ¿entiendo que eso le preocupa menos que a muchos de sus colegas?*
+\--- *The Utopian: Una de las preocupaciones más antiguas de la filosofía es el determinismo causal: el temor de que, si lo que hacemos y pensamos está determinado por procesos físicos que escapan a nuestro control, entonces deberíamos abandonar categorías morales como el elogio, la culpa y la elección. Pero, ¿entiendo que eso le preocupa menos que a muchos de sus colegas?*
 
---- *Tim Scanlon*: Creo que hay tres formas en las que surge este problema ---siendo el problema la posibilidad de que una explicación causal de una reacción que damos socave su significado de una forma u otra. 
+\--- *Tim Scanlon*: Creo que hay tres formas en las que surge este problema ---siendo el problema la posibilidad de que una explicación causal de una reacción que damos socave su significado de una forma u otra. 
 
 La más comúnmente discutida es el problema de la llamada responsabilidad moral: el hecho de que haya una explicación física o causal de cómo somos socavaría la idoneidad de las evaluaciones morales ---de la culpa, en particular. La segunda, la versión más política, es el hecho de que si nuestras elecciones estuvieran causadas por factores externos a nosotros, sobre los que no tenemos control, eso las socavaría como factores que pueden legitimar los resultados. El hecho de que haya consentido algo no podría implicar que no pueda objetarlo. O el hecho de que haya firmado un contrato no significaría que tenga que cumplirlo. Y el tercero, lo que yo llamo el problema personal del libre albedrío, es que las explicaciones causales socavarían la importancia para mí. Mi sentido de la propiedad, o lo que sea ---que yo soy la persona representada, en lugar de que estas sean simplemente cosas que sucedieron por razones que no tienen nada que ver conmigo.
 
@@ -37,9 +37,9 @@ Y creo que estos tres problemas ---lo que denomino el problema moral, el problem
 
 Creo que el problema moral, que probablemente ha recibido mayor atención, es el menos problemático, al menos en lo que respecta a la culpa moral y otras actitudes o reacciones, sean cuales sean. Porque ahí creo que lo que estamos haciendo es reaccionar ante la forma de ser de la persona. La persona se define por su psicología. En esto David Hume tenía razón. Los factores que hacen que una acción no revele mi psicología real socavan la responsabilidad porque en realidad no soy así. Estimular mi cerebro para que diga algo que nunca habría dicho significa que eso no refleja nada de cómo me siento hacia ti. Tales factores socavan lo que podemos llamar la libertad de la espontaneidad. Pero el hecho de que haya alguna explicación de por qué soy como soy no cambia, en general, el hecho de que sea así.
 
---- *Así que podemos juzgar a las personas por ser de una manera determinada, incluso si no está bajo su control que, de hecho, sean así...*
+\--- *Así que podemos juzgar a las personas por ser de una manera determinada, incluso si no está bajo su control que, de hecho, sean así...*
 
---- Sí, son así.
+\--- Sí, son así.
 
 Ahora bien, el grado en que eso es cierto depende, por supuesto, del tipo de respuesta que implique la culpa. Si la culpa es puramente evaluativa, si solo implica juzgarme como una persona buena o mala, entonces la conclusión que acabo de mencionar se deduce inmediatamente. Eso es esencialmente lo que ocurría en el tratado de Hume. Tenía en mente una idea esencialmente evaluativa, un sentimiento de aprobación o desaprobación hacia ese tipo de carácter.
 
@@ -55,9 +55,9 @@ Y yo propongo esta idea basada en las relaciones: culpar a alguien es decidir qu
 
 Si se da esa explicación de lo que implica la culpa, además de una cuestión de evaluación, entonces surge una cuestión moral de primer orden sobre cualquier forma concreta de revisar mis intenciones respecto a cómo voy a comportarme con esa persona. Es una cuestión moral de primer orden si eso está justificado, dado cómo es esa persona. Y puede que el problema del libre albedrío salga a la luz en ese punto, porque puede ser que, con algunas formas particularmente desagradables de decidir cómo voy a tratar a esta persona, estas no sean admisibles a menos que la persona haya tenido la oportunidad de evitar entrar en conflicto con mi decisión de tratarla de esa manera. Pero creo que, tal y como interpreto la culpa, esa cuestión de primer orden no surge. Es una cuestión, como digo, de puro merecimiento: que el simple hecho de que una persona sea así puede justificar que retire mis intenciones de convertirme en su amigo, de confiar en él para participar en actividades cooperativas, de ayudarle de ciertas maneras, de preocuparme mucho por lo que le suceda, y así sucesivamente.
 
---- *Así que parte de la razón por la que el problema del libre albedrío no surge en el caso de la culpa es que la carga impuesta a otras personas no es tan pesada. Pero, ¿qué pasa con los casos en los que la carga es pesada, como en el castigo, por ejemplo?*
+\--- *Así que parte de la razón por la que el problema del libre albedrío no surge en el caso de la culpa es que la carga impuesta a otras personas no es tan pesada. Pero, ¿qué pasa con los casos en los que la carga es pesada, como en el castigo, por ejemplo?*
 
---- Exacto. El castigo es mucho más duro. El castigo implica no solo en el caso típico, algún tipo de juicio expresivo ---como Joel Feinberg acertadamente subrayó---, sino también, como se suele decir, algún tipo de trato severo. Y ahí surge una cuestión real. Creo que, en ese caso, la permisibilidad de infligir la mayoría de los tipos de trato severo que se aplican depende en gran medida de si las personas han tenido la oportunidad de evitarlo, en el sentido relevante.
+\--- Exacto. El castigo es mucho más duro. El castigo implica no solo en el caso típico, algún tipo de juicio expresivo ---como Joel Feinberg acertadamente subrayó---, sino también, como se suele decir, algún tipo de trato severo. Y ahí surge una cuestión real. Creo que, en ese caso, la permisibilidad de infligir la mayoría de los tipos de trato severo que se aplican depende en gran medida de si las personas han tenido la oportunidad de evitarlo, en el sentido relevante.
 
 Esto nos lleva al segundo tipo de problema con el libre albedrío. Tiene que ver con el efecto de autorización que supone que alguien haya tomado un determinado tipo de decisión. Y ahí me acerco mucho más ---aunque no sea idéntico, y aunque lo utilice de una manera muy diferente--- a algo parecido a la visión de J. J. C. Smart. Supongo que este es el valor de la disuasión para la persona que es disuadida: es bueno para nosotros que se nos advierta de la posibilidad de que sucedan ciertas cosas malas en circunstancias en las que eso probablemente nos disuada. Y si no se nos ha advertido en situaciones en las que es probable que seamos disuadidos, entonces no se nos ha dado suficiente protección contra que nos suceda esa cosa mala.
 
@@ -65,23 +65,23 @@ Mencioné la comparación con Smart porque Smart lo ve simplemente como un probl
 
 Así que tengo esta teoría básica: la llamada perspectiva del «valor de la elección». Si nos van a suceder ciertas cosas malas, o si existe la posibilidad de que nos sucedan cosas malas, nos quejamos menos de esa posibilidad si está configurada de tal manera que pudiéramos evitarlas si así lo decidimos. Ahora bien, el valor de esa protección depende en gran medida de las condiciones en las que se da, y si muchas personas crecen en condiciones en las que es previsible y comprensible que la amenaza de la ley no vaya a tener ningún efecto sobre ellas, eso hace que sea mucho más difícil ---o incluso imposible--- justificar su castigo. Así que creo que, desde mi punto de vista, esa posibilidad de objetar un sistema de castigo está claramente reconocida.
 
---- *Entonces, si el determinismo causal fuera cierto, y si los genes de una persona predeterminaran que iba a cometer un determinado delito, ¿te preocuparía mucho si sería legítimo o no castigarla? ¿Quizás sería legítimo culparla, pero no castigarla?*
+\--- *Entonces, si el determinismo causal fuera cierto, y si los genes de una persona predeterminaran que iba a cometer un determinado delito, ¿te preocuparía mucho si sería legítimo o no castigarla? ¿Quizás sería legítimo culparla, pero no castigarla?*
 
---- Bueno, eso es lo que estaba a punto de decir, porque el problema del libre albedrío vuelve a surgir. Así que quiero decir: por muy buenas que sean las condiciones en las que una persona tiene la opción de evitar el delito ---no es indigente, ha recibido una buena educación, etc.---, sin embargo, algunas personas quizá nazcan psicológicamente de tal manera que vayan a cometer delitos aunque no tengan otras deficiencias. Quizá. Quién sabe. Así que uno podría imaginarse a esa persona diciendo: «Bien, entonces estás diciendo que me ofreciste una protección valiosa contra la posibilidad de ser castigado al darme la opción, en cualquiera de estas buenas condiciones, de vivir correctamente. Puede que haya sido valioso para algunas personas. Pero a mí no me sirvió de nada».
+\--- Bueno, eso es lo que estaba a punto de decir, porque el problema del libre albedrío vuelve a surgir. Así que quiero decir: por muy buenas que sean las condiciones en las que una persona tiene la opción de evitar el delito ---no es indigente, ha recibido una buena educación, etc.---, sin embargo, algunas personas quizá nazcan psicológicamente de tal manera que vayan a cometer delitos aunque no tengan otras deficiencias. Quizá. Quién sabe. Así que uno podría imaginarse a esa persona diciendo: «Bien, entonces estás diciendo que me ofreciste una protección valiosa contra la posibilidad de ser castigado al darme la opción, en cualquiera de estas buenas condiciones, de vivir correctamente. Puede que haya sido valioso para algunas personas. Pero a mí no me sirvió de nada».
 
 Y yo creo que eso es como la vacunación. La vacunación no funciona para todo el mundo. Pero una de las cosas que tenemos que hacer para proteger a la gente de las enfermedades es darles la oportunidad de vacunarse. Hay un límite en cuanto a lo lejos que tenemos que llegar. No funciona para todo el mundo, pero si no lo has hecho, entonces no lo has hecho. Si has hecho lo suficiente, entonces has hecho lo suficiente.
 
 Es una cuestión de cuánto tienes que hacer. Parece un poco insensible, pero ahí es donde me armo de valor.
 
---- *¿Así que el punto de partida es que existe una necesidad social de un sistema de castigo?*
+\--- *¿Así que el punto de partida es que existe una necesidad social de un sistema de castigo?*
 
---- Tiene que haber una necesidad social, claro. Tiene que haber una necesidad social. Tiene que ser una necesidad importante. Esta tiene que ser una forma justificable de abordar esa necesidad, por lo que no puede haber otras formas menos destructivas de satisfacerla. Y dado nuestro actual sistema penal, me parece bastante dudoso que no haya formas de reducir la delincuencia que no impliquen este coste monumental para las personas encarceladas y para las comunidades de las que se las ha separado.
+\--- Tiene que haber una necesidad social, claro. Tiene que haber una necesidad social. Tiene que ser una necesidad importante. Esta tiene que ser una forma justificable de abordar esa necesidad, por lo que no puede haber otras formas menos destructivas de satisfacerla. Y dado nuestro actual sistema penal, me parece bastante dudoso que no haya formas de reducir la delincuencia que no impliquen este coste monumental para las personas encarceladas y para las comunidades de las que se las ha separado.
 
 El trabajo de Mark Kleiman en sociología y criminología es un buen ejemplo de otras estrategias para intentar reducir la delincuencia. Y hay otras iniciativas que intentan hacer lo mismo. Así que creo que es algo horrible, la institución del castigo penal que tenemos ahora, pero obviamente no podemos simplemente abandonarla. En particular, estaríamos abandonando las comunidades en las que hay una alta tasa de delincuencia y dejando a las personas más vulnerables a ser víctimas de abusos, quizás. Así que hay que hacer algo. Pero creo que la mayoría de la gente simplemente no es consciente de lo malo que es lo que estamos haciendo. Así que ese es un problema grave.
 
---- *¿Y qué hay del tercer problema, lo que tú llamas el «problema personal del libre albedrío»?*
+\--- *¿Y qué hay del tercer problema, lo que tú llamas el «problema personal del libre albedrío»?*
 
---- Creo que es un problema más difícil. Explicar cómo puedo seguir considerando que mis reacciones son mías, que me reflejan, si sé que hay una historia física que lleva a que diga las cosas que voy a decir, a que sea así, y demás. Ese parece ser el más desconcertante de los tres problemas.
+\--- Creo que es un problema más difícil. Explicar cómo puedo seguir considerando que mis reacciones son mías, que me reflejan, si sé que hay una historia física que lleva a que diga las cosas que voy a decir, a que sea así, y demás. Ese parece ser el más desconcertante de los tres problemas.
 
 Aunque, por las razones que he mencionado al hablar de la persona que, en última instancia, era indomable, creo que sigue habiendo un problema en el segundo caso. Pero creo que es más desconcertante en el tercer caso. ¿Cómo puedo pensar en mí mismo como una persona si también me considero alguien a quien se le ha hecho actuar de la forma en que lo hago?
 
@@ -91,4 +91,4 @@ Quiero decir, no solo es cierto que hacemos algunas cosas por impulso, o lo que 
 
 Así que estoy dispuesto a aceptar eso, y pienso: ¿qué alternativa hay? No es como si hubiera algún otro ectoplasma ahí dentro que fuera realmente yo; para mí, esa idea no parece tener ningún sentido. Así que creo que tengo que sentirme cómodo con eso. Pero entiendo por qué es un problema persistente y desconcertante.
 
-*Continuará...*
+*Continuará... --> Sigue en la [parte 2](https://lacritica.ar/post/scanlon-utopian2/)*
