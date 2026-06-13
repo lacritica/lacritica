@@ -9,7 +9,7 @@ author:
   - Pedro Caminos
 thumbnail:
   - src: '/img/gargarella_L1100908.JPG'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 publicado_originalmente_en: el [Buenos Aires Herald](https://buenosairesherald.com/op-ed/why-the-suspension-of-the-university-funding-law-is-technically-dictatorial). El autor le agradece a Juan Décima y al *Buenos Aires Herald* por la edición de dicho trabajo que fue aprovechada para esta versión en español.
