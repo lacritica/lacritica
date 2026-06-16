@@ -9,7 +9,7 @@ author:
   - Cass Sunstein
 thumbnail:
   - src: '/img/CBB8087E-97CF-4276-A83A-4202CE8E6A1E_1_201_a.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

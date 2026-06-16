@@ -74,22 +74,31 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/politica-y-destitucion-judicial/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/sue%C3%B1os-de-restauracion/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/numerus-clausis/</loc>
+    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/como-he-de-vivir/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/fundacion-y-refundacion/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-06-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/t%C3%A9cnicamente-dictatorial/</loc>
@@ -656,6 +665,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/ana-longoni/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/andras-sajo/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/anna-mastromarino/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/antonia-fratini-lagos/</loc>
@@ -693,6 +704,8 @@
     <loc>http://localhost:1313/autores/georgina-amaro-piccinini/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/giacomo-delledonne/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/gianella-bardazano/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/giuseppe-martinico/</loc>
   </url><url>
