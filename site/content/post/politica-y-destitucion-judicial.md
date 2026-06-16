@@ -11,7 +11,7 @@ thumbnail:
   - src: '/img/oxa8.jpg'
 highlight: true
 highlight2: false
-publicado_originalmente_en: 12 de junio de 2026, [IConnect Blog](https://www.iconnectblog.com/is-there-any-room-for-politics-in-judicial-impeachment-the-moline-oconnor-case-in-the-inter-american-system-of-human-rights/)
+publicado_originalmente_en: IConnect [Blog](https://www.iconnectblog.com/is-there-any-room-for-politics-in-judicial-impeachment-the-moline-oconnor-case-in-the-inter-american-system-of-human-rights/), 12 de junio de 2026.
 exclude_thumbnail_from_body: true
 ---
 
