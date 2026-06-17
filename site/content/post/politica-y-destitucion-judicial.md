@@ -9,7 +9,7 @@ author:
   - Emiliano Vitaliani
 thumbnail:
   - src: '/img/oxa8.jpg'
-highlight: true
+highlight: false
 highlight2: false
 publicado_originalmente_en: IConnect [Blog](https://www.iconnectblog.com/is-there-any-room-for-politics-in-judicial-impeachment-the-moline-oconnor-case-in-the-inter-american-system-of-human-rights/), 12 de junio de 2026.
 exclude_thumbnail_from_body: true
