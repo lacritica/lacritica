@@ -9,7 +9,7 @@ author:
   - Adrián Federico Ambroggio
 thumbnail:
   - src: '/img/oax3.jpg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
