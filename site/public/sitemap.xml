@@ -536,9 +536,6 @@
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
   </url><url>
@@ -743,8 +740,6 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan-f-gonzalez-bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan-ignacio-saenz/</loc>
-  </url><url>
     <loc>http://localhost:1313/autores/juan-jesus-garza-onofre/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
@@ -760,8 +755,6 @@
     <loc>http://localhost:1313/autores/laura-pautassi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura-ronchetti/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro-dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
