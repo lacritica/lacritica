@@ -1,5 +1,5 @@
 ---
-title: "Las reglas del juego: la posición de la cátedra"
+title: "Sobre el mundial y las reglas del juego: la posición de la cátedra"
 date: 2026-06-25T16:20:00.000-03:00
 slug: mundial-la-catedra
 author:
