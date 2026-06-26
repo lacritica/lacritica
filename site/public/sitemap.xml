@@ -75,18 +75,33 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/el-tortuoso-camino/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/cuando-el-jurado-dice-no-a-la-ley/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-06-19T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-guerra-contra-el-derecho/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-06-25T16:20:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/mundial-la-catedra/</loc>
+    <lastmod>2026-06-25T16:20:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-tortuoso-camino/</loc>
     <lastmod>2026-06-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-fin-de-un-consenso/</loc>
@@ -119,14 +134,8 @@
     <loc>http://localhost:1313/post/scanlon-utopian2/</loc>
     <lastmod>2026-06-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-06-06T17:08:00-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bocanadas/indio/</loc>
     <lastmod>2026-06-06T17:08:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-06-05T15:05:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/objecion-de-conciencia-y-conflicto-de-intereses/</loc>
     <lastmod>2026-06-05T15:05:00-03:00</lastmod>
@@ -536,6 +545,9 @@
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
+    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
   </url><url>
@@ -684,6 +696,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/cass-sunstein/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/catalina-finn/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/catalina-perez-correa/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/clyde-w-barrow/</loc>
@@ -693,6 +707,8 @@
     <loc>http://localhost:1313/autores/cristina-lafont/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/cynthia-benzion/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/david-dyzenhaus/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/diego-pardo-alvarez/</loc>
   </url><url>
@@ -740,6 +756,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan-f-gonzalez-bertomeu/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/juan-ignacio-saenz/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/juan-jesus-garza-onofre/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
@@ -755,6 +773,8 @@
     <loc>http://localhost:1313/autores/laura-pautassi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura-ronchetti/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/leandro-dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
@@ -782,6 +802,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/mario-ackerman/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/martin-cesar-giorgi/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/martin-farrell/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/matias-maito/</loc>
@@ -793,6 +815,8 @@
     <loc>http://localhost:1313/autores/miguel-gualano-de-godoy/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mijhail-pavel-pardo-lafuente/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/morella-riemersma/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/nahuel-maisley/</loc>
   </url><url>
