@@ -1,5 +1,5 @@
 ---
-title: Borges y las palabras del Derecho
+title: Borges ante el Derecho
 date: 2026-06-30T14:57:00.000-03:00
 slug: borges-laberinto
 author:
