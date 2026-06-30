@@ -5,7 +5,7 @@ slug: borges-laberinto
 author:
   - Gustavo Maurino
 thumbnail:
-  - src: /img/gargarella_IMG_9899.JPG
+  - src: /img/puga_25-1-19.jpeg
 ---
 De alguna manera, siempre estuvo ahí. Acaso esperando impaciente, tal vez sumido en parsimonia. Largas décadas esperando, Borges, para ver al fin revelada la clave secreta de su desvelo.
 
