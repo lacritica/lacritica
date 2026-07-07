@@ -2,7 +2,7 @@
 title: "Nicolás Zara"
 slug: nicolas-zara
 thumbnail: "/img/Nicolas-Zara.jpg"
-bio: "Abogado graduado de la Universidad de Buenos Aires con orientación en derecho público y Magister en Derecho (LL.M.) en Tulane University."
+bio: "Investigador del CELE."
 twitter_handle: 
 bluesky_handle: 
 ---

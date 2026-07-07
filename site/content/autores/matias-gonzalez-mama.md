@@ -1,7 +1,7 @@
 ---
 title: "Matías González Mama"
 slug: "matias-gonzalez-mama"
-bio: "Abogado graduado de la Universidad de Buenos Aires. Realizó una Diplomatura en Gestión y Control de Políticas Públicas en FLACSO y una Maestría en Política y Economía Internacionales en la Universidad de San Andrés."
+bio: "Investigador del CELE. Coordinador del área de América Latina."
 twitter_handle: 
 bluesky_handle: 
 thumbnail: /img/matias-0400.jpg
