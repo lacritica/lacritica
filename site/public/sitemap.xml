@@ -74,19 +74,31 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/borges-y-los-aniversarios/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/messi-hulman/</loc>
-    <lastmod>2026-07-03T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/post/la-gramatica-de-los-bloqueos/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/la-paradoja-libertaria/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/messi-hulman/</loc>
     <lastmod>2026-07-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-konstitucionalismo-k/</loc>
@@ -99,9 +111,6 @@
     <lastmod>2026-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/cuando-el-jurado-dice-no-a-la-ley/</loc>
-    <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-guerra-contra-el-derecho/</loc>
@@ -798,6 +807,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/luciana-ginga/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/luis-gonzalo-inarra-zeballos/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/luis-guillermo-bulit-goni/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/marco-gaiero/</loc>
@@ -817,6 +828,8 @@
     <loc>http://localhost:1313/autores/martin-cesar-giorgi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/martin-farrell/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/matias-gonzalez-mama/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/matias-maito/</loc>
   </url><url>
@@ -839,6 +852,8 @@
     <loc>http://localhost:1313/autores/natalia-sobrevilla-perea/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/nicolas-tauber-sanz/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/nicolas-zara/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/oded-balaban/</loc>
   </url><url>

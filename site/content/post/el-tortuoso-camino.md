@@ -9,7 +9,7 @@ author:
   - Natalia Sobrevilla Perea
 thumbnail:
   - src: '/img/A84727C8-3D1E-413D-9E35-64BD2287F5E7.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

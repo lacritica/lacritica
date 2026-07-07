@@ -9,7 +9,7 @@ author:
   - Ezequiel Kostenwein
 thumbnail:
   - src: '/img/puga_9-12-22.jpeg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

@@ -9,7 +9,7 @@ author:
   - David Dyzenhaus
 thumbnail:
   - src: '/img/oxa3.jpg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
