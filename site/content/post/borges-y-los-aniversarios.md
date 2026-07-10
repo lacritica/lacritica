@@ -1,17 +1,17 @@
 ---
-title: "Borges y los aniversarios"
+title: Borges y los aniversarios
 slug: borges-y-los-aniversarios
 date: 2026-07-07
-description: 'A cuarenta años de su muerte, el misterio de los textos y sus significados.'
+description: A cuarenta años de su muerte, el misterio de los textos y sus significados.
 categories:
   - ensayos
 author:
   - Leonardo Pitlevnik
 thumbnail:
-  - src: '/img/gargarella_IMG_9558.JPG'
-highlight: true
+  - src: /img/gargarella_IMG_9558.JPG
+highlight: false
 highlight2: false
-exclude_thumbnail_from_body: true
+exclude_thumbnail_from_body: false
 ---
 
 Cuando en El Aleph, el personaje Borges decide que todos los 30 de abril concurrirá a la casa de Beatriz Viterbo, aquella mujer que amó y que a él no lo quiso, cree que así podrá detener al tiempo. Obvio es predecir su fracaso. Lo que en vida de Beatriz era un cotejo inútil, se transformaría en un nicho inmóvil en el que el amante frustrado sobreviviría sin riesgos. La fecha elegida era la del cumpleaños de Beatriz, excusa perfecta para consagrarse a su memoria "sin esperanza, pero también sin humillación".
