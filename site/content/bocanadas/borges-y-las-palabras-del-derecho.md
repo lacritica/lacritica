@@ -1,6 +1,6 @@
 ---
 title: "El desvelo de Borges "
-date: 2026-06-30T14:57:00.000-03:00
+date: 2026-07-12T14:57:00.000-03:00
 slug: borges-laberinto
 author:
   - Gustavo Maurino
