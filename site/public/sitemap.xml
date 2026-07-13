@@ -74,28 +74,37 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-07-12T14:57:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/borges-laberinto/</loc>
+    <lastmod>2026-07-12T14:57:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-12T14:57:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/minipublico-bogota/</loc>
+    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/borges-y-los-aniversarios/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-gramatica-de-los-bloqueos/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-paradoja-libertaria/</loc>
-    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/messi-hulman/</loc>
@@ -115,9 +124,6 @@
   </url><url>
     <loc>http://localhost:1313/post/la-guerra-contra-el-derecho/</loc>
     <lastmod>2026-06-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-06-25T16:20:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/mundial-la-catedra/</loc>
     <lastmod>2026-06-25T16:20:00-03:00</lastmod>
