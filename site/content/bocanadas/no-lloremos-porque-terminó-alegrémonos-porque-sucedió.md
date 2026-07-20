@@ -9,7 +9,7 @@ thumbnail:
 ---
 **1.**  Qué ganas de que exista un CRTL+Z y vuelva el tiempo atrás y volvamos al principio del ultimo cuarto del partido: tantas veces pudimos sacar un conejo de la galera, por qué no había uno más. Decíamos en la redacción al promediar el segundo tiempo: esto es cuando en *Infinity War*. Doctor Strange dice que ha viajado en el tiempo para ver futuros alternativos. — Dígame Doctor, en cuántos de ellos estaremos ganando este partido? — He visto 150 escenarios, y ganamos en uno. Y era suficiente para nosotros, “elijo creer”.
 
-**2.** Pero no seamos injustos: la cuenta corriente de ese CTRL+Z ya lo teníamos en rojo desde la salvada de Dibu en Qatar hasta varias veces en este mundial (y varias veces en este mismo partido). Contra el destino nadie la talla.
+**2.** Pero no seamos injustos: la cuenta corriente de ese CTRL+Z ya lo teníamos en rojo desde la salvada de Dibu en Qatar hasta varias veces en este mundial (y varias veces en este mismo partido). Contra el destino final nadie la talla.
 
 **3.** La selección en este mundial mágico y misterioso vivió haciendo un reboot permanente, salvarse al borde del precipicio y hacer rewind para rescatar la victoria de las fauces mismas de la derrota. Esa sensación de montaña rusa que espeja el destino nacional, peraltado y abisal. Te invito a mi próximo infarto: un estilo de vida. Un equipo que a lo Game of Thrones se la pasó diciendo “*Not Today!*” y que aún reventado y descosido en la final se rescató y se dijo como Dylan Thomas: “*I will not go gently into that good night*”. No me voy a morir hoy, no me voy a ir así nomás.
 
