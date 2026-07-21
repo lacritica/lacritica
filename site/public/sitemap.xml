@@ -74,25 +74,37 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-mundial-del-derecho-en-colombia/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/pasado-y-presente/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-07-12T14:57:00-03:00</lastmod>
+    <lastmod>2026-07-19T23:48:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/scaloneta/</loc>
+    <lastmod>2026-07-19T23:48:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/borges-laberinto/</loc>
     <lastmod>2026-07-12T14:57:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-07-12T14:57:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/minipublico-bogota/</loc>
-    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-07-10T18:43:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-07-10T18:43:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/borges-y-los-aniversarios/</loc>
@@ -167,6 +179,12 @@
     <loc>http://localhost:1313/post/objecion-de-conciencia-y-conflicto-de-intereses/</loc>
     <lastmod>2026-06-05T15:05:00-03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/ediciones/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/2026-06/</loc>
+    <lastmod>2026-06-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/scanlon-utopian1/</loc>
     <lastmod>2026-06-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -192,9 +210,6 @@
     <lastmod>2026-05-26T00:13:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/arballo-12-libros/</loc>
-    <lastmod>2026-05-22T13:22:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2026-05-22T13:22:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/el-texto-hace-la-ley/</loc>
@@ -231,9 +246,6 @@
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/discapacidad-y-derechos-ii/</loc>
-    <lastmod>2026-05-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2026-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/justicia-distributiva-igualdad-y-tributos/</loc>
@@ -817,6 +829,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/luis-guillermo-bulit-goni/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/marcela-ternavasio/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/marco-gaiero/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/maria-lina-carrera/</loc>
@@ -856,6 +870,8 @@
     <loc>http://localhost:1313/autores/natalia-saralegui/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/natalia-sobrevilla-perea/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/nicola_abate/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/nicolas-tauber-sanz/</loc>
   </url><url>

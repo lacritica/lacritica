@@ -11,7 +11,7 @@ author:
 thumbnail:
   - src: /img/mp.jpg
     epigraph: Plenario de Cierre del Mini-Público
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
