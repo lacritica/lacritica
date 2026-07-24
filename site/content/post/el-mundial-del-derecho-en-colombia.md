@@ -1,14 +1,15 @@
 ---
-title: "El mundial del derecho en Colombia e Irlanda"
+title: El mundial del derecho en Colombia e Irlanda
 slug: el-mundial-del-derecho-en-colombia
 date: 2026-07-21
-description: 'Algunas reflexiones a días de terminados los dos encuentros más improtantes del constitucionalismo comparado a nivel internacional.'
+description: Algunas reflexiones a días de terminados los dos encuentros más
+  importantes del constitucionalismo comparado a nivel internacional
 categories:
   - ensayos
 author:
   - Nicola Abate
 thumbnail:
-  - src: '/img/AF3E45A4-1AEB-45FB-BBFA-F9002FA9AA0D_1_201_a.jpeg'
+  - src: /img/AF3E45A4-1AEB-45FB-BBFA-F9002FA9AA0D_1_201_a.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
