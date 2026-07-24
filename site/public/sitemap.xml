@@ -75,28 +75,43 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/el-mundial-del-derecho-en-colombia/</loc>
-    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-texto-es-claro/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/futbol-y-representacion/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/un-derecho-en-mal-estado/</loc>
+    <lastmod>2026-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-07-22T20:28:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/pais-racista/</loc>
+    <lastmod>2026-07-22T20:28:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-mundial-del-derecho-en-colombia/</loc>
     <lastmod>2026-07-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/pasado-y-presente/</loc>
     <lastmod>2026-07-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-07-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2026-07-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-07-19T23:48:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/scaloneta/</loc>
     <lastmod>2026-07-19T23:48:00-03:00</lastmod>
@@ -108,9 +123,6 @@
     <lastmod>2026-07-10T18:43:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/borges-y-los-aniversarios/</loc>
-    <lastmod>2026-07-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-07-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/la-gramatica-de-los-bloqueos/</loc>
@@ -844,6 +856,8 @@
     <loc>http://localhost:1313/autores/mariela-puga/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mario-ackerman/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/martin-caparros/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/martin-cesar-giorgi/</loc>
   </url><url>
