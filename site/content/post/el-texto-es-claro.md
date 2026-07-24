@@ -1,8 +1,9 @@
 ---
-title: El texto es claro
+title: Otras cosas que se juegan en la Ley de Tierras
 slug: el-texto-es-claro
 date: 2026-07-24
-description: Siempre cuando quien se beneficia sea rico.
+description: El texto de la Constitución es claro (siempre cuando quien se
+  beneficia sea rico)
 categories:
   - debates
 author:
