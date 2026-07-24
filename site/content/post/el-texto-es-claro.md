@@ -1,9 +1,8 @@
 ---
-title: Otras cosas que se juegan en la Ley de Tierras
+title: La Ley de Tierras y la ideología constitucional
 slug: el-texto-es-claro
 date: 2026-07-24
-description: El texto de la Constitución es claro (siempre cuando quien se
-  beneficia sea rico)
+description: El texto de la Constitución es claro (promoción no válida para inmigrantes)
 categories:
   - debates
 author:
