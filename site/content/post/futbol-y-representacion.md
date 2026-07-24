@@ -1,23 +1,22 @@
 ---
-title: "Fútbol y representación"
+title: Fútbol y representación
 slug: futbol-y-representacion
 date: 2026-07-24
-description: 'El amor al capitán y a su equipo produce milagros. ¿Se podrán trasladar a nuestra vida democrática? Posiblemente no, pero qué lindo sería.'
+description: El amor al capitán y a su equipo produce milagros. ¿Se podrán
+  trasladar a nuestra vida democrática? Posiblemente no, pero qué lindo sería.
 categories:
   - ensayos
 author:
   - Ramiro Álvarez Ugarte
 thumbnail:
-  - src: '/img/leo.jpg'
+  - src: /img/leo.jpg
     copyright: RAU
-    epigraph: Localización real de Leo en la biblioteca, sin cambiarlo de lugar para la foto.
+    epigraph: Localización real de Leo en la biblioteca, sin cambiarlo de lugar para
+      la foto.
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-
-# Fútbol y representación
-
 En el marco de un mundial por muchas razones inolvidable ---quizás, aún más inolvidable que la consagración de Qatar--- quisiera dejar anotado una idea quizás descabellada: la de que se ha producido un milagro, que éste posiblemente desaparezca pronto, y que si no lo escribo no quedará de él ni siquiera la memoria de que pudo haber sido. Y es un milagro raro, que puede ser corriente en muchos países pero que ---en la Argentina--- es inusual. De ahí su carácter efímero, quizás incluso ficticio. Es decir: reconozco que puedo estar inventando esto que voy a decir, quizás sea el resultado del desequilibrio que producen las emociones fuertes. En una semana puedo perfectamente darme cuenta de que exageré. Pero bueno.
 
 La representación es uno de los conceptos más importantes de la teoría política moderna. Tengo una pequeña sección de la biblioteca más o menos ordenada en torno a a ella; estiro el brazo y corro a Messi para tomar el volumen de X de *Nomos* (1968) sobre el tema, y abro el libro al azar. Me encuentro por mis notas al márgen que leí apenas dos contribuciones: una de Hanna Pitkin volviendo sobre la cuestión de la paradoja de la represenación en una democracia, y otra de Harvey C. Manfield Jr. sobre el concepto medieval de representación y su vinculación con la era moderna. Un párrafo subrayado que encuentro rápidamente, sin entender de dónde viene: 
@@ -40,8 +39,8 @@ Y ello explica por qué la defensa de esa selección en su derrota y ante críti
 
 [^fn3]: Sobre esto hay cosas para pensar sin locura, y algunas cosas ya se han dicho. Caparrós, por caso, ha dicho lo suyo y aquí lo hemos [republicado](https://lacritica.ar/bocanadas/). 
 
-¿Se puede hacer algo con todo esto? ¿Se puede convertir algo de todo esto en _algo más_? ¿Puede transmutarse el paso de un mesías en _algo nuevo_ --- *otra vez*? Toda la escatología judeo-cristiana sugiere que sí, podríamos extraer de ahí algunas ideas. Por las grietas se filtra la luz, entonces ---quizás--- en la locura colectiva de 2022 y en este mes insólito podamos haber vislumbrado una idea borrosa de algo que puede ser, una idea de una nación más o menos orgullosa de sí misma, qué es capaz de sentir algo en común, colectivamente, de identificarse con otros, con quienes están circunstancialmente al lado nuestro en ese subte después de Egipto, con alegría e incredulidad. Vuelvo sobre Mansfield y el párrafo citado se me hace algo menos ridículo. En *La imaginación profética*, Walter Brueggermann discute el rol de los profetas en el Antiguo y el Nuevo Testamento, un rol que está vinculado a sacarnos del letargo que produce lo que él llama la "conciencia real" (en el sentido de *regal* o *monárquica*). Eso lo hacen de distintas maneras, pero ---en general--- tienen que ver con habilitar una imaginación nueva, energizar a una comunidad anestesiada. 
+¿Se puede hacer algo con todo esto? ¿Se puede convertir algo de todo esto en *algo más*? ¿Puede transmutarse el paso de un mesías en *algo nuevo* --- *otra vez*? Toda la escatología judeo-cristiana sugiere que sí, podríamos extraer de ahí algunas ideas. Por las grietas se filtra la luz, entonces ---quizás--- en la locura colectiva de 2022 y en este mes insólito podamos haber vislumbrado una idea borrosa de algo que puede ser, una idea de una nación más o menos orgullosa de sí misma, qué es capaz de sentir algo en común, colectivamente, de identificarse con otros, con quienes están circunstancialmente al lado nuestro en ese subte después de Egipto, con alegría e incredulidad. Vuelvo sobre Mansfield y el párrafo citado se me hace algo menos ridículo. En *La imaginación profética*, Walter Brueggermann discute el rol de los profetas en el Antiguo y el Nuevo Testamento, un rol que está vinculado a sacarnos del letargo que produce lo que él llama la "conciencia real" (en el sentido de *regal* o *monárquica*). Eso lo hacen de distintas maneras, pero ---en general--- tienen que ver con habilitar una imaginación nueva, energizar a una comunidad anestesiada. 
 
 > "La conciencia alternativa creada por Moisés también proporciona una modelo para energizar. Moisés y esta narrativa crean la sensación de nuevas realidades en las que se puede confiar y en las que se puede confiar justo cuando las viejas realidades nos habían dejado sin esperanza. Es tarea del profeta expresar las nuevas realidades frente a las más visibles del viejo orden. Energizar está íntimamente ligado a la esperanza. Nosotros somos energizados no por lo que ya poseemos sino por lo que está prometido y a punto de ser dado".
 
-Una nación, quizás. *Amén*. 
+Una nación, quizás. *Amén*.
