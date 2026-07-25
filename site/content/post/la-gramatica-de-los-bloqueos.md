@@ -1,14 +1,14 @@
 ---
-title: "La gramatica de los bloqueos"
+title: La gramática de los bloqueos
 slug: la-gramatica-de-los-bloqueos
 date: 2026-07-07
-description: 'Estado de excepción y cierre institucional en Bolivia.'
+description: Estado de excepción y cierre institucional en Bolivia
 categories:
   - debates
 author:
   - Luis Gonzalo Inarra Zeballos
 thumbnail:
-  - src: '/img/gargarella_IMG_9069.JPG'
+  - src: /img/gargarella_IMG_9069.JPG
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
