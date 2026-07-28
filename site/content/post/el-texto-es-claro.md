@@ -9,7 +9,7 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/oax84.jpg
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
