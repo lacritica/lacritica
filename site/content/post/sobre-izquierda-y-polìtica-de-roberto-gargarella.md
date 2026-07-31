@@ -2,7 +2,7 @@
 title: Sobre "izquierda y polìtica" de Roberto Gargarella
 slug: izquierda-y-politica
 date: 2026-07-31T00:28:00.000-03:00
-description: Cinco puntos y una posdata
+description: Cinco puntos y una posdata fuera de la caja
 categories:
   - reseñas
 author:
@@ -26,4 +26,6 @@ Hace pocos días se publicò este ensayo de Roberto Gargarella (Infobae Edicione
 
 **5.** En el tramo final, el autor pasa del diagnóstico histórico a un análisis situado del presente. En materia política, señala que la concentración de poder no se limita al hiperpresidencialismo: se irradia a estructuras patriarcales que persisten en las cúpulas empresarias, los sindicatos, la universidad y los tribunales, pese a avances reales como la creciente presencia de mujeres en la presidencia regional. En materia económica, sostiene que una década de gobiernos "progresistas", ayudados por el buen precio de las materias primas, no logró revertir la desigualdad estructural de la región —hoy todavía la más desigual del mundo—, y que medidas como las nacionalizaciones o las políticas antimonopólicas no equivalen automáticamente a una agenda de izquierda si no democratizan efectivamente el poder económico.
 
-*Posdata con mirada fuera de la caja:* lo que se presenta como programa de izquierda puede leerse como el liberalismo que el propio liberalismo latinoamericano nunca se animó a ser —despojado de su alianza histórica con el privilegio, y llevado hasta sus últimas consecuencias, si uno toma en serio la autonomía individual, el rechazo a la concentración de poder y la exigencia de que en la esfera pública, como dijera  Francisco Bilbao, citado varias veces en el ensayo,  “que ningún hombre dependa de ningún otro hombre”. Bilbao, extraordinariamente liberal.
+\--
+
+***Posdata con mirada fuera de la caja:*** lo que se presenta como programa de izquierda puede leerse a contrapelo como el liberalismo que el propio liberalismo latinoamericano nunca se animó a ser —despojado de su alianza histórica con el privilegio, y llevado hasta sus últimas consecuencias, si uno toma en serio la autonomía individual, el rechazo a la concentración de poder y la exigencia de que en la esfera pública, como dijera  Francisco Bilbao, citado varias veces en el ensayo,  “que ningún hombre dependa de ningún otro hombre”. [Bilbao](https://seminariogargarella.blogspot.com/2008/06/francisco-bilbao-punto.html), extraordinariamente liberal.
