@@ -1,7 +1,7 @@
 ---
 title: Sobre "izquierda y polìtica" de Roberto Gargarella
 slug: izquierda-y-politica
-date: 2026-07-31T00:28:00.000-03:00
+date: 2026-07-31T13:36:00.000-03:00
 description: Cinco puntos y una posdata fuera de la caja
 categories:
   - reseñas
@@ -13,8 +13,9 @@ highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-Hace pocos días se publicò este ensayo de Roberto Gargarella (Infobae Ediciones, pueden ver una [entrevista al autor acà](https://www.infobae.com/cultura/2026/07/29/roberto-gargarella-frente-al-aluvion-de-insultos-sobre-la-izquierda-yo-la-defino-de-un-modo-opuesto-a-la-caricatura/)). Sin que esto sea una reseña académica, queremos hacer un breve aperitivo, casi un texto de hipotética contratapa, e invitarlos a que lean (lo pueden tener gratis vìa [bajalibros](https://ar.bajalibros.com/library/publication/izquierda-y-politica), o descargar el[ epub en este enlace](<He llegado a esta mini hack, subi el libro en la carpeta de imágenes y eso nos permite tener un enlace para descargar desde nuestro propio sitio
-> https://lacritica.ar/img/izquierda-y-pol%C3%ADtica-roberto-gargarella.epub>)).
+Hace pocos días se publicò **"Izquierda y Polìtica"** de Roberto Gargarella (*Infobae Ediciones*, pueden ver una [entrevista al autor acà](https://www.infobae.com/cultura/2026/07/29/roberto-gargarella-frente-al-aluvion-de-insultos-sobre-la-izquierda-yo-la-defino-de-un-modo-opuesto-a-la-caricatura/)), en la que además de izquierda, hay mucho derecho. Sin que esto sea una reseña académica, queremos hacer un breve aperitivo, casi un texto de hipotética contratapa, e invitarlos a que lean (lo pueden tener gratis vìa [bajalibros](https://ar.bajalibros.com/library/publication/izquierda-y-politica), o descargar el epub en [este enlace](https://lacritica.ar/img/izquierda-y-pol%C3%ADtica-roberto-gargarella.epub)]
+
+\---
 
 **1.** En este ensayo Roberto Gargarella sostiene una tesis incómoda: la izquierda latinoamericana lleva dos siglos sin poder sostener a la vez los dos ideales que animaron las revoluciones de independencia —el autogobierno colectivo de las comunidades y la autonomía individual de cada persona para vivir como quiera. Conservadores, liberales y radicales fracasaron cada uno a su modo: el conservadurismo desafió ambos ideales a la vez; el liberalismo sacrificó el autogobierno en nombre de la libertad personal, y terminó una y otra vez pactando con el conservadurismo para ganar la estabilidad que no lograba por sí solo; el radicalismo, por su parte, tendió a resignar las libertades individuales en nombre del poder colectivo.
 
@@ -28,4 +29,4 @@ Hace pocos días se publicò este ensayo de Roberto Gargarella (Infobae Edicione
 
 \--
 
-***Posdata con mirada fuera de la caja:*** lo que se presenta como programa de izquierda puede leerse a contrapelo como el liberalismo que el propio liberalismo latinoamericano nunca se animó a ser —despojado de su alianza histórica con el privilegio, y llevado hasta sus últimas consecuencias, si uno toma en serio la autonomía individual, el rechazo a la concentración de poder y la exigencia de que en la esfera pública, como dijera  Francisco Bilbao, citado varias veces en el ensayo,  “que ningún hombre dependa de ningún otro hombre”. [Bilbao](https://seminariogargarella.blogspot.com/2008/06/francisco-bilbao-punto.html), extraordinariamente liberal.
+***Posdata con mirada fuera de la caja:*** lo que se presenta como programa de izquierda puede leerse a contrapelo como el liberalismo que el propio liberalismo latinoamericano nunca se animó a ser —despojado de su alianza histórica con el privilegio, y llevado hasta sus últimas consecuencias, si uno toma en serio la autonomía individual, el rechazo a la concentración de poder y la exigencia de que en la esfera pública, como dijera Francisco Bilbao, (1823-1865, escritor y polemista chileno, exiliado político, defensor del republicanismo radical), citado en el ensayo, “*que ningún hombre dependa de ningún otro hombre*”. [Francisco Bilbao](https://seminariogargarella.blogspot.com/2008/06/francisco-bilbao-punto.html): extraordinariamente liberal.
