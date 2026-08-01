@@ -1,5 +1,5 @@
 ---
-title: Sobre "izquierda y polìtica" de Roberto Gargarella
+title: Sobre "Izquierda y política" de Roberto Gargarella
 slug: izquierda-y-politica
 date: 2026-07-31T13:36:00.000-03:00
 description: Cinco puntos y una posdata fuera de la caja
