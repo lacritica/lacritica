@@ -1,7 +1,7 @@
 ---
 title: Laura Eberhardt
 slug: laura-eberhardt
-thumbnail: /img/ebehrardt.png
+thumbnail: /img/ebehrardt.jpg
 bio: >
   Licenciada en Ciencia Política (UBA), Magíster en Ciencia Política y
   Sociología (FLACSO) y Doctora en Ciencia Política (UNSAM).
