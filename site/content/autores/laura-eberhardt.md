@@ -1,5 +1,5 @@
 ---
-title: Laura Eberhardt
+title: María Laura Eberhardt
 slug: laura-eberhardt
 thumbnail: /img/ebehrardt.jpg
 bio: >
