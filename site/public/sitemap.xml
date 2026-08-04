@@ -74,29 +74,35 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/elogio-a-dyzenhaus/</loc>
+    <lastmod>2026-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-08-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2026-08-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/2026-07/</loc>
     <lastmod>2026-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-07-31T13:36:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-07-31T13:36:00-03:00</lastmod>
+    <loc>http://localhost:1313/post/democracia-directa-argentina/</loc>
+    <lastmod>2026-08-02T11:59:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
-    <lastmod>2026-07-31T13:36:00-03:00</lastmod>
+    <lastmod>2026-08-02T11:59:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/izquierda-y-politica/</loc>
     <lastmod>2026-07-31T13:36:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-07-28T15:16:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/ley-de-tierras-es-constitucional/</loc>
     <lastmod>2026-07-28T15:16:00-03:00</lastmod>

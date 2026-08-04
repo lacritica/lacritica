@@ -9,7 +9,7 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/038B6BF7-FD0B-40D5-84B6-67D461E3D264_1_201_a.jpeg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 publicado_originalmente_en: "Diario La Nación:
