@@ -2,14 +2,14 @@
 title: "Elogio de David Dyzenhaus y The War Against Law"
 slug: elogio-a-dyzenhaus
 date: 2026-08-04
-description: 'Su último libro es una crítica feroz del "nuevo2 constitucionalismo de derecha.'
+description: 'Su último libro es una crítica feroz del "nuevo" constitucionalismo de derecha.'
 categories:
   - ensayos
 author:
   - Roberto Gargarella
 thumbnail:
   - src: '/img/dyzenhaus.jpg'
-highlight: false
+highlight: fals
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
