@@ -30,8 +30,6 @@ En 1984 se había producido la única consulta de la historia democrática del p
 
 Mucho más atrás, el primer gran plebiscito de la historia argentina acompañó la concentración de poder de Juan Manuel de Rosas en 1835, cuando la Sala de Representantes porteña lo nombró gobernador y le otorgó la suma del poder público. Esta es casi toda la historia nacional de los plebiscitos y referendos.
 
- 
-
 **La historia provincial cuenta otra cosa**
 
 Corrientes en 1913 y Mendoza en 1916 fueron las primeras en incorporar mecanismos de democracia directa, seguidas por Córdoba (1923), Santa Fe (1921), Entre Ríos (1933) y la provincia de Buenos Aires (1934). En *De Rosas a Milei. Una historia política de la democracia directa en Argentina* (Editorial Prometeo, 2026) reconstruimos, por primera vez de manera sistemática, más de un siglo de experiencias nacionales y provinciales.
@@ -61,5 +59,3 @@ No idealizamos estos instrumentos. La experiencia internacional muestra que pued
 Detrás de esos casos aparece un patrón más amplio. La democracia directa funciona como un espejo de la representación política. **Allí donde existen instituciones sólidas y reglas claras, puede ampliar la capacidad de decisión ciudadana, como ocurre en Suiza o en Uruguay**. Allí donde predominan el personalismo y la concentración del poder, suele transformarse en un instrumento más de la disputa entre dirigentes.
 
 Hoy Argentina atraviesa una nueva etapa de incertidumbre política. Cada vez que la representación entra en crisis reaparece la idea de consultar directamente a la ciudadanía. Ocurrió con Menem, con Milei y probablemente volverá a ocurrir. Quizás el mayor descubrimiento del libro sea que la historia de la democracia directa en Argentina no es una historia sobre participación ciudadana. Es, sobre todo, una historia sobre las distintas maneras en que el poder intenta legitimarse, ampliarse o limitarse recurriendo —e impidiendo recurrir— a la voz del electorado constituido en pueblo. Entender esa historia ayuda también a entender por qué, **cada vez que la representación entra en crisis, vuelve a aparecer la promesa de "consultar a la gente"**. La pregunta no es si habrá nuevos referéndums o consultas populares. La pregunta sobre quién decide, cómo decide y cuánto pueden intervenir la ciudadanía.
-
-/// A propósito de "De Rosas a Milei. Una historia política de la democracia directa en Argentina" (Prometeo, 2026)  las autoras nos traen una
