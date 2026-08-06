@@ -1,6 +1,6 @@
 ---
-title: "QUÉ CAMBIARÍA EN ARGENTINA CON LA NUEVA REGULACIÓN DE DESALOJOS?
-  (SPOILER: PRÁCTICAMENTE NADA)"
+title: "Que cambiaría en Argentina con la nueva regulación de desalojos?
+  (spoiler: prácticamente nada)"
 date: 2026-08-06T11:11:00.000-03:00
 slug: desalojo
 author:
@@ -8,9 +8,9 @@ author:
 thumbnail:
   - src: /img/218E6DCF-7B6F-4D39-AA8E-4DFB9302A2DC_1_201_a.jpeg
 ---
-El Senado se aprestaría a tratar hoy una ley -pomposamente- llamada "ley de involabilidad de la propiedad". Como casi siempre desde hace varios años ya, la inflacionaria declamación retórica-simbólica de las propuestas legislativas es inversamente proporcional a su alcance material-concreto de las reformas legislativas. Desde Colombia, seguramente Mauricio García Villegas sonrieiría al recordar su trabajo sobre la hipertrofia de la eficacia simbólica ante la ineficacia material del derecho en nuestros países.
+El Senado se aprestaría a tratar hoy una ley -pomposamente- llamada "ley de involabilidad de la propiedad". Como casi siempre desde hace varios años ya, la inflacionaria declamación retórica-simbólica de las propuestas legislativas es inversamente proporcional a su alcance material-concreto. Desde Colombia, seguramente Mauricio García Villegas sonrieiría al recordar su trabajo sobre la hipertrofia de la eficacia simbólica ante la ineficacia material del derecho en nuestros países.
 
-Lo cierto es que la narrativa general sobre esta ley identifica que una de las modificaciones más relevantes que introduciría sería el cambio en el régimen legal de los desalojos de inmuebles, tendientes ha hacerlos más rápidos y efectivos (para proteger la propiedad de sus titulares registrales), con "modalidades express" para algunos casos, etc.
+Lo cierto es que la narrativa general sobre esta ley identifica que una de las modificaciones más relevantes que introduciría sería el cambio en el régimen legal de los desalojos de inmuebles, tendientes a hacerlos más rápidos y efectivos (para proteger la propiedad de sus titulares registrales), con "modalidades express" para algunos casos, etc.
 
 Sería ciertamente relevante si nuestro país cambiara de manera de manera significativa el funcionamiento de los desalojos en un sentido "pro-propietario". Pero nada de esto ocurriría prácticamente con esta ley. 
 
