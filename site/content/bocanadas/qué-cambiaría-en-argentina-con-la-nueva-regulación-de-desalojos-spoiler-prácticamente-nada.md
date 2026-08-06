@@ -6,7 +6,7 @@ slug: desalojo
 author:
   - Gustavo Maurino
 thumbnail:
-  - src: /img/AF3E45A4-1AEB-45FB-BBFA-F9002FA9AA0D_1_201_a.jpeg
+  - src: /img/218E6DCF-7B6F-4D39-AA8E-4DFB9302A2DC_1_201_a.jpeg
 ---
 El Senado se aprestaría a tratar hoy una ley -pomposamente- llamada "ley de involabilidad de la propiedad". Como casi siempre desde hace varios años ya, la inflacionaria declamación retórica-simbólica de las propuestas legislativas es inversamente proporcional a su alcance material-concreto de las reformas legislativas. Desde Colombia, seguramente Mauricio García Villegas sonrieiría al recordar su trabajo sobre la hipertrofia de la eficacia simbólica ante la ineficacia material del derecho en nuestros países.
 
