@@ -10,7 +10,7 @@ author:
   - Irwin Stotzky
 thumbnail:
   - src: /img/oxa21.jpg
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
