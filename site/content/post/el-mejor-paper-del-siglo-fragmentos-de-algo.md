@@ -2,7 +2,7 @@
 title: El Mejor Paper del Siglo. Fragmentos de algo.
 slug: moro
 date: 2026-08-14T12:13:00.000-03:00
-description: un consejo, que es un recuerdo y un homenaje
+description: Un consejo, que es un recuerdo y un homenaje
 categories:
   - ensayos
 author:
