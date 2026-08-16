@@ -15,10 +15,7 @@ thumbnail:
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
-callouts:
-  - “Alguna vez sentiste, en un espacio de tu imaginación, el grito de los
-    perdedores, que es sordo y mudo, aunque griten juntos” (LG, La historia
-    ésta)
+callouts: []
 ---
 
 
