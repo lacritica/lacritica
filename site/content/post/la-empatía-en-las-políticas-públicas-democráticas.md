@@ -12,8 +12,8 @@ thumbnail:
       perdedores, que es sordo y mudo, aunque griten juntos” (LG, La historia
       ésta)
     src: /img/72DF4299-2E0D-40AC-80CE-D4055D7B6946_1_201_a.jpeg
-highlight: false
-highlight2: true
+highlight: true
+highlight2: false
 exclude_thumbnail_from_body: false
 callouts: []
 ---
