@@ -4,7 +4,7 @@ slug: empatia
 date: 2026-08-18T11:05:00.000-03:00
 description: ¿son mejores o peores las políticas públicas blindadas de empatía?
 categories:
-  - ensayos
+  - debates
 author:
   - Gustavo Maurino
 thumbnail:
