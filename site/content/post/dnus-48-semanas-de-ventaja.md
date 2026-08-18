@@ -18,8 +18,6 @@ exclude_thumbnail_from_body: false
 >
 > ("Verrocchi", 19/8/99, Fallos 322:1726).
 
-
-
 La semana pasada la Corte Suprema emitió en [“Cencosud](https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoByIdLinksJSP.html?idDocumento=8310041&cache=1787025127075)” un fallo declarando la inconstitucionalidad de un Decreto de Necesidad y Urgencia (DNU) dictado durante la presidencia de Macri. La norma afectada es reveladora de muchos DNUs que pasan bajo el radar de discusión pública, pues versaba sobre la competencia para conocer en los recursos contra las sanciones impuestas por violaciones al régimen de lealtad comercial (que era del Contencioso Administrativo, y el DNU derivaba  al Fuero Civil y Comercial). Algunos pudieron haber leído un tenue “mensaje al gobierno” en esta sentencia, en cuanto mantiene la idea de que el decreto es excepción y no discreción del presidente, pero en ello no hay novedad, sino reiteración en la doctrina oficial de la Corte. Si viene un marciano y lo alimentamos con fallos de la Corte, le costaría conciliar la retórica de la Corte con el uso recurrente de un instrumento que la Constitución declara viciado de  “nulidad absoluta e insanable”. 
 
 En efecto, la Corte ha fijado doctrina sujetándolos a una concepción restrictiva, que nació en el bajo menemismo cuando en nuestro acapítado [“Verrocchi” de 1999](https://www.palabrasdelderecho.com.ar/articulo/2967/Veintidos-anos-del-fallo-Verrocchi-el-control-de-los-presupuestos-facticos-que-habilitan-el-dictado-de-un-DNU) la misma Corte que inventó la criatura (en “Peralta” de 1990, convalidando el Plan BONEX, impuesto por DNU) iba a recortar sus alas leyendo un poco más en serio la regulación de la Constitución de 1994 (que en el art. 99 inc. 3 constitucionalizó el especimen pero con reservas, limitando el decretazo a cuestiones urgentes, excluyendo materias,  y sujetándolo a circuitos de control bicameral). Pueden ver un contexto más amplio de la jurisprudencia de la Corte en el tema en el artículo ["Las tres generaciones de DNUs"](https://revistajuridica.utdt.edu/ojs/index.php/ratj/article/view/345/285) de Alfonso Santiago.
@@ -28,7 +26,7 @@ Para mover un poco las ramas del árbol genealógico, hemos hecho un estudio de 
 
 De los gobernantes recientes, por caso, Cristina Kirchner y Javier Milei tienen algo en común: no han tenido decretos invalidados por la Corte. El resto, salvo Menem, solo uno, dos o tres. 
 
-![](tablita.png "Fallos de la CSJN declarando inconstitucionalidad de DNUs")
+![](/img/tablita.png "Fallos de la CSJN declarando inconstitucionalidad de DNUs")
 
 **Desde 1995 hasta 2025 inclusive se dictaron 971 DNUs** (pueden ver el detalle por año en una solapa de la misma planilla) de modo que los 17 eventos  donde la Corte ha declarado inconstitucionalidad representan el 1,85 % de los casos. 
 
