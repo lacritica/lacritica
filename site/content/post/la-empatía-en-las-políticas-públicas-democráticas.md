@@ -17,10 +17,6 @@ highlight2: false
 exclude_thumbnail_from_body: false
 callouts: []
 ---
-
-
-
-
 Notas a partir de las palabras del ministro de economía: [“No hay que confundir la empatía con las políticas públicas”](https://www.lanacion.com.ar/economia/caputo-hablo-sobre-la-morosidad-en-las-familias-no-hay-que-confundir-la-empatia-con-las-politicas-nid14082026/)
 
 **Para comenzar. Un tour por el BackOffice de la Sala de Máquinas** 
@@ -45,7 +41,8 @@ Hace muchos años tuve la oportunidad de participar en el servicio público como
 
 Si les interesa saber, solo he podido encontrar una iniciativa genuina y seria a través de la cual se intentó comenzar a transformar ese estado de cosas. Una sola, y terminó naufragando más temprano que tarde. Ocurrió en el siglo pasado, en los años ochenta, cuando se creó el Cuerpo de Administradores Gubernamentales (CAG), con la finalidad de conformar una burocracia profesional para la alta gerencia del naciente estado democrático. Muy pocos años después comenzó a ser privado de toda relevancia, y luego reducido a la insignificancia. El CAG todavía existe (de verdad, existe aún). Sus agentes -otrora la esperanza de una administración democrática idónea- deambulan errantes por la casa del estado. 
 
-Todo lo demás (ay!) fue y es pura cháchara. A pesar de los esfuerzos de gente noble y competente que diseñó hermosos planes y proyectos de transformación que nunca lograron un cambio estructural. Solo se han implementado con fría eficacia los recurrentes planes de retiros voluntarios y terminaciones masivas de contratos precarios, que al final del día solo reemplazan una “capa geológica” de agentes por otra nueva que bien pronto comienza a tomar su lugar, y que en el futuro será removida por otra iteración de este proceso acumulativo de sinsentido.
+Todo lo demás (ay!) fue y es pura cháchara. A pesar de los esfuerzos de gente noble y competente que diseñó hermosos planes y proyectos de transformación que nunca lograron un cambio estructural. Solo se han implementado con fría eficacia los recurrentes planes de retiros voluntarios y terminaciones masivas de contratos precarios, que al final del día solo reemplazan una “capa geológica” de agentes por otra nueva que bien pronto comienza a tomar su lugar, y que en el futuro será removida por otra iteración de este proceso acumulativo de sinsentido. En todo caso, yo no me perdería el prometedor "**Public Administration in Argentina"** (esperado en  Enero 2027 bajo coordinación de Nelson D. Cardozo, Diego Pando, Pablo Bulcourf, por Springer). Si alguien puede encontrarle sentido a la cosa, seguramente sean ellos.
+
 
 **La funcionalidad de esta estructura**
 
@@ -53,7 +50,7 @@ Este estado del BackOffice de la sala de máquinas no es una anomalía disfuncio
 
 En algún punto, el estado de situación es casi un óptimo paretiano para una cultura política, social y cívica que todavía está en camino incierto hacia las virtudes democráticas. Las élites políticas, económicas y sociales asumen que nuestras dinámicas públicas son radicalmente inestables, espasmódicas y precarias; presuponen que las variables sociales, económicas y políticas relevantes son imprevisibles e inmanejables; calculan, deciden y actúan bajo la premisa de que largo plazo es pura abstracción, la construcción de consensos político-sociales extendidos una quimera, la autolimitación Inter temporal una promesa imposible, y la epopeyas refundacionales instantáneas una tentación irresistible.
 
-En ese escenario, es esperable que “los dueños del juego” se acostumbren a navegar en el decisionismo administrativo más radical, lo alimenten, lo celebren, y lo prefieran -por la ilusión de su efectividad comparada con otras dinámicas alternativas para construir políticas públicas. Por eso mismo todos nuestros jugadores públicos relevantes (todos) valoran el anabólico expeditivo de los DNU por sobre los procesos legislativos, y nadie se toma en serio los esfuerzos heroicos de quienes proponen sujetarlos a la Constitución, para dar solo un ejemplo conocido. 
+En ese escenario, es esperable que “los dueños del juego” se hayan acostumbrado a navegar en el decisionismo administrativo más radical, lo alimenten, lo celebren, y lo prefieran -por la ilusión de su efectividad comparada con otras dinámicas alternativas para construir políticas públicas. Por eso mismo todos nuestros jugadores públicos relevantes (todos) valoran el anabólico expeditivo de los DNU por sobre los procesos legislativos, y nadie se toma en serio los esfuerzos heroicos de quienes proponen sujetarlos a la Constitución, para dar solo un ejemplo conocido. 
 
 Una infraestructura radicalmente lábil para una democracia que todavía navega un poco a la deriva, en cíclica odisea de crisis políticas, sociales y económicas, aunque sin abandonar la esperanza de llegar a buen puerto. 
 
@@ -87,7 +84,7 @@ El Ministerio de Desarrollo Social en la década de la reconstrucción post 2001
 
 *Interesantemente, ninguna de estas perspectivas tiene razones -y por lo tanto no construyen prácticas ni métodos- para tener presente (realmente presentes) y escuchar (realmente escuchar) a los excluidos, afectados, dañados, perjudicados por las políticas públicas. En un caso, porque ellas siguen criterios técnico-científicos validados en sus propios términos, y en el otro porque la decisión política ya definió quienes son los que cuentan (y quienes no) para la política pública en cuestión.* 
 
-**Argentina 2026. El Ministro de Economía y la separación entre Políticas Públicas y Empatía**
+**Argentina 2026: El Ministro de Economía y la separación entre Políticas Públicas y Empatía**
 
 Recientemente, el ministro de economía de la nación compartió públicamente unas reflexiones que a mi modo de ver expresan con mucha nitidez una concepción y un entendimiento sobre las políticas públicas que representan a una parte relevante del liderazgo económico, social y político del país. 
 
@@ -105,25 +102,28 @@ En el contexto de su intervención pública, la idea del ministro sobre la impor
 
 **(a)** que las políticas públicas deberían ser definidas en base a criterios políticos, técnicos y de evidencia general acerca de lo que es correcto hacer y -hecho esto- deberían ejecutarse de manera consistente con dichos criterios, en base a una racionalidad de medio/fin, sin apartarse de los postulados técnicos aceptados;
 
-**(b)** que la definición de los objetivos y los medios concretos de las políticas públicas debe realizarse de manera , analítica, desapasionada, aséptica (“racional”?), distante de las emociones del decisor -el decisor debe blindarse frente a sus propias emociones para tomar decisiones correctas, y por eso mismo debe dejar la empatía afuera de la ecuación de las políticas públicas, no confundirlas.
+**(b)** que la definición de los objetivos y los medios concretos de las políticas públicas debería realizarse de manera, analítica, desapasionada, aséptica (“racional”?), distante de las emociones del decisor -la  autoridad decisora debería blindarse frente a sus propias emociones para tomar decisiones correctas, y por eso mismo debería dejar la empatía afuera de la ecuación de las políticas públicas, no confundirlas.
 
-**(c)** que el ciclo de las políticas públicas, y las decisiones relevantes en su implementación, no deben ser influidos o alterados por consideraciones basadas en las experiencias, vivencias, perspectivas sufrimientos ni emociones de las personas afectadas -particularmente las perjudicadas- por ellas (en la entrevista el ministro pregunta retóricamente a la periodista si ella se sentiría cómoda con que el gobierno destinara recursos públicos para ayudar en la situación...aunque no sin picardía, él habla ahí de ayudar a los bancos y no a los deudores, que era el tema de la pregunta...sagaz el ministro).
+**(c)** que el ciclo de las políticas públicas, y las decisiones relevantes en su implementación, no deberían ser influidas o alteradas por consideraciones basadas en las experiencias, vivencias, perspectivas sufrimientos ni emociones de las personas afectadas -particularmente las perjudicadas- por ellas (en la entrevista el ministro pregunta retóricamente a la periodista si ella se sentiría cómoda con que el gobierno destinara recursos públicos para ayudar en la situación...aunque no sin picardía, él habla ahí de ayudar a los bancos y no a los deudores, que era el tema de la pregunta...sagaz el ministro).
 
 En suma, bajo esta perspectiva, la buena política pública requiere, como condición necesaria, que sea prescindente de, y no sea alterada por, la consideración empática por la situación de la ciudadanía involucrada. La empatía no debe jugar un rol relevante a la hora de la política pública. 
 
 Podríamos decir que ***para esta concepción la empatía debe terminar donde empieza la política pública.***
 
-Esta es la concepción que se ha vuelto relativamente popular en el último tiempo en buena parte del liderazgo social, económico y político del país. Los ejemplos vendrán rápido a la mente de quien lo piense un par de segundos.
+Esta es la concepción que se ha vuelto relativamente popular en el último tiempo en buena parte del liderazgo social, económico y político del país (lo ha sido por derecha y por izquierda, a no equivocarse). Los ejemplos vendrán rápido a la mente de quien lo piense un par de segundos.
 
-**¿Por qué la empatía no sería buena para las políticas públicas? (por qué las políticas públicas serían mejores cuando si estén contaminadas de empatía)**
+**¿Por qué las políticas públicas serían mejores cuando si estén contaminadas de empatía?**
 
-La reivindicación que realizara el ministro de la exclusión de la empatía en las políticas públicas podría fundarse en una perspectiva personal según la cual, la empatía no es en sí una cualidad valorable en las personas. Conozco filósofos populares que piensan así, desestiman la relevancia de la empatía como actitud o disposición moralmente valiosa a nivel personal, consideran que el esfuerzo de tomar en consideración las perspectivas de los demás es un ejercicio fútil, que la consideran más bien una debilidad moral, una ingenuidad que ignora que en realidad el hombre es lobo del hombre. De hecho, también soy conciente de una interpretación callejera que considera que los líderes del gobierno actual son personas sin empatía, esencialmente crueles y despiadadas hacia quienes no piensan como ellas (y de paso, recuerdo también para quien no lo supiera, que eso mismo se decía sobre el gobierno anterior, y sobre el que lo precedió, y sobre el que antecedió a ese).
+La reivindicación que realizara el ministro de la exclusión de la empatía en las políticas públicas podría fundarse en una perspectiva personal según la cual, la empatía no es en sí una cualidad moral valorable en las personas.  Conozco filósofos populares que piensan así, que desestiman la relevancia de la empatía como actitud o disposición moralmente valiosa a nivel personal, que consideran que el esfuerzo de tomar en consideración las perspectivas de los demás es un ejercicio fútil, o paralizante; otros que la consideran más bien una debilidad moral, que ignora que en realidad el hombre es lobo del hombre. Ciertamente estoy al tanto   de una interpretación social más o menos extendida que considera que los líderes del gobierno actual son personas sin empatía, crueles y despiadadas hacia quienes no piensan como ellas. Recuerdo también, a no equivocarse, que lo mismo se decía sobre el gobierno anterior, y sobre el que lo precedió, y sobre el que antecedió a ese.
 
-Pero no parece ser esa la perspectiva del ministro, quien ha sido explícito al presentar a la empatía como una actitud valiosa y valorable, y reivindicarla para él mismo (“nosotros hemos sido empáticos desde el día menos uno”). En su perspectiva, la empatía está bien, es una disposición y una actitud humana encomiable. Las buenas personas hacen el esfuerzo para tratar de ser capaces de ponerse en los zapatos del otro, especialmente de los que sufren; tienen la disposición y la actitud de tratar de sentir (realmente sentir), imaginar, representarse y vivenciar hasta donde sea posible la experiencia de la vida desde el lugar de quienes la están pasando mal, para comprender mejor sus necesidades y expectativas, para ser más ecuánimes. 
+Pero, a juzgar por sus palabras, deberíamos concluir que esa no sería la perspectiva del ministro, quien fue explícito al presentar a la empatía como una actitud valiosa y valorable, y reivindicarla para él mismo *(“nosotros hemos sido empáticos desde el día menos uno”)*. En su perspectiva, la empatía está bien, es una disposición y una actitud humana encomiable. El ministro parece considerar que las buenas personas hacen el esfuerzo para ser capaces de ponerse en los zapatos del otro, especialmente de los que sufren; tienen la disposición y la actitud de tratar de sentir (realmente sentir), imaginar, representarse y vivenciar hasta donde sea posible la experiencia de la vida desde el lugar de quienes la están pasando mal, para comprender mejor sus necesidades y expectativas, para ser más ecuánimes.
 
-El ministro no reivindica una moral no empática, sino una concepción de la buena política pública que requiere que sea aislada de (no contaminada por) la empatía. La perspectiva del ministro es que la empatía no es buena actitud en -para- el campo de las decisiones de política pública. 
+El ministro, entonces, no estaría reivindicando una moral no empática, sino una concepción de la buena política pública, asociada con la exclusión de la empática. Superspectiva es que la empatía no es una buena actitud o una buena práctica en -para- el campo de las decisiones de política pública.
 
-El razonamiento que apoya esta conclusión -no es del ministro, pero es bastante extendido en una forma vulgar de concebir las políticas públicas en clave tecnocrática- considera que, para tomar decisiones de política pública correctas, guiadas por la razón científica general, despersonalizada, se requiere distancia respecto de los afectados -es decir, casi lo opuesto a la empatía-, pues esa distancia es fundamental para ser imparciales, neutrales, y guiarse por los criterios técnicos adecuados.
+El razonamiento que apoyaría esta conclusión -no lo hizo el ministro, pero es bastante extendido en una forma cotidiana de concebir las políticas públicas en clave tecnocrática- considera que, para tomar decisiones de política pública correctas, guiadas por la razón científica general, despersonalizada, se requiere distancia respecto de los afectados -es decir, se requiere casi lo opuesto a la empatía-, pues esa distancia es fundamental para ser imparciales, neutrales, y guiarse por los criterios técnicos adecuados. 
+
+Sebastián Guidi me recordaba un provocador artículo publicado en el tiempo previo a la pandemia y la IA, [en contra de la empatía en las políticas públicas](https://www.bostonreview.net/forum/paul-bloom-against-empathy/). Las fallas del artículo me parecen evidentes, pero tiene el mérito de contribuir a la claridad analítica -por ejemplo, distinguiendo dos “tipos” de empatía- y de presentar buenos argumentos (que es todo lo que se puede pedir!)
+
 
 **Una breve (e intensa) defensa de la empatía como virtud fundamental de las instituciones y políticas públicas democráticas**
 
@@ -135,9 +135,15 @@ Esta aproximación -de la neutralidad distante- porta un grave error, tanto en e
 
 Como Nussbaum muestra allí, la imparcialidad y la neutralidad requieren ausencia de privilegios y favoritismo (ese, y no otro es el sentido de la venda en los ojos). Pero no requieren distanciamiento, sino todo lo contrario, demandan cercanía empática para comprender -de verdad comprender- las historias involucradas en los conflictos y las decisiones que se deben toma, escuchar el grito de los perdedores.
 
-Por supuesto, quien tiene que decidir no debería sucumbir a la empatía, debe trascenderla, y una buena decisión necesita más que la cercanía empática; pero sin ella la imaginación decisoria es radicalmente incompleta y limitada. La empatía es una precondición para la imparcialidad en la toma de decisiones en clave democrática e igualitaria.
-
 En especial, toda decisión en cuestiones prácticas requiere comprender el sufrimiento involucrado en el conflicto. Aristóteles decía, recuerda Nussbaum en aquel libro, que el razonamiento en ética y política es y debe ser diferente del razonamiento deductivo que algunos buscan en las ciencias. En una comunidad democrática -a diferencia de un aula universitaria o un laboratorio- las decisiones de política pública son decisiones de razón práctica, no teórica.
+
+Por supuesto, quien tiene que decidir no debería sucumbir a la empatía, debe trascenderla, y una buena decisión necesita más que la cercanía empática; pero sin ella la imaginación decisoria es radicalmente incompleta y limitada. Entiendo a la empatía institucional como una precondición para la imparcialidad en la toma de decisiones en clave democrática e igualitaria.
+
+**Mi defensa de la empatía como actitud, práctica y disposición institucional en las políticas públicas no es consecuencialista. No afirmo que las decisiones y/o sus resultados serán mejores. No hay evidencia que lo confirme, como tampoco hay evidencia que confirme lo contrario. El análisis consecuencialista (para un lado y para el otro) solo apila ejemplos, y todos ellos me parecen sesgados. El pro-empatía asocia la falta de empatía al nazismo, el anti-empatía asocia la empatía con salvar una vida y perder cientos, etc.** 
+
+**Reivindico la empatía entendida como virtud institucional de manera deontológica. Las instituciones públicas, particularmente en una comunidad comprometida con la igualdad democrática, deben desplegar lógicas de actuación empáticas porque eso es lo que le deben a la ciudadanía; porque deben tener consideración y respeto por todos y cada uno de los ciudadanos. Porque la voz y la presencia de las personas debe ser escuchada y tenida en cuenta.**
+
+**Esto es especialmente importante en una comunidad -y una institucionalidad- genuinamente democrática, porque la empatía es una savia fundamental para una vida social genuinamente democrática. Es el tipo de actitud y disposición que necesitamos en la ciudadanía -pero especialmente en las instituciones públicas- para tratarnos como iguales, como igualmente dignos de igual consideración y respeto. En ello consiste la cultura cívica pública de una comunidad democrática fuerte y estable.**
 
 Una política pública blindada a la empatía es simplemente mala política pública, y una institucionalidad pública blindada a la empatía es una mala institucionalidad política.
 
