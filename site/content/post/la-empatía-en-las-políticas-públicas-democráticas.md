@@ -1,10 +1,10 @@
 ---
 title: La empatía en las políticas públicas democráticas
 slug: empatia
-date: 2026-08-18T17:23:00.000-03:00
+date: 2026-08-18T11:05:00.000-03:00
 description: ¿son mejores o peores las políticas públicas blindadas de empatía?
 categories:
-  - debates
+  - ensayos
 author:
   - Gustavo Maurino
 thumbnail:
@@ -13,7 +13,7 @@ thumbnail:
       ésta)
     src: /img/72DF4299-2E0D-40AC-80CE-D4055D7B6946_1_201_a.jpeg
 highlight: false
-highlight2: false
+highlight2: true
 exclude_thumbnail_from_body: false
 callouts: []
 ---
