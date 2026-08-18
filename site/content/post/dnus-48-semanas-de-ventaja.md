@@ -20,9 +20,9 @@ Para revisar el árbol genealógico, hemos hecho un estudio de fallos donde la C
 
 De los gobernantes recientes, por caso, Cristina Kirchner y Javier Milei tienen algo en común: no han tenido decretos invalidados por la Corte. El resto, salvo Menem, solo uno, dos o tres. 
 
-![](/img/tablita.png "Fallos de la CSJN declarando inconstitucionalidad de DNUs")
+![](tablita.png "Fallos de la CSJN declarando inconstitucionalidad de DNUs")
 
-Desde 1995 hasta 2025 inclusive se dictaron 971 DNUs, de modo que los 17 eventos  donde la Corte ha declarado inconstitucionalidad representan el 1,85 % de los casos. 
+**Desde 1995 hasta 2025 inclusive se dictaron 971 DNUs** (pueden ver el detalle por año en una solapa de la misma planilla) de modo que los 17 eventos  donde la Corte ha declarado inconstitucionalidad representan el 1,85 % de los casos. 
 
 Y de los 17, solo 5 recayeron en DNUs de presidentes que estaban en funciones. Si les interesa ver datos de “decretos por presidente”, pueden ver [este informe de la Universidad Austral](https://www.austral.edu.ar/wp-content/uploads/2024/12/Los-DNU-en-la-practica-institucional-30-anos-23-09-24.docx-1.pdf?x89754&x89754) (al final, un caveat importante sobre eso).
 
@@ -30,7 +30,7 @@ Por otro lado, la última columna nos dice cuantos “fallos sobre DNUs” suced
 
 Pero importa también el timing: **las inconstitucionalidades de DNUs se hacen muy “en diferido” entre el nacimiento del decreto y su muerte por inconstitucionalidad.** 
 
-La mediana de rezago (que permite minimizar el ruido estadístico de las puntas) nos da **48 meses,** lo que es justo un mandato presidencial entero. El presidente puede “gobernar por decreto” y sabe que lo más probable es que las inconstitucionalidades de sus actos no caigan en su mandato sino en el del presidente siguiente. A esto se suma que todos los litigios no serán necesariamente contemporáneos a la sanción del decreto (en general, el día después del decreto solo tengo un caso abstracto que ningún tribunal aceptará como controversia).
+La mediana de rezago (que permite minimizar el ruido estadístico de las puntas) nos da **48 meses,** lo que es justo un mandato presidencial entero. El promedio es superior: 68 meses de rezago. Un presidente puede “gobernar por decreto” y sabe que lo más probable es que las inconstitucionalidades de sus actos no caigan en su mandato sino en el del presidente siguiente. A esto se suma que todos los litigios no serán necesariamente contemporáneos a la sanción del decreto (en general, el día después del decreto solo tengo un caso abstracto que ningún tribunal aceptará como controversia).
 
 Nota de contexto: el titulo de esta nota habla de “el sistema” porque ese rezago no corresponde a una decisión propia de la Corte. En general, no parece ser una cifra especialmente anómala para que transite un juicio de tres o cuatro instancias en este país. No es que “cajonean” el caso, sino que simplemente siguen una velocidad crucero especialmente inepta para disuadir el uso del mecanismo.
 
