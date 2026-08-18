@@ -43,7 +43,6 @@ Si les interesa saber, solo he podido encontrar una iniciativa genuina y seria a
 
 Todo lo demás (ay!) fue y es pura cháchara. A pesar de los esfuerzos de gente noble y competente que diseñó hermosos planes y proyectos de transformación que nunca lograron un cambio estructural. Solo se han implementado con fría eficacia los recurrentes planes de retiros voluntarios y terminaciones masivas de contratos precarios, que al final del día solo reemplazan una “capa geológica” de agentes por otra nueva que bien pronto comienza a tomar su lugar, y que en el futuro será removida por otra iteración de este proceso acumulativo de sinsentido. En todo caso, yo no me perdería el prometedor "**Public Administration in Argentina"** (esperado en  Enero 2027 bajo coordinación de Nelson D. Cardozo, Diego Pando, Pablo Bulcourf, por Springer). Si alguien puede encontrarle sentido a la cosa, seguramente sean ellos.
 
-
 **La funcionalidad de esta estructura**
 
 Este estado del BackOffice de la sala de máquinas no es una anomalía disfuncional ni un problema que nadie sabe cómo resolver. Me resulta bastante aparente la correlación entre el tipo de infraestructura institucional que se extiende en el estado argentino y el tipo de cultura pública que todavía expresan nuestras prácticas políticas, particularmente las dinámicas propias de los liderazgos políticos y económicos establecidos. 
@@ -112,7 +111,7 @@ Podríamos decir que ***para esta concepción la empatía debe terminar donde em
 
 Esta es la concepción que se ha vuelto relativamente popular en el último tiempo en buena parte del liderazgo social, económico y político del país (lo ha sido por derecha y por izquierda, a no equivocarse). Los ejemplos vendrán rápido a la mente de quien lo piense un par de segundos.
 
-**¿Por qué las políticas públicas serían mejores cuando si estén contaminadas de empatía?**
+**¿Por qué las políticas públicas serían mejores si no están contaminadas de empatía?**
 
 La reivindicación que realizara el ministro de la exclusión de la empatía en las políticas públicas podría fundarse en una perspectiva personal según la cual, la empatía no es en sí una cualidad moral valorable en las personas.  Conozco filósofos populares que piensan así, que desestiman la relevancia de la empatía como actitud o disposición moralmente valiosa a nivel personal, que consideran que el esfuerzo de tomar en consideración las perspectivas de los demás es un ejercicio fútil, o paralizante; otros que la consideran más bien una debilidad moral, que ignora que en realidad el hombre es lobo del hombre. Ciertamente estoy al tanto   de una interpretación social más o menos extendida que considera que los líderes del gobierno actual son personas sin empatía, crueles y despiadadas hacia quienes no piensan como ellas. Recuerdo también, a no equivocarse, que lo mismo se decía sobre el gobierno anterior, y sobre el que lo precedió, y sobre el que antecedió a ese.
 
@@ -123,7 +122,6 @@ El ministro, entonces, no estaría reivindicando una moral no empática, sino un
 El razonamiento que apoyaría esta conclusión -no lo hizo el ministro, pero es bastante extendido en una forma cotidiana de concebir las políticas públicas en clave tecnocrática- considera que, para tomar decisiones de política pública correctas, guiadas por la razón científica general, despersonalizada, se requiere distancia respecto de los afectados -es decir, se requiere casi lo opuesto a la empatía-, pues esa distancia es fundamental para ser imparciales, neutrales, y guiarse por los criterios técnicos adecuados. 
 
 Sebastián Guidi me recordaba un provocador artículo publicado en el tiempo previo a la pandemia y la IA, [en contra de la empatía en las políticas públicas](https://www.bostonreview.net/forum/paul-bloom-against-empathy/). Las fallas del artículo me parecen evidentes, pero tiene el mérito de contribuir a la claridad analítica -por ejemplo, distinguiendo dos “tipos” de empatía- y de presentar buenos argumentos (que es todo lo que se puede pedir!)
-
 
 **Una breve (e intensa) defensa de la empatía como virtud fundamental de las instituciones y políticas públicas democráticas**
 
