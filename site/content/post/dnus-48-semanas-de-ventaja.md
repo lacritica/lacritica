@@ -1,5 +1,5 @@
 ---
-title: "DNUs: 48 semanas de ventaja para el Ejecutivo"
+title: "DNUs: 48 meses de ventaja para el Ejecutivo"
 slug: dnus-48-semanas
 date: 2026-08-18T07:37:00.000-03:00
 description: El sistema se toma sus tiempos para revisar DNUs, y anula muy
