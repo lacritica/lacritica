@@ -13,7 +13,8 @@ highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-**Papers que se caen a pedazos**
+
+# Papers que se caen a pedazos
 
 No voy a negar que leo poco, acaso cada vez menos. Lo confieso sin orgullo, pero sin culpa.
 
@@ -29,7 +30,7 @@ Estoy bastante convencido de que las cosas son así, pero a la vez, estoy comple
 
 El mejor paper escrito en este cuarto de siglo. Yo lo conozco; y quienes han tenido la fortuna de habérselo encontrado seguro lo reconocen también, es imposible no hacerlo. Es como haber escuchado a Charly García o visto jugar a Messi.
 
-**In Memoriam**
+# In Memoriam
 
 Hace algunos años vivió en esta tierra Guilermo Moro. 
 
@@ -57,7 +58,7 @@ El milagro del mejor paper del siglo fue cuidadosamente concebido por nuestro h�
 
 *"El único paper que deberías leer (no leas nada más hasta que no lo leas esto, en serio). El paper aleph. El paper que cambió la historia sobre cómo escribir. El mejor paper que se escribirá en castellano en los próximos 10 años (por lo menos)".* Nunca fui bueno prediciendo el futuro. Acaso esta fue la única vez que acerté.
 
-Se llamó ***“[I am the Walrus: Abogacía y Derechos Sociales \[Fragmentos de Algo]](https://drive.google.com/file/d/1F5hic6Q3PeSGdmEjDLVTsPYzxxLaaFBP/view?usp=sharing)”*** y fue publicado en un libro sobre derechos sociales que editaba ACIJ para EUDEBA, bajo la coordinación que compartimos con Luciana Bercovich y María Trevisani ([creo que todavía está por aquí](https://hablandobajo.blogspot.com/search?updated-max=2014-09-30T10:06:00-03:00&max-results=7&start=105&by-date=false)).
+Se llamó *“[I am the Walrus: Abogacía y Derechos Sociales \[Fragmentos de Algo]](https://drive.google.com/file/d/1F5hic6Q3PeSGdmEjDLVTsPYzxxLaaFBP/view?usp=sharing)”* y fue publicado en un libro sobre derechos sociales que editaba ACIJ para EUDEBA, bajo la coordinación que compartimos con Luciana Bercovich y María Trevisani ([creo que todavía está por aquí](https://hablandobajo.blogspot.com/search?updated-max=2014-09-30T10:06:00-03:00&max-results=7&start=105&by-date=false)).
 
 Jamás se escribió un artículo así. 
 
@@ -73,7 +74,7 @@ Acaso su autor también nos quería mostrar que sólo podemos comprender las cos
 
 Luciana Bercovich dice que cada dos o tres años habría que hacer un encuentro para releer y discutir el paper, porque siempre que lo visitamos tiene algo nuevo y luminoso para decirnos. Es una gran idea. Si alguien se anima, yo llevaré las pizzas. Mientras tanto, yo creo que cada 5 o 10 años debo volver a contarle al mundo sobre este paper maravilloso.
 
-**Caminando por Santa Fe**
+# Caminando por Santa Fe
 
 Hace un tiempo, en ocasión del encuentro de ICON-S realizado en Santa Fe, caminamos con Valeria Berros y Mariela Puga por la zona de la facultad de derecho de la UNL. Era una siesta un poco fría y un poco gris.
 

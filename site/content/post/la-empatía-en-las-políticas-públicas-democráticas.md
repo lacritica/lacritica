@@ -2,7 +2,7 @@
 title: La empatía en las políticas públicas democráticas
 slug: empatia
 date: 2026-08-18T11:05:00.000-03:00
-description: ¿son mejores o peores las políticas públicas blindadas de empatía?
+description: ¿Son mejores o peores las políticas públicas blindadas de empatía?
 categories:
   - debates
 author:
@@ -19,7 +19,7 @@ callouts: []
 ---
 Notas a partir de las palabras del ministro de economía: [“No hay que confundir la empatía con las políticas públicas”](https://www.lanacion.com.ar/economia/caputo-hablo-sobre-la-morosidad-en-las-familias-no-hay-que-confundir-la-empatia-con-las-politicas-nid14082026/)
 
-**Para comenzar. Un tour por el BackOffice de la Sala de Máquinas** 
+# Para comenzar. Un tour por el BackOffice de la Sala de Máquinas
 
 La bienaventurada experiencia democrática argentina, ciertamente incompleta, todavía extraviada, incierta todavía, ha obrado de cuando en vez algunas decisiones, prácticas e instituciones formidables de las cuales toda una generación puede legítimamente sentirse orgullosa. La lista de ejemplos luminosos no es pequeña, y estoy seguro de que cualquier recuento responsable seguramente incluiría episodios ocurridos en prácticamente todos los gobiernos (todos, sí, estoy seguro de eso). 
 
@@ -31,7 +31,7 @@ En este macro, uno de los déficits más notorios, una de las cuentas pendientes
 
 Me atrevo a decir que no hay prácticamente nada, ni un solo rasgo estructural o sistémico de la infraestructura organizacional a través de la cual se diseñan y ejecutan las políticas públicas que sea realmente consistente con los principios y valores democráticos, fuera del hecho -externo a dicha estructura- de que las prioridades políticas que procesa y gestiona son democráticamente legitimadas. Invitaría desesperadamente a un debate a quien piense diferente al respecto. Ojalá me convenciera de que estoy en un error.
 
-***Nepotismo, conflictos de intereses, discriminación política, arbitrariedad decisional, opacidad informativa, bloqueo participativo, falta de idoneidad, arbitrariedad, malversación política, corporativismo, micro corrupción, imprevisibilidad, privilegios, patrimonialismo, impunidad y falta de rendición de cuentas, desprecio por la evidencia, inexistencia de indicadores de impacto y performance, precarización laboral extrema, inefectividad, falta de planificación, macro corrupción, improvisación, clientelismo, ritualismo, formalismo, captura…***podíamos seguir. 
+*Nepotismo, conflictos de intereses, discriminación política, arbitrariedad decisional, opacidad informativa, bloqueo participativo, falta de idoneidad, arbitrariedad, malversación política, corporativismo, micro corrupción, imprevisibilidad, privilegios, patrimonialismo, impunidad y falta de rendición de cuentas, desprecio por la evidencia, inexistencia de indicadores de impacto y performance, precarización laboral extrema, inefectividad, falta de planificación, macro corrupción, improvisación, clientelismo, ritualismo, formalismo, captura…* podíamos seguir. 
 
 **No se trata de fallas ocasionales, episódicas, circunscriptas o confinadas.**
 
@@ -43,7 +43,7 @@ Si les interesa saber, solo he podido encontrar una iniciativa genuina y seria a
 
 Todo lo demás (ay!) fue y es pura cháchara. A pesar de los esfuerzos de gente noble y competente que diseñó hermosos planes y proyectos de transformación que nunca lograron un cambio estructural. Solo se han implementado con fría eficacia los recurrentes planes de retiros voluntarios y terminaciones masivas de contratos precarios, que al final del día solo reemplazan una “capa geológica” de agentes por otra nueva que bien pronto comienza a tomar su lugar, y que en el futuro será removida por otra iteración de este proceso acumulativo de sinsentido. En todo caso, yo no me perdería el prometedor "**Public Administration in Argentina"** (esperado en  Enero 2027 bajo coordinación de Nelson D. Cardozo, Diego Pando, Pablo Bulcourf, por Springer). Si alguien puede encontrarle sentido a la cosa, seguramente sean ellos.
 
-**La funcionalidad de esta estructura**
+# La funcionalidad de esta estructura
 
 Este estado del BackOffice de la sala de máquinas no es una anomalía disfuncional ni un problema que nadie sabe cómo resolver. Me resulta bastante aparente la correlación entre el tipo de infraestructura institucional que se extiende en el estado argentino y el tipo de cultura pública que todavía expresan nuestras prácticas políticas, particularmente las dinámicas propias de los liderazgos políticos y económicos establecidos. 
 
@@ -53,7 +53,7 @@ En ese escenario, es esperable que “los dueños del juego” se hayan acostumb
 
 Una infraestructura radicalmente lábil para una democracia que todavía navega un poco a la deriva, en cíclica odisea de crisis políticas, sociales y económicas, aunque sin abandonar la esperanza de llegar a buen puerto. 
 
-**Dos maneras de concebir las Políticas Públicas**
+# Dos maneras de concebir las Políticas Públicas
 
 La vida cotidiana de un estado consiste en el diseño y ejecución de políticas públicas. El estado y el gobierno “existen” y “se manifiestan” a través de decisiones y acciones (u omisiones) de política pública. El estado existe cuando hace y cuando decide no hacer, dejar de hacer o dejar hacer. El estado de manifiesta en “cómo” hace y no hace. Todo esto es la vida cotidiana de las políticas públicas.
 
@@ -83,7 +83,7 @@ El Ministerio de Desarrollo Social en la década de la reconstrucción post 2001
 
 *Interesantemente, ninguna de estas perspectivas tiene razones -y por lo tanto no construyen prácticas ni métodos- para tener presente (realmente presentes) y escuchar (realmente escuchar) a los excluidos, afectados, dañados, perjudicados por las políticas públicas. En un caso, porque ellas siguen criterios técnico-científicos validados en sus propios términos, y en el otro porque la decisión política ya definió quienes son los que cuentan (y quienes no) para la política pública en cuestión.* 
 
-**Argentina 2026: El Ministro de Economía y la separación entre Políticas Públicas y Empatía**
+# Argentina 2026: El Ministro de Economía y la separación entre Políticas Públicas y Empatía
 
 Recientemente, el ministro de economía de la nación compartió públicamente unas reflexiones que a mi modo de ver expresan con mucha nitidez una concepción y un entendimiento sobre las políticas públicas que representan a una parte relevante del liderazgo económico, social y político del país. 
 
@@ -111,7 +111,7 @@ Podríamos decir que ***para esta concepción la empatía debe terminar donde em
 
 Esta es la concepción que se ha vuelto relativamente popular en el último tiempo en buena parte del liderazgo social, económico y político del país (lo ha sido por derecha y por izquierda, a no equivocarse). Los ejemplos vendrán rápido a la mente de quien lo piense un par de segundos.
 
-**¿Por qué las políticas públicas serían mejores si no están contaminadas de empatía?**
+# ¿Por qué las políticas públicas serían mejores si no están contaminadas de empatía?
 
 La reivindicación que realizara el ministro de la exclusión de la empatía en las políticas públicas podría fundarse en una perspectiva personal según la cual, la empatía no es en sí una cualidad moral valorable en las personas.  Conozco filósofos populares que piensan así, que desestiman la relevancia de la empatía como actitud o disposición moralmente valiosa a nivel personal, que consideran que el esfuerzo de tomar en consideración las perspectivas de los demás es un ejercicio fútil, o paralizante; otros que la consideran más bien una debilidad moral, que ignora que en realidad el hombre es lobo del hombre. Ciertamente estoy al tanto   de una interpretación social más o menos extendida que considera que los líderes del gobierno actual son personas sin empatía, crueles y despiadadas hacia quienes no piensan como ellas. Recuerdo también, a no equivocarse, que lo mismo se decía sobre el gobierno anterior, y sobre el que lo precedió, y sobre el que antecedió a ese.
 
@@ -123,7 +123,7 @@ El razonamiento que apoyaría esta conclusión -no lo hizo el ministro, pero es 
 
 Sebastián Guidi me recordaba un provocador artículo publicado en el tiempo previo a la pandemia y la IA, [en contra de la empatía en las políticas públicas](https://www.bostonreview.net/forum/paul-bloom-against-empathy/). Las fallas del artículo me parecen evidentes, pero tiene el mérito de contribuir a la claridad analítica -por ejemplo, distinguiendo dos “tipos” de empatía- y de presentar buenos argumentos (que es todo lo que se puede pedir!)
 
-**Una breve (e intensa) defensa de la empatía como virtud fundamental de las instituciones y políticas públicas democráticas**
+# Una breve (e intensa) defensa de la empatía como virtud fundamental de las instituciones y políticas públicas democráticas
 
 La estructura del razonamiento reseñado es idéntica a la que reivindicaba cierta perspectiva más o menos clásica acerca de la imparcialidad y neutralidad en las decisiones judiciales. 
 
