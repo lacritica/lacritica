@@ -72,6 +72,17 @@ collections:
           - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
           - { label: "Copyright", name: "copyright", widget: "string", required: false }
 
+      - label: "Tapa de la obra reseñada"
+        name: "cover"
+        widget: "list"
+        allow_add: true     # MUST be true so the button appears
+        min: 0
+        max: 1              # Still only allows ONE item
+        required: false
+        hint: "Solo para reseñas: la tapa del libro/obra. Si se deja vacío, se usa el Thumbnail como tapa"
+        fields:
+          - { label: "Image", name: "src", widget: "image" }
+
       - label: "Highlight"
         name: "highlight"
         widget: "boolean"
@@ -107,6 +118,12 @@ collections:
         max: 5       # optional: maximum value allowed
         step: 1        # optional: increment step
         required: false
+
+      - label: "Obra reseñada"
+        name: "obra_reseñada"
+        widget: "string"
+        required: false
+        hint: "Solo para reseñas: cita completa de la obra, idealmente APA (admite markdown)"
 
       - label: "Publicado originalmente en"
         name: "publicado_originalmente_en"
@@ -233,6 +250,17 @@ collections:
           - { label: "Image",    name: "src",       widget: "image" }
           - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
           - { label: "Copyright", name: "copyright", widget: "string", required: false }
+
+      - label: "Tapa de la obra reseñada"
+        name: "cover"
+        widget: "list"
+        allow_add: true     # MUST be true so the button appears
+        min: 0
+        max: 1              # Still only allows ONE item
+        required: false
+        hint: "Solo para reseñas: la tapa del libro/obra. Si se deja vacío, se usa el Thumbnail como tapa"
+        fields:
+          - { label: "Image", name: "src", widget: "image" }
 
       - label: "Exclude Thumbnail from Body"
         name: "exclude_thumbnail_from_body"
