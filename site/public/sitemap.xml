@@ -86,6 +86,9 @@
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/el-juicio-politico/</loc>
+    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -94,12 +97,6 @@
   </url><url>
     <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-08-22T20:45:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/juiciopolitico/</loc>
-    <lastmod>2026-08-22T20:45:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/derecho-serpientes/</loc>
     <lastmod>2026-08-21T00:00:00+00:00</lastmod>
@@ -130,6 +127,9 @@
   </url><url>
     <loc>http://localhost:1313/post/so%C3%B1ar-el-buen-derecho/</loc>
     <lastmod>2026-08-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-08-06T11:11:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/desalojo/</loc>
     <lastmod>2026-08-06T11:11:00-03:00</lastmod>
