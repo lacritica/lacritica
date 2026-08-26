@@ -1,5 +1,5 @@
 ---
-title: El endeudamiento es tema entre privado (pero, por favor, no me crean)
+title: El endeudamiento es tema entre privados (pero, por favor, no me crean)
 date: 2026-08-26T11:26:00.000-03:00
 slug: publico-privado
 author:
