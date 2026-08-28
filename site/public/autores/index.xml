@@ -152,7 +152,7 @@
       <link>http://localhost:1313/autores/demian-zayat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/autores/demian-zayat/</guid>
-      <description>&lt;p&gt;Profesor de &lt;em&gt;Acceso a la Justicia&lt;/em&gt; en la Facultad de Derecho de la Universidad de Buenos Aires.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Profesor de Acceso a la Justicia en la Facultad de Derecho de la Universidad de Buenos Aires. Profesor de Derecho Antidiscriminatorio en la Universidad de Palermo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Diego Pardo Álvarez</title>
@@ -183,11 +183,25 @@
       <description>&lt;p&gt;Abogado (UNC) Doctor en Derecho y Ciencias Sociales (UNC). Profesor Adjunto Regular Derecho Constitucional (FADECS-UNCo).&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Fermín Randon Salgado</title>
+      <link>http://localhost:1313/autores/fermin-randon-salgado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/fermin-randon-salgado/</guid>
+      <description>&lt;p&gt;Prosecretario a cargo de la Secretaría de Seguridad Social, Juzgado Federal de Río Grande. Profesor titular de Filosofía del Derecho (UCES Río Grande). Especialista en Justicia Constitucional y Derechos Humanos (Università di Bologna). Maestrando en Magistratura y Derecho Judicial (Universidad Austral).&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Fernando Gauna Alsina</title>
       <link>http://localhost:1313/autores/fernando-gauna-alsina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/autores/fernando-gauna-alsina/</guid>
       <description>&lt;p&gt;Abogado, Universidad de Palermo. Magister en sociología jurídico-penal, Universidad de Barcelona. Magister en criminología y doctorando en estudios sociales, Universidad Nacional del Litoral. Integrante del Área de sociología de la justicia penal del Instituto de Cultura Jurídica, Universidad Nacional de La Plata.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gabriel Ignacio Anitúa</title>
+      <link>http://localhost:1313/autores/gabriel-ignacio-anitua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/autores/gabriel-ignacio-anitua/</guid>
+      <description>&lt;p&gt;Doctor en Derecho (U Barcelona, 2003), Master en Sociología Jurídica, Abogado y Sociólogo (UBA). Investigador independiente Conicet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Georgina Amaro Piccinini</title>

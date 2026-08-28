@@ -12,7 +12,7 @@ author:
   - Laura Eberhardt
 thumbnail:
   - src: https://acdn-us.mitiendanube.com/stores/001/617/839/products/978-631-323-113-3_de-rosas-a-milei_eberhardt_welp_tapa-120be2df5d4d96b85217837006983040-640-0.webp
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---

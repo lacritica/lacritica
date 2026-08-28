@@ -74,28 +74,40 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/categorias-sospechosas-ley-tierras/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/elites-y-responsabilidad-criminal/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/de-amos-y-esclavos/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-08-26T11:26:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/publico-privado/</loc>
+    <lastmod>2026-08-26T11:26:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/categorias-sospechosas-ley-tierras/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/ceuta-y-el-derecho-identitario/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/el-juicio-politico/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-08-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/derecho-serpientes/</loc>
@@ -127,9 +139,6 @@
   </url><url>
     <loc>http://localhost:1313/post/so%C3%B1ar-el-buen-derecho/</loc>
     <lastmod>2026-08-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-08-06T11:11:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/desalojo/</loc>
     <lastmod>2026-08-06T11:11:00-03:00</lastmod>
@@ -833,7 +842,11 @@
   </url><url>
     <loc>http://localhost:1313/autores/adrian-federico-ambroggio/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/fermin-randon-salgado/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/fernando-gauna-alsina/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/gabriel-ignacio-anitua/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/georgina-amaro-piccinini/</loc>
   </url><url>

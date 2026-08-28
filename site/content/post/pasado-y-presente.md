@@ -11,7 +11,7 @@ thumbnail:
   - src: '/img/oax37.jpg'
 cover:
   - src: '/img/chetham.webp'
-highlight: true
+highlight: false
 obra_reseñada: Alejandro Chethman, Alexandra Huneeus y Sergio Puig, *Derecho internacional latinoamericano en el siglo XXI*, Siglo Veintiuno Editores Argentina (2026).
 highlight2: false
 exclude_thumbnail_from_body: true

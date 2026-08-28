@@ -9,7 +9,7 @@ author:
   - Roberto Lara Chagoyán
 thumbnail:
   - src: /img/elgio.webp
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 publicado_originalmente_en: Nexos, [4 de agosto de

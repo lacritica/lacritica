@@ -12,7 +12,7 @@ thumbnail:
 cover:
   - src: '/img/courtis.jpg'
 obra_reseñada: "Courtis, Cristian, '¿No hay derecho? Aportes críticos para garantizar la protección de los derechos sociales', Buenos Aires: Editorial Siglo XXI, 2026." 
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

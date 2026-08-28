@@ -9,7 +9,7 @@ author:
   - Roberto Gargarella
 thumbnail:
   - src: /img/7066cbca-f59a-4f59-90d8-69902722102b_1_105_c.jpeg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 callouts:

@@ -9,7 +9,7 @@ author:
   - Demián Zayat
 thumbnail:
   - src: '/img/oax76.jpg'
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
 callouts: 
