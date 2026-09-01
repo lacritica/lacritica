@@ -36,7 +36,26 @@
       {{ end }}
     {{ end }}
 
-    {{ if $quotes }}
+    {{/* Any image dropped into content/tiles/ rides along with the quotes as a
+         slide of its own. A caption (also used as the alt text) can be given
+         per file in the section's front matter under `photos`, keyed by file
+         name; without one the photo falls back to a generic alt. */}}
+    {{ $captions := $section.Params.photos | default dict }}
+    {{ $photos := slice }}
+    {{ range sort ($section.Resources.ByType "image") "Name" }}
+      {{ $img := . }}
+      {{ if gt $img.Width 1400 }}
+        {{ $img = $img.Resize "1400x q82" }}
+      {{ end }}
+      {{ $caption := index $captions .Name | default "" }}
+      {{ $photos = $photos | append (dict
+          "src" $img.RelPermalink
+          "w" $img.Width
+          "h" $img.Height
+          "c" $caption) }}
+    {{ end }}
+
+    {{ if or $quotes $photos }}
       <div class="tiles">
         <div class="tiles-inner">
 
@@ -62,7 +81,7 @@
 
           <p class="tiles-counter" id="tiles-counter" aria-live="polite"></p>
 
-          <script type="application/json" id="tiles-data">{{ $quotes | jsonify | replaceRE "</" "<\\/" | safeJS }}</script>
+          <script type="application/json" id="tiles-data">{{ (dict "quotes" $quotes "photos" $photos) | jsonify | replaceRE "</" "<\\/" | safeJS }}</script>
         </div>
       </div>
 
@@ -73,8 +92,10 @@
         const dataEl = document.getElementById("tiles-data");
         if (!slider || !track || !dataEl) return;
 
-        const QUOTES = JSON.parse(dataEl.textContent);
-        if (!QUOTES.length) return;
+        const DATA = JSON.parse(dataEl.textContent);
+        const RAW_QUOTES = DATA.quotes || [];
+        const RAW_PHOTOS = DATA.photos || [];
+        if (!RAW_QUOTES.length && !RAW_PHOTOS.length) return;
 
         const MORE_LABEL = "Ver más";
         const LESS_LABEL = "Ver menos";
@@ -98,18 +119,41 @@
         const nextBtn = document.getElementById("tiles-next");
         const counter = document.getElementById("tiles-counter");
 
+        const shuffle = (arr) => {
+          for (let i = arr.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+          }
+          return arr;
+        };
+
         // Shuffle once so the slider doesn't always open on the same person.
-        const order = QUOTES.map((_, i) => i);
-        for (let i = order.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [order[i], order[j]] = [order[j], order[i]];
+        const quotes = shuffle(RAW_QUOTES.map((q) => ({ type: "quote", data: q })));
+        const photos = shuffle(RAW_PHOTOS.map((p) => ({ type: "photo", data: p })));
+
+        // Photos ride between the quotes, never side by side: each one takes a
+        // gap of its own, drawn without replacement from the gaps that follow
+        // each quote. The gap after the last quote is the wrap back to the
+        // first slide, so the loop can't butt two photos together either.
+        const order = [];
+        if (!quotes.length) {
+          order.push(...photos);
+        } else {
+          const gaps = shuffle(quotes.map((_, i) => i)).slice(0, photos.length);
+          const at = new Map(gaps.map((gap, k) => [gap, photos[k]]));
+          quotes.forEach((q, i) => {
+            order.push(q);
+            if (at.has(i)) order.push(at.get(i));
+          });
+          // Only reachable when photos outnumber quotes, where some pair of
+          // photos has to end up adjacent whatever we do.
+          if (photos.length > quotes.length) order.push(...photos.slice(quotes.length));
         }
 
         const total = order.length;
         const loops = total > 1;
 
-        const slide = (quoteIndex, isClone) => {
-          const item = QUOTES[quoteIndex];
+        const slide = (item, isClone) => {
           const el = document.createElement("article");
           el.className = "tiles-slide";
           if (isClone) el.setAttribute("aria-hidden", "true");
@@ -117,19 +161,54 @@
           const inner = document.createElement("div");
           inner.className = "tiles-slide-inner";
 
-          const full = item.q;
+          if (item.type === "photo") {
+            const photo = item.data;
+            const figure = document.createElement("figure");
+            figure.className = "tiles-figure";
+
+            const img = document.createElement("img");
+            img.className = "tiles-photo";
+            img.src = photo.src;
+            // The intrinsic size is declared so the slide reserves its final
+            // height before the file lands and the viewport isn't measured
+            // against a zero-height image.
+            if (photo.w) img.width = photo.w;
+            if (photo.h) img.height = photo.h;
+            img.alt = photo.c || "Fotografía del homenaje";
+            // Eager: the slide is off-screen inside the track, so a lazy
+            // image only starts fetching as it slides in and the reader gets a
+            // beat of empty slide first.
+            img.loading = "eager";
+            img.decoding = "async";
+            img.addEventListener("load", () => sizeViewport());
+            figure.appendChild(img);
+
+            if (photo.c) {
+              const caption = document.createElement("figcaption");
+              caption.className = "tiles-caption";
+              caption.textContent = photo.c;
+              figure.appendChild(caption);
+            }
+
+            inner.appendChild(figure);
+            el.appendChild(inner);
+            return el;
+          }
+
+          const quote = item.data;
+          const full = quote.q;
           const long = full.length > CLAMP_OVER;
           const short = long ? clip(full) : full;
 
-          const quote = document.createElement("blockquote");
-          quote.className = "tiles-quote";
-          quote.textContent = short;
+          const body = document.createElement("blockquote");
+          body.className = "tiles-quote";
+          body.textContent = short;
 
           const name = document.createElement("p");
           name.className = "tiles-name";
-          name.textContent = item.n;
+          name.textContent = quote.n;
 
-          inner.appendChild(quote);
+          inner.appendChild(body);
 
           if (long) {
             let open = false;
@@ -142,7 +221,7 @@
             if (isClone) more.tabIndex = -1;   // the clone is aria-hidden
 
             const render = () => {
-              quote.textContent = open ? full : short;
+              body.textContent = open ? full : short;
               more.textContent = open ? LESS_LABEL : MORE_LABEL;
               more.setAttribute("aria-expanded", String(open));
             };
@@ -165,7 +244,7 @@
         // A clone of the last slide before the first, and of the first after
         // the last: stepping onto a clone then snapping to its twin without a
         // transition is what makes the wrap-around look continuous.
-        const built = order.map((q) => slide(q, false));
+        const built = order.map((item) => slide(item, false));
         if (loops) {
           track.appendChild(slide(order[total - 1], true));
           built.forEach((el) => track.appendChild(el));
