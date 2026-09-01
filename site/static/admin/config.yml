@@ -426,3 +426,26 @@ collections:
         required: false
 
       - { label: "Body", name: "body", widget: "markdown" }
+
+
+  # -------------------------
+  # TILES - encendido/apagado y título de la sección
+  # -------------------------
+  - name: "tiles_settings"
+    label: "Tiles (configuración)"
+    files:
+      - name: "tiles_index"
+        label: "Sección Tiles"
+        file: "site/content/tiles/_index.md"
+        fields:
+          - label: "Mostrar en la home"
+            name: "show"
+            widget: "boolean"
+            default: true
+
+          - { label: "Título de la sección", name: "title", widget: "string", required: false }
+
+          - label: "Bajada"
+            name: "description"
+            widget: "string"
+            required: false

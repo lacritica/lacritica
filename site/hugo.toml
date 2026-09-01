@@ -13,3 +13,13 @@ theme = "hugo-xmag"
 images = ["img/batalla1.jpeg"]
 description = "La Crítica del Derecho"
 social_image = "/img/batalla1.jpeg"
+
+# The tiles section is only an on/off switch for the home band, not a page.
+# Keep it out of the published site.
+[[cascade]]
+  [cascade.build]
+    render = 'never'
+    list = 'local'
+    publishResources = false
+  [cascade._target]
+    path = '/tiles'

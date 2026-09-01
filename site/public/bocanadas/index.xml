@@ -2,283 +2,290 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bocanadas on La Crítica</title>
-    <link>http://localhost:1313/bocanadas/</link>
+    <link>https://www.lacritica.ar/bocanadas/</link>
     <description>Recent content in Bocanadas on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 26 Aug 2026 11:26:00 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/bocanadas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Aug 2026 14:46:00 -0300</lastBuildDate>
+    <atom:link href="https://www.lacritica.ar/bocanadas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El libro total de Carlos Nino</title>
+      <link>https://www.lacritica.ar/bocanadas/nino/</link>
+      <pubDate>Sat, 29 Aug 2026 14:46:00 -0300</pubDate>
+      <guid>https://www.lacritica.ar/bocanadas/nino/</guid>
+      <description>&lt;p&gt;El 29 de Agosto de 1993 falleció Carlos Nino, seguramente uno de los manantiales de las mejores ideas sobre el derecho, los derechos y la democracia que dio la lengua castellana.&lt;/p&gt;&#xA;&lt;p&gt;Una buena parte de esas ideas brotan de -y se condensan en- su monumental &lt;strong&gt;Ética y Derechos Humanos&lt;/strong&gt;. Un libro fecundo y provocador, atrevido y valiente, demandante y complejo.&lt;/p&gt;&#xA;&lt;p&gt;Hace unos meses el Centro de Derechos Humanos de la UBA me invitó a conversar sobre el libro, sobre Nino y sobre nosotrxs para su podcast.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>El endeudamiento es tema entre privados (pero, por favor, no me crean)</title>
-      <link>http://localhost:1313/bocanadas/publico-privado/</link>
+      <link>https://www.lacritica.ar/bocanadas/publico-privado/</link>
       <pubDate>Wed, 26 Aug 2026 11:26:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/publico-privado/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/publico-privado/</guid>
       <description>&lt;p&gt;1er acto: El gobierno afirma, proclama, insiste: el endeudamiento de las personas con los bancos es una cuestión entre privados (no es un asunto de políticas públicas)&lt;/p&gt;&#xA;&lt;p&gt;2do acto: El gobierno dicta, solo unos días despúes, un DNU (o sea, una ley! o sea una regulación de política pública) en la que ajusta las reglas sobre quién puede o no acceder a un endeudamiento en dólares, y para qué actividades.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Que cambiaría en Argentina con la nueva regulación de desalojos? (spoiler: prácticamente nada)</title>
-      <link>http://localhost:1313/bocanadas/desalojo/</link>
+      <link>https://www.lacritica.ar/bocanadas/desalojo/</link>
       <pubDate>Thu, 06 Aug 2026 11:11:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/desalojo/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/desalojo/</guid>
       <description>&lt;p&gt;El Senado se aprestaría a tratar hoy una ley -pomposamente- llamada &amp;ldquo;ley de involabilidad de la propiedad&amp;rdquo;. Como casi siempre desde hace varios años ya, la inflacionaria declamación retórica-simbólica de las propuestas legislativas es inversamente proporcional a su alcance material-concreto. Desde Colombia, seguramente Mauricio García Villegas sonrieiría al recordar su trabajo sobre la hipertrofia de la eficacia simbólica ante la ineficacia material del derecho en nuestros países.&lt;/p&gt;&#xA;&lt;p&gt;Lo cierto es que la narrativa general sobre esta ley identifica que una de las modificaciones más relevantes que introduciría sería el cambio en el régimen legal de los desalojos de inmuebles, tendientes a hacerlos más rápidos y efectivos (para proteger la propiedad de sus titulares registrales), con &amp;ldquo;modalidades express&amp;rdquo; para algunos casos, etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El país más racista del mundo</title>
-      <link>http://localhost:1313/bocanadas/pais-racista/</link>
+      <link>https://www.lacritica.ar/bocanadas/pais-racista/</link>
       <pubDate>Wed, 22 Jul 2026 20:28:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/pais-racista/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/pais-racista/</guid>
       <description>&lt;p&gt;Una conciencia nueva recorre el planeta. No lo sabíamos pero ahora sí: el saber progresa incontenible. En estos días he escuchado y leído varias veces que la Argentina es “el país más racista del mundo”. Es cierto que, según dicen esos mismos, queremos ganar todo y no sabemos perder: quizá nos ofrecen este primer lugar para compensar nuestras derrotas futboleras. En cualquier caso la noción es brutal y me dio ganas de contarles cómo es el racismo en la Argentina para que ustedes juzguen. A veces, muy de tanto en tanto, conocer los hechos puede ser una ayuda.&lt;/p&gt;</description>
     </item>
     <item>
       <title>No lloremos porque terminó, alegrémonos porque sucedió</title>
-      <link>http://localhost:1313/bocanadas/scaloneta/</link>
+      <link>https://www.lacritica.ar/bocanadas/scaloneta/</link>
       <pubDate>Sun, 19 Jul 2026 23:48:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/scaloneta/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/scaloneta/</guid>
       <description>&lt;p&gt;&lt;strong&gt;1.&lt;/strong&gt;  Qué ganas de que exista un CRTL+Z y vuelva el tiempo atrás y volvamos al principio del ultimo cuarto del partido: tantas veces pudimos sacar un conejo de la galera, por qué no había uno más. Decíamos en la redacción al promediar el segundo tiempo: esto es cuando en &lt;em&gt;Infinity War&lt;/em&gt;. Doctor Strange dice que ha viajado en el tiempo para ver futuros alternativos. — Dígame Doctor, en cuántos de ellos estaremos ganando este partido? — He visto 150 escenarios, y ganamos en uno. Y era suficiente para nosotros, “elijo creer”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El desvelo de Borges </title>
-      <link>http://localhost:1313/bocanadas/borges-laberinto/</link>
+      <link>https://www.lacritica.ar/bocanadas/borges-laberinto/</link>
       <pubDate>Sun, 12 Jul 2026 14:57:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/borges-laberinto/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/borges-laberinto/</guid>
       <description>&lt;p&gt;De alguna manera, siempre estuvo ahí. Acaso esperando impaciente, tal vez sumido en parsimonia. Largas décadas esperando, Borges, para ver al fin revelada la clave secreta de su desvelo.&lt;/p&gt;&#xA;&lt;p&gt;Ese terror del que no se habla, lo que no puede ser dicho sin que todo orden, e incluso la más ínfima esperanza de orden, quede extraviada sin remedio.&lt;/p&gt;&#xA;&lt;p&gt;Sólo Borges lo intuía, acaso sin comprenderlo del todo, seguro sin pronunciarlo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sobre el mundial y las reglas del juego: la posición de la cátedra</title>
-      <link>http://localhost:1313/bocanadas/mundial-la-catedra/</link>
+      <link>https://www.lacritica.ar/bocanadas/mundial-la-catedra/</link>
       <pubDate>Thu, 25 Jun 2026 16:20:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/mundial-la-catedra/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/mundial-la-catedra/</guid>
       <description>&lt;p&gt;En lo que sigue -esta expresión viene del turf- consideraremos “&lt;em&gt;la cátedra&lt;/em&gt;” al consenso extendido o mayoritario entre plateístas y tribuneros que están empapados del conocimiento profundo y decantado del juego, esto es decir, no hinchas del mundial ni arlequines entusiastas. Así, por ejemplo, la cátedra decía que Much Better iba a ganar el Gran Premio Latinoamericano de 1993, y ganó Much Better, lo que no siempre sucede, si no La Cátedra sería millonaria. &lt;/p&gt;</description>
     </item>
     <item>
       <title>Indio ∞ — cuatro luminoles ricoteros sobre la ley y el derecho</title>
-      <link>http://localhost:1313/bocanadas/indio/</link>
+      <link>https://www.lacritica.ar/bocanadas/indio/</link>
       <pubDate>Sat, 06 Jun 2026 17:08:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/indio/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/indio/</guid>
       <description>&lt;p&gt;&lt;strong&gt;&amp;ldquo;Si esta cárcel sigue así, todo preso es político.&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;¿Qué preso no lo es? Toda carcel (y todo castigo, pero también todo premio) es una decisión que hemos tomado entre todos, o que toleramos, o que padecemos pero alguien tomó. El luminol no produce la evidencia: la revela, y hace visibles rastros que estaban allí, ocultos a simple vista. En el universo lírico de Patricio Rey y del Indio Solari (y que es todo nuestro), más allá de las torsiones y retorsiones del lenguaje, de su semiosis ∞ y lo que ello implica para quienes hacemos cosas con palabras, aparecen huellas persistentes que iluminan problemas muy concretos de la ley, el derecho, el poder y la libertad. Diremos aleatorios cuatro, por ejemplo, que pueden aparecer bajo la luz de un farol ricotero.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Por qué una defensa de lo &#34;woke&#34; </title>
-      <link>http://localhost:1313/bocanadas/en-defensa-de-lo-woke/</link>
+      <link>https://www.lacritica.ar/bocanadas/en-defensa-de-lo-woke/</link>
       <pubDate>Tue, 26 May 2026 00:13:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/en-defensa-de-lo-woke/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/en-defensa-de-lo-woke/</guid>
       <description>&lt;p&gt;¿Cómo se inventa un derecho, o siempre estuvo ahí y nunca lo vimos? Acaso todos los derechos tienen su pedigrí no en valores etéreos, dogmáticos, naturales o sobre-naturales, sino en un mecanismo valvular que opera literalmente “&lt;em&gt;sobre todo”&lt;/em&gt;: ser resistencia contra la opresión. Partiendo de esa idea de Olympe De Gouges leemos esta pieza esclarecedora de &lt;strong&gt;Luis Lloredo Alix&lt;/strong&gt; en IberICONNect &lt;strong&gt;&lt;a href=&#34;https://www.ibericonnect.blog/2026/05/en-defensa-de-lo-woke-los-derechos-como-resistencia-a-la-opresion/&#34;&gt;“En defensa de lo «woke»&lt;/a&gt;”&lt;/strong&gt;. Esa defensa está edificada en que, mal que les pese a los burlones (“esa cruzada antiwoke que algunos presuntos &lt;em&gt;enfants terribles&lt;/em&gt; se han marcado como horizonte político o intelectual“), de a poco nos fuimos dando cuenta de cosas que no estaban bien en el &lt;em&gt;business as usual&lt;/em&gt; y que naturalizamos, y tuvimos que encontrar palabras para nombrarlas. El artículo hace un veloz inventario pulcro y preciso de lo que vamos desvelando, y &lt;em&gt;manifiesta&lt;/em&gt;: “Rechazar lo &lt;em&gt;woke&lt;/em&gt; bajo el pretexto de que incurre en una mirada histérica de la realidad, hacer mofa de quienes tratamos de tematizar formas de violencia que siguen ocultas o carecen de la atención necesaria, es sencillamente ruin”. Firmamos al pie, leed a Luis Lloredo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El texto hace la ley</title>
-      <link>http://localhost:1313/bocanadas/el-texto-hace-la-ley/</link>
+      <link>https://www.lacritica.ar/bocanadas/el-texto-hace-la-ley/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/el-texto-hace-la-ley/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/el-texto-hace-la-ley/</guid>
       <description>&lt;p&gt;Paseando por ahí hace algunos días en Barcelona, de visita a la UPF, me crucé en una exposición sobre la política de Jean-Luc Godard en su cine con esta frase del cineasta que vuelve en más de un sentido a una vieja premisa de nuestro campo, sobre la que siempre hay volver (en parte por las razones que el propio Godard sugiere).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Carta a la Corte</title>
-      <link>http://localhost:1313/bocanadas/carta-a-la-corte/</link>
+      <link>https://www.lacritica.ar/bocanadas/carta-a-la-corte/</link>
       <pubDate>Sun, 26 Apr 2026 14:53:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/carta-a-la-corte/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/carta-a-la-corte/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La universidad pública argentina representa, para millones de personas, la posibilidad concreta de acceder a la educación universitaria, muchas veces siendo las primeras generaciones de sus familias en poder hacerlo. Allí se forman profesionales que sostienen áreas esenciales para la vida colectiva —como la salud, la justicia, la ciencia y la educación— y se produce conocimiento indispensable para el desarrollo social, científico y cultural del país&amp;rdquo;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Amnistía Internacional Argentina está circulando esta carta para que la Corte Suprema no se haga la zonza con la Ley de Financiamiento Universitario. Instituciones e individuos pueden adherir &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdnAxkPeAW5xXRf52fzYRym2i3fYikU3_9eKjvGStbloPhyQw/viewform&#34;&gt;aquí&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grândola, Vila Morena </title>
-      <link>http://localhost:1313/bocanadas/revoluciondelosclaveles/</link>
+      <link>https://www.lacritica.ar/bocanadas/revoluciondelosclaveles/</link>
       <pubDate>Sun, 26 Apr 2026 14:53:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/revoluciondelosclaveles/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/revoluciondelosclaveles/</guid>
       <description>&lt;p&gt;Esta semana volvió a festejarse, en Portugal, el aniversario de la “Revolución delos claveles.” El 25 de abril, más precisamente, se recordó a la insurrección armada que puso fin a décadas del &lt;em&gt;Estado Novo,&lt;/em&gt; y de dictadura salazarista.Aquel levantamiento de abril quedó marcado, principalmente, por dos hechos singulares.Por un lado, por su carácter pacífico, expresado en los claveles rojos que losciudadanos se encargaron de colocar en los cañones de los fusiles y en los uniformesde los soldados que se habían rebelado. Por otro lado, por una canción, “Grândola,Vila Morena”, compuesta por un extraordinario cantautor vinculado al PartidoComunista Portugués (PCP), José Afonso (vale la pena escucharlo, en su vozvibrante de emoción). La historia es que la canción (que Afonso había compuestopara homenajear al espíritu revolucionario de la comunidad de Grândola, en Alentejo) operó como contraseña, en la madrugada del 25: que sonara en la RádioRenascença iba a significar que la revolución se ponía en marcha. Las armas,entonces, iban a transformarse en flores, y la dureza de la dictadura en unaapuesta por la fraternidad: el pueblo, y no el ejército -decía la canción- era el que iba a quedarse a cargo del establecimiento del orden.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La cautelosa alegría de Sándor Márai</title>
-      <link>http://localhost:1313/bocanadas/hungria-elecciones/</link>
+      <link>https://www.lacritica.ar/bocanadas/hungria-elecciones/</link>
       <pubDate>Sun, 12 Apr 2026 23:16:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/hungria-elecciones/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/hungria-elecciones/</guid>
       <description>&lt;p&gt;La elección del título para este artículo busca anudar la derrota de Viktor Órban en las elecciones de hoy, con la historia húngara narrada por uno de sus más brillantes escépticos a través de novelas entrañables. Es que la historia de Hungría en el último siglo (y también antes, pero no llegaré allí) está atravesada por elecciones que se revelan equivocadas, por alineamientos con potencias siniestras, por el metódico ejercicio de la crueldad estatal. Márai lo describió como nadie en &lt;em&gt;Lo que no quise decir&lt;/em&gt;, pero también en novelas como &lt;em&gt;Liberación&lt;/em&gt;: el poder ubicuo avasallando la dignidad humana una y otra vez, al amparo de ideologías contradictorias pero con el mismo desprecio por la libertad y la dignidad humana. Es por eso que la derrota de Órban es (parece ser) uno de esos puntos de quiebre en la historia del país, y acaso el umbral de un cambio de época. Pero vamos al principio.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Libros y documentos sobre la última dictadura argentina</title>
-      <link>http://localhost:1313/bocanadas/bibliografia-dictadura/</link>
+      <link>https://www.lacritica.ar/bocanadas/bibliografia-dictadura/</link>
       <pubDate>Tue, 24 Mar 2026 16:20:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/bibliografia-dictadura/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/bibliografia-dictadura/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Una lista incompleta con libros, informes, bonus tracks sobre la dictadura, sus crímenes, y sus procesos.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;el-documento-ineludible&#34;&gt;El Documento ineludible&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;Nunca Más&lt;/em&gt; — CONADEP&lt;/strong&gt;&#xA;&lt;em&gt;1984 · Editorial EUDEBA · Prólogo original de Ernesto Sábato - &lt;a href=&#34;https://es.wikipedia.org/wiki/Nunca_m%C3%A1s_(libro)&#34;&gt;Link a wikipedia&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;El informe de la Comisión Nacional sobre la Desaparición de Personas (CONADEP)entregado al presidente Alfonsín el 20 de septiembre de 1984 y publicado como libro por EUDEBA en noviembre. Documenta 340 centros clandestinos de detención y 8.960 desaparecidos. La primera edición de 40.000 ejemplares se agotó en 48 horas. Es la piedra fundacional de la memoria argentina: la prueba documental que hizo posible el Juicio a las Juntas y que demostró que el exterminio fue un plan sistemático del Estado, no una serie de &amp;ldquo;excesos&amp;rdquo;. Dos tomos separados del informe contienen la lista de víctimas de la dictadura (la última versión actualizada, &lt;a href=&#34;https://eudeba.com.ar/productos/anexo-del-nunca-mas-2-tomos/&#34;&gt;los dos tomos anexos de 2006&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alguien lo tenía que decir, y Binder lo dijo</title>
-      <link>http://localhost:1313/bocanadas/binder-justa/</link>
+      <link>https://www.lacritica.ar/bocanadas/binder-justa/</link>
       <pubDate>Thu, 19 Mar 2026 17:51:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/binder-justa/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/binder-justa/</guid>
       <description>&lt;p&gt;El Poder Judicial argentino atraviesa una crisis que ya no puede describirse en los términos de siempre. No se trata simplemente de lentitud, de falta de recursos o de designaciones politizadas: se trata de algo más grave y más difícil de revertir.&lt;/p&gt;&#xA;&lt;p&gt;Como advierte &lt;a href=&#34;https://justa.acij.org.ar/articulos/alberto-binder-analiza-la-coyuntura-y-las-perspectivas-de-la-justicia&#34;&gt;Alberto Binder en esta entrevista,&lt;/a&gt; lo que está en juego es la cooptación mafiosa del sistema judicial, un fenómeno que no reconoce fronteras ideológicas ni geográficas y que avanza con una velocidad y una impunidad que desafían las herramientas que teníamos para combatirlo.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Susana Cayuso y la jurisprudencia</title>
-      <link>http://localhost:1313/bocanadas/cayuso/</link>
+      <link>https://www.lacritica.ar/bocanadas/cayuso/</link>
       <pubDate>Mon, 09 Mar 2026 18:28:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/cayuso/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/cayuso/</guid>
       <description>&lt;p&gt;Ha fallecido hoy Susana Cayuso.&lt;/p&gt;&#xA;&lt;p&gt;Casi todos recordamos esa delantera de Miller - Cayuso - Gelli, sus cuatro tomos de &amp;ldquo;casebooks&amp;rdquo; a la americana pero &lt;em&gt;impregnados de realidad argentina&lt;/em&gt; (&lt;strong&gt;&amp;ldquo;Constitución y poder político&amp;rdquo;, &amp;ldquo;Constitución y Derechos Humanos&amp;rdquo;&lt;/strong&gt;) con preguntas fáicticas y contrafácticas que ponían el derecho del derecho y del revés, una atracción samba de parque de diversiones pero también una prueba de resistencia para desfosilizar el derecho y sacarlo de las cajas de petri, echar su esencia al mundo natural y ver que había de noble y de insensato.  Dice nuestra Mariela Puga en el chat: &amp;ldquo;en tiempos en donde los señores se sentaban en su olivietti y te decían que el derecho constitucional era lo que les venía como inspiración.. estos laburaron con un plan pedagógico y un concepto. En contexto, unas y un capo.&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CUANDO CINE Y MÚSICA SE ENCUENTRAN: UN REGALITO del CÍCLOPE</title>
-      <link>http://localhost:1313/bocanadas/ciclope/</link>
+      <link>https://www.lacritica.ar/bocanadas/ciclope/</link>
       <pubDate>Mon, 02 Mar 2026 02:03:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/ciclope/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/ciclope/</guid>
       <description>&lt;p&gt;De vez en cuando, las artes se entrecruzan y crean maravillas multidimensionales.&lt;/p&gt;&#xA;&lt;p&gt;Así ocurre en este crossover entre música y cine, de la mano de &lt;em&gt;&lt;strong&gt;Cíclope&lt;/strong&gt;&lt;/em&gt; (banda alternativa emergente que estrena su primer EP) y &lt;em&gt;&lt;strong&gt;María Laura Berch&lt;/strong&gt;&lt;/em&gt; (directora de “La Noche sin mí”, coach actoral y directora de casting N° 1 del país).&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://youtu.be/GRU1cpDwAkw?si=xM8dZUYWWdXHG3jc&#34;&gt;Un hermoso corto de 10 minutos, una road movie indie que recorre tres hermosas canciones.  &lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;En tiempos de imitación, inercia y multiplicación algorítmica hasta el hartazgo, de jugar a lo seguro, de que la moneda de cambio se mida en analytics de engagement, damos la bienvenida, disfrutamos, agradecemos y celebramos la originalidad, la búsqueda abierta, la maravilla del arte; el puro e inocente arte que no tiene más pretensiones que construir experiencias de belleza en este mundo atroz.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Robert Post y la libertad académica</title>
-      <link>http://localhost:1313/bocanadas/robert-post-y-la-libertad-academica/</link>
+      <link>https://www.lacritica.ar/bocanadas/robert-post-y-la-libertad-academica/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/robert-post-y-la-libertad-academica/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/robert-post-y-la-libertad-academica/</guid>
       <description>&lt;p&gt;Comparto un &lt;a href=&#34;https://open.spotify.com/episode/6VbKFavXZMiwU9F4kXXogc?si=PNnSt7HeT1eoP-02r_-6jQ&amp;amp;nd=1&amp;amp;dlsi=421450c183474f19&#34;&gt;link&lt;/a&gt; a un episodio del podcast del Centro de Derechos Humanos de la Facultad de Derecho de la Unviersidad de Buenos Aires. Allí conversé con Andrea Schuster sobre un libro fundamental en materia de libertad de expresión: el de Robert Post sobre &lt;em&gt;expertise&lt;/em&gt; y libertad académica. Hablamos de todo y contra varios. Discutimos los dos principios que resguarda la libertad de expresión según Post &amp;mdash; la legitimidad democrática, basada en la participación; pero también la &lt;em&gt;competencia&lt;/em&gt; democrática, es decir, la existencia de información que permita tomar decisiones. Hablamos de la catástrofe de la libertad académica en Estados Unidos y de los contrastes con la distinta, pero no excesivamente mejor, situación en la Argentina, que parece más por vía de recortes y vaciamiento que por injerencias indebidas de oficiales públicos. En todo caso, allí el link. Vean, también, episodios previos, con grandes amigos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Formulario de disculpas a John Rawls</title>
-      <link>http://localhost:1313/bocanadas/perdon-rawls/</link>
+      <link>https://www.lacritica.ar/bocanadas/perdon-rawls/</link>
       <pubDate>Sun, 22 Feb 2026 19:16:00 -0300</pubDate>
-      <guid>http://localhost:1313/bocanadas/perdon-rawls/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/perdon-rawls/</guid>
       <description>&lt;p&gt;Ayer fue el aniversario del nacimiento de John Rawls (21 de febrero de 1921, Baltimore, EE.UU. - 24 de noviembre de 2002, Lexington, Massachusetts, EE.UU,) y en la ancha y honda web vimos circular esto.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Para:&lt;/strong&gt; John Rawls&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;De:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fecha:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Motivo de mi comportamiento:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;☐ Los medios me convencieron de que Nozick estaba a su altura&lt;/p&gt;&#xA;&lt;p&gt;☐ No apliqué el velo de ignorancia&lt;/p&gt;&#xA;&lt;p&gt;☐ Malinterpreté el principio de diferencia&lt;/p&gt;&#xA;&lt;p&gt;☐ No sé nada sobre filosofía moral&lt;/p&gt;</description>
     </item>
     <item>
       <title>Martin Luther King y &#34;la comunidad amada&#34;</title>
-      <link>http://localhost:1313/bocanadas/martin-luther-king/</link>
+      <link>https://www.lacritica.ar/bocanadas/martin-luther-king/</link>
       <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/martin-luther-king/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/martin-luther-king/</guid>
       <description>&lt;p&gt;El principio más importante que recorre las intervenciones más importantes de Martin Luther King, tanto como pastor, doctrinario, o activista, es el de la &amp;ldquo;beloved community&amp;rdquo;: la comunidad amada (o, diría yo, la comunidad amorosa). La idea aparece en muchas de sus presentaciones más conocidas. La primera vez, se la encuentra en un escrito hecho por él, muy joven, en diciembre de 1956. Dichas páginas vinieron a acompañar sus tempranas disputas por la igualdad racial: el boicot a los autobuses que siguiera a la tranquila rebelión de Rosa Parks cuando ella, simplemente, se quedó sentada en el asiento reservado para los blancos. Entonces, encontrándose en Montgomery (Alabama) como Ministro, King sostuvo que el fin de toda la lucha era la &amp;ldquo;redención y la reconciliación…la creación de una comunidad amada&amp;rdquo;. Poco después, en 1957, en un discurso titulado &amp;ldquo;Birth of a New Nation&amp;rdquo;, King volvió a referirse al ideal de la &amp;ldquo;beloved community&amp;rdquo;, sosteniendo que lo que seguía a la no-violencia era &amp;ldquo;la redención&amp;rdquo;, mientras que lo que seguía a la violencia, era &amp;ldquo;el vacío y la amargura&amp;rdquo;. En otro escrito, de 1966 -&amp;ldquo;Non violence. The only road to freedom&amp;rdquo;- en donde defendió la resistencia no-violenta, King sostuvo la &amp;ldquo;negativa a odiar y matar&amp;rdquo;, para terminar con &amp;ldquo;la cadena de la violencia&amp;rdquo;, y propuso una vez más, como objetivo, el de &amp;ldquo;crear una comunidad amada,&amp;rdquo; en donde poder &amp;ldquo;vivir sin miedo&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Justicia para Joni Mitchell</title>
-      <link>http://localhost:1313/bocanadas/justicia-x-joni/</link>
+      <link>https://www.lacritica.ar/bocanadas/justicia-x-joni/</link>
       <pubDate>Mon, 16 Feb 2026 20:05:09 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/justicia-x-joni/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/justicia-x-joni/</guid>
       <description>&lt;p&gt;Ronald Dworkin comienza su magnífica obra &lt;em&gt;&lt;strong&gt;Justicia para Erizos&lt;/strong&gt;&lt;/em&gt; con una broma mínima, en la que nos avisa su libro no es un alegato por los derechos animales. “Justicia para Joni Mitchell” sí sería un alegato sin pudores en favor de la milagrosa Joni como un regalo de justicia cósmica. Debería estar prohibido perderse la experiencia de navegar el universo mágico música, su poética, su ética y su estética.&lt;/p&gt;&#xA;&lt;p&gt;Durante 50 años, Joni Mitchell ha retratado el mundo y la experiencia humana con una profundidad, riqueza y bellezas únicas, &lt;a href=&#34;https://youtu.be/oVeFgt8Z13g?si=6xShei1i3WD9zlmb&#34;&gt;“desde los dos lados”, je (no se pierdan esta versión en vivo, junto a la Joni Jam y el mágico Jacob Collier al piano).&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>La Corte IDH en 2025 por Mariano Fernández Valle [Agenda Estado de Derecho]</title>
-      <link>http://localhost:1313/bocanadas/corteidh-2025/</link>
+      <link>https://www.lacritica.ar/bocanadas/corteidh-2025/</link>
       <pubDate>Tue, 10 Feb 2026 14:24:59 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/corteidh-2025/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/corteidh-2025/</guid>
       <description>&lt;p&gt;Si en otra bocanada recomendamos &lt;a href=&#34;http://agendaestadodederecho.com/&#34;&gt;IberICONnect&lt;/a&gt;, otro blog que pueden y deben seguir es &lt;strong&gt;&lt;a href=&#34;http://agendaestadodederecho.com/&#34;&gt;Agenda Estado de Derecho&lt;/a&gt;&lt;/strong&gt; (patrocinado por la KAS) con muchas notas interesantes todas las semanas.&lt;/p&gt;&#xA;&lt;p&gt;Pueden, por ejemplo, hacer pie en el conciso racconto que hace Mariano Fernández Valle sobre &lt;strong&gt;&lt;a href=&#34;https://agendaestadodederecho.com/criterios-actuales-en-la-corte-interamericana-resena-del-ano-2025/&#34;&gt;qué hizo la Corte IDH en 2025&lt;/a&gt;&lt;/strong&gt;. Aparecen dos casos &amp;ldquo;argentinos&amp;rdquo;: : &lt;em&gt;Zambrano Rodríguez y otros vs. Argentina&lt;/em&gt;, que versa sobre el supuesto específico identificado por la Corte como la &amp;ldquo;desaparición forzada de corta duración&amp;rdquo; —subrayando que lo determinante no es el tiempo transcurrido sino la situación de indefensión en que queda la persona—, y &lt;em&gt;Lynn vs. Argentina&lt;/em&gt;, que avanza sobre el debido proceso en el ámbito penitenciario y los límites de la discrecionalidad sancionatoria intramuros.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Leticia Vita sobre el momento de Carl Schmitt (IberICONnect)</title>
-      <link>http://localhost:1313/bocanadas/schmitt/</link>
+      <link>https://www.lacritica.ar/bocanadas/schmitt/</link>
       <pubDate>Mon, 02 Feb 2026 23:51:01 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/schmitt/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/schmitt/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.ibericonnect.blog/2026/02/es-el-momento-de-carl-schmitt/&#34;&gt;¿Es el momento de Carl Schmitt?&lt;/a&gt; se pregunta Leticia Vita en IberiCONnect&lt;/p&gt;&#xA;&lt;p&gt;Parte-cita:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Como apunta Siegmund Ginzberg en su viral libro &lt;a href=&#34;https://gatopardoediciones.es/libros/sindrome-1933/&#34;&gt;Síndrome 1933&lt;/a&gt;, las comparaciones sirven para entender el mundo. Son necesarias para reconocer patrones y advertir señales de peligro. No se trata de anunciar la repetición de la historia, sino de llamar la atención sobre las lecciones aprendidas.&lt;/p&gt;&#xA;&lt;p&gt;Que las ideas de Schmitt sobre los límites de la democracia liberal resuenen hoy con tanta fuerza constituye una señal de alerta para el constitucionalismo democrático. Como advierte el especialista David Dyzenhaus, Schmitt identificó debilidades reales en la tradición liberal, debilidades que exigen la elaboración de una concepción secular de la autoridad en la que los principios de legalidad ocupen un lugar central.  Si efectivamente estamos entrando en el momento de Schmitt, quizás sea el momento de tomárselo en serio —no para celebrarlo, sino para defender lo que aún subsiste de la democracia constitucional. Perfil Contribuciones&lt;/p&gt;</description>
     </item>
     <item>
       <title>Medialunas de Ángeles para la Luna Tucumana</title>
-      <link>http://localhost:1313/bocanadas/tafi/</link>
+      <link>https://www.lacritica.ar/bocanadas/tafi/</link>
       <pubDate>Thu, 29 Jan 2026 14:46:47 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/tafi/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/tafi/</guid>
       <description>&lt;p&gt;Todo el mundo sabe que Tafí del Valle es un paraíso. Casi escondido en un valle a 2.000 metros de altura, espera fresco y verde el ascenso de los viajeros desde los campos de Acheral. Recibe entre nubes a quienes huyen del abrazo implacable del calor que pone de rodillas a la llanura.&lt;/p&gt;&#xA;&lt;p&gt;En la noche, cuando &lt;a href=&#34;https://youtu.be/Go173bBWArc?si=A7IyQOYENIKMA84v&#34;&gt;&amp;ldquo;le nacen violines a los álamos del valle&amp;rdquo;&lt;/a&gt;, reina una luna única y diferente, obsequio del coplero pronto a exiliarse. La luna tucumana que resurge cada veintiocho desvelos, eterna como la rosa de Paracelso. Solo el Tucumán ostenta el linaje de una luna propia, la que ya jamás será ninguna otra, la nacida del verbo chúcaro de Atahualpa.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Walter Benjamin y la vuelta de El Ángel de la Historia</title>
-      <link>http://localhost:1313/bocanadas/benjamin/</link>
+      <link>https://www.lacritica.ar/bocanadas/benjamin/</link>
       <pubDate>Sun, 25 Jan 2026 12:01:26 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/benjamin/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/benjamin/</guid>
       <description>&lt;p&gt;Walter Benjamin escribió, en su huida, lo que representa su “última voluntad” intelectual: sus &lt;strong&gt;Tesis de Filosofía de la Historia.&lt;/strong&gt; Benjamin se encontraba en París, a principios de 1940 (poco antes de que las tropas de Hitler invadieran Francia), e intentaba escapar de la Gestapo, huyendo hacia España. En la &lt;strong&gt;Tesis IX&lt;/strong&gt; de su escrito, Benjamin va a tratar de explicar la trágica historia que conducía al ascenso del nazismo, apelando a una pintura que le había adquirido a su amigo Paul Klee, el Angelus Novus -el Ángel de la Historia.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Aviso: Heladerías en BA. Recomendaciones expertas</title>
-      <link>http://localhost:1313/bocanadas/helados/</link>
+      <link>https://www.lacritica.ar/bocanadas/helados/</link>
       <pubDate>Wed, 21 Jan 2026 13:03:44 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/helados/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/helados/</guid>
       <description>&lt;p&gt;Voy a hablar brevemente sobre helados, con la autoridad que me confiere (…) mi carácter de hijo de heladero. Mi padre fue uno de los pioneros italianos en instalar el helado artesanal y de calidad, en la Argentina -el helado uso Napoli (don Nicola fue el creador de la para mí mítica Heladería Los Alpes, en Beccar).&lt;/p&gt;&#xA;&lt;p&gt;A continuación van mis recomendaciones de heladerías para este verano, aunque, como es obvio, el helado se consume durante todo el año. Todas las menciones que siguen refieren a producciones artesanales, que es lo importante.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Adam Tooze</title>
-      <link>http://localhost:1313/bocanadas/tooze.md-/</link>
+      <link>https://www.lacritica.ar/bocanadas/tooze.md-/</link>
       <pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/tooze.md-/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/tooze.md-/</guid>
       <description>&lt;p&gt;Notable &lt;a href=&#34;https://www.theguardian.com/business/2026/jan/15/the-crisis-whisperer-how-adam-tooze-makes-sense-of-our-bewildering-age&#34;&gt;entrevista&lt;/a&gt; a Adam Tooze, uno de los intelectuales más influyentes del presente.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Mi apuesta básica al interpretar la historia moderna es inclinarme hacia la idea de que podría no tener precedentes &amp;hellip; Me interesa la forma en que el presente nos rompe continuamente. Nos desafía. Cuando eres honesto y serio, no confirma lo que sabes&amp;rdquo;.&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>El traje chico</title>
-      <link>http://localhost:1313/bocanadas/el-traje-chico/</link>
+      <link>https://www.lacritica.ar/bocanadas/el-traje-chico/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/el-traje-chico/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/el-traje-chico/</guid>
       <description>&lt;p&gt;Publiqué en &lt;a href=&#34;https://www.clarin.com/opinion/constitucionalismo-traje-chico_0_4pzud3Ho2s.html&#34;&gt;Clarín&lt;/a&gt; una nota (acceso en mi blog al texto completo, &lt;a href=&#34;https://seminariogargarella.blogspot.com/2026/01/el-constitucionalismo-como-traje-chico.html&#34;&gt;aquí&lt;/a&gt;), sobre el traje chico del constitucionalismo.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Un diagnóstico apropiado, según entiendo, debería conducirnos en la dirección opuesta a la transitada en estas décadas. Nuestro problema (constitucional) no es la falta de derechos, sino el mantenimiento de una estructura de poder poco democrática. Los nuevos derechos enumerados (que &amp;mdash;vale aclararlo&amp;mdash; bien incorporados están, en su gran mayoría) sirven de poco si, como ciudadanos, quedamos condenados a peregrinar pacientemente hacia los tribunales, o a pedirle de rodillas al Presidente, por derechos que, finalmente, los funcionarios nos otorgarán o no, conforme a su estado de ánimo. Las prácticas en las que se ha degrado el constitucionalismo, en estos tiempos, llevan entonces a que derechos que son &amp;rsquo;nuestros&amp;rsquo; e incondicionales, terminen convirtiéndose en &amp;lsquo;concesiones&amp;rsquo; a cargo del poder de turno, y así convertidos en &amp;lsquo;privilegios&amp;rsquo; que sólo sirven para reforzar el poder (y el poder de extorsión) de las autoridades constituidas.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Episodio de las playas</title>
-      <link>http://localhost:1313/bocanadas/llinas/</link>
+      <link>https://www.lacritica.ar/bocanadas/llinas/</link>
       <pubDate>Tue, 06 Jan 2026 23:26:39 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/llinas/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/llinas/</guid>
       <description>&lt;p&gt;Es el momento más propicio para ver &lt;a href=&#34;https://www.youtube.com/watch?v=anFHSqGfqxs&#34;&gt;“Balnearios”&lt;/a&gt; (2002). Tómense un tiempo para escuchar la obertura inicial. Y, más específicamente, aquel genial falso (y muy verdadero) documental antropológico que es su “&lt;a href=&#34;https://www.youtube.com/watch?v=anFHSqGfqxs&amp;amp;t=1042s&#34;&gt;Episodio de las playa&lt;/a&gt;s”, luego canibalizado en un &lt;a href=&#34;https://www.youtube.com/watch?v=BlQnm0nRfHk&#34;&gt;comercial&lt;/a&gt; recordado de Quilmes. Pero volviendo a Balnearios, es una joya de punta a punta (amarán el episodio locutado por Mario Mactas), la ópera prima de Mariano Llinás y el kilómetro cero de “El Pampero”.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Critical Legal Theory</title>
-      <link>http://localhost:1313/bocanadas/cls/</link>
+      <link>https://www.lacritica.ar/bocanadas/cls/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/cls/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/cls/</guid>
       <description>&lt;p&gt;Si &amp;mdash;saliendo desde Buenos Aires&amp;mdash; te vas a tomar unos días de descanso en Santa Fe, Nogoyá, Claromecó, Pigüé o cualquier otro sitio a 500 km de la ciudad (o a 500 km de dónde vivís), y encarás la ruta sólo (esto no se puede hacer acompañado) y &lt;a href=&#34;https://open.spotify.com/show/10QVQdUw01ewf9nNPlrUxV?si=38e25d2bf7bb4051&#34;&gt;pones en Spotify&lt;/a&gt; el episodio uno de &lt;a href=&#34;https://criticallegaltheory.buzzsprout.com/1845403&#34;&gt;Critical Legal Theory Podcast&lt;/a&gt; ni bien salis, al llegar vas a haber escuchado más de la mitad de un podcast que cuenta la historia de uno de los movimientos legales más interesantes del siglo veinte tardío, de la boca de &lt;a href=&#34;https://law.wisc.edu/profiles/david.trubek&#34;&gt;David Trubek&lt;/a&gt; &amp;mdash;nuestro amigo de &lt;em&gt;law and development&lt;/em&gt;&amp;mdash; y del demente de Duncan Kennedy, que aparece aquí como un personaje entrañable y claramente desquiciado. Pensando en cómo la colaboración de un jóven abogado con Morton Horwitz tiene una dimensión erótica, dice &amp;mdash;cito de memoria&amp;mdash; &lt;em&gt;they are not going to fuck, but nobody is fucking anyway&lt;/em&gt;. Un repaso hermoso por el entusiasmo inicial y la debacle del CLS, cruzado por mil tensiones identitarias (lección allí para aprender). Pero también hay claridad: historia conceptual, influencias, vertientes, los cuatro sociólogos del derecho que huyeron espantados de la primera y mítica reunión, la teoría continental europea, las jerarquías en las facultades de derecho de Estados Unidos, el &lt;em&gt;backlash&lt;/em&gt; contra el movimiento, y la supervivencia del CLS en los estudiantes extranjeros en Harvard, para quienes el CLS nunca murió. Todo esto en entrevistas de 2013/2014, muy previas al movimiento del &lt;a href=&#34;https://lpeproject.org/blog/&#34;&gt;Law and Political Economy&lt;/a&gt; que se presenta como sucesor del CLS, así como éste lo fue del &lt;em&gt;realismo jurídico&lt;/em&gt;. Recomiendo especialmente el capítulo 7, dónde el entrevistador nunca puede arrancar porque hay veinte minutos de meta intro de Duncan, a quien queremos más luego de este viaje.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La filosofía de la Constitución es contraria a la del gobierno</title>
-      <link>http://localhost:1313/bocanadas/la-filosof%C3%ADa-de-la-constituci%C3%B3n/</link>
+      <link>https://www.lacritica.ar/bocanadas/la-filosof%C3%ADa-de-la-constituci%C3%B3n/</link>
       <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/la-filosof%C3%ADa-de-la-constituci%C3%B3n/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/la-filosof%C3%ADa-de-la-constituci%C3%B3n/</guid>
       <description>&lt;p&gt;Una nota publicada hoy en &lt;a href=&#34;https://www.lanacion.com.ar/opinion/la-filosofia-de-la-constitucion-es-contraria-a-la-del-gobierno-nid02012026/&#34;&gt;La Nación&lt;/a&gt;, sobre la filosofía política de la Constitución y el programa de gobierno de Javier Milei.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;En términos contemporáneos, la filosofía de nuestra Constitución puede entenderse como la confluencia de un liberalismo igualitario, una vertiente social cristiana y una mirada socialdemocrátrica. Sin embargo, inequívocamente, y de manera sistemática, tanto el Presidente como sus principales referentes en materia económica, se obstinan en expresar una filosofía institucional que se enfrenta, de manera muy directa, con los ideales más importantes de la Constitución&amp;rdquo;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hope/ Havel</title>
-      <link>http://localhost:1313/bocanadas/havel/</link>
+      <link>https://www.lacritica.ar/bocanadas/havel/</link>
       <pubDate>Wed, 31 Dec 2025 18:23:03 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/havel/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/havel/</guid>
       <description>&lt;p&gt;Escritor y dramaturgo, Vaclav Havel fue el último presidente de Checoslovaquia, luego de la Revolución de Terciopelo. Desde la cárcel, que sufrió muchas veces por su militancia en defensa de los derechos humanos, reflexionó sobre el valor de la esperanza, &amp;ldquo;incluso para condiciones tan desesperadas como las nuestras.&amp;rdquo; De ahí este párrafo, con una frase que pasó a la historia, en la que describió a la esperanza no como un clamor optimista, sobre algo que saldrá bien, sino como convicción, de que algo tiene sentido, salga como salga. Va su texto:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Binder</title>
-      <link>http://localhost:1313/bocanadas/binder/</link>
+      <link>https://www.lacritica.ar/bocanadas/binder/</link>
       <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/binder/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/binder/</guid>
       <description>&lt;p&gt;Alberto Binder es uno de los más grandes del derecho argentino. Publicó en &lt;a href=&#34;https://www.eldiarioar.com/opinion/tribuna/tradicion-servil-corte-suprema-nacion_129_12865333.html&#34;&gt;ElDiario.ar&lt;/a&gt; una nota extraordinaria sobre la Corte Suprema, que recuerda sus múltiples y persistentes pecados (que se mantienen). Una muestra:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;La tradición sumisa de la Corte no se manifiesta en los innumerables fallos que sigue dictando, con deliberación o no, conociendo lo que firma o a consecuencia de la “maquinaria” de relatores &amp;mdash;lo que constituye otro grave problema, admitido incluso por integrantes de la Corte&amp;mdash;; sino porque no protege con especial cuidado las reglas de juego institucionales y no permite (no es que reconoce) que las personas puedan tener éxito (como en la Acordada del 30) en los reclamos judiciales, para que esas reglas de juego, previstas en la Constitución Nacional como derechos de la ciudadanía, salgan fortalecidas. Esa es la tradición sumisa de la Corte.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Riggs vs. Palmer y la legalidad de los Mercedes de 2026</title>
-      <link>http://localhost:1313/bocanadas/riggs-palmer-mercedes/</link>
+      <link>https://www.lacritica.ar/bocanadas/riggs-palmer-mercedes/</link>
       <pubDate>Thu, 25 Dec 2025 20:20:10 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/riggs-palmer-mercedes/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/riggs-palmer-mercedes/</guid>
       <description>&lt;p&gt;¿Es esto un nuevo &lt;em&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Riggs_v._Palmer&#34;&gt;Riggs vs. Palmer&lt;/a&gt;&lt;/em&gt;? Mercedes desarrolló un motor para la F1 de 2026 con el reglamento abajo del brazo, y &lt;a href=&#34;https://lat.motorsport.com/f1/news/mercedes-red-bull-motores-2026-reciente-alboroto-f1/10786366/&#34;&gt;los otros equipos no los quieren dejar correr&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Imaginemos que un equipo de la NBA (digamos, por decir uno que marida con el tema, Detroit Pistons) consigue implementar un ingenioso dispositivo de calor, elaborando el borde del aro con metales rígidos pero expandibles, y puede aplicarlo de forma tal que cuando ataca el diámetro del aro al que tira sea un 5% más grande.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Maravilla</title>
-      <link>http://localhost:1313/bocanadas/maravilla/</link>
+      <link>https://www.lacritica.ar/bocanadas/maravilla/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/maravilla/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/maravilla/</guid>
       <description>&lt;p&gt;Entre las sinrazones de la infernal noche del sábado, hay una injusticia mayor. Luego de pasar estos días por distintos estadíos de tribulación, siento ahora una melancolía atemporal. Una pena singular, por alguien. Adrián Maravilla Martínez merecía ser campeón del fútbol argentino. A los 36 del segundo tiempo hizo un gol cinematográfico, de todos los tiempos, de esos que se cuentan de generación en generación hasta transformarse en una leyenda mágica.&lt;/p&gt;</description>
     </item>
     <item>
       <title>El juicio al Mal</title>
-      <link>http://localhost:1313/bocanadas/el-juicio/</link>
+      <link>https://www.lacritica.ar/bocanadas/el-juicio/</link>
       <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/el-juicio/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/el-juicio/</guid>
       <description>&lt;p&gt;La señal &lt;a href=&#34;https://www.youtube.com/@dnewsok&#34;&gt;DNews&lt;/a&gt; ha subido a YouTube un &lt;a href=&#34;https://www.youtube.com/watch?v=eeNtKA72LMk&#34;&gt;documental&lt;/a&gt; que describe con precisión cómo se planificó y llevó a cabo el histórico Juicio a las Juntas Militares, luego de recuperada la democracia. Para empezar, es un merecido reconocimiento a un grupo de filósofos asesores del Presidente Alfonsin que inspiraron ese juzgamiento, así como al propio Alfonsin, por su determinación para hacerlo realidad. El diseño de derechos humanos puesto en práctica era equilibrado pues incluyó el enjuiciamiento de los líderes guerrilleros de los años 70. El documental describe, con testimonios y archivos públicos, el funcionamiento de la CONADEP, organismo decisivo para reunir la prueba que presentaría el Fiscal Strassera en el juicio. Apelando a numerosos documentos de archivo, los jueces que actuaron en ese histórico juicio explican igualmente aspectos centrales del mismo que culminó con la imposición de justas condenas. Saludemos esta certera reconstrucción de un hecho fundacional de la recuperación de la democracia argentina.&lt;/p&gt;</description>
     </item>
     <item>
       <title>¿Ordenó usted el &#34;código rojo&#34;?</title>
-      <link>http://localhost:1313/bocanadas/a-few-good-men/</link>
+      <link>https://www.lacritica.ar/bocanadas/a-few-good-men/</link>
       <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/a-few-good-men/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/a-few-good-men/</guid>
       <description>&lt;p&gt;Rob Reiner decía que no era bueno en nada, pero que era bueno en muchas cosas. Director, guionista y productor, falleció esta semana. Para los abogados &amp;mdash;o, al menos, para algunos&amp;mdash; será siempre el director de &lt;em&gt;A Few Good Men&lt;/em&gt;, probablemente la mejor &lt;em&gt;trial movie&lt;/em&gt; que dio Hollywood.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;You want answers? / I want the truth! / You can’t handle the truth!&lt;/em&gt; El coronel Nathan Jessup responde desde el estrado, seguro de sí mismo, convencido de que la verdad le pertenece. Aparece solo en cuatro escenas, suficientes para condensar una forma de entender la autoridad: aquella que no discute, sino que afirma. Escena para la memoria colectiva.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bovino</title>
-      <link>http://localhost:1313/bocanadas/bovino/</link>
+      <link>https://www.lacritica.ar/bocanadas/bovino/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/bovino/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/bovino/</guid>
       <description>&lt;p&gt;Alberto Bovino, jurista de mil vidas: empresario, activista, editor, penalista, polemista. Como con Charly García, cada generación tiene su propio Bovino: algunos recuerdan la disrupción ética y estética de &amp;ldquo;No hay derecho&amp;rdquo; en la rígida Facultad de Derecho de la UBA; otros recuerdan el vanguardismo poético de &amp;ldquo;No hubo derecho&amp;rdquo;, en la era dorada de los blogs; todos atesoramos algún ejemplar de las míticas ediciones de Del Puerto, que jamás dudó en publicar lo que debía ser publicado. Vaya nuestro homenaje y saludos a un verdadero pirata fundador.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Una fiscal sobre &#39;Dos fiscales&#39;</title>
-      <link>http://localhost:1313/bocanadas/dos-fiscales/</link>
+      <link>https://www.lacritica.ar/bocanadas/dos-fiscales/</link>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/dos-fiscales/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/dos-fiscales/</guid>
       <description>&lt;h3 id=&#34;una-película-sobre-el-terror-estalinista-y-la-impotencia-de-la-justicia-frente-al-totalitarismo&#34;&gt;Una película sobre el terror estalinista y la impotencia de la justicia frente al totalitarismo&lt;/h3&gt;&#xA;&lt;p&gt;En medio de situaciones kafkianas, escenarios oscuros, personajes típicamente soviéticos y escenas lentas y opresivas que pretenden &amp;mdash;y logran&amp;mdash; transmitir el clima de las purgas estalinistas, la película &amp;ldquo;Dos fiscales&amp;rdquo;, dirigida por el cineasta ucraniano Sergei Loznitsa y basada en la novela del mismo nombre de Georgy Demidov, retrata las dificultades que enfrenta un fiscal que quiere cumplir con su trabajo en un régimen totalitario. A pesar de lo que muchas veces pretende mostrar el cine norteamericano, el fiscal quizás no sea &amp;mdash;o no debería ser&amp;mdash; el personaje más atractivo para relatar las grandes historias judiciales. Ni en Estados Unidos, ni en Argentina, ni en la Unión Soviética de 1937. Es un empleado estatal que litiga y eventualmente acusa &amp;mdash;y para poder hacerlo, tiene que investigar&amp;mdash; pero nada de lo que hace es a título personal. Actúa representando intereses difusos, cuyos alcance y definición varían a través de los sistemas procesales, países y épocas, pero que no se identifican &amp;mdash;o no deberían hacerlo&amp;mdash; ni con los del gobierno de turno, ni con los de las fuerzas de seguridad, ni con los de las víctimas de delitos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>La batalla de Monte Longdon</title>
-      <link>http://localhost:1313/bocanadas/la-batalla-de-monte-longdon/</link>
+      <link>https://www.lacritica.ar/bocanadas/la-batalla-de-monte-longdon/</link>
       <pubDate>Sun, 07 Dec 2025 15:04:00 +0000</pubDate>
-      <guid>http://localhost:1313/bocanadas/la-batalla-de-monte-longdon/</guid>
+      <guid>https://www.lacritica.ar/bocanadas/la-batalla-de-monte-longdon/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://youtu.be/_Ve7yq1qRG4?si=aDcWy2vHYF4r5ITi&#34;&gt;“La batalla de Monte Longdon”&lt;/a&gt; es el capítulo 31 y la -hasta ahora- última entrega de &lt;a href=&#34;https://www.youtube.com/@malvinasdiaxdia&#34;&gt;“Malvinas Día por Día”&lt;/a&gt;, un folletín audiovisual documental que estoy viendo desde hace tres años: el realizador Gabriel Concatti arma capítulos de duración variable y los va subiendo a YouTube a intervalos también variables (recomendamos &lt;a href=&#34;https://www.youtube.com/watch?v=eQPQO7fYimQ&#34;&gt;empezar desde el principio)&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El solo efecto de poner los acontecimientos en mapa, día y hora, a través de una voz en off omnisciente del episodio y del contexto, con un minucioso y obsesivo nivel de detalle de las acciones, da lugar a una experiencia inmersiva y devastadora. El recurso de la infografía animada, dominante, se combina con perlas de archivo bien dosificadas, escenas de cómo operaba la disfuncional cadena de decisiones, y una decisión editorial respetuosa de darle a cada víctima su rostro, en una puesta que rehúye el subrayado y confía en la acumulación de los hechos.&lt;/p&gt;</description>
     </item>
   </channel>

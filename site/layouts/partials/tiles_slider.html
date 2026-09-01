@@ -1,0 +1,286 @@
+{{ $section := site.GetPage "section" "tiles" }}
+
+{{ if and $section $section.Params.show }}
+
+  {{ $csv := $section.Resources.GetMatch "nino.csv" }}
+
+  {{ if not $csv }}
+    {{ warnf "tiles: content/tiles/nino.csv not found — section skipped" }}
+  {{ else }}
+
+    {{ $quotes := slice }}
+    {{ range $csv | transform.Unmarshal (dict "delimiter" ",") }}
+      {{ if ge (len .) 2 }}
+        {{ $name := trim (index . 0) " " }}
+        {{ $text := trim (index . 1) " " }}
+        {{/* A hyphen with a space on either side is a dash, not a compound
+             word: widen it to "---" so it reads as one. A run is collapsed to
+             the same three, so already-widened text is left alone, and an
+             intra-word hyphen (FD-UFPR, Nino-boys) never matches. The triple
+             then resolves to an em dash the way Markdown's smart punctuation
+             would, since this text is injected as plain text, not rendered. */}}
+        {{ $text = replaceRE "( )-+|-+( )" "${1}---${2}" $text }}
+        {{ $text = replaceRE "-{3,}" "—" $text }}
+        {{/* Every quote mark — single or double, straight or curly — becomes a
+             guillemet. Opening and closing are told apart by what precedes the
+             mark, not by pairing it with its partner: contributors mix the two
+             styles ("mi Nino" opens curly and closes straight), and a pairing
+             regex would run past the mismatch and swallow the text between it
+             and the next matching mark. No quote in this CSV is an apostrophe,
+             so a mark that does not open must close. */}}
+        {{ $text = replaceRE `(^|[\s(\[¿¡—–«])["“”'‘’]` "${1}«" $text }}
+        {{ $text = replaceRE `["“”'‘’]` "»" $text }}
+        {{ if and $name $text }}
+          {{ $quotes = $quotes | append (dict "n" $name "q" $text) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if $quotes }}
+      <div class="tiles">
+        <div class="tiles-inner">
+
+          {{ with $section.Title }}
+            <section class="tiles-title">
+              <h1>{{ . }}</h1>
+            </section>
+          {{ end }}
+
+          {{ with $section.Params.description }}
+            <p class="tiles-intro">{{ . | markdownify }}</p>
+          {{ end }}
+
+          <div class="tiles-slider" id="tiles-slider">
+            <button type="button" class="tiles-arrow tiles-prev" id="tiles-prev" aria-label="Testimonio anterior">&#8249;</button>
+
+            <div class="tiles-viewport">
+              <div class="tiles-track" id="tiles-track"></div>
+            </div>
+
+            <button type="button" class="tiles-arrow tiles-next" id="tiles-next" aria-label="Testimonio siguiente">&#8250;</button>
+          </div>
+
+          <p class="tiles-counter" id="tiles-counter" aria-live="polite"></p>
+
+          <script type="application/json" id="tiles-data">{{ $quotes | jsonify | replaceRE "</" "<\\/" | safeJS }}</script>
+        </div>
+      </div>
+
+      <script>
+      (() => {
+        const slider = document.getElementById("tiles-slider");
+        const track = document.getElementById("tiles-track");
+        const dataEl = document.getElementById("tiles-data");
+        if (!slider || !track || !dataEl) return;
+
+        const QUOTES = JSON.parse(dataEl.textContent);
+        if (!QUOTES.length) return;
+
+        const MORE_LABEL = "Ver más";
+        const LESS_LABEL = "Ver menos";
+        const CLAMP_OVER = 2000;   // characters; shorter quotes are shown whole
+
+        // Quotes past CLAMP_OVER open cut to their first CLAMP_OVER characters,
+        // rounded back to a word boundary so the break never lands mid-word.
+        const clip = (text) => {
+          const cut = text.slice(0, CLAMP_OVER);
+          const space = cut.lastIndexOf(" ");
+          const kept = space > CLAMP_OVER * 0.9 ? cut.slice(0, space) : cut;
+          return kept.replace(/[\s.,;:—–-]+$/, "") + "…";
+        };
+
+        // Every toggle registers a reset here, so navigating away re-collapses
+        // whatever the reader left open.
+        const collapsers = [];
+
+        const viewport = slider.querySelector(".tiles-viewport");
+        const prevBtn = document.getElementById("tiles-prev");
+        const nextBtn = document.getElementById("tiles-next");
+        const counter = document.getElementById("tiles-counter");
+
+        // Shuffle once so the slider doesn't always open on the same person.
+        const order = QUOTES.map((_, i) => i);
+        for (let i = order.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [order[i], order[j]] = [order[j], order[i]];
+        }
+
+        const total = order.length;
+        const loops = total > 1;
+
+        const slide = (quoteIndex, isClone) => {
+          const item = QUOTES[quoteIndex];
+          const el = document.createElement("article");
+          el.className = "tiles-slide";
+          if (isClone) el.setAttribute("aria-hidden", "true");
+
+          const inner = document.createElement("div");
+          inner.className = "tiles-slide-inner";
+
+          const full = item.q;
+          const long = full.length > CLAMP_OVER;
+          const short = long ? clip(full) : full;
+
+          const quote = document.createElement("blockquote");
+          quote.className = "tiles-quote";
+          quote.textContent = short;
+
+          const name = document.createElement("p");
+          name.className = "tiles-name";
+          name.textContent = item.n;
+
+          inner.appendChild(quote);
+
+          if (long) {
+            let open = false;
+
+            const more = document.createElement("button");
+            more.type = "button";
+            more.className = "tiles-more";
+            more.textContent = MORE_LABEL;
+            more.setAttribute("aria-expanded", "false");
+            if (isClone) more.tabIndex = -1;   // the clone is aria-hidden
+
+            const render = () => {
+              quote.textContent = open ? full : short;
+              more.textContent = open ? LESS_LABEL : MORE_LABEL;
+              more.setAttribute("aria-expanded", String(open));
+            };
+
+            more.addEventListener("click", () => {
+              open = !open;
+              render();
+              sizeViewport();
+            });
+
+            collapsers.push(() => { if (open) { open = false; render(); } });
+            inner.appendChild(more);
+          }
+
+          inner.appendChild(name);
+          el.appendChild(inner);
+          return el;
+        };
+
+        // A clone of the last slide before the first, and of the first after
+        // the last: stepping onto a clone then snapping to its twin without a
+        // transition is what makes the wrap-around look continuous.
+        const built = order.map((q) => slide(q, false));
+        if (loops) {
+          track.appendChild(slide(order[total - 1], true));
+          built.forEach((el) => track.appendChild(el));
+          track.appendChild(slide(order[0], true));
+        } else {
+          built.forEach((el) => track.appendChild(el));
+        }
+
+        let position = loops ? 1 : 0;   // index into the track, clones included
+        let animating = false;
+        let settleTimer;
+
+        const place = (withTransition) => {
+          track.style.transition = withTransition ? "" : "none";
+          track.style.transform = "translateX(" + (-position * 100) + "%)";
+          if (!withTransition) void track.offsetWidth;   // flush before re-enabling
+        };
+
+        const realIndex = () => {
+          if (!loops) return 0;
+          return ((position - 1) % total + total) % total;
+        };
+
+        const updateCounter = () => {
+          if (counter) counter.textContent = (realIndex() + 1) + " / " + total;
+        };
+
+        // Once the slide has landed, step off a clone onto its real twin.
+        const settle = () => {
+          clearTimeout(settleTimer);
+          animating = false;
+          if (position === total + 1) { position = 1; place(false); }
+          else if (position === 0) { position = total; place(false); }
+        };
+
+        const durationMs = () => {
+          const d = getComputedStyle(track).transitionDuration.split(",")[0].trim();
+          if (!d) return 0;
+          return parseFloat(d) * (d.endsWith("ms") ? 1 : 1000);
+        };
+
+        const go = (step) => {
+          if (!loops || animating) return;
+          animating = true;
+          position += step;
+          place(true);
+          collapseAll();
+          sizeViewport();
+          updateCounter();
+
+          // transitionend is the normal path, but it never fires when the
+          // transition is off — reduced-motion, or a stylesheet that failed to
+          // load — and the slider would lock up. Always arm a fallback.
+          const ms = durationMs();
+          if (ms <= 0) { settle(); return; }
+          settleTimer = setTimeout(settle, ms + 80);
+        };
+
+        track.addEventListener("transitionend", (e) => {
+          if (e.propertyName !== "transform" || e.target !== track) return;
+          settle();
+        });
+
+        // The viewport grows and shrinks to the slide on screen, so a short
+        // quote isn't stranded in the whitespace of the longest one. The inner
+        // wrapper is measured because it keeps its natural height whatever the
+        // viewport is currently set to.
+        const sizeViewport = () => {
+          const current = track.children[position];
+          if (!current) return;
+          const inner = current.querySelector(".tiles-slide-inner");
+          if (inner) viewport.style.height = inner.offsetHeight + "px";
+        };
+
+        // Navigating away resets an expanded quote, so every slide is entered
+        // at its collapsed height.
+        const collapseAll = () => collapsers.forEach((reset) => reset());
+
+        place(false);
+        updateCounter();
+        sizeViewport();
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(sizeViewport);
+
+        if (prevBtn) prevBtn.addEventListener("click", () => go(-1));
+        if (nextBtn) nextBtn.addEventListener("click", () => go(1));
+
+        slider.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowLeft") { e.preventDefault(); go(-1); }
+          if (e.key === "ArrowRight") { e.preventDefault(); go(1); }
+        });
+
+        // Swipe
+        let startX = null;
+        viewport.addEventListener("touchstart", (e) => { startX = e.touches[0].clientX; }, { passive: true });
+        viewport.addEventListener("touchend", (e) => {
+          if (startX === null) return;
+          const dx = e.changedTouches[0].clientX - startX;
+          if (Math.abs(dx) > 45) go(dx < 0 ? 1 : -1);
+          startX = null;
+        }, { passive: true });
+
+        let resizeTimer;
+        window.addEventListener("resize", () => {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(() => { place(false); sizeViewport(); }, 150);
+        });
+
+        if (!loops) {
+          slider.classList.add("is-single");
+          if (counter) counter.textContent = "";
+        }
+      })();
+      </script>
+    {{ end }}
+
+  {{ end }}
+
+{{ end }}
