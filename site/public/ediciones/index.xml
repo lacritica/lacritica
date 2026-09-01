@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ediciones on La Crítica</title>
-    <link>https://www.lacritica.ar/ediciones/</link>
+    <link>http://localhost:1313/ediciones/</link>
     <description>Recent content in Ediciones on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 03 Aug 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.lacritica.ar/ediciones/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ediciones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Julio 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-07/</link>
+      <link>http://localhost:1313/ediciones/2026-07/</link>
       <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-07/</guid>
+      <guid>http://localhost:1313/ediciones/2026-07/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Junio 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-06/</link>
+      <link>http://localhost:1313/ediciones/2026-06/</link>
       <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-06/</guid>
+      <guid>http://localhost:1313/ediciones/2026-06/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Abril 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-04/</link>
+      <link>http://localhost:1313/ediciones/2026-04/</link>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-04/</guid>
+      <guid>http://localhost:1313/ediciones/2026-04/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mayo 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-05/</link>
+      <link>http://localhost:1313/ediciones/2026-05/</link>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-05/</guid>
+      <guid>http://localhost:1313/ediciones/2026-05/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Marzo 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-03/</link>
+      <link>http://localhost:1313/ediciones/2026-03/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-03/</guid>
+      <guid>http://localhost:1313/ediciones/2026-03/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Febrero 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-02/</link>
+      <link>http://localhost:1313/ediciones/2026-02/</link>
       <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-02/</guid>
+      <guid>http://localhost:1313/ediciones/2026-02/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Enero 2026</title>
-      <link>https://www.lacritica.ar/ediciones/2026-01/</link>
+      <link>http://localhost:1313/ediciones/2026-01/</link>
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2026-01/</guid>
+      <guid>http://localhost:1313/ediciones/2026-01/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
     <item>
       <title>Diciembre 2025</title>
-      <link>https://www.lacritica.ar/ediciones/2025-12/</link>
+      <link>http://localhost:1313/ediciones/2025-12/</link>
       <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.lacritica.ar/ediciones/2025-12/</guid>
+      <guid>http://localhost:1313/ediciones/2025-12/</guid>
       <description>&lt;p&gt;What&lt;/p&gt;</description>
     </item>
   </channel>
