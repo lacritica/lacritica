@@ -17,8 +17,7 @@
              word: widen it to "---" so it reads as one. A run is collapsed to
              the same three, so already-widened text is left alone, and an
              intra-word hyphen (FD-UFPR, Nino-boys) never matches. The triple
-             then resolves to an em dash the way Markdown's smart punctuation
-             would, since this text is injected as plain text, not rendered. */}}
+             is what Markdown's smart punctuation turns into an em dash. */}}
         {{ $text = replaceRE "( )-+|-+( )" "${1}---${2}" $text }}
         {{ $text = replaceRE "-{3,}" "—" $text }}
         {{/* Every quote mark — single or double, straight or curly — becomes a
@@ -28,10 +27,26 @@
              regex would run past the mismatch and swallow the text between it
              and the next matching mark. No quote in this CSV is an apostrophe,
              so a mark that does not open must close. */}}
-        {{ $text = replaceRE `(^|[\s(\[¿¡—–«])["“”'‘’]` "${1}«" $text }}
+        {{/* A line break inside a cell is a paragraph break to whoever wrote
+             the testimony; Markdown only agrees once there is a blank line
+             between them, so widen every break into one. */}}
+        {{ $text = replaceRE `\r?\n[ \t]*` "\n\n" $text }}
+        {{/* Emphasis markers count as opening context too: *«Ver a Nino»* has
+             the quote mark start the word all the same. */}}
+        {{ $text = replaceRE `(^|[\s(\[¿¡—–«*_])["“”'‘’]` "${1}«" $text }}
         {{ $text = replaceRE `["“”'‘’]` "»" $text }}
         {{ if and $name $text }}
-          {{ $quotes = $quotes | append (dict "n" $name "q" $text) }}
+          {{/* The testimony is Markdown: italics, bold, links and paragraph
+               breaks are rendered here rather than dumped as literal asterisks.
+               Long ones are cut server-side, where truncate counts visible
+               characters and closes whatever tags the cut left open — slicing
+               the HTML string in the browser would have broken them. */}}
+          {{ $html := $text | markdownify }}
+          {{ $short := "" }}
+          {{ if gt (strings.RuneCount ($html | plainify)) 2000 }}
+            {{ $short = $html | truncate 2000 "…" }}
+          {{ end }}
+          {{ $quotes = $quotes | append (dict "n" $name "q" $html "s" $short) }}
         {{ end }}
       {{ end }}
     {{ end }}
@@ -99,16 +114,6 @@
 
         const MORE_LABEL = "Ver más";
         const LESS_LABEL = "Ver menos";
-        const CLAMP_OVER = 2000;   // characters; shorter quotes are shown whole
-
-        // Quotes past CLAMP_OVER open cut to their first CLAMP_OVER characters,
-        // rounded back to a word boundary so the break never lands mid-word.
-        const clip = (text) => {
-          const cut = text.slice(0, CLAMP_OVER);
-          const space = cut.lastIndexOf(" ");
-          const kept = space > CLAMP_OVER * 0.9 ? cut.slice(0, space) : cut;
-          return kept.replace(/[\s.,;:—–-]+$/, "") + "…";
-        };
 
         // Every toggle registers a reset here, so navigating away re-collapses
         // whatever the reader left open.
@@ -196,13 +201,15 @@
           }
 
           const quote = item.data;
+          // Both halves arrive as HTML rendered from the CSV's Markdown; `s`
+          // is empty on a testimony short enough to be shown whole.
           const full = quote.q;
-          const long = full.length > CLAMP_OVER;
-          const short = long ? clip(full) : full;
+          const long = Boolean(quote.s);
+          const short = long ? quote.s : full;
 
           const body = document.createElement("blockquote");
           body.className = "tiles-quote";
-          body.textContent = short;
+          body.innerHTML = short;
 
           const name = document.createElement("p");
           name.className = "tiles-name";
@@ -221,7 +228,7 @@
             if (isClone) more.tabIndex = -1;   // the clone is aria-hidden
 
             const render = () => {
-              body.textContent = open ? full : short;
+              body.innerHTML = open ? full : short;
               more.textContent = open ? LESS_LABEL : MORE_LABEL;
               more.setAttribute("aria-expanded", String(open));
             };

@@ -3521,8 +3521,54 @@ position: relative;
   overflow-wrap: break-word;
 }
 
-/* The script cuts long testimonies to their first 2000 characters and adds
-   this button; it is absent from quotes that fit under that. */
+/* The testimonies are Markdown, rendered at build time — these cover what the
+   CSV can put inside a quote. The blockquote itself carries no margin, so the
+   paragraphs shed the outer ones and keep the space between them. */
+.tiles-quote > :first-child {
+  margin-top: 0;
+}
+
+.tiles-quote > :last-child {
+  margin-bottom: 0;
+}
+
+.tiles-quote p {
+  margin: 0 0 1em 0;
+}
+
+.tiles-quote a {
+  color: var(--accent-beige);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.tiles-quote a:hover {
+  opacity: 0.8;
+}
+
+.tiles-quote ul,
+.tiles-quote ol {
+  margin: 0 0 1em 0;
+  padding-left: 1.5em;
+}
+
+.tiles-quote li {
+  margin-bottom: 0.35em;
+}
+
+.tiles-quote blockquote {
+  margin: 0 0 1em 0;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent-beige);
+  opacity: 0.9;
+}
+
+.tiles-quote code {
+  font-size: 0.9em;
+}
+
+/* Hugo truncates long testimonies at 2000 visible characters and the script
+   adds this button; it is absent from quotes that fit under that. */
 .tiles-more {
   appearance: none;
   cursor: pointer;
