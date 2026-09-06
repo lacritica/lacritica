@@ -3233,6 +3233,36 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
 }
 
+.monthly-right h3.issue-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: .5rem;
+}
+
+.monthly-right .issue-downloads-sep {
+  opacity: .5;
+}
+
+/* Companion pages listed at the foot of an issue (see `extras` in the
+   edition's front matter). They are section headings like `debates` or
+   `ensayos` and inherit `.monthly-right h2`; only the link colour has to be
+   restated, because `.monthly-right a` would otherwise repaint it. */
+.monthly-right h2.issue-extra {
+  /* The category headings are lowercase because the category names
+     themselves are; lowercasing here matches them without forcing the
+     front-matter title to be written that way. */
+  text-transform: lowercase;
+}
+
+.monthly-right h2.issue-extra a {
+  color: var(--hero-accent) !important;
+}
+
+.monthly-right h2.issue-extra a:hover {
+  color: var(--hero-theme-nav-text) !important;
+}
+
 .monthly-right a,
 .monthly-right li,
 .monthly-right span {
@@ -3729,4 +3759,9 @@ position: relative;
   .tiles-viewport {
     transition: none;
   }
+}
+
+.tiles-body {
+  color: var(--base-bg);
+  margin-top: 2rem;
 }

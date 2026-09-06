@@ -1,6 +1,15 @@
+{{/* Called two ways: bare (`partial "tiles_slider.html" .`) for the home
+     band, which appears only while `show` is set in the section's front
+     matter, and with `(dict "force" true)` from the section's own page,
+     which is the permanent home of the testimonies and renders either way. */}}
+{{ $force := false }}
+{{ if reflect.IsMap . }}
+  {{ $force = .force }}
+{{ end }}
+
 {{ $section := site.GetPage "section" "tiles" }}
 
-{{ if and $section $section.Params.show }}
+{{ if and $section (or $force $section.Params.show) }}
 
   {{ $csv := $section.Resources.GetMatch "nino.csv" }}
 

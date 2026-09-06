@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{/* The testimonies render from the same partial as the home band, forced on
+     so the page survives `show` being switched off there. */}}
+{{ partial "tiles_slider.html" (dict "force" true) }}
+
+{{ with .Content }}
+  <div class="tiles">
+    <div class="tiles-inner tiles-body">{{ . }}</div>
+  </div>
+{{ end }}
+
+{{ end }}

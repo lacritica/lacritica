@@ -1,4 +1,6 @@
 {{ $month := .Params.month }}
+
+{{ $pdf := .Params.pdf }}
 {{ $generic := slice "debates" "ensayos" "entrevistas" "reseñas" }}
 {{ $seen := slice }}
 {{ $specific := slice }}
@@ -26,10 +28,16 @@
 <aside class="monthly-left">
   {{ with .Params.image }}
     {{ $img := . }}
-    {{ with $.Params.file }}
+    {{ with $pdf }}
       <a href="{{ . }}" download>
         <img src="{{ $img }}" alt="">
       </a>
+    {{ else }}
+      {{ with $.Params.file }}
+        <a href="{{ . }}" download>
+          <img src="{{ $img }}" alt="">
+        </a>
+      {{ end }}
     {{ end }}
   {{ end }}
 </aside>
@@ -39,9 +47,15 @@
     <h1>{{ .Title }}</h1>
     <h2>{{ .Params.number }}</h2>
 
-    {{ with .Params.file }}
-      <h3>
-        <a href="{{ . }}" download>descargar en epub</a>
+    {{ if or .Params.file $pdf }}
+      <h3 class="issue-downloads">
+        {{ with .Params.file }}
+          <a href="{{ . }}" download>descargar en epub</a>
+        {{ end }}
+        {{ if and .Params.file $pdf }}<span class="issue-downloads-sep">|</span>{{ end }}
+        {{ with $pdf }}
+          <a href="{{ . }}" download>descargar en PDF</a>
+        {{ end }}
       </h3>
     {{ end }}
 
@@ -76,6 +90,17 @@
             </li>
           {{ end }}
         </ul>
+      {{ end }}
+    {{ end }}
+
+    {{/* Companion pages that belong to this issue but are not posts of their
+         own — the Nino homage, say. Each entry in `extras` is a `title` and a
+         `url`; the block is skipped entirely when an issue has none. */}}
+    {{ with .Params.extras }}
+      {{ range . }}
+        {{ if and .url .title }}
+          <h2 class="issue-extra"><a href="{{ .url | relURL }}">{{ .title }}</a></h2>
+        {{ end }}
       {{ end }}
     {{ end }}
 

@@ -14,12 +14,18 @@ images = ["img/batalla1.jpeg"]
 description = "La Crítica del Derecho"
 social_image = "/img/batalla1.jpeg"
 
-# The tiles section is only an on/off switch for the home band, not a page.
-# Keep it out of the published site.
+# The tiles section is two things: the on/off switch for the home band
+# (`show` in content/tiles/_index.md) and a standalone page of its own,
+# published at the `url` set there. It stays out of section listings, RSS
+# and the sitemap — it is reached from the edition it belongs to, not by
+# browsing.
 [[cascade]]
   [cascade.build]
-    render = 'never'
+    render = 'always'
     list = 'local'
+    # false, not true: the images still publish themselves, because the
+    # partial asks each one for its RelPermalink. nino.csv is never linked,
+    # so leaving this off is what keeps the raw testimonies off the site.
     publishResources = false
   [cascade._target]
     path = '/tiles'
