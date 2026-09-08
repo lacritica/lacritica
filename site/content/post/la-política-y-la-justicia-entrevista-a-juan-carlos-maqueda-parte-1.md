@@ -1,6 +1,6 @@
 ---
 title: "La política y la Justicia: entrevista a Juan Carlos Maqueda (Parte 1)"
-slug: maqueda
+slug: maqueda-1
 date: 2026-09-08T17:05:00.000-03:00
 description: En esta primera parte, Maqueda nos cuenta sobre su carrera
   política, sus diferencias con Figueroa Alcorta y qué tiene que tener un juez
@@ -10,12 +10,12 @@ categories:
 author:
   - Sebastián Guidi
 thumbnail:
-  - src: https://www.palabrasdelderecho.com.ar/articulo/5666/Juan-Carlos-Maqueda,-el-politico-que-se-convirtio-en-juez-de-la-Corte
+  - src: /img/maqueda.jpg
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
-Es habitual hablar de los cruces entre la política y la Justicia: que la Justicia está atravesada por la política se ha vuelto una verdad de Perogrullo. Pocas personas en la Argentina están mejor posicionadas que Juan Carlos Maqueda para opinar al respecto: ocupó sucesivamente los más altos cargos de una y otra esfera. De eso quisimos hablar con él. De modo refrescante, no abona el cinismo imperante y  sostiene una mirada principista acerca de las tareas que le tocó protagonizar: nos dice, entre otras cosas, que el principal requisito de un juez de la Corte es ser buena persona (además de saber derecho). A continuación, la primera parte de las dos horas que el ex juez supremo nos concedió para hablar del tema, enfocada en su carrera política. El viernes publicaremos la segunda parte, sobre algunos de sus principales votos en los 22 años que ocupó un lugar de la Corte Suprema.
+Es habitual hablar de los cruces entre la política y la Justicia: que la Justicia está atravesada por la política se ha vuelto una verdad de Perogrullo. Pocas personas en la Argentina están mejor posicionadas que Juan Carlos Maqueda para opinar al respecto: ocupó sucesivamente los más altos cargos de una y otra esfera. De eso quisimos hablar con él. Diáfanamente, no abona el cinismo imperante y  sostiene una mirada principista acerca de las tareas que le tocó protagonizar: nos dice, entre otras cosas, que el principal requisito de un juez de la Corte es ser buena persona (además de saber derecho). A continuación, la primera parte de las dos horas que el ex juez supremo nos concedió para hablar del tema, enfocada en su carrera política. El viernes publicaremos la segunda parte, sobre algunos de sus principales votos en los 22 años que ocupó un lugar de la Corte Suprema.
 
 **La Crítica: Usted ingresó a la Corte en un momento muy particular: 2002, después del intento de juicio político en la Cámara de Diputados con Duhalde como presidente. Usted era presidente provisional del Senado en aquella época. A poco tiempo de ingresar a la Corte, vivió "desde adentro" el juicio que haría Kirchner. De este segundo juicio se habla más, pero del de Duhalde se habla poco, y (por lo menos mi impresión) fue decisivo para abrir la puerta para el juicio que vendría después. Me gustaría saber cómo vivió esos dos procesos y cómo los compararía.**
 
