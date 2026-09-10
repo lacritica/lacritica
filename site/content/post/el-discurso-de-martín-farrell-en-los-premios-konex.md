@@ -4,7 +4,7 @@ slug: martin-farrell
 date: 2026-09-10T14:06:00.000-03:00
 description: Reproducimos sus palabras imprescindibles, justamente aclamadas por el público
 categories:
-  - ensayos
+  - simposios
 author:
   - Gustavo Maurino
 thumbnail:
