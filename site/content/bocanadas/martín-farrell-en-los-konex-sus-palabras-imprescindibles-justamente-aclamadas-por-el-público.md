@@ -1,6 +1,5 @@
 ---
-title: Martín Farrell en los Konex. Sus palabras imprescindibles, justamente
-  aclamadas por el público
+title: "Martín Farrell en los Konex: palabras imprescindibles, justamente aclamadas "
 date: 2026-09-10T14:16:00.000-03:00
 slug: martinfarrell
 author:
