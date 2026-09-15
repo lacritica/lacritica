@@ -1,6 +1,5 @@
 ---
 title: Aldana Micaela Díaz Gómez
-type: authors
 twitter_handle: aldi_dg
 bluesky_handle: 'No tengo, pero de instagram sí: aldi.dg'
 bio: Estudiante avanzada de Abogacía en la UBA, con experiencia en litigio, investigación

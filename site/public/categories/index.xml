@@ -16,24 +16,24 @@
       <description></description>
     </item>
     <item>
-      <title>Entrevistas</title>
-      <link>http://localhost:1313/categories/entrevistas/</link>
-      <pubDate>Fri, 11 Sep 2026 15:59:00 -0300</pubDate>
-      <guid>http://localhost:1313/categories/entrevistas/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ensayos</title>
       <link>http://localhost:1313/categories/ensayos/</link>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/ensayos/</guid>
       <description></description>
     </item>
     <item>
       <title>Reseñas</title>
       <link>http://localhost:1313/categories/rese%C3%B1as/</link>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/categories/rese%C3%B1as/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entrevistas</title>
+      <link>http://localhost:1313/categories/entrevistas/</link>
+      <pubDate>Fri, 11 Sep 2026 15:59:00 -0300</pubDate>
+      <guid>http://localhost:1313/categories/entrevistas/</guid>
       <description></description>
     </item>
     <item>

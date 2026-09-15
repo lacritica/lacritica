@@ -1,6 +1,5 @@
 ---
 title: M. Jimena Saenz
-type: authors
 bio: Investigadora adjunta CONICET, profesora de derecho constitucional (UNLP) y teoría
   del derecho (UBA)
 thumbnail: img/m_jimena_saenz.jpg
