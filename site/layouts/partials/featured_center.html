@@ -1,4 +1,7 @@
-{{ $featured := where .Site.RegularPages "Params.highlight" true }}
+{{/* Only the newest highlight:true post is featured; older ones are demoted. */}}
+{{ $active := partial "active_highlights.html" . }}
+{{ $featured := slice }}
+{{ with $active.highlight }}{{ $featured = $featured | append . }}{{ end }}
 
 {{/* If simposios grid is active, exclude simposio-category posts */}}
 {{ $simposioSection := site.GetPage "section" "simposios" }}

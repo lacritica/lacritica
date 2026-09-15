@@ -11,7 +11,7 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/maqueda.jpg
-highlight: true
+highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
 ---

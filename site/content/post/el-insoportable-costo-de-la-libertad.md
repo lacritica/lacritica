@@ -10,7 +10,7 @@ autores_grouped: por Ronald Dworkin
 thumbnail:
   - src: "/img/ronnie.webp"
 highlight: false
-highlight2: true
+highlight2: false
 callouts:
 tags: 
   - installation 

@@ -2,8 +2,11 @@
 {{ $allPosts := .Site.RegularPages.ByDate.Reverse }}
 {{ $postSection := where $allPosts "Section" "in" (slice "post" "ediciones") }}
 
-{{/* Select the first post where highlight2 is true */}}
-{{ $highlightPost := first 1 (where $postSection "Params.highlight2" true) }}
+{{/* Select the ACTIVE (newest) highlight2 post; older ones are demoted. */}}
+{{ $highlightPost := slice }}
+{{ with (partial "active_highlights.html" .).highlight2 }}
+  {{ $highlightPost = $highlightPost | append . }}
+{{ end }}
 
 {{ if gt (len $highlightPost) 0 }}
 <div class="misc-posts">

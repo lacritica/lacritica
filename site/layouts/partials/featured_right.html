@@ -2,11 +2,12 @@
 {{ $allPosts := .Site.RegularPages.ByDate.Reverse }}
 {{ $postSection := where $allPosts "Section" "post" }}
 
-{{/* Filter out posts with highlight or highlight2 */}}
+{{/* Filter out only the ACTIVE highlight / highlight2 posts. Older posts that
+     still carry the flag are demoted and flow back into this column normally. */}}
+{{ $activeURLs := (partial "active_highlights.html" .).urls }}
 {{ $filtered := slice }}
 {{ range $postSection }}
-  {{ $highlight := or (eq .Params.highlight true) (eq .Params.highlight2 true) }}
-  {{ if not $highlight }}
+  {{ if not (in $activeURLs .RelPermalink) }}
     {{ $filtered = $filtered | append . }}
   {{ end }}
 {{ end }}

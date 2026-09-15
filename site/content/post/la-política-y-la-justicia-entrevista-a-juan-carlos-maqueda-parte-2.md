@@ -10,7 +10,7 @@ author:
   - Sebastián Guidi
 thumbnail:
   - src: /img/maqueda.webp
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---

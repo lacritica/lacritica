@@ -74,25 +74,34 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-09-10T14:16:00-03:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-09-15T11:40:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-09-15T11:40:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-09-15T11:40:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-09-15T11:40:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/usura-religion-y-liberalismo/</loc>
+    <lastmod>2026-09-15T11:40:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/entrevistas/</loc>
+    <lastmod>2026-09-11T15:59:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/maqueda-2/</loc>
+    <lastmod>2026-09-11T15:59:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-09-10T14:16:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/martinfarrell/</loc>
     <lastmod>2026-09-10T14:16:00-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-09-08T17:05:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/entrevistas/</loc>
-    <lastmod>2026-09-08T17:05:00-03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/maqueda-1/</loc>
-    <lastmod>2026-09-08T17:05:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-09-08T17:05:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/2026-08/</loc>
@@ -103,9 +112,6 @@
   </url><url>
     <loc>http://localhost:1313/bocanadas/nino/</loc>
     <lastmod>2026-08-29T14:46:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-08-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
     <lastmod>2026-08-28T00:00:00+00:00</lastmod>
@@ -804,6 +810,8 @@
   </url><url>
     <loc>http://localhost:1313/autores/alberto-binder/</loc>
   </url><url>
+    <loc>http://localhost:1313/autores/aldana_micaela_d%C3%ADaz_g%C3%B3mez/</loc>
+  </url><url>
     <loc>http://localhost:1313/autores/alejandro-carrio/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/alicia-ely-yamin/</loc>
@@ -931,6 +939,8 @@
     <loc>http://localhost:1313/autores/luis-gonzalo-inarra-zeballos/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/luis-guillermo-bulit-goni/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/m_jimena_saenz/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/mabel_londo%C3%B1o_jaramillo/</loc>
   </url><url>

@@ -10,7 +10,7 @@ thumbnail:
   - src: "/img/webp/system_failure2.webp"
     epigraph: "India, 2013"
     copyright: "Ramiro Álvarez Ugarte"
-highlight: true
+highlight: false
 highlight2: false
 callouts:
 tags: 

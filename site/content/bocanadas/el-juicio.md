@@ -6,7 +6,7 @@ author:
   - Alejandro Carrió 
 obra_reseñada: "El juicio al mal. DNews, YouTube"
 exclude_thumbnail_from_body: true
-highlight2: true
+highlight2: false
 thumbnail:
   - src: "/img/alfonsin.webp"
     epigraph: "El juicio al mal. DNews, [YouTube](https://www.youtube.com/watch?v=eeNtKA72LMk)"

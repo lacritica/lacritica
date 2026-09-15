@@ -1,4 +1,11 @@
-{{ $secondaryBase := where (where .Site.RegularPages.ByDate.Reverse "Section" "post") "Params.highlight" "ne" true }}
+{{/* Exclude only the ACTIVE highlight post; demoted ones stay in the grid. */}}
+{{ $active := partial "active_highlights.html" . }}
+{{ $secondaryBase := slice }}
+{{ range where .Site.RegularPages.ByDate.Reverse "Section" "post" }}
+  {{ if not (and $active.highlight (eq .RelPermalink $active.highlight.RelPermalink)) }}
+    {{ $secondaryBase = $secondaryBase | append . }}
+  {{ end }}
+{{ end }}
 
 {{/* If simposios grid is active, exclude simposio-category posts */}}
 {{ $simposioSection := site.GetPage "section" "simposios" }}

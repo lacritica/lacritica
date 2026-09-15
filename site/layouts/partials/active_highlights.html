@@ -1,0 +1,31 @@
+{{/*
+  Returns the single "active" post for each highlight field.
+
+  Only the MOST RECENT post with `highlight: true` (and likewise `highlight2:
+  true`) is treated as featured. Older posts that still carry the flag are
+  demoted automatically: the rest of the home partials ignore their flag, so
+  they flow back into the normal listings instead of disappearing.
+
+  Usage:
+    {{ $active := partial "active_highlights.html" . }}
+    {{ $active.highlight }}   -> Page or false
+    {{ $active.highlight2 }}  -> Page or false
+    {{ $active.urls }}        -> slice of RelPermalinks of the active posts
+*/}}
+
+{{ $highlight := false }}
+{{ range first 1 (where .Site.RegularPages "Params.highlight" true).ByDate.Reverse }}
+  {{ $highlight = . }}
+{{ end }}
+
+{{ $highlight2 := false }}
+{{ $h2Scope := where .Site.RegularPages.ByDate.Reverse "Section" "in" (slice "post" "ediciones") }}
+{{ range first 1 (where $h2Scope "Params.highlight2" true) }}
+  {{ $highlight2 = . }}
+{{ end }}
+
+{{ $urls := slice }}
+{{ with $highlight }}{{ $urls = $urls | append .RelPermalink }}{{ end }}
+{{ with $highlight2 }}{{ $urls = $urls | append .RelPermalink }}{{ end }}
+
+{{ return dict "highlight" $highlight "highlight2" $highlight2 "urls" $urls }}

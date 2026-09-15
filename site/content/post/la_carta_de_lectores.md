@@ -12,7 +12,7 @@ thumbnail:
     epigraph: "Carta de lectores, La Nación"
     copyright: "12 de septiembre de 1983"
 highlight: false
-highlight2: true
+highlight2: false
 callouts:
 tags: 
   - installation 
