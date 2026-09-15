@@ -10,7 +10,7 @@ author:
   - Mariela Puga
 thumbnail:
   - src: /img/rapto_suiza.png
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 featured_callout: ""
