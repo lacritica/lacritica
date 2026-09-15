@@ -2,8 +2,8 @@
 title: Usura, Estafas y Liberalismo
 slug: usura-religion-y-liberalismo
 date: 2026-09-05T11:40:00.000-03:00
-description: Sobre las declaraciones del Presidente sobre la Usura, y que tiene
-  en común con el caso Beta y Libra.
+description: Sobre las declaraciones del Presidente acerca de la Usura, y la
+  familiaridad de argumentos con el caso Beta y Libra.
 categories:
   - debates
 author:
