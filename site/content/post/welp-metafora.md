@@ -10,17 +10,11 @@ author:
 thumbnail:
   - src: '/img/gargarella_IMG_9952.JPG'
 highlight: true
+short_simposio: Simposio | Constitucionalismo Deliberativo
 highlight2: false
 exclude_thumbnail_from_body: true
+simposio: simposio sobre Constitucionalismo Deliberativo. Objeciones a la jurisdicción constitucional y democracia deliberativa (Marcial Pons 2026), de Ignacio Giuffré.
 ---
-
-******
-
-******
-
-**Yanina Welp**
-
-**Albert Hirschman Centre on Democracy**
 
 En España, Argentina, Estados Unidos, Brasil, Hungría y Colombia, por citar unos pocos casos, los tribunales o cortes supremas están tensionados por problemáticas específicas con un fondo común: el poder último de estos órganos para decidir *solos* sobre los asuntos constitucionales más relevantes con un déficit de legitimidad política y en entornos cada vez más polarizados. Aunque el tema no es nuevo, hay mucho por decir, como demuestra *Constitucionalismo Deliberativo. Objeciones a la jurisdicción constitucional y democracia deliberativa* (Marcial Pons 2026), de Ignacio Giuffré.
 
@@ -28,7 +22,7 @@ En España, Argentina, Estados Unidos, Brasil, Hungría y Colombia, por citar un
 
 Aquí quiero centrarme en tres aportes que hace la obra: su documentado recorrido histórico y teórico, la delimitación de los desafíos de los modelos constitucionales dominantes, y su propuesta para superarlos. A esto añado un comentario crítico a la teoría deliberativa, en general, y al constitucionalismo deliberativo, en particular, que refiere a los límites que impone quedarse en un marco universal a la necesidad de contemplar la agencia como elemento clave en la traducción que conecta ideas con instituciones. Mi argumento es que este desplazamiento exige no sólo repensar el diseño institucional, sino también el ecosistema político y social en el que esas instituciones operan. Vamos por partes.
 
-**Los modelos constitucionales y sus desafíos**
+# Los modelos constitucionales y sus desafíos
 
 Los primeros capítulos del libro reconstruyen, histórica y teóricamente, la evolución del constitucionalismo moderno. El "constitucionalismo fuerte" tiene su momento fundante con la Constitución de Filadelfia en 1787. Sus características centrales son la rigidez --medida como la dificultad para cambiar la constitución--, la supremacía constitucional y el poder de veto otorgado a los tribunales.
 
@@ -40,7 +34,7 @@ Los sistemas evolucionan y se adaptan. Así lo demuestra la Carta Canadiense de 
 
 Este recorrido permite al autor analizar no sólo la tensión entre modelos sino también todas sus subvariantes y su evolución histórica. El libro en su conjunto se caracteriza por el esfuerzo, exitoso, de sistematizar objeciones, propuestas y alternativas al constitucionalismo fuerte, bases sobre las que luego analiza las respuestas que desde la teoría deliberativa se ha dado a esta problemática.
 
-**Un marco para el desarrollo del constitucionalismo deliberativo**
+# Un marco para el desarrollo del constitucionalismo deliberativo
 
 Uno de los principales argumentos a favor del constitucionalismo fuerte se centra en el rechazo a la politización --"la cultura constitucional predominante ha sostenido que las mayorías parlamentarias no tienen incentivos institucionales para asegurar la garantía de los derechos, sino más bien para conseguir la reelección en sus cargos" (p.40)-- intereses frente a los que la posición institucional de una magistratura independiente sería inmune. No hace falta dar muchas vueltas para mostrar la distancia que separa esta expectativa de la realidad en un buen número de países, empezando por los citados en la introducción, donde los nombramientos de miembros de la alta magistratura son un ámbito de disputa entre gobierno y oposición, en el mejor de los casos (en el peor reina la cooptación).
 
@@ -48,7 +42,7 @@ Pero no sólo de la experiencia surgen objeciones, también pueden plantearse de
 
 Es en este marco que la democracia deliberativa aspira, para Giuffré, a ofrecer imparcialidad y legitimidad, ya que estas dependen de un proceso abierto y continuo de justificación argumentativa entre autoridades públicas y grupos afectados. A pesar de cierto acuerdo general al respecto, el autor muestra que algunos de los principales referentes de las teorías deliberativas --Rawls, Dworkin, Lafont--, acaban defendiendo la supremacía constitucional.
 
-**Límites y desafíos del constitucionalismo deliberativo**
+# Límites y desafíos del constitucionalismo deliberativo
 
 Por último, me permito hacer algunas consideraciones críticas para alimentar el debate. En primer lugar, observo una tensión entre la expectativa de contar con un marco universal de protección de derechos que no necesariamente confluye ni va de la mano con la de promover una democracia inclusiva. Dice Ignacio: "El constitucionalismo deliberativo no presupone que, al sustraer la voz privilegiada a la jurisdicción constitucional y otorgar mayor poder a la sociedad, las decisiones serán inexorablemente correctas. Simplemente, presupone que en tales casos las decisiones gozarán de mayor legitimidad e imparcialidad. A lo sumo, cabe esperar también una mayor probabilidad de que se tomen buenas decisiones, en la medida en que se atienda a las preferencias y los problemas de las personas y grupos afectados" (p.192). Sin embargo, al no estar claros los procedimientos --debido a la tesis de la dependencia contextual-- si la teoría no sale del universal para abordar de lleno al menos algunos casos particulares corre el riesgo de quedar en la bolsa de las buenas intenciones con escasa aplicabilidad práctica. El reparo no es menor si se observa el incipiente rol de líderes políticos con agendas antiderechos y amplio apoyo popular. No se trata de contraponer una solución a otra sino de cuestionar la existencia misma de una solución universal.
 

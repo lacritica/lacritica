@@ -32,6 +32,16 @@
           {{ end }}
         {{ end }}
 
+        {{/* Solo en simposios: etiqueta con el simposio al que pertenece */}}
+        {{ if eq ($.Title | urlize) "simposios" }}
+          {{ with $post.Params.short_simposio }}
+            <div class="categories">
+              {{/* solo lo que sigue a "| " (si no hay "|", el valor completo) */}}
+              <a href="{{ $post.RelPermalink }}">{{ replaceRE `^[^|]*\|\s*` "" . }}</a>
+            </div>
+          {{ end }}
+        {{ end }}
+
         <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
 
         {{ if .Params.author }}

@@ -154,6 +154,12 @@
     data-pagefind-filter-category="{{ with .Params.category }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " | plainify }}{{ else }}{{ . | plainify }}{{ end }}{{ end }}"
     data-pagefind-filter-author="{{ with .Params.author }}{{ if (reflect.IsSlice .) }}{{ delimit . ", " }}{{ else }}{{ . }}{{ end }}{{ end }}"
       >
+    {{ with .Params.simposio }}
+      <div class="simposio-indicator" data-pagefind-ignore>
+        {{ printf "Esta entrada pertenece al %s" . | markdownify }}
+      </div>
+    {{ end }}
+
     {{/* If exclude_thumbnail_from_body is TRUE → do not insert thumbnail */}}
     {{ if .Params.exclude_thumbnail_from_body }}
       {{ .Content | safeHTML }}

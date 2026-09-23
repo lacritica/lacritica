@@ -1700,6 +1700,29 @@ body.theme-dynamic .hero-grid::before {
   color: black;
 }
 
+/* indicador de simposio (param "simposio"), arriba del cuerpo del texto */
+#content .simposio-indicator {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 2rem;
+  padding: 0.8rem 1rem;
+  background-color: var(--neutral-300);
+  border-left: 3px solid var(--forest-green-light);
+  font-family: 'Jost';
+  font-size: 1.1rem;
+  line-height: 1.4;
+  color: var(--forest-green-dark);
+}
+
+#content .simposio-indicator p {
+  margin: 0;
+}
+
+#content .simposio-indicator a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 #content .article-content {
   flex: 2;
   width:  50%;
@@ -2550,7 +2573,7 @@ body.theme-dynamic .hero-grid::before {
 .taxonomy-menu[data-term="simposios"],
 .taxonomy-layout[data-term="simposios"],
 .taxonomy-grid[data-term="simposios"] .article-taxonomy {
-  background-color: var(--accent-beige); 
+  background-color: var(--forest-green-light);
 }
 
 .taxonomy-menu[data-term="ensayos"],

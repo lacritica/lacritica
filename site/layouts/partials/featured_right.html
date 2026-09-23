@@ -47,7 +47,7 @@
       <div class="categories">
         {{ with $post.Params.categories }}
           {{ range first 1 . }}
-            <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ . }}</a>
+            <a href="{{ relURL (print "/categories/" . | urlize) }}">{{ $post.Params.short_simposio | default . }}</a>
           {{ end }}
         {{ else }}
           <a>{{ default "Uncategorized" .Site.Params.text.uncategorized }}</a>

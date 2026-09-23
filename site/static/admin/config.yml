@@ -125,6 +125,18 @@ collections:
         required: false
         hint: "Solo para reseñas: cita completa de la obra, idealmente APA (admite markdown)"
 
+      - label: "Simposio"
+        name: "simposio"
+        widget: "string"
+        required: false
+        hint: "Solo para simposios: aparece arriba del texto como 'Esta entrada pertenece al ...'. Completar solo lo que sigue, ej. 'simposio online sobre *Título del libro*' (admite markdown)"
+
+      - label: "Simposio (etiqueta corta)"
+        name: "short_simposio"
+        widget: "string"
+        required: false
+        hint: "Solo para simposios: reemplaza la etiqueta 'simposios' en la portada (hero y grilla secundaria), ej. 'simposio constitucionalismo deliberativo'"
+
       - label: "Publicado originalmente en"
         name: "publicado_originalmente_en"
         widget: "string"
