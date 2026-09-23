@@ -1,0 +1,36 @@
+---
+title: "La ficción del deber ser"
+slug: la-ficcion-del-deber-ser
+date: 2026-09-22
+description: 'El cuidado infantil frente a la realidad material.'
+categories:
+  - reseñas
+author:
+  - Aldana Micaela Díaz Gómez
+thumbnail:
+  - src: '/img/gargarella_biarritz19.JPG'
+highlight: true
+highlight2: false
+exclude_thumbnail_from_body: true
+---
+
+El reciente libro *Políticas de cuidado infantil*, escrito por Mercedes Cavallo y publicado por Ediciones Didot (2026), llega en un momento bisagra para los debates sobre género, natalidad y políticas públicas en Argentina. Desde mi experiencia como asistente de investigación de esta obra, puedo afirmar que nos encontramos ante un trabajo que sacude las estructuras tradicionales de nuestra disciplina.
+
+Al enfrentarme a los crudos números sobre la "penalidad por maternidad" que expone la investigación, es imposible no conectar esta realidad material con la actual crisis de natalidad que atraviesa el país. Hoy en día, existe un intenso debate mediático y social sobre quién o qué tiene la culpa de este descenso demográfico. Sin embargo, los datos hablan por sí solos: no es culpa de ningún movimiento en particular, ni de un cambio de mentalidad aislado. La responsabilidad recae, en gran parte, en una infraestructura social que, sostenida por el propio derecho, temporaliza la vida de las mujeres y las espacializa, confinándolas al ámbito doméstico.
+
+El ordenamiento jurídico puede establecer obligaciones estatales majestuosas en favor de la igualdad de oportunidades, pero la relación entre las normas jurídicas y las prácticas sociales es mucho más compleja: las prácticas no se transforman automáticamente por la existencia de un mandato normativo, pero tampoco el derecho es ajeno a ellas. Por el contrario, las propias configuraciones jurídicas contribuyen a producir y organizar las prácticas y los objetos que regulan. 
+
+Esta asfixia estructural y de tiempo, sumada a la compleja situación económica argentina, permite preguntarnos si estas condiciones materiales pueden tener alguna relación con el hecho de que toda una generación haya postergado o reconsiderado el deseo de maternar y paternar. El libro no plantea esta relación como una causalidad lineal, pero sí ofrece herramientas para pensar cómo las formas jurídicas de organizar el tiempo, el espacio y las responsabilidades de cuidado condicionan materialmente las trayectorias de las personas. El derecho, atrapado en sus propias dinámicas, tampoco puede pensarse como una estructura externa a estas prácticas, sino como parte de las formas en que estas se producen, reproducen y disputan.
+
+En este punto, el libro asume una postura valiente y confrontativa, obligándonos a repensar las estrategias legislativas que solemos militar. Quienes nos encontramos estudiando la carrera, a menudo caemos en la trampa de abstraer nuestra disciplina del resto de las ciencias sociales. Solemos creer que con sancionar una ley "integral" el problema distributivo queda resuelto. La autora demuestra que la cuestión es todavía más profunda: no alcanza con suponer que existe un "problema del cuidado" externo al derecho que una nueva ley integral simplemente pueda solucionar.
+
+El propio derecho configura aquello que pretende regular a través de múltiples prácticas, autoridades, tiempos y espacios. Por eso, una ley integral no elimina automáticamente esa multiplicidad ni garantiza, por sí misma, una distribución más justa del cuidado. La norma no vive únicamente en el plano abstracto del "deber ser": también produce efectos materiales y configura las prácticas que pretende ordenar.
+ La perspectiva de la geografía jurídica que atraviesa el libro resulta reveladora para entender las consecuencias prácticas de estas configuraciones. Un ejemplo claro, aunque no el único, son los regímenes de licencias laborales. Otorgar sistemáticamente más días a las madres y una cantidad ínfima a los padres no es solo un reconocimiento biológico (que, desde ya, es imprescindible en los primeros meses de vida); es también una declaración política e institucional de que el deber de cuidado pesa, casi de manera exclusiva, sobre un solo género. Esta espacialización y temporalización promovida por la propia ley termina reforzando discursos y realidades que un derecho moderno, y verdaderamente comprometido con una perspectiva de género, ya no debería tolerar.
+
+Es en esta encrucijada donde el libro introduce uno de sus aportes más lúcidos y provocadores, la conceptualización de la "integralidad" como una verdadera tecnología de poder y de producción de escala. Nos invita a entender que los constantes reclamos por una ley integral no son simplemente una forma de rebelarse contra un sistema estructuralmente inequitativo. En realidad, operan también como una estrategia política profunda para ampliar el alcance, la estabilidad y la capacidad de incidencia de los actores feministas en la disputa por los significados y los recursos en la arena pública.
+
+El derecho al cuidado es un instituto transversal que va mucho más allá del feminismo; es una realidad material que atraviesa las puertas de todos los hogares, sin importar su orientación política, clase o composición. Cada actor social, en su cotidianidad, siente el peso, el cansancio y el desgaste cuando ese cuidado no está siendo igualitario entre todos los integrantes del núcleo familiar.
+
+Al presentar la integralidad como una tecnología de poder, la obra nos muestra que la exigencia de una ley unificada puede permitir establecer un horizonte común. Es decir, puede contribuir a construir un consenso más amplio en torno a la necesidad de un sistema integral de cuidados, unificando demandas y ampliando el alcance de quienes las impulsan, sin que sea estrictamente necesario que toda la comunidad adhiera de antemano a la teoría feminista para comprender la urgencia de esta redistribución.
+
+Esta herramienta jurídica y discursiva permite a los movimientos sociales ganar estabilidad, alcance e influencia, transformando el malestar privado de las familias en una agenda pública con una capacidad de incidencia real. La integralidad, entonces, funciona mejor como una tecnología de poder que como una tecnología de redistribución porque no garantiza por sí misma una distribución más justa del cuidado, pero puede contribuir a construir y fortalecer al actor político capaz de disputar esa redistribución. En definitiva, la lectura de este libro es imprescindible porque demuestra, con contundencia, que el derecho como disciplina autónoma nunca logrará, por sí solo, un cambio estructural en las prácticas sociales. Nos permite salir de la burbuja jurídica para comprender que, a la hora de aplicar la regulación —y sobre todo dentro de la lucha por una normativa feminista y respetuosa de los derechos de las mujeres— y enfrentarnos a los actores sociales, no basta con la coerción o la imposición jerárquica. Tampoco se trata simplemente de hacer una ley más integral, sino de preguntarse qué queremos que esa integralidad produzca, para quién, en qué escala y mediante qué prácticas jurídicas.
