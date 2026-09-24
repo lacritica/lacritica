@@ -1,7 +1,7 @@
 ---
 title: Marcos de Armenteras Cabot
 slug: marcos-de-armenteras-cabot
-thumbnail: 
+thumbnail: /img/marcos-armenteras.webp
 bio: Profesor ayudante doctor en la Universidad de las Islas Baleares
 twitter_handle: 
 orcid: 0000-0001-9137-8698
