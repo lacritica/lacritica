@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Simposios on La Crítica</title>
-    <link>http://localhost:54317/categories/simposios/</link>
+    <link>http://localhost:64029/categories/simposios/</link>
     <description>Recent content in Simposios on La Crítica</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Sep 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:54317/categories/simposios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:64029/categories/simposios/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>El sueño deliberativo ante los retos contemporáneos</title>
+      <link>http://localhost:64029/post/armenteras/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:64029/post/armenteras/</guid>
+      <description>&lt;p&gt;El pasado 3 de julio tuvimos la fortuna de contar con Ignacio Giuffré para la presentación de su libro &lt;em&gt;Constitucionalismo deliberativo. Objeciones a la jurisdicción constitucional y democracia deliberativa&lt;/em&gt; (Marcial Pons, 2026, 318 pp.) en el marco del Seminario de Filosofía Práctica de la Universitat de les Illes Balears. Pese a lo intempestivo de las fechas, contamos con una nutrida presencia de investigadores de las Facultades de Filosofía y de Derecho, lo que propició un debate especialmente vivo y sugerente. En lo que sigue me gustaría detenerme en una cuestión que conecta con el libro que me parece particularmente significativa.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>¿Metáfora mecánica o analogía biológica?</title>
-      <link>http://localhost:54317/post/welp-metafora/</link>
+      <link>http://localhost:64029/post/welp-metafora/</link>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:54317/post/welp-metafora/</guid>
+      <guid>http://localhost:64029/post/welp-metafora/</guid>
       <description>&lt;p&gt;En España, Argentina, Estados Unidos, Brasil, Hungría y Colombia, por citar unos pocos casos, los tribunales o cortes supremas están tensionados por problemáticas específicas con un fondo común: el poder último de estos órganos para decidir &lt;em&gt;solos&lt;/em&gt; sobre los asuntos constitucionales más relevantes con un déficit de legitimidad política y en entornos cada vez más polarizados. Aunque el tema no es nuevo, hay mucho por decir, como demuestra &lt;em&gt;Constitucionalismo Deliberativo. Objeciones a la jurisdicción constitucional y democracia deliberativa&lt;/em&gt; (Marcial Pons 2026), de Ignacio Giuffré.&lt;/p&gt;</description>
     </item>
   </channel>
