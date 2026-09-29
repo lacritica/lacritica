@@ -4,7 +4,7 @@ slug: cndonald
 date: 2026-09-23
 description: 'O cómo cumplir con la promesa inconclusa de la democracia deliberativa.'
 categories:
-  - simposio
+  - simposios
 author:
   - Constanza Núñez Donald
 thumbnail:
