@@ -4,6 +4,8 @@ date: 2026-09-30T18:36:00.000-03:00
 slug: estornudos-de-la-corte-suprema-y-la-ley-de-tierras
 author:
   - Mariela Puga
+thumbnail:
+  - src: /img/paris6.JPG
 ---
 Todos estornudamos, inevitablemente. A cierta edad lo vemos venir, y a veces alcanzamos a taparnos boca y nariz, a salirnos de la habitación o a mirar a otro lado antes de bañar con nuestra saliva a todxs en rededor. La Corte acaba de estornudar sobre todos nosotrxs, como si careciera de la adultez para autocontrolarse.[^1]  
 
