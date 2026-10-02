@@ -1,0 +1,63 @@
+---
+title: "Quien gobierna la casa"
+slug: quien-gobierna-la-casa
+date: 2026-10-02
+description: 'A propósito de *La Corte Suprema de Justicia de la Nación que queremos*.'
+categories:
+  - reseñas
+author:
+  - Quimey Báez Sevilla
+thumbnail:
+  - src: '/img/corte-queremos.jpeg'
+highlight: false
+obra_reseñada: N. De la Torre, V. Flores Beltrán y M. Herrera (coords.), *La Corte Suprema de Justicia de la Nación que queremos. Una mirada crítica desde los feminismos*, Buenos Aires, Editores del Sur, 2026, 486 págs.
+highlight2: false
+exclude_thumbnail_from_body: true
+callouts: 
+  - "Hay libros que suman información a un debate y otros que cambian la pregunta. *La Corte que queremos* tiene de las dos cosas."
+featured_callout: 0
+---
+
+Desde la salida de Elena Highton de Nolasco, la Corte Suprema argentina no tiene ninguna mujer entre sus integrantes. El dato es conocido, se repite y casi dejó de incomodar. Este libro, el tercero de la Red de Profesoras de la Facultad de Derecho de la UBA, parte de ese hecho, pero no se queda ahí.
+
+La pregunta del título no es cuántas mujeres faltan en la Corte, sino qué Corte queremos; o que obliga a mirar su diseño, su historia, sus prácticas y su jurisprudencia con otros ojos.
+
+Con ese propósito, la obra reúne veintidós trabajos organizados en cinco partes, precedidos por unas palabras introductorias de las coordinadoras. La primera parte revisa las bases del diseño y funcionamiento del tribunal. Allí, Laura María Giosa analiza la paridad de género desde el derecho internacional de los derechos humanos; Marisa Herrera examina la Corte a partir de las nociones de privilegios e intereses; y Estefanía Giaccone y Laura Clérico estudian las acordadas dictadas desde diciembre de 2023. A su vez, Juliana Kina, María Eugenia Rodríguez Pería y Silvina Zimerman muestran cómo la Procuración General de la Nación puede sentar bases para una Corte con perspectiva de género en el ámbito no penal, mientras que María Soledad Manin propone repensar la Oficina de la Mujer y la Oficina de Violencia Doméstica con herramientas del derecho administrativo.
+
+La segunda parte se ocupa de la historia y las identidades. Leticia Vita se pregunta cómo escribir una historia feminista de la Corte, y Déborah González Area y Anabel Soledad Papa analizan cómo los votos de Carmen Argibay y de Highton ampliaron el reconocimiento de derechos humanos y el canon de la perspectiva de género. En la misma línea, Ana María Bestard y María Rosa Ávila vuelven sobre el voto de Argibay en "Quisberth Castro", y María Gabriela Minaggia recorre la participación política de las mujeres en relación con el sufragio femenino.
+
+La tercera parte, dedicada a los desafíos y las deudas pendientes de la participación paritaria, incluye el artículo que motiva esta reseña, junto con el trabajo de Fernanda Maciel sobre el funcionamiento y la composición del tribunal, y el de Virginia Marturet y María Laura Ribeiro sobre la longevidad desde la mirada de las mujeres.
+
+La cuarta parte reúne propuestas de apertura y democratización. Ornela Mazza Gigena reclama una Corte abierta y transparente en materia de acceso a la información, y María Valentina Gleizer Goyeneche se pregunta qué significa fundamentar una sentencia con perspectiva de género, en contrapunto con Minor Salas. Completan la sección Mariana Barbitta y Yamila Negri, que defienden la oralidad en los casos de trata, y María Andrea Cuéllar Camarena y Marina Ditieri, que comparan la acción de inconstitucionalidad en México y en Argentina.
+
+Finalmente, la quinta parte prueba el enfoque en campos específicos. Paula Sagel analiza el poder de nominación de la Corte frente a la ciudadanía transfeminista, y María José Lubertino Beltrán imagina una Corte ecofeminista. Natalia de la Torre, por su lado, examina los fallos sobre fertilización *post mortem* y gestación por sustitución, y Mónica Míguez sigue los estándares probatorios en discriminación y violencia laboral. Cierran el volumen Silvina Érica Coronello, que aborda el control de constitucionalidad y convencionalidad con enfoque de género, y Julia Lisman, que revisa lo que la Corte no dijo sobre la igualdad en materia tributaria.
+
+Como suele ocurrir en las obras colectivas, los trabajos tienen tonos y extensiones diversas, reflejo de la pluralidad de miradas que las coordinadoras decidieron reunir. Comparten, sin embargo, una virtud poco habitual: no se detienen en el diagnóstico. Aun partiendo de datos y bases descriptivas, las autoras se animan a proponer cómo podría ser la Corte, además de describir cómo es.
+
+{{< fencing >}}
+
+Entre esas veintidós voces quiro hacer foco en una que, en parte, corre el eje de la discusión. Se trata del trabajo de Olivia R. Irala González, "El gobierno de la casa: mujeres, poder judicial y la transformación del sentido del derecho" (pp. 225-243).
+
+El título -con la referencia homérica del ep{igrafe- nos adelanta la tesis. Durante siglos, la casa fue el único gobierno reconocido a las mujeres: ese espacio doméstico y privado que quedaba fuera de la ley. La otra casa, la de la justicia, estuvo, en cambio, reservada a los varones. Irala González no se conforma con reclamar que las mujeres entren a esa segunda casa,sino que piensa y pregunta quién la gobierna y bajo qué reglas.
+
+El recorrido del artículo empieza por pensar el Poder Judicial como un campo de disputa y de reproducción del poder. Como aclara la autora, "este trabajo (...) no pretende emitir juicios sobre situaciones particulares, sino analizar las lógicas de poder y autoridad que han configurado sus prácticas y sus sentidos, con el propósito de abrir nuevas preguntas sobre el ejercicio del poder y la justicia" (p. 225). A partir de allí, describe a la Corte Suprema como un territorio reservado, del que las mujeres fueron excluidas de manera estructural.
+
+El artículo distingue y analiza la tensión entre *presencia* y *transformación*. Llegar no alcanza: quien accede a un espacio construido por otros y para otros enfrenta una fuerte presión para adaptarse, para mimetizarse con los códigos del lugar, y en ese movimiento la presencia puede quedar vacía de efecto. De ahí que la autora advierta que "toda inclusión femenina corre el riesgo de volverse funcional al orden que pretende cuestionar" (p. 228).
+
+Frente a ese riesgo, el cierre propone una práctica jurídica feminista entendida como *disrupción*; es decir, no una cuota de mujeres que juzgan igual que los varones, sino otra manera de concebir lo que hacemos cuando interpretamos el derecho.
+
+Ahí está, a mi juicio, lo esencial del aporte. El artículo da vuelta la mirada habitual sobre la interpretación jurídica. Solemos pensar el derecho como un conjunto de normas neutras que se aplican con más o menos acierto, y la desigualdad como un defecto de aplicación que se corrige con mejores jueces. Irala González sugiere algo más incómodo, postulando que el derecho es también una construcción narrativa. Que cuenta una historia sobre quiénes somos, qué es razonable, qué merece protección y quién habla con autoridad; y esa historia se escribió desde la experiencia masculina. Y que por eso, tiende a reforzar los mandatos sociales de los varones y a consolidar las diferencias, incluso cuando se presenta como imparcial.
+
+Quienes trabajamos todos los días dentro de un tribunal reconocemos esa narrativa en detalles mínimos. Lo vemos al presuponer qué se considera un argumento serio y qué una opinión; en qué pruebas tienen peso y cuáles se descartan por "subjetivas"; en la voz impersonal de las sentencias, que borra a quien las escribe. Ninguna de estas prácticas es neutral. El artículo nos impulsa a nombrarlo (mas allá del "téngase presente" de uso judicial) y, en esto, dialoga bien con otros trabajos del libro, como el de Vita sobre una historiografía de la Corte sin mujeres o el análisis de los votos de Argibay, que muestran qué ocurre cuando alguien decide narrar el derecho de otra manera.
+
+Para explicar por qué la presencia no alcanza, Irala González retoma una observación de Rita Segato, según la cual las mujeres que llegan a posiciones de autoridad en las instituciones tienden a ejercer ese poder según el *ethos* masculino que domina esas estructuras (Segato, 2018), en una suerte de adaptación que se revela como en una estrategia para permanecer y ascender. Quien entra a un espacio organizado por otros y para otros aprende rápido que conviene hablar *el idioma de la casa*. La firmeza se entiende como dureza, la distancia afectiva pasa por imparcialidad y la disponibilidad sin límites funciona como prueba de compromiso. El androcentrismo institucional, así, no necesita excluir a nadie de manera explícita, porque le basta con fijar las condiciones del éxito.
+
+Con todo, la autora formula de manera explícita el propósito de su trabajo: resignificar los sentidos del poder, del derecho y de la justicia. Y lo hace a través de preguntas: "¿Cómo alcanzarían las mujeres el poder desde una mirada transformadora, capaz de romper con la lógica de dominación? ¿Es posible redefinir el derecho desde su sentido, y la autoridad dentro de una institución que históricamente las excluyó?" (pp. 241-242). Esas preguntas abren otra que me parece central: ¿por qué la casa, el lugar al que históricamente se confinó a las mujeres, quedó marcada como un ámbito de menor jerarquía? El cuidado sostiene y gestiona la vida entera, desde la crianza hasta la enfermedad y la adultez mayor, y también las tramas de afecto sin las cuales ninguna institución funcionaría. Aun así, el derecho lo ubicó del lado de lo privado, de lo no remunerado, de lo que no produce saber ni autoridad. La subestimación del espacio doméstico y el apartamiento de las mujeres de *la casa de la justicia* obedecen a una misma matriz de dominación. Por eso, redefinir la autoridad, como propone la autora, exige también revisar la jerarquía entre esas dos casas.
+
+A mi modo de ver, la respuesta a las preguntas de Irala González nos impulsa a poner en valor lo que las mujeres traemos de esa *otra* casa. La *ética del cuidado* ofrece un marco para hacerlo, en tanto permite concebir el derecho de otro modo, a partir de las relaciones, el contexto y la responsabilidad por el otro, y no solo desde reglas abstractas aplicadas a sujetos indiferenciados. Carol Gilligan (2003) demostró que ese modo de razonar había sido calificado como una etapa inferior del desarrollo moral por el solo hecho de no coincidir con el modelo formal y abstracto construido desde la experiencia masculina. Era una forma distinta de pensar lo justo, que la tradición jurídica nunca se tomó el trabajo de considerar.
+
+Esa voz es, precisamente, la que el derecho necesita. La justicia entendida como la aplicación de reglas universales a sujetos indiferenciados uniforma, no repara en las diferencias y, como advertía Victoria Camps, nunca alcanza a todos. Por eso necesita completarse con aquello que la tradición jurídica expulsó: el cuidado, la solidaridad y la capacidad de conmoverse frente al dolor ajeno.
+
+La práctica jurídica disruptiva y transformadora supone que las mujeres no accedan al poder imitando el *ethos* masculino descripto por Segato, sino transformando desde adentro las formas de razonar, de valorar y de decidir que la institución consolidó como propias. Ahí se juega, según el planteo de Irala González, la diferencia entre ocupar un lugar y transformarlo. Su trabajo no se detiene en la denuncia de la exclusión, sino que se pregunta por el sentido mismo del derecho y de la autoridad; en esa pregunta reside su mayor fortaleza. Es también la pregunta que recorre el libro en su conjunto, cuyas autoras, desde enfoques y materias diversas, coinciden en que una Corte distinta no depende solo de quiénes la integran, sino del modo en que concibe el derecho que aplica.
+
+Hay libros que suman información a un debate y otros que cambian la pregunta. *La Corte que queremos* tiene de las dos cosas, y el trabajo de Irala González pertenece claramente a la segunda clase, porque nos recuerda que la paridad es el punto de partida y no la meta. La meta es que las mujeres podamos habitar *la casa de la justicia* sin dejar de ser quienes somos, y que el derecho aprehenda, por fin, de todo aquello que durante siglos decidió excluir. En un momento en que la Corte funciona sin mujeres, esa discusión es impostergable. Porque la pregunta, al final, no es solo quién gobierna la casa, sino desde qué concepción del derecho y de la justicia se la gobierna. Desde ahí parte cualquier transformación posible, y es esa la pregunta que este libro, y en especial el trabajo de Irala González, se animan a formular.

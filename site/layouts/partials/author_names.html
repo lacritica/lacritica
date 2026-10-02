@@ -21,10 +21,10 @@
     {{/* -- page-finding block unchanged -- */}}
     {{ $authorPage := site.GetPage (printf "/autores/%s" $authorSlug) }}
     {{ if not $authorPage }}
-      {{ $authorPage = where site.RegularPages "Params.slug" $authorSlug | first 1 }}
+      {{ with where site.RegularPages "Params.slug" $authorSlug }}{{ $authorPage = index . 0 }}{{ end }}
     {{ end }}
     {{ if not $authorPage }}
-      {{ $authorPage = where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") | first 1 }}
+      {{ with where site.RegularPages "RelPermalink" (print "/autores/" $authorSlug "/") }}{{ $authorPage = index . 0 }}{{ end }}
     {{ end }}
     {{ if not $authorPage }}
       {{ $cand := where site.RegularPages "Section" "autores" }}
