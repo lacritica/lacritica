@@ -2,9 +2,9 @@
 title: Una conversación abierta
 slug: una-conversacion-abierta
 date: 2026-10-01
-description: 'Sigue el simposio de *Constitucionalismo deliberativo": objeciones
-  a la jurisdicción constitucional y democracia deliberativa*, de Ignacio
-  Giuffré.'
+description: 'Sigue el simposio de *"Constitucionalismo deliberativo"*:
+  objeciones a la jurisdicción constitucional y democracia deliberativa de
+  Ignacio Giuffré.'
 categories:
   - simposios
 author:
