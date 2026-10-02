@@ -1,22 +1,33 @@
 ---
-title: "Quien gobierna la casa"
+title: Quien gobierna la casa
 slug: quien-gobierna-la-casa
 date: 2026-10-02
-description: 'A propósito de *La Corte Suprema de Justicia de la Nación que queremos*.'
+description: A propósito de *La Corte Suprema de Justicia de la Nación que queremos*.
 categories:
   - reseñas
 author:
   - Quimey Báez Sevilla
 thumbnail:
-  - src: '/img/corte-queremos.jpeg'
+  - src: /img/corte-queremos.jpeg
 highlight: false
-obra_reseñada: N. De la Torre, V. Flores Beltrán y M. Herrera (coords.), *La Corte Suprema de Justicia de la Nación que queremos. Una mirada crítica desde los feminismos*, Buenos Aires, Editores del Sur, 2026, 486 págs.
 highlight2: false
 exclude_thumbnail_from_body: true
-callouts: 
-  - "Hay libros que suman información a un debate y otros que cambian la pregunta. *La Corte que queremos* tiene de las dos cosas."
+callouts:
+  - Hay libros que suman información a un debate y otros que cambian la
+    pregunta. *La Corte que queremos* tiene de las dos cosas.
 featured_callout: 0
+obra_reseñada: N. De la Torre, V. Flores Beltrán y M. Herrera (coords.), *La
+  Corte Suprema de Justicia de la Nación que queremos. Una mirada crítica desde
+  los feminismos*, Buenos Aires, Editores del Sur, 2026, 486 págs.
 ---
+> *“Madre mía —replica—, vela delante de la casa y ocupate
+> de tus labores propias, del telar y de la rueca ...
+> El relato estará al cuidado de los hombres;
+> y sobre todo al mío. Mío es, pues, el gobierno de la casa”.*
+
+— Homero, *La Odisea*, canto I, vv. 246-249 (trad. de Mary Beard)
+
+
 
 Desde la salida de Elena Highton de Nolasco, la Corte Suprema argentina no tiene ninguna mujer entre sus integrantes. El dato es conocido, se repite y casi dejó de incomodar. Este libro, el tercero de la Red de Profesoras de la Facultad de Derecho de la UBA, parte de ese hecho, pero no se queda ahí.
 
