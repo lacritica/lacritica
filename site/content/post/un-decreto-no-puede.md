@@ -12,7 +12,7 @@ author:
 thumbnail:
   - src: '/img/oax112.jpg'
 highlight: false
-publicada_originalmente_en: Página/12, [2 de octubre de 2026](https://www.pagina12.com.ar/2026/10/01/un-decreto-no-puede-derogar-una-ley-y-la-corte-lo-sabe/). 
+publicado_originalmente_en: Página/12, [2 de octubre de 2026](https://www.pagina12.com.ar/2026/10/01/un-decreto-no-puede-derogar-una-ley-y-la-corte-lo-sabe/). 
 highlight2: false
 exclude_thumbnail_from_body: true
 ---
