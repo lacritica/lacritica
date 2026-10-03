@@ -10,8 +10,8 @@ author:
   - Alberto Binder
 thumbnail:
   - src: /img/whatsapp-image-2026-09-27-at-15.08.18-1-.jpeg
-highlight: false
-highlight2: true
+highlight: true
+highlight2: false
 exclude_thumbnail_from_body: false
 featured_callout: ""
 ---
