@@ -1,14 +1,15 @@
 ---
-title: "Por qué la nueva derecha jurídica argentina no tiene quién le escriba"
+title: Por qué la nueva derecha jurídica argentina no tiene quién le escriba
 slug: la-nueva-derecha-juridica-argentina
-date: 2026-10-02
-description: 'Algunas reflexiones, a propósito de la presentación del libro de Dyzenhaus en la Universidad de Nueva York.'
+date: 2026-10-02T00:01:00.000-03:00
+description: Algunas reflexiones, a propósito de la presentación del libro de
+  Dyzenhaus en la Universidad de Nueva York.
 categories:
   - ensayos
 author:
   - Nahuel Maisley
 thumbnail:
-  - src: '/img/oax18.jpg'
+  - src: /img/oax18.jpg
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
