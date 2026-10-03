@@ -1,8 +1,8 @@
 ---
-title: UNA INTERPRETACIÓN LEGULEYA DE LA CONSTITUCIÓN
+title: Una interpretación leguleya de la Constitución
 slug: corteleguleya
 date: 2026-10-03T02:13:00.000+02:00
-description: Alberto Binder, el máximo Procesalista del país, y reciente Premio
+description: Alberto Binder, el máximo procesalista del país, y reciente Premio
   Konex en su área, sobre el fallo de la Corte en CECIM
 categories:
   - ensayos
