@@ -7,6 +7,8 @@ categories:
   - ensayos
 author:
   - Sebastián Guidi
+thumbnail:
+  - src: /img/160BB131-346F-4969-B901-7A7A4DFCAE7D_1_201_a.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
