@@ -1,7 +1,8 @@
 ---
 title: Laura Clérico
 slug: laura-clerico
-bio: Doctora en Derecho (Universidad de Kiel). Profesora de Derecho Constitucional (UBA). Investigadora del CONICET.
+bio: Abogada (UBA), Doctora en Derecho (Uni-Kiel), Profesora Titular de Cátedra de Derecho Constitucional, Facultad de Derecho, Universidad de Buenos Aires.
+thumbnail: /img/laura_clerico.jpeg
 ---
 
-Doctora en Derecho (Universidad de Kiel, Alemania). Profesora de Derecho Constitucional en la Facultad de Derecho de la Universidad de Buenos Aires. Investigadora del Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET).
+Abogada (UBA), Doctora en Derecho (Uni-Kiel), Profesora Titular de Cátedra de Derecho Constitucional, Facultad de Derecho, Universidad de Buenos Aires.
