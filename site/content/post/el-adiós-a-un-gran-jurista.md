@@ -9,7 +9,7 @@ author:
   - Martín Farrell
 thumbnail:
   - src: https://static.eldiario.es/clip/b2062ea4-7132-4fbf-837d-5bd5aebaa0f6_16-9-discover-aspect-ratio_default_0_x300y94.webp
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
