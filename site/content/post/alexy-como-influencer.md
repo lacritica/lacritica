@@ -1,7 +1,7 @@
 ---
 title: Robert Alexy como influencer
 slug: alexy-influencer
-date: 2026-09-29T09:53:00.000-03:00
+date: 2026-10-06T09:07:00.000-03:00
 description: Un jurista alemán de prosa oscura hizo viral la ponderación en
   América Latina y dejó su marca visible
 categories:
