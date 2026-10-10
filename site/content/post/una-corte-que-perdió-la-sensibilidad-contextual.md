@@ -8,7 +8,7 @@ categories:
 author:
   - Roberto Gargarella
 thumbnail:
-  - src: https://photos.app.goo.gl/abAbt8Pks71AREVm6
+  - src: /img/333ADB5E-D959-4F93-8166-D2E85EF3C45A_1_201_a.jpeg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: false
