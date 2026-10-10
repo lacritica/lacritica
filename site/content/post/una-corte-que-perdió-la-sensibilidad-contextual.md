@@ -2,7 +2,7 @@
 title: Una Corte que perdió la sensibilidad contextual
 slug: corte-desnorteada
 date: 2026-10-10T11:01:00.000-03:00
-description: Escenas de una Corte desnorteada en "Arbol de Pie"
+description: Escenas de una Corte desnorteada en la saga "C.E.C.I.M." - "Arbol de Pie"
 categories:
   - ensayos
 author:
