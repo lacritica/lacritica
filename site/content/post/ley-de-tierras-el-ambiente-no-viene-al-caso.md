@@ -7,7 +7,7 @@ description: La sentencia en CECIM, nos dice la autora, sólo se explica para
 categories:
   - ensayos
 author:
-  - Federico Ambroggio
+  - María Florencia Saulino
 thumbnail:
   - src: /img/gargarella_IMG_9923.JPG
 highlight: false
