@@ -11,9 +11,7 @@ Lo que empezó con una decisión de la Corte de consecuencias absurdamente radic
 
 Como docente, no puedo sino cerrar esta crónica desafortunada con la pregunta: **¿Qué aprendimos de todo esto?** Se me ocurre especular con tres lecciones, pero voy por ahora por dos.
 
-
-
-Lección 1: Hay que salir del rol de **Rey Desnudo**
+**Lección 1**: Hay que salir del rol de **Rey Desnudo**
 
 La [historia de Andersen ](https://search.brave.com/search?q=rey+desnudo&conversation=09adff05a05652193666a2d2333c8db9c003)(1837) narra cómo dos estafadores convencen a un rey vanidoso de que ellos tejen una tela que es invisible para los "inútiles o estúpidos." Consigue que todos, incluido el monarca, finjan ver el traje para no parecer ineptos. La farsa se desmorona cuando un niño grita en el desfile final: «¡El rey va desnudo!», y todos finalmente admiten la evidencia.
 
@@ -27,9 +25,7 @@ Primero descarta cada año cientos de casos que le llegan por falta de trascende
 
 Hay varias opciones de rediseño institucional que podrían ayudar a restablecer cierta confianza. Pero lo más obvio es que es la misma corte la que podría apuntalar la casa con criterios de prelación de casos, o bien, dando más transparencia, debate y fundamento a las decisiones de decidir que toma. Pero prefiere ponerlas en el lugar de lo que “no se habla”, y entonces crece la sensación de que no decide por la regla, sino por el resultado.
 
-
-
-Lección 2: La acumulación de casos colectivos como estrategia de **Cherry Picking**
+**Lección 2:** La acumulación de casos colectivos para el **Cherry Picking**
 
 El presidente gusta de advertir sobre el sesgo cognitivo llamado “cherry picking”: seleccionar intencionalmente datos, evidencias o casos que respaldan una postura. Esto es lo que hace la Corte a través de la forma equivocada en que “acumula” casos colectivos, y que quedó al desnudo al decidir el caso “Árbol de Pie”.
 
