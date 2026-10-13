@@ -17,7 +17,7 @@ La [historia de Andersen ](https://search.brave.com/search?q=rey+desnudo&convers
 
 Pareciera que alguien convenció a la Corte de que lo correcto y más importante era decidir ahora CECIM para negarle la legitimación activa, y que quienes no lo ven, no entienden nada. "La soberanía no es un bien colectivo, estúpido!" En su vanidad o en su torpeza, la Corte salió desnuda a la calle. Y alguien gritó “porqué nos quitan la ley de tierras”, y fue como si tirara gasolina al fuego. El desprecio generalizado contra la Corte no cesa en las redes, en la prensa, y en las manifestaciones populares, ni aún después de volver sobre sus pasos a limpiar el enchastre con un trapo sucio.
 
-*El punto es sencillo:* La Corte no tiene plazos para decidir los casos, ni regla que la obligue a decidir primero uno que otro. Toma la decisión de decidir sin dar ni un solo fundamento o transparentar criterio, pretendiendo que asumamos la decisión como una tormenta natural, que llega los días de acuerdo. Y que sigamos creyendo que ella es una "autoridad incitada."
+*El punto es sencillo:* La Corte no tiene plazos para decidir los casos, ni regla que la obligue a decidir primero uno que otro. Toma la decisión de decidir sin dar ni un solo fundamento o transparentar criterio, pretendiendo que asumamos la decisión como una tormenta natural, que llega los días de acuerdo. Y que sigamos creyendo mientras llueve, que ella es una "autoridad incitada."
 
 Esta discrecionalidad de la que "no se habla" está desintegrando la legitimidad de la justicia. Ya nadie creer que la Corte decide pensando en “la regla, sin importar las consecuencias”, cuando elige casos de consecuencias políticas tan radicales (y en  momentos más sensibles), y no explica porque no decide otros, o porque éste, ahora.
 
