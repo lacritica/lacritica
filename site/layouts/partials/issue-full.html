@@ -5,14 +5,29 @@
 {{ $seen := slice }}
 {{ $specific := slice }}
 
-{{/* Collect specific categories from this month's posts */}}
+{{/* Simposio posts are left out of an issue unless the issue names them in
+     `simposios`, by filename or slug (e.g. `- riesgos-de-maximalismo`). A post
+     counts as simposio if it is in the "simposio"/"simposios" category or has
+     a `simposio` param. */}}
+{{ $picked := .Params.simposios | default slice }}
+{{ $issuePosts := slice }}
 {{ range site.RegularPages }}
   {{ $d := or .PublishDate .Date }}
   {{ if and $d (eq ($d.Format "2006-01") $month) }}
-    {{ range .Params.categories }}
-      {{ if and (not (in $generic .)) (not (in $specific .)) }}
-        {{ $specific = $specific | append . }}
-      {{ end }}
+    {{ $isSimposio := or (intersect (slice "simposio" "simposios") (.Params.categories | default slice)) .Params.simposio }}
+    {{ $name := "" }}
+    {{ with .File }}{{ $name = .ContentBaseName }}{{ end }}
+    {{ if or (not $isSimposio) (in $picked $name) (in $picked .Slug) }}
+      {{ $issuePosts = $issuePosts | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* Collect specific categories from this month's posts */}}
+{{ range $issuePosts }}
+  {{ range .Params.categories }}
+    {{ if and (not (in $generic .)) (not (in $specific .)) }}
+      {{ $specific = $specific | append . }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -63,11 +78,8 @@
       {{ $cat := . }}
       {{ $posts := slice }}
 
-      {{ range site.RegularPages }}
-        {{ $d := or .PublishDate .Date }}
+      {{ range $issuePosts }}
         {{ if and
-          $d
-          (eq ($d.Format "2006-01") $month)
           (in .Params.categories $cat)
           (not (in $seen .RelPermalink))
         }}

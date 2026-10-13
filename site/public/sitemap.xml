@@ -74,13 +74,19 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/ediciones/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/2026-09/</loc>
+    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/nadie-esta-legitimado/</loc>
@@ -210,9 +216,6 @@
     <lastmod>2026-09-08T17:05:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/2026-08/</loc>
-    <lastmod>2026-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2026-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/nino/</loc>
@@ -969,6 +972,8 @@
     <loc>http://localhost:1313/autores/ezequiel-kostenwein/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/adrian-federico-ambroggio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/autores/federico_orlando/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/fermin-randon-salgado/</loc>
   </url><url>
