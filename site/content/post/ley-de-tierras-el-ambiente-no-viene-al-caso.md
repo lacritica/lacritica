@@ -10,7 +10,7 @@ author:
   - María Florencia Saulino
 thumbnail:
   - src: /img/gargarella_IMG_9923.JPG
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: false
 ---
