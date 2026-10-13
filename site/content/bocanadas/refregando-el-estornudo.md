@@ -1,0 +1,38 @@
+---
+title: Refregando el estornudo
+date: 2026-10-13T09:55:00.000-03:00
+slug: regregando-el-estornudo
+author:
+  - Mariela Puga
+---
+Lo que empezó con una decisión de consecuencias absurdamente radicales en CECIM (ese estornudo del cuál la Corte quiso des responsabilizarse al inicio), terminó en este enchastre de argumentos contradictorios para fundar una medida sui generis en “Arboles en pie”, cuál trapo sucio sobre lo estornudado.
+
+Como docente, no puedo sino cerrar esta crónica desafortunada con la pregunta de clase ¿Qué aprendimos de todo esto? Se me ocurre especular con tres lecciones, pero voy por ahora con dos.
+
+Lección 1: Hay que salir del rol de Rey Desnudo
+
+La historia de Andersen (1837) narra cómo dos estafadores convencen a un rey vanidoso de que ellos tejen una tela que es invisible para los "inútiles o estúpidos." Consigue que todos, incluido el monarca, finjan ver el traje para no parecer ineptos. La farsa se desmorona cuando un niño grita en el desfile final: «¡El rey va desnudo!», y todos finalmente admiten la evidencia.
+
+Pareciera que alguien convenció a la Corte de que la decisión correcta y más importante era decidir CECIM para negar la legitimación activa, y que quienes no lo ven, no entienden nada. En su vanidad o torpeza, la Corte salió desnuda a la Calle. Y alguien gritó “porqué nos quitan la ley de tierras”, y fue como tirar gasolina al fuego. El desprecio generalizado en redes, prensa y manifestaciones populares contra la Corte no cesa, ni aún después de volver sobre sus pasos a limpiar el enchastre.
+
+El punto es sencillo: La Corte no tiene plazos para decidir los casos, ni regla que la obligue a decidir primero uno que otro. Toma la decisión de decidir sin dar ni un solo fundamento o transparentar criterio, pretendiendo que lo asumamos como una tormenta natural, que llega los días de acuerdo.
+
+Esta maquinaria discrecional está desintegrando la legitimidad de la justicia. Ya nadie creer que la Corte decide pensando en “la regla, sin importar las consecuencias”, cuando elige casos de consecuencias políticas tan radicales y en los momentos más sensibles, y no explica porque no decide otros en lugar de este, o lo decide a este en otro momento.
+
+Primero descarta cada año cientos de casos que le llegan por falta de trascendencia institucional. Y claro, hay muchos litigantes resentidos por eso. Pero como ese descarte se hace en base a una regla que la autoriza, y un criterio público (280 del CPCCN), abre polémicas razonables. Se debaten posibles rediseños institucionales o criterio más específicos, pero nadie cree que la Corte deba tratar todos los casos que se le presentan, ni que sea totalmente discrecional la forma en que decidir tomarlos. Pero el asunto es distinto en relación a la decisión de los casos que si admite pero que decide cuando ella quiere. Son estas decisiones, las de decidir qué caso decidir y cuando, las que están desintegrando la idea de que la justicia es “incitada” y responde a los conflictos que se le presentan, en lugar de estar automotivada por sus sesgos de oportunidad.
+
+Hay varias opciones de rediseño institucional que podrían ayudar a combatir las termitas. Pero lo más obvio es que la misma corte podría apuntalar la casa con una acordada con criterios de prelación de casos, o bien, dando más transparencia, debate y fundamento a las decisiones de decidir. Pero prefiere ponerlas en el lugar de lo que “no se habla”, y entonces crece la sensación de esta Corte es insensible o lee muy mal al contexto, como sugiere  Gargarella.
+
+Lección 2: La acumulación de casos colectivos como estrategia de Cherry Picking
+
+El presidente gusta de advertir sobre el sesgo cognitivo llamado “cherry picking”: seleccionar intencionalmente datos, evidencias o casos que respaldan una postura. Esto es lo que hace la Corte a través de la forma equivocada en que “acumula” casos colectivos, y que quedó al desnudo al decidir el caso “Árblol de Pie”.
+
+¿De dónde salió el caso “árbol de pie”?, ¿Qué hacía hace dos años suspendido en la Corte sin haber sido resuelto antes, ni siquiera tramitado? Bueno, todxs lxs abogados con los que hablé me dieron la misma explicación sintomática de esta rareza (y me contaron varios casos en respaldo): Es seguro, me decían, que la Corte estaba por rechazar el caso del Árbol, aplicándole injustamente, y sin derecho de defensa, la misma regla que a CENIM. Por eso estaba suelto. El escándalo y el apuro, hizo que lo use ahora de esta manera. Dando cuenta de una distinción (que seguramente hubiera ignorado) para servir a sus fines.
+
+El asunto es sencillo: la regla de acumulación de casos colectivos funciona habitualmente en los tribunales inferiores como una regla de subordinación. Se resuelve el primero, y la suerte de los que siguen quedan atadas a él. Lejos de complejizar la litis con las distintas alegaciones sobre una misma pretensión, lejos de ampliar el proceso para que cada demandante ejerza su derecho de defensa, la tendencia es a entender que cuando una demanda se acumuló en otra, su suerte está atada a aquella en la que se acumuló.  Peor aún, la cosa realmente se ensucia mucho, cuando llegan así a la Corte. Como la Corte tiene todavía más discrecionalidad que los jueces inferiores, suele hacer un abierto chearry picking entre los casos acumulados. Elige el caso colectivo a medida de sus posturas preferidas, y niega toda posibilidad de defensa a los otros (que están también ante la Corte, como espectadores del caso que ella elige). Nadie siente que “incita” a la Corte, se sienten en cambió títeres de su armado.
+
+Hubo épocas diferentes, debo decir. Yo recuerdo las audiencias públicas en los casos colectivos paradigmáticos, litis policéntricas complejas, sensibles a la multicausalidad, de prolija integración de demandas acumuladas. Pero desde que la Corte empezó a tomarle el gustito al cherry picking colectivo, eso se acabó.
+
+Este detestable mecanismo quedó en evidencia en “árboles de pie”. Si la percepción general fue que la Corte puede hacer compulsivamente lo que se le viene en gana, es porque eso es lo que hace tiempo hace con la forma en que se trata la acumulación de casos colectivos. El desincentivo al ejercicio del derecho a la jurisdicción que estas formas imponen, todavía no están suficientemente medido, pero es vos populis en el foro.
+
+Cuando Lorenzetti dijo a la prensa, hablando de este caso, que “sólo se presentaron dos medidas cautelares ante la justicia” y que esto se debe al “debilitamiento de la participación social” a través de “acciones judiciales”, lo que no advierte (o quizás sí) es que ese debilitamiento está relacionado con las formas discrecionales de la Corte. Hace unos días hablando con una de las más diestras abogadas de casos colectivos que conozco, le proponía un argumento estratégico para litigar en este caso. Su respuesta fue contundente “yo no le voy a hacer el juego a estos payasos.” Esta respuesta quizás sea el proxy de una respuesta extendida a la interpelación de Lorenzetti. Una que explica porque el escrache, la movilización social, y las bajezas en las redes parecen canales con resultados más factibles, que el de una demanda judicial.
