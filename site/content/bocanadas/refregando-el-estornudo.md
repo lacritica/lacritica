@@ -7,7 +7,7 @@ author:
 thumbnail:
   - src: /img/WhatsApp Image 2026-03-02 at 10.09.40 AM (1).jpeg
 ---
-Lo que empezó con una decisión de la Corte de consecuencias absurdamente radicales en [CECIM](https://www.infoplatense.com.ar/la-corte-tumbo-el-fallo-del-cecim-la-plata-por-la-ley-de-tierras/) (ese estornudo del cuál la Corte quiso des responsabilizarse), terminó en este enchastre de argumentos contradictorios para fundar una medida sui generis en “[Arbol en pie](https://www.infobae.com/judiciales/2026/10/09/la-corte-suspendio-el-articulo-del-dnu-70-que-derogaba-la-ley-de-tierras/)”, refregando el estornudado.
+Lo que empezó con una decisión de la Corte de consecuencias absurdamente radicales en [CECIM](https://www.infoplatense.com.ar/la-corte-tumbo-el-fallo-del-cecim-la-plata-por-la-ley-de-tierras/) (ese estornudo del cuál la Corte quiso des responsabilizarse), terminó en este enchastre de argumentos contradictorios, para fundar una medida *sui generis* en el caso “[Arbol de pie](https://www.infobae.com/judiciales/2026/10/09/la-corte-suspendio-el-articulo-del-dnu-70-que-derogaba-la-ley-de-tierras/)”.
 
 Como docente, no puedo sino cerrar esta crónica desafortunada con la pregunta: **¿Qué aprendimos de todo esto?** Se me ocurre especular con tres lecciones, pero voy por ahora por dos.
 
