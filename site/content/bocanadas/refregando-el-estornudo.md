@@ -27,7 +27,7 @@ Hay varias opciones de rediseño institucional que podrían ayudar a restablecer
 
 **Lección 2:** La acumulación de casos colectivos no es para hacer **Cherry Picking**
 
-El presidente gusta de advertir sobre el sesgo cognitivo llamado “cherry picking”: seleccionar intencionalmente datos, evidencias o casos que respaldan una postura. Esto es lo que hace la Corte, acumulando casos colectivos como bolsas de papa, en lugar de componerlos como un todo complejo. La estrategia quedó tristemente al desnudo al decidir el caso “Árbol de Pie”.
+El presidente gusta de advertir sobre el sesgo cognitivo llamado “cherry picking”: seleccionar intencionalmente datos, evidencias o casos que respaldan una postura. Esto es lo más explícito que hace la Corte, acumulando casos colectivos como si fueran bolsas de papa, en lugar de componerlos en un caso complejo. La estrategia quedó tristemente al desnudo al decidir el caso “Árbol de Pie”.
 
 ¿De dónde salió el caso “árbol de pie”?, ¿qué hacía hace dos años suspendido en la Corte sin haber sido resuelto antes, ni siquiera tramitado? Bueno, todxs lxs abogados con los que hablé me dieron la misma especulación  sintomática: Es seguro, me decían, que la Corte estaba por rechazar el caso del Árbol, aplicándole injustamente, y sin derecho de defensa, la misma regla que a CENIM. Por eso estaba suelto. El escándalo y el apuro, hizo que lo use ahora de esta manera. Dando cuenta de una distinción (que seguramente hubiera ignorado) para servir a sus fines.
 
