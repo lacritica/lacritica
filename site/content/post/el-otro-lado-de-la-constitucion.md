@@ -12,10 +12,10 @@ thumbnail:
 highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
-obra_reseñada: Agustín E. Casagrande, *Constitución y Arbitrariedad. Conceptos e imaginarios del constitucionalismo argentino*, Frankfurt am Main, Max Planck Institute for Legal History and Legal Theory, 2025.
+obra_reseñada: Agustín E. Casagrande, *[Constitución y Arbitrariedad. Conceptos e imaginarios del constitucionalismo argentino](http://dx.doi.org/10.12946/gplh26)*, Frankfurt am Main, Max Planck Institute for Legal History and Legal Theory, 2025.
 ---
 
-Quienes trabajamos sobre historia constitucional tenemos una tendencia bastante obvia y difícil de evitar: empezar por la Constitución. Por el texto, sus antecedentes, los debates que llevaron a su sanción, las reformas, los derechos y las instituciones que quedaron (o no) escritos. *Constitución y Arbitrariedad*, de Agustín Casagrande, propone empezar por otro lugar. Para comprender qué significó históricamente la Constitución en Argentina, se detiene en aquello que fue construido como su contrario.
+Quienes trabajamos sobre historia constitucional tenemos una tendencia bastante obvia y difícil de evitar: empezar por la Constitución. Por el texto, sus antecedentes, los debates que llevaron a su sanción, las reformas, los derechos y las instituciones que quedaron (o no) escritos. *[Constitución y Arbitrariedad](http://dx.doi.org/10.12946/gplh26)*, de Agustín Casagrande, propone empezar por otro lugar. Para comprender qué significó históricamente la Constitución en Argentina, se detiene en aquello que fue construido como su contrario.
 
 Ese contrario es la *arbitrariedad*.
 
