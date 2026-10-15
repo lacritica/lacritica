@@ -129,7 +129,8 @@ collections:
       - label: "Frases destacadas"
         name: "callouts"
         widget: "list"
-        hint: "Son drases destacadas que aparecerán en el artículo (se llaman callouts)"
+        required: false
+        hint: "Opcional. Frases destacadas que aparecerán en el artículo (se llaman callouts)"
         field:
           label: "Frase"
           name: "phrase"
