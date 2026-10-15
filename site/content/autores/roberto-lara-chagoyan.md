@@ -1,7 +1,7 @@
 ---
 title: Roberto Lara Chagoyán
 slug: roberto-lara-chagoyan
-twitter-handle: rolarch
+twitter_handle: rolarch
 thumbnail: /img/lara-chagoyan.jpeg
 bio: Académico y jurista mexicano. 
 ---

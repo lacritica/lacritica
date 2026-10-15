@@ -1,5 +1,5 @@
 ---
-title: Roberto Gargarella	
+title: Roberto Gargarella
 slug: roberto-gargarella
 twitter_handle: rgargarella
 bluesky_handle: rgargarella.bsky.social

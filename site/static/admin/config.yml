@@ -51,13 +51,29 @@ collections:
           - "^.{0,148}$"
           - "De 148 caracteres o menos"
 
+      # The first five are the menu sections. The rest group posts into
+      # dossiers: "simposio" marks a post of the active symposium (it is taken
+      # out of the home columns while content/simposios/_index.md has show on);
+      # the "Especial …" and "Jürgen Habermas" values are hidden from the menu
+      # and feed their own blocks. A new dossier needs its value added here.
       - label: "Category"
         name: "categories"
         widget: "select"
-        options: ["debates", "simposios", "reseñas", "ensayos", "entrevistas"]
         multiple: true
-        max: 1
+        min: 1
+        max: 3
         default: ["ensayos"]
+        hint: "Una sección principal y, si corresponde, el especial o simposio al que pertenece"
+        options:
+          - { label: "Ensayos", value: "ensayos" }
+          - { label: "Debates", value: "debates" }
+          - { label: "Entrevistas", value: "entrevistas" }
+          - { label: "Reseñas", value: "reseñas" }
+          - { label: "Simposios", value: "simposios" }
+          - { label: "Simposio activo (marca interna)", value: "simposio" }
+          - { label: "Especial: Reforma laboral", value: "especial reforma laboral" }
+          - { label: "Especial: Ley Penal Juvenil", value: "Especial Ley Penal Juvenil" }
+          - { label: "Especial: Jürgen Habermas", value: "Jürgen Habermas" }
 
       - label: "Author"
         name: "author"
@@ -152,6 +168,19 @@ collections:
         required: false
         hint: "Dónde fue publicado originalmente la pieza (admite markdown links internos)"
 
+      - label: "Autores (texto libre)"
+        name: "autores_grouped"
+        widget: "string"
+        required: false
+        hint: "Solo para la nota destacada 2 de la home: línea de autoría en texto libre, para autores sin ficha en el sitio, ej. 'por Ronald Dworkin'"
+
+      - label: "Orden"
+        name: "weight"
+        widget: "number"
+        value_type: "int"
+        required: false
+        hint: "Orden dentro de un especial o simposio (1 va primero). Dejar vacío si no aplica"
+
       - { label: "Body", name: "body", widget: "markdown" }
 
 
@@ -169,6 +198,16 @@ collections:
     preview_path: "autores/{{slug}}"
     identifier_field: "title"
 
+    # content/autores/_index.md: the /autores/ page, with the list of editors.
+    index_file:
+      label: "Página de autores"
+      fields:
+        - { label: "Título", name: "title", widget: "string" }
+        - label: "Texto"
+          name: "body"
+          widget: "markdown"
+          hint: "Aparece arriba de la lista de autores (la línea de editores)"
+
     fields:
       - { label: "Title", name: "title", widget: "string", hint: "Nombre completo del autor" }
 
@@ -177,6 +216,13 @@ collections:
         widget: "string"
         hint: "nombre-apellido1-apellido2"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la ficha del autor no se publica"
 
       - label: "thumbnail"
         name: "thumbnail"
@@ -195,6 +241,18 @@ collections:
         widget: "string"
         hint: "Usuario de Twitter (sin arroba)"
 
+      - label: "Bluesky"
+        name: "bluesky_handle"
+        required: false
+        widget: "string"
+        hint: "Usuario de Bluesky sin arroba, ej. nombre.bsky.social (se usa al compartir notas)"
+
+      - label: "Sitio personal"
+        name: "sitio_personal"
+        required: false
+        widget: "string"
+        hint: "URL completa, con https://"
+
       - label: "ORCID"
         name: "orcid"
         widget: "string"
@@ -205,108 +263,6 @@ collections:
         name: "body"
         widget: "markdown"
         hint: "Puede incluir links"
-
-
-  # -------------------------
-  # RESEÑAS
-  # -------------------------
-  - name: "reseñas"
-    label: "Reseñas"
-    label_singular: "Reseña"
-    folder: "site/content/reseñas"
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    format: "frontmatter"
-    preview_path: "reseñas/{{slug}}"
-    identifier_field: "title"
-
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - label: "Borrador"
-        name: "draft"
-        widget: "boolean"
-        default: false
-        required: false
-        hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
-      
-      - label: "Slug"
-        name: "slug"
-        widget: "string"
-        hint: "lo-que-va-ser-la-url-sin-acentos-ni-letras-con-simbolos-tipo-la-que-se-parece-a-la-n-con-bigote"
-        pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
-
-      - label: "Highlight 2"
-        name: "highlight2"
-        widget: "boolean"
-        default: false
-        hint: "Marcar si va a la nota destacada de la home"
-
-      - label: "Description"
-        name: "description"
-        widget: "string"
-        hint: "Super breve resúmen (max 148 caracteres)"
-        pattern:
-          - "^.{0,148}$"
-          - "De 148 caracteres o menos"
-
-      # FIXED CATEGORY (hidden)
-      - label: "Category"
-        name: "categories"
-        widget: "hidden"
-        default: ["reseñas"]
-
-      - label: "Author"
-        name: "author"
-        widget: "relation"
-        collection: "autores"
-        search_fields: ["title"]
-        value_field: "title"
-        display_fields: ["title"]
-        multiple: true
-
-      - label: "Thumbnail"
-        name: "thumbnail"
-        widget: "list"
-        allow_add: true     # MUST be true so the button appears
-        min: 0
-        max: 1              # Still only allows ONE item
-        hint: "Se puede poner epígrafe (recomendado) y copyright (si queremos dar crédito a la foto)"
-        fields:
-          - { label: "Image",    name: "src",       widget: "image" }
-          - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
-          - { label: "Copyright", name: "copyright", widget: "string", required: false }
-
-      - label: "Tapa de la obra reseñada"
-        name: "cover"
-        widget: "list"
-        allow_add: true     # MUST be true so the button appears
-        min: 0
-        max: 1              # Still only allows ONE item
-        required: false
-        hint: "Solo para reseñas: la tapa del libro/obra. Si se deja vacío, se usa el Thumbnail como tapa"
-        fields:
-          - { label: "Image", name: "src", widget: "image" }
-
-      - label: "Exclude Thumbnail from Body"
-        name: "exclude_thumbnail_from_body"
-        widget: "boolean"
-        default: false
-        hint: "Marcar si queremos que la foto que ilustra no vaya intercalada en el cuerpo del texto"
-
-      - label: "Obra reseñada"
-        name: "obra_reseñada"
-        widget: "string"
-        hint: "Cita completa, idealmente APA"
-
-      - label: "Pulbicado originalmente en"
-        name: "publicado_originalmente_en"
-        widget: "string"
-        required: false
-        hint: "Dónde fue publicado originalmente la pieza (admite markdown links internos)"
-
-      - { label: "Body", name: "body", widget: "markdown" }
 
 
   # -------------------------
@@ -332,12 +288,30 @@ collections:
         default: false
         required: false
         hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
-      
+
       - label: "Slug"
         name: "slug"
         widget: "string"
         hint: "lo-que-va-ser-la-url-sin-acentos-ni-letras-con-simbolos-tipo-la-que-se-parece-a-la-n-con-bigote"
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
+
+      - label: "Description"
+        name: "description"
+        widget: "string"
+        required: false
+        hint: "Super breve resúmen (max 148 caracteres). Se usa al compartir en redes"
+        pattern:
+          - "^.{0,148}$"
+          - "De 148 caracteres o menos"
+
+      - label: "Category"
+        name: "categories"
+        widget: "select"
+        multiple: true
+        required: false
+        options:
+          - { label: "Reseñas", value: "reseñas" }
+        hint: "Solo si la bocanada es una reseña"
 
       - label: "Author"
         name: "author"
@@ -360,7 +334,153 @@ collections:
           - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
           - { label: "Copyright", name: "copyright", widget: "string", required: false }
 
+      - label: "Tapa de la obra reseñada"
+        name: "cover"
+        widget: "list"
+        allow_add: true
+        min: 0
+        max: 1
+        required: false
+        hint: "Solo para reseñas: la tapa del libro/obra. Si se deja vacío, se usa el Thumbnail como tapa"
+        fields:
+          - { label: "Image", name: "src", widget: "image" }
+
+      - label: "Exclude Thumbnail from Body"
+        name: "exclude_thumbnail_from_body"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcar si queremos que la foto que ilustra no vaya intercalada en el cuerpo del texto"
+
+      - label: "Obra reseñada"
+        name: "obra_reseñada"
+        widget: "string"
+        required: false
+        hint: "Solo para reseñas: cita completa de la obra, idealmente APA (admite markdown)"
+
+      - label: "Publicado originalmente en"
+        name: "publicado_originalmente_en"
+        widget: "string"
+        required: false
+        hint: "Dónde fue publicado originalmente la pieza (admite markdown links internos)"
+
+      - label: "Frases destacadas"
+        name: "callouts"
+        widget: "list"
+        required: false
+        hint: "Frases destacadas que aparecerán en el texto (callouts)"
+        field:
+          label: "Frase"
+          name: "phrase"
+          widget: "string"
+
+      - label: "Frase destacada para la Home"
+        name: "featured_callout"
+        widget: "number"
+        hint: "Número de la frase destacada que va a la Home"
+        min: 0
+        max: 5
+        step: 1
+        required: false
+
       - { label: "Body", name: "body", widget: "markdown" }
+
+
+  # -------------------------
+  # EDICIONES - el número mensual (revista en pdf/epub)
+  # -------------------------
+  - name: "ediciones"
+    label: "Ediciones"
+    label_singular: "Edición"
+    folder: "site/content/ediciones"
+    create: true
+    slug: "{{month}}"
+    extension: "md"
+    format: "frontmatter"
+    preview_path: "ediciones/{{slug}}"
+    identifier_field: "title"
+    sortable_fields: ["date", "month", "title"]
+
+    fields:
+      - { label: "Título", name: "title", widget: "string", hint: "Ej. Septiembre 2026" }
+
+      - label: "Fecha de publicación"
+        name: "date"
+        widget: "datetime"
+        hint: "Cuándo sale la edición (define si es la destacada de la home)"
+
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la edición se guarda pero no se publica en el sitio"
+
+      - label: "Mes"
+        name: "month"
+        widget: "string"
+        hint: "AAAA-MM. La edición reúne todas las notas publicadas en ese mes"
+        pattern: ['^\d{4}-(0[1-9]|1[0-2])$', "Formato AAAA-MM, ej. 2026-09"]
+
+      - label: "Número"
+        name: "number"
+        widget: "string"
+        hint: "Ej. Año 2., Vol. 9."
+
+      - label: "Tapa (miniatura)"
+        name: "thumbnail"
+        widget: "list"
+        allow_add: true
+        min: 1
+        max: 1
+        hint: "La tapa que se ve en la home"
+        fields:
+          - { label: "Image", name: "src", widget: "image" }
+
+      - label: "Tapa (página de la edición)"
+        name: "image"
+        widget: "image"
+        hint: "La tapa grande de la página de la edición; al hacer clic descarga el pdf. Normalmente la misma imagen"
+
+      - label: "PDF"
+        name: "pdf"
+        widget: "file"
+        required: false
+        media_folder: "/site/static/files"
+        public_folder: "/files"
+
+      - label: "EPUB"
+        name: "file"
+        widget: "file"
+        required: false
+        media_folder: "/site/static/files"
+        public_folder: "/files"
+
+      - label: "Highlight 2"
+        name: "highlight2"
+        widget: "boolean"
+        default: true
+        required: false
+        hint: "Marcar si va a la nota destacada 2 de la home (gana la más reciente)"
+
+      - label: "Simposios incluidos"
+        name: "simposios"
+        widget: "list"
+        required: false
+        hint: "Las notas de simposio no entran a la edición salvo que se nombren acá, por slug (ej. riesgos-de-maximalismo)"
+        field: { label: "Slug", name: "slug", widget: "string" }
+
+      - label: "Extras"
+        name: "extras"
+        widget: "list"
+        required: false
+        hint: "Páginas que acompañan la edición sin ser notas (ej. un homenaje)"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string", hint: "Ej. /homenaje-carlos-nino/" }
+
+      - { label: "Texto", name: "body", widget: "markdown", required: false }
+
 
   # -------------------------
   # EVENTOS y LINKS - No en uso por ahora
@@ -415,6 +535,19 @@ collections:
         widget: "string"
         hint: "Link a más información"
 
+      - label: "Fecha del documento"
+        name: "date_of_doc"
+        widget: "string"
+        required: false
+        hint: "Texto libre, se muestra tal cual (ej. 'Documento de marzo 2025')"
+
+      - label: "Documento (pdf)"
+        name: "pdf"
+        widget: "file"
+        required: false
+        media_folder: "/site/static/files"
+        public_folder: "/files"
+
       - { label: "Contenido", name: "body", widget: "markdown" }
 
 
@@ -431,6 +564,17 @@ collections:
     format: "frontmatter"
     preview_path: "catastrofe/{{slug}}"
     identifier_field: "title"
+
+    # content/catastrofe/_index.md: the switch and look of the home block.
+    index_file:
+      label: "Bloque en la home"
+      fields:
+        - label: "Mostrar en la home"
+          name: "show"
+          widget: "boolean"
+          default: false
+        - { label: "Título del bloque", name: "title", widget: "string" }
+        - { label: "Imagen del bloque", name: "image", widget: "image", required: false }
 
     fields:
       - { label: "Title", name: "title", widget: "string" }
@@ -467,20 +611,35 @@ collections:
 
       - label: "Thumbnail"
         name: "thumbnail"
-        widget: "image"
+        widget: "list"
+        allow_add: true
+        min: 0
+        max: 1
         required: false
+        hint: "Se puede poner epígrafe (recomendado) y copyright (si queremos dar crédito a la foto)"
+        fields:
+          - { label: "Image",    name: "src",       widget: "image" }
+          - { label: "Epigraph", name: "epigraph",  widget: "string", required: false }
+          - { label: "Copyright", name: "copyright", widget: "string", required: false }
+
+      - label: "Orden"
+        name: "weight"
+        widget: "number"
+        value_type: "int"
+        required: false
+        hint: "Orden en el bloque de la home (1 va primero)"
 
       - { label: "Body", name: "body", widget: "markdown" }
 
 
   # -------------------------
-  # TILES - encendido/apagado y título de la sección
+  # HOME - bloques especiales que se encienden y apagan
   # -------------------------
   - name: "tiles_settings"
-    label: "Tiles (configuración)"
+    label: "Bloques de la home"
     files:
       - name: "tiles_index"
-        label: "Sección Tiles"
+        label: "Tiles (homenaje)"
         file: "site/content/tiles/_index.md"
         fields:
           - label: "Mostrar en la home"
@@ -494,3 +653,48 @@ collections:
             name: "description"
             widget: "string"
             required: false
+
+          - label: "Dirección de la página"
+            name: "url"
+            widget: "string"
+            hint: "Dónde se publica la página propia de los tiles, ej. /homenaje-carlos-nino/"
+
+          - { label: "Outputs", name: "outputs", widget: "hidden", default: ["HTML"] }
+
+      - name: "simposios_index"
+        label: "Simposio activo"
+        file: "site/content/simposios/_index.md"
+        fields:
+          - label: "Mostrar en la home"
+            name: "show"
+            widget: "boolean"
+            default: false
+            hint: "Encendido, las notas con la categoría 'Simposio activo' salen de las columnas de la home"
+
+          - { label: "Título del simposio", name: "title", widget: "string" }
+
+
+  # -------------------------
+  # PÁGINAS - textos fijos del sitio
+  # -------------------------
+  - name: "paginas"
+    label: "Páginas"
+    files:
+      - name: "quienes_somos"
+        label: "Quiénes somos"
+        file: "site/content/quienes_somos.md"
+        fields: &pagina_fields
+          - { label: "Título", name: "title", widget: "string" }
+          # Hides the share buttons that notes carry.
+          - { label: "Sin bloque de nota", name: "skip_partial", widget: "hidden", default: true }
+          - { label: "Texto", name: "body", widget: "markdown" }
+
+      - name: "contactenos"
+        label: "Contáctenos"
+        file: "site/content/contáctenos.md"
+        fields: *pagina_fields
+
+      - name: "gracias"
+        label: "Gracias (tras suscribirse al newsletter)"
+        file: "site/content/gracias.md"
+        fields: *pagina_fields
