@@ -19,8 +19,8 @@ social_image = "/img/batalla1.jpeg"
 # email_entry the email question's `entry.NNNN` name. Responses land in the
 # form's spreadsheet. The form is hidden until both are set.
 [params.newsletter]
-form_id = ""
-email_entry = ""
+form_id = "1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw"
+email_entry = "entry.741416921"
 
 # The tiles section is two things: the on/off switch for the home band
 # (`show` in content/tiles/_index.md) and a standalone page of its own,
