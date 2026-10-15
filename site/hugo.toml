@@ -14,6 +14,14 @@ images = ["img/batalla1.jpeg"]
 description = "La Crítica del Derecho"
 social_image = "/img/batalla1.jpeg"
 
+# Newsletter sign-up (partials/subscribe.html) posts to a Google Form. From the
+# form's "Get pre-filled link": form_id is the part after /forms/d/e/ and
+# email_entry the email question's `entry.NNNN` name. Responses land in the
+# form's spreadsheet. The form is hidden until both are set.
+[params.newsletter]
+form_id = "1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw"
+email_entry = "entry.741416921"
+
 # The tiles section is two things: the on/off switch for the home band
 # (`show` in content/tiles/_index.md) and a standalone page of its own,
 # published at the `url` set there. It stays out of section listings, RSS

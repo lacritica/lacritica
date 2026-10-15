@@ -1,22 +1,19 @@
+{{- /* Posts to a Google Form (params.newsletter in hugo.toml). Google's reply
+       goes to a hidden iframe so the reader stays on the site; once it loads
+       we move on to /gracias/. */ -}}
+{{- with site.Params.newsletter }}
+{{- if and .form_id .email_entry }}
 <form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/{{ .form_id }}/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="{{ .email_entry }}"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -26,6 +23,21 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "{{ "gracias/" | relURL }}";
+    });
+  })();
+</script>
+{{- end }}
+{{- end }}
 
 <style>
   .hidden {

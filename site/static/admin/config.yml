@@ -1,10 +1,13 @@
+# Sveltia CMS on the GitHub backend. Editors sign in at /admin/ with a GitHub
+# fine-grained personal access token (Contents: read & write on this repo).
+# There is no OAuth endpoint and no editorial workflow: saving commits to main,
+# and the "Borrador" toggle keeps a piece off the published site.
 backend:
-  name: git-gateway
+  name: github
+  repo: lacritica/lacritica
   branch: main
 
 local_backend: true
-
-publish_mode: editorial_workflow
 
 # Media settings
 media_folder: "site/static/img"   # Where uploaded files are stored in the repo
@@ -34,6 +37,12 @@ collections:
         pattern: ['^[a-z0-9-]+$', "Solo minúsculas, números y guiones"]
 
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
       - label: "Description"
         name: "description"
         widget: "string"
@@ -215,6 +224,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
       
       - label: "Slug"
         name: "slug"
@@ -311,6 +326,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
       
       - label: "Slug"
         name: "slug"
@@ -365,6 +386,12 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
 
       - { label: "Fecha de publicación", name: "date", widget: "datetime" }
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
 
       - label: "Fecha del evento"
         name: "date_of_event"
@@ -408,6 +435,12 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - label: "Borrador"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcado, la pieza se guarda pero no se publica en el sitio"
 
       - label: "Description"
         name: "description"
