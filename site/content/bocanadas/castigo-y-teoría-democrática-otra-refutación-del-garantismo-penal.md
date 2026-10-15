@@ -1,6 +1,6 @@
 ---
 title: 'Castigo y teoría democrática: Otra refutación del garantismo penal'
-date: 2026-10-15T23:25:00
+date: 2026-10-15T19:13:00
 draft: false
 slug: refutaciondeferrajoli
 description: Otra refutación del garantismo penal Ferrajoliano, a través de un (notable) estudio empírico sobre el funcionamiento del jurado,
