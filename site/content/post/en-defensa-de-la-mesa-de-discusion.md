@@ -1,19 +1,30 @@
 ---
-title: "En defensa de la mesa de discusion"
+title: En defensa de la mesa de discusión
 slug: en-defensa-de-la-mesa-de-discusion
 date: 2026-10-16
-weight: 3
-description: 'Una réplica a Federico Orlando.'
-simposio_grid: TRUE
+draft: false
+description: Una réplica a Federico Orlando.
 categories:
   - debates
 author:
   - Nahuel Maisley
 thumbnail:
-  - src: '/img/L1110441.jpg'
+  - src: /img/L1110441.jpg
+    epigraph: ''
+    copyright: ''
+cover: []
 highlight: false
 highlight2: false
+simposio_grid: true
 exclude_thumbnail_from_body: true
+callouts: []
+featured_callout: null
+obra_reseñada: ''
+simposio: ''
+short_simposio: ''
+publicado_originalmente_en: ''
+autores_grouped: ''
+weight: 3
 ---
 
 Federico Orlando es una de las personas que me enseñaron a pensar como pienso. Buena parte de lo que creo sobre el derecho como una práctica de dar razones, y sobre la obligación de tomarse en serio a quien piensa distinto, lo aprendí de él (y de aquel glorioso curso que daba los miércoles a la mañana con Silvina Ramírez, Nico Tauber, y otros). Por eso, leí su respuesta a [mi columna](https://lacritica.ar/post/la-nueva-derecha-juridica-argentina/) con la alegría de encontrarme con mis propias ideas discutidas por alguien que me ayudó a formarlas. Y también con la incomodidad de siempre, porque Orlando volvió a hacer lo que hizo conmigo tantas veces, lo que hace un buen maestro: tomar algo que yo creía tener claro y obligarme a pensarlo de nuevo, y mejor.
