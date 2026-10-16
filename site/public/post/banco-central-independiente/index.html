@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -892,6 +898,16 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
     
+      <div class="title-obra-resenada" data-pagefind-ignore>
+        <h4>Obra reseñada</h4>
+      </div>
+      <div class="obra_reseñada" data-pagefind-ignore>
+        
+          
+        
+        <div class="obra-text"></div>
+      </div>
+    
 
     
 
@@ -988,7 +1004,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
       <p>Vivimos en un país que sufre &mdash;¿o goza?&mdash; de cierta ciclotimia: cada tanto volvemos a conversar sobre algún punto más o menos central de nuestra vida democrática casi como si estuviésemos en el punto cero de la discusión. Este rasgo, extendido en nuestras tierras desde hace décadas, no es necesariamente problemático &mdash;aunque cansador, desde luego&mdash;. Uno de esos temas recurrentes es, naturalmente, el problema de la independencia del Banco Central.</p>
 <p>Una breve digresión. Es interesante advertir que este argumento &mdash;y su contrario&mdash; suele desplazarse con bastante independencia de la teoría que supuestamente lo sustenta y mucha mayor sensibilidad al lugar que ocupa quien lo enuncia. Cuando se es oficialismo, existen incentivos para cuestionar la independencia del Banco Central; cuando se es oposición, para defenderla. El problema es que, cuando esas posiciones se invierten &mdash;como ocurre periódicamente por razones electorales&mdash;, también suelen invertirse, casi sin solución de continuidad, las &ldquo;convicciones institucionales&rdquo;: quien ayer cuestionaba la independencia pasa a reivindicarla y quien la defendía comienza a descubrir sus inconvenientes. La teoría permanece; quienes la invocan cambian de lugar y, curiosamente, también de teoría. Hay, sin embargo, algo llamativo en la discusión actual: esa conocida pendularidad parecería haberse interrumpido. Esta vez es el propio oficialismo el que impulsa una mayor independencia del Banco Central.</p>
-<p>Pero empecemos por algo básico: ¿qué es y qué hace el BCRA? Para responder de modo sencillo, digamos que el Banco Central es la institución encargada de la moneda y de conducir la política monetaria del país; esto es, de tomar decisiones que influyen sobre el dinero, el crédito y su costo en la economía. Para eso puede, por ejemplo, intervenir sobre las tasas de interés o regular distintas condiciones bajo las cuales operan los bancos. Esas decisiones tienen efectos sobre cuestiones muy concretas, como la inflación, el crédito, la actividad económica o el empleo.</p>
+<p>Pero empecemos por algo <em>básico</em>: ¿qué es y qué hace el BCRA? Para responder de modo sencillo, digamos que el Banco Central es la institución encargada de la moneda y de conducir la política monetaria del país; esto es, de tomar decisiones que influyen sobre el dinero, el crédito y su costo en la economía. Para eso puede, por ejemplo, intervenir sobre las tasas de interés o regular distintas condiciones bajo las cuales operan los bancos. Esas decisiones tienen efectos sobre cuestiones muy concretas, como la inflación, el crédito, la actividad económica o el empleo.</p>
 <p>Así las cosas, suele afirmarse &mdash;o bien negarse de manera igualmente categórica-que &ldquo;el Banco Central debe ser independiente&rdquo;. Y acá vale la pena detenerme para hacer una aclaración terminológica &mdash;evitemos, siempre y en lo posible, las meras disputas verbales-: aunque muchas veces se utilizan como sinónimos, en lo que sigue hablaré de <em>independencia</em> para referirme a la posición del Banco Central frente a otros poderes &mdash;en particular, frente al Gobierno&mdash; y de <em>autonomía</em> para describir el margen de decisión que posee dentro de las competencias que le fueron asignadas. Dicho más sencillo: la independencia nos obliga a preguntar de quién está separado el Banco Central; la autonomía, qué puede decidir por sí mismo.</p>
 <p>Volviendo al punto de que &ldquo;el BCRA debe ser independiente&rdquo;, el problema, claro, es que, formulada así, la frase no termina de captar la complejidad del problema que pretende abordar. Cuando decimos que el Banco Central debe ser independiente, ¿qué estamos diciendo exactamente? ¿Que el Presidente no debería poder remover a su titular porque discrepa con sus decisiones? ¿Que el Gobierno no debería poder ordenarle que emita dinero para financiar sus gastos? ¿Que el Congreso tampoco debería poder establecer por ley cuáles son los objetivos que debe perseguir? ¿O que esos objetivos pueden ser definidos políticamente &mdash;por ejemplo, priorizar la estabilidad de precios&mdash;pero que, una vez fijados, debe ser el Banco Central el que decida con autonomía qué hacer con las tasas de interés, la cantidad de dinero o los encajes bancarios para alcanzarlos?</p>
 <p>Supongamos que un gobierno considera que bajar la inflación debe ser la prioridad central de la política monetaria. ¿Independencia significa que ni siquiera puede fijar esa prioridad? ¿O significa que puede fijarla, pero no llamar al presidente del Banco Central para ordenarle qué tasa establecer, cuánto dinero debe circular o qué encajes imponer a los bancos? ¿Y quién debería decidir si mañana, frente a una recesión, el empleo debe pesar más en las prioridades del Banco que aquéllas metas inflacionarias: sus técnicos, el Presidente o el Congreso?</p>
@@ -1080,13 +1096,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

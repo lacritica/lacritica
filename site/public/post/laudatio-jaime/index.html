@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -634,7 +640,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </ol>
 <p>En libros dedicados a asuntos tan dispares como <em>Humo y espejos</em><sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> y <em>Terror y justicia en la Argentina</em><sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>, Jaime se aproxima al derecho con una sensibilidad casi antropológica. Su mirada no se detiene únicamente en las normas o en los argumentos jurídicos. Él indaga en los mundos morales en los que las normas efectivamente operan. En las emociones colectivas, en las diferentes formas de humillación y de vergüenza, tanto como en los silencios y las complicidades difusas que atraviesan a una comunidad.</p>
 <p>Desde su perspectiva, el derecho aparece menos como un sistema lógico que como una práctica social que interviene sobre tramas muy densas. Jaime nunca pierde de vista que el derecho opera sobre cadenas causales largas y complejas, con responsabilidades entrelazadas, sobre relaciones cargadas de afectos, lealtades y expectativas recíprocas. Comprender eso exige algo más que habilidad doctrinal. Exige cierta sensibilidad para percibir aquello que el derecho necesariamente recorta cuando transforma esa complejidad en categorías institucionales.</p>
-<p>Por cierto, en el caso de Jaime, esa sensibilidad, no se formó solo a partir de la reflexión académica. Se fue afinando también en experiencias de terreno -desde las yungas bolivianas hasta sus misiones en Zimbabue, Haití, El Salvador, Libia, Ruanda o Sudáfrica- y también en el ejercicio, aún más infrecuente, de volver sobre la voz de quienes habían ocupado el lugar de los acusados o de los vencidos en procesos que él mismo había contribuido a diseñar.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> Hay allí un rasgo muy propio de Jaime. Esto es, la convicción de que el derecho no puede comprenderse realmente si no se lo sigue hasta esos escenarios en los que se mezcla con las emociones y las pasiones políticas.</p>
+<p>Por cierto, en el caso de Jaime, esa sensibilidad, no se formó solo a partir de la reflexión académica. Se fue afinando también en experiencias de terreno —desde las yungas bolivianas hasta sus misiones en Zimbabue, Haití, El Salvador, Libia, Ruanda o Sudáfrica— y también en el ejercicio, aún más infrecuente, de volver sobre la voz de quienes habían ocupado el lugar de los acusados o de los vencidos en procesos que él mismo había contribuido a diseñar.<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> Hay allí un rasgo muy propio de Jaime. Esto es, la convicción de que el derecho no puede comprenderse realmente si no se lo sigue hasta esos escenarios en los que se mezcla con las emociones y las pasiones políticas.</p>
 <p>Tal vez por eso, en los trabajos de Jaime, el derecho nunca aparezca como un dispositivo capaz de cerrar definitivamente los conflictos que aborda. Esa conciencia de los límites del derecho, lejos de debilitar su valor, parece haber sido para Jaime una condición para tomárselo realmente en serio.</p>
 <ol start="5">
 <li>Para terminar, creo que hay en Jaime, para quienes lo hemos leído y admirado, una enseñanza acerca de cómo pensar y de cómo plantarse frente al mundo. Esa enseñanza se hace visible en su negativa de recostar la experiencia humana en lechos de Procusto conceptuales, ya sean morales, jurídicos o políticos. Allí donde otros buscan demasiado pronto una fórmula, una regla final o un relato tranquilizador, Jaime nos obliga a permanecer un poco más en el laberinto, a soportar mejor sus tensiones y a pensar con más honestidad &ndash;y sobre todo con más humildad&ndash;, el costo que pagamos por cada intento de simplificación. Hay, en esa resistencia a la mutilación teórica de lo humano, una de las formas más raras y más valiosas de la valentía intelectual.</li>
@@ -731,13 +737,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

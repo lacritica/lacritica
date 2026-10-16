@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -2104,7 +2110,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Artículo 27. Trabajo y empleo (resaltado incorporado, cita parcial)</p>
 <p>&ldquo;1. Los Estados Partes reconocen el derecho de las personas con discapacidad a trabajar, en igualdad de condiciones con las demás; ello incluye el derecho a tener la oportunidad de ganarse la vida mediante un trabajo libremente elegido o aceptado <em>en un mercado y un entorno laborales que sean abiertos, inclusivos y accesibles</em> a las personas con discapacidad [&hellip;] y promoverán el ejercicio del derecho al trabajo, [&hellip;], adoptando medidas pertinentes, incluida la promulgación de legislación, entre ellas:</p>
 <p>a) Prohibir la discriminación por motivos de discapacidad con respecto a todas las cuestiones relativas a cualquier forma de empleo&hellip;; b) Proteger los derechos de las personas con discapacidad, en igualdad de condiciones con las demás, a condiciones de trabajo justas y favorables [&hellip;] e) Alentar las oportunidades de empleo y la promoción profesional de las personas con discapacidad <em>en el mercado laboral</em>, y apoyarlas para la <em>búsqueda, obtención, mantenimiento</em> del empleo y retorno al mismo; f) Promover oportunidades empresariales, de empleo por cuenta propia, de constitución de cooperativas y de inicio de empresas propias; g) <em>Emplear</em> a personas con discapacidad en el sector <em>público</em>; h) <em>Promover</em> el empleo de personas con discapacidad en el sector <em>privado</em> [..]; i) Velar por que se realicen <em>ajustes razonables</em> para las personas con discapacidad en el lugar de trabajo; j) Promover la adquisición por las personas con discapacidad de experiencia laboral <em>en el mercado de trabajo abierto</em>; [&hellip;]&rdquo;</p>
-<p>De la lectura de ambos textos legales surge claramente el cambio de enfoque, de paradigma, de cultura. Sin embargo, por ejemplo, la obligación del cupo del 4% -reproducido o superado en algunas jurisdicciones provinciales- sigue en franco incumplimiento, y el desempeño de PcD en el mercado de trabajo abierto es mínimo.</p>
+<p>De la lectura de ambos textos legales surge claramente el cambio de enfoque, de paradigma, de cultura. Sin embargo, por ejemplo, la obligación del cupo del 4% —reproducido o superado en algunas jurisdicciones provinciales— sigue en franco incumplimiento, y el desempeño de PcD en el mercado de trabajo abierto es mínimo.</p>
 <p>Contra esas oportunidades laborales que la CDPD impone que se abran a las PcD en la Argentina, no sólo aquél &ldquo;manto de complacencia&rdquo; del que nos hablaba Sen<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> se erige como una barrera persistente. También lo hace el contexto del mercado de trabajo. Y, también, la visión o intereses de algunos de los propios actores involucrados que se expresa en sus acciones u omisiones.</p>
 <p>Porque no es casualidad que la única ley específica sancionada en materia laboral para PcD, la ley 26.816 del 7 de enero de 2013 (siete años después de la sanción de la CDPD) sólo refiera al empleo &ldquo;protegido&rdquo; y no tenga una sola mención al trabajo en el ámbito laboral abierto. Una ley que fue <em>promovida</em> precisamente por algunos de los talleres o asociaciones que dirigen talleres con mayor capacidad de incidencia política, ante la pasividad o incapacidad de otros actores, y la ignorancia del poder político.</p>
 <p>Además, ya en el informe de 2012, el Comité de la CDPD señalaba para Argentina su &ldquo;preocupación ante las barreras culturales y prejuicios que obstaculizan el acceso de las personas con discapacidad <em>al mercado laboral</em>&rdquo; y con fuerte énfasis expresaba que se &ldquo;<em>insta</em> al Estado parte a que formule una política pública que promueva la inserción de las personas con discapacidad <em>en el mercado de trabajo</em> [&hellip;]. Junto a ello, recomendaba la &ldquo;implementación de ajustes razonables para garantizar <em>la inserción laboral</em> de aquellas personas con discapacidad que así lo requieran y el desarrollo de programas de formación y de autoempleo&hellip;&rdquo;.</p>
@@ -2137,7 +2143,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Queda muy claro que el derecho a la educación de las PcD se respeta en la medida en que dicha educación se formalice en un sistema <em>inclusivo</em>. No &ldquo;cualquier&rdquo; educación se ajusta a este concepto. No &ldquo;cualquier&rdquo; educación en convencional y constitucionalmente adecuada para hacer realidad este derecho.</p>
 <p>¿Y quién dice qué es y qué no es <em>educación inclusiva?</em></p>
 <p>La propia CDPD nos responde cuando crea el &ldquo;Comité sobre los derechos de las personas con discapacidad&rdquo; (arts. 34 y sigs.) integrado por expertos en temas de discapacidad propuestos por los estados parte, y pone entre sus facultades las de recibir los informes de los países sobre la vigencia de la CDPD y efectuar su análisis y formular las observaciones que consideren pertinentes.</p>
-<p>Para esto, es decir, para fundar adecuadamente sus observaciones o recomendaciones, -y por ende, agrego, para que todos tengamos una <em>referencia interpretativa</em> concreta- la CDPD dispone que &ldquo;A fin de fomentar la aplicación efectiva de la presente Convención y de estimular la cooperación internacional en el ámbito que abarca: a) <em>Los organismos especializados y demás órganos de las Naciones Unidas</em> tendrán derecho a estar <em>representados</em> en el <em>examen de la aplicación</em> de las disposiciones de la presente Convención que entren dentro de su mandato. El Comité <em>podrá invitar también a los organismos especializados</em> y a otros órganos competentes que considere apropiados a que proporcionen <em>asesoramiento especializado</em> sobre la aplicación de la Convención en los ámbitos que entren dentro de sus respectivos mandatos. <em>El Comité podrá invitar a los organismos especializados y a otros órganos de las Naciones Unidas a que presenten informes sobre la aplicación de la Convención en las esferas que entren dentro de su ámbito de actividades</em>; [&hellip;] (art. 38).</p>
+<p>Para esto, es decir, para fundar adecuadamente sus observaciones o recomendaciones, —y por ende, agrego, para que todos tengamos una <em>referencia interpretativa</em> concreta— la CDPD dispone que &ldquo;A fin de fomentar la aplicación efectiva de la presente Convención y de estimular la cooperación internacional en el ámbito que abarca: a) <em>Los organismos especializados y demás órganos de las Naciones Unidas</em> tendrán derecho a estar <em>representados</em> en el <em>examen de la aplicación</em> de las disposiciones de la presente Convención que entren dentro de su mandato. El Comité <em>podrá invitar también a los organismos especializados</em> y a otros órganos competentes que considere apropiados a que proporcionen <em>asesoramiento especializado</em> sobre la aplicación de la Convención en los ámbitos que entren dentro de sus respectivos mandatos. <em>El Comité podrá invitar a los organismos especializados y a otros órganos de las Naciones Unidas a que presenten informes sobre la aplicación de la Convención en las esferas que entren dentro de su ámbito de actividades</em>; [&hellip;] (art. 38).</p>
 <p>En castellano básico. Si tienen dudas sobre el concepto o alcance de algunos de los temas tratados en la Convención, consulten con los organismos del sistema de las Naciones Unidas que son expertos en ellos. En los dos temas que seleccionamos, la OIT en cuanto a trabajo, y la UNESCO en cuanto a educación.</p>
 <p>La UNESCO, desde la Declaración de Salamanca y su Marco de Acción para las necesidades educativas especiales de 1994<sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup> ha elaborado un sinnúmero de documentos, estudios y recomendaciones que han venido fortaleciendo el principio de una <em>Escuela para Todos</em>. Este principio es el que está en el corazón de la <em>educación inclusiva</em>. Una educación en la que todas las niñas y los niños, sin importar su condición o diversidad, se eduquen en <em>las mismas aulas y escuelas</em> recibiendo los apoyos necesarios y efectuándose los ajustes razonables a los que refiere la CDPD.</p>
 <p>Para esta nota, no vamos a recorrer todo ese material. Tampoco las valiosísimas aportaciones de especialista a escala mundial como Mel Ainscow, Miguel Ángel Verdugo Alonso, Gerardo Echeita, Ignacio Calderón Almendros, Rosa Blanco o, antes, Seamous Hegerthy o Susan Peters entre muchísimos otros<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>.</p>
@@ -2157,7 +2163,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>¿Entonces&hellip;? &ldquo;El problema es el de un <em>sistema educativo</em> que se muestra hasta la fecha, y <em>a pesar de tener los conocimientos y la capacidad de hacerlo</em>, incapaz de promover el aprendizaje y la participación de todos los alumnos sin recurrir a la exclusión de algunos de ellos&hellip; La solución no puede ser otra que la de remover los obstáculos que impiden a los centros, de uno y otro tipo, ponerse en marcha para imaginar e implementar nuevos esquemas de trabajo que promuevan esa capacidad&rdquo;<sup id="fnref:25"><a href="#fn:25" class="footnote-ref" role="doc-noteref">25</a></sup>. Pero esto va más allá aun&hellip; &ldquo;Es importante reconocer que no son meramente los muros de la escuela especial los que segregan a los discapacitados de los demás. En este sentido, no es suficiente acabar con estas estructuras educativas especiales para lograr la integración. Tal vez las barreras más difíciles de romper las constituyen las <em>actitudes humanas</em>&rdquo;<sup id="fnref:26"><a href="#fn:26" class="footnote-ref" role="doc-noteref">26</a></sup>.</p>
 <p>Sí, hay un problema de <em>actitudes humanas</em> pero que van mucho más allá si lo vemos desde una perspectiva político institucional. Hay un problema de la posición que toman los diversos actores sociales que intervienen en la arena de este juego de las políticas públicas. Cada actor responde a sus propios intereses, a su propia ideología, a su propia lógica y estrategia. Un análisis simplista de esos intereses, que se limite a &ldquo;etiquetar&rdquo; a esos actores de acuerdo a preconceptos, puede llevarnos a un error de interpretación.</p>
 <p>Nos dicen Calderón y Ainscow: &ldquo;Parece paradigmático el <em>resurgimiento</em> de fuerzas contra la educación inclusiva, aunque dicen actuar paradójicamente en nombre de la inclusión. Pretenden volver a la lógica de la educación especial, asumiendo que hay alumnado defectuoso, que ha de ser categorizado y segregado para obtener recursos que la investigación internacional ha evidenciado insistentemente como infructuosos (Cologon 2019, 2020; Hehir et al., 2016; Jackson, 2008). Es lo que Tomlinson (2012) denomina el ascenso de la <em>industria</em> NEE.&rdquo;<sup id="fnref:27"><a href="#fn:27" class="footnote-ref" role="doc-noteref">27</a></sup></p>
-<p>Es que, en definitiva, como señalamos con Acuña en el libro ya citado, la mejora en la calidad de las políticas públicas &ndash;y en este caso, la &ldquo;mejora&rdquo; es ir decididamente hacia la educación inclusiva como derecho humano- implica afectar los intereses individuales y colectivos de aquellos actores que se benefician con el estado de cosas.</p>
+<p>Es que, en definitiva, como señalamos con Acuña en el libro ya citado, la mejora en la calidad de las políticas públicas &ndash;y en este caso, la &ldquo;mejora&rdquo; es ir decididamente hacia la educación inclusiva como derecho humano— implica afectar los intereses individuales y colectivos de aquellos actores que se benefician con el estado de cosas.</p>
 <p>Quienes gozan de un status de poder en las estructuras estatales de conducción política del sistema educativo que, como vimos, habla de educación inclusiva, pero preserva las modalidades de educación especial segregada, con sus áreas, estructuras administrativas (ravioles de los organigramas), escuelas, etc. ¿Cómo ven ese tránsito de un paradigma a otro? ¿Cómo ven desempeñarse con un rol diferente dentro del sistema educativo general<sup id="fnref:28"><a href="#fn:28" class="footnote-ref" role="doc-noteref">28</a></sup>? Muchos han dicho y dicen aun que se quedarán sin trabajo, aunque ello no sea así<sup id="fnref:29"><a href="#fn:29" class="footnote-ref" role="doc-noteref">29</a></sup>.</p>
 <p>El propio &ldquo;sistema&rdquo; educativo nacional (en todas las provincias), actualmente reduce el concepto de ser &ldquo;inclusivos&rdquo; a admitir la matriculación de alumnos con discapacidad siempre y cuando vayan acompañados por una &ldquo;maestra integradora&rdquo;<sup id="fnref:30"><a href="#fn:30" class="footnote-ref" role="doc-noteref">30</a></sup> u otras denominaciones que describen a un docente que está al lado del alumno brindándole su apoyo. Esta modalidad, lejos de ser representativa del modelo inclusivo, genera que el sistema común no se &ldquo;apropie&rdquo; y haga suyo el modelo inclusivo dentro de su diseño institucional. Más aún cuando esa &ldquo;maestra integradora&rdquo; la mayoría de las veces es provista y financiada por el sistema de salud (obras sociales, prepagas, PAMI). Traduzco para el no iniciado: Yo hago lo mismo de siempre; que entre el alumno con discapacidad, que traiga su maestra, que esa maestra la pague otro, y yo sigo con lo mío y el resto de los alumnos. ¿Quedó claro?</p>
 <p>¿Cómo ven a la educación inclusiva, a las recomendaciones de UNESCO, a las fuertes exhortaciones del Comité de la CDPD y al activismo de organizaciones de la sociedad civil que <em>bregan de verdad</em> por ella<sup id="fnref:31"><a href="#fn:31" class="footnote-ref" role="doc-noteref">31</a></sup> y por el pase de la mayoría de los alumnos a escuelas comunes, quienes son dueños o gestores de empresas comerciales que explotan escuelas especiales segregadas de gestión privada?<sup id="fnref:32"><a href="#fn:32" class="footnote-ref" role="doc-noteref">32</a></sup> ¿Y las ONG que hacen lo propio, sus directivos o su personal?</p>
@@ -2204,7 +2210,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>No ocurre lo mismo con las pensiones derivadas del fallecimiento de los progenitores de las PcD en el marco del sistema previsional de la Ley 24.241, conforme la Resolución 30/2021 de la entonces Secretaría de Seguridad Social: <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/355000-359999/357727/norma.htm">https://servicios.infoleg.gob.ar/infolegInternet/anexos/355000-359999/357727/norma.htm</a>&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:10">
-<p>Completar con lo señalado en cuanto a la &ldquo;pobreza de ingreso y de tiempo&rdquo; vinculada a la discapacidad en BULIT GOÑI, Luis G. &ldquo;Recalculando&hellip; Discapacidad y seguridad social. Aportes para el diseño de una nueva política&rdquo;, Revista Académica Discapacidad y Derechos - Número 4 - Octubre 2017 <a href="https://ijeditores.com/pop.php?option=articulo&amp;Hash=dc3261b3dd63795735b10337be769dfb">https://ijeditores.com/pop.php?option=articulo&amp;Hash=dc3261b3dd63795735b10337be769dfb</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Completar con lo señalado en cuanto a la &ldquo;pobreza de ingreso y de tiempo&rdquo; vinculada a la discapacidad en BULIT GOÑI, Luis G. &ldquo;Recalculando&hellip; Discapacidad y seguridad social. Aportes para el diseño de una nueva política&rdquo;, Revista Académica Discapacidad y Derechos — Número 4 — Octubre 2017 <a href="https://ijeditores.com/pop.php?option=articulo&amp;Hash=dc3261b3dd63795735b10337be769dfb">https://ijeditores.com/pop.php?option=articulo&amp;Hash=dc3261b3dd63795735b10337be769dfb</a>&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:11">
 <p>OIT [Trabajo decente para personas con discapacidad: promoviendo derechos en la agenda global de desarrollo]{.underline}, Oficina Internacional del Trabajo. &ndash; Ginebra, 2015, págs. 106-107-&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
@@ -2276,7 +2282,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Ver en el Nomenclador de Prestaciones Básicas los valores para febrero de 2026 los aranceles para diversas modalidades de prestaciones educativas que paga Salud, y que van de poso más de $500.000 o poco menos de $2.500.000 mensuales <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/338869/20260227">https://www.boletinoficial.gob.ar/detalleAviso/primera/338869/20260227</a>&#160;<a href="#fnref:32" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:33">
-<p>Sin abrir juicio de valor alguno, no son pocas las que se sienten mucho más &ldquo;cómodas&rdquo; en los espacios especiales segregados, las que consideran que la inclusión &ldquo;nos es para nuestro hijo/a&rdquo;. Ni qué hablar de aquellas a las que &ndash;muchas veces por vía judicial- han obtenido que la cobertura de salud les financie no sólo los &ldquo;apoyos&rdquo; a la inclusión en escuelas comunes, sino hasta la misma matrícula y cuotas mensuales de esas escuelas de gestión privada.&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Sin abrir juicio de valor alguno, no son pocas las que se sienten mucho más &ldquo;cómodas&rdquo; en los espacios especiales segregados, las que consideran que la inclusión &ldquo;nos es para nuestro hijo/a&rdquo;. Ni qué hablar de aquellas a las que &ndash;muchas veces por vía judicial— han obtenido que la cobertura de salud les financie no sólo los &ldquo;apoyos&rdquo; a la inclusión en escuelas comunes, sino hasta la misma matrícula y cuotas mensuales de esas escuelas de gestión privada.&#160;<a href="#fnref:33" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:34">
 <p>Hay sectores dentro de la comunidad de personas sordas que reivindican la educación segregada, en su propio idioma que es el lenguaje de señas, como el único sistema respetuoso de su &ldquo;cultura&rdquo;.&#160;<a href="#fnref:34" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
@@ -2364,13 +2370,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -639,7 +645,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Esta situación afectó profundamente a las universidades públicas argentinas, que se movilizaron para revertirla mediante lobby y manifestaciones masivas en las principales ciudades del país. En 2025, el Congreso sancionó la Ley de Financiamiento Universitario. La norma tenía como único objeto actualizar la partida presupuestaria correspondiente a las universidades públicas, ajustándola a la inflación. No se trató de un aumento real del gasto público destinado al sistema universitario, sino de un medio para recomponer dicho gasto para garantizar el funcionamiento de las universidades.</p>
 <h1 id="el-rechazo-del-veto-presidencial">El rechazo del veto presidencial</h1>
 <p>El presidente vetó dicha ley. Sin embargo, el Congreso insistió con la sanción reuniendo una mayoría especial en cada una de sus cámaras. Cuando ello ocurre, el presidente está constitucionalmente obligado a promulgar la ley y a comenzar a cumplirla. Pero Javier Milei tenía otros planes. El presidente promulgó la ley, pero en ese mismo decreto también suspendió su aplicación.</p>
-<p>Para ello, invocó la Ley de Normas Complementarias para la Ejecución del Presupuesto. Esta ley dispone que, si una ley autoriza gastos -refiriéndose a gastos no previstos en la ley de presupuesto del año en curso-, deberá prever en forma expresa su financiamiento. Si no lo hiciera, entonces su aplicación quedará suspendida hasta tanto se incluyan las partidas en la ley de presupuesto. </p>
+<p>Para ello, invocó la Ley de Normas Complementarias para la Ejecución del Presupuesto. Esta ley dispone que, si una ley autoriza gastos —refiriéndose a gastos no previstos en la ley de presupuesto del año en curso-, deberá prever en forma expresa su financiamiento. Si no lo hiciera, entonces su aplicación quedará suspendida hasta tanto se incluyan las partidas en la ley de presupuesto. </p>
 <p>Con la ejecución de la ley suspendida, las universidades públicas tuvieron que mantener su reclamo y presentar una demanda judicial. Esto llevó a los tribunales a emitir una orden provisional para que el gobierno cumpla con la ley. Esa orden fue apelada por el gobierno ante la Corte Suprema, que ahora deberá tomar una decisión.</p>
 <h1 id="por-qué-es-técnicamente-dictatorial">Por qué es &ldquo;técnicamente dictatorial&rdquo;</h1>
 <p>En su ensayo sobre el concepto de dictadura, Carl Schmitt describió sus tres elementos: tecnicidad, racionalidad y ejecución. </p>
@@ -714,13 +720,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

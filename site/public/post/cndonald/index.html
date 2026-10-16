@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -619,7 +625,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>La tesis central del texto es sostener que el constitucionalismo deliberativo ha alcanzado la mayoría de edad al articular, de una mejor forma, los presupuestos normativos de su teoría de la democracia con los modelos institucionales idóneos para hacerlo realidad. El gran aporte consiste en presentar una reconstrucción de continuidades y discontinuidades del constitucionalismo deliberativo, a partir de la revisión de sus principales exponentes contemporáneos, pero no se agota en una reconstrucción, sino que también toma posición respecto a cuáles serían, desde la perspectiva del autor, los arreglos institucionales idóneos para hacer realidad las promesas de la democracia deliberativa.</p>
 <p>En esta reconstrucción quisiera plantear los principales aportes del texto, y algunos matices con la propuesta e interrogantes que me surgen a partir de su lectura.</p>
 <p>Este texto es probablemente el más sólido que disponemos actualmente en el esfuerzo de caracterizar al constitucionalismo deliberativo como una vía intermedia entre lo que serían los extremos de la tensión razón y voluntad (que podrían verse reflejados en el constitucionalismo fuerte y el político, respectivamente), al tratarse de una vía que intenta canalizar la tensión entre democracia y derechos, antes que llevarla a suma cero. En este sentido, me parece relevante destacar que el principal aporte de este texto es situarse metodológicamente desde una perspectiva que no siempre es explícita en los debates sobre justicia constitucional que es el vínculo entre los arreglos institucionales y la teoría de la democracia que lo sustenta. Es decir, se asume que existe una conexión entre la teoría de la democracia que se sustenta y los diseños constitucionales idóneos para hacerla realidad, algo así como &ldquo;<em>Dime qué idea de democracia defiendes y te diré que tipo de modelo de judicial review deberías defender&rdquo;.</em></p>
-<p>Este tipo de claridad, creo que la alcanzamos de manera más evidente con el modelo del constitucionalismo deliberativo, porque el camino -como lo muestra Giuffré en el texto- ha sido primero la profundización del giro deliberativo de la democracia y luego, ello ha venido acompañado de la profundización del giro constitucionalista. Lo que ha pasado con otros modelos de filosofía constitucional, en mi opinión, es que, en la mayoría de los casos, si me permiten la expresión, se ha empezado la casa por el tejado y no por los cimientos, y no siempre emergen con claridad las concepciones de la democracia que están detrás de modelos propuestos.</p>
+<p>Este tipo de claridad, creo que la alcanzamos de manera más evidente con el modelo del constitucionalismo deliberativo, porque el camino —como lo muestra Giuffré en el texto— ha sido primero la profundización del giro deliberativo de la democracia y luego, ello ha venido acompañado de la profundización del giro constitucionalista. Lo que ha pasado con otros modelos de filosofía constitucional, en mi opinión, es que, en la mayoría de los casos, si me permiten la expresión, se ha empezado la casa por el tejado y no por los cimientos, y no siempre emergen con claridad las concepciones de la democracia que están detrás de modelos propuestos.</p>
 <p>Tener esta base permite avanzar en la conversación sobre los mecanismos institucionales idóneos porque así se fija el horizonte sobre los presupuestos normativos que se quieren implementar a través de las instituciones.</p>
 <p>Respecto de los matices, la forma en que el autor aborda la exclusión de mecanismos de constitucionalismo fuerte para la realización de las tesis de la democracia deliberativa, hace que me plantee algunas dudas. Aunque el autor tiene presente el &ldquo;matiz contextual&rdquo; que debe ser considerado en los diseños institucionales, creo que el incorporar paliativos fuertes, no significa &ldquo;claudicar&rdquo; frente al constitucionalismo fuerte (como se sugiere, por ejemplo, haría Lafont), sino simplemente reconocer que esos mecanismos pueden ser funcionales para crear las condiciones que permiten el mismo ideal deliberativo.</p>
 <p>Hay que tener presente que la idea central que permite equilibrar la balanza entre democracia y derechos es la tesis de la co-originalidad de las tesis de democracia y derechos. En este sentido, la balanza podrá inclinarse (aunque no del todo), si el contexto justifica la inclinación para mantener la co-originalidad. En este sentido, tiendo a coincidir con <a href="https://revistas.uexternado.edu.co/index.php/derest/article/view/8599/13977">Lafont</a>, en que la cuestión de los arreglos institucionales es también una cuestión contextual o empírica y ello es compatible con mantener las tesis normativas de la democracia deliberativa. Estas, al tener un compromiso con la inclusión, por ejemplo, requerirán mecanismos más fuertes si la inclusión no está asegurada. En dichos casos, los mecanismos fuertes deben ser entendidos como atajos complementarios mas no sustitucionistas), en las palabras de <a href="https://revistas.uexternado.edu.co/index.php/derest/article/view/8599/13977">Lafont</a>. Algo así como &ldquo;mecanismos transicionales&rdquo; que permiten equilibrar la balanza.</p>
@@ -686,13 +692,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

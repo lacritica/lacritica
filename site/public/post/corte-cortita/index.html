@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -638,8 +644,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
           <p>El primero de Mayo, Argentina honra no solo el día del trabajador, sino también el día de la Constitución Nacional conmermorando la fecha de su primera Constitución exitosa. Para una comunidad jurídica y política que ha pasado buen parte del Siglo XX al margen de la Constitución, debería ser una fecha significativa, un hito para renovar nuestro compromiso y patriotismo constitucional.</p>
-<p>Justo un día antes, ayer 30 de Abril -día en que se conmemora la primera ronda de las madres de plaza de mayo- , en la sede de nuestra Corte Suprema se dictó un fallo que debería tener una enorme trascendencia constitucional e institucional.</p>
-<p>En el caso <strong><a href="https://www.palabrasdelderecho.com.ar/articulo/6728/Fallo-a-favor-de-la-privacidad-la-Corte-Suprema-declaro-la-inconstitucionalidad-de-varios-articulos-de-la-Ley-de-Datos-Personales">“Torres Abad, Carmen c/ EN - JGM s/ hábeas data”</a></strong>, se analizó la constitucionalidad de diversas normas de la ley 25.326 de Protección de Datos Personales, y se resolvió que eran inconstitucionales porque vulneraban los derechos constitucionales a la intimidad, la privacidad y la “autodeterminación informativa o libertad informática” de las personas.</p><figure class='thumbnail-insert'><img src='/img/038B6BF7-FD0B-40D5-84B6-67D461E3D264_1_201_a.jpeg' alt=''></figure>
+<p>Justo un día antes, ayer 30 de Abril —día en que se conmemora la primera ronda de las madres de plaza de mayo— , en la sede de nuestra Corte Suprema se dictó un fallo que debería tener una enorme trascendencia constitucional e institucional.</p>
+<p>En el caso <strong><a href="https://www.palabrasdelderecho.com.ar/articulo/6728/Fallo-a-favor-de-la-privacidad-la-Corte-Suprema-declaro-la-inconstitucionalidad-de-varios-articulos-de-la-Ley-de-Datos-Personales">“Torres Abad, Carmen c/ EN — JGM s/ hábeas data”</a></strong>, se analizó la constitucionalidad de diversas normas de la ley 25.326 de Protección de Datos Personales, y se resolvió que eran inconstitucionales porque vulneraban los derechos constitucionales a la intimidad, la privacidad y la “autodeterminación informativa o libertad informática” de las personas.</p><figure class='thumbnail-insert'><img src='/img/038B6BF7-FD0B-40D5-84B6-67D461E3D264_1_201_a.jpeg' alt=''></figure>
 <p>En cualquier contexto de normalidad y funcionalidad constitucional una sentencia de este tipo define las bases y marca el rumbo futuro de los mandatos constitucionales relativos al uso estatal de datos e información que obtiene de sus ciudadanos. Se trata del tipo de sentencias trascendentales a través de las cuales las Cortes Supremas actualizan el sentido y marcan la identidad constitucional de la generación que les toca gobernar.</p>
 <p>Sí, claro que sí, en sentido amplio las cortes también nos gobiernan.</p>
 <p>Ello es así porque fundamentalmente estamos comprometidos a que nos gobierne la Constitución.</p>
@@ -647,28 +653,28 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Es la maravilla del constitucionalmimo democrático.</p>
 <p>El caso “Torres Abad” escenifica un tema es urgente y fundamental del presente y el futuro constitucional cercano; su tratamiento resulta crítico para comprender qué permite y qué prohibe la Constitución a los gobiernos, y qué protección y garantías reconoce a la ciudadanía en relación con el uso estatal de sus datos personales.</p>
 <p>Pero, ay!</p>
-<p>Ese, que podria ser un fallo notable de la Corte, dictado casi en el día en que honramos a nuestra Constitución Nacional, solo tiene la firma de dos de sus Jueces -y de un camarista invitado.</p>
-<p>Lo que es aún peor, el tercer juez de la Corte -junto a otra camarista invitada- resolvió que ni siquiera iba a tratar el tema constitucional que sus colegas decidieron debatir.</p>
-<p>Los tres jueces de -lo que podría ser- la Corte Suprema no pudieron ni ponerse de acuerdo en que iban a tratar cierta cuestion constitucional imporante y proveer a la sociedad de sus interpretaciones sobre la Ley Fundamental. Dicho sea de paso -pero no tan de paso- la práctica habitual según la cual una mayoría de la Corte acuerda fallar sobre un tema constitucional -en el sentido que sea-, y otros jueces deciden lisa y llanamente abstenerse de tratar el asunto es una práctica deplorable. Jamás un juez de la Corte debería abstenerse de brindar su voto sobre una cuestión constituconal que propia la Corte -como cuerpo- decide tratar. Pero sigamos.</p>
+<p>Ese, que podria ser un fallo notable de la Corte, dictado casi en el día en que honramos a nuestra Constitución Nacional, solo tiene la firma de dos de sus Jueces —y de un camarista invitado.</p>
+<p>Lo que es aún peor, el tercer juez de la Corte —junto a otra camarista invitada— resolvió que ni siquiera iba a tratar el tema constitucional que sus colegas decidieron debatir.</p>
+<p>Los tres jueces de —lo que podría ser— la Corte Suprema no pudieron ni ponerse de acuerdo en que iban a tratar cierta cuestion constitucional imporante y proveer a la sociedad de sus interpretaciones sobre la Ley Fundamental. Dicho sea de paso —pero no tan de paso— la práctica habitual según la cual una mayoría de la Corte acuerda fallar sobre un tema constitucional —en el sentido que sea-, y otros jueces deciden lisa y llanamente abstenerse de tratar el asunto es una práctica deplorable. Jamás un juez de la Corte debería abstenerse de brindar su voto sobre una cuestión constituconal que propia la Corte —como cuerpo— decide tratar. Pero sigamos.</p>
 <p>Lo cierto es que con una Corte en estado permanente y estructural de <em>capitis deminutio</em> no hay forma de construir una práctica inteligible de interpretación constitucional que tenga autoridad.</p>
 <p>No hay manera de que la Corte haga lo único que es realmente imprescindible que haga: participar a través de su jurisprudencia en la definición de lo que significa la Constitución para nuestra comunidad política.</p>
 <p>No hay forma de ocultarlo. No hay nada que merezca ser tratado como un “fallo de la Corte”, si solo tiene la firma de dos jueces. Menos aún si el tercero ni siquiera se pronuncia sobre el asunto.</p>
 <p>En estas condiciones, no hay una Corte Suprema.</p>
 <p>Es una tragedia, pero no hay caso, esa Corte cortita no es la Corte Suprema de la Constitucion Nacional. Así no.</p>
 <p>Y asi, tampoco puede haber Constitución interpretada; lo que prácticamente equivale a decir que no hay Constitución. Es un estado de cosas que no se puede justificar de ninguna forma.</p>
-<p>Pero el daño mayor -el más extendido y duradero- que encuentro en este <strong>“estado de cosas inconstitucional”</strong> no está en la propia Corte, ni en los tres jueces -que son víctimas de esta <em>capitis deminutio</em>. El mayor daño reside en el hecho de que nuestra comunidad política y jurídica acepte estructuralmente este estado de cosas, lo naturalice, se adapte a él de manra resignada -o alegremente.</p>
-<p><em>El hecho de que vivamos con aparente normalidad y funcionalidad este despropósito es lo que nos condena. Nos devuelve al espejo del Siglo XX y a la reminicencia de la imperdonable normalización de la aporía de un  “derecho de facto”.</em> La sinrazón irremediable de una comunidad jurídica viviendo en -y contribuyendo a- un derecho de facto.</p>
-<p>En estos años -desde hace varios años- nos movemos otra vez dentro de una pesadilla constitucional e institucional, en la que transcurrimos la progresiva y constante erosión de las instituciones destinadas a custodiar el estado de derecho que ordena la Constitución.</p>
+<p>Pero el daño mayor —el más extendido y duradero— que encuentro en este <strong>“estado de cosas inconstitucional”</strong> no está en la propia Corte, ni en los tres jueces —que son víctimas de esta <em>capitis deminutio</em>. El mayor daño reside en el hecho de que nuestra comunidad política y jurídica acepte estructuralmente este estado de cosas, lo naturalice, se adapte a él de manra resignada —o alegremente.</p>
+<p><em>El hecho de que vivamos con aparente normalidad y funcionalidad este despropósito es lo que nos condena. Nos devuelve al espejo del Siglo XX y a la reminicencia de la imperdonable normalización de la aporía de un  “derecho de facto”.</em> La sinrazón irremediable de una comunidad jurídica viviendo en —y contribuyendo a— un derecho de facto.</p>
+<p>En estos años —desde hace varios años— nos movemos otra vez dentro de una pesadilla constitucional e institucional, en la que transcurrimos la progresiva y constante erosión de las instituciones destinadas a custodiar el estado de derecho que ordena la Constitución.</p>
 <p>Como aquellos protagonistas de “casa tomada”, viviendo en horripilante normalidad su incremental reclusión. Ahora es a la inversa, vivimos en una casa constitucional vacía; tomada por el vacío.</p>
 <p>Una casa vacía de un tercio de jueces nacionales y federales.</p>
 <p>Vacía de Procuración General de la Nación.</p>
 <p>Vacía de Defensoría General de la Nación.</p>
 <p>Vacía de Defensoría del Pueblo de la Nación.</p>
 <p>Vacía, finalmente, de una verdadera Corte Suprema de Justicia de la Nación.</p>
-<p>El palacio de tribunales está habitado por tres jueces -sin dudas probos los tres pobres varones-, pero sin una Corte Suprema. Tres pobres jueces, quienes a pesar de todos sus esfuerzos para proyectar institucionalidad -que también malogran con sus rencillas internas-, ni siquiera pueden crear interpretación constitucional que merezca autoritatividad.</p>
+<p>El palacio de tribunales está habitado por tres jueces —sin dudas probos los tres pobres varones-, pero sin una Corte Suprema. Tres pobres jueces, quienes a pesar de todos sus esfuerzos para proyectar institucionalidad —que también malogran con sus rencillas internas-, ni siquiera pueden crear interpretación constitucional que merezca autoritatividad.</p>
 <p>En esta pesadilla de casa vacía, una comunidad jurídica transcurre mansamente recluida en un estado de excepción constitucional, como si nada pasara <em>(“no pasa nada, nadie pasa, solo una banda militar, desafinando el tiempo y el compás”, decía la canción).</em></p>
 <p><em>La comunidad jurídica no ha hecho nada significativo para reclamar frente a la anomalía constitucional. Colegios de abogados, asociaciones de magistrados, funcionarios y trabajadores&hellip;no han creado una sola demostración o una medida de protesta frente a la casa constitucional vacíada de instituciones.</em></p>
-<p>En esta casa, la idea de una constitución viva -interpretada unívocamente por nuestra comunidad política, con la Corte Surpema a la cabeza-, es simplemente un espejismo, una espera, mientras el desierto avanza.</p>
+<p>En esta casa, la idea de una constitución viva —interpretada unívocamente por nuestra comunidad política, con la Corte Surpema a la cabeza-, es simplemente un espejismo, una espera, mientras el desierto avanza.</p>
 
         
 
@@ -729,13 +735,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

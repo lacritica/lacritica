@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -2092,15 +2098,15 @@ document.addEventListener("DOMContentLoaded", () => {
     
       <p><em>(Reprducimos el texto de un videoensayo, de la Sociedad Anónima del Sonido en <a href="https://www.laimagenjusta.com/itinerarios/el-aborto-en-el-cine/">La Imagen Justa</a> &mdash; con link al videoensayo)</em>.</p>
 <hr>
-<p>Desde siempre, el aborto ha tenido nombre, pero desborda el lenguaje que intenta contenerlo. No es simplemente un hecho biológico o jurídico, es &mdash;-todavía&mdash;- un dilema ético que habita una grieta, una fractura que atraviesa las estructuras del patriarcado y expone, una y otra vez, las tensiones entre la ley, la moral y el cuerpo de las mujeres.</p>
-<p>El cine, máquina de representación social, miró esa fractura desde sus inicios, pero casi siempre de reojo: bajo vigilancia. El aborto fue &mdash;-y sigue siendo&mdash;- elipsis, insinuación, silencio: un fuera de campo que señala los bordes de lo moralmente aceptable.</p>
+<p>Desde siempre, el aborto ha tenido nombre, pero desborda el lenguaje que intenta contenerlo. No es simplemente un hecho biológico o jurídico, es &mdash;-todavía&mdash;— un dilema ético que habita una grieta, una fractura que atraviesa las estructuras del patriarcado y expone, una y otra vez, las tensiones entre la ley, la moral y el cuerpo de las mujeres.</p>
+<p>El cine, máquina de representación social, miró esa fractura desde sus inicios, pero casi siempre de reojo: bajo vigilancia. El aborto fue &mdash;-y sigue siendo&mdash;— elipsis, insinuación, silencio: un fuera de campo que señala los bordes de lo moralmente aceptable.</p>
 <p>Y, aun así, incluso bajo censura, el cine encontró grietas: mujeres que filmaron antes de tiempo, directores que insinuaron lo prohibido, narrativas que se atrevieron a nombrar</p>
-<p>lo que debía permanecer oculto. De esas grietas &mdash;-visuales, políticas, morales&mdash;- emerge la historia del aborto en la pantalla.</p>
+<p>lo que debía permanecer oculto. De esas grietas &mdash;-visuales, políticas, morales&mdash;— emerge la historia del aborto en la pantalla.</p>
 <h1 id="censura-y-silencio">Censura y silencio</h1>
 <p>En Hollywood, el aborto fue silenciado por ley. Desde 1934, el Código Hays prohibía incluso pronunciar la palabra. El resultado fue una larga serie de películas en las que la maternidad no deseada se narraba desde el eufemismo: mujeres &ldquo;en problemas&rdquo;, &ldquo;culpables&rdquo; o &ldquo;perdidas&rdquo;. El cuerpo femenino podía mostrarse, pero sin agencia sobre su destino.</p>
 <p>La industria que moldeaba la imaginación del mundo evitaba toda imagen que desafiara el mandato de la maternidad. Antes de esa censura, una mujer ya había filmado el conflicto. En 1916, Lois Weber realiza <em>Where Are My Children?</em>, la primera película en la historia del cine que aborda el control de la natalidad y el aborto. El guión exhibe las contradicciones de su época: un fiscal que defiende la eugenesia y condena a su esposa por abortar en secreto. La paradoja es reveladora: en nombre del &ldquo;progreso&rdquo; se legitima el control del cuerpo femenino.</p>
-<p>Aun así, Weber, pionera entre pioneros, se atrevió a poner en escena las tensiones entre moral, poder y deseo, y a situar a las mujeres &mdash;-con sus dilemas y conflictos&mdash;- en el centro del relato cinematográfico.</p>
-<p>Mientras Hollywood domesticaba su mirada, el cine europeo de entreguerras concibió la cámara como un instrumento de transformación. El aborto era un tema que el cine podía &mdash;-y debía&mdash;- mirar. En 1929, Eduard Tissé filma, junto a Sergei Eisenstein, <em>Misery and Fortune of Women</em>. Comisionada como &ldquo;película educacional&rdquo; y rodada en una clínica ginecológica de Zúrich, este ensayo visual subraya la necesidad de legalizar el aborto en una Europa en la que dos millones de mujeres lo practicaban clandestinamente cada año.</p>
+<p>Aun así, Weber, pionera entre pioneros, se atrevió a poner en escena las tensiones entre moral, poder y deseo, y a situar a las mujeres &mdash;-con sus dilemas y conflictos&mdash;— en el centro del relato cinematográfico.</p>
+<p>Mientras Hollywood domesticaba su mirada, el cine europeo de entreguerras concibió la cámara como un instrumento de transformación. El aborto era un tema que el cine podía &mdash;-y debía&mdash;— mirar. En 1929, Eduard Tissé filma, junto a Sergei Eisenstein, <em>Misery and Fortune of Women</em>. Comisionada como &ldquo;película educacional&rdquo; y rodada en una clínica ginecológica de Zúrich, este ensayo visual subraya la necesidad de legalizar el aborto en una Europa en la que dos millones de mujeres lo practicaban clandestinamente cada año.</p>
 <p>Tres historias se cruzan: las condiciones laborales inhumanas, los abortos inseguros y los discursos patriarcales de la medicina. Impregnada del espíritu revolucionario de 1917, la película se sirve del montaje como herramienta de choque. Contrapone la asepsia de la medicina moderna con la violencia de la clandestinidad. Ese contraste abre una grieta por donde se cuela la denuncia.</p>
 <p>El aborto, lejos de permanecer oculto, aparece como un síntoma social, una desigualdad inscrita en los cuerpos.</p>
 <p>Un siglo más tarde, el silencio adopta otra forma. <em>Diane Wellington,</em> de Arnaud des Pallières, habla de la desaparición, la indiferencia, la vida borrada. En dieciséis minutos, des Pallières recompone la historia de una adolescente de 16 años que desaparece en Dakota del Sur, en 1938. <em>Diane Wellington</em> aborda el silenciamiento del aborto, ya no por la cesura en el cine, sino por su censura en la vida. El montaje convierte ese vacío en presencia; el fuera de campo, en denuncia.</p>
@@ -2123,7 +2129,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <h1 id="autonomía-y-conveniencia">Autonomía y conveniencia</h1>
 <p>Antes de que fuera tema, el aborto ya era gesto: una afirmación del deseo de existir por decisión propia. Lejos de la culpa o el arrepentimiento, estas películas reivindican el aborto como un acto de libertad. El aborto deja de ser tragedia y se vuelve afirmación de autonomía: la elección de vivir la vida que se desea.</p>
 <p>En <em>Cabaret</em>, de Bob Fosse, Berlín aún respira libertad antes del ascenso nazi. El <em>Kit Kat Club</em>, es el refugio en el que canta Sally Bowles, expatriada norteamericana que sueña con ser actriz. Cuando descubre que está embarazada y no sabe quién es el padre, Brian &mdash;su amante inglés&mdash; se ofrece a acompañarla en la maternidad. Sally se conmueve, pero una imagen del futuro la detiene: una casa, un marido, un niño, la vida ordenada que siempre temió. Decide abortar. No por vergüenza ni por miedo, sino porque su deseo no cabe en la vida que otros imaginan para ella. &ldquo;Fue uno de mis caprichos&rdquo;, dice, y en esa ligereza se esconde una insurrección: el derecho a elegir su destino, a no ser madre, ni modelo, ni símbolo.</p>
-<p><em>Cabaret</em> es una coreografía de contradicciones: mientras el mundo se desmorona, Sally encarna una libertad frágil pero luminosa. Fosse convierte el musical &mdash;-género del artificio&mdash;- en un retrato feroz de la autonomía femenina. Dos décadas después, la misma elección ya no será un acto de deseo, sino de desesperación.</p>
+<p><em>Cabaret</em> es una coreografía de contradicciones: mientras el mundo se desmorona, Sally encarna una libertad frágil pero luminosa. Fosse convierte el musical &mdash;-género del artificio&mdash;— en un retrato feroz de la autonomía femenina. Dos décadas después, la misma elección ya no será un acto de deseo, sino de desesperación.</p>
 <p>En <em>Revolutionary Road</em> de Sam Mendes, ambientada en un suburbio estadounidense de los años cincuenta, la libertad imposible se encarna en April Wheeler, una mujer atrapada en la perfección de la vida doméstica. Casada, madre de dos hijos, cumple con todos los mandatos de su época: la casa, el marido, la sonrisa. Pero su deseo no cabe en esa escenografía. Sueña con huir a París y empezar de nuevo, con tener una vida que le pertenezca. Cuando un nuevo embarazo derrumba esa ilusión, el aborto se convierte en un grito de resistencia.</p>
 <p>April decide hacerlo sola, y en ese intento desesperado por recuperar el control, pierde la vida. Mendes filma esa tragedia con precisión quirúrgica: la cámara observa cómo la moral doméstica, la masculinidad herida y el mandato de la maternidad confluyen para destruir a quien se atreve a imaginar otra existencia.</p>
 <p>Este recorrido del silencio a la culpa, de la culpa a la solidaridad, y de la solidaridad a la autonomía demuestra que el aborto desborda el problema cinematográfico. El verdadero conflicto no está en la representación, sino en la realidad que la sostiene. El cine, al mirarlo, lo revela, lo ilumina. Cada una de estas películas amplía el archivo de resistencia, esa memoria fílmica del derecho a decidir, y demuestra, una vez más, cuánto teme cada época a la libertad de las mujeres.</p>
@@ -2185,13 +2191,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

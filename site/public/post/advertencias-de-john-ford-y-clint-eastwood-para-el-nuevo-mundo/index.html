@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -641,7 +647,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Tampoco le sorprende que el pueblo no haga nada para defender al sheriff; no es solo apatía, sino un profundo desinterés por asumir la responsabilidad cívica que la ley exige.  &ldquo;People have to talk themselves into the law&rdquo;, dice. Para romper con la inercia de la barbarie, la gente tiene que convencerse a sí misma del valor y significado de la ley. Si la cobardía y el individualismo son lo natural, lo esperable, la civilización es artificial y necesita de un proceso de socialización o apropiación.</p>
 <p>El silbido del tren de la tarde (arquetipo del progreso y símbolo del avance de la civilización en el Lejano Oeste) anuncia la llegada de Miller y su banda salvaje al pueblo. Will Kane, como la mayoría de los protagonistas de las películas de Zinnemann, debe enfrentar su destino solo. Con la ayuda inesperada de Amy, su esposa quaker que traiciona su promesa religiosa de no violencia y mata a uno de los bandidos, Kane vence a los bandidos. Luego de la pelea, el pueblo sale de sus escondites intentando volver a la civilización. El sheriff, asqueado, tira su estrella de lata al piso y él y su esposa abandonan Tombstone para siempre.</p>
 <p><em>A la hora señalada</em> (1952) fue escrita por Carl Foreman mientras era perseguido por el macartismo. Por eso mismo, la película fue leída como una parábola sobre la cobardía y el miedo social frente a las persecuciones políticas en Estados Unidos. Más allá de ese contexto histórico, el film sigue funcionando como una exhibición de la fragilidad de las ficciones morales que sostienen a las comunidades modernas. Revela que a veces, las personas no son lo que parecen, y que la imagen de una comunidad respetable y civilizada no es mucho más que una apariencia.</p>
-<p>Cuando el aparato institucional todavía no existe como garante de la justicia, y el fervor popular le da la espalda, hace falta alguien más -el sheriff- para asegurarse que al final del día las injusticias se corrijan. Lejos de colocarnos en el lugar del sheriff, Foreman nos recuerda que lo más probable es que seamos parte del elenco del pueblo.</p>
+<p>Cuando el aparato institucional todavía no existe como garante de la justicia, y el fervor popular le da la espalda, hace falta alguien más —el sheriff— para asegurarse que al final del día las injusticias se corrijan. Lejos de colocarnos en el lugar del sheriff, Foreman nos recuerda que lo más probable es que seamos parte del elenco del pueblo.</p>
 <p>En 1973, Clint Eastwood dirige una secuela imaginada de <em>A la hora señalada</em> (1952). En <em>Infierno de Cobardes</em> (1973) la llegada de un Forastero enigmático al pueblo de Lago, habitado en apariencia por hombres respetables, va revelando la complicidad colectiva en el asesinato de su antiguo sheriff. Un crimen que reaparece como una pesadilla recurrente en la que todos observan cómo lo linchan en la calle.</p>
 <p>Frente a la amenaza de que los bandidos regresen al pueblo, contratan al Forastero para que los defienda. Progresivamente, este humillará las distintas instituciones del pueblo. Se vengará de su hipocresía designando a un enano como sheriff, regalando el whisky del bar, desalojando a todos los hospedados en el hotel y desarmando los tablones de la iglesia en construcción. Imponiendo un control arbitrario y tiránico sobre el lugar, el Forastero ordena pintarlo de rojo, cuelga un cartel en la calle principal que dice &ldquo;Bienvenidos al Infierno&rdquo;, y, en el enfrentamiento final con los tres criminales, prende fuego las casas.</p>
 <p>La venganza se eleva a un plano sobrenatural, un juicio final propio de las narraciones del Antiguo Testamento, y el personaje de Clint Eastwood se confunde con el de un fantasma. Solo un enviado del pasado, un muerto vivo, conoce la verdad de lo que sucedió en el Lejano Oeste. Como el Forastero, el western es un fantasma que persigue a los Estados Unidos, y otras experiencias de sociedad moderna, revela secretos y endereza injusticias.</p>
@@ -654,7 +660,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 </figure>
 </p>
-<p>En los westerns clásicos, predomina una especie de convicción - un alivio - de que al final se eliminarán los elementos violentos y el mundo seguirá su cauce brillante como en <em>Horizontes de grandeza</em> (1958). Al final un cowboy vuelve a poner al mundo cabeza arriba. Sin embargo, <em>A la hora señalada</em> (1952) e <em>Infierno de Cobardes</em> (1973) nos dicen: la violencia es la violencia, no se la puede pensar como una disfunción de la que el mundo se arregla. La historia de la sociedad moderna no es una seguidilla de triunfos inevitables que nos dirigen a un futuro más brillante. La sociedad puede ser su propio obstáculo.</p>
+<p>En los westerns clásicos, predomina una especie de convicción — un alivio — de que al final se eliminarán los elementos violentos y el mundo seguirá su cauce brillante como en <em>Horizontes de grandeza</em> (1958). Al final un cowboy vuelve a poner al mundo cabeza arriba. Sin embargo, <em>A la hora señalada</em> (1952) e <em>Infierno de Cobardes</em> (1973) nos dicen: la violencia es la violencia, no se la puede pensar como una disfunción de la que el mundo se arregla. La historia de la sociedad moderna no es una seguidilla de triunfos inevitables que nos dirigen a un futuro más brillante. La sociedad puede ser su propio obstáculo.</p>
 <h1 id="pasión-de-los-fuertes-1946-y-el-precio-del-orden"><em>Pasión de los fuertes</em> (1946) y el precio del orden</h1>
 <p>En <em>Pasión de los fuertes</em> (1946), John Ford cuenta la historia que el mismo escuchó contar al mítico cowboy Wyatt Earp. El film se desenvuelve en Tombstone, un pueblo al borde de la civilización, dominado por dos formas de autoridad primitiva. Por un lado, el clan familiar de Pa Clanton, que domina el negocio ganadero; por el otro, Doc Holliday, que controla el juego y los salones. La incipiente comunidad, atrapada entre estas dos fuerzas, mira hacia el Este con fascinación. Quiere formar parte del mundo moderno, pero su ilusión de progreso es tan fuerte como torpe.</p>
 <p>Para dar cuenta de lo cerca y lejos que está el pueblo de ser una sociedad moderna Ford incluye otros personajes y lugares híbridos. Por ejemplo, al pueblo lo visita un poeta ambulante, declamado Hamlet, que recita de memoria la obra de Shakespeare. Ese destello de erudición civilizada se ve corrompida por la tendencia a emborracharse que provoca el Lejano Oeste y la persistencia de personajes del orden de lo natural (los hermanos Clanton) que encierran al poeta en un bar y se burlan de él. Otra escena ilustrativa es la inauguración de la iglesia. John Ford monta un baile en el piso de una iglesia todavía no construida, pero que ya tiene los cimientos, campanas y una estructura firme, en el medio de Monument Valley. Sin sermones, el pueblo celebra la llegada de la evangelización de la mano de las campanas a Tombstone con música y baile.</p>
@@ -729,13 +735,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

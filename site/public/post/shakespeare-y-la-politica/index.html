@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -617,7 +623,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Frente a esta situación, creo interesante recuperar el excelente análisis de Stephen Greenblatt sobre los contenidos políticos de las obras de Shakespeare (<em>El Tirano</em>). Justamente, Greenblatt remarca que, entre los interrogantes políticos que aparecen en las obras del genial dramaturgo, se destacan las siguientes: ¿En qué circunstancias las instituciones políticas muestran su fragilidad frente a individuos ambiciosos de poder y con pocas aptitudes para el cargo? ¿Qué sucede cuando estos individuos no están mentalmente capacitados para desempeñar su cargo y toman decisiones que amenazan el bienestar y la seguridad del Estado y la sociedad? ¿Quiénes son los cómplices que sostienen individuos inescrupulosos como <em>Ricardo III</em>, desequilibrados mentales como <em>El Rey Lear</em> o violentos fanáticos como <em>Coriolano</em>? ¿Por qué las elites (y parte del pueblo) aceptan líderes impulsivos, manipuladores, negadores de la verdad y brutales con la oposición y los más débiles? ¿Por qué la chabacanería y la crueldad de estos personajes son atractivos sus seguidores?</p>
 <p>Reflexionando sobre estos temas, para Greenblatt las obras Shakespeare deberían observarse razonamientos en torno a las formas de desintegración de sociedades y Estados cuando gente de esta calaña ocupa el poder. En tiempos de Shakespeare, como reflexiones sobre el modo en que sociedades desiguales y fragmentadas son caldo de cultivo para ambiciosos aspirantes a tiranos. Entre otras cosas, Greenblatt señala que en esas obras los personajes que integran la &ldquo;clase política&rdquo; son casi todos hipócritas: &ldquo;<em>Ponte anteojos, y, como un politicastro rastrero, aparenta ver lo que no ves</em>» (<em>El rey Lear</em>). La falsedad y la traición son características de los personajes de la elite política, los cuales suponen que sus mentiras podrán engañar incluso a los demás mentirosos que luchan por el poder.</p>
 <p>Un politicastro del tipo que dramatiza Shakespeare no reconoce sus mentiras y no soporta una opinión independiente sino que señala a quienes lo contradicen como como mentirosos o idiotas. Por ejemplo, <em>Julio César</em> dice de <em>Casio</em>, que será líder y cerebro de su asesinato: &ldquo;<em>¡Piensa demasiado! ¡Semejantes hombres son peligrosos! &hellip; Lee mucho, es un gran observador y penetra admirablemente en los motivos de las acciones humanas</em>&rdquo;. <em>Ricardo III</em> opina de forma similar sobre los allegados que prefiere: &ldquo;<em>No quiero a mi lado a quien me mire con ojos escrutadores</em>&rdquo;.</p>
-<p>En sus obras, Shakespeare advierte lo siguiente: aunque el accionar del politicastro mentiroso es absurdo y hasta provoca risa en su entorno y el pueblo, esto no disminuye la amenaza que representa y hasta facilita su acceso al poder. Esto es así porque no se piensa que alguien tan absurdo puede lograrlo o se cree que es tan incompetente que será fácil de manipular. Esto y su crueldad explican por qué casi nadie se anima a decirle abiertamente lo que todos se percatan. Una escena interesante es aquella donde, frente a los estallidos de cólera y desequilibrios emocionales de <em>El Rey Lear</em>, el único que se atreve a burlarse y hacérselo notar es el Bufón; es que las convenciones de la época le permitían a este personaje expresar la verdad sin ser en principio reprimido o castigado: &ldquo;<em>Yo estoy ahora mejor que tú -dice el Bufón a Lear. Soy un loco, y tú no eres nada&hellip;</em>&rdquo; (<em>Rey Lear</em>). Por eso, cuando las hijas y sus cómplices apartan a Lear del poder, el Bufón es expulsado en plena tormenta en compañía del rey loco y desaparece definitivamente de la obra.</p>
+<p>En sus obras, Shakespeare advierte lo siguiente: aunque el accionar del politicastro mentiroso es absurdo y hasta provoca risa en su entorno y el pueblo, esto no disminuye la amenaza que representa y hasta facilita su acceso al poder. Esto es así porque no se piensa que alguien tan absurdo puede lograrlo o se cree que es tan incompetente que será fácil de manipular. Esto y su crueldad explican por qué casi nadie se anima a decirle abiertamente lo que todos se percatan. Una escena interesante es aquella donde, frente a los estallidos de cólera y desequilibrios emocionales de <em>El Rey Lear</em>, el único que se atreve a burlarse y hacérselo notar es el Bufón; es que las convenciones de la época le permitían a este personaje expresar la verdad sin ser en principio reprimido o castigado: &ldquo;<em>Yo estoy ahora mejor que tú —dice el Bufón a Lear. Soy un loco, y tú no eres nada&hellip;</em>&rdquo; (<em>Rey Lear</em>). Por eso, cuando las hijas y sus cómplices apartan a Lear del poder, el Bufón es expulsado en plena tormenta en compañía del rey loco y desaparece definitivamente de la obra.</p>
 <p>Conforme lo explica Greenblatt, el tipo de aspirante a tirano del que se ocupa Shakespeare, siente placer con la dominación que ejerce y disfruta cuando ve a los demás acobardarse y estremecerse de dolor frente a sus acciones. En estas cuestiones, <em>Ricardo III</em> es el arquetipo más acabado: egoísmo ilimitado, placer al infligir dolor, deseo compulsivo de dominar, reclamo de lealtad absoluta y complicidad a su entorno y falta de gratitud y hasta traición frente a esa lealtad. También, transgresión de la ley que representa un concepto de &ldquo;bien público común&rdquo; que a <em>Ricardo III</em> le resulta abominable: su mundo se divide entre ganadores y perdedores. Para el aspirante a déspota, sólo los perdedores hablan de bien común mientras que los ganadores hablan de sus supuestos méritos privados que nada deben a otros.</p>
 <p>La perversidad de <em>Ricardo III</em> es pública y notoria. Pero esto no impide que aglutine cómplices de todo tipo e, incluso, Shakespeare muestra el modo en que esa perversidad atrae a muchos seguidores que lo ayudan a alcanzar sus objetivos. De paso, Greenblatt recuerda que <em>Ricardo III</em> suscitó un interés enorme ya en su época y que ese interés se proyecta hasta la actualidad. Es que la atracción que genera el &ldquo;desfigurado por el espíritu del mal&rdquo; perdura porque muchas personas disfrutan viendo como un despiadado y criminal asciende al poder en base a mentiras, promesas falsas y la directa eliminación violenta de sus rivales.</p>
 <p>De hecho, el variado número de cómplices son un elemento central de las obras del dramaturgo. Estos cómplices se vuelven ejecutores directos de todo tipo de fechorías ordenadas por el inescrupuloso aspirante a la cima del poder y es el modo en que demuestran su lealtad. <em>Ricardo III</em> no está interesado en una lealtad honesta, desapasionada y sustentada en la razón o convicción; lo que desea es la adulación y la obediencia que avale su ignominia. Por eso la mayoría de los cómplices que lo sirven son personajes infames que solo miran su propio interés.</p>
@@ -688,13 +694,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

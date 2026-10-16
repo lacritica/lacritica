@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -628,8 +634,8 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>En una recordada escena de <em>El Padrino III</em>, el cardenal Lamberto toma una piedra que estaba en una fuente y la parte frente a Michael Corleone. La piedra estaba mojada en su exterior y seca en su interior. El cardenal se vale de la piedra para construir una metáfora sobre la relación entre los europeos y el cristianismo: &ldquo;<a href="https://www.youtube.com/watch?v=ku6nOcWXdKU">Los europeos son como esta piedra. Durante siglos estuvieron rodeados por el cristianismo, pero el cristianismo no penetró en ellos</a>&rdquo;. De ese modo, los europeos pese a decirse cristianos, no eran genuinamente cristianos, en opinión del cardenal, porque no habrían incorporado las enseñanzas respectivas a su práctica.</p>
 <p>Creo que esta sentencia del cardenal Lamberto puede ser trasladada con facilidad a los debates actuales en la Argentina. Si bien muchas personas se dicen positivistas, se auto-califican con esa etiqueta, no incorporaron las enseñanzas del positivismo al que dicen adherir. Para utilizar otro término de la jerga, estas personas no tienen una auto-comprensión positivista de la práctica en la que participan.</p>
 <p>¿Qué significaría comprenderse a uno mismo de un modo positivista? Bueno, si uno cree que el positivismo jurídico es verdadero, entonces incorporará sus conceptos en el modo en que participa en el derecho. Pensemos por ejemplo en la distinción entre casos fáciles y difíciles que forma parte del aparato conceptual positivista elaborado por Marmor. Un positivista que se auto-comprende así, y no meramente uno que se auto-califica como tal, deberá al argumentar un caso hacer un primer análisis en el que, entre otras cosas, establecerá si el derecho determina o no una solución que pueda ser comprendida y aplicada. Es decir, su primer paso será indagar si se está frente a un caso fácil o uno difícil. Esto es importante porque el caso fácil en el sentido de Marmor podría ser difícil desde otro punto de vista (por ejemplo, desde el punto de vista moral) y el positivista podría encarar entonces la discusión acerca de si la solución que el derecho determina debería ser mantenida o no ya sea para modificarla a través de una reforma legal o constitucional o, si las normas que definen los poderes de los tribunales lo permiten, para que se la inaplique en sede judicial.</p>
-<p>Pero si el resultado de este primer análisis fuera que el derecho no determina una solución, entonces quien se auto-comprende positivista debe decirlo así -sobre el final volveré sobre la importancia de este punto- y, de ese modo, debe aceptar que se abre el espacio para la interpretación. Esto requerirá también que el positivista haga explícitos cuáles son los estándares que, según él, son aptos para guiar la interpretación -algo que Marmor (1992) hace en el capítulo 8 de <em>Interpretation and Legal Theory</em>-.</p>
-<p>Nótese, en fin, que auto-comprenderse positivista significa adoptar cierto comportamiento: (i) determinar si se está frente a un caso fácil o difícil, (ii) en el segundo supuesto, explicitar cuáles son los estándares que guiarán su interpretación. También significa adoptar ciertas creencias: (i) en un caso difícil, el derecho no determina una solución, (ii) por eso, la interpretación a través de la cual se propone una solución tiene un componente creativo -que modifica al derecho, no lo deja tal como estaba antes-. Auto-comprenderse positivista significa, en síntesis, asumir una actitud sincera que implica no solo ver la &ldquo;invención&rdquo; en la interpretación ajena, sino también en la propia, lo cual requiere un sinceramiento previo: que el caso para el cual se propone una solución es uno difícil.</p>
+<p>Pero si el resultado de este primer análisis fuera que el derecho no determina una solución, entonces quien se auto-comprende positivista debe decirlo así —sobre el final volveré sobre la importancia de este punto— y, de ese modo, debe aceptar que se abre el espacio para la interpretación. Esto requerirá también que el positivista haga explícitos cuáles son los estándares que, según él, son aptos para guiar la interpretación —algo que Marmor (1992) hace en el capítulo 8 de <em>Interpretation and Legal Theory</em>-.</p>
+<p>Nótese, en fin, que auto-comprenderse positivista significa adoptar cierto comportamiento: (i) determinar si se está frente a un caso fácil o difícil, (ii) en el segundo supuesto, explicitar cuáles son los estándares que guiarán su interpretación. También significa adoptar ciertas creencias: (i) en un caso difícil, el derecho no determina una solución, (ii) por eso, la interpretación a través de la cual se propone una solución tiene un componente creativo —que modifica al derecho, no lo deja tal como estaba antes-. Auto-comprenderse positivista significa, en síntesis, asumir una actitud sincera que implica no solo ver la &ldquo;invención&rdquo; en la interpretación ajena, sino también en la propia, lo cual requiere un sinceramiento previo: que el caso para el cual se propone una solución es uno difícil.</p>
 <p>Esto explica por qué estuve hablando de auto-calificados positivistas y no de positivistas <em>simpliciter</em>. El positivista es el que cree en la verdad del positivismo jurídico y la incorpora como parte de su práctica. Es el que se auto-comprende como positivista. Los otros sencillamente dicen que son positivistas, pero sin entender o, entendiendo, sin aplicar lo que el positivismo afirma. En el contexto de los debates actuales, el intento de apropiarse de la etiqueta &ldquo;positivismo&rdquo; como herramienta retórica, en el sentido que ya vimos, se asemeja mucho a una farsa. Como explicaré a continuación, el auto-calificado positivista traiciona completamente el proyecto intelectual perseguido por Marmor.</p>
 <h1 id="ii-la-desmesura-teórica-presupuesta-en-la-práctica-todos-los-casos-son-fáciles">(ii) La desmesura teórica presupuesta en la práctica: todos los casos son fáciles</h1>
 <p>En primer lugar, Marmor sostuvo que necesariamente existen casos fáciles. Pero en ningún lugar afirmó que necesariamente no existen los casos difíciles. De hecho, Marmor (1992) piensa que en el derecho constitucional existirán proporcionalmente más casos difíciles que los que se plantean con respecto a la legislación ordinaria: &ldquo;Sería un error asumir que no hay &lsquo;casos fáciles&rsquo; en el derecho constitucional. No todas las cláusulas de una constitución escrita son particularmente abstractas o problemáticas, ni tampoco la totalidad de la constitución se reduce a cuestiones tan elevadas como los derechos fundamentales o principios políticos y morales importantes. Muchas cláusulas constitucionales pueden ser comprendidas y aplicadas sin ninguna necesidad de interpretar. Ciertamente es verdad que probablemente existirán más &lsquo;casos difíciles&rsquo; en el derecho constitucional que en la operación cotidiana de la legislación ordinaria, pero ello es solamente una cuestión de proporción&rdquo; (p. 144).</p>
@@ -701,7 +707,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
 <p>Sí quiero destacar este detalle. Como expliqué, la existencia de casos difíciles es lo que le permitiría al positivismo jurídico abrir el espacio para los desacuerdos. Dado que, en tales casos, el derecho no determina una solución que pueda ser comprendida sin interpretación, entonces allí pueden razonablemente existir diversas propuestas de solución. El auto-calificado positivista no quiere aceptar esto, ni siquiera del modo incidental que el propio Marmor admitía.</p>
-<p>Aquí opera sin dudas la actitud teóricamente desmesurada de pasar de la afirmación de que necesariamente hay casos fáciles a la otra según la cual necesariamente todos los casos son fáciles. Pero, sobre todo, entra en acción una necesidad retórica de descalificar rápidamente a la posición del oponente. Si comienzo el argumento sugiriendo que el caso es difícil -y que, por lo tanto, la solución que voy a proponer será inevitablemente una interpretación- entonces estoy implícitamente aceptando la posibilidad de que otro pueda proponer una interpretación diferente que, en algún sentido, podría ser mejor que la mía.</p>
+<p>Aquí opera sin dudas la actitud teóricamente desmesurada de pasar de la afirmación de que necesariamente hay casos fáciles a la otra según la cual necesariamente todos los casos son fáciles. Pero, sobre todo, entra en acción una necesidad retórica de descalificar rápidamente a la posición del oponente. Si comienzo el argumento sugiriendo que el caso es difícil —y que, por lo tanto, la solución que voy a proponer será inevitablemente una interpretación— entonces estoy implícitamente aceptando la posibilidad de que otro pueda proponer una interpretación diferente que, en algún sentido, podría ser mejor que la mía.</p>
 <p>Para alejarse de esa situación y ganar rápidamente la discusión sin tener que darla, el auto-calificado positivista recurre al sencillo expediente de afirmar que el caso es fácil &mdash;o negarse a reconocer que no lo es&mdash;, proponer una solución &mdash;como si no fuera el resultado de una interpretación&mdash; y señalar a cualquier otra sugerencia como interpretativista. Entonces, auto-calificarse positivista, negando la existencia de casos difíciles, es una herramienta para ganar discusiones a través de un atajo.</p>
 <p>Esta es ciertamente otra traición al proyecto de Marmor. El uso del par &ldquo;positivismo-interpretativismo&rdquo; no persigue un fin de esclarecimiento sobre la naturaleza del derecho, sino que es una manera de huir del debate sobre cómo resolver casos constitucionales concretos, mostrándose al mismo tiempo como &ldquo;ganador&rdquo; sin haber dado ningún argumento sustancial. En fin, nadie se auto-califica como positivista para perder.</p>
 <h1 id="v-dejar-atrás-el-uso-retórico-del-par-positivismo-interpretativismo">(v) Dejar atrás el uso retórico del par &ldquo;positivismo-interpretativismo&rdquo;</h1>
@@ -801,13 +807,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

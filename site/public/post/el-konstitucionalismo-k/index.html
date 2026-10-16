@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -622,7 +628,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>La competencia contenciosa de la Corte IDH es uno de esos consensos fundacionales de la democracia peruana que goza de un estándar reforzado de legitimidad. Una historia que no nos han contado es cómo fue aprobada en la Asamblea Constituyente de 1978-1979.</p>
 <p>Si bien la ratificación de tratados internacionales es competencia del Poder Ejecutivo, la Asamblea Constituyente en el ejercicio de su soberanía decide no sólo &ldquo;ratificar constitucionalmente, en todas sus cláusulas, el Pacto Internacional de Derechos Civiles y Políticos de las Naciones Unidas y [la Convención]&rdquo;, sino también, específicamente, &ldquo;sus artículos 45 y 62, referidos a la competencia de la Comisión Interamericana de Derechos Humanos [CIDH] y de la Corte IDH&rdquo;<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> (Decimosexta Disposición General y Transitoria de la Constitución de 1979).</p>
 <p>El consenso de la Asamblea fue unánime. La propuesta y defensa del articulado estuvo a cargo del constituyente Javier Valle-Riestra (APRA). Reconoce que el Pacto y la Convención fueron ratificados por el GRFA. Sin embargo, insiste que ello &ldquo;no pasa de ser una declaración más&rdquo;<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>: no habían suscrito los artículos 45 y 62 que admiten la competencia de la Comisión IDH y la Corte IDH. Era necesario que la Asamblea lo haga expresamente no sólo para la defensa de derechos sino para la protección del régimen democrático en su totalidad: &ldquo;si la democracia desapareciese en el Perú, nos quedaría una ventanilla al exterior para poder debatir cualquier drama interno. Sea una eventual dictadura que se torciese, este camino sería garantía final, lo único cierto que quedaría de esta Carta de 1979&rdquo;<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup>. Aunque el constituyente Andrés Aramburú Menchaca (PPC) cuestiona la propuesta por una formalidad (los tratados internacionales los ratifica el Poder Ejecutivo), coincide con el fondo: &ldquo;en la parte pertinente a la Comisión de Derechos Humanos, en los pactos universales y el Tribunal de San José, en el caso de la Convención Interamericana, que no se busque un pretexto en la soberanía nacional con el objeto de no firmar esa parte de los tratados que son una verdadera garantía&rdquo;<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>.</p>
-<p>Por último, la Asamblea Constituyente vota por unanimidad el rechazo a las observaciones al texto constitucional remitidas por el Gobierno Revolucionario de las Fuerzas Armadas, en el que incluye la Decimosexta disposición. La izquierda destaca la defensa de esta posición y, de este modo, la soberanía popular de la Asamblea frente al gobierno de facto. Jorge del Prado (PCP) señala que el ejecutivo en vez de observar aspectos de la Constitución que van en contra de los cambios estructurales que impulsó el GRFA en su primera fase, &ldquo;ha vetado, en cambio, aquello que es tal vez lo único positivo de la mencionada Constitución&rdquo;<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. Veta aquello que &ldquo;significa un pasó más hacia una verdadera democracia&rdquo;<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>. Carlos Malpica (Unidad Democrática Popular - UDP) reconoce la labor de Valle-Riestra por su iniciativa y precisa &ldquo;debido a su tenacidad es que nos convenció de la necesidad de que se aprobase&rdquo;.</p>
+<p>Por último, la Asamblea Constituyente vota por unanimidad el rechazo a las observaciones al texto constitucional remitidas por el Gobierno Revolucionario de las Fuerzas Armadas, en el que incluye la Decimosexta disposición. La izquierda destaca la defensa de esta posición y, de este modo, la soberanía popular de la Asamblea frente al gobierno de facto. Jorge del Prado (PCP) señala que el ejecutivo en vez de observar aspectos de la Constitución que van en contra de los cambios estructurales que impulsó el GRFA en su primera fase, &ldquo;ha vetado, en cambio, aquello que es tal vez lo único positivo de la mencionada Constitución&rdquo;<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>. Veta aquello que &ldquo;significa un pasó más hacia una verdadera democracia&rdquo;<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>. Carlos Malpica (Unidad Democrática Popular — UDP) reconoce la labor de Valle-Riestra por su iniciativa y precisa &ldquo;debido a su tenacidad es que nos convenció de la necesidad de que se aprobase&rdquo;.</p>
 <p>El consenso de una pluralidad de fuerzas democráticas es extraordinario. La soberanía popular, representada en una Asamblea Constituyente, respalda formar parte del Sistema Interamericano de Derechos Humanos de manera íntegra. No necesariamente para defender los derechos humanos, sino para defender la integridad el propio régimen democrático.</p>
 <p>Esta es una voluntad popular que no se reduce siquiera a un instante electoral o a un proceso deliberativo de un año. La asamblea fue expresión de un largo trayecto de demandas populares iniciadas en la década del 20 y que continuó hasta reflejar distintas visiones del país en una misma asamblea. Por tanto, modificar este elemento medular de nuestro sistema de balance de poderes requiere de un grado de legitimidad mayor. No es posible denunciar el tratado por vías ordinarias, aunque el Konstitucionalismo con K insista en lo contrario.</p>
 <div class="footnotes" role="doc-endnotes">
@@ -714,13 +720,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -609,7 +615,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     
     
-      <p>Escribir la introducción para este volumen representó un hermoso desafío. Principalmente, por la importancia del trabajo de Christian Courtis y por la admiración que su obra genera entre tantos de sus contemporáneos: amigos y amigas, colegas académicos, profesores, activistas, litigantes y actores de distintos ámbitos y latitudes. Pertenezco, en cambio, a una generación posterior &mdash;-la de quienes hoy superamos los 40 años&mdash;- que se ha visto influida de modo profundo por la obra de autores como él. Pienso, sobre todo, en esa generación de estudiantes de Derecho situada entre la transición democrática y los actuales tiempos de polarización política. La generación que todavía debió estudiar sus materias recurriendo a los viejos manuales en los que se explicaban los derechos por &ldquo;generaciones&rdquo; (derechos liberales de primera generación, sociales de segunda generación, etc.); que distinguía entre derechos programáticos y operativos &mdash; estudiantes a los que se les seguía insistiendo con el anticuado mantra de &ldquo;la reserva de ley&rdquo; en el control de políticas públicas. Afortunadamente, poco a poco, y ayudados por profesores como Courtis y algunos de sus colegas de ese tiempo, fuimos partícipes de una transformación vertiginosa del derecho. A lo largo de nuestros años de estudiantes, el cambio fue profundo: naturalizamos el uso del derecho internacional de los derechos humanos; los estándares, los protocolos y las observaciones generales; los informes sombra y los mecanismos individuales. Gracias a ellos, fuimos los estudiantes de las clínicas jurídicas, los procuradores de los casos estructurales, estratégicos o de impacto, quienes también esperamos con ansias las sentencias y participamos de los procesos de ejecución. Fuimos, a su vez, quienes discutimos hasta el cansancio sobre los límites de la función de los tribunales, a medida que nos íbamos enfrentando a esos obstáculos. Lo sorprendente es que fuimos testigos, casi sin darnos cuenta, de cómo lo que para nosotros era una completa novedad en pocos años se convirtió en algo corriente dentro de la práctica del derecho.</p>
+      <p>Escribir la introducción para este volumen representó un hermoso desafío. Principalmente, por la importancia del trabajo de Christian Courtis y por la admiración que su obra genera entre tantos de sus contemporáneos: amigos y amigas, colegas académicos, profesores, activistas, litigantes y actores de distintos ámbitos y latitudes. Pertenezco, en cambio, a una generación posterior &mdash;-la de quienes hoy superamos los 40 años&mdash;— que se ha visto influida de modo profundo por la obra de autores como él. Pienso, sobre todo, en esa generación de estudiantes de Derecho situada entre la transición democrática y los actuales tiempos de polarización política. La generación que todavía debió estudiar sus materias recurriendo a los viejos manuales en los que se explicaban los derechos por &ldquo;generaciones&rdquo; (derechos liberales de primera generación, sociales de segunda generación, etc.); que distinguía entre derechos programáticos y operativos &mdash; estudiantes a los que se les seguía insistiendo con el anticuado mantra de &ldquo;la reserva de ley&rdquo; en el control de políticas públicas. Afortunadamente, poco a poco, y ayudados por profesores como Courtis y algunos de sus colegas de ese tiempo, fuimos partícipes de una transformación vertiginosa del derecho. A lo largo de nuestros años de estudiantes, el cambio fue profundo: naturalizamos el uso del derecho internacional de los derechos humanos; los estándares, los protocolos y las observaciones generales; los informes sombra y los mecanismos individuales. Gracias a ellos, fuimos los estudiantes de las clínicas jurídicas, los procuradores de los casos estructurales, estratégicos o de impacto, quienes también esperamos con ansias las sentencias y participamos de los procesos de ejecución. Fuimos, a su vez, quienes discutimos hasta el cansancio sobre los límites de la función de los tribunales, a medida que nos íbamos enfrentando a esos obstáculos. Lo sorprendente es que fuimos testigos, casi sin darnos cuenta, de cómo lo que para nosotros era una completa novedad en pocos años se convirtió en algo corriente dentro de la práctica del derecho.</p>
 <p>Hablo de una época notable, en la que se produjeron cambios significativos en la forma de pensar el derecho en la Argentina, impulsados por juristas muy jóvenes, sumamente sagaces para vislumbrar las nuevas perspectivas que habilitaba, en particular, la reforma constitucional de 1994. La visión de Courtis, junto con las contribuciones de los y las colegas de su generación, fue fundamental en la consolidación de estos nuevos enfoques en el campo jurídico, y su influencia llegó también a otras latitudes. No pretendo aquí analizar este fenómeno, pero, en algún punto, creo útil que nos detengamos un poco, miremos hacia atrás y dimensionemos el largo y consolidado recorrido de muchos de los temas desarrollados por autores como Courtis. Esta obra tiene como objetivo poner de relieve esos trabajos, compilar en una publicación algunos de sus escritos más salientes y facilitar el acceso a ellos a las nuevas camadas.</p>
 <p>Courtis es miembro de una generación que entendió el derecho no como un sistema cerrado de normas, sino como un lenguaje destinado a transformar la realidad, siempre bajo la comprensión de que esta función se puede realizar desde una multiplicidad de lugares y funciones. En efecto, cuando se revisa su obra, no resulta fácil separar al jurista del académico, del litigante, del investigador, del editor o del divulgador. Su trayectoria se extiende entre aulas, tribunales, organismos internacionales, revistas académicas, prestigiosas universidades, espacios desde los cuales siempre procuró pensar la transformación tanto desde como del derecho.</p>
 <p>La obra de Courtis se distingue por un marcado interés en enriquecer el campo del derecho con perspectivas provenientes de otras disciplinas. Su curiosidad, apertura y agudeza intelectual se aprecian a lo largo de su prolífica y diversa producción. Este rasgo sobresale de manera notoria en sus trabajos sobre salud mental, marcados por el esfuerzo de tender puentes con los saberes de la psicología y la psiquiatría. Pionero en este abordaje, Courtis trabajó esta temática, más bien inusual, desde joven, como se ve en varios de sus artículos de la revista No Hay Derecho. No se trató tan solo de una preocupación teórica. Courtis se encargó de llevar este tema al terreno de los tribunales y a la trinchera del derecho, uniendo su faceta académica con la de litigante. Fue uno de los primeros abogados del Programa de Asistencia Jurídica a Personas que Sufren Enfermedades Mentales del Centro de Estudios Legales y Sociales (CELS), desde el cual contribuyó a ampliar su agenda y litigó casos emblemáticos en materia de salud mental. Asimismo, Courtis sobresale por su modo de ejercer la abogacía, caracterizado por la escucha atenta, el respeto hacia los protagonistas del caso y una especial sensibilidad, que ha combinado con sus sólidas aptitudes como abogado litigante.</p>
@@ -682,13 +688,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -631,7 +637,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>La OC 31/25 establece con claridad que en el momento de resolver cuestiones jurídicas relacionadas con el cuidado, &ldquo;las autoridades competentes deben efectuar el debido control de convencionalidad con los estándares desarrollados por la Corte en su jurisprudencia y, en particular, en esta Opinión Consultiva&rdquo; (Corte IDH, 2025: par. 124). Lejos de ello, el Congreso desconoció la obligación jurídica de evaluar su compatibilidad con los estándares del derecho al cuidado establecidos por el Tribunal Interamericano. En otros términos, el déficit de convencionalidad es claro al omitir incorporar la perspectiva de cuidados como mandato del derecho internacional, al tiempo que desconoce los efectos transformadores del aporte del cuidado en la economía, la distribución del bienestar y las condiciones de empleo.</p>
 <h1 id="conclusiones">Conclusiones</h1>
 <p>La OC 31/25 de la Corte IDH representa una obligación jurídica vinculante para Argentina, que fue solicitada que garantiza el derecho humano al cuidado en sus tres dimensiones, (derecho a cuidar, a ser cuidado y al autocuidado) adoptando medidas que faciliten la incorporación de las mujeres y diversidades sexuales al empleo formal, distribuyan equitativamente las responsabilidades de cuidado y garanticen el bienestar de cada persona. En síntesis, la supuesta modernización laboral resulta violatoria de todos los estándares de derechos humanos.</p>
-<p>Es fundamental retomar la promoción del necesario cambio cultural que demanda el ejercicio de un derecho como el cuidado, donde Estado, mercados, familias -dentro de ellas principalmente los varones- y organizaciones sociales y comunitarias son responsables directos. La OC 31/25 no es solo un pronunciamiento jurídico: es una llamada para que todos los actores cumplan sus obligaciones y promuevan la consolidación de sociedades más igualitarias e inclusivas.</p>
+<p>Es fundamental retomar la promoción del necesario cambio cultural que demanda el ejercicio de un derecho como el cuidado, donde Estado, mercados, familias —dentro de ellas principalmente los varones— y organizaciones sociales y comunitarias son responsables directos. La OC 31/25 no es solo un pronunciamiento jurídico: es una llamada para que todos los actores cumplan sus obligaciones y promuevan la consolidación de sociedades más igualitarias e inclusivas.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -712,13 +718,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

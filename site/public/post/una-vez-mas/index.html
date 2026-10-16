@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -628,13 +634,13 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
       <p>Señalo, a continuación, y de manera muy sucinta, 5 primeros problemas que advierto en las propuestas oficiales destinadas (¡una vez más!) a bajar la edad de imputabilidad.</p>
-<p><em>¿Debe asimilarse el régimen de los menores al de los adultos? Los problemas de la &ldquo;asimilación&rdquo; (&ldquo;crímenes de adultos, penas de adultos&rdquo;).</em> La proposición que sugiere que si un menor comete un crimen &ldquo;de adulto&rdquo; debe ser así penado, es muy controvertida. Ello así, por varias razones, que sumariamente enumero: i) La propuesta de &ldquo;asimilación&rdquo; es imprecisa y confusa, desde su mera formulación (los crímenes no se definen por la edad de quienes los cometen); ii) se trata de una invitación fundamentalmente mal orientada, porque el punto de partida, en esta área, requiere de una reflexión sobre la responsabilidad legal (o no) del ofensor, y no una sobre el particular castigo que podría corresponderle al mismo -cuestión, esta última, que supone lo que aquí es principal objeto de debate (si el menor es legalmente responsable, o no); iii) en términos normativos, se trata de una propuesta inconsistente, teniendo en cuenta que, en todas las demás áreas del derecho, reconocemos y admitimos diferencias relevantes en las capacidades, madurez, y finalmente el tratamiento que damos a adultos y menores (ie., en la firma de contratos de trabajo, las compraventas, el matrimonio, etc.). La propuesta de la &ldquo;asimilación&rdquo;, además, iv) se encuentra en tensión con el derecho constitucional y convencional. Para comenzar, la Convención de los Derechos del Niño, incorporada en la Constitución, explícitamente exige (en su art. 37) un tratamiento diferente de menores y adultos, en cuanto a la severidad de las respuestas coactivas que pueden recibir los menores por parte del Estado. Debería ser difícil, entonces, para los jueces, considerar legalmente válidas las iniciativas de &ldquo;asimilación&rdquo;, en el marco de este contexto legal.</p>
-<p><em>El menor como sujeto de derechos, y no como objeto de tutela.</em> Dados los compromisos internacionales asumidos por el país, los menores ya no pueden considerarse -como alguna vez lo fueron- objetos de tutela por parte del Estado o el juez: se trata de personas con derechos propios, que incluyen el de opinar y ser escuchados, el derecho de defensa, el del debido proceso, etc. Ellos no pueden ser tomados como incapaces que el Estado debe corregir, para decidir por ellos y &ldquo;por su bien&rdquo;. Esta cuestión, más bien cerrada ya, en términos doctrinarios, milita fuertemente en contra de la idea de la &ldquo;asimilación&rdquo;.</p>
-<p><em>¿Deben aplicarse -entonces- regímenes diferentes para menores y adultos? Los problemas de la &ldquo;diferenciación&rdquo; (Régimen Penal Especial para menores).</em> La confusión y los errores que son propios de la propuesta de &ldquo;asimilación&rdquo; tienden a extenderse también, sobre quienes, desde posiciones más liberales, favorecen un tratamiento &ldquo;diferenciado&rdquo; entre adultos y menores. Ello así, al menos, en la medida en que la existencia de un Régimen Especial para menores implique -como ocurre en nuestro país- centros de detención orientados a reproducir, en los hechos, formas de violencia y maltrato paralelos a los que distinguen a los centros de detención para adultos. Es decir, la &ldquo;diferenciación&rdquo; de tratamiento entre adultos y menores también queda vacía de sentido si es que el trato que va a darse a los menores, en sus diferentes estadios, va a incorporar modalidades igualmente injustificadas del castigo, como las que se reservan para los adultos.</p>
+<p><em>¿Debe asimilarse el régimen de los menores al de los adultos? Los problemas de la &ldquo;asimilación&rdquo; (&ldquo;crímenes de adultos, penas de adultos&rdquo;).</em> La proposición que sugiere que si un menor comete un crimen &ldquo;de adulto&rdquo; debe ser así penado, es muy controvertida. Ello así, por varias razones, que sumariamente enumero: i) La propuesta de &ldquo;asimilación&rdquo; es imprecisa y confusa, desde su mera formulación (los crímenes no se definen por la edad de quienes los cometen); ii) se trata de una invitación fundamentalmente mal orientada, porque el punto de partida, en esta área, requiere de una reflexión sobre la responsabilidad legal (o no) del ofensor, y no una sobre el particular castigo que podría corresponderle al mismo —cuestión, esta última, que supone lo que aquí es principal objeto de debate (si el menor es legalmente responsable, o no); iii) en términos normativos, se trata de una propuesta inconsistente, teniendo en cuenta que, en todas las demás áreas del derecho, reconocemos y admitimos diferencias relevantes en las capacidades, madurez, y finalmente el tratamiento que damos a adultos y menores (ie., en la firma de contratos de trabajo, las compraventas, el matrimonio, etc.). La propuesta de la &ldquo;asimilación&rdquo;, además, iv) se encuentra en tensión con el derecho constitucional y convencional. Para comenzar, la Convención de los Derechos del Niño, incorporada en la Constitución, explícitamente exige (en su art. 37) un tratamiento diferente de menores y adultos, en cuanto a la severidad de las respuestas coactivas que pueden recibir los menores por parte del Estado. Debería ser difícil, entonces, para los jueces, considerar legalmente válidas las iniciativas de &ldquo;asimilación&rdquo;, en el marco de este contexto legal.</p>
+<p><em>El menor como sujeto de derechos, y no como objeto de tutela.</em> Dados los compromisos internacionales asumidos por el país, los menores ya no pueden considerarse —como alguna vez lo fueron— objetos de tutela por parte del Estado o el juez: se trata de personas con derechos propios, que incluyen el de opinar y ser escuchados, el derecho de defensa, el del debido proceso, etc. Ellos no pueden ser tomados como incapaces que el Estado debe corregir, para decidir por ellos y &ldquo;por su bien&rdquo;. Esta cuestión, más bien cerrada ya, en términos doctrinarios, milita fuertemente en contra de la idea de la &ldquo;asimilación&rdquo;.</p>
+<p><em>¿Deben aplicarse —entonces— regímenes diferentes para menores y adultos? Los problemas de la &ldquo;diferenciación&rdquo; (Régimen Penal Especial para menores).</em> La confusión y los errores que son propios de la propuesta de &ldquo;asimilación&rdquo; tienden a extenderse también, sobre quienes, desde posiciones más liberales, favorecen un tratamiento &ldquo;diferenciado&rdquo; entre adultos y menores. Ello así, al menos, en la medida en que la existencia de un Régimen Especial para menores implique —como ocurre en nuestro país— centros de detención orientados a reproducir, en los hechos, formas de violencia y maltrato paralelos a los que distinguen a los centros de detención para adultos. Es decir, la &ldquo;diferenciación&rdquo; de tratamiento entre adultos y menores también queda vacía de sentido si es que el trato que va a darse a los menores, en sus diferentes estadios, va a incorporar modalidades igualmente injustificadas del castigo, como las que se reservan para los adultos.</p>
 <p><em>Sobre la (no) justificación de nuestra práctica del castigo.</em> En relación con el castigo penal, debe notarse que las formas habituales del mismo enfrentan problemas teóricos serios: objeciones morales y constitucionales. Por un lado, i) no todas las faltas reconocidas en una comunidad merecen ser reprochadas; ii) no todos los reproches implican ni deben implicar el establecimiento de castigos (entendido como &ldquo;imposición deliberada de dolor&rdquo;); y iii) no todos los castigos deben requerir la privación de la libertad. Y, sin embargo, la línea que va desde la &ldquo;falta comunitariamente reconocida&rdquo; a la &ldquo;prisión&rdquo; suele aparecer sugiriendo una continuidad obvia. De ese modo, iv) la propia idea del derecho penal como <em>ultima ratio</em> queda subvertida, de una manera injustificada. Mucho peor que lo dicho, v) el tipo de privación de libertad que resulta más común, en nuestro país, se encuentra en directa tensión con la letra explícita de la Constitución. Ello así porque la Constitución Argentina se explaya larga y claramente sobre la cuestión del reproche penal (típicamente, en el art. 18): establece cárceles &ldquo;sanas y limpias&rdquo;, prohíbe los &ldquo;tormentos&rdquo; y &ldquo;mortificaciones&rdquo;<em>,</em> y toma como objetivo principal la &ldquo;seguridad&rdquo; y &ldquo;no el castigo de los reos&rdquo; detenidos en cárceles. Dado todo lo anterior, no parece una buena idea el asimilar al castigo de adultos el reproche que puede corresponderle a los menores. Ello implicaría imponer, sobre los menores, una práctica, más que controvertida, ilegal e injusta.</p>
 <p><em>La alternativa de la justicia restaurativa está al alcance.</em> El tipo de castigo prevaleciente en nuestro país resulta, por lo dicho hasta aquí, injustificado, pero esa falta de justificación resulta mucho más notoria cuando existen alternativas disponibles, eficientes, exitosas, y completamente respetuosas de los valores constitucionales. En este sentido, debe subrayarse que contamos, en la Argentina, con excelentes experiencias de justicia restaurativa (aplicadas en áreas del Gran Buenos Aires, Córdoba, por ejemplo), que procuran la re-integración de los menores, en ámbitos sociales, culturales, deportivos y familiares, diferentes de aquellos en los cuales se socializaron, al margen del derecho. Tales experiencias parecen resultar, a todas luces, valiosas (ver, en particular, las prácticas y estudios analizados por Raúl Calvo Soler, en la Argentina, ie., <a href="https://repositorio.mpd.gov.ar/jspui/handle/123456789/5481)">https://repositorio.mpd.gov.ar/jspui/handle/123456789/5481)</a>.</p>
-<p><em>Los menores como meros medios.</em> Los modos en que este gobierno -y los últimos gobiernos, en general- se acercan a la cuestión de la inseguridad y el derecho penal para menores resultan inadmisibles. Aunque, en los hechos, la participación de menores en delitos graves parece, proporcionalmente, muy baja (como bien remarca Fernando Gauna Alsina, en su nota para lacritica.ar: <a href="https://lacritica.ar/post/sobre-el-eterno-debate/">https://lacritica.ar/post/sobre-el-eterno-debate/</a>), el uso del derecho penal <em>contra</em> menores parece resultar muy atractivo para quienes ocupan posiciones de poder: una manera de llamar la atención (apelando al espectáculo); ganar la atención de los medios de comunicación; y, finalmente, mejorar en sus índices de popularidad ante, al menos, una parte de la opinión pública. Esta utilización de los menores como &ldquo;meros medios&rdquo;, se acompaña, por lo demás, con un empleo semejante de los menores (otra vez, como &ldquo;meros medios&rdquo;), por parte de bandas criminales, que apelan a ellos como escudo, o como &ldquo;correo&rdquo;, amparados en las torpezas con las que se mueve el derecho en el área. Sin embargo, la ineficiencia o las ambigüedades de nuestro derecho en este ámbito, no debería convertirse en excusa para cargar responsabilidad (penal) sobre los menores, sino razón para reprochar adicionalmente a los mayores que quieran utilizar a los más jóvenes o niños como &ldquo;meros medios.&rdquo;</p>
-<p><em>Derecho penal en lugar de políticas sociales.</em> Aunque resulte un truismo decirlo, debe insistirse con la idea -siempre correcta- de que los problemas sociales no merecen ser resueltos con las herramientas torpes y violentas del derecho penal. Por el contrario, debe resultar claro que los problemas sociales requieren de atención, cuidados y políticas sociales. Señalar esto es compatible con asumir, en ciertos casos, la responsabilidad de los menores en relación con sus actos, y la reprochabilidad misma de tales acciones. Pero, otra vez, la responsabilidad no llama a la intervención coercitiva del estado, como la reprochabilidad de algunas de sus conductas no exige una respuesta punitiva, en la forma tradicional del castigo.</p>
+<p><em>Los menores como meros medios.</em> Los modos en que este gobierno —y los últimos gobiernos, en general— se acercan a la cuestión de la inseguridad y el derecho penal para menores resultan inadmisibles. Aunque, en los hechos, la participación de menores en delitos graves parece, proporcionalmente, muy baja (como bien remarca Fernando Gauna Alsina, en su nota para lacritica.ar: <a href="https://lacritica.ar/post/sobre-el-eterno-debate/">https://lacritica.ar/post/sobre-el-eterno-debate/</a>), el uso del derecho penal <em>contra</em> menores parece resultar muy atractivo para quienes ocupan posiciones de poder: una manera de llamar la atención (apelando al espectáculo); ganar la atención de los medios de comunicación; y, finalmente, mejorar en sus índices de popularidad ante, al menos, una parte de la opinión pública. Esta utilización de los menores como &ldquo;meros medios&rdquo;, se acompaña, por lo demás, con un empleo semejante de los menores (otra vez, como &ldquo;meros medios&rdquo;), por parte de bandas criminales, que apelan a ellos como escudo, o como &ldquo;correo&rdquo;, amparados en las torpezas con las que se mueve el derecho en el área. Sin embargo, la ineficiencia o las ambigüedades de nuestro derecho en este ámbito, no debería convertirse en excusa para cargar responsabilidad (penal) sobre los menores, sino razón para reprochar adicionalmente a los mayores que quieran utilizar a los más jóvenes o niños como &ldquo;meros medios.&rdquo;</p>
+<p><em>Derecho penal en lugar de políticas sociales.</em> Aunque resulte un truismo decirlo, debe insistirse con la idea —siempre correcta— de que los problemas sociales no merecen ser resueltos con las herramientas torpes y violentas del derecho penal. Por el contrario, debe resultar claro que los problemas sociales requieren de atención, cuidados y políticas sociales. Señalar esto es compatible con asumir, en ciertos casos, la responsabilidad de los menores en relación con sus actos, y la reprochabilidad misma de tales acciones. Pero, otra vez, la responsabilidad no llama a la intervención coercitiva del estado, como la reprochabilidad de algunas de sus conductas no exige una respuesta punitiva, en la forma tradicional del castigo.</p>
 <p>En todo caso, valgan estos argumentos para quienes quieran participar de un debate en el área. De parte del oficialismo (del actual, como de los anteriores) no parece que pueda esperarse lo propio, ya que, como resulta común, la opción es por las respuestas cómodas, irracionales, improvisadas, efectistas e irresponsables, que toman a los menores como &ldquo;meros medios&rdquo;.</p>
 
 
@@ -693,13 +699,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

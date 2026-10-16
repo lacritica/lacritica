@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -663,7 +669,7 @@ ni en Arauco ni en Copán&hellip;</em></p>
   
 
 <p>Muchas son las cuestiones que se manifiestan cuando hablamos de violencia sexual, aquí he mencionado ya algunas: desigualdad, relaciones asimétricas, jerarquías, intimidación cultural, presión emocional. Estos condicionantes rondan y forjan la sexualidad como práctica social. Para valorar el daño sexual necesitamos conocer el espacio de significados en el que transcurre la interacción sexual heterosexual. Desde la psicología se ha señalado lo que se conoce como el doble estándar sexual, o lo que es lo mismo, la diferente percepción y valoración que chicos y chicas, varones y mujeres, tienen de la sexualidad. Ellas y ellos se mueven por el espacio heterosexual con guiones de género que van marcando sus prácticas. Diversos estudios demuestran la muy diferente iniciación sexual por parte de varones y mujeres.<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> Resulta revelador que los aspectos de su sexualidad sobre los que las adolescentes, las mujeres jóvenes, hablan con mayor frecuencia sean los relacionados con el temor a quedar embarazadas y a las violaciones que suceden tras una cita. El guion femenino del sexo transita un sendero distinto del masculino, y en ellas el deseo se matiza y se retuerce, se salpica y se daña, hasta mermarlo, casi acallarlo.</p>
-<p>En la adolescencia, chicos y chicas van conformando un estándar sexual desigual; ellos responden a los imperativos de la masculinidad, demandan belleza, buscan cuerpos, placer genital y ofrecen lo que buscan; ellas avanzan con su feminidad romántica &mdash;a veces en jaque, pero resistente&mdash;, sus miedos, ofreciendo belleza al gusto de una cultura hipersexualizada en muchas de sus manifestaciones contemporáneas -músicas, tendencias estéticas o de moda.</p>
+<p>En la adolescencia, chicos y chicas van conformando un estándar sexual desigual; ellos responden a los imperativos de la masculinidad, demandan belleza, buscan cuerpos, placer genital y ofrecen lo que buscan; ellas avanzan con su feminidad romántica &mdash;a veces en jaque, pero resistente&mdash;, sus miedos, ofreciendo belleza al gusto de una cultura hipersexualizada en muchas de sus manifestaciones contemporáneas —músicas, tendencias estéticas o de moda.</p>
 <p>Estos antecedentes son importantes para entender cómo se gesta la violencia, con qué lodos se cuecen estos barros del atropello sexual, una interacción que encuentra a varones y mujeres posicionados de manera desigual, asimétrica, patriarcal. Mitos y creencias han forjado una interacción sexual presidida por la imposición del deseo sexual masculino a manera de patrón universal de deseo y placer. La posición de la mujer como suministradora de placer sexual masculino determinó la construcción de modelos, estereotipos, aspiraciones, fantasías y horizontes de satisfacción masculina que han tenido a las mujeres por objeto. La sexualidad ha reflejado de este modo prácticas sociales más extensas, con sus significados asentados en la cosificación, esa poética construcción de la belleza que se disfruta con la posesión.</p>
 <p><em>Vienes fabricada<br>
 por veinte siglos<br>
@@ -793,13 +799,9 @@ en el puente de la mirada.</em></p>
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

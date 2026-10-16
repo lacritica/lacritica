@@ -35,10 +35,10 @@
 
 <link rel="canonical" href="http://localhost:1313/autores/">
 <link rel="icon" type="image/svg+xml" href="/img/logo_small.svg">
-<meta name="description" content="Editores, octubre de 2026 &amp;mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi">
+<meta name="description" content="Editores, octubre de 2026 &amp;mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Nahuel Maisley • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi">
 
 <meta property="og:title" content="Autores">
-<meta property="og:description" content="Editores, octubre de 2026 &amp;mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi">
+<meta property="og:description" content="Editores, octubre de 2026 &amp;mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Nahuel Maisley • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi">
 <meta property="og:url" content="http://localhost:1313/autores/">
 <meta property="og:site_name" content="La Crítica">
 <meta property="og:type" content="website">
@@ -49,7 +49,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Autores">
-<meta name="twitter:description" content="Editores, octubre de 2026 &amp;mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi">
+<meta name="twitter:description" content="Editores, octubre de 2026 &amp;mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Nahuel Maisley • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi">
 <meta name="twitter:image" content="http://localhost:1313/img/batalla1.jpeg">
 <meta name="twitter:image:alt" content="Autores">
 
@@ -64,7 +64,7 @@
   </head>
 
   
-  <body class="theme-dynamic theme-3
+  <body class="theme-dynamic theme-6
 ">
     <header class="header">
   <div class="banner">
@@ -281,25 +281,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -309,6 +302,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -468,7 +474,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 octubre de 2026
- &mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi</p>
+ &mdash; Agustina Ramon Michel • Gustavo Arballo • Gustavo Maurino • María Victoria Ricciardi • Mariela Puga • Nahuel Maisley • Ramiro Álvarez Ugarte • Roberto Gargarella • Sebastián Guidi</p>
 <hr>
 
         </div>
@@ -3066,13 +3072,9 @@ octubre de 2026
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

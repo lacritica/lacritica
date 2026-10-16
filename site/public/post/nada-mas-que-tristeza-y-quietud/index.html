@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -635,8 +641,8 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>En segundo término, el proyecto coloca a las provincias en un nuevo rol ya que ellas serían las encargadas de determinar si un glaciar o un ambiente periglacial cumple o no esas funciones de reserva estratégica o de proveedora de agua de cuencas. Este esquema es contrario a la idea de presupuestos mínimos que establece nuestro pacto constitucional y plantea varios problemas. Por un lado, cada provincia podría adoptar un criterio diverso incluso en glaciares que se encuentran en diferentes jurisdicciones, un clásico tema del derecho ambiental que ha dado lugar a soluciones diversas como, justamente, esta idea de establecer estándares de protección uniformes. Por el otro lado, se perderían años de construcción de una metodología basada en criterios científicos y gestada al interior del propio sistema científico y tecnológico nacional para dar paso a un sistema atomizado. Este nuevo esquema incluso permite contraponerse al propio IANIGLA que es una institución referente en el tema a nivel regional y mundial. De hecho, la propuesta de reforma establece que si una provincia determina que un glaciar no cumple una función relevante puede solicitar al IANIGLA su eliminación del inventario y que, aún en el caso en que no lograra esta eliminación, cualquier autorización provincial de actividades que pueda afectar al glaciar en cuestión es válida. El inventario pasaría a ser una información más que las provincias podrían o no tener en cuenta a la hora de tomar decisiones sobre los glaciares y el ambiente periglacial, debilitando y desconociendo el aporte sostenido en este tema por parte del sistema científico.</p>
 <p>En tercer lugar, se dispone que son las provincias las que deben discernir si es necesario o no efectuar una evaluación de impacto ambiental estratégica. La ley vigente establece que se deben realizar evaluaciones de impacto ambiental y también evaluaciones ambientales estratégicas en el diseño de políticas, planes y programas de gobierno que puedan afectar a este ecosistema.</p>
 <p>Así, mientras convivimos con una producción constante de información sobre la relevancia clave de los glaciares y la urgente necesidad de protegerlos tanto a escala internacional como regional y local, en Argentina estamos discutiendo a contramano.</p>
-<p>La introducción infundada de este debate en el período de sesiones extraordinarias del congreso nacional se explica como un episodio más de una propuesta de país hilvanado a partir de la lógica de facilitación de la extracción de recursos naturales para su exportación. En ese sentido, se enrola en la misma dirección que el <a href="https://www.pausa.com.ar/2024/07/eternos-privilegios-de-un-rigi-sin-derechos/">Régimen de Incentivo a las Grandes Inversiones</a> -más conocido como RIGI- que hace poco tiempo se aprobó dentro de la llamada Ley de Bases en busca de la atracción de grandes capitales extranjeros o nacionales en sectores como la minería, energía, petróleo, gas.</p>
-<p>¿Cómo podría fundamentarse dar pasos atrás en la tutela de los glaciares en un escenario tan claro y preciso de crisis ambiental? ¿De qué manera se podría sostener esta reforma cuando nuestra propia Constitución Nacional establece que tenemos un deber respecto de las generaciones futuras? Del mismo modo podríamos preguntarnos cómo se argumenta un retroceso en los niveles de tutela cuando Argentina ha ratificado recientemente el <a href="https://www.cepal.org/es/acuerdodeescazu">Acuerdo Regional sobre el Acceso a la Información, la Participación Pública y el Acceso a la Justicia en Asuntos Ambientales en América Latina y el Caribe</a> -más conocido como Acuerdo de Escazú- que incorpora de manera expresa el principio de no regresión en asuntos ambientales.</p>
+<p>La introducción infundada de este debate en el período de sesiones extraordinarias del congreso nacional se explica como un episodio más de una propuesta de país hilvanado a partir de la lógica de facilitación de la extracción de recursos naturales para su exportación. En ese sentido, se enrola en la misma dirección que el <a href="https://www.pausa.com.ar/2024/07/eternos-privilegios-de-un-rigi-sin-derechos/">Régimen de Incentivo a las Grandes Inversiones</a> —más conocido como RIGI— que hace poco tiempo se aprobó dentro de la llamada Ley de Bases en busca de la atracción de grandes capitales extranjeros o nacionales en sectores como la minería, energía, petróleo, gas.</p>
+<p>¿Cómo podría fundamentarse dar pasos atrás en la tutela de los glaciares en un escenario tan claro y preciso de crisis ambiental? ¿De qué manera se podría sostener esta reforma cuando nuestra propia Constitución Nacional establece que tenemos un deber respecto de las generaciones futuras? Del mismo modo podríamos preguntarnos cómo se argumenta un retroceso en los niveles de tutela cuando Argentina ha ratificado recientemente el <a href="https://www.cepal.org/es/acuerdodeescazu">Acuerdo Regional sobre el Acceso a la Información, la Participación Pública y el Acceso a la Justicia en Asuntos Ambientales en América Latina y el Caribe</a> —más conocido como Acuerdo de Escazú— que incorpora de manera expresa el principio de no regresión en asuntos ambientales.</p>
 <p>Nuestra Constitución Nacional diseña la arquitectura jurídica para la protección del ambiente mediante la incorporación del concepto de presupuestos mínimos, concebidos como un umbral normativo básico e inderogable. Estas normas, dictadas por la autoridad nacional, pueden ser complementadas por las provincias en el marco de un sistema de competencias concurrentes que habilita la ampliación &mdash;pero no la reducción&mdash; de los niveles de tutela ambiental. Este esquema configura un límite estructural a la regresión normativa: si bien las provincias conservan margen para reforzar la protección, no se encuentran habilitadas para debilitar los estándares mínimos fijados a nivel federal. Las leyes de presupuestos mínimos operan como un piso normativo obligatorio que impide retrocesos mediante normas provinciales o locales y que establece un marco de estabilidad relativa frente a intentos de desmantelamiento de estándares de protección ambientales. En este sentido, los presupuestos mínimos funcionan como un instrumento de contención de la regresión.</p>
 <p>Desde 2002, el Congreso Nacional ha sancionado diversas leyes de presupuestos mínimos, entre las cuales se destaca la Ley Nro. 25.675 de Política Ambiental Nacional. Esta norma define el presupuesto mínimo como una regulación destinada a asegurar una tutela ambiental común en todo el territorio nacional, orientada a preservar la dinámica de los sistemas ecológicos, mantener su capacidad de carga y promover un desarrollo sustentable. La idea de un estándar uniforme refuerza la noción de un nivel básico de protección que no puede ser erosionado, consolidando un umbral normativo que debería operar como referencia para evaluar eventuales retrocesos. A su vez, la Resolución Nro. 92/2004 del Consejo Federal de Medio Ambiente (COFEMA) profundiza esta concepción al caracterizar los presupuestos mínimos como un umbral básico e inderogable de protección ambiental, concebido como un piso normativo uniforme que garantiza a todos los habitantes un nivel mínimo de tutela, con independencia de su localización territorial. Esta definición resulta especialmente relevante para el principio de no regresión, en tanto cristaliza la idea de un estándar mínimo que no puede ser válidamente reducido.</p>
 <p>La protección ambiental a través de regulaciones permite también concebir la idea de legado hacia las generaciones futuras: el entramado que nos permite vivir a los humanos y a una inimaginable diversidad de seres necesita pervivir. Las actuales generaciones somos responsables de ese legado y aquí está una de las claves del principio de no retroceso y la tutela de los glaciares: tenemos que asegurar que las generaciones porvenir puedan convivir con ellos. Y aún más, si nos desmarcamos de las posiciones más antropocéntricas y tendemos puentes con los debates latinoamericanos vinculados a la justicia ambiental y ecológica, estos ecosistemas por sí mismos tienen derecho a existir ahora y en el futuro, tal y como se viene trabajando en el campo jurídico latinoamericano hace más de dos décadas a nivel regulatorio y jurisprudencial. Existen experiencias constitucionales &mdash;como las de Ecuador y Bolivia&mdash; y decenas de normas jurídicas nacionales o subnacionales y sentencias judiciales que reconocen derechos de muy diversos ecosistemas y que, incluso, les nombran esquemas de representación legal como guardianías para implementar decisiones protectorias.</p>
@@ -698,13 +704,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 
