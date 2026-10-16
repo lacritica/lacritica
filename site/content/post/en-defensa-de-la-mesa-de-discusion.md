@@ -29,7 +29,7 @@ weight: 3
 
 Federico Orlando es una de las personas que me enseñaron a pensar como pienso. Buena parte de lo que creo sobre el derecho como una práctica de dar razones, y sobre la obligación de tomarse en serio a quien piensa distinto, lo aprendí de él (y de aquel glorioso curso que daba los miércoles a la mañana con Silvina Ramírez, Nico Tauber, y otros). Por eso, leí [su respuesta](https://www.lacritica.ar/post/el-ruido-y-la-furia/) a [mi columna](https://lacritica.ar/post/la-nueva-derecha-juridica-argentina/) con la alegría de encontrarme con mis propias ideas discutidas por alguien que me ayudó a formarlas. Y también con la incomodidad de siempre, porque Orlando volvió a hacer lo que hizo conmigo tantas veces, lo que hace un buen maestro: tomar algo que yo creía tener claro y obligarme a pensarlo de nuevo, y mejor.
 
-\*\*\*
+{{< fencing >}}
 
 Quiero poner en el centro de esta réplica una imagen que él presenta al final de su texto. Según su reconstrucción, en mi columna yo me preguntaba quién iba a ocupar la silla vacía del otro lado de nuestra conversación pública, dada la emergencia de una nueva derecha que no parece querer sentarse a dar ese debate. Él, en su texto, sospecha que el problema es otro, y que "lo que está desapareciendo es la mesa en la que estábamos acostumbrados a discutir". Ahí está, creo, el núcleo de nuestro desacuerdo. La tesis que quiero proponer acá es que esa mesa de discusión es, en última instancia, el derecho mismo, entendido como una práctica de dar razones, y que no podemos prescindir de ella. Para defenderla voy a recorrer tres preguntas que el texto de Orlando deja planteadas: si la mesa realmente está desapareciendo, con qué disposición nos sentamos en ella y cuáles son las reglas que determinan cómo discutimos cuando estamos allí. Al final, le voy a conceder algo importante sobre quiénes quedaron afuera.
 
@@ -65,7 +65,7 @@ En el derecho, además, esa racionalidad compartida no es un capricho de los aca
 
 Queda para el final la concesión que anuncié al principio y que vengo presentando de a poco. Hay algo en lo que Orlando tiene toda la razón y que mi columna dejó afuera: la pregunta por lo que nosotros (ese "nosotros" difuso con el que vengo trabajando, un poco a propósito) podemos aprender de todo esto, que es mucho. En el [trabajo sobre antiglobalismo](https://doi.org/10.1093/icon/moag033) que citaba en la columna sostuve que estos discursos prenden porque recogen un malestar genuino (que en aquel texto asociaba a la impotencia de nuestras instituciones democráticas para cumplir sus promesas en un mundo cada vez más interdependiente), aunque después lo devuelvan en una imagen distorsionada. Y el mundo del derecho no es inocente en esto. Las credenciales funcionaron muchas veces como peaje, y la mesa de discusión fue, durante mucho tiempo, más chica de lo que debería haber sido. Si la nueva derecha desconfía de nosotros, no es solamente por culpa de Rothbard. La lección, me parece, no es abandonar la mesa, sino hacerla más grande.
 
-\*\*\*
+{{< fencing >}}
 
 Para cerrar, vuelvo sobre una sospecha de Orlando: que detrás de mi pregunta hay cierta nostalgia. Puede ser, aunque no se trata de nostalgia por un adversario elegante al que derrotar en un congreso, sino de la convicción de que, si esa mesa de discusión desaparece, lo que nos queda para resolver nuestros desacuerdos es bastante peor: la fuerza, el número o, en el mejor de los casos, el algoritmo.
 
