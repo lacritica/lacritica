@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -564,7 +570,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p><strong>Acerca de su experiencia como magistrada. Durante mucho tiempo sus votos fueron publicados en las revistas especializadas. Sus fundamentos eran habitualmente analizados como piezas doctrinarias y hasta pedagógicas en la comunidad jurídica. Usted construyó una estructura de argumentación muy personal y única, en la que trataba explícitamente lo que llamaba la &ldquo;plataforma fáctica&rdquo; del caso, organizaba su argumentación con títulos ordenatorios, etc.: ¿Cómo construyó ese modo argumental? ¿Cómo definió su estilo de argumentación, la profundidad de sus análisis, los tipos de consideraciones que le resultaban más importantes al fallar, etc.? ¿Siente que experimentó alguna evolución en su propio estilo para fallar?</strong></p>
 <p>Reconozco una influencia muy poderosa del maestro Morello. El siempre decía que hay que saber Derecho, pero que los hechos son los que dominan el proceso. También me reconozco en el pensamiento trialista. Esta confluencia me llevaba, generalmente, a hacer un gran esfuerzo para sintetizar los hechos relevantes. Esta es una tarea que algunos magistrados de Corte delegan en los secretarios relatores; yo, en cambio, nunca pude hacerlo; siempre tenía que leer desde la primera a la última pagina del expediente y hacer personalmente ese resumen. Una vez que tenía claro los hechos (y para eso hay que controlar cuidadosamente la prueba), veía como esos hechos probados se subsumen en las normas; pero esa subsunción es generalmente insuficiente, porque en el conflicto siempre aparecen normas que apoyan la posición que cada litigante invoca; esto exige, entonces, un análisis sistémico que lleva inexorablemente a la estructura de los derechos fundamentales para verificar si la solución se adapta al sistema y, consecuentemente, si es la justa para el caso concreto. Para eso, hay que recurrir al difícil principio de proporcionalidad, desde que nadie ostenta derechos absolutos. Obviamente, a lo largo de los años el estilo se va modificando, porque también cambia el lenguaje. Durante veintiséis años traté de escribir claro, sobre todo, para que me entendiera quien pierde. Me enseñaron que para esto es necesario hacer lo que siempre indica la maestra de primer grado, o sea, escribir sujeto, verbo y predicado, en ese orden.</p>
 <p><strong>¿Qué podría decirnos acerca del razonamiento y fundamentación judicial en la actualidad en la judicatura argentina?, ¿Qué características generales le llaman la atención acerca de cómo fallan nuestras juezas y jueces del siglo XXI?</strong></p>
-<p>No se puede generalizar. Como regla, en el fuero civil y de las relaciones familiares, el código civil y comercial ha generado un cambio significativo; con frecuencia, se citan normas constitucionales e incluso tratados internacionales de derechos humanos, por ej., para decidir derechos de un niño, o para determinar indemnizaciones sobre daños al cuerpo de las personas, etc.- No obstante, en algunos jueces (también de otros fueros) se advierte una actitud excesivamente formal; o sea, están dominados por el instrumento procesal en lugar de que ese instrumento sirva para la realización del derecho sustancial; así, por ej., hay interminables conflictos generados por cuestiones de competencia, incidentes de nulidad, interminables caducidades de instancia, etc. Resulta increíble la demora que sufren los procedimientos, siempre por razones formales.</p>
+<p>No se puede generalizar. Como regla, en el fuero civil y de las relaciones familiares, el código civil y comercial ha generado un cambio significativo; con frecuencia, se citan normas constitucionales e incluso tratados internacionales de derechos humanos, por ej., para decidir derechos de un niño, o para determinar indemnizaciones sobre daños al cuerpo de las personas, etc.— No obstante, en algunos jueces (también de otros fueros) se advierte una actitud excesivamente formal; o sea, están dominados por el instrumento procesal en lugar de que ese instrumento sirva para la realización del derecho sustancial; así, por ej., hay interminables conflictos generados por cuestiones de competencia, incidentes de nulidad, interminables caducidades de instancia, etc. Resulta increíble la demora que sufren los procedimientos, siempre por razones formales.</p>
 <p><strong>Junto con el ejercicio de la magistratura, su actividad doctrinaria en el derecho ha sido de una originalidad, riqueza y profundidad fuera de lo común. Una de las cosas que más me llaman la atención es que muchas veces, usted fue la primera en abordar en profundidad ciertos temas. Sus artículos muchas veces creaban el mapa para comprender un fenómeno nuevo o poco identificado en el derecho (recuerdo temas sobre avances en la genética y derecho, los riesgos del desarrollo). Al mismo tiempo, fue variando sus intereses a través del tiempo, por ejemplo, dedicándose a temas de derecho privado no patrimonial, de las familias, etc. Y siempre pareció tener una gran inquietud por el derecho comparado: ¿Cuál diría que es la fuerza que la ha impulsado a escribir tanto? ¿Qué clase de búsquedas? ¿Cómo elegía sus temas de trabajo? ¿Cuál era su método para investigar y escribir (especialmente en épocas en que no teníamos ni internet ni la inteligencia artificial para facilitarnos el trabajo)?</strong></p>
 <p>Déjeme agradecerle el juicio que tiene sobre lo que he escrito. Si en algo he sido casi pionera en la Argentina es porque siempre me interesó el derecho comparado; ese interés y el acceso a la bibliografía extranjera me permitía saber de qué se estaba hablando en otros lugares y yo intenté informar sobre cómo sería posible aplicar esas nociones a nuestro sistema. Nedo Carlucci, mi marido, un abogado brillante, compraba cada libro extranjero que veía citado en algún lugar y que creía me serviría. Así formamos una biblioteca de mas de sesenta mil volúmenes que, lamentablemente, después de su partida, no ha podido seguir acrecentándose.</p>
 <p><strong>A propósito: ¿Quiénes diría que fueron sus maestros/as, modelos en la vida doctrinaria? ¿A quiénes admiraba y por qué?</strong></p>
@@ -588,7 +594,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
 </figure>
 </p>
-<p><strong>¿Cómo ve el desarrollo y la evolución de la práctica de lo que se ha llamado &ldquo;la constitucionalización del derecho civil&rdquo; &mdash; que en mi opinión el CCC ha integrado de manera ejemplar- y que también ha generado incomodidad y crítica en alguna doctrina?</strong></p>
+<p><strong>¿Cómo ve el desarrollo y la evolución de la práctica de lo que se ha llamado &ldquo;la constitucionalización del derecho civil&rdquo; &mdash; que en mi opinión el CCC ha integrado de manera ejemplar— y que también ha generado incomodidad y crítica en alguna doctrina?</strong></p>
 <p>Creo que la respuesta está en la dada a la anterior pregunta.</p>
 <p><strong>Una de las implicancias que yo anticipaba que el CCC tendría en las décadas posteriores a su sanción tenía que ver con cambios en la estructura y práctica de la enseñanza del derecho. Para decir lo más obvio, el diseño y distribución de departamentos en las facultades debería reconfigurarse, la matriz enciclopédica de la distribución de materias obligatorias debería repensarse, la argumentación e investigación jurídica deberían tener un peso significativamente mayor al que tenían tradicionalmente, etc. ¿Cuál es su perspectiva acerca de la enseñanza jurídica actual? ¿En qué medida responde a los desafíos legales, institucional, ¿político-constitucionales y del mercado de la abogacía actual? ¿Qué cambios generales sugeriría?</strong></p>
 <p>Algunas facultades de derecho han modificado su plan de estudio, pero la mayoría no lo ha hecho. Por otro lado, la mayoría de los profesores no ha abandonado el tradicional sistema de la clase magistral. Tengo el convencimiento que esta metodología no responde a las necesidades actuales, que exigen mayor participación y dinamismo por parte de quien aprende. En un mundo cambiante enseñamos sobre lo establecido, sin generar instrumentos que ayuden a pensar y adaptarse al cambio.</p>
@@ -668,13 +674,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

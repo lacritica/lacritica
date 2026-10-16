@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -654,7 +660,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <li><strong><em>&ldquo;A history of the Supreme Court&rdquo;</em>, de Bernard Schwartz (1993).</strong> Lo leí en tándem con &ldquo;<strong><em>A People´s history of the Supreme Court&rdquo;</em> de Peter Irons (1999)</strong>, a quien entonces mencionamos aquí ex aequo. Libros que aquí no podríamos escribir (hay acercamientos, como la serie de Clérico y Gaido a través de presidencias contemporáneas de nuestra Corte, los tres tomos de Alfonso Santiago) con ese nivel completísimo de detalle de contexto. Injurias personales, complicidades, trastiendas, coincidencias y grandes tendencias epocales a tiempo y destiempo, explicadas con pelos y señales, toda la materia prima del realismo jurídico y la súbita conciencia de que más allá de nuestros juegos de manos de premisas y conclusiones la vida del derecho está vaciada en el molde de una sociedad y una historia. No diré que la historia se repite ni que rima, pero nos pone todo en perspectiva: nos interesa porque eso que nos sirve para entender a la Corte Marshall y también vale para entender dinámicas y escenas de cualquier corte en cualquier lado y en cualquier época.</li>
 <li><strong><em>&ldquo;La Responsabilidad Civil en el Nuevo Código&rdquo;</em>, de Matilde Zavala de González, con la colaboración de Rodolfo González Zavala</strong> <strong>(cuatro tomos, 2015-2019)</strong> . Sonará rara la elección de una obra tan “derecho para el abogado litigante” frente a las otras de esta lista. Esa es precisamente la razón por la que la incluyo: el derecho no es solo un mundo de discusiones filosóficas, sino que llega a tierra cuando A demanda a B y C resuelve. Son cuatro tomos que comentan los artículos 1708 a 1780  del CCyC, y por eso también es un homenaje al ortodoxo formato de los Códigos Comentados. Pero más allá de estas justificaciones externas: es admirable la forma en que Zavala de González razona en el aire, distingue, interpola, acota y expande: un ejercicio vivo y pulsante de interpretación jurídica, que era en buena medida “autoportante” porque la autora no se esconde detrás de togas y pelucas de jurisprudencia y doctrina sino que (especialmente en textos “vírgenes” de toda prehistoria jurisprudencial) nos lleva de la mano a explicar por qué y como transforma las brutas normas en elegantes y rizomáticos criterios. Uso este libro como botón de muestra, porque Matilde Zavala de González era una genia del derecho y este gran finale (en parte coeditado por su hijo Rodolfo) fue la obra póstuma de su larguísima bibliografía de libros terrenales y prácticos con enorme sustancia y ojo clínico jurídico.</li>
 <li><strong><em>&ldquo;El caso de los exploradores de cavernas&rdquo;</em>, de Lon Fuller (1949),</strong> . Librito-cuento (traducido a nuestro idioma por Genaro Carrió, gran traficante de ideas jurídicas al español)  hermosamente escrito y pensado. Se lee de un tirón, y a medida que avanzamos en los votos todos tienen un poco de razón y todos se equivocan. La sentencia mejor escrita sobre un caso que nunca existió, y además, la festiva reivindicación de que el derecho puede ser genuinamente divertido (las chicanas de los jueces, sus boutades, sus digresiones, son hilarantes). No dudaría en calificarlo de cuento borgeano.</li>
-<li><strong><em>&ldquo;El derecho como razón pública&rdquo;, de</em> Owen Fiss (2003)</strong>. Cada uno de los ensayos reunidos es un transformador de corriente alterna (colecciones de algo suelto, algo usado, algo prestado) a corriente continua (pensarlos qué silbato tocan cuando los ponemos a mirar como sistema mas allá del accidente procesal). Las formas de la justicia, los peligros de privatizar el conflicto, la obsesión por la objetividad, las acciones colectivas como dispositivo político y la burocratización del poder judicial aparecen aquí no como piezas aisladas sino como variaciones de una misma preocupación: cómo preservar al derecho como práctica pública en una época que constantemente lo empuja hacia la tecnocracia, la negociación o el cinismo. Fiss escribe como alguien que todavía cree -sin ingenuidad, pero también sin pedir disculpas por ello- que los jueces, los procedimientos y las instituciones pueden ser algo más que administración prolija de relaciones de fuerza. </li>
+<li><strong><em>&ldquo;El derecho como razón pública&rdquo;, de</em> Owen Fiss (2003)</strong>. Cada uno de los ensayos reunidos es un transformador de corriente alterna (colecciones de algo suelto, algo usado, algo prestado) a corriente continua (pensarlos qué silbato tocan cuando los ponemos a mirar como sistema mas allá del accidente procesal). Las formas de la justicia, los peligros de privatizar el conflicto, la obsesión por la objetividad, las acciones colectivas como dispositivo político y la burocratización del poder judicial aparecen aquí no como piezas aisladas sino como variaciones de una misma preocupación: cómo preservar al derecho como práctica pública en una época que constantemente lo empuja hacia la tecnocracia, la negociación o el cinismo. Fiss escribe como alguien que todavía cree —sin ingenuidad, pero también sin pedir disculpas por ello— que los jueces, los procedimientos y las instituciones pueden ser algo más que administración prolija de relaciones de fuerza. </li>
 <li><strong><em>&ldquo;El análisis económico del derecho&rdquo;</em>, de Richard Posner  (1973).</strong> Una monumental “teoría del todo” (sucesiones, impuestos, división de poderes, todo tiene su espacio bajo el universo del law and economics) que admite lecturas y refutaciones parciales. Su merecida influencia, su obsesión por el improbable alineamiento de estímulos, instituciones y respuestas, su búsqueda de externalidades, una forma de escapar de la asfixia del silogismo, la autoridad y un intento osado de ver si en un punto lejano lo bueno y lo útil se unen o divergen.</li>
 <li><strong><em>&ldquo;El derecho como una conversación entre iguales&rdquo;</em>, de Roberto Gargarella (2022).</strong> Bellamente escrito, un libro de Roberto pero también un poco un libro en el que todos podemos estar en la mesa: vemos “la matrix” que conecta y sistematiza ideas y criterios sobre igualdad, moral pública, reproche penal, libertad de expresión, derecho a la protesta. Inspector riguroso de las salas de juegos y de las salas de máquinas del poder, es una “retrospectiva prospectiva” (como en tantos otros, la fecha engaña, porque recupera y encaja ideas y escritos previos del autor) que lejos de funcionar como dispenser de verdades, dogmas y opiniones performa en su desarrollo la misma idea de fondo del título: una deconstrucción que paradójicamente busca recuperar la única forma en que el derecho puede reclamar autoridad válida para regir la conducta de personas que se dan reglas para vivir juntos. .</li>
 <li><strong><em>&ldquo;Derecho Penal, Parte General&rdquo;</em>, de E. Raúl Zaffaroni, Alejandro Alagia y Alejandro Slokar (1ª Ed., 2000; 3ª ed. 2025).</strong> Nadie puede entender el derecho sin verlo en donde probablemente nació y sigue dominando el imaginario popular, en los delitos y las penas. El derecho penal es de alguna manera la <em>lingua franca</em> del derecho (y por eso puede permitirse que este libro no quede tan “anclado” en el derecho argentino). Va a las raíces con una buena historia del derecho penal, recupera escuelas, sueños y pesadillas, propone un sistema casi propio, y nos da la base para entender otras ideas y escuelas. Bien plantado en la intersección entre academica y buena prosa, ATP y APB, forma parte de nuestro botiquín de primeros auxilios para internarnos en las artes oscuras de esa rama del derecho que pensamos como última ratio y que al mismo tiempo vemos omnipresente en cada vueltita de la rueda de scroll del ratón. </li>
@@ -735,13 +741,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

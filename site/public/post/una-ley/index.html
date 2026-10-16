@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -640,7 +646,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>Dictar decretos de necesidad y urgencia (DNU) fue, alguna vez, un acto excepcional y discreto. Hoy, a treinta años de que la reforma constitucional los legitimara al intentar restringirlos, los DNU forman parte del paisaje de la gobernanza diaria. O, más precisamente, semanal: en los últimos años, se ha dictado aproximadamente un DNU por semana. Lo que antes era un acto relativamente vergonzante se ha vuelto rutinario. El presidente actual, sin ir más lejos, ha celebrado sus DNU y los <a href="https://www.radionacional.com.ar/si-el-dnu-se-cae-en-diputados-vamos-a-volver-a-la-carga-con-otros-dnu/">ha reivindicado</a> no ya frente a la inacción del Congreso sino incluso frente a su rechazo.</p>
 <p>La Corte Suprema ha establecido claramente que la posibilidad de dictar un DNU debe ser apreciada de manera restrictiva. Sin embargo, ni el Poder Ejecutivo ni el Congreso se han dejado amedrentar por esta limitación, generalmente impuesta con rigor prusiano y valentía republicana a ex presidentes en pantuflas. En esta circunstancia, las admoniciones usuales acerca de la <em>&ldquo;necesidad y urgencia&rdquo;</em> que deben existir para permitir el dictado de un DNU han perdido el filo: si el presidente dice que tiene cinco perros, tiene cinco perros, y si dice que hay necesidad y urgencia, hay necesidad y urgencia.</p>
 <p>A pesar de este progresivo avance de los DNU en nuestra práctica, hay una línea roja que rara vez se ha cruzado. El artíoculo 99 inc. 3º prohíbe terminantemente el dictado de DNU en materia penal, tributaria, electoral y de partidos políticos. Salvo algunos casos grises, como la postergación de la entrada en vigencia del Código Procesal Penal Federal (decreto 188/2024) o ciertas modificaciones al Código Aduanero (decreto 70/23), este límite ha sido en general respetado. El <em>ghost writer</em> del DNU 70/2023, el más extenso de nuestra historia, incluso lo ha reconocido (con una base <em>&ldquo;textualista&rdquo;</em>, <a href="https://www.perfil.com/noticias/columnistas/la-revolucion-de-la-libertad-por-federico-sturzenegger.phtml">dijo</a>) como el único límite que está dispuesto a honrar: <em>&quot;¿Se abordan temas tributarios, penales, electorales o de partidos políticos? No. Listo. Cerrado el tema&quot;.</em></p><figure class='thumbnail-insert'><img src='/img/julio-2025.jpeg' alt=''><figcaption><span class='epigraph'>Fotógrafo, Brasilia, 2025</span><span class='copyright'>por Mariela Puga</span></figcaption></figure>
-<p>De todos modos, hay una pregunta que, acaso por su aparente obviedad, no se formula: las cuatro materias enumeradas son excepciones, ¿pero excepciones a qué? En otras palabras, ¿cuál es el <em>género</em> de normas que pueden ser emitidas por DNU? El tercer párrafo del artíoculo 99 inc. 3º autoriza al Poder Ejecutivo a <em>&ldquo;dictar decretos por razones de necesidad y urgencia&rdquo;</em>, pero nada dice sobre cuál puede ser el contenido de dichos decretos. Por ejemplo, ¿podría un presidente, por <em>&ldquo;razones de necesidad y urgencia&rdquo;</em>, dictar un decreto remplazando una sentencia judicial? ¿Podría expulsar de su cargo a un miembro del Congreso? ¿Podría disponer el arresto de un ciudadano? Si usted contesta que no, no es porque estas preguntas suenen alocadas, ya que -después de todo- que el presidente legisle a sola firma ya es de por sí algo alocado. Si contesta que no es porque lee el inciso como un todo y, razonablemente, entiende que el tercer párrafo debe ser entendido como una excepción al párrafo anterior, que establecía la prohibición general para el Presidente de dictar <em>&ldquo;disposiciones de carácter legislativo&rdquo;</em>.</p>
+<p>De todos modos, hay una pregunta que, acaso por su aparente obviedad, no se formula: las cuatro materias enumeradas son excepciones, ¿pero excepciones a qué? En otras palabras, ¿cuál es el <em>género</em> de normas que pueden ser emitidas por DNU? El tercer párrafo del artíoculo 99 inc. 3º autoriza al Poder Ejecutivo a <em>&ldquo;dictar decretos por razones de necesidad y urgencia&rdquo;</em>, pero nada dice sobre cuál puede ser el contenido de dichos decretos. Por ejemplo, ¿podría un presidente, por <em>&ldquo;razones de necesidad y urgencia&rdquo;</em>, dictar un decreto remplazando una sentencia judicial? ¿Podría expulsar de su cargo a un miembro del Congreso? ¿Podría disponer el arresto de un ciudadano? Si usted contesta que no, no es porque estas preguntas suenen alocadas, ya que —después de todo— que el presidente legisle a sola firma ya es de por sí algo alocado. Si contesta que no es porque lee el inciso como un todo y, razonablemente, entiende que el tercer párrafo debe ser entendido como una excepción al párrafo anterior, que establecía la prohibición general para el Presidente de dictar <em>&ldquo;disposiciones de carácter legislativo&rdquo;</em>.</p>
 <p>El género de DNU, entonces, queda reducido a <em>&ldquo;disposiciones de carácter legislativo&rdquo;</em>. ¿Cuáles son estas disposiciones? La Constitución no las define. Sin embargo, sí nos da una pista. La Constitución de 1853/60 no usa la expresión <em>&ldquo;Poder Legislativo&rdquo;</em> como sinónimo de Congreso, sino como sinónimo de &ldquo;facultad de legislar&rdquo;. Sólo así tiene sentido la expresión, de otro modo algo confusa, de que <em>&ldquo;un Congreso</em> [...] <em>será investido del Poder Legislativo de la Nación&rdquo;</em>. El poder de legislar es algo, se ve, que conceptualmente existe <em>antes</em> que el propio Congreso. Cada vez que la Constitución utiliza la palabra <em>&ldquo;ley&rdquo;</em> (<em>&ldquo;las leyes que reglamenten su ejercicio&rdquo;</em>, <em>&ldquo;son iguales ante la ley&rdquo;</em>, <em>&ldquo;ningún habitante de la Nación será obligado a hacer lo que no manda la ley&rdquo;</em>) parece estar haciendo referencia a este sentido conceptual de poder legislativo.</p>
 <p>Las leyes, en este sentido, son las normas de carácter general y abstracto; leyes en sentido material. Se trata de las normas que regulan directamente la conducta y derechos de las personas (los ejemplos más obvios son el corralito o la cuarentena, pero una buena parte de los DNU responden a esta descripción). Por extensión, pueden incluirse en esta definición las normas que regulan el funcionamiento del Estado (es decir, que asignan, también con carácter general, competencias para distintas actividades, como los DNU que cada presidente dicta apenas asume para ajustar la Ley de Ministerios a su gusto).</p>
 <p>Creo que lo anterior es relativamente claro, y la doctrina administrativista parece haberlo intuido cada vez que ha llamado a los DNU, seguramente por reflejo, <em>&ldquo;reglamentos de necesidad y urgencia&rdquo;</em>. Sin embargo, la práctica de los últimos presidentes parece haber asumido una premisa diferente: las <em>&ldquo;disposiciones de carácter legislativo&rdquo;</em>, parece haberse impuesto, son todas las competencias que la Constitución asigna al Congreso Nacional. Entonces, el artíoculo 99 inc. 3º, en realidad, no autorizaría a <em>&ldquo;dictar disposiciones de carácter legislativo&rdquo;</em> sino a <em>&ldquo;remplazar al Congreso&rdquo;</em> por razones de necesidad y urgencia. Intentaré mostrar por qué esta interpretación implícita de la norma me parece errada.</p>
@@ -713,13 +719,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -653,16 +659,16 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>En ese contexto, para 2013, las desventuradas partes del contrato se encontraron en una tensión que no pudieron resolver: quien debía pagar eligió hacerlo en pesos al valor del &ldquo;oficial&rdquo; y quien debía cobrar se negó a recibir los pagos, dado que esos pesos eran manifiestamente insuficientes para adquirir la cantidad de dólares acordada, por cualquier medio disponible para la ciudadanía.</p>
 <p>El caso tiene algo de dramático, es casi trágico: ambas partes tenían razones morales y legales para defender su posición; las dos podían sostener que el entendimiento original que habían tenido en 2006 justificaba su pretensión acerca de cómo cumplirlo en 2013. Y también podía entenderse que ambas partes estaban tratando de obtener una ventaja a costa de la otra, aprovechando la absurda realidad económica argentina y usando el contrato firmado varios años atrás en su beneficio egoísta.</p>
 <p>La Corte no explicitó en su fallo cuál era la magnitud de la brecha entre el dólar oficial (inaccesible) y los otros en esa época. Un silencio elocuente. Pero la Cámara Federal de Tucumán que había intervenido relató que la brecha era del 50 %. Lo que es indudable es que ambas estaban tratando de defender su patrimonio en el marco de un contrato afectado por decisiones regulatorias y vías de hecho que distorsionaban todos los parámetros de referencia (por aquellas épocas las autoridades también falsificaban los índices de inflación, de pobreza, etc.) ¿Qué sentido podían tener las previsiones compartidas y acordadas en el pasado, frente a tal escenario?</p>
-<p>Pues bien, doce años después de desencadenado el conflicto la Corte consideró que el caso merecía su atención. No sabemos por qué lo eligió como uno de los pocos cientos para considerar en profundidad -entre los muchos miles que recibe cada año. Sin duda, los jueces del Máximo Tribunal entendieron que tenían algo importante para decirle a la sociedad argentina, acerca de los contratos, para el futuro. Eso es precisamente lo que hacen las Altas Cortes de un país con el grupo selecto de casos que eligen discrecionalmente estudiar y fallar cada año: Resuelven un caso del pasado y envían señalas con las que intentan moldear el futuro. Ahí reside la clave del enorme poder social que le confiere su autoridad constitucional.</p>
+<p>Pues bien, doce años después de desencadenado el conflicto la Corte consideró que el caso merecía su atención. No sabemos por qué lo eligió como uno de los pocos cientos para considerar en profundidad —entre los muchos miles que recibe cada año. Sin duda, los jueces del Máximo Tribunal entendieron que tenían algo importante para decirle a la sociedad argentina, acerca de los contratos, para el futuro. Eso es precisamente lo que hacen las Altas Cortes de un país con el grupo selecto de casos que eligen discrecionalmente estudiar y fallar cada año: Resuelven un caso del pasado y envían señalas con las que intentan moldear el futuro. Ahí reside la clave del enorme poder social que le confiere su autoridad constitucional.</p>
 <h1 id="un-fallo-simple">Un Fallo simple</h1>
 <p>¿Cómo se resolvió el caso de los desventurados contratantes tucumanos?: El, muy breve, fallo dijo simplemente: “la claridad de la cláusula [del contrato] únicamente permite concluir en que los contratantes pactaron voluntariamente un parámetro determinado de equivalencia para el supuesto de pago en pesos, cual fue, indudablemente, la cotización del dólar del BNA correspondiente al día del efectivo pago”.</p>
 <p>En otras palabras, la Corte resolvió que el pagador tenía derecho a cumplir el contrato pagando los pesos que resultaban del cambio oficial (por más distorsionado y manipulado que estuviera), porque ese era el parámetro que las partes habían acordado para arbitrar la equivalencia dólar/peso. Más aún, los jueces dijeron expresamente que esa conclusión no se modificaba por la circunstancia de que “por causa de la realidad económica del país, el acreedor no habría podido adquirir los dólares debidos con los pesos ofrecidos”.</p>
-<p>Mas abajo vamos a considerar qué ha querido decirnos la Corte, a todos, en Argentina, en relación con la vida de los contratos en el marco de un país económicamente desequilibrado en el que cíclicamente la población es atrapada en regulaciones tramposas, abusivas, engañosas, y donde los marcos de referencia son tergiversados por “la realidad económica”; o -digamos mejor- por instituciones y políticas públicas desaforadas y desleales.</p>
+<p>Mas abajo vamos a considerar qué ha querido decirnos la Corte, a todos, en Argentina, en relación con la vida de los contratos en el marco de un país económicamente desequilibrado en el que cíclicamente la población es atrapada en regulaciones tramposas, abusivas, engañosas, y donde los marcos de referencia son tergiversados por “la realidad económica”; o —digamos mejor— por instituciones y políticas públicas desaforadas y desleales.</p>
 <p>Pero antes, detengámonos un momento en el derecho, pues el derecho importa (¿o no?).</p>
 <h1 id="el-nuevo-derecho-privado-argentino-el-derecho-privado-de-la-buena-fe">El nuevo derecho privado argentino: El derecho privado de la buena fe</h1>
 <p>Hace ya una década, Argentina adoptó un nuevo Código Civil y Comercial (CCC) que introdujo una profunda reforma en la regulación de las relaciones económicas entre particulares. Uno de sus aspectos más significativos fue la adopción definitiva del principio de buena fe, como valor y criterio regulatorio fundamental en todas las relaciones de derecho privado en general, y de las contractuales en particular.</p>
 <p>Es sabido que este principio había sido introducido en regulaciones importantes del Código Civil en 1968, en el marco de un deliberado esfuerzo por atenuar la impronta individualista del sistema originario en favor de una perspectiva más social (solidarista). Inevitablemente, el injerto de una serie de principios y regulaciones solidaristas en un Código diseñado con una matriz individualista daría como resultado un alma dual, que nunca terminó de establecerse y asentarse consistentemente, y que navegamos como pudimos. En distintos momentos, siguiendo los vientos políticos y filosóficos generales, cada uno de los paradigmas en disputa parecía imponerse, temporalmente, en algún ámbito de regulación; y al final del día, siempre todo era posible.</p>
-<p>Uno de los grandes aciertos del nuevo CCC consistió en definir una estructura de principios consistente en lugar de una fragmentada. Y en esa estructura consistente, el principio de buena fe es la clave fundamental. El breve artículo 9 del CCC (“los derechos deben ser ejercidos de buena fe”) expresa ahora el núcleo ideológico fundamental del derecho privado: un derecho privado relacional, social, orientado a facilitar la cooperación -no atomizado, individualista, orientado a encauzar el egoísmo.</p>
+<p>Uno de los grandes aciertos del nuevo CCC consistió en definir una estructura de principios consistente en lugar de una fragmentada. Y en esa estructura consistente, el principio de buena fe es la clave fundamental. El breve artículo 9 del CCC (“los derechos deben ser ejercidos de buena fe”) expresa ahora el núcleo ideológico fundamental del derecho privado: un derecho privado relacional, social, orientado a facilitar la cooperación —no atomizado, individualista, orientado a encauzar el egoísmo.</p>
 <p>La experiencia ya tiene diez años, y todavía está en plena construcción. Es inevitable que este fallo de la Corte, más allá de que no lo haga explícito, nos diga algo sobre el camino que vamos a recorrer en el futuro.</p>
 <h1 id="el-dilema-de-la-corte-un-mensaje-sutil-que-tiene-algo-valioso">El dilema de la Corte. Un mensaje (sutil) que tiene algo valioso.</h1>
 <p>El conflicto del contrato tucumano nos pone &mdash;y habrá puesto a la Corte&mdash; frente a un angustioso dilema.</p>
@@ -679,7 +685,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Si los jueces de la Corte debieran fallar el caso del Mercader de Venecia, su doctrina interpretativa parecería conducir a que condenarían a Antonio a entregar a Shylock la libra de carne (con o sin sangre, es un detalle), basada en que las partes deben internalizar &mdash;no la letra del contrato sino&mdash; las implicancias de las previsiones y cálculos que expresaron al contratar (Antonio en particular, debería internalizar su cálculo fallido acerca de la llegada a puerto de sus barcos).</p>
 <p>El olvido lamentable de la Corte, con el que nos deja indefensos, es que el mar por el que navegan las mercancías de Antonio es caóticamente agitado por tsunamis regulatorios tramposos creados desde el estado. No hay sistema de contratos basado en la buena fe que pueda funcionar si el poder judicial ignora los abusos estatales y su impacto en las previsiones de los contratantes.</p>
 <p>Precisamente esa omisión ocasiona un error argumental que afecta la estructura del fallo. La Corte reconstruye mal lo que las partes hicieron cuando previeron la regla de conversión dólar/peso.</p>
-<p>Ellas no fijaron &mdash;como asume la Corte&mdash; una regla de equivalencia diferida al arbitrio de un tercero (BNA). Es un sinsentido interpretar, ahora, que quisieron incorporar un álea en la definición del precio. Al contrario, querían eliminarlo. Lo que hicieron fue fijar una regla para asegurar -no romper- el equilibrio y la preservación del valor del precio en el tiempo. Y su mecanismo tenía una presuposición estructural muy básica y elemental, la más obvia del mundo, que la Corte claramente ignoró, y que fue la que el estado argentino desquició: la presuposición de que cuando el BNA fija un precio de compra y venta del dólar, ese precio está conectado con la posibilidad efectiva, real, de comprar y vender dólares, a ese precio.</p>
+<p>Ellas no fijaron &mdash;como asume la Corte&mdash; una regla de equivalencia diferida al arbitrio de un tercero (BNA). Es un sinsentido interpretar, ahora, que quisieron incorporar un álea en la definición del precio. Al contrario, querían eliminarlo. Lo que hicieron fue fijar una regla para asegurar —no romper— el equilibrio y la preservación del valor del precio en el tiempo. Y su mecanismo tenía una presuposición estructural muy básica y elemental, la más obvia del mundo, que la Corte claramente ignoró, y que fue la que el estado argentino desquició: la presuposición de que cuando el BNA fija un precio de compra y venta del dólar, ese precio está conectado con la posibilidad efectiva, real, de comprar y vender dólares, a ese precio.</p>
 <p>Al omitir la consideración del descalabro regulatorio del “cepo” clandestino (la imaginación estatal para perpetrar abusos regulatorios es ilimitada, ciertamente) la Corte reconstruyó que las partes en realidad trataron a priori a ese elemento central del contrato &mdash;el precio&mdash; como un elemento casi aleatorio: dólares o la cantidad de pesos que defina un tercero… a quien tal vez no se le pueda comprar ni vender. La Corte terminó entendiendo que las partes habían fijado el precio con una cláusula del estilo <em>“se debe pagar en dólares, o en pesos al valor que diga la primera persona vestida de rojo que pase por la Casa Histórica de Tucumán”</em>. Pues el precio del BNA se había vuelto (en relación con el valor del dólar) tan arbitrario como el del ejemplo.</p>
 <p>La referencia al BNA, a la que habían acudido las partes, presuponía una estructura económica en la que la gente puede comprarle/venderle dólares al precio que fija. No que no pueda hacerlo. La mirada de la Corte &mdash;enfocada en señalarnos la preponderancia de la autonomía regulatoria en el sistema de contratos paritarios&mdash; la llevó a tratar a las partes como autorregulándose de manera irracional y auto frustrante (cuando lo irracional y auto frustrante es el descalabro de la regulación estatal que tergiversa los marcos de referencia de los contratantes).</p>
 <p>Precisamente ese es el problema: que este Estado desaforado, con regulaciones sorprendentes y traicioneras continuamente hace quedar como tontos y temerarios a contratantes responsables. Es por eso es que la perspectiva de la buena fe resulta tan fundamental. Para acompañar, fortalecer y dotar de precondiciones equitativas al ejercicio de la autorresponsabilidad regulatoria de quienes contratan.</p>
@@ -744,13 +750,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

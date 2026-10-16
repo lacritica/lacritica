@@ -1,0 +1,21 @@
+{{/*
+  Returns the posts for the simposios grid on the home: every page with
+  `simposio_grid: true`, ordered by weight (first = texto original, last =
+  respuesta a las críticas), up to 5. The grid needs at least 3, so with
+  fewer it returns nothing and the rest of the home is left untouched.
+
+  Usage:
+    {{ $simposio := partial "simposio_grid_posts.html" . }}
+    {{ $simposio.posts }}  -> Pages (empty when the grid is off)
+    {{ $simposio.urls }}   -> slice of their RelPermalinks
+*/}}
+
+{{ $posts := first 5 (where site.RegularPages "Params.simposio_grid" true).ByWeight }}
+{{ if lt (len $posts) 3 }}
+  {{ $posts = slice }}
+{{ end }}
+
+{{ $urls := slice }}
+{{ range $posts }}{{ $urls = $urls | append .RelPermalink }}{{ end }}
+
+{{ return (dict "posts" $posts "urls" $urls) }}

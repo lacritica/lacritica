@@ -78,7 +78,7 @@ La primera es simple y colateral: que los que salen a pedir juicios políticos a
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -295,25 +295,18 @@ La primera es simple y colateral: que los que salen a pedir juicios políticos a
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -323,6 +316,19 @@ La primera es simple y colateral: que los que salen a pedir juicios políticos a
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -656,12 +662,12 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>A poco de entrar en vigencia dos fallos, <a href="https://www.palabrasdelderecho.com.ar/articulo/6969/La-Justicia-bonaerense-suspendio-por-60-dias-la-aplicacion-de-la-nueva-ley-penal-juvenil-en-la-Provincia">uno de Provincia de Buenos Aires</a>, <a href="https://www.palabrasdelderecho.com.ar/articulo/7006/Declararon-inconstitucional-la-aplicacion-del-nuevo-Regimen-Penal-Juvenil-a-un-adolescente-de-14-anos">otro de CABA sobre un caso particular</a>, han atraído la atención sobre la <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423722/norma.htm">Ley de Responsabilidad Juvenil</a>, generando repudios de diverso anclaje, que nos llevan a pensar y decir dos cosas.</p>
 <p>La primera es simple y colateral: que los que salen a pedir juicios políticos a jueces que declaran inconstitucionalidades diciendo que los jueces no pueden legislar, a la vuelta de la esquina estarán pidiendo la inconstitucionalidad de una ley sancionada por el Congreso; que ello suceda solo es cuestión de tiempo.</p>
 <p>La segunda es más de fondo y nos sirve para recordar cómo funciona el sistema y para qué sirve.</p><figure class='thumbnail-insert'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvjIZdlkhsj6PAW6tAj7VcKh2Yqplu1tyg0JV956h0vA&s' alt=''><figcaption><span class='copyright'>Del instagram de @thewalkingconurban</span></figcaption></figure>
-<p>Cuando alguien declara inconstitucional lo hace para un caso particular, en función de un contexto que no necesariamente implica que otra cuestión con hechos distintos deba derivar en inconstitucionalidad también.  Las cuestiones no se debaten como en el Congreso, en modo general y cenital, sino revisando como aterriza la ley en el caso. Que le estemos discutiendo una roja a un referí (porque “fue” o porque “no fue”) no significa negar la autoridad del referí para expulsar jugadores, ni discutir sobre la regla de no agarrar la pelota con la mano. Estos procesos son granulares y -a diferencia del fútbol, que solo tiene un VAR intermitente y que no pueden activar los equipos- tienen sus correlativas instancias de apelación y revisión donde las partes presentan sus quejas a otros tribunales, y eventualmente tendremos fallos de otras Cortes (y de “la” Corte al respecto).</p>
+<p>Cuando alguien declara inconstitucional lo hace para un caso particular, en función de un contexto que no necesariamente implica que otra cuestión con hechos distintos deba derivar en inconstitucionalidad también.  Las cuestiones no se debaten como en el Congreso, en modo general y cenital, sino revisando como aterriza la ley en el caso. Que le estemos discutiendo una roja a un referí (porque “fue” o porque “no fue”) no significa negar la autoridad del referí para expulsar jugadores, ni discutir sobre la regla de no agarrar la pelota con la mano. Estos procesos son granulares y —a diferencia del fútbol, que solo tiene un VAR intermitente y que no pueden activar los equipos— tienen sus correlativas instancias de apelación y revisión donde las partes presentan sus quejas a otros tribunales, y eventualmente tendremos fallos de otras Cortes (y de “la” Corte al respecto).</p>
 <p>Así funciona el sistema y es una garantía que todos apreciamos (además de que es constitucional) para el más humano de todos los derechos que es el derecho al pataleo, y eso se rompe si se cruzan los cables de la revisión con los cables del juicio político por destitución: una cosa es apelar y otra es echar jueces (todos los jueces de todas las instancias tienen sentencias que eventualmente serán discutidas con éxito ante algún otro “organismo”, y amparado en la expansión del encomillado incluso podría decir lo mismo de la Corte Suprema).</p>
 <p>Declarar inconstitucional un artículo del Código Penal (se ha hecho muchas veces: en tenencia de estupefacientes para consumo personal, por afectar la privacidad (art. 19 CN); en procesos de calumnias contra un periodista porque puede afectar la libertad de expresión) no es “declarar inconstitucional el Código Penal”, y extrapolar de ahí que un extraviado juez de primera instancia acaba de decretar con carácter permanente el Día de la Purga declarando permisible e impune toda agresión a terceros.</p>
 <p>Esto es cierto para todo caso de derecho penal de mayores, y también lo es para todo caso de derecho penal de menores de edad.</p>
 <p>Casi siempre, las inconstitucionalidades son “de última milla” y no afectan la vigencia general de una ley, y en el caso del régimen general juvenil incluso es explícita en la ley misma la prevalencia de soluciones</p>
-<p>Ahora, leamos entonces <em><a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423722/norma.htm">la bendita ley</a></em> – en modo “hechos no opinión”. Incluso haciendo abstracción del tema de la edad -si fuera 16, 14 o cualquier numero teen-, encontramos allí en el art, 4, estos <em><strong>“Principios rectores”</strong> ,</em> de los que glosamos tres:</p>
+<p>Ahora, leamos entonces <em><a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/420000-424999/423722/norma.htm">la bendita ley</a></em> – en modo “hechos no opinión”. Incluso haciendo abstracción del tema de la edad —si fuera 16, 14 o cualquier numero teen-, encontramos allí en el art, 4, estos <em><strong>“Principios rectores”</strong> ,</em> de los que glosamos tres:</p>
 <ul>
 <li><strong>Inc e), “Penas”,</strong> donde manda que sean orientadas <em>“siempre a la educación y resocialización, a fin de que el adolescente imputado obtenga un futuro con integración social y trabajo, comprensión y arrepentimiento por la conducta punible perpetrada. Además, deberá tender a disminuir el riesgo de que incurra en la comisión de nuevos delitos”.</em></li>
 <li><strong>Inc j, “Privación de la libertad”:</strong> <em>“La medida que implique la restricción de la libertad durante el procedimiento deberá decretarse en auto motivado y fundamentarse en la existencia de riesgos procesales debidamente constatados”</em></li>
@@ -669,7 +675,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </ul>
 <p>Precisamente, el cuestionado fallo que suspendía la aplicación de la ley era absolutamente <em>secundum legem</em> en un sentido profundo, porque la suspensiòn no era para inconstitucionalizar sino para preguntarle al Estado responsable (en ese caso, la Provincia de Buenos Aires) una serie de cuestiones relativas a esos principios, que no son “principios decorativos”, sino, explícitamente “rectores”, que deberían estar cumpliéndose desde el minuto cero y requieren prestaciones y políticas públicas específicas.</p>
 <p>Nótese que he llegado a este punto también argumentando desde la ley misma. No he citado Convención de los Derechos del Niño, informes u observaciones del Comité respectivo (aquí recomendamos leer la <a href="https://www.defensorianinez.cl/wp-content/uploads/2019/12/G1927560.pdf">OG 28 de 2019</a> que explica buena parte de esos principios), su precedencia o procedencia por via del art. 75 inc. 22, porque todas ellas aparecen no en la nube supranacional “allá” sino están “acá” mismo, en la misma ley, del legislador doméstico, votada hace nada. Esto hace inoficioso que discutamos su vinculatoriedad: no vienen a llenar un vacío ni estamos hablando de un “préstamo” ni de una doctrina, sino de una “adquisición” efectivamente positivizada por el legislador nacional.</p>
-<p>Los fallos pueden ser comentados, merecerían ser leídos, podrán ser discutidos. En todo caso: no se trata de que los jueces sustituyan al legislador ni de que declaren una moratoria penal juvenil por sentencia. Se trata de que, cuando una ley dice que sus principios son rectores, que la privación de libertad exige riesgos procesales comprobados y que la respuesta debe orientarse a la integración, esas palabras (que son “las palabras de la ley”, no un desvarío de mentes afiebradas) no están ahí para ser salteadas e ignoradas, y que algún grado de relevancia tienen para gobernar los casos concretos.  Discutir cómo se las aplica -y apelar si se considera que se aplicaron mal- es parte normal del sistema, y para eso hay que entender que fue lo que pasó.</p>
+<p>Los fallos pueden ser comentados, merecerían ser leídos, podrán ser discutidos. En todo caso: no se trata de que los jueces sustituyan al legislador ni de que declaren una moratoria penal juvenil por sentencia. Se trata de que, cuando una ley dice que sus principios son rectores, que la privación de libertad exige riesgos procesales comprobados y que la respuesta debe orientarse a la integración, esas palabras (que son “las palabras de la ley”, no un desvarío de mentes afiebradas) no están ahí para ser salteadas e ignoradas, y que algún grado de relevancia tienen para gobernar los casos concretos.  Discutir cómo se las aplica —y apelar si se considera que se aplicaron mal— es parte normal del sistema, y para eso hay que entender que fue lo que pasó.</p>
 
         
 
@@ -730,13 +736,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

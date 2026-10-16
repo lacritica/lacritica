@@ -7,13 +7,12 @@
   {{ end }}
 {{ end }}
 
-{{/* If simposios grid is active, exclude simposio-category posts */}}
-{{ $simposioSection := site.GetPage "section" "simposios" }}
-{{ if and $simposioSection $simposioSection.Params.show }}
+{{/* Posts shown in the simposios grid stay out of the rest of the home */}}
+{{ $simposioURLs := (partial "simposio_grid_posts.html" .).urls }}
+{{ if $simposioURLs }}
   {{ $temp := slice }}
   {{ range $secondaryBase }}
-    {{ $cats := .Params.categories | default slice }}
-    {{ if not (intersect $cats (slice "simposio")) }}
+    {{ if not (in $simposioURLs .RelPermalink) }}
       {{ $temp = $temp | append . }}
     {{ end }}
   {{ end }}

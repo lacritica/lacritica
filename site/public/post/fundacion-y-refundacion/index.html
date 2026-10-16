@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -614,7 +620,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
       <p><em>Traedme mi arco de oro ardiente: Traedme mis flechas de deseo:/ Traedme mi lanza: /¡Oh, nubes, desplegáos!/ ¡Traedme mi carro de fuego!/</em></p>
-<p><em>No cesaré en la lucha mental, ni mi espada dormirá en mi mano:/ hasta que hayamos construido Jerusalén, / en la verde y agradable tierra de Inglaterra. - William Blake</em></p>
+<p><em>No cesaré en la lucha mental, ni mi espada dormirá en mi mano:/ hasta que hayamos construido Jerusalén, / en la verde y agradable tierra de Inglaterra. — William Blake</em></p>
 <h1 id="introducción">Introducción</h1>
 <p>A veces se dice que los derechos surgen de los agravios (<em>rights come from wrongs</em>).<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> La opresión religiosa podría conducir a una insistencia en la libertad de culto, tal vez en una disposición constitucional. Quienes han sufrido la censura podrían tratar de dar un lugar privilegiado a la libertad de expresión. Una experiencia vivida con ausencia de un procedimiento justo bien podría conducir a una insistencia, constitucionalizada o no, en el debido proceso legal. Si algunas personas han sido objeto de una discriminación generalizada, un principio de igualdad de trato podría parecer sumamente atractivo. La Constitución de los EE. UU. 1 La Constitución es atemporal, o al menos eso parece, pero también es, y de manera enfática, un producto de su época, y el contexto particular de la Revolución Americana, así como el trasfondo monárquico, actuaron como una gran sombra siempre presente.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> La Constitución y la Revolución están inextricablemente entrelazadas. La Constitución original se basaba en principios y compromisos identificables, entre los que se incluían (y quizás sobre todo) el rechazo de la monarquía en favor del republicanismo;<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> la democracia deliberativa<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>; la separación de poderes; y las restricciones a la corrupción y al abuso de poder (siendo la Cláusula de Emolumentos un importante ejemplo textual). Estos principios y compromisos han demostrado ser duraderos, pero han sido cuestionados, con mayor o menor severidad, durante ciertos períodos. Estos desafíos han dado lugar a refundaciones periódicas, en forma de «momentos constitucionales», grandes y no tan grandes.<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup> Algunos momentos constitucionales, momentos medianos y momentos minúsculos son esencialmente burkeanos. Intentan recuperar los compromisos originales y renovarlos. Otros momentos constitucionales equivalen a revisiones significativas, con nuevos compromisos. Mi objetivo aquí es sugerir un paso relativamente modesto, o una serie de pasos relativamente modestos, hacia tal refundación, basados en las experiencias de las últimas décadas, y destinados a llevar adelante los principios fundacionales en nuevas circunstancias. Los pasos pertinentes podrían darse para sugerir algo así como un momento constitucional (o quizás un mini-momento constitucional), pero su ubicación inicial estaría en los decretos presidenciales, que emitiría el presidente de los Estados Unidos. Con el tiempo podrían codificarse. Lo que sugiero aquí pretende ser un punto de partida. Podríamos imaginar otros pasos, y mucho más ambiciosos.<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup></p>
 <p>Un poco de contexto: tuve el privilegio de formar parte del equipo de transición del presidente Obama en 2008, y también de mantener un contacto informal, más que ocasional, con el equipo de transición del presidente Biden en 2020. Existe una gran efervescencia de ideas, antes y después de las elecciones presidenciales, sobre lo que se podría hacer en las primeras semanas y meses, en particular.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> A menudo, las iniciativas centrales de las primeras semanas se redactan en los meses cruciales previos y posteriores a las elecciones. Por lo general, esas iniciativas responden directamente a errores o transgresiones, reales o percibidas, por parte de la administración inmediatamente anterior. Con frecuencia, esas iniciativas se inspiran en la Constitución; remiten a los ideales fundacionales, vistos a través de una lente presentista. Mientras escribo esto: un presidente electo demócrata, en 2028, probablemente tendría, por supuesto, una agenda de reformas mucho más ambiciosa que un presidente electo republicano, del que se esperaría que favoreciera un alto grado de continuidad con su predecesor republicano. Pero incluso si sale elegido un republicano, cabe anticipar nuevas direcciones, ya que la nueva Casa Blanca tratará de dejar su propia huella. Las siguientes ideas pretenden, de manera enfática, estar inspiradas en la Constitución. También pueden considerarse no ideológicas, con un gran énfasis en la estructura y el procedimiento.<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup> Por supuesto, tampoco son en absoluto exhaustivas. En todos los casos, se trata de ideas generales que deben concretarse. No pretenden en modo alguno sugerir cuáles deberían ser las principales prioridades para cualquier tipo de refundación del siglo XXI. En cambio, pretenden captar lo que, en mi opinión, es una parte relativamente poco controvertida de la misma. Aunque no establezcan lo que, con el tiempo, sea un conjunto de normas estables y duraderas, hay un buen argumento a favor de cada una de ellas. Y si establecieran tal norma, la mayoría de ellas bien podrían considerarse como una solución a un problema de acción colectiva.<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup> Incluso pueden verse como acuerdos de control de armas, como suelen ser los principios constitucionales y cuasi-constitucionales. Tomemos, por ejemplo, la libertad de religión, que es muchas cosas, por supuesto, y una de ellas es una especie de tratado: no interferiremos en tu libertad de religión si tú no interfieres en la nuestra.</p>
@@ -784,13 +790,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

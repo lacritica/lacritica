@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -1445,7 +1451,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>La poesía que aparece en el libro de Silvina, sirve, funciona, en este sentido que marcaba Lorde, y allí puede pensarse esa necesidad de la poesía haciendo varios trabajos en el texto, o uno, en varios pasos que pueden desagregarse.</p>
 <p>En primer lugar, la aparición &ldquo;extraña&rdquo; de la poesía señala una falta: la falta de un &ldquo;nombre&rdquo;, una ausencia de recursos para pensar una experiencia &ndash;un &ldquo;silencio&rdquo; que se marca en las primeras líneas de la introducción--, una ausencia en la teoría y otros materiales que usualmente nos guían en la investigación jurídica y filosófica para entender o dar forma a una experiencia importante en la vida de las personas, de las mujeres.</p>
 <p>Creo que también esa falta que señala el recurso a la poesía ayuda y presiona para identificar esa ausencia o vacío como un tipo de daño, de injusticia en sí misma: hay zonas de la experiencia, que coinciden con aquellas de las mujeres, para las que no se desarrollaron recursos interpretativos suficientes, de manera que nos encontramos con áreas importantes de la experiencia sin recursos hermenéuticos para asirlas o entenderlas. Faltan nombres, categorías, &ldquo;para convertirlas en objeto del pensamiento&rdquo; en términos de Lorde, o sucede lo que Miranda Fricker llamó &ldquo;injusticia hermenéutica&rdquo;.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
-<p>El recurso a la poesía en el libro de Silvina parece ir en esa dirección: señala una ausencia de recursos interpretativos y categorías jurídicas para entender la sexualidad de modos igualitarios, e identifica eso como un daño injusto en sí mismo -otro modo de entender la sexualidad &ldquo;dañada&rdquo; del título, o las formas de ese daño. Y la poesía, además, ayuda a pensar ese vacío ahí donde la teoría o el derecho todavía no llegaron: ayuda a poner nombres y a hacer tangible determinada experiencia para volverla &ldquo;objeto del pensamiento&rdquo;, experimentar ideas y cursos de acción.</p>
+<p>El recurso a la poesía en el libro de Silvina parece ir en esa dirección: señala una ausencia de recursos interpretativos y categorías jurídicas para entender la sexualidad de modos igualitarios, e identifica eso como un daño injusto en sí mismo —otro modo de entender la sexualidad &ldquo;dañada&rdquo; del título, o las formas de ese daño. Y la poesía, además, ayuda a pensar ese vacío ahí donde la teoría o el derecho todavía no llegaron: ayuda a poner nombres y a hacer tangible determinada experiencia para volverla &ldquo;objeto del pensamiento&rdquo;, experimentar ideas y cursos de acción.</p>
 <p>El uso de la poesía, la literatura en sentido amplio, las narraciones, para esto no es nuevo, aunque, como se señala en el libro &ldquo;pueda resultar disruptiva&rdquo; entre &ldquo;párrafos dedicados a los conceptos o desarrollo de problemas morales o jurídicos&rdquo; (p. 19). Hay un linaje entero, amplio y destacado dentro del feminismo que se puede reconstruir y que apoya el método que usó Silvina, si fuera sólo eso, un método. Sólo quería traer aquí dos mojones de ese linaje: uno en el ámbito de la investigación filosófica, otro en el activismo jurídico feminista.</p>
 <p>En la investigación filosófica, el caso más conocido que aparece mencionado en el libro, es el de Martha Nussbaum. Ella planteaba que las &ldquo;imágenes poéticas&rdquo; la ayudan a llevar a la teoría más allá de sí misma, de sus preocupaciones usuales. Ayudan, señalaba, a testear la teoría, a testear &ldquo;cómo una teoría podría ser vivida&rdquo; (o no), a ponerla frente a la experiencia y mirar que tan bien se ven esos marcos prolijos a gran escala que se construyen en el laboratorio teórico, frente al desorden, a lo particular, que suele presentar la vida.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <p>Las narraciones que incluye Silvina Álvarez Medina sobre experiencias de acoso o agresión sexual de mujeres (jóvenes, más adultas, en la academia, en otros ámbitos) muestran esto, y son muy efectivas para hacerlo: la inadecuación total de entender al consentimiento sexual al modo del consentimiento contractual o como meras señales de un semáforo que se dan de una vez y para siempre. Ese esquema, que aparece ordenado y fácil de aplicar, cuando se lo pone frente a las narraciones de experiencias particulares, empieza a mostrar las grietas: las relaciones íntimas se desarrollan en el tiempo, en contextos determinados, una luz verde en una instancia no es una carta blanca para muchas otras cosas.</p>
@@ -1459,7 +1465,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p><strong>2. Literatura, poesía y narraciones en el proceso judicial</strong></p>
 <p>Para terminar, quería considerar una última cuestión presente en el libro, vinculada a la anterior, que puede plantearse del siguiente modo: ¿qué tanto podemos aprender de esta exploración filosófico-literaria de la esfera íntima &ndash;donde los poemas y narraciones de <em>La sexualidad dañada</em> funcionan tan bien&mdash; para zonas más públicas, para la esfera pública, para el proceso judicial?</p>
 <p>Otra forma de presentar esta cuestión, es ver cómo en el libro, en la tercera parte que se dedica no ya a la exploración conceptual sino a la aplicación de esos conceptos en el ámbito difícil del proceso penal &mdash;y de la prueba sobre todo&mdash;, baja la intensidad del uso de poesía y narraciones. Éstas aparecen menos, por un lado, y también de otra forma, por otro: casi todos los versos están simplemente intercalados allí, dejando más espacio a la ambigüedad y a lo que lectores y lectoras lleven a ese lugar. Lo que gana espacio en la propuesta &ndash;compleja, que navega en un terreno difícil&mdash; que presenta el libro para el ámbito probatorio parecen ser cosas serias: testimonio experto, por ejemplo.</p>
-<p>La pregunta acá entonces es: ¿por qué si la literatura -poesía y narraciones- sirvió para poner en el centro la experiencia de las mujeres en las dos primeras partes del libro, abandonarla en el terreno del proceso judicial, donde también el diagnóstico de Silvina señala que precisamos de esas experiencias y esa perspectiva? ¿Por qué soltarle la mano a la literatura que tan lejos nos empujó en los primeros capítulos, y si no es demasiado pronto abandonarla cuando nos adentramos en terrenos más &ldquo;serios&rdquo;, si no puede ayudar allí también?</p>
+<p>La pregunta acá entonces es: ¿por qué si la literatura —poesía y narraciones— sirvió para poner en el centro la experiencia de las mujeres en las dos primeras partes del libro, abandonarla en el terreno del proceso judicial, donde también el diagnóstico de Silvina señala que precisamos de esas experiencias y esa perspectiva? ¿Por qué soltarle la mano a la literatura que tan lejos nos empujó en los primeros capítulos, y si no es demasiado pronto abandonarla cuando nos adentramos en terrenos más &ldquo;serios&rdquo;, si no puede ayudar allí también?</p>
 <p>En este punto quería cerrar pensando esto a partir de un caso local, argentino, quizás el proceso judicial o la serie de procesos, más importante &ndash;más serio-- de nuestra historia institucional, donde las narraciones de mujeres tuvieron algo que decir, un trabajo por hacer. Me refiero al caso de la inclusión de los delitos sexuales en procesos que juzgaban crímenes de lesa humanidad. En el avance por la inclusión de los daños que sufrieron las mujeres durante la dictadura, los daños específicos que padecieron en los centros clandestinos de detención, que documentan las expertas de Cladem, se usaron los testimonios de expertas en las causas judiciales, al modo que esta experticia aparece en el libro. Pero también se usaron narraciones de las propias mujeres en documentos de activismo, en <em>amici curiae</em>, y las memorias de mujeres detenidas que empezaban a publicarse también funcionaron para presionar por la inclusión de los padecimientos de las mujeres en las causas que no los contemplaban. Sus relatos, aquí también, ayudaron a construir categorías jurídicas y a apoyar o multiplicar los testimonios de otro modo aislados.<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup> Entonces, la pregunta que se presenta para esta tercera parte del libro es cuánto lugar ceder a la experticia, a qué experticia &mdash;preguntas que también se han presentado en otras áreas de trabajo en la agenda de los feminismos&mdash;; y cuánto lugar también no merecen los relatos, las narraciones, de las propias mujeres sobre su experiencia &mdash;poder narrarlas, poder ser sujetos de ese conocimiento sobre sí mismas y que así figure en un proceso (y más allá de él)&mdash;.</p>
 <p>Solo resta, entonces, celebrar el nuevo libro de Silvina Álvarez Medina, no solo porque es un libro más que ayuda a ampliar nuestras conversaciones, sino también porque es uno que arriesga en el método, la forma, y los temas urgentes que trata.¡Gracias Silvina!</p>
 <div class="footnotes" role="doc-endnotes">
@@ -1545,13 +1551,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

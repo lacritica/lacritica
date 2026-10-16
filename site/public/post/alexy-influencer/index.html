@@ -73,7 +73,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -290,25 +290,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -318,6 +311,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -666,7 +672,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Ese idioma viajó de manera extraordinaria. Viajó en la traducción castellana de Ernesto Garzón Valdés de “Teoría de los Derechos Fundamentales” de 1993, en los cursos de teoría de la argumentación, en los seminarios de derecho constitucional, en los libros que explicaron y discutieron la proporcionalidad para públicos jurídicos mucho más amplios que el de los especialistas, en las sentencias que adoptaron el test con convicción, con simplificación o apenas con un gesto ritual. Alguien habló de que Alexy construyó en su obra una &ldquo;lingua franca&rdquo; del derecho, y hay solo algo de hipérbole en esa exageración.</p>
 <p>Carlos Bernal Pulido hizo en su tesis (y luego libro) sobre <a href="https://books.google.com.mx/books?id=-4_aAwAAQBAJ&amp;printsec=frontcover#v=onepage&amp;q&amp;f=false">“El principio de proporcionalidad y los derechos fundamentales”</a> una minuciosa reconstrucción que canonizó la ponderación y la hizo casi un “ius cogens” del aparato hermenéutico iberoamericano. Laura Clérico tomó otra salida en la rotonda, (ver su <a href="https://www.corteidh.or.cr/tablas/r38165.pdf">“Derechos y Proporcionalidad”</a>) buscando con la ponderación mostrar que no se trataba solo de hacer de umpire de excesos estatales, sino también como un mecanismo de pensar insuficiencias, omisiones, grupos desaventajados y resultados que debían estabilizarse como reglas para casos futuros. Miguel Carbonell, Juan Cianciardo, Luis Prieto Sanchís, Manuel Atienza y Juan Ruiz Manero, entre muchos otros, ayudaron a convertir ese repertorio en conversación ordinaria del derecho público iberoamericano; en Brasil, Virgílio Afonso da Silva no sólo tradujo la <em>Teoria dos Direitos Fundamentais</em>, sino que contribuyó a volverla una pieza central de la discusión constitucional.</p>
 <p>Mientras las academias discutían burbujas, objeciones, réplicas y contraejemplos, Alexy penetró en la profesión jurídica en un estrato mucho más terrenal. Usaremos sin su permiso una palabra alemana: captó un <em>zeitgeist</em>. En América Latina terminó siendo viral. En mi percepción, Alexy fue eclipsando del centro de la escena de citas y referencias a Hart y a Kelsen, demasiado abstractos o demasiado distantes de la escena concreta de los derechos, y dejó a Dworkin, acaso demasiado ligado a juegos estadounidenses que no siempre se reconocían como propios, en un segundo plano. Un abogado que necesita explicar por qué una restricción estatal es excesiva, un juez que debe justificar por qué una medida es necesaria, un litigante que quiere dar forma jurídica a una intuición de injusticia, encuentran en Alexy algo utilizable: no una respuesta, pero sí una escalera para bajar a un terreno disputado.</p>
-<p>As{i, ,detrás de las osadas fórmulas del peso -fue dicho: no será este el lugar ni el momento para pasarles el luminol de críticas posibles- había, después de todo, un intento de asomarse desde la torre de marfil al barro de las decisiones, de los decisores, y de los problemas. </p>
+<p>As{i, ,detrás de las osadas fórmulas del peso —fue dicho: no será este el lugar ni el momento para pasarles el luminol de críticas posibles— había, después de todo, un intento de asomarse desde la torre de marfil al barro de las decisiones, de los decisores, y de los problemas. </p>
 <p>Los abogados y jueces de trinchera comprenden muy bien la existencia de ese campo minado, y seguirán hablando en prosa alexyana sin saberlo; incluso podrán citar a Alexy, tal vez en vano, tal vez por esa pátina de respetabilidad que tienen las fórmulas cuando entran a un escrito judicial, pero también porque hay algo allí que vale la pena rescatar, honrar y valorar: la idea de que decidir sobre derechos consiste hacerse responsable de una justificación.</p>
 <p>Quizá éste no sea el mejor obituario sobre Robert Alexy, perdón por eso. Pero más allá de un gran teórico, fue un influencer del derecho: alguien que consiguió alterar el vocabulario, los reflejos y hasta la imaginación práctica de generaciones enteras de juristas que no siempre leyeron todo lo que escribió, que a menudo lo entendieron de maneras discutibles, pero que ya no pudieron pensar del mismo modo después de haber aprendido a decir “ponderación”.</p>
 
@@ -729,13 +735,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

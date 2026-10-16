@@ -79,7 +79,7 @@ El informe de la Comisión Nacional sobre la Desaparición de Personas (CONADEP)
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -296,25 +296,18 @@ El informe de la Comisión Nacional sobre la Desaparición de Personas (CONADEP)
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -324,6 +317,19 @@ El informe de la Comisión Nacional sobre la Desaparición de Personas (CONADEP)
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -657,7 +663,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><em><strong>Una lista incompleta con libros, informes, bonus tracks sobre la dictadura, sus crímenes, y sus procesos.</strong></em></p>
 <h2 id="el-documento-ineludible">El Documento ineludible</h2>
 <p><strong><em>Nunca Más</em> — CONADEP</strong>
-<em>1984 · Editorial EUDEBA · Prólogo original de Ernesto Sábato - <a href="https://es.wikipedia.org/wiki/Nunca_m%C3%A1s_(libro)">Link a wikipedia</a>.</em></p>
+<em>1984 · Editorial EUDEBA · Prólogo original de Ernesto Sábato — <a href="https://es.wikipedia.org/wiki/Nunca_m%C3%A1s_(libro)">Link a wikipedia</a>.</em></p>
 <p>El informe de la Comisión Nacional sobre la Desaparición de Personas (CONADEP)entregado al presidente Alfonsín el 20 de septiembre de 1984 y publicado como libro por EUDEBA en noviembre. Documenta 340 centros clandestinos de detención y 8.960 desaparecidos. La primera edición de 40.000 ejemplares se agotó en 48 horas. Es la piedra fundacional de la memoria argentina: la prueba documental que hizo posible el Juicio a las Juntas y que demostró que el exterminio fue un plan sistemático del Estado, no una serie de &ldquo;excesos&rdquo;. Dos tomos separados del informe contienen la lista de víctimas de la dictadura (la última versión actualizada, <a href="https://eudeba.com.ar/productos/anexo-del-nunca-mas-2-tomos/">los dos tomos anexos de 2006</a>).</p><figure class='thumbnail-insert'><img src='/img/oea-informe_prohibido.jpg' alt=''></figure>
 <blockquote>
 <p>Lean el comentario al &ldquo;Nunca Mas&rdquo; de <strong>Ronald Dworkin</strong>, <a href="https://revistajuridica.utdt.edu/ojs/index.php/ratj/article/view/207/169">&quot;<strong><em>Crónica desde el Infierno</em>&quot; (PDF)</strong> </a>publicada en el New York Review of Books en junio de 1986, que apareció como prólogo a varias ediciones en inglés, y fue republicado por la RATJ de la UTDT en 2006 (Traducción de Yamilé Nadra).
@@ -777,13 +783,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

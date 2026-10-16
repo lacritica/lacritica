@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/post/la-nueva-derecha-juridica-argentina/</loc>
+    <lastmod>2026-10-02T00:01:00-03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/perder-a-jurgen-habermas/</loc>
     <lastmod>2026-03-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/post/el-ruido-y-la-furia/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/forstgunter/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/en-defensa-de-la-mesa-de-discusion/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/un-dia-para-lamentar-un-heroe-para-celebrar/</loc>
     <lastmod>2026-03-18T00:00:00+00:00</lastmod>
@@ -74,35 +83,44 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ediciones/</loc>
-    <lastmod>2026-10-13T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/debates/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/</loc>
+    <lastmod>2026-10-15T19:13:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/refutaciondeferrajoli/</loc>
+    <lastmod>2026-10-15T19:13:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/bocanadas/regregando-el-estornudo/</loc>
+    <lastmod>2026-10-13T09:55:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-10-13T09:30:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/ambiente-al-caso/</loc>
+    <lastmod>2026-10-13T09:30:00-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ediciones/</loc>
     <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ediciones/2026-09/</loc>
     <lastmod>2026-10-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/nadie-esta-legitimado/</loc>
-    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-10-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/banco-central-independiente/</loc>
     <lastmod>2026-10-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/corte-desnorteada/</loc>
     <lastmod>2026-10-10T11:01:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/debates/</loc>
-    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-otro-lado-de-la-constitucion/</loc>
     <lastmod>2026-10-09T00:00:00+00:00</lastmod>
@@ -113,11 +131,11 @@
     <loc>http://localhost:1313/post/sobre-reglas-y-resultados/</loc>
     <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/un-jurista-de-principios/</loc>
+    <loc>http://localhost:1313/post/banco-central-independiente/</loc>
     <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bocanadas/</loc>
-    <lastmod>2026-10-08T08:50:00-03:00</lastmod>
+    <loc>http://localhost:1313/post/un-jurista-de-principios/</loc>
+    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/despues-del-estornudo/</loc>
     <lastmod>2026-10-08T08:50:00-03:00</lastmod>
@@ -139,9 +157,6 @@
   </url><url>
     <loc>http://localhost:1313/post/corteleguleya/</loc>
     <lastmod>2026-10-03T02:13:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/la-nueva-derecha-juridica-argentina/</loc>
-    <lastmod>2026-10-02T00:01:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/quien-gobierna-la-casa/</loc>
     <lastmod>2026-10-02T00:00:00+00:00</lastmod>

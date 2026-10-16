@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -628,10 +634,10 @@ document.addEventListener("DOMContentLoaded", () => {
     
     
       <p>Resulta habitual, en este tiempo político turbulento, que el planteo de muchos, acerca de la posibilidad de promover un juicio político al Presidente, sea respondido de manera vehemente, con referencias al carácter &ldquo;anti-democrático&rdquo; o  directamente &ldquo;golpista&rdquo; de una iniciativa semejante. Contra consideraciones tales, quisiera, en lo que sigue, demostrar por qué una propuesta como la señalada puede considerarse, a la vez, como constitucional y democrática.</p>
-<p>En línea con lo sugerido, lo primero que diré es que no vivimos en una democracia -a secas- en donde sólo cuenta la regla de la mayoría, sino en el marco de una democracia <em>constitucional</em>, esto es decir, dentro de un sistema ordenado a partir de reglas y principios legales, que definen los alcances y también los límites del régimen mayoritario. El segundo punto al que me referiré dice que, más allá de las exigencias y restricciones que la <em>Constitución</em> impone a la regla mayoritaria, el respeto irrestricto a la misma idea de <em>democracia</em> tampoco requiere el &ldquo;sometimiento&rdquo; ciudadano frente al eventual vencedor en las elecciones. Ello así, entre otras razones, porque la idea de democracia no se limita al sufragio: la democracia no se agota, sino que va mucho más allá, de las &ldquo;elecciones periódicas.&rdquo;</p>
-<p>Sobre el primer punto, esto es, sobre el marco constitucional en el que funciona la democracia, señalaría que, desde el momento en que la Argentina ganó su independencia, se contempló la posibilidad de que los funcionarios electos quedaran, eventualmente, incapacitados para ocupar sus cargos, y debieran ser removidos por ello. De hecho, desde mucho antes del dictado de la Constitución de 1853 -laque, con modificaciones introducidas en 1994, sigue rigiendo en el país- se admitió la posibilidad de expulsar a los legisladores electos por &ldquo;inhabilidad física o moral, sobreviniente a su incorporación&rdquo;. Así, muy tempranamente, el artículo 27 de la Constitución de 1819 estableció que las Cámaras Legislativas de Senadores y Representantes podían &ldquo;expeler&rdquo; de su seno a alguno de sus miembros por razones de &ldquo;desorden de conducta&rdquo;. La Constitución de 1826 fue algo más allá de la de 1819, para establecer, en su art. 38, la posibilidad de remover a los representantes que exhibieran &ldquo;desorden de conducta en el ejercicio de sus funciones&rdquo; o &ldquo;inhabilidad física o moral, sobreviniente a su incorporación&rdquo;. Ambas Constituciones, a la vez, contemplaron la posibilidad de separar de su cargo, a través de un juicio público, a la máxima autoridad ejecutiva del país (al &ldquo;Director del Estado&rdquo;, en1819, o al &ldquo;Presidente&rdquo;, en 1826). La idea resultó reforzada en la Constitución de 1853 que estableció, en su art. 72, que el Presidente podía ser destituido del cargo, entre otras razones, por la &ldquo;inhabilidad&rdquo; demostrada para ejercer su función. En su actual redacción, la Constitución de 1994 establece, en su art.53, la posibilidad de enjuiciar al Presidente por &ldquo;mal desempeño o por delito en el ejercicio de sus funciones; o por crímenes comunes.&rdquo; En lo que nos interesa, entonces: desde los mismos inicios de la vida constitucional del país, nuestro derecho contempla la posibilidad de remover a los funcionarios políticos por una diversidad de causales, relacionadas, por ejemplo, con su inhabilidad o incapacidad para ejercer el cargo. se trata de compromisos que nuestros &ldquo;padres fundadores&rdquo; mantuvieron, y en todo caso precisaron y reforzaron, en las sucesivas Constituciones que fueron dictando.</p>
-<p>Dicho lo anterior -relacionado con la <em>autorización</em> <em>constitucional</em> para interrumpir un mandato político (legislativo o presidencial), quiero decir algo más, ahora, sobre el segundo aspecto prometido, esto es, sobre el <em>carácter democrático</em> de esa destitución. Al respecto, comenzaría señalando que, contra lo que a veces se sostiene tanto desde la derecha como desde la izquierda política, la democracia no se reduce a un sistema de &ldquo;elecciones periódicas.&rdquo; La democracia tiene que ver, esencialmente, con la posibilidad de que la ciudadanía ejerza, colectivamente, su auto-gobierno. Por ello mismo, las elecciones representan sólo un primer aspecto -sin lugar a dudas indispensable- del proceso democrático, pero de ninguna manera el único rasgo relevante del mismo, ni necesariamente el más relevante. Asumir dicha visión significaría reducir a la democracia a su versión mínima, menos interesante y más objetable. La democracia requiere, por el contrario, de un proceso, estable y continuo en el tiempo, de &ldquo;decisión y control&rdquo; en manos de los ciudadanos: decisión sobre los asuntos comunes, y control sobre las medidas adoptadas ocasionalmente por las autoridades de gobierno. Los ciudadanos (finalmente, &ldquo;nosotros&rdquo; o <em>We the People</em>), representan la primera y última autoridad en democracia, y su poder es superior al que ocasionalmente pueda ejercer cualquier autoridad elegida democráticamente o designada constitucionalmente.</p>
-<p>Por lo dicho, la eventual destitución presidencial por razones de incapacidad o inhabilidad-moral, mental, funcional- no sólo no se contrapone, sino que, por el contrario, se ajusta plenamente a los requerimientos definidos por una democracia constitucional. Ello así, en sus dos aspectos fundamentales. Por un lado, y desde el punto de vista de la <em>Constitución</em>, ésta reconoce y valida activamente, desde sus inicios, la posibilidad de la remoción política. Por otro lado, y desde el punto de vista de la <em>democracia</em>, ésta ve al juicio político como una pieza integral, y muy relevante, dentro de la estructura de su funcionamiento. Sostener lo contrario (por ejemplo, sostener que el juicio político implica una afrenta a la democracia) supone entonces desconocer el significado de la democracia, reduciendo a la misma a su versión más implausible y restringida -como si la democracia se agotara en las elecciones, o como si ella no tuviera que ver con el ejercicio continuo de los poderes propios del autogobierno colectivo. Finalmente, la democracia constitucional no merece entenderse como un &ldquo;pacto suicida&rdquo; al que los ciudadanos se han condenado. La democracia constitucional no sólo acepta, sino que exige, que la voluntad ciudadana sea la que prevalezca siempre, dentro del marco normativo en el que se apoya, y por encima de la autoridad circunstancial de los funcionarios electos.</p>
+<p>En línea con lo sugerido, lo primero que diré es que no vivimos en una democracia —a secas— en donde sólo cuenta la regla de la mayoría, sino en el marco de una democracia <em>constitucional</em>, esto es decir, dentro de un sistema ordenado a partir de reglas y principios legales, que definen los alcances y también los límites del régimen mayoritario. El segundo punto al que me referiré dice que, más allá de las exigencias y restricciones que la <em>Constitución</em> impone a la regla mayoritaria, el respeto irrestricto a la misma idea de <em>democracia</em> tampoco requiere el &ldquo;sometimiento&rdquo; ciudadano frente al eventual vencedor en las elecciones. Ello así, entre otras razones, porque la idea de democracia no se limita al sufragio: la democracia no se agota, sino que va mucho más allá, de las &ldquo;elecciones periódicas.&rdquo;</p>
+<p>Sobre el primer punto, esto es, sobre el marco constitucional en el que funciona la democracia, señalaría que, desde el momento en que la Argentina ganó su independencia, se contempló la posibilidad de que los funcionarios electos quedaran, eventualmente, incapacitados para ocupar sus cargos, y debieran ser removidos por ello. De hecho, desde mucho antes del dictado de la Constitución de 1853 —laque, con modificaciones introducidas en 1994, sigue rigiendo en el país— se admitió la posibilidad de expulsar a los legisladores electos por &ldquo;inhabilidad física o moral, sobreviniente a su incorporación&rdquo;. Así, muy tempranamente, el artículo 27 de la Constitución de 1819 estableció que las Cámaras Legislativas de Senadores y Representantes podían &ldquo;expeler&rdquo; de su seno a alguno de sus miembros por razones de &ldquo;desorden de conducta&rdquo;. La Constitución de 1826 fue algo más allá de la de 1819, para establecer, en su art. 38, la posibilidad de remover a los representantes que exhibieran &ldquo;desorden de conducta en el ejercicio de sus funciones&rdquo; o &ldquo;inhabilidad física o moral, sobreviniente a su incorporación&rdquo;. Ambas Constituciones, a la vez, contemplaron la posibilidad de separar de su cargo, a través de un juicio público, a la máxima autoridad ejecutiva del país (al &ldquo;Director del Estado&rdquo;, en1819, o al &ldquo;Presidente&rdquo;, en 1826). La idea resultó reforzada en la Constitución de 1853 que estableció, en su art. 72, que el Presidente podía ser destituido del cargo, entre otras razones, por la &ldquo;inhabilidad&rdquo; demostrada para ejercer su función. En su actual redacción, la Constitución de 1994 establece, en su art.53, la posibilidad de enjuiciar al Presidente por &ldquo;mal desempeño o por delito en el ejercicio de sus funciones; o por crímenes comunes.&rdquo; En lo que nos interesa, entonces: desde los mismos inicios de la vida constitucional del país, nuestro derecho contempla la posibilidad de remover a los funcionarios políticos por una diversidad de causales, relacionadas, por ejemplo, con su inhabilidad o incapacidad para ejercer el cargo. se trata de compromisos que nuestros &ldquo;padres fundadores&rdquo; mantuvieron, y en todo caso precisaron y reforzaron, en las sucesivas Constituciones que fueron dictando.</p>
+<p>Dicho lo anterior —relacionado con la <em>autorización</em> <em>constitucional</em> para interrumpir un mandato político (legislativo o presidencial), quiero decir algo más, ahora, sobre el segundo aspecto prometido, esto es, sobre el <em>carácter democrático</em> de esa destitución. Al respecto, comenzaría señalando que, contra lo que a veces se sostiene tanto desde la derecha como desde la izquierda política, la democracia no se reduce a un sistema de &ldquo;elecciones periódicas.&rdquo; La democracia tiene que ver, esencialmente, con la posibilidad de que la ciudadanía ejerza, colectivamente, su auto-gobierno. Por ello mismo, las elecciones representan sólo un primer aspecto —sin lugar a dudas indispensable— del proceso democrático, pero de ninguna manera el único rasgo relevante del mismo, ni necesariamente el más relevante. Asumir dicha visión significaría reducir a la democracia a su versión mínima, menos interesante y más objetable. La democracia requiere, por el contrario, de un proceso, estable y continuo en el tiempo, de &ldquo;decisión y control&rdquo; en manos de los ciudadanos: decisión sobre los asuntos comunes, y control sobre las medidas adoptadas ocasionalmente por las autoridades de gobierno. Los ciudadanos (finalmente, &ldquo;nosotros&rdquo; o <em>We the People</em>), representan la primera y última autoridad en democracia, y su poder es superior al que ocasionalmente pueda ejercer cualquier autoridad elegida democráticamente o designada constitucionalmente.</p>
+<p>Por lo dicho, la eventual destitución presidencial por razones de incapacidad o inhabilidad-moral, mental, funcional— no sólo no se contrapone, sino que, por el contrario, se ajusta plenamente a los requerimientos definidos por una democracia constitucional. Ello así, en sus dos aspectos fundamentales. Por un lado, y desde el punto de vista de la <em>Constitución</em>, ésta reconoce y valida activamente, desde sus inicios, la posibilidad de la remoción política. Por otro lado, y desde el punto de vista de la <em>democracia</em>, ésta ve al juicio político como una pieza integral, y muy relevante, dentro de la estructura de su funcionamiento. Sostener lo contrario (por ejemplo, sostener que el juicio político implica una afrenta a la democracia) supone entonces desconocer el significado de la democracia, reduciendo a la misma a su versión más implausible y restringida —como si la democracia se agotara en las elecciones, o como si ella no tuviera que ver con el ejercicio continuo de los poderes propios del autogobierno colectivo. Finalmente, la democracia constitucional no merece entenderse como un &ldquo;pacto suicida&rdquo; al que los ciudadanos se han condenado. La democracia constitucional no sólo acepta, sino que exige, que la voluntad ciudadana sea la que prevalezca siempre, dentro del marco normativo en el que se apoya, y por encima de la autoridad circunstancial de los funcionarios electos.</p>
 
 
     
@@ -689,13 +695,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

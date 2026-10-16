@@ -1,7 +1,7 @@
 ---
 title: Un Banco Central independiente. ¿Y democrático?
 slug: banco-central-independiente
-date: 2026-10-11
+date: 2026-10-09
 draft: false
 description: Todo depende, de según como se mire.
 categories:

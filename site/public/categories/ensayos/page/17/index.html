@@ -66,7 +66,7 @@
   </head>
 
   
-  <body class="theme-dynamic theme-3
+  <body class="theme-dynamic theme-6
 ">
     <header class="header">
   <div class="banner">
@@ -283,25 +283,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -311,6 +304,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -544,6 +550,88 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <section class="taxonomy-grid secondary-grid" data-term="ensayos">
+  
+    <article class="article-taxonomy">
+    
+
+        
+        
+          
+            <figure class="grid-thumbnail">
+              <img src="/img/gargarella_L1100779.JPG" alt="Featured Image"/>
+            </figure>
+          
+        
+
+        
+        
+
+        <h1><a href="/post/atropellar-el-sexo/">Atropellar el sexo</a></h1>
+
+        
+          <div class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/silvina-alvarez-medina/">Silvina Álvarez Medina</a>
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</div>
+        
+
+        <div class="summary">
+          Inidicios en verso de los persistentes patrones (sociales y simbólicos) de la violencia sexual contra las mujeres.
+        </div>
+
+        <div class="date">
+          
+          
+          
+          
+          20 de enero de 2026
+        </div>
+      </div>
+    </article>
   
     <article class="article-taxonomy">
     
@@ -987,12 +1075,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
         
-          
-            <figure class="grid-thumbnail">
-              <img src="/img/puga_23-3-23.jpeg" alt="Featured Image"/>
-            </figure>
-          
-        
 
         
         
@@ -1060,82 +1142,6 @@ document.addEventListener("DOMContentLoaded", () => {
           
           
           30 de diciembre de 2025
-        </div>
-      </div>
-    </article>
-  
-    <article class="article-taxonomy">
-    
-
-        
-        
-
-        
-        
-
-        <h1><a href="/post/racismo-liberal-3/">Aquel día que me hice peronista (III)</a></h1>
-
-        
-          <div class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/tomas-abraham/">Tomás Abraham</a>
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</div>
-        
-
-        <div class="summary">
-          Llegué al jardín de la República hecho un verdadero gorila, vuelvo peronista.
-        </div>
-
-        <div class="date">
-          
-          
-          
-          
-          26 de diciembre de 2025
         </div>
       </div>
     </article>
@@ -1258,13 +1264,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

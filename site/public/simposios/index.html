@@ -11,7 +11,7 @@
 
 <title>
   
-    Reforma laboral y derechos: un debate | La Crítica
+    Debate: La Nueva Derecha Jurídica Argentina | La Crítica
   
 </title>
 
@@ -39,21 +39,21 @@
 <link rel="icon" type="image/svg+xml" href="/img/logo_small.svg">
 <meta name="description" content="La Crítica del Derecho">
 
-<meta property="og:title" content="Reforma laboral y derechos: un debate">
+<meta property="og:title" content="Debate: La Nueva Derecha Jurídica Argentina">
 <meta property="og:description" content="La Crítica del Derecho">
 <meta property="og:url" content="http://localhost:1313/simposios/">
 <meta property="og:site_name" content="La Crítica">
 <meta property="og:type" content="website">
 <meta property="og:image" content="http://localhost:1313/img/batalla1.jpeg">
-<meta property="og:image:alt" content="Reforma laboral y derechos: un debate">
+<meta property="og:image:alt" content="Debate: La Nueva Derecha Jurídica Argentina">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Reforma laboral y derechos: un debate">
+<meta name="twitter:title" content="Debate: La Nueva Derecha Jurídica Argentina">
 <meta name="twitter:description" content="La Crítica del Derecho">
 <meta name="twitter:image" content="http://localhost:1313/img/batalla1.jpeg">
-<meta name="twitter:image:alt" content="Reforma laboral y derechos: un debate">
+<meta name="twitter:image:alt" content="Debate: La Nueva Derecha Jurídica Argentina">
 
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/fonts.css">
@@ -66,7 +66,7 @@
 </head>
 
 
-<body class="theme-dynamic theme-3
+<body class="theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -283,25 +283,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -311,6 +304,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -517,13 +523,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

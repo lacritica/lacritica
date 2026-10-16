@@ -1,0 +1,11 @@
+{{- /* Single hyphens used as incisos render as em dashes, like "---" does
+       through Goldmark's typographer (which can't take new patterns):
+       " -palabra" → " —palabra", "palabra- " → "palabra— ", "a - b" → "a — b".
+       Hyphens inside words (ex-ministro, 1976-1983) and ranges like "2005- 09"
+       are left alone.
+       Usage: {{ partial "dashes.html" .Content }} */ -}}
+{{- $s := string . -}}
+{{- $s = replaceRE `(\s|&nbsp;)-([\p{L}¿¡«“‘"'(]|&(?:ldquo|lsquo|laquo|quot|#34|#39|iquest|iexcl);)` "$1—$2" $s -}}
+{{- $s = replaceRE `([\p{L}\p{N}.,;:!?)\]»”’"'…]|</(?:em|strong|a|i|b)>)-(\s+)([^\s\d]|$)` "$1—$2$3" $s -}}
+{{- $s = replaceRE `(\s)-(\s)` "$1—$2" $s -}}
+{{- return ($s | safeHTML) -}}

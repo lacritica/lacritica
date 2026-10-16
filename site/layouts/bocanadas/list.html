@@ -41,7 +41,7 @@
     {{ .Summary }}
     <a href="{{ .RelPermalink }}">Leer más →</a>
   {{ else }}
-    {{ .Content }}
+    {{ partial "dashes.html" .Content }}
   {{ end }}
 </div>
 

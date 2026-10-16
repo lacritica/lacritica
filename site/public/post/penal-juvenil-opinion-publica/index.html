@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -663,7 +669,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <li>Finalmente, durante una epidemia un grupo de adolescentes organiza una guitarreada en una quinta, violando las normas sanitarias de aislamiento. (Violación de medidas sanitarias, seis meses a dos años de prisión).</li>
 </ul>
 <p>Naturalmente, los ejemplos podrían seguir. Me gustaría saber qué piensan: del 70 u 80% que contestó que deseaba bajar la edad de punibilidad, ¿cuántos creen que desearían que el sistema penal se involucre en esos casos? Imagino que no todos; de hecho, sospecho que más bien pocos. Intuyo que la mayoría creerá que son asuntos que no merecen un reproche penal, que merecen ser resueltos en la casa, ayudado por los adultos de su comunidad a reparar el daño que hicieron. De ninguna manera, por ejemplo, creo que la mayoría considere que los adolescentes de los ejemplos tengan que conservar un antecedente penal de por vida que, por ejemplo, cualquier futuro empleador verá.</p>
-<p>Supongamos que me equivoco, y que un grupo grande de estas personas sí cree que los episodios que mencioné merecen una intervención estatal en forma de reproche penal. ¿Cuántos de ellos -de esos mismos que creían que un adolescente que mata a alguien tiene que sufrir un castigo- creerán que la prisión es la respuesta adecuada? Es decir, ¿cuántos creen que el joven que cometió el hecho tenga que interrumpir su escolaridad, abandonar a su familia y amigos, atravesar un trauma monumental, para pagar por lo que hizo? ¿Cuántos de ellos creerán que la pena de prisión lo educará para ser un mejor ciudadano? De nuevo: discúlpenme si estoy viviendo en una burbuja, pero creo que casi nadie.</p>
+<p>Supongamos que me equivoco, y que un grupo grande de estas personas sí cree que los episodios que mencioné merecen una intervención estatal en forma de reproche penal. ¿Cuántos de ellos —de esos mismos que creían que un adolescente que mata a alguien tiene que sufrir un castigo— creerán que la prisión es la respuesta adecuada? Es decir, ¿cuántos creen que el joven que cometió el hecho tenga que interrumpir su escolaridad, abandonar a su familia y amigos, atravesar un trauma monumental, para pagar por lo que hizo? ¿Cuántos de ellos creerán que la pena de prisión lo educará para ser un mejor ciudadano? De nuevo: discúlpenme si estoy viviendo en una burbuja, pero creo que casi nadie.</p>
 <p>Una última pregunta, para el núcleo duro que todavía crea que alguno de los delitos que mencioné debería ser castigado con prisión: ¿habrán hecho el ejercicio de pensar que los imputados podrían ser sus hijos, especialmente si son adolescentes varones? ¿O que podrían haber sido ellos mismos hace unos años? Me permito agregar algo: la mayoría de los ejemplos los tomé de situaciones que he visto o me han contado durante mi propia adolescencia de clase media. Ninguno de sus protagonistas, por cierto, continuó una carrera delictiva.</p>
 <h1 id="3-el-texto-y-el-palacio"><strong>3. El texto y el palacio</strong></h1>
 <p>El gobierno parecía entender lo mismo: a la opinión pública la conmueven los delitos graves. Sus voceros ponían una y otra vez de ejemplo excluyente el homicidio: “<em>Matan y vuelven a su casa como si nada</em>”, <a href="https://www.instagram.com/p/DUJKT8uDhqP/">escribió</a> Patricia Bullrich militando el proyecto, junto a una foto abrazando a la madre de Jeremías Monzón. La asesora comunicacional Eugenia Rolón <a href="https://x.com/elcancillercom/status/2022268262612898238">fue</a> más explícita: “<em>Se aplica a delitos graves. No estamos hablando de una simple travesura sino de delitos graves como robo a mano armada, violaciones, asesinatos… Delitos que del otro lado tienen una víctima real que merece justicia</em>”. El eslógan “<em>delito de adulto, pena de adulto</em>” siempre, pero siempre, era ejemplificado con un homicidio.</p>
@@ -676,7 +682,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Me atrevo a conjeturar que la opinión pública no exige estas regulaciones y que la mayoría de los diputados tampoco las habría querido. Creo que un proyecto que, por ejemplo, elimine la pena de prisión para la mayoría de los delitos, o las reduzca a, digamos, la mitad de lo que sería la pena de un adulto gozaría de por lo menos la misma aceptación social que este proyecto, si no más, y habría dejado más tranquilos a la mayoría de los diputados. ¿Por qué no obró, entonces, la mano invisible del mercado?</p>
 <p>Sunstein, a quien ya cité más arriba, describió un fenómeno ubicuo: la polarización de grupos. Una vez que un grupo ha adoptado una determinada orientación, su dinámica colectiva tiende a llevarlo cada vez más lejos en esa dirección: se genera un clima que penaliza a los que, incluso acordando en general, plantean matices o prevenciones, y privilegia a los que se presentan como heraldos de la postura ya adoptada. Una vez que el proyecto estaba en la Cámara, y ya era claro que iba a ser aprobado, los diputados (¡incluso los que estaban a favor!) percibían como riesgoso alertar sobre sus excesos, incluso si el resto habría estado de acuerdo con él. En esas condiciones, el proceso legislativo avanzó con la determinación de una tragedia griega: la media sanción de la Cámara de Diputados, a punto de convertirse en ley, es más severa que lo que la mayoría (y no solamente el progresismo, la Iglesia o UNICEF) habría querido.</p>
 <h1 id="4-cómo-seguir"><strong>4. ¿Cómo seguir?</strong></h1>
-<p>Acaso debamos aceptar que en las próximas semanas este proyecto se convertirá en ley. No parece realista creer que el gobierno no replicará en el Senado el casi 60% que obtuvo el proyecto en la Cámara Baja. Sin embargo -¿seré muy ingenuo?- sí puede esperarse que el Senado modifique el texto que recibió de la Cámara de Diputados. De hecho, el oficialismo aceptó a último momento algunas modificaciones propuestas por la oposición, por ejemplo, para aclarar que los menores de edad no pueden ser detenidos en el mismo establecimiento que los adultos, o para permitir la probation de los menores de 18 en las mismas condiciones que los mayores.</p>
+<p>Acaso debamos aceptar que en las próximas semanas este proyecto se convertirá en ley. No parece realista creer que el gobierno no replicará en el Senado el casi 60% que obtuvo el proyecto en la Cámara Baja. Sin embargo —¿seré muy ingenuo?— sí puede esperarse que el Senado modifique el texto que recibió de la Cámara de Diputados. De hecho, el oficialismo aceptó a último momento algunas modificaciones propuestas por la oposición, por ejemplo, para aclarar que los menores de edad no pueden ser detenidos en el mismo establecimiento que los adultos, o para permitir la probation de los menores de 18 en las mismas condiciones que los mayores.</p>
 <p>Si tengo razón, y el texto de lo que se aprobó es más severo que lo que la mayoría de los legisladores querría, y de lo que la opinión pública demanda, el Senado tiene una oportunidad para corregir el texto y llevarlo a algo más cercano a lo que mi hipotética mayoría espera de él.</p>
 <p>Por ejemplo: ¿por qué no limitar la pena de prisión, o todo el régimen, únicamente a los delitos muy graves? Esta modificación sería casi gratuita: el oficialismo ha sostenido la reforma prácticamente haciendo de cuenta que esto ya es así. No sería para nada difícil de explicar que la redacción sobreinclusiva actual fue un error bienintencionado de la Cámara de Diputados, pero que a la luz de las restricciones presupuestarias es preferible limitar el régimen a los casos más graves, y destinar la mayoría de los recursos a resocializar a los adolescentes que cometen delitos graves. No hay plata.</p>
 <p>Otro ejemplo: eliminar las restricciones al ejercicio de la oportunidad procesal por parte del fiscal, dejando que cada provincia lo regule libremente (¡como ocurre con los adultos!). Esto tiene la ventaja de que la Constitución exige que las cuestiones procesales sean reguladas por las provincias, y hay consenso en que el principio de oportunidad es una cuestión procesal. Además de salvar la constitucionalidad de este aspecto del proyecto, dar una mayor discrecionalidad a los fiscales permitiría que limiten su actividad a los delitos más graves.</p>
@@ -752,13 +758,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -660,17 +666,17 @@ democracia tal como que existe, que es lo que le interesara a Robert Dahl, por
 ejemplo sino) un horizonte normativo a alcanzar, un punto que nos permita afirmar
 que las decisiones públicas que se toman están justificadas. Según Habermas, una
 decisión democrática, para tener autoridad y validez, debe ser el producto de
-un “debate inclusivo” -debe ser el resultado de una discusión en la que han
+un “debate inclusivo” —debe ser el resultado de una discusión en la que han
 intervenido “todos los potencialmente afectados”. Por supuesto que eso no es lo
 que ocurre en la realidad. Ninguna sorpresa: Habermas está hablando,
 justamente, de un ideal a alcanzar, no de las “democracias realmente existentes”.
-Y, por tanto -continúa-  cuanto más podamos
+Y, por tanto —continúa—  cuanto más podamos
 decir que esa decisión es producto de una conversación entre “todos los
 afectados”, más razones tenemos para respetar esa decisión. Por qué? Porque si a
 la decisión del caso la acordamos entre todos, entonces, podemos decir que se
 trata de una decisión “nuestra”: es el resultado de lo que discutimos entre todos.
 De manera contraria, en la medida en que la decisión en juego sea una en la que
-muy pocos de nosotros – ciudadanos de a pie- intervenimos (por ejemplo, porque
+muy pocos de nosotros – ciudadanos de a pie— intervenimos (por ejemplo, porque
 es el exclusivo producto de una elite; o porque es el mero resultado de las
 presiones de algunos grupos de interés) entonces, no tenemos razones para
 considerar que dicha norma es válida: finalmente, dicha norma no es, en ningún
@@ -684,18 +690,18 @@ más importantes de la democracia en la que vivimos); y por otro lado, nos ayuda
 a definir de qué modo modificar o reformar esa democracia (hacia dónde ir para
 poder decir, finalmente, que las decisiones del caso ahora sí se encuentran
 justificadas). Otra vez: alguien podría decir que todo esto es muy abstracto
--pura “jactancia de los intelectuales”. Sin embargo, quiero decir que el
+—pura “jactancia de los intelectuales”. Sin embargo, quiero decir que el
 derecho (el buen derecho, diría) necesita nutrirse (debe nutrirse) de ideales
 semejantes, para operar en la práctica. Para ilustrar lo que digo, ofrezco un
 ejemplo de tremenda importancia y actualidad, en la Argentina, muy en
-particular en estos tiempos -cuando se cumplen los 50 años del último golpe de
+particular en estos tiempos —cuando se cumplen los 50 años del último golpe de
 estado. Cuando volvía la democracia a la Argentina, en 1983, el derecho se
 encontró con que existía una ley de autoaministía, que había impulsado el General
 Bignone, apenas antes de abandonar el poder, que buscaba clausurar la
 posibilidad de un Juicio a los responsables de los crímenes atroces cometidos
 por la dictadura. Si el Juicio a las Juntas fue posible, finalmente, ello se
-debió a la argumentación que dieron un grupo de filósofos del derecho -entre
-ellos Carlos Nino, de manera saliente; Genaro Carrió, y Jaime Malamud Goti- basada
+debió a la argumentación que dieron un grupo de filósofos del derecho —entre
+ellos Carlos Nino, de manera saliente; Genaro Carrió, y Jaime Malamud Goti— basada
 directamente en la idea de “democracia deliberativa” que les inspiraran autores
 como Habermas y John Rawls. Lo que los filósofos dijeron, entonces, fue que una
 norma como la de la autoamnistía, no podía considerarse “derecho válido”,
@@ -717,11 +723,11 @@ en el extremo más negativo. Era lo más contrario que podía imaginarse, en
 relación con una “ley válida”. Por tanto, había buenas razones para considerar
 a la ley de autoamnistía como “nula” o “inexistente.” Pues bien, éste
 razonamiento, en apariencia tan abstracto, fue el que finalmente estuvo detrás
-de la derogación de la ley de autoamnistía. Esa decisión -la derogación de la
-autoamnistía militar- fue la primera decisión tomada por el Congreso, una vez
+de la derogación de la ley de autoamnistía. Esa decisión —la derogación de la
+autoamnistía militar— fue la primera decisión tomada por el Congreso, una vez
 recuperada la democracia. Esto quiere decir, en últilma instancia, que “ideal
-regulativo” de Habermas -ése ideal supuestamente abstracto y alejado de la
-realidad- había ofrecido a la política y el derecho argentinos una herramienta
+regulativo” de Habermas —ése ideal supuestamente abstracto y alejado de la
+realidad— había ofrecido a la política y el derecho argentinos una herramienta
 teórica y práctica excepcional, para resolver tal vez el principal drama jurídico
 que enfrentó la Argentina, en el último siglo.</p>
 
@@ -785,13 +791,9 @@ que enfrentó la Argentina, en el último siglo.</p>
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

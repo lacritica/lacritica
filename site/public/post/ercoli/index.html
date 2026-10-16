@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -650,11 +656,11 @@ document.addEventListener("DOMContentLoaded", () => {
 <p><em>“La interpretación de las leyes debe hacerse siempre evitando darles aquel sentido que ponga en pugna sus disposiciones, destruyendo las unas por las otras, y adoptando, como verdadero, el que las concilie y deje a todas con valor y efecto.”</em></p>
 </blockquote>
 <p>Este epígrafe lo hemos visto citado tantas veces que no podemos saber quien formuló el salomónico criterio, que sigue usándose en la actualidad como máxima hermenéutica (haciéndole, en efecto, honor a Hermes). Parece indisputable, ingenioso, reflexivo, de sentido común. Al tiempo, uno se da cuenta de que es una poderosa señal de alerta, una bandera roja: cuando aparece en primer plano, algo turbio sucederá en el fondo de la escena, o en el fuera de campo. Será, con frecuencia, lo contrario de lo que anuncia, al resultar una declaración explícita de que algo está a punto de quedar sin efecto.</p>
-<p>Este sumario aparece en  <a href="https://drive.google.com/file/d/1fXIJwjeF1aaNK5p8sDEmZGjdgYjaJuJx/view?usp=drive_link">“Ercoli, María Cristina”</a> (en el PDF verán un poco la historia de la causa, ya que en esa época se publicaban actuaciones anteriores a la intervención del procurador). María Cristina Ercoli había sido detenida en 1975, por actividades supuestamente subversivas, sin que se le formularan cargos, sin que tuviera antecedentes, en el contexto del “Estado de sitio” declarado. El planteo de Ercoli -una de 800 presos políticos previos al golpe de marzo del 76- tenía anclaje explícito positivo: pedía salir del país, derecho que confiere el art. 23 de la Constitución Nacional, en lo que se denomina “derecho de opción”. Perpetrado el golpe, <a href="https://www.argentina.gob.ar/normativa/nacional/ley-21275-303534/texto">una ley de facto de abril de 1976</a> dejó sin efecto <em>sine die</em> todas las solicitudes de salir del país (bajo el criterio, que la Corte daría por bueno, de que eso les permitía evitar que reingresaran de forma clandestina).</p><figure class='thumbnail-insert'><img src='/img/paredon3.jpg' alt=''><figcaption><span class='epigraph'>Santa Rosa, Parque del Centro Civico</span></figcaption></figure>
-<p>Su petición fue la primera ocasión -antes de <strong>“Lockman”</strong> y <strong>“Ricciardi”,</strong> antes del habeas corpus singular de <strong>“Timerman”</strong>, y del colectivo de la saga de <strong>“Pérez de Smith”</strong> (ver <a href="https://investigacionenmovimiento.unla.edu.ar/el-habeas-corpus-colectivo-perez-de-smith-del-control-de-las-facultades-excepcionales-a-la-verdad-sobre-la-desaparicion-forzada/">Valeria Barbuto, 2025)</a>- de los encontronazos y paritarias raras que hacía la Corte de la dictadura para hacer la simulación usual en nuestra no-república desde la <strong>acordada de 1930</strong> (<a href="https://www.palabrasdelderecho.com.ar/articulo.php?id=145">Natalia Volosín, 2018</a>), donde se hablaba siempre de una Constitución zombi (viva, pero muerta) que era “integrada” (desmembrada) por normas de facto que la ponían entre paréntesis. Ver al respecto <a href="https://www.utdt.edu/ver_nota_prensa.php?id_nota_prensa=20324&amp;id_item_menu=6">Bohoslavsky - Gargarella (2015)</a> sobre la Corte y la dictadura.</p>
-<p>Los firmantes fueron Horacio Heredia, Alejandro Caride, Federico Videla Escalada, Abelardo Rossi y Adolfo Gabrielli. Personas fungibles dentro de un aparato organizado de poder, digamos: era imposible esperar otro fallo, o una disidencia en ese punto, desde el momento en que su mismo pedigrí de nombramiento estaba surtido por las actas del proceso. Gabrielli escribió un libro autoexculpatorio denominado “La Corte Suprema y la opinión pública. 1976-1983”, que publicó Abeledo en 1986. Palabras mas o menos, dice allí  lo del epígrafe: que las normas de la Constitución no debían ponerse en pugna con las normas de la dictadura. Y que “si no se lograba, la Corte haría valer la supremacía de la Constitución” (p. 26), citando a su favor que finalmente ordenó liberar a Timerman - y exhortar módicamente por la cuestión de los desaparecidos en “Perez de Smith”, gestos que pueden verse en parte <em>pour la galerie</em>, y no mucho más – nada más.</p>
+<p>Este sumario aparece en  <a href="https://drive.google.com/file/d/1fXIJwjeF1aaNK5p8sDEmZGjdgYjaJuJx/view?usp=drive_link">“Ercoli, María Cristina”</a> (en el PDF verán un poco la historia de la causa, ya que en esa época se publicaban actuaciones anteriores a la intervención del procurador). María Cristina Ercoli había sido detenida en 1975, por actividades supuestamente subversivas, sin que se le formularan cargos, sin que tuviera antecedentes, en el contexto del “Estado de sitio” declarado. El planteo de Ercoli —una de 800 presos políticos previos al golpe de marzo del 76— tenía anclaje explícito positivo: pedía salir del país, derecho que confiere el art. 23 de la Constitución Nacional, en lo que se denomina “derecho de opción”. Perpetrado el golpe, <a href="https://www.argentina.gob.ar/normativa/nacional/ley-21275-303534/texto">una ley de facto de abril de 1976</a> dejó sin efecto <em>sine die</em> todas las solicitudes de salir del país (bajo el criterio, que la Corte daría por bueno, de que eso les permitía evitar que reingresaran de forma clandestina).</p><figure class='thumbnail-insert'><img src='/img/paredon3.jpg' alt=''><figcaption><span class='epigraph'>Santa Rosa, Parque del Centro Civico</span></figcaption></figure>
+<p>Su petición fue la primera ocasión —antes de <strong>“Lockman”</strong> y <strong>“Ricciardi”,</strong> antes del habeas corpus singular de <strong>“Timerman”</strong>, y del colectivo de la saga de <strong>“Pérez de Smith”</strong> (ver <a href="https://investigacionenmovimiento.unla.edu.ar/el-habeas-corpus-colectivo-perez-de-smith-del-control-de-las-facultades-excepcionales-a-la-verdad-sobre-la-desaparicion-forzada/">Valeria Barbuto, 2025)</a>— de los encontronazos y paritarias raras que hacía la Corte de la dictadura para hacer la simulación usual en nuestra no-república desde la <strong>acordada de 1930</strong> (<a href="https://www.palabrasdelderecho.com.ar/articulo.php?id=145">Natalia Volosín, 2018</a>), donde se hablaba siempre de una Constitución zombi (viva, pero muerta) que era “integrada” (desmembrada) por normas de facto que la ponían entre paréntesis. Ver al respecto <a href="https://www.utdt.edu/ver_nota_prensa.php?id_nota_prensa=20324&amp;id_item_menu=6">Bohoslavsky — Gargarella (2015)</a> sobre la Corte y la dictadura.</p>
+<p>Los firmantes fueron Horacio Heredia, Alejandro Caride, Federico Videla Escalada, Abelardo Rossi y Adolfo Gabrielli. Personas fungibles dentro de un aparato organizado de poder, digamos: era imposible esperar otro fallo, o una disidencia en ese punto, desde el momento en que su mismo pedigrí de nombramiento estaba surtido por las actas del proceso. Gabrielli escribió un libro autoexculpatorio denominado “La Corte Suprema y la opinión pública. 1976-1983”, que publicó Abeledo en 1986. Palabras mas o menos, dice allí  lo del epígrafe: que las normas de la Constitución no debían ponerse en pugna con las normas de la dictadura. Y que “si no se lograba, la Corte haría valer la supremacía de la Constitución” (p. 26), citando a su favor que finalmente ordenó liberar a Timerman — y exhortar módicamente por la cuestión de los desaparecidos en “Perez de Smith”, gestos que pueden verse en parte <em>pour la galerie</em>, y no mucho más – nada más.</p>
 <p><strong>Cinco ideas siniestras y subversivas en el derecho judicial de “Ercoli”</strong></p>
-<p>No es que sean nuevas o que hayan nacido allí, y <em>muchas siguen hasta hoy</em> -como dijo Cerati en el gracias totales-, Veamoslas por separado, aunque el daño que generan es sinérgico:</p>
+<p>No es que sean nuevas o que hayan nacido allí, y <em>muchas siguen hasta hoy</em> —como dijo Cerati en el gracias totales-, Veamoslas por separado, aunque el daño que generan es sinérgico:</p>
 <p><strong>1. Formalismo validatorio.</strong> A primera vista, “Ercoli” se puede leer como un fallo típico y normal: leyes, jurisprudencia, citas, estructura prolija: la banalidad del mal. Todo está donde “debería estar”. Detrás de esa retórica engolada, lo que vemos es una juridicidad construida como círculos del blanco que se pintan para darle investidura de juridicidad alrededor de un tiro de bala ya impactado, una decisión tomada.</p>
 <p><strong>2. Teleología unilateral</strong> La Corte habla en nombre de fines altos —seguridad, orden, libertad— y lo hace con gravedad y aparente convicción. En su aritmética solo cuentan esos objetivos (casualmente, solo en cuando funcionan como surtidores de poderes del Estado) de modo que los derechos aparecen como nativos americanos en un western: cuando los vemos en escena sospechamos que van a morir. De ese modo, el interés estatal marca el rumbo sin interferencias.</p>
 <p><strong>3. Desconstitucionalización.</strong> El orden no es jerárquico sino que se ameseta, con la maniobra de una Constitución que “se integra” con su intruso de facto. El resultado terminará teniendo por no escrita una garantía constitucional explícita, bajo el pretexto de que “es reglamentable” (“si todas las garantías constitucionales son susceptibles de ser reglamentadas por ley, no se ve motivo que autorice a excluir de este principio general el derecho de opción que consagra la última parte del art. 23 de la Constitución Nacional”, dice la Corte).</p>
@@ -678,7 +684,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>Finalmente, el <strong>emergencialismo leviathanesco</strong> muestra quizás la mayor capacidad de persistencia. Las situaciones de crisis —económicas, sanitarias, de seguridad— no son excepcionales, sino recurrentes desde que somos y nos asumimos como una nación en estado de emergencia permanente. Cada vez que se las invoca como fundamento para ampliar facultades estatales o relajar controles, ese esquema vuelve a activarse. No necesariamente de manera explícita ni total, pero sí como una inclinación estructural del razonamiento.</p>
 <p>Por eso, más que reliquias de un período afortunadamente concluido y que no parece replicable en su amplitud de subversión, perversión y brutalidad, estas tendencias funcionan como posibilidades siempre disponibles dentro de la práctica jurídica. Pueden coexistir con estándares más exigentes y con decisiones fuertemente garantistas, pero también pueden reaparecer —a veces de modo casi imperceptible— en todo el espectro de lógicas posibles en decisiones jurídicas.</p>
 <p>“Ercoli”, hoy poco recordado, fue un fallo importante entonces, pero también puede verse como la antología y la proyección de una <strong>larga sombra de hechicerías jurídicas que reaparece a cada rato.</strong></p>
-<p>De ahí la necesidad de mantener y recordar “Ercoli” no como una aberración irrepetible, sino con una cierta vigilancia crítica, porque el papel tapiz que tenemos disponible lo hace posible, formal, neutral, aséptico, austinesco: nos permite hacer cosas -casi cualquier cosa- con palabras.</p>
+<p>De ahí la necesidad de mantener y recordar “Ercoli” no como una aberración irrepetible, sino con una cierta vigilancia crítica, porque el papel tapiz que tenemos disponible lo hace posible, formal, neutral, aséptico, austinesco: nos permite hacer cosas —casi cualquier cosa— con palabras.</p>
 <p>-&ndash;</p>
 <blockquote>
 <p>(Nota sub-biográfica: En algún momento de los noventa Maria Cristina Ercoli fue profesora de historia mía en el glorioso Colegio Secundario Ciudad de Santa Rosa, y nunca supe que había sido un leading case hasta que muchos años más tarde vi su nombre en un repertorio de jurisprudencia; solo muchos años después la volvería a ver en persona, ella como parte del colectivo “Mujeres por la solidaridad” en Santa Rosa. Luego de este fallo, y cambio de legislación militar mediante, Ercoli fue liberada, bajo control domiciliario, a fines de 1977. Algo de esa epoca y de su vida es contada por ella misma en esta <a href="https://www.laarena.com.ar/la-ciudad/2017-11-10-4-4-32--sufri-la-violencia-de-perder-la-libertad">cronica de su declaracion en el juicio de lesa humanidad subzona 14 de 2017</a>).</p>
@@ -743,13 +749,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

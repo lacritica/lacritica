@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -666,7 +672,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p>No ha habido prácticamente ningún debate teórico relevante desde entonces en el que Jürgen Habermas no haya adoptado una posición que sigue siendo influyente hoy en día. Frente a la <em>hermenéutica</em> de Gadamer, defendió enfoques críticos con la ideología y la tradición; en la <em>controversia sobre el positivismo</em>, destacó la particularidad de las ciencias sociales críticas, que persiguen un interés emancipador. Esto condujo a la importante obra <em>Erkenntnis und Interesse</em> (1968). En los debates sobre la teoría crítica, abogó por un cambio radicalmente democrático y racionalista de sus premisas, siguiendo el concepto de una <em>razón comunicativa</em>. Lo desarrolló sociológicamente en los debates con la <em>Teoría de sistemas</em> de Luhmann, lo que condujo a la famosa diferenciación entre un mundo de la vida estructurado comunicativamente y un sistema que forma sus propios medios de coordinación de la acción, los cuales tienden a traspasar sus límites y a agotar y colonizar la comunicación discursiva. Esto se desarrolla en las obras sobre los <em>problemas de legitimación en el capitalismo tardío</em> (1973) y su monumental <em>Teoría de la acción comunicativa</em> (1981), siendo esta última nada menos que una nueva teoría de la modernidad y una filosofía trascendental transformada pragmáticamente en el lenguaje, todo en uno. Esta combinación, según los estándares actuales de la ciencia altamente especializada, que se atrinchera en ámbitos cada vez más definidos, es una síntesis sin parangón.</p>
 <p>En el tercer periodo de Fráncfort, que siguió a la etapa de Starnberg a partir de 1983, se elaboró un tipo propio de ética kantiana, la <em>ética del discurso</em>, cuyos inicios se remontan a los tiempos de intenso intercambio con el amigo y colega Karl-Otto Apel. En <em>El discurso de la modernidad</em> (<em>Diskurs der Moderne</em>, 1985) se concilian la crítica y la defensa de la modernidad y se sientan las bases para un «pensamiento posmetafísico», que posteriormente se desarrolla en diversas obras.</p>
 <p>Para nosotros, como alumnos y colaboradores, fue determinante el gran libro <em>Facticidad y Validez</em> (<em>Faktizität und Geltung</em>, 1992), que surgió de un grupo de trabajo de teoría del derecho fundado con los fondos del Premio Leibniz de la DFG, otorgado por primera vez, al que pertenecíamos. En él se muestra por qué el Estado de derecho y la democracia están conceptualmente unidos, al institucionalizarse la tensión entre los derechos humanos y la soberanía popular de tal manera que los derechos humanos, si bien se dan por sentados en los procedimientos democráticos de autolegislación, son concretados por estos y, si todo va bien, aprovechados de forma continua. La teoría correspondiente de la democracia deliberativa nos recuerda que en una democracia debe prevalecer la mejor justificación, no la mera voluntad de las mayorías.</p>
-<p>En los años siguientes, por un lado, se abordó la elaboración de una teoría transnacional de la democracia y el derecho (<em>La Constelación Post-Nacional -Postnationale</em> <em>Konstellation</em>), con especial referencia a Europa (<em>Sobre la Constitución de Europa -Zur Verfassung Europas</em>), y, por otro lado, el análisis de la problemática de una «secularización descarrilada», provocada por las nuevas posibilidades biotecnológicas de intervención en el genoma, que no parecía ofrecer buenas respuestas a la pregunta de por qué no se deben crear nuevos seres humanos genéticamente optimizados.</p>
+<p>En los años siguientes, por un lado, se abordó la elaboración de una teoría transnacional de la democracia y el derecho (<em>La Constelación Post-Nacional —Postnationale</em> <em>Konstellation</em>), con especial referencia a Europa (<em>Sobre la Constitución de Europa —Zur Verfassung Europas</em>), y, por otro lado, el análisis de la problemática de una «secularización descarrilada», provocada por las nuevas posibilidades biotecnológicas de intervención en el genoma, que no parecía ofrecer buenas respuestas a la pregunta de por qué no se deben crear nuevos seres humanos genéticamente optimizados.</p>
 <p>Esto, junto con la creciente importancia de lo religioso en diversas regiones del mundo, ha motivado al posmetafísico Habermas a adentrarse en las profundidades del debate entre la religión o la teología y la filosofía, y el resultado es la amplia genealogía del pensamiento posmetafísico publicada en 2019 bajo el título <em>También una historia de la filosofía</em> (<em>Auch eine Geschichte der Philosophie</em>). Según Habermas, la razón escribe su historia desde su propio punto de vista, pero al hacerlo reconoce que se ha ido forjando paso a paso a partir de la controversia sobre cuestiones de fe y que debe mantenerse abierta a nuevos procesos de aprendizaje &mdash;sabiendo muy bien, como escribe Habermas, que una razón anclada en el presente «con la desaparición de todo pensamiento que trascienda en su conjunto lo existente en el mundo, se atrofiaría ella misma».</p>
 <p>Sería una historia en sí misma relatar la multitud de intervenciones políticas del intelectual Habermas: desde los debates de los años sesenta sobre la reforma educativa y el movimiento estudiantil, pasando por los de los setenta sobre la Ley contra los radicales, y los de los ochenta sobre la desobediencia civil, la «controversia de los historiadores» y los debates sobre la reunificación y una nueva Constitución, pasando más tarde por las intervenciones militares hasta las declaraciones sobre bioética, la pandemia o, actualmente, la guerra en Ucrania &mdash;y, una y otra vez, Europa.</p>
 <p>Le preocupaba especialmente el resurgimiento del nacionalismo, la xenofobia y el antisemitismo en los últimos tiempos. Junto con Nicole Deitelhoff y nosotros dos, redactó en noviembre de 2023 una declaración que se oponía a las reacciones antisemitas en Alemania ante la intervención militar de Israel en Gaza. En ella, los autores subrayaban los principios de dicha intervención, a saber, los de «proporcionalidad, prevención de víctimas civiles y conducción de una guerra con perspectivas de paz futura». Sin embargo, esto no impidió que dicha declaración fuera objeto de múltiples críticas, que pasaron por alto la exhortación expresa a estos principios.</p>
@@ -728,13 +734,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

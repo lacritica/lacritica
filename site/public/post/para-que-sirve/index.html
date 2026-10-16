@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -626,7 +632,7 @@ document.addEventListener("DOMContentLoaded", () => {
 <p><strong>Clase Magistral</strong></p>
 <p>Prof. Dr. Miguel Godoy</p>
 <p><strong>Saludo y agradecimiento:</strong> Buenas noches a todas, buenas noches a todos. Antes que nada, déjenme decir: es un enorme honor estar aquí.</p>
-<p>Agradezco al CADIR &mdash; nuestro Centro Académico de Derecho Ieda Delgado (tiene un nombre, el nombre de una mujer, y es bueno que sepamos quién fue Ieda Delgado y por qué le da su nombre a nuestro Centro Académico); agradezco al CADIR por la invitación a esta Clase Magistral y por la generosidad de colocarme al lado del Juez (jubilado) Carlos Ayres Britto, un Profesor (con P mayúscula &ndash; fantástico), uno de los mejores Jueces de la historia democrática del Supremo Tribunal Federal - STF (y es importante decirlo hoy, porque el STF de nuestro tiempo ha dejado mucho que desear a nuestra sociedad y a nuestra república). Y también por estar al lado de Christine Peter. ¡Muchas gracias!</p>
+<p>Agradezco al CADIR &mdash; nuestro Centro Académico de Derecho Ieda Delgado (tiene un nombre, el nombre de una mujer, y es bueno que sepamos quién fue Ieda Delgado y por qué le da su nombre a nuestro Centro Académico); agradezco al CADIR por la invitación a esta Clase Magistral y por la generosidad de colocarme al lado del Juez (jubilado) Carlos Ayres Britto, un Profesor (con P mayúscula &ndash; fantástico), uno de los mejores Jueces de la historia democrática del Supremo Tribunal Federal — STF (y es importante decirlo hoy, porque el STF de nuestro tiempo ha dejado mucho que desear a nuestra sociedad y a nuestra república). Y también por estar al lado de Christine Peter. ¡Muchas gracias!</p>
 <p>Estar en esta Facultad de Derecho de la Universidad de Brasilia es algo especial. Porque esta no es solo una Facultad de Derecho.<br>
 Esta es una Facultad que nació junto con un proyecto de país.<br>
 La UnB nació con la idea de que la Universidad no es solo un lugar de transmisión de conocimiento &ndash; es un lugar de construcción de la ciencia y de edificación de la democracia.</p>
@@ -808,13 +814,9 @@ Pero también puede ser vivida como un proyecto colectivo de libertad e igualdad
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

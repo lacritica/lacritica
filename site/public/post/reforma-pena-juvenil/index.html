@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -645,7 +651,7 @@ Para comenzar, hay que separar dos planos que suelen confundirse. La Ley 27.801 
 <p>El régimen alcanza ahora a adolescentes desde los 14 años y hasta cumplir los 18. También modifica la respuesta frente al delito, incluye una diversidad de medidas y penas que van desde la amonestación, prohibiciones de contacto, concurrencia a determinados lugares, servicios a la comunidad, monitoreo electrónico, reparación integral del daño y hasta penas privativas de libertad (en ámbito domiciliario, instituto abierto o instituto cerrado), además de medidas complementarias vinculadas con educación, capacitación laboral, salud y acompañamiento interdisciplinario.</p>
 <p>Esto requiere una aclaración que no es menor. Un sistema penal juvenil no puede ser pensado simplemente como un derecho penal para personas adultas. Existe un mandato de especialidad proveniente de la Convención sobre los Derechos del Niño y todo el bloque normativo (<em>corpus iuris</em>) específico que imponen que sea distinto y adecuado a adolescentes.</p>
 <p>La propia ley declara como finalidades del régimen la educación, resocialización e integración social, aunque no por declarativa resultará material esta aspiración, pues no olvidemos que la norma ha sido enunciada, publicitada y aprobada en tratamiento <em>express</em> con fines netamente punitivos “el que las hace las paga” y “delito de adulto, pena de adulto” han sigo los slogans que han embanderado su presentación, tratamiento y aprobación, por lo cual, si bien la normativa permite oportunidades de minimización del poder punitivo, también permite su ampliación.</p>
-<p>La privación de libertad, si bien tiene límites específicos, pues se prohíben la prisión y la reclusión perpetuas y se fija un máximo de 15 años de pena, también se habilita su imposición como consecuencia de cualquier incumplimiento de medidas complementarias y en un juicio en equivalencia con personas adultas, pues ha derogado las descriminalizaciones del anterior régimen (el Decreto- Ley 22.278 impedía imputar delitos con menos de 2 años de prisión como pena, con penas de multa o inhabilitación y delitos de acción privada), lo que sumado a la baja en la edad de punibilidad amplifica la población destino.</p>
+<p>La privación de libertad, si bien tiene límites específicos, pues se prohíben la prisión y la reclusión perpetuas y se fija un máximo de 15 años de pena, también se habilita su imposición como consecuencia de cualquier incumplimiento de medidas complementarias y en un juicio en equivalencia con personas adultas, pues ha derogado las descriminalizaciones del anterior régimen (el Decreto-Ley 22.278 impedía imputar delitos con menos de 2 años de prisión como pena, con penas de multa o inhabilitación y delitos de acción privada), lo que sumado a la baja en la edad de punibilidad amplifica la población destino.</p>
 <p>La derogación del Decreto-Ley 22.278 obliga también a reorganizar prácticas construidas durante décadas, entre ellas algunas muy positivas, como el tradicional sistema de cesura que aquel régimen contemplaba, división procesal que implica una primera sentencia de responsabilidad, un abordaje de medidas socioeducativas y luego de un año y que el adolescente cumpla 18, la audiencia de imposición de pena.</p>
 <p><strong>Nuevos actores y nuevas responsabilidades</strong></p>
 <p>Otro aspecto poco difundido es la figura del supervisor especializado, encargado del seguimiento, asistencia y control del abordaje de adolescentes cuando se disponen medidas, tanto durante el proceso como en el caso de sanciones penales. Para la justicia nacional y federal, el Decreto 875/2026 reglamentó esta figura, creó un Registro de Supervisores y dispuso su régimen, no así para las provincias. Ese decreto también se refiere a otros actores, designó al Ministerio de Justicia como autoridad de aplicación y creó dos organismos: el Comité Interministerial y la Mesa Federal del Régimen Penal Juvenil.</p>
@@ -661,7 +667,7 @@ Para comenzar, hay que separar dos planos que suelen confundirse. La Ley 27.801 
 <p>Se regula competencia negativa, pues se aclara que los jueces penales juveniles no son jueces de salud mental ni autoridades administrativas de protección integral: esas necesidades deben ser abordadas por los organismos especializados correspondientes, pues en la nueva ley nacional ello se confunde en cabeza del juez penal.</p>
 <p><strong>Una reforma que recién comienza</strong></p>
 <p>En suma, estamos ante una transformación que excede ampliamente la discusión sobre la edad de punibilidad. La Ley 27.801 reemplaza un régimen con más de cuatro décadas de vigencia y modifica las penas, las medidas, el seguimiento y la organización institucional. El <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/425000-429999/429701/norma.htm">Decreto 875/2026</a> reglamenta parte de ese entramado en el ámbito nacional y federal, mientras las provincias deben adecuar sus procedimientos.</p>
-<p>Ahora bien, la verdadera dimensión del cambio no se conocerá solamente leyendo las leyes. Se verá en su aplicación cotidiana, en los estándares que se vayan fijando vía interpretativa, en el desarrollo de los dispositivos territoriales y en la capacidad estatal de sostener intervenciones especializadas. Ampliar o reducir el poder punitivo, con esta nueva norma dependerá, en gran medida, de los efectores judiciales y no judiciales, la nueva normativa nacional ya coloca, por varias cuestiones, al Estado Argentino en situación de responsabilidad internacional, pues inobserva y vulnera varios mandatos del Comité de Derechos del Niño. Ahora si ello se maximiza o se minimiza, dependerá de los intérpretes y ejecutores, la norma pudo ser mejor -sin duda-, pero la práctica hará que esos impactos puedan ser mayores o menores.</p>
+<p>Ahora bien, la verdadera dimensión del cambio no se conocerá solamente leyendo las leyes. Se verá en su aplicación cotidiana, en los estándares que se vayan fijando vía interpretativa, en el desarrollo de los dispositivos territoriales y en la capacidad estatal de sostener intervenciones especializadas. Ampliar o reducir el poder punitivo, con esta nueva norma dependerá, en gran medida, de los efectores judiciales y no judiciales, la nueva normativa nacional ya coloca, por varias cuestiones, al Estado Argentino en situación de responsabilidad internacional, pues inobserva y vulnera varios mandatos del Comité de Derechos del Niño. Ahora si ello se maximiza o se minimiza, dependerá de los intérpretes y ejecutores, la norma pudo ser mejor —sin duda-, pero la práctica hará que esos impactos puedan ser mayores o menores.</p>
 <p>Ahora bien, sin lugar a dudas, los ámbitos de producciones doctrinarias, jurisprudenciales y formativas, tienen una oportunidad histórica para desarrollar y consolidar la especialidad, aún con una normativa como la sancionada. Y junto al desarrollo y fortalecimiento de buenas prácticas de la especialidad, pueden hacer que el régimen se transforme en un sistema que permita acercar las expresiones de deseo enunciadas en la norma, con la realidad, o, por el contrario que, bajo un ropaje o embuste de etiquetas enorme, se consolide la finalidad punitiva.</p>
 
         
@@ -723,13 +729,9 @@ Para comenzar, hay que separar dos planos que suelen confundirse. La Ley 27.801 
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

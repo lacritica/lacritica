@@ -162,7 +162,7 @@
 
     {{/* If exclude_thumbnail_from_body is TRUE → do not insert thumbnail */}}
     {{ if .Params.exclude_thumbnail_from_body }}
-      {{ .Content | safeHTML }}
+      {{ partial "dashes.html" .Content }}
 
     {{ else }}
 
@@ -185,7 +185,7 @@
 
       {{/* If no src → render content normally */}}
       {{ if not $thumb.src }}
-        {{ .Content | safeHTML }}
+        {{ partial "dashes.html" .Content }}
       {{ else }}
 
         {{/* Build HTML using Scratch */}}
@@ -226,7 +226,7 @@
         {{/* Insert after third </p> */}}
         {{ $regex := `(?s)((?:.*?</p>){3})` }}
         {{ $replacement := printf "${1}%s" $thumbHTML }}
-        {{ $content := .Content }}
+        {{ $content := partial "dashes.html" .Content }}
         {{ $new := replaceRE $regex $replacement $content 1 }}
 
         {{ if ne $new $content }}

@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -658,12 +664,12 @@ document.addEventListener("DOMContentLoaded", () => {
 <p><em>Balance general.</em> Habiendo recorrido seis salas de discusión, de las ocho, puedo hacer un primer balance general MUY positivo. En líneas generales, aunque luego haré precisiones más detalladas, podría decir que el experimento funcionó, en mi opinión, excepcionalmente bien. Sobre todo, teniendo en cuenta lo novedoso de la experiencia, el hecho de nunca se había organizado algo así,y las limitaciones de tiempo obvias (no se pudo hacer una serie de reuniones a lo largo de varios días, sino que la actividad se concentró en un día). En general, al menos en 4 de las 6 mesas que presencié, el clima fue muy amable y respetuoso, la conversación muy horizontal, y la producción de respuestas muy rápida, rica y creativa. Por todas estas razones, mi evaluación es altamente positiva.</p>
 <p><em>El facilitador o coordinador.</em> Luego, agregaría que, de las mesas que recorrí, hubo un funcionamiento cualitativamente mucho mejor, en aquellas que contaban con una mejor moderación. Es decir, el papel del facilitador o coordinador resultó excepcionalmente importante para facilitar la conversación, y hacerla más fluida y amena.</p>
 <p><em>La composición de las diversas mesas.</em> Un dato importante que anotaría tiene que ver con la diversidad de la composición de las mesas: cuanto más diverso y horizontal era el grupo, más amena ycooperativa era la discusión. En cambio, en uno de los casos que presencié, una mesa en inglés, con concentración de profesores muy reconocidos, la discusión se hizo más rugosa y hasta incómoda a veces. Aprendizaje a futuro: el valor de la diversidad. Otro punto adicional que dejo señalado fue la cantidad de gente que participó o quiso participar aunque sea como espectadores, porque no habían tenido la suerte de haber sido seleccionados en el proceso de elección por azar. Interesante esa vocación participativa.</p>
-<p><em>La formación de los participantes.</em> En relación con el punto anterior, también llamaría la atención sobre otro tema relevante -en este caso más bien inevitable- cual fue que todos los participantes eran abogados, o jueces, o profesores universitarios: profesionales. Esa cuestión generó sesgos obvios, que en otras ocasiones, claramente se debería evitar (además, algunos se preguntaban: ¿debemos debatir como ciudadanos, como profesores, o cómo?). Idealmente, es claro que se debe preferir una asamblea más diversa, compuesta por no-expertos. En todo caso, señalo la cuestión para subrayar la idea general de que las discusiones se transforman en algo diferente cuando todos los participantes son especialistas.</p>
+<p><em>La formación de los participantes.</em> En relación con el punto anterior, también llamaría la atención sobre otro tema relevante —en este caso más bien inevitable— cual fue que todos los participantes eran abogados, o jueces, o profesores universitarios: profesionales. Esa cuestión generó sesgos obvios, que en otras ocasiones, claramente se debería evitar (además, algunos se preguntaban: ¿debemos debatir como ciudadanos, como profesores, o cómo?). Idealmente, es claro que se debe preferir una asamblea más diversa, compuesta por no-expertos. En todo caso, señalo la cuestión para subrayar la idea general de que las discusiones se transforman en algo diferente cuando todos los participantes son especialistas.</p>
 <p><em>Los supuestos de la conversación/nivel abstracción.</em> Aunque las discusiones que presencié fluyeron cómoda y tranquilamente, en una mayoría de casos, el comienzo de las mismas se vio dificultado por algunas confusiones acerca de los supuestos de partida. Muchos quedaron inicialmente trabados por no saber cómo lidiar con el supuesto de “la democracia como derecho humano”: ¿qué se debía hacer con ese supuesto? ¿Debía controlar toda la conversación posterior? En este sentido, el nivel de abstracción del punto de partida no ayudó a las conversaciones, cuando podía haber servido para facilitarlas.</p>
 <p><em>Conceptos básicos.</em> De modo similar, vi algunos titubeos en la discusión, a partir del no saber cómo lidiar con conceptos básicos como democracia o deliberación, típicamente. ¿Era importante definirlos de antemano? ¿Era necesario asegurar que estuvieran todos de acuerdo en cierta idea básica sobre esos conceptos? Tal vez, una mayor claridad al respecto hubiera permitido dedicar más energías a los temas específicos (ie., ¿qué innovaciones adoptar?).</p>
 <p><em>Tiempo.</em> Como decía, la conversación se desarrolló en tiempos generosos a la luz de los límites propios del Congreso, pero muy breves, a la luz del ideal de los mini-públicos. Resultó llamativo, para bien, que muchos “se quedaron con las ganas” de seguir discutiendo por más y más tiempo (es que cuando la conversación ya fluía bien, y tomaba ritmo, era ya hora de cerrarlas). Marco el hecho, aunque no sé si aconsejaría para un próximo encuentro el tener sesiones más largas, porque para quienes no conocen el procedimiento, puede ser desalentador inscribirse en una actividad de más de 4 horas. No tengo opinión definida sobre el punto.</p>
 <p><em>La conversación y las propuestas.</em> Notable y esperablemente, presencié casos de personas que reconocían, durante el debate, cómo habían cambiado de opiniones luego de algunos intercambios; y vi también discusiones sorprendentes en cuanto a la cantidad de propuestas que se realizaban, y la riqueza e imaginación que mostraban los participantes. Tomo como un hecho llamativo, muy positivo, pero no inesperado, la productividad que pueden tener estas mesas de discusión, a pesar de las trabas iniciales que cualquier grupo encuentra para empezar a funcionar, y a pesar del muy poco tiempo de debate.</p>
-<p><em>El cierre.</em> Me resultó muy agradable la sesión Plenaria final por varias razones, comenzando por la buena energía que se notaba, la cantidad enorme de gente que participó (todos o casi todos y muchos que no había podido participar!!), la alegría y excitación que se advertía en los participantes, y las buenas conclusiones a las que se llegó (datos interesantes, a la luz de la idea pesimista de los <em>rational choice</em>  y <em>public choice people,</em> según la cual la participación representa un costo pesado, que todos quieren evitar, y del cual quieren escapar apenas pueden: nada que ver con lo que pasó, más allá del carácter especial de los participantes -datos semejantes se advierten luego de la participación de los escogidos en un jurado). Todo lo visto en la Asamblea de cierre ratificó lo que había reconocido a lo largo del desarrollo de los debates: el experimento representó un éxito mayúsculo, de principio a fin.</p>
+<p><em>El cierre.</em> Me resultó muy agradable la sesión Plenaria final por varias razones, comenzando por la buena energía que se notaba, la cantidad enorme de gente que participó (todos o casi todos y muchos que no había podido participar!!), la alegría y excitación que se advertía en los participantes, y las buenas conclusiones a las que se llegó (datos interesantes, a la luz de la idea pesimista de los <em>rational choice</em>  y <em>public choice people,</em> según la cual la participación representa un costo pesado, que todos quieren evitar, y del cual quieren escapar apenas pueden: nada que ver con lo que pasó, más allá del carácter especial de los participantes —datos semejantes se advierten luego de la participación de los escogidos en un jurado). Todo lo visto en la Asamblea de cierre ratificó lo que había reconocido a lo largo del desarrollo de los debates: el experimento representó un éxito mayúsculo, de principio a fin.</p>
 
         
 
@@ -724,13 +730,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 
