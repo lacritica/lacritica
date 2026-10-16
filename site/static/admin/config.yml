@@ -118,6 +118,13 @@ collections:
         default: false
         hint: "Marcar si va a la nota destacada2 de la home"
 
+      - label: "Simposio en la home"
+        name: "simposio_grid"
+        widget: "boolean"
+        default: false
+        required: false
+        hint: "Marcar para que vaya a la grilla de simposio de la home (se necesitan al menos 3; el orden lo da el Weight: el primero es el texto original y el último la respuesta)"
+
       - label: "Exclude Thumbnail from Body"
         name: "exclude_thumbnail_from_body"
         widget: "boolean"

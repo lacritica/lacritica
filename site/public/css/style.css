@@ -3368,12 +3368,13 @@ position: relative;
 
 /* Simposio debate grid */
 .simposio {
-  background-color: var(--accent-burgundy2);
-  padding: 2.5rem 1.5rem;
+  /* Follows the weekly home palette (body.theme-N); :root has the defaults */
+  background-color: var(--hero-theme-nav-bg);
+  padding: 1.25rem 1.5rem 2.5rem;
 }
 
 .simposio-inner {
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 3rem;
   width: 100%;
   max-width: 1400px;
@@ -3382,10 +3383,10 @@ position: relative;
 .simposio-title h1 {
   font-family: "Jost";
   font-size: 3rem;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
   text-align: center;
-  color: var(--base-bg);
-  border-bottom: 1px solid var(--base-bg);
+  color: var(--hero-theme-nav-text);
+  border-bottom: 1px solid var(--hero-theme-nav-text);
   margin: 0 0 1.25rem 0;
 }
 
@@ -3405,7 +3406,7 @@ position: relative;
 }
 
 .simposio-column-original {
-  border-top-color: var(--accent-burgundy);
+  border-top-color: var(--hero-accent);
 }
 
 .simposio-column-reaction {
@@ -3413,7 +3414,7 @@ position: relative;
 }
 
 .simposio-column-reply {
-  border-top-color: var(--accent-burgundy);
+  border-top-color: var(--hero-accent);
 }
 
 .simposio-column-kicker {
@@ -3453,7 +3454,7 @@ position: relative;
 }
 
 .simposio-column-title a:hover {
-  color: var(--accent-burgundy);
+  color: var(--hero-accent);
 }
 
 .simposio-column-author {

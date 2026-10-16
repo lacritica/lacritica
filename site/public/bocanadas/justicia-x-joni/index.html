@@ -76,7 +76,7 @@ Durante 50 años, Joni Mitchell ha retratado el mundo y la experiencia humana co
 </head>
 
 
-<body class="page theme-dynamic theme-3
+<body class="page theme-dynamic theme-6
 ">
   <header class="header">
   <div class="banner">
@@ -293,25 +293,18 @@ Durante 50 años, Joni Mitchell ha retratado el mundo y la experiencia humana co
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -321,6 +314,19 @@ Durante 50 años, Joni Mitchell ha retratado el mundo y la experiencia humana co
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -645,7 +651,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <p>Ronald Dworkin comienza su magnífica obra <em><strong>Justicia para Erizos</strong></em> con una broma mínima, en la que nos avisa su libro no es un alegato por los derechos animales. “Justicia para Joni Mitchell” sí sería un alegato sin pudores en favor de la milagrosa Joni como un regalo de justicia cósmica. Debería estar prohibido perderse la experiencia de navegar el universo mágico música, su poética, su ética y su estética.</p>
 <p>Durante 50 años, Joni Mitchell ha retratado el mundo y la experiencia humana con una profundidad, riqueza y bellezas únicas, <a href="https://youtu.be/oVeFgt8Z13g?si=6xShei1i3WD9zlmb">“desde los dos lados”, je (no se pierdan esta versión en vivo, junto a la Joni Jam y el mágico Jacob Collier al piano).</a></p>
 <p>Pero esta bocanada de justicia también tiene otro sentido.</p><figure class='thumbnail-insert'><img src='/img/joni-blue.png' alt=''></figure>
-<p>La justicia habita el mundo -y ciertamente el derecho- como testaruda esperanza, como promesa, como sentido. Lo habita contra toda burla cínica, contra todo desprecio bruto, contra toda incomprendida evasión. Como inocencia sin ingenuidad. Como el amor, bah.</p>
+<p>La justicia habita el mundo —y ciertamente el derecho— como testaruda esperanza, como promesa, como sentido. Lo habita contra toda burla cínica, contra todo desprecio bruto, contra toda incomprendida evasión. Como inocencia sin ingenuidad. Como el amor, bah.</p>
 <p>Esta bocanada es también sobre la Justicia en Joni Mitchell y su obra. Pero, ¿qué es la justicia para Joni?</p>
 <p>Una vez, en el aclamado Turbulent Indigo, Joni escribió una canción lascerante: <a href="https://youtu.be/hDjDVRZa9tE?si=ob0uQ6oBraG4VFIz"><em>Sex Kills</em> (con la osadía inclaudicable de arrojarla impiadosamente al aire en un late night show!).</a> La canción tiene estampada su irónica e inolvidable pregunta: <em><strong>“is justice, just ice?”</strong></em>. Tanto por meditar sobre la frialdad o calidez de la justicia, sobre la distancia o la cercanía que le da la mejor perspectiva, sobre la racionalidad y la emocionalidad como vehículos de la imparcialidad. Pero eso será otro día.</p>
 <p>A lo largo de más de 20 discos y 200 canciones, Joni visitó las preguntas fundamentales de la justicia en este tiempo nuestro sobre la tierra.</p>
@@ -716,13 +722,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

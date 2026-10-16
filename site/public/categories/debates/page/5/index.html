@@ -66,7 +66,7 @@
   </head>
 
   
-  <body class="theme-dynamic theme-3
+  <body class="theme-dynamic theme-6
 ">
     <header class="header">
   <div class="banner">
@@ -283,25 +283,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -311,6 +304,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -544,6 +550,170 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 <section class="taxonomy-grid secondary-grid" data-term="debates">
+  
+    <article class="article-taxonomy">
+    
+
+        
+        
+          
+            <figure class="grid-thumbnail">
+              <img src="/img/gargarella_IMG_9559.JPG" alt="Featured Image"/>
+            </figure>
+          
+        
+
+        
+        
+
+        <h1><a href="/post/la-magia-veneno-de-la-republica/">La &#34;Magia Veneno&#34; de la República</a></h1>
+
+        
+          <div class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/mariela-puga/">Mariela Puga</a>
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</div>
+        
+
+        <div class="summary">
+          Sobre la edad de punibilidad, y la reforma a la Ley Penal Juvenil.
+        </div>
+
+        <div class="date">
+          
+          
+          
+          
+          20 de febrero de 2026
+        </div>
+      </div>
+    </article>
+  
+    <article class="article-taxonomy">
+    
+
+        
+        
+          
+            <figure class="grid-thumbnail">
+              <img src="/img/wild-geese.jpeg" alt="Featured Image"/>
+            </figure>
+          
+        
+
+        
+        
+
+        <h1><a href="/post/infancias-heridas/">Infancias heridas</a></h1>
+
+        
+          <div class="author">
+  
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+      
+    
+
+  
+
+  
+  <div class="post-author">
+    <div class="author-block">
+      <h3 class="author-name">
+
+
+
+
+  <a class="author-link" href="/autores/maximo-lanusse-noguera/">Máximo Lanusse Noguera</a>
+
+
+
+      </h3>
+    </div>
+  </div>
+
+
+</div>
+        
+
+        <div class="summary">
+          La pena y la infancia son dos o más rectas situadas en un mismo plano que, por más que se prolonguen, nunca se deberían cruzar.
+        </div>
+
+        <div class="date">
+          
+          
+          
+          
+          19 de febrero de 2026
+        </div>
+      </div>
+    </article>
   
     <article class="article-taxonomy">
     
@@ -878,12 +1048,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         
         
-          
-            <figure class="grid-thumbnail">
-              <img src="/img/rau_IMG_20180715_130427.jpg" alt="Featured Image"/>
-            </figure>
-          
-        
 
         
         
@@ -951,191 +1115,6 @@ document.addEventListener("DOMContentLoaded", () => {
           
           
           6 de febrero de 2026
-        </div>
-      </div>
-    </article>
-  
-    <article class="article-taxonomy">
-    
-
-        
-        
-          
-            <figure class="grid-thumbnail">
-              <img src="/img/harlem_volmer.jpg" alt="Featured Image"/>
-            </figure>
-          
-        
-
-        
-        
-
-        <h1><a href="/post/sobre-el-eterno-debate/">El eterno debate por la baja en la edad de punibilidad</a></h1>
-
-        
-          <div class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/fernando-gauna-alsina/">Fernando Gauna Alsina</a>
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</div>
-        
-
-        <div class="summary">
-          Una iniciativa ilegal que se enfrenta con la realidad del sistema penal
-        </div>
-
-        <div class="date">
-          
-          
-          
-          
-          6 de febrero de 2026
-        </div>
-      </div>
-    </article>
-  
-    <article class="article-taxonomy">
-    
-
-        
-        
-
-        
-        
-
-        <h1><a href="/post/historia-minima-del-rock/">Historia Mínima del rock en América Latina</a></h1>
-
-        
-          <div class="author">
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    
-
-    
-    
-      
-    
-
-  
-
-  
-  <div class="post-author">
-    <div class="author-block">
-      <h3 class="author-name">
-
-
-
-
-  <a class="author-link" href="/autores/abel-gilbert/">Abel Gilbert</a> <span class="author-separator">y</span> <a class="author-link" href="/autores/pablo-alabarces/">Pablo Alabarces</a>
-
-
-
-      </h3>
-    </div>
-  </div>
-
-
-</div>
-        
-
-        <div class="summary">
-          Sobre las posibilidades de una historia del rock. Tramas y límites.
-        </div>
-
-        <div class="date">
-          
-          
-          
-          
-          3 de febrero de 2026
         </div>
       </div>
     </article>
@@ -1228,13 +1207,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 

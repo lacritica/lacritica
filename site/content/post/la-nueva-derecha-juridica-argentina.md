@@ -2,8 +2,10 @@
 title: Por qué la nueva derecha jurídica argentina no tiene quién le escriba
 slug: la-nueva-derecha-juridica-argentina
 date: 2026-10-02T00:01:00.000-03:00
+weight: 1
 description: Algunas reflexiones, a propósito de la presentación del libro de
   Dyzenhaus en la Universidad de Nueva York.
+simposio_grid: TRUE
 categories:
   - ensayos
 author:
