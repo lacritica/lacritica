@@ -1,5 +1,5 @@
 ---
-title: En defensa de la mesa de discusión
+title: En defensa de la mesa de discusión (del derecho)
 slug: en-defensa-de-la-mesa-de-discusion
 date: 2026-10-16
 draft: false
