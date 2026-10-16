@@ -64,7 +64,7 @@ Con todo, las preguntas que esta lectura suscita no hacen sino confirmar el inte
 
 [^1]: I. Giuffré, *No es sólo el agua: es la democracia*, 9 de enero de 2026 <https://lacritica.ar/post/no-es-solo-el-agua/>.
 
-[^2]: González- Ricoy, I., y Gosseries, A. (2016). *Institutions for Future Generations*, Oxford University Press.
+[^2]: González-Ricoy, I., y Gosseries, A. (2016). *Institutions for Future Generations*, Oxford University Press.
 
 [^3]: Bándi, G., (2020). Interests of Future Generations, Environmental Protection and the Fundamental Law. *Journal of Agricultural and Environmental Law*,15, 29.
 
