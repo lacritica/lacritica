@@ -3374,8 +3374,7 @@ position: relative;
 }
 
 .simposio-inner {
-  margin-top: 0;
-  margin-bottom: 3rem;
+  margin: 0 auto 3rem;
   width: 100%;
   max-width: 1400px;
 }

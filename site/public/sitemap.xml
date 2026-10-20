@@ -83,17 +83,29 @@
     <loc>http://localhost:1313/post/el-baile-de-los-que-sobran/</loc>
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ensayos/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/todo-vuelve/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/atria1/</loc>
+    <lastmod>2026-10-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/bocanadas/</loc>
     <lastmod>2026-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/el-pensador-del-poder/</loc>
     <lastmod>2026-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-10-16T09:21:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/debates/</loc>
     <lastmod>2026-10-16T09:21:00+00:00</lastmod>
@@ -101,17 +113,11 @@
     <loc>http://localhost:1313/post/mas-sobre-cecim/</loc>
     <lastmod>2026-10-16T09:21:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
-    <lastmod>2026-10-16T09:21:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/bocanadas/refutaciondeferrajoli/</loc>
     <lastmod>2026-10-15T19:13:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/bocanadas/regregando-el-estornudo/</loc>
     <lastmod>2026-10-13T09:55:00-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-10-13T09:30:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/ambiente-al-caso/</loc>
     <lastmod>2026-10-13T09:30:00-03:00</lastmod>

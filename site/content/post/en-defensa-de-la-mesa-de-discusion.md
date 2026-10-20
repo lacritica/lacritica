@@ -15,7 +15,6 @@ thumbnail:
 cover: []
 highlight: false
 highlight2: false
-simposio_grid: true
 exclude_thumbnail_from_body: true
 callouts: []
 featured_callout: null

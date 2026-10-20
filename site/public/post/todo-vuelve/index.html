@@ -42,22 +42,22 @@
 
 <link rel="canonical" href="http://localhost:1313/post/todo-vuelve/">
 <link rel="icon" type="image/svg+xml" href="/img/logo_small.svg">
-<meta name="description" content="Aventuras locales e inseperadas del constitucionalismo popular que supimos conseguir.">
+<meta name="description" content="Aventuras locales del constitucionalismo popular realmente existente.">
 
 <meta property="og:title" content="Todo vuelve">
-<meta property="og:description" content="Aventuras locales e inseperadas del constitucionalismo popular que supimos conseguir.">
+<meta property="og:description" content="Aventuras locales del constitucionalismo popular realmente existente.">
 <meta property="og:url" content="http://localhost:1313/post/todo-vuelve/">
 <meta property="og:site_name" content="La Crítica">
 <meta property="og:type" content="article">
-<meta property="og:image" content="http://localhost:1313/img/rau_IMG_20180908_142342.jpg">
+<meta property="og:image" content="http://localhost:1313/img/csjn_3a.jpeg">
 <meta property="og:image:alt" content="Todo vuelve">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Todo vuelve">
-<meta name="twitter:description" content="Aventuras locales e inseperadas del constitucionalismo popular que supimos conseguir.">
-<meta name="twitter:image" content="http://localhost:1313/img/rau_IMG_20180908_142342.jpg">
+<meta name="twitter:description" content="Aventuras locales del constitucionalismo popular realmente existente.">
+<meta name="twitter:image" content="http://localhost:1313/img/csjn_3a.jpeg">
 <meta name="twitter:image:alt" content="Todo vuelve">
 
 <link rel="stylesheet" href="/css/style.css">
@@ -71,7 +71,7 @@
 </head>
 
 
-<body class="page theme-dynamic theme-5
+<body class="page theme-dynamic theme-4
 ">
   <header class="header">
   <div class="banner">
@@ -288,25 +288,18 @@
     <li><a href="/archivo/">archivo</a></li>
     <li><a href="/quienes_somos/">quienes somos</a></li>
     <li><a href="/contáctenos/">contáctenos</a></li>
-    <li><a><form
+    <li><a>
+<form
   name="newsletter"
-  action = "/gracias/"
+  action="https://docs.google.com/forms/d/e/1FAIpQLSci8z754w5H5Rc3kbClwKHHwg9GFHKTf85_5DLPof6pZtMLkw/formResponse"
   method="POST"
-  data-netlify="true"
-  netlify-honeypot="bot-field"
+  target="newsletter-sink"
   class="subscribe-form"
+  data-newsletter
 >
-  <input type="hidden" name="form-name" value="newsletter">
-
-  <p class="hidden">
-    <label>
-      Don’t fill this out: <input name="bot-field">
-    </label>
-  </p>
-
   <input
     type="email"
-    name="email"
+    name="entry.741416921"
     placeholder="Tu correo electrónico"
     required
     class="subscribe-input"
@@ -316,6 +309,19 @@
     Suscribirse
   </button>
 </form>
+<iframe name="newsletter-sink" class="hidden" aria-hidden="true" tabindex="-1"></iframe>
+
+<script>
+  (function () {
+    var form = document.querySelector("[data-newsletter]");
+    var sink = document.querySelector('iframe[name="newsletter-sink"]');
+    var sent = false;
+    form.addEventListener("submit", function () { sent = true; });
+    sink.addEventListener("load", function () {
+      if (sent) window.location.href = "\/gracias\/";
+    });
+  })();
+</script>
 
 <style>
   .hidden {
@@ -515,7 +521,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
       
       
-      <p class="post-date">24 de septiembre de 2026</p>
+      <p class="post-date">20 de octubre de 2026</p>
     
     
     
@@ -613,7 +619,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     
     
-      <p>¿Se acuerdan del constitucionalismo popular? Volvió, en forma del lío que armó la decisión de una jueza de Buenos Aires de declarar parcialmente inconstitucional el régimen penal juvenil. La teoría tuvo su auge hace unos veinte años, y luego fue quedando rezagada ante el imparable avance de otras miradas sobre lo que el derecho es o debería ser. Pero nunca dejó de golpear una nota correcta, aquella que se preocupa por cómo la interpretación constitucional es una práctica social distribuida, ni de cerca exclusiva de los jueces ni de exclusiva incumbencia de los abogados. Si no me creen, escuchen conmigo estos cinco minutos del programa <em>¿Y ahora quién podrá ayudarnos?</em> de Radio Con Vos, conducido por Ernesto Tenembaum.</p>
+      <p>¿Se acuerdan del constitucionalismo popular? Volvió, en forma del lío que armó la decisión de una jueza de Buenos Aires de declarar parcialmente inconstitucional el régimen penal juvenil de hace algunas semanas y la saga <em>CECIM</em> / <em>Árbol de Pie</em> de nuestra querida, ay, Corte Suprema. Pero quizás el constitucionalismo popular nunca se fue. Sirvan entonces estas líneas como reivindicación <em>post mortem</em> de una teoría que estuvo de moda hace unos veinte años, que generó su buena dosis de lío, pero que pareció perder <em>momentum</em> frente a una crisis democrática global que vino a frenar, via espanto, las empresas constitucionales más preocupadas por imaginar un futuro más democrático.</p>
+<h1 id="qué-fue-el-constitucionalismo-popular">Qué fue el constitucionalismo popular</h1>
+<p>De la mano de trabajos históricos y críticos del giro por entonces moderadamente conservador de la Suprema Corte de EEUU, el constitucionalismo <em>popular</em> reunió a una serie de autores y líneas de investigación que reivindicaban un rol activo de los ciudadanos en la tarea colectiva de la construcción del sentido constitucional. Se trataba de una mirada democrática, que reivindicaba el carácter popular de la <em>constitución</em> con base en la autoría que el texto de Filadelfia &mdash;quizás algo ficticiamente&mdash; declama desde el mismo preámbulo.</p>
+<p>El lado más sólido del constitucionalismo <em>popular</em> siempre estuvo en su pretensión descriptiva. La historia demuestra, con bastante claridad, que la Constitución y la determinación de su significado nunca es un ámbito de exclusiva competencia de jueces y abogados. Como texto legal y político, la Constitución se encuentra siempre en disputa, en parte como consecuencia de su lenguaje &mdash;en ocasiones vago y maleable, más principista que regulador&mdash; pero también porque es objeto de múltiples demandas sociales y políticas cuya satisfacción depende, al menos en parte, de una adjudicación constitucional, por necesidad o convenciencia. Es decir: todos quieren a la Constitución de su lado y van a interpretarla, de manera explícita en muchos casos y de manera implícita en otros tantos. En cualquier disputa sobre lo que el derecho <em>es</em> o <em>debería ser</em> esa acción de <em>ir a la Constitución</em> aparece y termina explicando mucho de lo que pasa en la realidad. Es el derecho <em>vivo</em> que &mdash;como dijo Holmes&mdash; es experiencia más que lógica.</p>
+<h1 id="dónde-está-el-constitucionalismo-popular">Dónde está el constitucionalismo popular</h1>
+<p>Escuchen conmigo estos cinco minutos del programa <em>¿Y ahora quién podrá ayudarnos?</em> de Radio Con Vos, conducido por Ernesto Tenembaum.</p>
 <audio controls preload="metadata" style="width:100%">
   <source src="/files/tenembaum_editorial_39-46.mp3" type="audio/mpeg">
   <a href="/files/tenembaum_editorial_39-46.mp3">Descargar audio</a>
@@ -626,11 +637,26 @@ document.addEventListener("DOMContentLoaded", () => {
   
 </figure>
 </p>
-<p>Los jueces, quizás, están destinados a la ira popular. A fin de cuentas, una definición posible de su labor los pone a cargo de resguardar a la constitución de las presiones de la política mayoritaria, y si ésta (la política) va en contra de la constitución, sabemos desde John Marshall en <em>Marbury v. Madison</em> cuál es el deber y <em>la provincia</em> de los jueces&mdash;indudablemente, su deber está con la Constitución. Si una ley es contraria a ella, es la constitución la que debe prevalecer. Esta conclusión merece, por supuesto, la famosa <em>objeción contramayoritaria</em>. ¿No es acaso incompatible con un sistema dónde reina el principio de soberanía popular que un juez no electo, que no responde electoralmente a El Pueblo Soberano, pueda desestimar sin más lo que establecen Sus Legítimos Representantes? La objeción tiene su gracia, y ha disparado enormes esfuerzos por abordarla &mdash; desde el criterio del error <em>grave</em> de James B. Thayer a fines del siglo XXI, los principios neutrales de Wreschler, el giro <em>procedimentalista</em> de Ely, el minimalismo de Sunstein, etcétera. Localmente, el párrafo de la <em>última ratio</em> y el principio de deferencia al legislador democrático, con el que la Corte Suprema machaca desde hace décadas, sin consistencia pero ritualmente. La tensión se podrá aminorar (<em>term limits!</em>) pero difícilmente eliminar, porque se trata&mdash;quizás&mdash;de una tensión constitutiva de nuestros sistemas que son, simultáneamente, democráticos <em>y</em> constitucionales. Por eso es un fenómeno recurrente, y es divertido verlo aparecer de tanto en tanto.</p>
-<p>Los amigos de Victoria dirán, quizás con algo de razón, que todo es culpa del <em>interpretativismo</em>. Si los jueces tuviese una concepción más acotada de su rol (y de la moralidad vinculada al mismo) simplemente se limitarían a aplicar la ley y no buscarían, con artilugios y artimañas tramposas, doblar al derecho <em>a su mejor luz</em> para arribar al resultado deseado. (Ojo igual: siempre ayuda lanzar esta acusación contra decisiones que van en contra de decisiones que no nos gustan o para defender decisiones que aplican la letra clara de la ley en un sentido que <em>sí</em> nos gusta). Los jueces interpretativistas&mdash;entonces&mdash;se convierten irónicamente en un problema porque abrazan una concepción extravagante del derecho, que les da más poder que el que deberían tener, un poder <em>creador</em> del derecho que por imperativo democrático en realidad no tienen.</p>
-<p>Y sin embargo, los jueces una y otra vez se enfrentan a dilemas profundos y tensiones entre su propia moralidad y una ley injusta, y&mdash;como demostró Robert Cover hace 50 años en <em>Justice Accussed</em>&mdash;es una tensión difícil de manejar, incluso en escenarios más complejos como el de tener que aplicar la ley esclavista cuando uno, juez y alma noble, es <em>antiesclavista</em>. Uno puede, en ese contexto, <em>retraerse al formalismo</em>, extraer del mismo un valor que quizás no tenga, o asignar la culpa a alguien más, pero mantenerse firme a lo que exige la moralidad del rol del juez encargado de <em>aplicar</em> la norma, y no de <em>crearla</em>. Si quieren un ejemplo más cercano, sigan el derrotero de fallos plenarios post <em>Natividad Frías</em> y vean si los jueces no estaban, allí, lidiando con dilemas parecidos. ¿Qué deber tiene un juez para con una ley formalmente vigente pero que consistentemente no se aplica? ¿No hay acaso en la <em>facticidad</em> algo que pone en cuestión la misma <em>validez</em> del derecho? Y es que el derecho complica las cosas al complejizarse a sí mismo, multiplicar sus fuentes, afirmar distintos órdenes normativos que simultáneamente han de convivir entre sí de manera pacífica, porque <em>la ley</em> nunca es <em>la ley</em>&mdash;es un entramado normativo complejo, que arranca en la Constitución pero que la excede, por voluntad expresa de los propios constituyentes, que abrazaron al derecho internacional de los derechos humanos y le dieron jerarquía constitucional a través del artículo 75.22. Ese abrazo se puede criticar por sucio, feo, o malo; torpe o inconveniente. Pero no puede ignorarse desde una posición comprometida con la fidelidad al derecho. Ante esa mirada, el fallo de la jueza se convierte entonces y previsiblemente en algo <em>más complejo</em>.</p>
-<p>Y aquí es dónde la cosa se pone un poco más interesante, porque esta discusión interpretativa entre abogados de distintas escuelas, que en otra ocasión me gustaría abordar con más seriedad, es <em>en sí misma</em> un ejercicio de constitucionalismo popular, es decir, un esfuerzo por influir en la forma en que el derecho debe ser interpretado, que no es otra cosa que definir lo que el derecho es o debe ser. Y así las posiciones de unos y otros podrán ser invocadas por los periodistas indignados (unos, los del audio; otros, los de otros lados) en defensa de una u otra postura, y así iremos construyendo el <em>corralito</em> de los significados jurídicos aceptables e inaceptables, al menos en este frágil aquí y ahora, que durará un suspiro. El constitucionalismo popular entonces reaparece de manera inesperada en una fría mañana de primavera en su dimensión más fuerte, la descriptiva: el derecho <em>es</em> lo que colectivamente decidimos que sea, en procesos de discusión caóticos que incluyen a la discusión que la jueza habrá tenido con sus relatores en la privacidad de su despacho, los análisis letrados que volcamos a <em>tuiter</em>, pero&mdash;también&mdash;en las opiniones exageradadamente indignadas de nuestros opinadores del audio y la sobreactuación del juicio político de nuestros magros representantes. Todo esto va construyendo significados jurídicos y constitucionales, y definiendo los contornos del coto de caza. Dentro del mundo del derecho, desde el punto de vista interno, los abogados se pelean entre ellos y dan la vida por una u otra causa. Pero desde el punto de vista externo, esto se resuelve a los bifes: ¿qué posición logra la hegemonía en el debate público y en los centros de toma de decisiones en las que estas cosas se resuelven autoritativamente?</p>
-<p>La decisión seguramente será revocada; la jueza, probablemente, no sea removida. Pero la pantomima del juicio político, quiérase o no, envía un mensaje. Mi sugerencia es que esa pantomima es parte de la cadena interpretativa que el constitucionalismo popular postula como una pieza clave del constitucionalismo democrático. El caso de la jueza de Buenos Aires es, entonces, un episodio más de una tensión irresoluble y de una batalla pequeña pero divertida en la que estamos metidos. El episodio no es <em>la batalla</em> pero ésta última ofrece la música de fondo. Y, como dijo Foucault, <em>debemos oir el rumor de la batalla&hellip;</em>.</p>
+<p>Ocurre que los jueces, quizás, están destinados a la ira popular. A fin de cuentas, una definición posible de su labor los pone a cargo de resguardar a la constitución de las presiones de la política mayoritaria, y si ésta (la política) va en contra de la constitución, sabemos desde John Marshall en <em>Marbury v. Madison</em> cuál es el deber y <em>la provincia</em> de los jueces &mdash; indudablemente, su deber está con la Constitución. Si una ley es contraria a ella, es la constitución la que debe prevalecer. Pero el <em>constitucionalismo popular</em> mostró que los jueces no cumplen con ese deber aislados de la sociedad que habitan y a la que sirven. Ellos están sometidos a presiones y a reclamos, a demandas <em>sobre la Constitución</em> que lejos de constituir una anomalía, son habilitadas por la propia dimensión democrática que la Constitución proclama. Por eso la decisión de la jueza porteña fue rápida y prontamente revocada, y por eso &mdash;también&mdash; a la decisión en <em>CECIM</em> le siguió unos pocos días después la insólita decisión en <em>Árbol de Pie</em>. Esa saga sólo se explica, me temo, por las demandas hechas sobre la Corte por parte de actores que operan dentro del mundo del <em>constitucionalismo popular</em>, y la salida del tribunal se puede explicar pero estuvo lejos de ser elegante. Llovieron, sobre nuestra maltrecha y desmembrada Corte, todo tipo de críticas, porque la Corte se equivocó, y se equivocó <em>de dos maneras diferentes</em>.</p>
+<h1 id="dos-tipos-de-errores">Dos tipos de errores</h1>
+<p>Un grupo fuerte de críticas, especialmente en el caso <em>Árbol de Pie</em>, se sostuvo sobre muy razonables argumentos que podríamos catalogar dentro del mundo del <em>formalismo</em> legal, por errores técnicos en explicar lo que el derecho es y aplicarlo al caso concreto de acuerdo a criterios neutrales y previamente conocidos. Esta es una crítica típica de abogados y observadores del tribunal: son argumentos desde el <em>punto de vista interno</em> y conciben a la decisión como un mundo autocontenido, que aplica a un caso concreto el derecho vigente y poco más que eso. Las defensas de <em>CECIM</em> como caso técnicamente bien resuelto y las críticas a la mayoría en <em>Árbol de Pie</em> se pronuncian en este registro. En <strong>La Crítica</strong> hemos publicado las contribuciones de <a href="https://lacritica.ar/post/sobre-reglas-y-resultados/">Gabriel Bouzat</a>, de <a href="https://lacritica.ar/post/nadie-esta-legitimado/">Alejandro Calzetta</a>, y <a href="https://lacritica.ar/post/ambiente-al-caso/">Florencia Saulino</a> &mdash; todas en esta línea.</p>
+<p>Pero otra crítica es de naturaleza política, y ve a la Corte operando en un universo constitucional más amplio que el del <em>caso concreto</em>. La unidad de análisis cambia: ya no se trata de ver si una decisión es técnicamente correcta, sino si esa decisión contribuye a una tarea más abarcativa, que sólo puede verse de manera agregada. Se trata de la función que la propia Corte reconoce como central en su competencia: la de resguardar el principio de supremacía constitucional. Y tanto en <em>CECIM</em> como en <em>Árbol de Pie</em>, la Corte falla en ese frente porque su <em>acción</em> en ambos casos revela su inexplicable inacción en tantos otros respecto del DNU 70/23, tan <a href="https://iconsar.github.io/tags/simposio-dnu70/">notoriamente</a> inconstitucional y contrario a <em>su propia jurisprudencia</em> que causa una indignación extendida, y es allí donde entran las dinámicas que el constitucionalismo <em>popular</em> supo tan bien describir años atrás. Las notas que publicamos en <strong>La Crítica</strong> de <a href="https://lacritica.ar/post/corte-desnorteada/">Roberto Gargarella</a> y <a href="https://lacritica.ar/post/dnu-no-hay-caso/">Sebastián Guidi</a> van, precisamente, en ese sentido.</p>
+<p>El punto que yo destacaría es que una línea de crítica no es incompatible con la otra, aunque puedan existir &mdash;subyacentes&mdash; desacuerdos profundos. El formalismo como ideología jurídica reclama una autonomía del campo que la crítica más amplia, basada en alguna teoría más abaracativa del derecho constitucional (constitucionalismo <em>popular</em>, <em>dialógico</em>, <em>igualitario</em>, <em>democrático</em>, etcétera) no puede sino rechazar. En mi opinión, el punto central de la divergencia descansa sobre cómo ambas teorías explican la relación entre <em>derecho</em> y <em>política</em>. Si bien implica simplificar algo los puntos en tensión, diría que el formalismo pretende una separación estricta, casi absoluta; mientras que la mirada más amplia ve entre la política y el derecho una relación de <em>interdependencia</em> y <em>colaboración</em>. Así, <em>CECIM</em> puede estar técnicamente y formalmente <em>bien</em> desde el primer punto de vista, y jurídica y políticamente <em>mal</em> desde el segundo.</p>
+<p>Que la Corte es permeable a la crítica externa resulta obvio, y el propio Juan Carlos Maqueda lo <a href="https://lacritica.ar/post/maqueda-2/">reconocía en estas páginas hace algunos días</a>.</p>
+<blockquote>
+<p>&ldquo;Hay que diferenciar tres niveles de influencia en la Corte Suprema: la crítica académica, la crítica periodística, y la movilización de la opinión pública. La opinión pública es, por lejos, la que más presiona. La crítica académica no presiona nada. La crítica de la prensa un poquito más, pero hasta por ahí nomás.&rdquo;</p>
+</blockquote>
+<p>Una teoría del derecho y una teoría constitucional que no puede explicar lo que los jueces hacen no es &mdash;en mi opinión&mdash; una buena teoría. ¡El formalismo le falla a sus mejores soldados! Y es que el <em>backlash</em> contra <em>CECIM</em> no sólo era posible, sino que era enteramente predecible. Porque cuando una Corte Suprema va a resolver un caso como <em>CECIM</em> debe saber &mdash;<em>debe saber</em>&mdash; que el caso está enmarcado en una corriente litigiosa muy intensa contra un DNU que viola su propia jurisprudencia, un DNU que se mantiene vigente desde hace años sino que la Corte intervenga, no por falta de casos para decidir, sino porque no quiere. Ahí viene, entonces, el constitucionalismo <em>popular</em> a rescatarnos para al menos poder explicar cómo funciona el mundo. Esta teoría siempre tuvo una pretensión <em>normativa</em> más difícil de imaginar en la práctica, en parte como consecuencia de la dificultad de imaginar dinámicas históricas proyectadas a nuestro presente y en parte porque éstas no se presentaban como especialmente atractivas (¡untar de brea y plumas a los jueces!). Pero el constitucionalismo <em>popular</em> vive, por ejemplo en la pretensión de que esta pintada acá abajo no es enteramente estéril para definir el significado de la Constitución.</p>
+<p>
+
+<figure class="md-figure">
+  <img src="/img/csjn_3a.jpeg" alt="">
+  
+    <figcaption>Tres Arroyos, Octubre de 2026</figcaption>
+  
+</figure>
+</p>
+<p>La pretensión normativa del constitucionalismo popular subsiste, entonces, en cierta idea democrática sobre la autoría <em>popular</em> de la Constitución, y un rol activo de los ciudadanos en la determinación de su significado. Qué significa esa afirmación <em>desde el punto de vista interno</em> siempre presentó un desafío, en parte por la fuerza gravitacional del formalismo, su rol en aglutinar al campo jurídico, su fuerte socialización, etcétera. Pero, como mínimo, el constitucionalismo <em>popular</em> podría llevar a los jueces a reflexionar mejor sobre cómo se procesa la permeabilidad que necesariamente tienen, cómo explican sus errores y cómo los corrigen. Una aproximación más honesta respecto de la difícil tarea de la interpretación constitucional debería dar cuenta de los dilemas y <a href="https://ramiroau.github.io/publicaciones/aporia/">aporías</a> involucrados en la misma, y sería una alternativa mucho más deseable que inventar deferencia a una ley interpretativa como en <em>Batalla</em> o inventar medidas cautelares que no existen en casos sin competencia, como en <em>Árbol de Pie</em>. Pero ello requeriría de virtudes y jueces que, lamentablemente, no tenemos.</p>
 
 
     
@@ -688,13 +714,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <div class="footer-social-bottom">
   <span style="color:#fff">hosted on </span>
-  <a href="https://github.com/ramiroau/lacritica2" target="_blank" aria-label="GitHub">
+  <a href="https://github.com/lacritica/lacritica" target="_blank" aria-label="GitHub">
     <img src="/img/github.svg" alt="GitHub">
   </a>
-  <span style="color:#fff"> deployed by </span>
-  <a href="https://www.netlify.com/" target="_blank" aria-label="Netlify">
-    <img src="/img/netlify.svg" alt="Netlify">
-  </a> 
 </div>
 </footer>
 
