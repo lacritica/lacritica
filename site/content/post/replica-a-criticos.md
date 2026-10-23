@@ -5,7 +5,7 @@ date: 2026-03-27
 description: 'Gustavo reacciona a las críticas. Puntos de acuerdo y senderos que se bifurcan.'
 categories:
   - debates
-  - simposio
+  - simposios
 author:
   - Gustavo Maurino
 thumbnail:

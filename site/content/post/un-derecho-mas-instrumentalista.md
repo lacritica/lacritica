@@ -5,7 +5,7 @@ date: 2026-03-27
 description: 'Con la visión del derecho de Gustavo no hay, digamos, reforma agraria. Más democracia.'
 categories:
   - debates
-  - simposio
+  - simposios
 author:
   - Ramiro Álvarez Ugarte
 thumbnail:

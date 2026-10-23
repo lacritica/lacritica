@@ -5,7 +5,7 @@ date: 2026-03-27
 description: 'Dos amigos señalan lo que ---según ellos--- son problemas en el argumento de Gustavo.'
 categories:
   - debates
-  - simposio
+  - simposios
 author:
   - Emiliano Vitaliani
   - Patricio Méndez Montenegro
