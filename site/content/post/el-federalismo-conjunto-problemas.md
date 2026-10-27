@@ -1,5 +1,5 @@
 ---
-title: "El federalismo conjunto problemas"
+title: "El federalismo como un conjunto de problemas"
 slug: el-federalismo-conjunto-problemas
 date: 2026-10-27
 description: 'Comentario a "Federalismo y derecho público provincial", coordinado por Gustavo Arballo y Damián Azrak.'
