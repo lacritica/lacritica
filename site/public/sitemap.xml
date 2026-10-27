@@ -84,18 +84,24 @@
     <lastmod>2026-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/el-federalismo-conjunto-problemas/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
+    <lastmod>2026-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/justicia-como-eslogan/</loc>
     <lastmod>2026-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/ensayos/</loc>
-    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2026-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/replica-a-criticos-simposio/</loc>
@@ -150,9 +156,6 @@
     <lastmod>2026-10-10T11:01:00-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/el-otro-lado-de-la-constitucion/</loc>
-    <lastmod>2026-10-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/rese%C3%B1as/</loc>
     <lastmod>2026-10-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/sobre-reglas-y-resultados/</loc>
@@ -818,9 +821,6 @@
     <loc>http://localhost:1313/post/ataque-ilegal/</loc>
     <lastmod>2026-01-06T23:18:01+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/el-descubrimiento-de-la-ley/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/post/la-derrota-del-derecho-internacional-en-venezuela/</loc>
     <lastmod>2026-01-04T18:33:41+00:00</lastmod>
   </url><url>
@@ -1057,8 +1057,6 @@
   </url><url>
     <loc>http://localhost:1313/autores/juan-f-gonzalez-bertomeu/</loc>
   </url><url>
-    <loc>http://localhost:1313/autores/juan-ignacio-saenz/</loc>
-  </url><url>
     <loc>http://localhost:1313/autores/juan-jesus-garza-onofre/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/juan-manuel-ottaviano/</loc>
@@ -1076,8 +1074,6 @@
     <loc>http://localhost:1313/autores/laura-pautassi/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/laura-ronchetti/</loc>
-  </url><url>
-    <loc>http://localhost:1313/autores/leandro-dias/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/leonardo-garcia-jaramillo/</loc>
   </url><url>
@@ -1204,8 +1200,6 @@
     <loc>http://localhost:1313/autores/seyla-benhabib/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/silvina-alvarez-medina/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/simposio/</loc>
   </url><url>
     <loc>http://localhost:1313/autores/tania-busch-venthur/</loc>
   </url><url>
