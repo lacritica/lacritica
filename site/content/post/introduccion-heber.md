@@ -8,7 +8,7 @@ categories:
 author:
   - Hebel Joel Campos
 thumbnail:
-  - src: '/img/diseño-poder.jpg'
+  - src: /img/diseño-poder.jpg
 highlight: false
 highlight2: false
 exclude_thumbnail_from_body: true
