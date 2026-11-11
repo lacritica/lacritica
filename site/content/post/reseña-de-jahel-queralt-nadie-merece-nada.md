@@ -1,5 +1,5 @@
 ---
-title: Reseña de Jahel Queralt, "Nadie merece nada"
+title: Nadie merece nada
 slug: jahel-queralt
 date: 2026-11-10T10:33:00
 draft: false
@@ -9,14 +9,17 @@ categories:
 author:
   - Roberto Gargarella
 thumbnail:
-  - src: /img/pasted-image-1794317707357.png
+  - src: /img/queralt.jpeg
     epigraph: ''
     copyright: ''
-cover: []
+cover: 
+  - src: /img/queralt.jpeg
+    epigraph: ''
+    copyright: ''
 highlight: true
 highlight2: false
 simposio_grid: false
-exclude_thumbnail_from_body: false
+exclude_thumbnail_from_body: true
 callouts: []
 featured_callout: null
 obra_reseñada: Nadie merece nada. Por qué la izquierda necesita la meritocracia
@@ -24,14 +27,7 @@ simposio: ''
 short_simposio: ''
 publicado_originalmente_en: ''
 autores_grouped: ''
-weight: null
 ---
-
-**Jahel Queralt, _Nadie merece nada_**
-
-6 nov 2026 ·
-
-Jahel Queralt, _Nadie merece nada. Por qué la izquierda necesita la meritocracia_, Barcelona, Anagrama (Nuevos Cuadernos Anagrama), 2026, 128 pp.
 
 Jahel Queralt es una gran amiga, una académica extraordinaria -ella es una notable filósofa política, que enseña en la Universidad Pompeu Fabra, de Barcelona- y además alguien dotada con un don inusual: la capacidad para escribir muy bien y muy claro, sobre temas muy complejos. Muchos hemos tenido la suerte de conocer esa llamativa capacidad para comunicar, asistiendo a sus clases y seminarios, o leyendo sus habituales columnas periodísticas (en el diario _El País_, por ejemplo). Ahora tenemos la posibilidad de atender y aprender de sus reflexiones, a través de un libro muy importante que acaba de publicar, y que lleva un título provocativo: _Nadie merece nada._
 
