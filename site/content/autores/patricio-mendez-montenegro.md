@@ -1,9 +1,8 @@
 ---
-title: Patricio Mendez Montenegro
+title: Patricio Méndez Montenegro
 slug: patricio-mendez-montenegro
 twitter_handle: PatoMMontenegro
-bio: Abogado-UBA. LLM en Derechos Económicos, Sociales y Culturales-University of
-  Essex.
+bio: Abogado-UBA. LLM en Derechos Económicos, Sociales y Culturales-University of Essex.
 thumbnail: img/patricio_mendez_montenegro.jpg
 ---
 

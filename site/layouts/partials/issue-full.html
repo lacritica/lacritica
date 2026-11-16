@@ -23,6 +23,27 @@
   {{ end }}
 {{ end }}
 
+{{/* `short_simposios` pulls in every post whose `short_simposio` matches one
+     of the listed values, whatever month it was published in, e.g.
+       short_simposios:
+         - "Simposio | Constitucionalismo Deliberativo"
+     The match ignores case and spacing (including the non-breaking spaces
+     the CMS sometimes saves). */}}
+{{ with .Params.short_simposios }}
+  {{ $norm := `[\s\x{00a0}]+` }}
+  {{ $tags := slice }}
+  {{ range . }}{{ $tags = $tags | append (replaceRE $norm " " . | strings.TrimSpace | lower) }}{{ end }}
+  {{ $have := slice }}
+  {{ range $issuePosts }}{{ $have = $have | append .RelPermalink }}{{ end }}
+  {{ range site.RegularPages }}
+    {{ $tag := replaceRE $norm " " (.Params.short_simposio | default "") | strings.TrimSpace | lower }}
+    {{ if and $tag (in $tags $tag) (not (in $have .RelPermalink)) }}
+      {{ $issuePosts = $issuePosts | append . }}
+      {{ $have = $have | append .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
 {{/* Collect specific categories from this month's posts */}}
 {{ range $issuePosts }}
   {{ range .Params.categories }}
