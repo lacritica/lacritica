@@ -19,7 +19,7 @@ simposio_grid: false
 exclude_thumbnail_from_body: false
 callouts:
   - Fue a Yale y estudió literatura inglesa, leyó poesía con pasión y consideró seriamente una carrera académica en literatura.
-  - El que -por admiración o rechazo- cree que Posner es sólo el de “law and economics” encontrará en el Posner tardio -y especialmente en el Posner curtido por años de judicatura y exposición al luminol de la academia- un derrape controlado que retrocede algunos pueblos de los que se había pasado, o que había recorrido por la circunvalación sin entrar a ver en serio.
+  - El que ---por admiración o rechazo--- cree que Posner es sólo el de “law and economics” encontrará en el Posner tardio ---y especialmente en el Posner curtido por años de judicatura y exposición al luminol de la academia--- un derrape controlado que retrocede algunos pueblos de los que se había pasado, o que había recorrido por la circunvalación sin entrar a ver en serio.
   - Posner fue conservador en economía política, libertario en temas morales, halcón en seguridad nacional y super ecléctico en métodos interpretativo
 featured_callout: 1
 obra_reseñada: ''
