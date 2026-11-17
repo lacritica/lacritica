@@ -1,7 +1,8 @@
 ---
 title: "Una serpiente que se muerde la cola"
 slug: una-serpiente-que-se-muerde-la-cola
-date: 2026-11-17
+date: 2026-11-20
+draft: true
 description: 'Sobre el caso de Moliné O''Connor en la Corte Interamericana.'
 categories:
   - ensayos
