@@ -9,7 +9,7 @@ author:
   - Patricio Méndez Montenegro
 thumbnail:
   - src: '/img/brc15.jpeg'
-highlight: true
+highlight: fase
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

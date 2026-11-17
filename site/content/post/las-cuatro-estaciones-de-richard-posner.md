@@ -13,7 +13,7 @@ thumbnail:
     epigraph: ''
     copyright: ''
 cover: []
-highlight: false
+highlight: true
 highlight2: false
 simposio_grid: false
 exclude_thumbnail_from_body: false

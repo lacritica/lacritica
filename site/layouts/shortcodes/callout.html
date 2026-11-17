@@ -22,7 +22,7 @@
   <!-- Callout text -->
   {{ if $safeCallout }}
     <div class="callout-text">
-      "{{ $safeCallout | markdownify | safeHTML }}"
+      "{{ partial "callout_text.html" $safeCallout }}"
     </div>
   {{ else }}
     <!-- No callouts available -->

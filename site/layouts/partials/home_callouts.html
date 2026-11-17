@@ -38,7 +38,7 @@
     </div>-->
 
     <div class="callout-text">
-      "{{ $callout | markdownify | safeHTML }}"
+      "{{ partial "callout_text.html" $callout }}"
     </div>
 
     <div class="callout-meta">

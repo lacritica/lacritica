@@ -1,0 +1,14 @@
+{{/*
+  Renders a callout string as HTML.
+  - A spaced hyphen (" - ") is treated as a dash and becomes an em dash.
+  - "---" becomes an em dash and "--" an en dash (Goldmark typographer).
+  - Dashes are wrapped in a span so they can use a font whose dash glyph
+    is full width (Jost's em dash is barely longer than a hyphen).
+*/}}
+{{ $text := replace . " - " " --- " }}
+{{ $html := $text | markdownify }}
+{{ $html = replace $html "&mdash;" "<span class=\"callout-dash\">&mdash;</span>" }}
+{{ $html = replace $html "—" "<span class=\"callout-dash\">&mdash;</span>" }}
+{{ $html = replace $html "&ndash;" "<span class=\"callout-dash\">&ndash;</span>" }}
+{{ $html = replace $html "–" "<span class=\"callout-dash\">&ndash;</span>" }}
+{{ return (safeHTML $html) }}
