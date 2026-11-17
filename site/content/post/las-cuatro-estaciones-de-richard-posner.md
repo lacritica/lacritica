@@ -2,7 +2,7 @@
 title: Las cuatro estaciones de Richard Posner
 slug: posner-4-estaciones
 date: 2026-11-17T02:02:00
-draft: true
+draft: false
 description: Vida e ideas del autor más citado en el derecho norteamericano
 categories:
   - ensayos
@@ -21,7 +21,7 @@ callouts:
   - Fue a Yale y estudió literatura inglesa, leyó poesía con pasión y consideró seriamente una carrera académica en literatura.
   - El que -por admiración o rechazo- cree que Posner es sólo el de “law and economics” encontrará en el Posner tardio -y especialmente en el Posner curtido por años de judicatura y exposición al luminol de la academia- un derrape controlado que retrocede algunos pueblos de los que se había pasado, o que había recorrido por la circunvalación sin entrar a ver en serio.
   - Posner fue conservador en economía política, libertario en temas morales, halcón en seguridad nacional y super ecléctico en métodos interpretativo
-featured_callout: null
+featured_callout: 1
 obra_reseñada: ''
 simposio: ''
 short_simposio: ''
