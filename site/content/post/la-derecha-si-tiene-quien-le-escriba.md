@@ -4,7 +4,7 @@ slug: la-derecha-si-tiene-quien-le-escriba
 date: 2026-11-17
 description: 'Y están más cerca de lo que pensamos.'
 categories:
-  - ensayos
+  - debates
 author:
   - Patricio Méndez Montenegro
 thumbnail:
