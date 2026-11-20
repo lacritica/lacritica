@@ -2,7 +2,6 @@
 title: "Una serpiente que se muerde la cola"
 slug: una-serpiente-que-se-muerde-la-cola
 date: 2026-11-20
-draft: true
 description: 'Sobre el caso de Moliné O''Connor en la Corte Interamericana.'
 categories:
   - ensayos
@@ -10,7 +9,7 @@ author:
   - Emiliano Vitaliani
 thumbnail:
   - src: '/img/rg-montevideo.jpeg'
-highlight: false
+highlight: true
 highlight2: false
 exclude_thumbnail_from_body: true
 ---

@@ -3788,3 +3788,8 @@ position: relative;
   color: var(--base-bg);
   margin-top: 2rem;
 }
+
+/* Jost's em dash is barely longer than a hyphen; use Inter's for callout dashes */
+.callout-text .callout-dash {
+  font-family: 'Inter', system-ui, sans-serif;
+}
