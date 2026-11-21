@@ -1,28 +1,47 @@
 ---
-title: "DNUs: 48 meses de ventaja para el Ejecutivo"
+title: 'DNUs: 48 meses de ventaja para el Ejecutivo'
 slug: dnus-48-semanas
 date: 2026-08-18T07:37:00.000-03:00
-description: El sistema se toma sus tiempos para revisar DNUs, y anula muy
-  pocos. Los incentivos se ven claros para los Ejecutivos.
+draft: false
+description: El sistema se toma sus tiempos para revisar DNUs, y anula muy pocos. Los incentivos se ven claros para los Ejecutivos.
 categories:
   - ensayos
 author:
   - Gustavo Arballo
 thumbnail:
   - src: /img/whatsapp-image-2026-04-30-at-15.54.24.jpeg
+    epigraph: ''
+    copyright: ''
+cover: []
 highlight: false
 highlight2: false
+simposio_grid: false
 exclude_thumbnail_from_body: false
+callouts: []
+featured_callout: null
+obra_reseñada: ''
+simposio: ''
+short_simposio: ''
+publicado_originalmente_en: ''
+autores_grouped: ''
+weight: null
 ---
-> *"La Constitución no habilita a elegir discrecionalmente entre la sanción de una ley o la imposición más rápida de ciertos contenidos materiales por medio de un decreto"* 
->
-> ("Verrocchi", 19/8/99, Fallos 322:1726).
+
+##### _"La Constitución no habilita a elegir discrecionalmente entre la sanción de una ley o la imposición más rápida de ciertos contenidos materiales por medio de un decreto"_ 
+
+##### — ("Verrocchi", 19/8/99, Fallos 322:1726).
+
+> **_Actualización del 21/11:_** _el 19 de noviembre de 2026, la Corte declaró por primera vez la inconstitucionalidad de un decreto de la presidencia de Javier Milei (el famoso DNU Bases, el_ [_Decreto 70/2023_](https://servicios.infoleg.gob.ar/infolegInternet/anexos/395000-399999/395521/norma.htm)*). El fallo, unánime y breve, es* [_"Bobbio c. Swiss Medical"_](https://drive.google.com/file/d/13ytnkKhGxRa-axJKPeRWcQTB70u_N0eM/view?usp=sharing)_._
+
+> _La planilla incluye ahora esa sentencia (el promedio queda ahora en 66 meses, y la mediana es la de 48). El cuadro queda como el original, pero tengan en cuenta que "Bobbio" cambia el último renglón: ahora hay 1 DNU de Milei invalidado y son 2 fallos que invalidan DNUs en su período, ("Cencosud" sobre un DNU de Macri y este que afecta a un DNU del presidente en funciones)._
+
+**_Nota original_**
 
 La semana pasada la Corte Suprema emitió en [“Cencosud](https://sjconsulta.csjn.gov.ar/sjconsulta/documentos/verDocumentoByIdLinksJSP.html?idDocumento=8310041&cache=1787025127075)” un fallo declarando la inconstitucionalidad de un Decreto de Necesidad y Urgencia (DNU) dictado durante la presidencia de Macri. La norma afectada es reveladora de muchos DNUs que pasan bajo el radar de discusión pública, pues versaba sobre la competencia para conocer en los recursos contra las sanciones impuestas por violaciones al régimen de lealtad comercial (que era del Contencioso Administrativo, y el DNU derivaba  al Fuero Civil y Comercial). Algunos pudieron haber leído un tenue “mensaje al gobierno” en esta sentencia, en cuanto mantiene la idea de que el decreto es excepción y no discreción del presidente, pero en ello no hay novedad, sino reiteración en la doctrina oficial de la Corte. Si viene un marciano y lo alimentamos con fallos de la Corte, le costaría conciliar la retórica de la Corte con el uso recurrente de un instrumento que la Constitución declara viciado de  “nulidad absoluta e insanable”. 
 
 En efecto, la Corte ha fijado doctrina sujetándolos a una concepción restrictiva, que nació en el bajo menemismo cuando en nuestro acapítado [“Verrocchi” de 1999](https://www.palabrasdelderecho.com.ar/articulo/2967/Veintidos-anos-del-fallo-Verrocchi-el-control-de-los-presupuestos-facticos-que-habilitan-el-dictado-de-un-DNU) la misma Corte que inventó la criatura (en “Peralta” de 1990, convalidando el Plan BONEX, impuesto por DNU) iba a recortar sus alas leyendo un poco más en serio la regulación de la Constitución de 1994 (que en el art. 99 inc. 3 constitucionalizó el especimen pero con reservas, limitando el decretazo a cuestiones urgentes, excluyendo materias,  y sujetándolo a circuitos de control bicameral). Pueden ver un contexto más amplio de la jurisprudencia de la Corte en el tema en el artículo ["Las tres generaciones de DNUs"](https://revistajuridica.utdt.edu/ojs/index.php/ratj/article/view/345/285) de Alfonso Santiago.
 
-Para mover un poco las ramas del árbol genealógico, hemos hecho un estudio de **fallos donde la Corte resolvió declarar inconstitucionalidad de DNUs dictados bajo la constitución vigente** desde 1994. Y lo que encontramos es un elenco bastante corto de **17 fallos [que pueden ver en esta planilla](https://docs.google.com/spreadsheets/d/1RyVteVcUnLTB0KEl0057jGm1HkI194r1/edit?usp=sharing&ouid=109732370476295576935&rtpof=true&sd=true)** (no contamos cautelares, no contamos disidencias, no contamos confirmaciones de inconstitucionalidades por 280, ni [casos como “Aceval Pollachi” en donde la Corte convalidó DNU](https://todosobrelacorte.wordpress.com/2011/07/06/la-corte-no-pega-cuando-duele/)).
+Para mover un poco las ramas del árbol genealógico, hemos hecho un estudio de **fallos donde la Corte resolvió declarar inconstitucionalidad de DNUs dictados bajo la constitución vigente** desde 1994. Y lo que encontramos es un elenco bastante corto de **17 fallos** **[que pueden ver en esta planilla](https://docs.google.com/spreadsheets/d/1RyVteVcUnLTB0KEl0057jGm1HkI194r1/edit?usp=sharing&ouid=109732370476295576935&rtpof=true&sd=true)** (no contamos cautelares, no contamos disidencias, no contamos confirmaciones de inconstitucionalidades por 280, ni [casos como “Aceval Pollachi” en donde la Corte convalidó DNU](https://todosobrelacorte.wordpress.com/2011/07/06/la-corte-no-pega-cuando-duele/)).
 
 De los gobernantes recientes, por caso, Cristina Kirchner y Javier Milei tienen algo en común: no han tenido decretos invalidados por la Corte. El resto, salvo Menem, solo uno, dos o tres. 
 
@@ -50,4 +69,4 @@ Y, por supuesto, que todo esto se vacía sobre un molde de control judicial  en
 
 Al final, solo hubo en la historia política contemporánea reciente dos casos en donde el control judicial fue medianamente contemporáneo y relativamente visible para el ciudadano de a pie: el decreto de la **pesificación asimètrica** de Duhalde (declarado inconstitucional 5 meses después de su dictado, en 2003), y la **presencialidad** escolar en CABA de Alberto Fernàndez (solo un mes despuès de su dictado, en la segunda ola del COVID). Y los incluimos aquí con el detalle de que en ambos casos una lectura de las sentencias nos llevarían a inferir que el problema no era el vehículo del DNU utilizado sino que eran cosas que ni siquiera hubieran sido aceptables vía ley del Congreso.
 
-La última consideración: como muestra este racconto, no *es que el (des)control de DNUs sea un atributo característico de la Corte actual o de la presidencia en curso, sino que lo preexiste y, si no cambian las cosas, probablemente lo sucederá*. En todo caso, lo que existe es un uso hiperbólico del instrumento, no tanto en frecuencia sino en amplitud (lo que dicho sea de paso debilita mucho la utilidad de cuentas que se sacan “contando” decretos como si un DNU que modifique cuestiones procesales fuera equivalente a un DNU que en un instante modifica o deroga cientos de normas sancionadas por ley).
+La última consideración: como muestra este racconto, no _es que el (des)control de DNUs sea un atributo característico de la Corte actual o de la presidencia en curso, sino que lo preexiste y, si no cambian las cosas, probablemente lo sucederá_. En todo caso, lo que existe es un uso hiperbólico del instrumento, no tanto en frecuencia sino en amplitud (lo que dicho sea de paso debilita mucho la utilidad de cuentas que se sacan “contando” decretos como si un DNU que modifique cuestiones procesales fuera equivalente a un DNU que en un instante modifica o deroga cientos de normas sancionadas por ley).
