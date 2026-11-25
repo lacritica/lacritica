@@ -67,7 +67,7 @@
 </head>
 
 
-<body class="theme-dynamic theme-5
+<body class="theme-dynamic theme-3
 ">
   <header class="header">
   <div class="banner">
@@ -473,6 +473,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+
+
+
+
+<aside class="aniversario" id="aniversario" aria-label="Primer aniversario de La Crítica del Derecho">
+  <div class="aniversario-confetti" aria-hidden="true">
+    <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+  </div>
+  <div class="aniversario-inner">
+    <div class="aniversario-numeral" aria-hidden="true">
+      <span class="aniversario-one">1</span>
+      <span class="aniversario-ord">er</span>
+    </div>
+    <div class="aniversario-body">
+      <p class="aniversario-kicker">Primer aniversario · ¡Un año de crítica!</p>
+      <p class="aniversario-text">
+        Se acerca el primer aniversario de <em>La Crítica del Derecho</em>. Como parte de una serie de festejos, recibimos felicitaciones, críticas, y comentarios en
+        <a href="mailto:contacto@lacritica.ar">contacto@lacritica.ar</a>
+        hasta el <strong>9 de diciembre</strong>.
+      </p>
+    </div>
+  </div>
+</aside>
+<script>
+  if (Date.now() >=  1796871600000 ) {
+    var el = document.getElementById('aniversario');
+    if (el) el.remove();
+  }
+</script>
 
 
 

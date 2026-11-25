@@ -147,3 +147,154 @@ h1 a:hover, h2 a:hover, .post-title a:hover, .entry-title a:hover, .title a:hove
     display: none;
   }
 }
+
+/* ── Primer aniversario (provisional, hasta el 9/12) ── */
+
+.aniversario {
+  --aniv-bg: var(--hero-theme-nav-bg, var(--accent-blue));
+  --aniv-text: var(--hero-theme-nav-text, var(--base-bg));
+  --aniv-gold: #e8c46a;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  width: min(100% - 2rem, 1600px);
+  margin: 1.5rem auto 2.6rem;
+  padding: 1.4rem clamp(1.2rem, 4vw, 3rem);
+  background: var(--aniv-bg);
+  color: var(--aniv-text);
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px var(--aniv-gold) inset, 0 0 0 6px var(--aniv-bg) inset, 0 0 0 7px color-mix(in srgb, var(--aniv-gold) 55%, transparent) inset;
+}
+
+.aniversario-inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 3vw, 2.4rem);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.aniversario-numeral {
+  flex: none;
+  display: flex;
+  align-items: flex-start;
+  font-family: 'Averia Serif Libre', serif;
+  font-weight: 700;
+  color: var(--aniv-gold);
+  line-height: 0.8;
+}
+
+.aniversario-one {
+  font-size: clamp(4.5rem, 9vw, 6.5rem);
+  text-shadow: 3px 3px 0 color-mix(in srgb, var(--hero-accent, #aa0000) 80%, black);
+}
+
+.aniversario-ord {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-left: 0.15rem;
+  text-decoration: underline 2px;
+  text-underline-offset: 4px;
+}
+
+.aniversario-body {
+  border-left: 1px solid color-mix(in srgb, var(--aniv-gold) 60%, transparent);
+  padding-left: clamp(1rem, 3vw, 2.4rem);
+}
+
+.aniversario-kicker {
+  margin: 0 0 0.4rem;
+  font-family: 'Jost', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--aniv-gold);
+}
+
+.aniversario-text {
+  margin: 0;
+  font-family: 'Averia Serif Libre', serif;
+  font-size: clamp(1.05rem, 1.6vw, 1.3rem);
+  line-height: 1.45;
+  text-wrap: pretty;
+}
+
+.aniversario-text a {
+  color: var(--aniv-gold);
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.aniversario-text a:hover,
+.aniversario-text a:focus-visible {
+  color: var(--aniv-text);
+}
+
+.aniversario-text strong {
+  white-space: nowrap;
+}
+
+/* Confetti */
+.aniversario-confetti {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.aniversario-confetti i {
+  position: absolute;
+  top: -12%;
+  width: 7px;
+  height: 12px;
+  border-radius: 1px;
+  opacity: 0.85;
+  animation: aniv-fall 7s linear infinite;
+}
+
+.aniversario-confetti i:nth-child(3n)   { background: var(--aniv-gold); }
+.aniversario-confetti i:nth-child(3n+1) { background: var(--accent-magenta-light); }
+.aniversario-confetti i:nth-child(3n+2) { background: var(--complementary-cyan); width: 6px; height: 6px; border-radius: 50%; }
+
+.aniversario-confetti i:nth-child(1)  { left: 3%;  animation-delay: -0.4s; animation-duration: 6.5s; }
+.aniversario-confetti i:nth-child(2)  { left: 11%; animation-delay: -3.1s; }
+.aniversario-confetti i:nth-child(3)  { left: 19%; animation-delay: -5.2s; animation-duration: 8s; }
+.aniversario-confetti i:nth-child(4)  { left: 30%; animation-delay: -1.7s; }
+.aniversario-confetti i:nth-child(5)  { left: 41%; animation-delay: -4.4s; animation-duration: 7.5s; }
+.aniversario-confetti i:nth-child(6)  { left: 52%; animation-delay: -2.6s; }
+.aniversario-confetti i:nth-child(7)  { left: 61%; animation-delay: -6.1s; animation-duration: 6s; }
+.aniversario-confetti i:nth-child(8)  { left: 70%; animation-delay: -0.9s; }
+.aniversario-confetti i:nth-child(9)  { left: 78%; animation-delay: -3.8s; animation-duration: 8.5s; }
+.aniversario-confetti i:nth-child(10) { left: 86%; animation-delay: -5.7s; }
+.aniversario-confetti i:nth-child(11) { left: 92%; animation-delay: -2.2s; animation-duration: 6.8s; }
+.aniversario-confetti i:nth-child(12) { left: 97%; animation-delay: -4.9s; }
+
+@keyframes aniv-fall {
+  0%   { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(240px) rotate(540deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aniversario-confetti i {
+    animation: none;
+    top: auto;
+  }
+  .aniversario-confetti i:nth-child(odd)  { top: 12%; }
+  .aniversario-confetti i:nth-child(even) { bottom: 12%; }
+}
+
+@media (max-width: 640px) {
+  .aniversario-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+  }
+  .aniversario-body {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
