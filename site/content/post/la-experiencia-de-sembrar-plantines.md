@@ -1,17 +1,30 @@
 ---
-title: "La experiencia de sembrar plantines en campo minado"
+title: La experiencia de sembrar plantines en campo minado
 slug: la-experiencia-de-sembrar
 date: 2026-11-27
-description: 'A 70 años de Lecciones y Ensayos, algunas reflexiones sobre hacer academia jurídica en la Argentina.'
+draft: false
+description: A 70 años de Lecciones y Ensayos, algunas reflexiones sobre hacer academia jurídica en la Argentina.
 categories:
   - ensayos
 author:
   - Paula Gaido
 thumbnail:
-  - src: '/img/oax33.jpg'
+  - src: /img/oax33.jpg
+    epigraph: ''
+    copyright: ''
+cover: []
 highlight: false
 highlight2: false
+simposio_grid: false
 exclude_thumbnail_from_body: true
+callouts: []
+featured_callout: null
+obra_reseñada: ''
+simposio: ''
+short_simposio: ''
+publicado_originalmente_en: ''
+autores_grouped: ''
+weight: null
 ---
 
 **1** --- El equipo editorial de la Lecciones y Ensayos de la Facultad de Derecho de la Universidad de Buenos Aires (UBA), me invitó esta semana a la celebración los 70 años de la revista. La invitación, a su vez, fue a realizar una reflexión sobre el estado de la academia y la educación jurídica en la Argentina, que ensayé a partir de mi propia experiencia, como académica a tiempo completo, como profesora de la universidad pública e investigadora del CONICET. Esta invitación me llevó a la identificación de dos hechos determinantes de mi contexto de trabajo actual. El primero, es el desfinanciamiento de las universidades públicas y del sistema científico público. El segundo, es la irrupción de la inteligencia artificial generativa (IAG), tanto en la práctica jurídica, cuanto en su enseñanza y producción científica. Ambos hechos circundan mi actividad como una suerte de campo minado. Y no puedo dejar de experimentar la actividad que realizo en el marco de diferentes proyectos como una de siembra de plantines, en un medio hostil.
