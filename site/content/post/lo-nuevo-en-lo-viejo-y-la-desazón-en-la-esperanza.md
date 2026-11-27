@@ -1,7 +1,7 @@
 ---
 title: Lo nuevo en lo viejo y la desazón en la esperanza
 slug: lo-nuevo-en-lo-viejo-y-la-desazon-en-la-esperanza
-date: 2026-11-27T11:44:00
+date: 2026-11-27T06:19:00
 draft: false
 description: Comentario al caso Bobbio c/ Swiss Medical del 19 de noviembre de 2026.
 categories:
